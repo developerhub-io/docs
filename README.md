@@ -6,6 +6,10 @@ This repository is two-way synced with our online documentation for DeveloperHub
 
 Learn more about how [two-way GitHub Sync works here](https://docs.developerhub.io/support-center/github-sync).
 
+## Viewing the Docs
+
+The docs are available at: https://docs.developerhub.io
+
 ## Contributing
 
 We welcome contributions to improve the documentation. To contribute, follow these steps:
