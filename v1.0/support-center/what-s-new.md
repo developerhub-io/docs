@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2024 Updates
 
+### 5 Dec
+
+- {% badge type="success" text="New" /%} **GitHub Sync**: [Sync your docs](/support-center/github-sync) with GitHub.
+
 ### 3 Dec
 
 - {% badge type="error" text="Bug Fix" /%} **API Reference**: Requests with `application/x-www-form-urlencoded` content type having special characters did not have them encoded.
