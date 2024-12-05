@@ -82,7 +82,7 @@ Yes, check [auto$](/support-center/github-sync) which allows you to set up two-w
 
 ## Do you support GraphQL docs?
 
-We do not have support for GraphQL yet. Please [reach out to us](/support-center/contact-us) if you have any ideas around this.
+Yes. Check [auto$](/support-center/graphql) where you can embed it in a [auto$](/support-center/custom-html) block or in an entire [landing page](/support-center/landing-page).
 
 ## Do you support ChatGPT chat-like experience for search?
 
