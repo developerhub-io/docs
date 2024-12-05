@@ -78,9 +78,7 @@ We have native support for [images](/support-center/images) uploads. For videos,
 
 ## Can we sync the docs with a GIT repo?
 
-It is not possible sync the docs with a git (github/gitlab) repo. The functionality that %product% provides is complex and dynamic. Features such as [synced blocks](/support-center/synced-blocks), [variables](/support-center/variables), [comments](/support-center/comments), [page linking](/support-center/page-linking) and [cloning](/support-center/managing-versions#creating-versions-cloning) among others would make maintaining all content in a git repo really hard, and users would need to read entire docs to know how to edit the content which would eventually cause broken documentation. That goes against what we're here to do: Making documentation easier for you.
-
-You can always [export](/support-center/exporting-documentation) the project if you needed a backup. You may also use our [APIs](/v1.0/api/ref) to read and update pages programmatically.
+Yes, check [auto$](/support-center/github-sync) which allows you to set up two-way sync between GitHub and %product%.
 
 ## Do you support GraphQL docs?
 
