@@ -20,9 +20,13 @@ With %product% you can have two-way sync set up with GitHub. This enables you to
 - Update your docs in GitHub if your team prefers using their local text editors to write docs, which would reflect to %product% on push.
 - Enable readers to edit the docs from GitHub and even use GitHub's comment system.
 - Do some fancy GitHub stuff:
+
     - Set up a pull request review system.
     - Keep drafted docs in a branch.
     - Use GitHub actions to modify or lint docs before pushing.
+
+{% image url="https://uploads.developerhub.io/prod/02/5s6oz6b4qimfnm8uotra4tb1jzfn44wbrph802xb406g2q9e79lh4xaulqpbpe2p.jpg" mode="responsive" height="1200" width="2221" %}
+{% /image %}
 
 ## Setting up GitHub Sync
 
