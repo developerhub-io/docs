@@ -48,10 +48,16 @@ _Italic_
 
 ![Images](/logo.svg)
 
-Lists
+Unordered Lists
 - Item 1
-- Item 1
-- Item 1
+- Item 2
+- Item 3
+
+Ordered Lists
+1. Item 1
+2. Item 2
+	1. Item 1 under 2
+3. Item 3
 
 > Callouts
 
