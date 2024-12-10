@@ -20,7 +20,6 @@ With %product% you can have two-way sync set up with GitHub. This enables you to
 - Update your docs in GitHub if your team prefers using their local text editors to write docs, which would reflect to %product% on push.
 - Enable readers to edit the docs from GitHub and even use GitHub's comment system.
 - Do some fancy GitHub stuff:
-
     - Set up a pull request review system.
     - Keep drafted docs in a branch.
     - Use GitHub actions to modify or lint docs before pushing.
@@ -32,6 +31,7 @@ With %product% you can have two-way sync set up with GitHub. This enables you to
 
 The set up is needed from both GitHub side and %product% side. Follow the steps:
 
+- First of all, ensure that you have created the repository for syncing and that it has at least one commit (so a branch would be created). Your initial commit could be adding a README file.
 - From the left sidebar, open Project Settings {% icon classes="fas fa-layer-group inv-icon" /%}
 - Under Integrations, click Connect next to GitHub.
 - Complete the authorisation on GitHub and give access to the repositories with which you wish to sync.
