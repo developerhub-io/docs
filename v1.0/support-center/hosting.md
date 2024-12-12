@@ -79,6 +79,7 @@ server {
     proxy_set_header Host $host;
     proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
     proxy_set_header X-Forwarded-Uri $request_uri;
+    proxy_set_header X-User-Agent $http_user_agent; # Required if using a CDN
   }
 }
 {% /tab %}
