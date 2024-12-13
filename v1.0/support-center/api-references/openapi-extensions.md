@@ -38,3 +38,22 @@ x-tagGroups:
       - Octopus
 {% /tab %}
 {% /code %}
+
+## x-enum-varnames
+
+`x-enum-varnames` gives a secondary name for an enum.
+
+Enum var names can be defined as such in OpenAPI:
+
+{% code %}
+{% tab language="yaml" title="" %}
+Animal:
+  type: integer
+  enum:
+    - 33
+    - 21
+  x-enum-varnames:
+    - Dog
+    - Cat
+{% /tab %}
+{% /code %}
