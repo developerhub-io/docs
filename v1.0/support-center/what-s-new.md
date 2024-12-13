@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2024 Updates
 
+### 13 Dec
+
+- {% badge type="success" text="New" /%} **API Reference**: `x-enum-varnames` now supported as an [OpenAPI extension](/support-center/openapi-extensions).
+
 ### 5 Dec
 
 - {% badge type="success" text="New" /%} **GitHub Sync**: [Sync your docs](/support-center/github-sync) with GitHub.
