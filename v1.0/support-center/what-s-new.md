@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2024 Updates
 
+### 16 Dec
+
+- {% badge type="info" text="Improvement" /%} **Editor**: Pasting improvements for variables, glossary and links.
+
 ### 13 Dec
 
 - {% badge type="success" text="New" /%} **API Reference**: `x-enum-varnames` now supported as an [OpenAPI extension](/support-center/openapi-extensions).
