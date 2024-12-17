@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2024 Updates
 
+### 17 Dec
+
+- {% badge type="error" text="Bug Fix" /%} **Tables**: Fix to deleting first column on a new table and settings column width.
+
 ### 16 Dec
 
 - {% badge type="info" text="Improvement" /%} **Editor**: Pasting improvements for variables, glossary and links.
