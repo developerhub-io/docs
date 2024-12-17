@@ -16,7 +16,7 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ### 17 Dec
 
-- {% badge type="error" text="Bug Fix" /%} **Tables**: Fix to deleting first column on a new table and settings column width.
+- {% badge type="error" text="Bug Fix" /%} **Tables**: Fix to deleting first column on a new table and setting columns widths.
 
 ### 16 Dec
 
