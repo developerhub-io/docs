@@ -255,6 +255,22 @@ When: When page has loaded.
 
 Emits: Details about the page that has loaded. Note that async-retrieved objects may not have loaded yet, such as images or videos.
 
+### On Reference Content Loaded
+
+Event: `onreferencecontentloaded` 
+
+When: When reference has loaded and UI is ready. Also when a tag expands and shows new content.
+
+Emits: The HTML element that loaded if you wish to make customisations to the API reference UI, as follows:
+
+{% code %}
+{% tab language="json" %}
+{
+  el: HTMLElement
+}
+{% /tab %}
+{% /code %}
+
 ### On Search
 
 Event: `onsearch` 
