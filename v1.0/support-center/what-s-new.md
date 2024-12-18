@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2024 Updates
 
+### 18 Dec
+
+- {% badge type="success" text="New" /%} **Developer Tools**: `onreferencecontentloaded` [event](/support-center/developer-tools#on-reference-content-loaded) available to modify API reference UI as needed.
+
 ### 17 Dec
 
 - {% badge type="error" text="Bug Fix" /%} **Tables**: Fix to deleting first column on a new table and setting columns widths.
