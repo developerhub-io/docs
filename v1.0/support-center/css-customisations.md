@@ -260,3 +260,58 @@ To add an icon in place of the expander icon for categories and parent pages in 
 }
 {% /tab %}
 {% /code %}
+
+## Expanding Enum in API Reference
+
+To have enums with their [varnames](/support-center/openapi-extensions#x-enum-varnames) expand on click, add the following in Custom HEAD tags:
+
+{% image url="https://uploads.developerhub.io/prod/02/0qgzdkjrhleclqbbl4kzuhezsrkpxzbrwt04w4a9fxz0czeatvx880ka30s9dmlc.png" mode="responsive" height="376" width="948" %}
+{% /image %}
+
+{% code %}
+{% tab language="javascript" %}
+<script>
+  document.addEventListener('onreferencecontentloaded', function (e) {
+    console.log('Reference content loaded');
+    // Find all elements with the "property" class
+    e.detail.el.querySelectorAll('.property').forEach(element => {
+        // Check if the text starts with "Enum: "
+        if (element.textContent.trim().startsWith("Enum: ")) {
+            // Extract the enums from the content
+            const match = element.innerHTML.match(/<code>(\d+)\s\((.*?)\)<\/code>/g);
+            if (match) {
+                const enumValues = match.map(item => {
+                    const [, key, value] = item.match(/<code>(\d+)\s\((.*?)\)<\/code>/);
+                    return { key, value };
+                });
+
+                // Create a new button element to replace the original one
+                const button = document.createElement('button');
+                button.classList.add('expand-enum-vars');
+                button.textContent = 'Show enum values';
+                const ul = document.createElement('ul');
+                ul.style.display = 'none';
+
+                // Add the list items based on the enum values
+                enumValues.forEach(({ key, value }) => {
+                    const li = document.createElement('li');
+                    li.textContent = `${key}: ${value}`;
+                    ul.appendChild(li);
+                });
+
+                // Toggle display on button click
+                button.addEventListener('click', () => {
+                    ul.style.display = ul.style.display === 'none' ? 'block' : 'none';
+                });
+
+                // Replace the original span with the button and list
+                element.replaceWith(button, ul);
+            }
+        }
+    });
+  });
+</script>
+{% /tab %}
+{% /code %}
+
+You may modify the CSS as needed for the button using the CSS selector `.customise.live .references .expand-enum-vars`.
