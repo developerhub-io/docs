@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2024 Updates
 
+### 23 Dec
+
+- {% badge type="info" text="Improvement" /%} **Editor**: Major improvement for pasting content.
+
 ### 18 Dec
 
 - {% badge type="success" text="New" /%} **Developer Tools**: `onreferencecontentloaded` [event](/support-center/developer-tools#on-reference-content-loaded) available to modify API reference UI as needed.
