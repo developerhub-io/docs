@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2024 Updates
 
+### 24 Dec
+
+- {% badge type="success" text="New " /%} **Code Steps:** Add [code walkthroughs](/support-center/code-steps) to your documentation.
+
 ### 23 Dec
 
 - {% badge type="info" text="Improvement" /%} **Editor**: Major improvement for pasting content.
