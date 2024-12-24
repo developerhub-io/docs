@@ -16,7 +16,7 @@ tags:
 - Choose Code Steps {% icon classes="fas fa-terminal" /%}
 
 To demonstrate Code Steps, this is an example of how you could use [auto$](/support-center/custom-login) on %product%. Our example uses `express` as the backend server." %}
-{% step title="Install JWT library" description="First, to generate JWT, it is easier to do it using a library. To install `jsonwebtoken`, run `npm install jsonwebtoken`." codeId="code-1" highlightLines="3" %}
+{% step title="Install JWT library" description="First, to generate JWT, it is easier to do it using a library. To install `jsonwebtoken`, run `npm install jsonwebtoken`." codeId="code-1" highlightLines="1" %}
 {% /step %}
 {% step title="Get API Key" description="The JWT would be signed using the API Key. Get your [auto$](/support-center/api-key) and save it in the code." codeId="code-1" highlightLines="3" %}
 {% /step %}
