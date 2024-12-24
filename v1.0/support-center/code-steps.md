@@ -6,7 +6,7 @@ slug: code-steps
 description: 
 index_title: Code Steps
 hidden: 
-keywords: 
+keywords: code walkthough
 tags: 
 ---
 
