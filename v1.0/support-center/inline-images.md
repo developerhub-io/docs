@@ -10,10 +10,6 @@ keywords:
 tags: inline-blocks
 ---
 
-{% callout type="warning" title="Beta" %}
-This is a beta feature. Your [feedback](/support-center/contact-us) is appreciated.
-{% /callout %}
-
 Inline images are images that you can add inside tables, callouts, or anywhere.
 
 ## How to add an Inline Image?
