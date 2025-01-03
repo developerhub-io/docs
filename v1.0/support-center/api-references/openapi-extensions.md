@@ -57,3 +57,13 @@ Animal:
     - Cat
 {% /tab %}
 {% /code %}
+
+## Variables
+
+In addition to using [variables](/support-center/variables) throughout the API references, those variables can also be used:
+
+- `%_.project.base_path%` for project base path.
+- `%_.version.slug%` for version slug.
+- `%_.section.slug%` for API reference slug.
+
+Those variables are specifically useful to construct links inside markdown descriptions.
