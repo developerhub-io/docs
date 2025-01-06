@@ -23,6 +23,11 @@ Project homepage: [https://latex.js.org/](https://latex.js.org/)
 <html lang="en">
 <head>
   <script src="https://cdn.jsdelivr.net/npm/latex.js/dist/latex.js"></script>
+  <style>
+    body {
+      color: #FFF;
+    }
+  </style>
 </head>
 
 <body>
@@ -75,6 +80,11 @@ Project homepage: [https://katex.org/](https://katex.org/)
   <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" integrity="sha384-Xi8rHCmBmhbuyyhbI88391ZKP2dmfnOl4rT9ZfRI7mLTdk1wblIUnrIq35nqwEvC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js" integrity="sha384-X/XCfMm41VSsqRNQgDerQczD69XqmjOOOwYQvr/uuC+j4OPoNhVgjdGFwhvN02Ja" crossorigin="anonymous"></script>
+    <style>
+      body {
+        color: #FFF;
+      }
+    </style>
   </head>
   <body>
     <span id="container"></span>
