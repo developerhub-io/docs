@@ -84,7 +84,7 @@ If your docs are hosted behind a firewall, make sure to whitelist `DeveloperHub.
 
 ## Example of PDF
 
-Download our own PDF from 25th of Aug 2021:
+Download our own latest PDF of our docs:
 
 {% html %}
 <a href="https://api.developerhub.io/api/public/version/1/pdf-download?k=097d1d25d69fa22042742340148c45004d162144ed0955ba8196c8f0dfc69d8e" 
