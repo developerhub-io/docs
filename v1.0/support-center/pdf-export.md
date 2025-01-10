@@ -74,6 +74,7 @@ To customise the PDF, [contact us](/support-center/contact-us) with the customis
 
 - The PDFs are not interactive: The links in pages do not reference other pages in the PDF.
 - Your project must be public.
+- Your project must be accessible through the custom domain, or the subdomain if the custom domain is not set.
 
 ## Troubleshooting Failed Exports
 
