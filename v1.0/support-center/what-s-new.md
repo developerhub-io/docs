@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 12 Jan
+
+- {% badge type="success" text="New" /%} **PDF Export**: Both public and private projects can now be exported.
+
 ### 3 Jan
 
 - {% badge type="success" text="New" /%} **API Reference**: Extra [variables](/support-center/openapi-extensions#variables) available in API references.
