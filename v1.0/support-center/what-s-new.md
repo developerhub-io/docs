@@ -14,6 +14,11 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 19 Jan
+
+- {% badge type="info" text="Improvement" /%} **Editor**: Major improvements to copy & paste behaviour. Copying and pasting DeveloperHub content always has content ordered correctly.
+- {% badge type="warning" text="Change" /%} **Editor**: In edit mode, we no longer show a dotted box around the selected content, instead a line shows on the left side.
+
 ### 12 Jan
 
 - {% badge type="success" text="New" /%} **PDF Export**: Both public and private projects can now be exported.
