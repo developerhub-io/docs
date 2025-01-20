@@ -10,7 +10,7 @@ keywords:
 tags: 
 ---
 
-Adding comments to a page is a useful way to record additional detail about the page, and collaborate with team members. Comments are shown in the Activity right sidebar.
+Adding comments to pages and references is a useful way to record additional details, and collaborate with team members. Comments are shown in the Activity right sidebar.
 
 {% image url="https://res.cloudinary.com/developerhub/image/upload/v1576446803/-1/qmtyjvhkftuvdhqfsjhq.png" mode="responsive" height="1039" width="1201" %}
 {% /image %}
@@ -21,7 +21,7 @@ Comments can be very helpful. Using comments, you can make a discussion with you
 
 ## Where to access Comments?
 
-To see and write comments on a page, open the Comments {% icon classes="fas fa-comment-dots" /%} bar from the right sidebar. You can also access all unresolved comments from the [auto$](/support-center/dashboard).
+To see and write comments, open the Comments {% icon classes="fas fa-comment-dots" /%} bar from the right sidebar. You can also access all unresolved comments from the [auto$](/support-center/dashboard).
 
 ## How do Comments work?
 
@@ -34,6 +34,22 @@ Hit **Add** when you're done.
 ## Who can use Comments?
 
 All your teammates can comment. You may set up any teammates who are subject matter experts but not contributors to documentation as reviewers, so they may read pages and write comments. See [user roles.](/support-center/collaboration#user-roles).
+
+## Comments in API References
+
+In API references, when you highlight text and write a comment, the comment is associated with that exact part of the API reference. Comments can be associated to:
+
+- API reference description
+- Authentication schemes
+- Servers
+- Tags
+- Operations
+- Operation requests
+- Fields in operation requests
+- Operation responses
+- Fields in operation responses
+
+When a teammate clicks on a comment, the associated part will be highlighted.
 
 ## Tagging Teammates
 
