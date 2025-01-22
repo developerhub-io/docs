@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 22 Jan
+
+- {% badge type="info" text="Improvement" /%} **Callout**: Modernised callout looks by increasing border radius and removing shadow.
+
 ### 20 Jan
 
 - {% badge type="success" text="New" /%} **Comments**: [Comments](/support-center/comments#comments-in-api-references) are now available on API references where a specific part of the API reference can be tagged.
