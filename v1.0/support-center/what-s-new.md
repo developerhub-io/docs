@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 27 Jan
+
+- {% badge type="success" text="New" /%} **PDF Export**: PDF export jobs can be removed from the list.
+
 ### 22 Jan
 
 - {% badge type="info" text="Improvement" /%} **Callout**: Modernised callout looks by increasing border radius and removing shadow.
