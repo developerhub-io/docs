@@ -14,6 +14,11 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 20 Feb
+
+- {% badge type="error" text="Bug Fix" /%} **Editor**: Dropdowns had a very dark border in light mode.
+- {% badge type="error" text="Bug Fix" /%} **Index**: Long connected page titles now break instead of getting hidden.
+
 ### 27 Jan
 
 - {% badge type="success" text="New" /%} **PDF Export**: PDF export jobs can be removed from the list.
