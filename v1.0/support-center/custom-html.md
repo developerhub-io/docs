@@ -91,7 +91,7 @@ Here are our top examples:
 ### Fancy Button
 
 {% html %}
-<a href="https://docs.developerhub.io/?goto=wide" target="_blank" style="background-color: #333; color: white; padding: 12px; border-radius: 3px; text-decoration: none !important">
+<a href="https://docs.developerhub.io/?goto=wide" target="_blank" style="background-color: #d9524f; color: white; padding: 12px; border-radius: 3px; text-decoration: none !important">
     See Wide Layout
 </a>
 {% /html %}
