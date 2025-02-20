@@ -40,7 +40,7 @@ Each API Key can have different permissions. Consult the [auto$](/v1.0/api/ref) 
 
 ### Upload Reference through API
 
-To upload the reference through the API, check [Add or Update a Reference Specification](/v1.0/api/ref#postadds-or-updates-a-reference-specification) in our API Reference.
+To upload the reference through the API, check [Add or Update an API Reference](/v1.0/api/ref#add-reference) in our API Reference.
 
 An example request would be:
 
