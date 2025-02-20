@@ -16,6 +16,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ### 20 Feb
 
+- {% badge type="success" text="New" /%} **API**: New API to [lists all documentation section under a version](/v1.0/api/ref#list-documentation).
+
+### 19 Feb
+
 - {% badge type="error" text="Bug Fix" /%} **Editor**: Dropdowns had a very dark border in light mode.
 - {% badge type="error" text="Bug Fix" /%} **Index**: Long connected page titles now break instead of getting hidden.
 
