@@ -17,6 +17,7 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 ### 20 Feb
 
 - {% badge type="success" text="New" /%} **API**: New API to [lists all documentation section under a version](/v1.0/api/ref#list-documentation).
+- {% badge type="success" text="New" /%} **Custom HTML**: [auto$](/support-center/custom-html) block now supports [variables](/support-center/variables).
 
 ### 19 Feb
 
