@@ -31,6 +31,9 @@ Our pages rank at 100% using Google's Lighthouse SEO test:
 
 Furthermore, links are unfurled in external applications like Slack.
 
+{% image url="https://uploads.developerhub.io/prod/02/rlu0qs6ug3n30m3l9m7b7bak9vrpm8ml7o3ng3vehgtgseoxr1p0ryui4p0yywbw.png" mode="responsive" height="461" width="702" %}
+{% /image %}
+
 ## Sitemap
 
 For SEO purposes, there is a sitemap that is available under `/sitemap.xml` of your subdomain and custom domain. If you are [hosting under an existing website](/support-center/hosting#hosting-under-an-existing-website), you should find it under `/sitemap.xml` of the subdomain, such as `<subdomain>.developerhub.io/sitemap.xml`, or under the basepath such as `docs.pied-piper.com/kb/sitemap.xml`.
