@@ -14,6 +14,11 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 26 Feb
+
+- {% badge type="success" text="New" /%} **PDF Export**: Ability to modify front and back page covers from the UI.
+- {% badge type="success" text="New" /%} **PDF Export**: Can use multiple back page covers now to add multiple PDFs to the docs PDF.
+
 ### 20 Feb
 
 - {% badge type="success" text="New" /%} **API**: New API to [lists all documentation section under a version](/v1.0/api/ref#list-documentation).
