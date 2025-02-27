@@ -43,3 +43,23 @@ X-Frame-Options: DENY
 Referrer-Policy: no-referrer
 {% /tab %}
 {% /code %}
+
+## Content Security Policy
+
+Content security policy (CSP) can be set up using Server Headers.
+
+{% callout type="warning" title="Warning" %}
+Content security policy should only be configured by security professionals. Any misconfiguration might break your docs site or limit features. Furthermore, expect that you should keep updating the content security policy as %product% advances with new features.
+{% /callout %}
+
+To enable inline styles and scripts, you must add a nonce configuration for `style-src`  and `script-src` directives. The nonce configuration must be `nonce-%NONCE%` where our backend servers will replace `%NONCE%` for every session with a random nonce.  
+
+An example starter CSP for projects is:
+
+{% code %}
+{% tab language="yaml" title="Headers" %}
+Content-Security-Policy: default-src 'self'; script-src 'self' 'nonce-%NONCE%' https://cdn.amplitude.com https://files.developerhub.io https://wchat.freshchat.com https://www.googletagmanager.com; style-src 'self' 'nonce-%NONCE%' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://files.developerhub.io https://github.githubassets.com https://wchat.freshchat.com; object-src 'none'; base-uri 'self'; connect-src 'self' https://api.developerhub.io https://ai.developerhub.io https://sentry.io https://ocgpx9dexe-dsn.algolia.net; img-src 'self' https://static.developerhub.io https://uploads.developerhub.io https://files.developerhub.io https://image-archive.developerhub.io; font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com; frame-src 'self' https://wchat.freshchat.com;
+{% /tab %}
+{% /code %}
+
+Modify as needed for your security needs.
