@@ -63,3 +63,5 @@ Content-Security-Policy: default-src 'self'; script-src 'self' 'nonce-%NONCE%' h
 {% /code %}
 
 Modify as needed for your security needs.
+
+You may also add `nonce=%NONCE%` in your [custom footer](/support-center/custom-footer) to apply style in the head tags.
