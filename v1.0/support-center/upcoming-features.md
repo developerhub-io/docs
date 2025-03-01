@@ -15,9 +15,7 @@ We always have something exciting to deliver for you.
 Here are a list of features where we have invested heavily but have not completed yet because we need customer's input:
 
 - GraphQL references.
-- Git sync.
 - Conditional blocks.
-- Step-by-Step Code: Explain to your readers the code step-by-step.
 - Reader SSO.
 
 If you'd like to have any of these implemented, please [contact us](/support-center/contact-us).
