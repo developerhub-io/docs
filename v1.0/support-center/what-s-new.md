@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 1 Mar
+
+- {% badge type="info" text="Improvement" /%} **Server Headers**: Better support for [content security policy](/support-center/server-headers#content-security-policy) set up using server headers.
+
 ### 26 Feb
 
 - {% badge type="success" text="New" /%} **PDF Export**: Ability to modify front and back page covers from the UI.
