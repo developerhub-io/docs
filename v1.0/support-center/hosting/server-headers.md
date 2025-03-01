@@ -58,7 +58,7 @@ An example starter CSP for projects is:
 
 {% code %}
 {% tab language="yaml" title="Headers" %}
-Content-Security-Policy: default-src 'self'; script-src 'self' 'nonce-%NONCE%' https://cdn.amplitude.com https://files.developerhub.io https://wchat.freshchat.com https://www.googletagmanager.com; style-src 'self' 'nonce-%NONCE%' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://files.developerhub.io https://github.githubassets.com https://wchat.freshchat.com; object-src 'none'; base-uri 'self'; connect-src 'self' https://api.developerhub.io https://ai.developerhub.io https://sentry.io https://ocgpx9dexe-dsn.algolia.net; img-src 'self' https://static.developerhub.io https://uploads.developerhub.io https://files.developerhub.io https://image-archive.developerhub.io; font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com; frame-src 'self';
+Content-Security-Policy: default-src 'self'; script-src 'self' 'nonce-%NONCE%' https://cdn.amplitude.com https://files.developerhub.io https://www.googletagmanager.com; style-src 'self' 'nonce-%NONCE%' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://files.developerhub.io https://github.githubassets.com; object-src 'none'; base-uri 'self'; connect-src 'self' https://api.developerhub.io https://ai.developerhub.io https://sentry.io https://ocgpx9dexe-dsn.algolia.net; img-src 'self' https://static.developerhub.io https://uploads.developerhub.io https://files.developerhub.io https://image-archive.developerhub.io; font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com; frame-src 'self';
 {% /tab %}
 {% /code %}
 
