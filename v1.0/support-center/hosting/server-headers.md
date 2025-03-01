@@ -57,7 +57,7 @@ To enable inline styles and scripts, you must add a nonce configuration for `sty
 An example starter content security policy for projects is:
 
 {% code %}
-{% tab language="ruby" title="Headers" %}
+{% tab language="ruby" title="Content Security Policy" %}
 default-src 'self';
 script-src 'self' 'nonce-%NONCE%' https://files.developerhub.io;
 style-src 'self' 'nonce-%NONCE%' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css https://files.developerhub.io;
