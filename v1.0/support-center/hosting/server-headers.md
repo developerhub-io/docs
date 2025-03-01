@@ -54,14 +54,24 @@ Content security policy should only be configured by security professionals. Any
 
 To enable inline styles and scripts, you must add a nonce configuration for `style-src`  and `script-src` directives. The nonce configuration must be `nonce-%NONCE%` where our backend servers will replace `%NONCE%` for every session with a random nonce.  
 
-An example starter CSP for projects is:
+An example starter content security policy for projects is:
 
 {% code %}
-{% tab language="yaml" title="Headers" %}
-Content-Security-Policy: default-src 'self'; script-src 'self' 'nonce-%NONCE%' https://files.developerhub.io; style-src 'self' 'nonce-%NONCE%' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com https://files.developerhub.io https://github.githubassets.com; object-src 'none'; base-uri 'self'; connect-src 'self' https://api.developerhub.io https://ai.developerhub.io https://sentry.io https://ocgpx9dexe-dsn.algolia.net; img-src 'self' https://static.developerhub.io https://uploads.developerhub.io https://files.developerhub.io https://image-archive.developerhub.io; font-src 'self' https://cdnjs.cloudflare.com https://fonts.gstatic.com; frame-src 'self';
+{% tab language="ruby" title="Headers" %}
+default-src 'self';
+script-src 'self' 'nonce-%NONCE%' https://files.developerhub.io;
+style-src 'self' 'nonce-%NONCE%' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css https://files.developerhub.io;
+base-uri 'self';
+connect-src 'self' https://api.developerhub.io https://ai.developerhub.io https://sentry.io https://ocgpx9dexe-dsn.algolia.net https://www.google-analytics.com;
+img-src 'self' https://static.developerhub.io https://uploads.developerhub.io https://files.developerhub.io https://image-archive.developerhub.io;
+font-src 'self' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-solid-900.woff2 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-regular-400.woff2
+https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-brands-400.woff2 https://fonts.gstatic.com;
+frame-src 'self';
+base-uri 'self';
+object-src 'none';
 {% /tab %}
 {% /code %}
 
-Modify as needed for your security needs.
+Modify as needed for your security and project needs.
 
 You may also add `nonce=%NONCE%` in your [custom footer](/support-center/custom-footer) to apply style in the head tags.
