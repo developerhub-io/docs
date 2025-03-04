@@ -132,3 +132,5 @@ When multiple projects are hosted under a subdomain or a domain, {% icon classes
 If your docs site is loading slow, then you might want to check any middleware (such as Cloudflare) that you are using to serve the domain. Also, if you are using reverse proxy then ensure that your servers are performant. Furthermore, if you are using any middleware, ensure that the middleware is passing the query string to our servers, otherwise some functionality might not work.
 
 Our own docs load in under 200ms from Europe. Our largest docs load in under 1s from San Fransisco.
+
+Furthermore, Cloudflare's rocket loader might cause the site to not load any scripts or styles. Please disable it if you encounter issues.
