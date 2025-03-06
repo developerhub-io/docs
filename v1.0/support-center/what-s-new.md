@@ -14,6 +14,11 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 6 Mar
+
+- {% badge type="error" text="Bug Fix" /%} **Comments**: Comment button in documentation toolbar was not opening the comments bar.
+- {% badge type="error" text="Bug Fix" /%} **Code Steps**: Extra border was showing for code steps in the editor.
+
 ### 1 Mar
 
 - {% badge type="info" text="Improvement" /%} **Server Headers**: Better support for [content security policy](/support-center/server-headers#content-security-policy) set up using server headers.
