@@ -18,6 +18,7 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 - {% badge type="error" text="Bug Fix" /%} **Comments**: Comment button in documentation toolbar was not opening the comments bar.
 - {% badge type="error" text="Bug Fix" /%} **Code Steps**: Extra border was showing for code steps in the editor.
+- {% badge type="error" text="Bug Fix" /%} **Editor**: Selecting a block using keyboard right after a heading was formatting the heading to paragraph.
 
 ### 1 Mar
 
