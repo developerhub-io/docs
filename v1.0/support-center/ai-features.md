@@ -28,7 +28,7 @@ At the moment, these feature is for free. However, we may monetise on AI feature
 
 ## Terms & Conditions
 
-We use OpenAI for text summarisation. Quoting from [OpenAI's data usage policy](https://openai.com/policies/api-data-usage-policies):
+We use OpenAI for all our AI features. Quoting from [OpenAI's data usage policy](https://openai.com/policies/api-data-usage-policies):
 
 "OpenAI will not use API data to train OpenAI models or improve OpenAI’s service offering."
 
