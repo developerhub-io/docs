@@ -53,7 +53,7 @@ If the generated response does not meet your expectations, you can quickly rever
 
 ## AI Writer Limitations
 
-- Output tokens are limited. Might cause incomplete replies to show.
+- Output tokens are limited. This may result in incomplete responses being displayed.
 - Text formatting (including variables, glossary or any rich text features) is not preserved.
 
 ## What data is sent to OpenAI?
