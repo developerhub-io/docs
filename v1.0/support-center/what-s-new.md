@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 9 Mar
+
+- {% badge type="success" text="New" /%} **AI Writer**: Type better, summarise, shorten, enhance and more with [auto$](/support-center/ai-writer).
+
 ### 6 Mar
 
 - {% badge type="error" text="Bug Fix" /%} **Comments**: Comment button in documentation toolbar was not opening the comments bar.
