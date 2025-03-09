@@ -17,6 +17,7 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 ### 9 Mar
 
 - {% badge type="success" text="New" /%} **AI Writer**: Type better, summarise, shorten, expand, enhance and more with [auto$](/support-center/ai-writer).
+- {% badge type="success" text="New" /%} **AI Commit Messages**: Automatically annotate page history with [auto$](/support-center/ai-commit-messages).
 - {% badge type="error" text="Bug Fix" /%} **Images**: Replace button was not functioning.
 
 ### 6 Mar
