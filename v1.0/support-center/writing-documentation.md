@@ -10,7 +10,7 @@ keywords:
 tags: 
 ---
 
-Writing documentation on %product% cannot be any easier. In your editor pages, click anywhere on the text in your documentation and start writing down. Everything will be shown to you just as it would in the live mode.
+Writing documentation on %product% cannot be any easier. In your editor pages, click anywhere on the text in your documentation and start writing down. You can even use [the AI Writer](/support-center/ai-writer) to help you craft the best content. Everything in the editor will be shown to you just as your readers - no split view.
 
 ## Page Sections
 
