@@ -31,7 +31,7 @@ With AI Writer, you can:
 - **Enhance** – Improve overall writing quality, making text more engaging and polished.
 - **Fix spelling & grammar** – Automatically correct errors to improve clarity and professionalism.
 - **Make text shorter** – Condense lengthy content while retaining key information.
-- **Make text longer** – Expand on ideas and provide more detailed explanations.
+- **Expand** – Expand on ideas and provide more detailed explanations.
 - **Insert emojis** – Add relevant emojis to make your text more engaging and expressive.
 - **Autocomplete text** – Generate suggested completions to speed up writing.
 
