@@ -36,6 +36,8 @@ Using the toolbar you can do the following:
 - Inline code
 - Comment
 
+And you can use the [auto$](/support-center/ai-writer).
+
 ## Tips & Tricks
 
 If you need to write down text that contains HTML tags, then you can do so if it is inserted as line code, as such:
