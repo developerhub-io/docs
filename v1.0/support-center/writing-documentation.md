@@ -14,7 +14,7 @@ Writing documentation on %product% cannot be any easier. In your editor pages, c
 
 ## Page Sections
 
-Pages consist of a **title** and the **content**.
+Pages must have a **title** and **content**.
 
 ### Title
 
@@ -28,7 +28,7 @@ So choose the title carefully to be meaningful to your readers.
 
 ### Content
 
-The content of the page can consist of text, [tables](/support-center/tables), [images](/support-center/images), [links](/support-center/page-linking), [code blocks](/support-center/code-blocks), lists, [information boxes](/support-center/callouts), and much more!
+The content of the page can consist of text, [tables](/support-center/tables), [images](/support-center/images), [links](/support-center/page-linking), [code blocks](/support-center/code-blocks), lists, [information boxes](/support-center/callouts), and much more! Have a look at [blocks](/support-center/blocks) to find all the content that we natively support.
 
 ## Saving
 
