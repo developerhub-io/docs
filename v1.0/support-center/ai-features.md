@@ -10,7 +10,9 @@ keywords:
 tags: 
 ---
 
-We provide a number of AI features to simplify tasks. These features are powered by OpenAI's GPT models.
+We offer a range of AI features designed to streamline your tasks and enhance efficiency. These innovative capabilities are powered by OpenAI's advanced GPT models, ensuring high-quality results and improved productivity.
+
+By default, all features are disabled and require activation by an admin.
 
 The features are:
 
@@ -22,10 +24,6 @@ The features are:
 - [Redact PII from Feedback](/support-center/feedback#redact-pii-from-feedback): Redacts personal identifiable information from feedback messages automatically.
 
 Read the linked sections to understand what information we send to OpenAI for each feature. 
-
-{% callout type="warning" title="Free features" %}
-At the moment, these feature is for free. However, we may monetise on AI features in the future.
-{% /callout %}
 
 ## Terms & Conditions
 
