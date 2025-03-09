@@ -20,7 +20,7 @@ There are three ways to format your text:
 
 To format text in your documentation, highlight with your cursor the chunk of text you want to format. A toolbar like this one will show.
 
-{% image url="https://uploads.developerhub.io/prod/02/r09kzcr7u2vusptm6uj2itmv7tg7wu32fs07xdmezswz6zqwv01a31vn98pmvrd2.png" mode="responsive" height="182" width="930" %}
+{% image url="https://uploads.developerhub.io/prod/02/mvbg9tjyq16d4i2biewisgsl5p5v91lkwsa8xiflmnftg15tz5z6406laqhkq0jq.png" mode="responsive" height="178" width="1122" %}
 {% /image %}
 
 Using the toolbar you can do the following:
