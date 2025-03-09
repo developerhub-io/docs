@@ -15,10 +15,10 @@ We provide a number of AI features to simplify tasks. These features are powered
 The features are:
 
 - [auto$](/support-center/ai-writer): Provides AI functions to manipulate text, including shortening, enhancing and grammar correction.
+- [auto$](/support-center/ai-search): Ask questions about the docs in natural language and receive GPT powered answers.
 - [auto$](/support-center/ai-summarisation): Summarises pages to write a META description.
 - [Feedback Spam Filter](/support-center/feedback#feedback-spam-filter): Filters spam in feedback messages automatically.
 - [Redact PII from Feedback](/support-center/feedback#redact-pii-from-feedback): Redacts personal identifiable information from feedback messages automatically.
-- [auto$](/support-center/ai-search): Ask questions about the docs in natural language and receive GPT powered answers.
 
 Read the linked sections to understand what information we send to OpenAI for each feature. 
 
