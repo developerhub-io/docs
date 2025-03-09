@@ -33,15 +33,7 @@ The blocks menu will show, just like this one:
 - [auto$](/support-center/index-list)
 - [Separators](/support-center/separators)
 
-{% callout type="warning" title="Block menu not showing?" %}
-Then where you are typing has text formatting (bold/italic/inline code) on. Remove any text formatting on the cursor position before trying to add blocks.
-
-Formatting does carry from the previous line. To resolve this, you probably just need to hit  Backspace  then  ↵  again.
-{% /callout %}
-
-## Inline Blocks
-
-Also, you can add inline blocks to your documentation. Inline blocks go on the same line as text. %product% supports the following inline blocks:
+And the following inline blocks. Inline blocks go on the same line as text. %product% supports the following inline blocks:
 
 - [Link to Page](/support-center/page-linking)
 - [Variables](/support-center/variables)
@@ -50,7 +42,11 @@ Also, you can add inline blocks to your documentation. Inline blocks go on the s
 - [Font Awesome Icons](/support-center/icons)
 - [auto$](/support-center/keyboard-keys)
 
-Inline blocks can be added by typing "/" anywhere in the documentation as well.
+{% callout type="warning" title="Block menu not showing?" %}
+Then where you are typing has text formatting (bold/italic/inline code) on. Remove any text formatting on the cursor position before trying to add blocks.
+
+Formatting does carry from the previous line. To resolve this, you probably just need to hit  Backspace  then  ↵  again.
+{% /callout %}
 
 ## Emojis
 
