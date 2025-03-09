@@ -20,7 +20,9 @@ Drag and drop any block from the {% icon classes="fas fa-arrows-alt" /%} icon at
 
 Blocks can be duplicated inside the same page by clicking the duplicate icon at the top right side of the block. 
 
-If you wish to copy a block to another page, you need to highlight the text around the block, copy and paste. Alternatively, you can also follow these steps:
+To copy a block to another page, you can either highlight it using a text selection or simply triple-click on the block. Once selected, copy the block and then paste it into your desired destination.
+
+Alternatively, you can also follow these steps:
 
 1. [Export the source page](/support-center/exporting-documentation#exporting-a-page) and the destination page.
 2. Copy the equivalent [darkdown](/support-center/exporting-documentation#darkdown) text from source page to destination page.
