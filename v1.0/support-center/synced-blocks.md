@@ -3,7 +3,7 @@ type: page
 title: Synced Blocks
 listed: true
 slug: synced-blocks
-description: 
+description: Discover how to streamline your content management with synced blocks. Learn to create, reuse, edit, and archive these blocks for consistent messaging across pages. Enhance efficiency by ensuring changes reflect everywhere instantly. Perfect for teams looking to save time!
 index_title: Synced Blocks
 hidden: 
 keywords: 
