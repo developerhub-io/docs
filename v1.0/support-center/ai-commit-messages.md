@@ -16,6 +16,9 @@ In %product%, AI can automatically annotate the history of every page, making it
 This is a beta feature. Your [feedback](/support-center/contact-us) is appreciated.
 {% /callout %}
 
+{% image url="https://uploads.developerhub.io/prod/02/pcjj39ox3jnxt5bfwigtexxrenlz172ha8kzz8zfdb81fjodtt3rjwh1xdbohxgy.png" mode="responsive" height="902" width="828" %}
+{% /image %}
+
 ## Enabling AI Commit Messages
 
 AI commit messages are disabled by default and must be enabled by an admin. To enable AI commit messages:
