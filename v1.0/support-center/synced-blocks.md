@@ -10,7 +10,7 @@ keywords:
 tags: blocks
 ---
 
-Synced blocks allow you to write a piece of content (single-sourcing), and reuse it as many times as you need in your pages. If you edit the synced block, then it changes in all the pages it is used in.
+Synced blocks enable you to create a single piece of content (single-sourcing) that can be reused across multiple pages as often as necessary. When you modify a synced block, those changes are automatically reflected across all pages where the block is utilised, ensuring consistency and efficiency in your content management.
 
 ## Reuse Content - Creating Synced Blocks
 
