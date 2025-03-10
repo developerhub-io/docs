@@ -22,9 +22,9 @@ To create a synced block:
 - Choose Synced Block {% icon classes="fas fa-clone" /%}.
 - Choose Create New Synced Block. A form will show.
 - In the form, you need to define:
-    - ID: An identifier for the synced block. ID cannot be modified once the synced block is saved. The ID will be shown in your exports. For example, if you are writing a guide about how to install docker, then your ID could be `docker-installation`.
-    - Title: Choose a title that describes what the content is about, so your teammates can find it easily. The title can be changed later.
-    - The contents: Use the editor to write the contents of the synced block. The contents can be changed later. The contents can be anything you can already add on %product%.
+    - **ID:** An identifier for the synced block. Once saved, the ID cannot be modified. This ID will be visible in your exports. For example, if you are creating a guide on installing Docker, your ID could be `docker-installation`.
+    - **Title:** Select a title that accurately represents the content, making it easy for your teammates to locate. Note that the title is editable and can be changed later.
+    - **The contents:** Utilise the editor to compose the contents of the synced block. These contents are flexible and can be modified later. Feel free to include any [blocks](/support-center/blocks) that are already supported in %product%.
 
 {% image url="https://res.cloudinary.com/developerhub/image/upload/v1637268467/v2_1/itgncmmhvfhnqhspyiqk.gif" mode="responsive" height="986" width="1580" %}
 {% /image %}
