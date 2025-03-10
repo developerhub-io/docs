@@ -38,7 +38,7 @@ To reuse a synced block:
 - Choose Synced Block {% icon classes="fas fa-clone" /%}.
 - Choose Choose Existing Synced Block.
 - Select the synced block you want to reuse, or search for it first.
-- Click on Select.
+- Click on Choose.
 
 {% image url="https://res.cloudinary.com/developerhub/image/upload/v1637268820/v2_1/clvzrwd0iaap0ssxtzdd.gif" mode="responsive" height="986" width="1580" %}
 {% /image %}
