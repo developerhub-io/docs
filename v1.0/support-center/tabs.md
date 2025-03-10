@@ -10,7 +10,7 @@ keywords:
 tags: blocks
 ---
 
-Tabs are a great way to divide instructions for different customer segments, objectives or implementations.
+Tabs serve as an effective tool for organising instructions tailored to various customer segments, specific objectives, or diverse implementations. By separating content into distinct sections, they enhance user experience and ensure that relevant information is easily accessible.
 
 To create tabs:
 
