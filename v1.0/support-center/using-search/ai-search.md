@@ -20,8 +20,8 @@ At the moment, this feature is for free. However, we may monetise on AI features
 This is a beta feature. Your [feedback](/support-center/contact-us) is appreciated.
 {% /callout %}
 
-{% image url="https://uploads.developerhub.io/prod/02/7mk1x4175gqz49ritvgmdn2gwpg7svmyg1qmfvoqpp4emig5v7g01v3anm9hj16u.png" mode="responsive" height="651" width="732" %}
-{% /image %}
+{% video videoId="https://uploads.developerhub.io/prod/02/nvrnanscgw7okyvlbqfcs8n1xmgxtc6h1cmr54i3e18avestnunznr12liyvk6gx.mp4?autoplay=true&loop=true&muted=true&playsinline=true&controls=false" provider="raw" %}
+{% /video %}
 
 ## AI Search Features
 
@@ -48,7 +48,7 @@ When the reader presses enter, the question would be answered according to the d
 To enable/disable AI search:
 
 - From the left sidebar, choose **Project Settings** {% icon classes="fas fa-layer-group inv-icon" /%}.
-- Under AI Search, check or uncheck **Enable AI search**.
+- Under AI Features, check or uncheck **Enable AI search**.
 
 Once AI search is enabled, it might take a couple of minutes until it is useable.
 
