@@ -32,7 +32,7 @@ An example of an image:
 
 ## Image Sizing
 
-Images can be resized by dragging the vertical bar on the right.
+Images can be resized by dragging the vertical bar on the right. Please note that images cannot be resized beyond their original dimensions.
 
 ## Image Caption
 
