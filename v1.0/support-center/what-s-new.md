@@ -14,6 +14,12 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 12 Mar
+
+- {% badge type="success" text="New" /%} **Video**: [auto$](/support-center/videos) can now be uploaded too up to 10MB.
+- {% badge type="info" text="Improvement" /%} **Editor**: Many blocks had their looks in edit mode updated.
+- {% badge type="info" text="Improvement" /%} **Images**: Images can now be freely resized, removing image modes.
+
 ### 9 Mar
 
 - {% badge type="success" text="New" /%} **AI Writer**: Type better, summarise, shorten, expand, enhance and more with [auto$](/support-center/ai-writer).
