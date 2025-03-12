@@ -20,7 +20,7 @@ Videos can be embedded natively from:
 - Vimeo
 - Loom
 
-You can also provide a URL of a video file (Raw).
+You can also provide a URL of a video file (Raw) or upload one.
 
 {% callout type="info" title="Info" %}
 You can also embed videos from other providers by using the Custom HTML block.
