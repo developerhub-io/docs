@@ -32,18 +32,7 @@ An example of an image:
 
 ## Image Sizing
 
-Uploaded images can be shown to your readers in four different sizes:
-
-1. Small size {% icon classes="fas fa-compress" /%}
-2. Big size {% icon classes="fas fa-expand" /%}
-3. Responsive size {% icon classes="fas fa-desktop" /%}
-4. Full width size {% icon classes="fas fa-arrows-alt-h" /%}
-
-The size can be selected in the editor per image using the image controls.
-
-### Responsive Size
-
-Responsive size ensures that the size of the image is responsive to the screen pixel ratio. This allows for crisper images on Retina display and any high resolution display.
+Images can be resized by dragging the vertical bar on the right.
 
 ## Image Caption
 
