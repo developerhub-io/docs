@@ -25,12 +25,10 @@ To create an Image:
 
 ## Image Example
 
-A photo of a kitty:
+An example of an image:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1539371521/11/ma6fngctzdw4pcfc7urk.jpg" caption="Image example" mode="responsive" height="1200" width="1920" %}
+{% image url="https://uploads.developerhub.io/prod/02/mfson8uc57kbxc8i9mfx758je2t0f91sw4kju2g7anvyqlc9f2pprh85whhq0pti.png" caption="Image example" mode="responsive" height="2160" width="3377" %}
 {% /image %}
-
-Cute right? 😍
 
 ## Image Sizing
 
@@ -42,9 +40,6 @@ Uploaded images can be shown to your readers in four different sizes:
 4. Full width size {% icon classes="fas fa-arrows-alt-h" /%}
 
 The size can be selected in the editor per image using the image controls.
-
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1561510159/11/yumibayzcdzdupyik4sp.jpg" caption="Image sizing" mode="responsive" height="928" width="1672" %}
-{% /image %}
 
 ### Responsive Size
 
