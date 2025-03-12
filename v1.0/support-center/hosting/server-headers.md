@@ -62,7 +62,7 @@ default-src 'self';
 script-src 'self' 'nonce-%NONCE%' https://files.developerhub.io;
 style-src 'self' 'nonce-%NONCE%' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css https://files.developerhub.io;
 base-uri 'self';
-connect-src 'self' https://api.developerhub.io https://ai.developerhub.io https://sentry.io https://ocgpx9dexe-dsn.algolia.net https://www.google-analytics.com;
+connect-src 'self' https://api.developerhub.io https://ai.developerhub.io https://sentry.io https://*.algolia.net https://*.algolianet.com https://*.algolia.io https://www.google-analytics.com;
 img-src 'self' https://static.developerhub.io https://uploads.developerhub.io https://files.developerhub.io https://image-archive.developerhub.io;
 font-src 'self' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-solid-900.woff2 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-regular-400.woff2
 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-brands-400.woff2 https://fonts.gstatic.com;
