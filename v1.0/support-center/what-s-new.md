@@ -16,7 +16,8 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ### 13 Mar
 
-- {% badge type="success" text="New" /%} **Search Analytics**: We're now collecting analytics on clicks in searches. Wait for our announcement of the new dashboard to view them.
+- {% badge type="success" text="New" /%} **Search Analytics**: We're now collecting analytics on clicks in searches.
+- {% badge type="success" text="New" /%} **Search Analytics**: Click analytics are now available in [dashboard](/support-center/search-analytics). Data will be incomplete until 13 Apr 2025.
 
 ### 12 Mar
 
