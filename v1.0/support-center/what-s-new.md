@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 13 Mar
+
+- {% badge type="success" text="New" /%} **Search Analytics**: We're now collecting analytics on clicks in searches. Wait for our announcement of the new dashboard to view them.
+
 ### 12 Mar
 
 - {% badge type="success" text="New" /%} **Video**: [auto$](/support-center/videos) can now be uploaded too up to 10MB.
