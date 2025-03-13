@@ -29,8 +29,12 @@ We gather information about how your readers use the [lightning-fast search](/su
 - The count of searches.
 - The count of search users.
 - The rate of searches that resulted in no hits.
-- The top terms used for searches.
+- The top terms used for searches, with their click count and average position when clicked.
 - The top terms that resulted in no hits.
+- The count of clicks.
+- The average position of search clicks.
+- The no click rate.
+- The top searches that resulted in no clicks.
 
 You can view search analytics for the past month, 3 months or 6 months using the date picker at the top.
 
