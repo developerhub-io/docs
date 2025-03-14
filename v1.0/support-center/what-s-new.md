@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 14 Mar
+
+- {% badge type="success" text="New" /%} **Search Analytics**: Clicks analytics is now also available for [enterprise search](/support-center/enterprise-search).
+
 ### 13 Mar
 
 - {% badge type="success" text="New" /%} **Search Analytics**: We're now collecting analytics on clicks in searches.
