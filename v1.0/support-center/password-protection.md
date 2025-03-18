@@ -6,7 +6,7 @@ slug: password-protection
 description: 
 index_title: Private Documentation
 hidden: 
-keywords: visitor auth, visitor authentication
+keywords: visitor auth, visitor authentication, guest authentication, guest auth
 tags: 
 ---
 
