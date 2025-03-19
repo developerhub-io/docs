@@ -16,7 +16,7 @@ To add more than text to your documentation, just hit {% key key="/" /%} anywher
 
 The blocks menu will show, just like this one:
 
-{% image url="https://uploads.developerhub.io/prod/02/ek4dchom06zasu70pblhjmnn80svgue7v9mws01hir8t8bgcy26148e2ou9dkhcq.png" mode="responsive" height="914" width="540" %}
+{% image url="https://uploads.developerhub.io/prod/02/ek4dchom06zasu70pblhjmnn80svgue7v9mws01hir8t8bgcy26148e2ou9dkhcq.png" mode="set" height="443.453125" width="262" %}
 {% /image %}
 
 %product% supports the following blocks:
