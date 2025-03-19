@@ -7,7 +7,7 @@ description:
 index_title: AI Features
 hidden: 
 keywords: 
-tags: 
+tags: ai
 ---
 
 We offer a range of AI features designed to streamline your tasks and enhance efficiency. These innovative capabilities are powered by OpenAI's advanced GPT models, ensuring high-quality results and improved productivity.
