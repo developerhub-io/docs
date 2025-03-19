@@ -7,7 +7,7 @@ description:
 index_title: AI Writer
 hidden: 
 keywords: 
-tags: 
+tags: ai
 ---
 
 {% callout type="info" title="Info" %}
