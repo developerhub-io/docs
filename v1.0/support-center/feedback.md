@@ -7,7 +7,7 @@ description:
 index_title: Feedback
 hidden: 
 keywords: 
-tags: 
+tags: ai
 ---
 
 Gather feedback from your readers right away from the pages.
