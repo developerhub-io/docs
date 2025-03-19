@@ -7,7 +7,7 @@ description:
 index_title: AI Search
 hidden: 
 keywords: 
-tags: 
+tags: ai
 ---
 
 Search by asking a question and getting a natural response. This feature uses OpenAI GPT models.
