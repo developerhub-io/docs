@@ -12,7 +12,7 @@ tags: customisation
 
 %product% supports the following customisations: [UI](/support-center/customising-visuals#changing-ui) , [CSS](/support-center/custom-css), [Footer](/support-center/custom-footer), [theme (dark mode)](/support-center/theme), logos, header colour, link colour, font and navigation links.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1534309237/31/nh5qwt0x9vkkbolafw1z.png" mode="responsive" height="546" width="400" %}
+{% image url="https://res.cloudinary.com/developerhub/image/upload/v1534309237/31/nh5qwt0x9vkkbolafw1z.png" mode="set" height="376.734375" width="276" %}
 {% /image %}
 
 ## Custom CSS and Footer
@@ -84,7 +84,7 @@ The header, link and navigation colours are modifiable. To change the colours:
 3. Pick the desired colour (We will warn you if the colour is not contrasting enough)
 4. Click Save.
 
-{% image url="https://uploads.developerhub.io/prod/02/t5tfi5ko1eerfgdi92b3qkk5m6mnshfaktg43nvnfudtlhvr8hvji926ke7hvscs.png" mode="responsive" height="1172" width="796" %}
+{% image url="https://uploads.developerhub.io/prod/02/t5tfi5ko1eerfgdi92b3qkk5m6mnshfaktg43nvnfudtlhvr8hvji926ke7hvscs.png" mode="set" height="547.703125" width="372" %}
 {% /image %}
 
 {% callout type="info" title="Link Colour" %}
