@@ -66,7 +66,7 @@ For example:
 
 Once this is set up, you may enable OAuth 2.0 Authentication by checking Show OAuth2 Authentication in the API Reference Settings {% icon classes="fas fa-cog" /%}.
 
-{% image url="https://uploads.developerhub.io/prod/02/nj3rw78yix25ar2d6e3qd56vq4n5vzrfu7i12h80ctx89yhr0pzl1qb1q5g2dbsr.png" mode="responsive" height="834" width="876" %}
+{% image url="https://uploads.developerhub.io/prod/02/nj3rw78yix25ar2d6e3qd56vq4n5vzrfu7i12h80ctx89yhr0pzl1qb1q5g2dbsr.png" mode="set" height="531.234375" width="558" %}
 {% /image %}
 
 {% callout type="info" title="Redirect URL" %}
