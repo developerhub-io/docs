@@ -7,7 +7,7 @@ description: Discover how to use AI summarization to generate META descriptions 
 index_title: AI SEO Helper
 hidden: 
 keywords: 
-tags: 
+tags: ai
 ---
 
 Simplify generating a useful META description of pages using AI. This feature uses OpenAI GPT models.
