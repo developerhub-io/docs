@@ -37,7 +37,7 @@ To export a project:
 
 It will take a few seconds, and a download will start. The downloaded file is a compressed file (zip) containing all versions, documentations, API references, and indices of the documentation. The structure of the file is as such:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1557871252/7457/v3ewfbrk8hhni7blkttz.png" mode="responsive" height="704" width="722" %}
+{% image url="https://res.cloudinary.com/developerhub/image/upload/v1557871252/7457/v3ewfbrk8hhni7blkttz.png" mode="set" height="452.421875" width="464" %}
 {% /image %}
 
 To learn how to import this export back into %product%, check [auto$](/support-center/importing-documentation).
