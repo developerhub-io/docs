@@ -12,7 +12,7 @@ tags:
 
 Categories make it easier to segment your documentation. You can see an example of categories on the left hand-side, such as "Start Here".
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1547502201/6763/lrngsvnjrtqrplm6wrnl.png" caption="Categories example" mode="responsive" height="528" width="532" %}
+{% image url="https://res.cloudinary.com/developerhub/image/upload/v1547502201/6763/lrngsvnjrtqrplm6wrnl.png" caption="Categories example" mode="set" height="279.875" width="282" %}
 {% /image %}
 
 ## Adding Categories
