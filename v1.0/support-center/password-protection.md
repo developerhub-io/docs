@@ -38,7 +38,7 @@ To set up password protection:
 - Go to your Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} from the sidebar.
 - Click on Make Private (or Manage Access).
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1627246980/v2_1/ngcyeblh95ndzy4j1oen.png" mode="responsive" height="814" width="808" %}
+{% image url="https://res.cloudinary.com/developerhub/image/upload/v1627246980/v2_1/ngcyeblh95ndzy4j1oen.png" mode="set" height="451.3125" width="448" %}
 {% /image %}
 
 - Choose Password.
@@ -72,7 +72,7 @@ To share a link:
 - Open Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} 
 - Next to Manage Access, click on Share Link {% icon classes="fas fa-share-alt" /%} icon.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1627247140/v2_1/kavdyj1e0lxamqjwruyz.png" mode="responsive" height="790" width="808" %}
+{% image url="https://res.cloudinary.com/developerhub/image/upload/v1627247140/v2_1/kavdyj1e0lxamqjwruyz.png" mode="set" height="467.34375" width="478" %}
 {% /image %}
 
 - You can send invitations directly to your readers. Separate e-mail address by using commas.
