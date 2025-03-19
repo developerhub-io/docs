@@ -7,7 +7,7 @@ description:
 index_title: AI Commit Messages
 hidden: 
 keywords: 
-tags: 
+tags: ai
 ---
 
 In %product%, AI can automatically annotate the history of every page, making it easier for you to track and understand the changes and activities that have taken place.
