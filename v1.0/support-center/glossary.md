@@ -23,7 +23,7 @@ To use glossary:
 
 To define terms in the glossary:
 
-- From the sidebar, click on Glossary {% icon classes="fas fa-bookmark inv-icon" /%}.
+- From the sidebar, click on Glossary {% icon classes="fas fa-bookmark" /%}.
 - At the bottom of the list, click on "Add glossary term".
 - Write the term (word or phrase, case sensitive).
 - Write the definition (one liner).
