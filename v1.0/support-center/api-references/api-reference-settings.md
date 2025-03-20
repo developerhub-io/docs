@@ -61,6 +61,10 @@ When tags are allowed to expand, the tag with its description would show, alongs
 
 When checked, the tags in the index are collapsible.
 
+## Auto-Capitalize Tags
+
+When checked (default), the tags will be auto-capitalized with an uppercase for every word.
+
 ## Show Request Example Code Samples
 
 Checked by default, when unchecked, would only show an example URL or request body instead of allowing the reader to pick a code library to see a code sample.
