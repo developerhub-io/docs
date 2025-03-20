@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 20 Mar
+
+- {% badge type="success" text="New" /%} **API Reference**: New setting to disable [auto-capitalizing tags](/support-center/api-reference-settings#auto-capitalize-tags).
+
 ### 18 Mar
 
 - {% badge type="info" text="Improvement" /%} **Search Analytics**: Multiple improvements to click analytics charts.
