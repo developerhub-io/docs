@@ -14,6 +14,12 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 22 Mar
+
+- {% badge type="info" text="Improvement" /%} **API Reference**: Code is not line wrapped by default anymore. Use `apiReference.lineWrapCode` [setting](/support-center/advanced-settings) to enable line wrapping.
+- {% badge type="warning" text="Change" /%} **API Reference**: Changed GET `curl` requests syntax format.
+- {% badge type="warning" text="Change" /%} **API Reference**: Rewrote the layout CSS. We no longer use bootstrap for API reference general layout.
+
 ### 20 Mar
 
 - {% badge type="success" text="New" /%} **API Reference**: New setting to disable [auto-capitalizing tags](/support-center/api-reference-settings#auto-capitalize-tags).
