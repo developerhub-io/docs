@@ -73,11 +73,14 @@ The available settings are (with their defaults):
       page: '%page% - %project%',
       documentation: '%section% - %project%',
       reference: '%section% - %project%',
-      landingPage: '%project%'
+      landingPage: '%project%',
+      customPage: '%section%',
+      '404': '404 - %project%'
     },
   },
   apiReference: {
-    collapsedMaxHeight: 1024 // Height which if exceeded the expand button shows for tables/examples
+    collapsedMaxHeight: 1024, // Height which if exceeded the expand button shows for tables/examples
+    lineWrapCode: false // false|true: Wrap lines in code blocks (request, response, playground)
   },
   scrolling: { // Only apply this if using Original UI or if you modified the height of the top navbar 
     scrollTopOffsetOnFragmentChange: { // If top navbar is set to sticky, modify the values below to ensure that headings show below the topnav
