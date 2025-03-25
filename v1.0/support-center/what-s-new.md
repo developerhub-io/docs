@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 25 Mar
+
+- {% badge type="error" text="Bug Fix" /%} **Editor**: Copy pasting list items could have caused errors while saving in some situations.
+
 ### 22 Mar
 
 - {% badge type="info" text="Improvement" /%} **API Reference**: Code is not line wrapped by default anymore. Use `apiReference.lineWrapCode` [setting](/support-center/advanced-settings) to enable line wrapping.
