@@ -14,8 +14,8 @@ tags:
 
 See our [own API References](/v1.0/api/ref) here.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1612222819/v2_1/pims8flfwt2obu1voiid.png" mode="responsive" height="1763" width="3546" %}
-{% /image %}
+{% video videoId="https://uploads.developerhub.io/prod/02/alfw0asaqyh1rzb2dnud9xzobfsc2l255qvbqq2pd97nrgz3pkd22pe6thc23xwm.mp4?controls=0&autoplay=1&loop=1&muted=1&playsinline=1" provider="raw" %}
+{% /video %}
 
 ## Features
 
@@ -39,14 +39,17 @@ Every operation shows the following:
 - Auto-generated example responses.
 - Callbacks.
 
+{% image url="https://uploads.developerhub.io/prod/02/kaafjmio918q0icqrl992zgctenx5bei9s0m4hg4ar1tnn64l4fe200iwor313sn.png" mode="set" height="863" width="1038" %}
+{% /image %}
+
 You can directly link to the API references from the documentation by following the steps in [page linking](/support-center/page-linking).
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1612713521/v2_1/chr0qawjdfzfn0veeeeh.png" mode="responsive" height="784" width="1317" %}
+{% image url="https://uploads.developerhub.io/prod/02/s9c05oknkjn80rj50fxddju1d4nkjnviqerqy3gldz2mq6c2nogv7jges35f6svc.png" mode="responsive" height="660" width="1122" %}
 {% /image %}
 
 ## Try It Out
 
-{% image url="https://uploads.developerhub.io/prod/02/b1grch6icl55t2imcqmckxa6d8ucg5dw05ikwi810tgg8jwiqw2nq08eumzh8vf4.png" mode="responsive" height="723" width="1019" %}
+{% image url="https://uploads.developerhub.io/prod/02/aja6dp81xp8atteilzyxqz0n1ceimluy4667m0y5g4u7r97ryj80f1y6s6bymmh2.png" mode="responsive" height="528" width="1126" %}
 {% /image %}
 
 Readers can [try out your API](/support-center/try-it-out) right from the API Reference.
