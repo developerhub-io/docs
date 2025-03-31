@@ -14,6 +14,20 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 31 Mar
+
+- {% badge type="success" text="New" /%} **Theme**: [Light-themed code](/support-center/code-theme) blocks.
+- {% badge type="success" text="New" /%} **API Reference**: The API references have been given a fresh new look! Exciting new features include:
+
+    - An intuitive pop-out playground designed to enhance user interaction.
+    - Dynamic endpoint highlighting in the index to facilitate smoother navigation.
+    - A streamlined colour palette that contributes to a more aesthetically pleasing appearance.
+    - Improved handling of word-breaking in tables to ensure better readability.
+    - More straightforward response selection for user convenience.
+
+{% video videoId="https://uploads.developerhub.io/prod/02/alfw0asaqyh1rzb2dnud9xzobfsc2l255qvbqq2pd97nrgz3pkd22pe6thc23xwm.mp4?controls=0&autoplay=1&loop=1&muted=1&playsinline=1" provider="raw" %}
+{% /video %}
+
 ### 25 Mar
 
 - {% badge type="error" text="Bug Fix" /%} **Editor**: Copy pasting list items could have caused errors while saving in some situations.
