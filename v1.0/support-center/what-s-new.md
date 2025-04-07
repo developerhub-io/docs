@@ -14,11 +14,14 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 7 Apr
+
+- {% badge type="error" text="Bug Fix" /%} **API Reference**: Example responses selector was not showing.
+
 ### 31 Mar
 
 - {% badge type="success" text="New" /%} **Theme**: [Light-themed code](/support-center/code-theme) blocks.
 - {% badge type="success" text="New" /%} **API Reference**: The API references have been given a fresh new look! Exciting new features include:
-
     - An intuitive pop-out playground designed to enhance user interaction.
     - Dynamic endpoint highlighting in the index to facilitate smoother navigation.
     - A streamlined colour palette that contributes to a more aesthetically pleasing appearance.
