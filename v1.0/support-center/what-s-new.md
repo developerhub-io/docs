@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 9 Apr
+
+- {% badge type="success" text="New" /%} **Editor**: First number of an item in an ordered list can be changed by right-clicking on it.
+
 ### 7 Apr
 
 - {% badge type="error" text="Bug Fix" /%} **API Reference**: Example responses selector was not showing.
