@@ -315,3 +315,129 @@ To have enums with their [varnames](/support-center/openapi-extensions#x-enum-va
 {% /code %}
 
 You may modify the CSS as needed for the button using the CSS selector `.customise.live .references .expand-enum-vars`.
+
+## Add Dropdown to Navigation Links
+
+To create a dropdown which you can add to navigation links in the top navigation bar, use this javascript:
+
+{% code %}
+{% tab language="html" %}
+<script>
+  /**
+   * Creates a dropdown menu
+   * @param {Object} options - Configuration options
+   * @param {string} options.buttonText - Text for the dropdown button
+   * @param {string} options.href - URL for the menu item
+   * @param {Function} options.onClick - Optional click handler
+   * @param {Array} options.items - Array of menu items
+   * @param {string} options.items[].text - Display text for the menu item
+   * @param {string} options.items[].href - URL for the menu item
+   * @param {Function} options.items[].onClick - Optional click handler
+   * @param {string} options.buttonClass - Optional CSS class for the button
+   * @param {string} options.menuClass - Optional CSS class for the menu
+   * @return {HTMLElement} The created dropdown element
+   */
+  function createDropdown(options) {
+    // Create container
+    const dropdownContainer = document.createElement('div');
+    dropdownContainer.className = 'custom-dropdown';
+
+    if (!options.items) {
+      // make a link instead of button
+      const link = document.createElement('a');
+      link.innerHTML = options.buttonText;
+      link.className = options.buttonClass || 'custom-dropdown-button';
+      link.href = options.href;
+      if (options.onClick) {
+        link.onclick = options.onClick;
+      }
+      return link;
+    }
+
+    // Create button
+    const button = document.createElement('button');
+    button.className = options.buttonClass || 'custom-dropdown-button';
+    button.innerHTML = options.buttonText + '<i class="fas fa-chevron-down"></i>';
+    button.addEventListener('click', function (e) {
+      e.stopPropagation();
+      menu.classList.toggle('show');
+      button.classList.toggle('active');
+
+      // Close dropdown when clicking outside
+      document.addEventListener('click', function () {
+        menu.classList.remove('show');
+        button.classList.remove('active');
+        document.removeEventListener('click', arguments.callee);
+      });
+    });
+
+    // Create menu
+    const menu = document.createElement('div');
+    menu.className = options.menuClass || 'custom-dropdown-menu';
+
+    // Create menu items
+    options.items.forEach(item => {
+      const menuItem = document.createElement('a');
+      menuItem.textContent = item.text;
+      menuItem.href = item.href || '#';
+      menuItem.className = 'custom-dropdown-item';
+
+      if (item.onClick) {
+        menuItem.addEventListener('click', function (e) {
+          // Only prevent default if explicitly returning false
+          const result = item.onClick(e);
+          if (result === false) {
+            e.preventDefault();
+          }
+        });
+      }
+
+      menu.appendChild(menuItem);
+    });
+
+    // Assemble dropdown
+    dropdownContainer.appendChild(button);
+    dropdownContainer.appendChild(menu);
+
+    return dropdownContainer;
+  }
+</script>
+{% /tab %}
+{% /code %}
+
+Use the code above as such:
+
+{% code %}
+{% tab language="html" %}
+<script>
+    const navbar = document.querySelector('.nav-btn-group.links-group');
+
+    navbar.appendChild(createDropdown({
+      buttonText: 'Get Started',
+      items: [
+        {
+          text: 'Installation',
+          href: projectUrl + 'installation',
+          onclick: function () {
+            navigate('installation', {addBasePath: true});
+          }
+        },
+        {
+          text: 'Configuration',
+          href: projectUrl + 'configuration',
+          onclick: function () {
+            navigate('configuration', {addBasePath: true});
+          }
+        },
+        {
+          text: 'Operating',
+          href: projectUrl + 'operating',
+          onclick: function () {
+            navigate('operating', {addBasePath: true});
+          }
+        }
+      ],
+    }));
+</script>
+{% /tab %}
+{% /code %}
