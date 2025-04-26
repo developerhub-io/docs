@@ -14,6 +14,19 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 26 Apr
+
+- {% badge type="success" text="New" /%} **Developer Tools**: New javascript event [On Version Change](/support-center/developer-tools#on-version-change) and new functions [Get Active Project](/support-center/developer-tools#get-active-project) and [Get Active Version](/support-center/developer-tools#get-active-version). Index can now be retrieved using [Get Active Section](/support-center/developer-tools#get-active-section).
+- {% badge type="info" text="Improvement" /%} **CSS Changes**: Many CSS and layout changes aiming at cleaning and simplifying code. Changes include:
+
+    - Addition of `--font-size`, `--secondary-font-size`, `--index-width` and `--reference-index-width` variable additions.
+    - Revamp of search container and results.
+    - Preventing over-scroll for indices.
+    - Fix to highlighted code colour.
+    - Fix to code steps when top navigation is sticky.
+
+- {% badge type="error" text="Bug Fix" /%} **Callouts**: Pasting inside callouts was not working under certain conditions.
+
 ### 9 Apr
 
 - {% badge type="success" text="New" /%} **Editor**: First number of an item in an ordered list can be changed by right-clicking on it.
