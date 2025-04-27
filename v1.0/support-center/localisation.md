@@ -57,7 +57,7 @@ To localise using different documentation, you would need to [create documentati
 
 For example, in your v1.0 version, you can have the following documentation sections: `en`, `de`, and `es`. If you already had multiple documentation, for example for `Android SDK`, `iOS SDK` and so on, then you can expand your documentation to `Android SDK (EN)`, `Android SDK (DE)` and `Android SDK (ES)`, and so on.
 
-We also allow you to change the UI text. See [UI translation](/support-center/ui-translation).
+We also provide the option for you to customise the UI text to better suit your needs. For detailed instructions, please refer to [UI translation](/support-center/ui-translation).
 
 ## Which localisation method should I choose?
 
