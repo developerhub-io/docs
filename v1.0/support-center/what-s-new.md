@@ -6,7 +6,7 @@ slug: what-s-new
 description: 
 index_title: What's New (2025)
 hidden: 
-keywords: 
+keywords: release notes
 tags: 
 ---
 
