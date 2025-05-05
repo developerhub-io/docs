@@ -18,6 +18,7 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 - {% badge type="error" text="Bug Fix" /%} **Readability Metrics**: Icon UI was inconsistent when the page was being edited.
 - {% badge type="error" text="Bug Fix" /%} **GitHub Sync**: Long pages with many blocks were not always deserialised correctly.
+- {% badge type="info" text="Improvement" /%} **GitHub Sync**: Sync will not fail anymore if an image link is inaccessible. The image will remain broken on the page.
 
 ### 30 Apr
 
