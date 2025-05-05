@@ -14,6 +14,11 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 4 May
+
+- {% badge type="error" text="Bug Fix" /%} **Readability Metrics**: Icon UI was inconsistent when the page was being edited.
+- {% badge type="error" text="Bug Fix" /%} **GitHub Sync**: Long pages with many blocks were not always deserialised correctly.
+
 ### 30 Apr
 
 - {% badge type="error" text="Bug Fix" /%} **Versions**: Resolved an issue that could have caused the versions order to become out of sync.
