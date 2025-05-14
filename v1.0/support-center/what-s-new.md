@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 14 May
+
+- {% badge type="success" text="New" /%} **API Reference**: Now you can use markdown in response description.
+
 ### 4 May
 
 - {% badge type="error" text="Bug Fix" /%} **Readability Metrics**: Icon UI was inconsistent when the page was being edited.
