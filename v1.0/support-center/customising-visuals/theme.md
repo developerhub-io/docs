@@ -25,6 +25,10 @@ To change the default theme for readers:
 - Under Customisation, choose the theme.
 - Click Save.
 
+{% callout type="success" title="Code Theme" %}
+We suggest using the [light code theme](/support-center/code-theme) when using the light theme.
+{% /callout %}
+
 ## Show Theme Toggle
 
 To show a theme toggle for readers:
