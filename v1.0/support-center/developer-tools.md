@@ -159,17 +159,23 @@ Arguments:
 
 Registers a custom interceptor that can modify API playground requests before they're sent.
 
+### Get Active Project
+
+Function: `window.getActiveProject()` 
+
+Returns: `Project Object {id: number, title: string, slug: string, basepath: string}`
+
 ### Get Active Version
 
 Function: `window.getActiveVersion()` 
 
-Returns: `Version Object {id: number, name: string, slug: string}` or `null`
+Returns: `Version Object {id: number, name: string, slug: string, docs: {id: number, title: string, slug: string}[], refs: {id: number, title: string, slug: string}[]}` or `null`
 
 ### Get Active Section
 
 Function: `window.getActiveSection()` 
 
-Returns: `Section Object {id: number, title: string, slug: string, type: string}` or `null`
+Returns: `Section Object {id: number, title: string, slug: string, type: string, index: any}` or `null`
 
 ### Get Active Page
 
@@ -230,6 +236,14 @@ Event: `onprojectloaded`
 When: Project has loaded. DOM elements should already be available now for manipulation if needed.
 
 Emits: Nothing. See [Project Loaded](/support-center/custom-javascript#project-loaded).
+
+### On Version Change
+
+Event: `onversionchange`
+
+When: When version has changed.
+
+Emits: Details about the version that is being switched to.
 
 ### On Section Change
 
