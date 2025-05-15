@@ -10,15 +10,13 @@ keywords:
 tags: 
 ---
 
-Draft mode brings more power to your editors, the flexibility to write freely, and the ability to publish at the right time.
+Draft mode empowers your editors with enhanced capabilities, offering the flexibility to write without restrictions and the ability to publish content at the optimal moment. It serves as a staging environment for pages, enabling ongoing work and review until they are fully prepared for publication.
 
-### How is it different than changing version or documentation publish setting?
+Writing documentation with a pen is a thing of the past. Editors seek the ability to make adjustments seamlessly without the fear of making errors.
 
-Draft mode allows you to control publishing at a page level rather than at a documentation or version level. You can create new pages that are still hidden from the readers while the rest of your documentation is published.
+### How is it different than changing publish setting?
 
-### Why?
-
-No one writes their documentation using a pen. Our users want to be able to make changes and not to worry about mistakes.
+Unpublishing a page completely renders it inaccessible to readers. In contrast, a page can remain published with the latest stable content while simultaneously having a draft mode that you can continue to work on. This allows for a seamless transition between publishing content and developing new updates without disrupting access to the current version.
 
 ## Page Life-Cycle
 
