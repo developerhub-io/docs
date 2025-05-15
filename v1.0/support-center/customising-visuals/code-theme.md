@@ -10,6 +10,18 @@ keywords:
 tags: customisation
 ---
 
+Natively, %product% supports a light and dark theme for code blocks. We suggest using the light code theme when using [light theme](/support-center/theme) project wide.
+
+## Setting Light/Dark Code Theme
+
+To change the code theme between light and dark:
+
+- Click on Project settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar.
+- Under Customisation, choose the Code Theme.
+- Click Save.
+
+## Advanced Code Theming
+
 {% html %}
 <div class="grow-border text-left">
 <div class="grow-star">⭐</div>
@@ -19,9 +31,7 @@ tags: customisation
 
 We use CodeMirror for rendering and formatting our [code blocks](/support-center/code-blocks), and CodeMirror provides heaps of themes for you to choose from. The list of themes is available [here](https://codemirror.net/demo/theme.html#default).
 
-## How to Change the Code Theme
-
-To change the code theme, we need to import the theme stylesheet as well as to provide a [setting](/support-center/advanced-settings) to indicate which theme to use.
+To change the code theme, you will need to import the theme stylesheet and also provide a [setting](/support-center/advanced-settings) that specifies which theme to use. This ensures that your selected theme is applied correctly within the application.
 
 - First, find a CDN providing the stylesheet of the theme for maximum performance. [cdnjs](https://cdnjs.com/libraries/codemirror) is an example.
 - Import the theme stylesheet by add such a style tag using [auto$](/support-center/custom-javascript):
@@ -39,7 +49,8 @@ To change the code theme, we need to import the theme stylesheet as well as to p
 <script>
     window.settings.apply({
       code: {
-        theme: 'ambiance'
+        darkTheme: 'ambiance',
+        lightTheme: 'xq-light'
       }
     });  
 </script>
