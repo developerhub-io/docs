@@ -12,7 +12,7 @@ tags:
 
 Cut development time and have your readers try out your APIs right from the API Reference with an API playground.
 
-{% image url="https://uploads.developerhub.io/prod/02/21t0i81xqlw2sukru80bwtsp0i8627bnhuujyun6vvyn2dqhvpvz0kqxgztw0zfl.png" mode="responsive" height="947" width="1498" %}
+{% image url="https://uploads.developerhub.io/prod/02/11dri4a8umnlxju2p6ugvr5c2fnpkqbth219dbls1zta0fvqs1hq2vwvs1nz0l8j.png" mode="responsive" height="528" width="1126" %}
 {% /image %}
 
 With Try It Out, all headers, query parameters, form data, and request body fields are pre-populated with examples that you provide in the OpenAPI spec. Readers can modify the fields and make an API request directly from the API Reference. Headers and parameters are validated against their type, and enums are shown if available. Users can initiate OAuth 2.0 flows right from the API reference to get access tokens.
@@ -66,7 +66,7 @@ For example:
 
 Once this is set up, you may enable OAuth 2.0 Authentication by checking Show OAuth2 Authentication in the API Reference Settings {% icon classes="fas fa-cog" /%}.
 
-{% image url="https://uploads.developerhub.io/prod/02/nj3rw78yix25ar2d6e3qd56vq4n5vzrfu7i12h80ctx89yhr0pzl1qb1q5g2dbsr.png" mode="set" height="531.234375" width="558" %}
+{% image url="https://uploads.developerhub.io/prod/02/nj3rw78yix25ar2d6e3qd56vq4n5vzrfu7i12h80ctx89yhr0pzl1qb1q5g2dbsr.png" mode="set" height="834" width="558" %}
 {% /image %}
 
 {% callout type="info" title="Redirect URL" %}
