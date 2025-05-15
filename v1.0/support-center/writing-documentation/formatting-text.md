@@ -40,9 +40,17 @@ And you can use the [auto$](/support-center/ai-writer).
 
 ## Tips & Tricks
 
+### HTML in Text
+
 If you need to write down text that contains HTML tags, then you can do so if it is inserted as line code, as such:
 
 `<body><p>Hey</p></body>`.
+
+### Ordered List Numbering
+
+In case you interrupt the ordering of a list by adding a [block](/support-center/blocks), you can resume the ordering by typing on a new line the number, dot and a space, such as `5. `.
+
+Furthermore, you can right-click on the number of the first item in an ordered list to change it.
 
 ---
 
