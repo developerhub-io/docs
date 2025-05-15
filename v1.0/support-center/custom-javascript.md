@@ -78,7 +78,7 @@ By adding scripts, you can do more with your documentation:
 
 ## External Hooks
 
-There are several events that are triggered by %product% which can help you achieve the level of customisation you need.
+There are several events that are triggered by %product% which can help you achieve the level of customisation you need. The full list of hooks is available at [Javascript Dispatched Events](/support-center/developer-tools#javascript-dispatched-events).
 
 ### Project Loaded
 
@@ -103,7 +103,7 @@ Because %product% is a single page application, `document.onload` has no effect 
 
 ### Section Changes
 
-To listen to when a section (landing page, documentation, version) changes, you may listen to a custom event on document called `onsectionchange`. An example:
+To listen to when a section (landing page, documentation) changes, you may listen to a custom event on document called `onsectionchange`. An example:
 
 {% code %}
 {% tab language="markup" %}
