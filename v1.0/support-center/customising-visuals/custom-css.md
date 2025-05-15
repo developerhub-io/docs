@@ -238,6 +238,8 @@ We have set up variables for you to change, so you can change the look and feel 
   --brand-transparent: #5368e754; /* Your brand color with transparency - auto assigned from project */
   --reference-hue: 230; /* Your brand color's hue - used in reference right column */
   --font: Nunito, "SansSerif"; /* Your font - auto assigned from project */
+  --font-size: 15px; /* Font size for page content */
+  --secondary-font-size: 16px; /* Font size for index content */
   --link: #ff536b; /* Your link color - auto assigned from project */
   --inline-code: #444444; /* Your inline code color */
   --inline-code-bg: #f5f7f7; /* Your inline code background color */
@@ -254,6 +256,9 @@ We have set up variables for you to change, so you can change the look and feel 
   --toc-link-color: #666;  /* TOC text color */
   --table-second-color: #FAFAFA;  /* Alternating table background color */
   --page-border-color: #F1F1F1;  /* Left and bottom page border color */
+  
+  --index-width: calc(var(--secondary-font-size) * 18); /* Width of documentation index */
+  --reference-index-width: calc(var(--secondary-font-size) * 16); /* Width of reference index */
 }
 {% /tab %}
 {% /code %}
