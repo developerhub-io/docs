@@ -64,7 +64,9 @@ The available settings are (with their defaults):
     highlightActive: true // false|true: Highlights last scrolled to heading in table of contents
   },
   code: {
-    theme: "monokai", // Any theme from https://codemirror.net/demo/theme.html (must import CSS as well): Sets the theme for code blocks
+    theme: "monokai", // DEPRECATED - Use darkTheme and lightTheme
+    darkTheme: 'monokai', // Any theme from https://codemirror.net/demo/theme.html (must import CSS as well): Sets the dark theme for code blocks
+    lightTheme: 'ayu-light', // Any theme from https://codemirror.net/demo/theme.html (must import CSS as well): Sets the light theme for code blocks
     githubTheme: "github", // Any theme from https://emgithub.com/: Sets the theme for GitHub Code blocks
     showLineNumbers: false // false|true: Shows a gutter with line numbers in code blocks
   },
