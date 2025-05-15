@@ -19,7 +19,7 @@ tags: customisation
 
 Apply a custom footer to match your website.
 
-Unlike [](/support-center/documentation-footer), this footer is placed outside of the documentation container and is written using HTML. Thus, the custom footer is a webpage itself with its own styles and scripts.
+Unlike [auto$](/support-center/documentation-footer), this footer is placed outside of the documentation container and is written using HTML. Thus, the custom footer is a webpage itself with its own styles and scripts.
 
 ## How to set a custom footer
 
@@ -29,6 +29,8 @@ To customise footer:
 - Under Customise, select Edit Footer {% icon classes="fas fa-code" /%}
 - Enter the custom HTML, and select Done.
 - Refresh the page to see the changes.
+
+The footer can also be set to use full width from the same settings window.
 
 The custom HTML is contained in an iFrame. It should contain a head and body. We recommend that you link your website styles and scripts rather than writing them in the footer as this would allow your footer to be cached.
 
