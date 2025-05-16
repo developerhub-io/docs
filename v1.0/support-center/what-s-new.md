@@ -23,6 +23,9 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 - {% badge type="warning" text="Change" /%} **Callouts**: Callouts no longer use table HTML markup. They use flexbox instead for easier customisation.
 - {% badge type="error" text="Bug Fix" /%} **Landing Page**: Landing page in edit mode was showing up stacked when changed.
 
+{% video videoId="https://uploads.developerhub.io/prod/02/hi6hcqh51jcdoterj0alxqwd79v6pu56w0ni4f2j4x69193gtfc3u7im5dmvu0f0.mp4?controls=0&autoplay=1&loop=1&muted=1&playsinline=1" provider="raw" %}
+{% /video %}
+
 ### 14 May
 
 - {% badge type="success" text="New" /%} **API Reference**: Now you can use markdown in response description.
