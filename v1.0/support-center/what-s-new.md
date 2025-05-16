@@ -14,6 +14,15 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 16 May
+
+- {% badge type="success" text="New" /%} **Top Navigation Bar**: [Navigation groups](/support-center/top-navigation-bar#navigation-structure) can be created to group documentation sections and API references in the top navigation bar.
+- {% badge type="success" text="New" /%} **API References**: `--required-text` CSS variable available to change the text showing up when a field is required, defaults to `*`.
+- {% badge type="info" text="Improvement" /%} **Index**: Index scroll functional regardless of custom customisations made to the top navigation.
+- {% badge type="info" text="Improvement" /%} **General**: Deprecated `scrolling` [advanced setting](/support-center/advanced-settings). Scrolling offsets would be calculated automatically.
+- {% badge type="warning" text="Change" /%} **Callouts**: Callouts no longer use table HTML markup. They use flexbox instead for easier customisation.
+- {% badge type="error" text="Bug Fix" /%} **Landing Page**: Landing page in edit mode was showing up stacked when changed.
+
 ### 14 May
 
 - {% badge type="success" text="New" /%} **API Reference**: Now you can use markdown in response description.
