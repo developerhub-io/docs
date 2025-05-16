@@ -169,7 +169,7 @@ Returns: `Project Object {id: number, title: string, slug: string, basepath: str
 
 Function: `window.getActiveVersion()` 
 
-Returns: `Version Object {id: number, name: string, slug: string, docs: {id: number, title: string, slug: string}[], refs: {id: number, title: string, slug: string}[]}` or `null`
+Returns: `Version Object {id: number, name: string, slug: string, isLatest: boolean, docs: {id: number, title: string, slug: string}[], refs: {id: number, title: string, slug: string}[]}` or `null`
 
 ### Get Active Section
 
