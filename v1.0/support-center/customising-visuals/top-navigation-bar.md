@@ -7,7 +7,7 @@ description:
 index_title: Top Navigation Bar
 hidden: 
 keywords: 
-tags: 
+tags: customisation
 ---
 
 The top navigation bar can be customised in multiple ways:
