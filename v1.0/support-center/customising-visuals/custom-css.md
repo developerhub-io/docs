@@ -260,6 +260,10 @@ We have set up variables for you to change, so you can change the look and feel 
   --index-width: calc(var(--secondary-font-size) * 18); /* Width of documentation index */
   --reference-index-width: calc(var(--secondary-font-size) * 16); /* Width of reference index */
 }
+
+.customise .references {
+  --required-text: '*'; /* Text that shows to denote that a field is required in request/response bodies */
+}
 {% /tab %}
 {% /code %}
 
