@@ -14,6 +14,12 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 18 May
+
+- {% badge type="info" text="Improvement" /%} **API Reference**: anyOf/oneOf now supported with inline schemas.
+- {% badge type="info" text="Improvement" /%} **Import**: Pages that are not ordered correctly will no longer fail import.
+- {% badge type="error" text="Bug Fix" /%} **API Reference**: Highlighting endpoint during scrolling was not working for all endpoints.
+
 ### 16 May
 
 - {% badge type="success" text="New" /%} **Top Navigation Bar**: [Navigation groups](/support-center/top-navigation-bar#navigation-structure) can be created to group documentation sections and API references in the top navigation bar.
