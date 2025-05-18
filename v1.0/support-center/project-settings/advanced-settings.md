@@ -84,12 +84,6 @@ The available settings are (with their defaults):
     collapsedMaxHeight: 1024, // Height which if exceeded the expand button shows for tables/examples
     lineWrapCode: false // false|true: Wrap lines in code blocks (request, response, playground)
   },
-  scrolling: { // Only apply this if using Original UI or if you modified the height of the top navbar 
-    scrollTopOffsetOnFragmentChange: { // If top navbar is set to sticky, modify the values below to ensure that headings show below the topnav
-      documentation: 0, // -90 is recommended if navbar height is not changed
-      apiReference: 0 // -50 is recommended if navbar height is not changed
-    }
-  },
   feedback: {
     disable: false // Disables feedback control in runtime
   }
