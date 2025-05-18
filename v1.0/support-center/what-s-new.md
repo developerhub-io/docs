@@ -19,6 +19,7 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 - {% badge type="success" text="New" /%} **CSS**: Ability to change the dropdown animation with `--dropdown-animation` [CSS variable](/support-center/custom-css#css-variables).
 - {% badge type="info" text="Improvement" /%} **API Reference**: anyOf/oneOf now supported for inline schemas.
 - {% badge type="info" text="Improvement" /%} **Import**: Pages that are not ordered correctly will no longer fail import.
+- {% badge type="info" text="Improvement" /%} **Editor**: Using select all keyboard shortcuts inside blocks selects only text inside the block.
 - {% badge type="error" text="Bug Fix" /%} **API Reference**: Highlighting endpoint during scrolling was not working for all endpoints.
 
 ### 16 May
