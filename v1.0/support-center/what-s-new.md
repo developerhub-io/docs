@@ -16,7 +16,7 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ### 18 May
 
-- {% badge type="info" text="Improvement" /%} **API Reference**: anyOf/oneOf now supported with inline schemas.
+- {% badge type="info" text="Improvement" /%} **API Reference**: anyOf/oneOf now supported for inline schemas.
 - {% badge type="info" text="Improvement" /%} **Import**: Pages that are not ordered correctly will no longer fail import.
 - {% badge type="error" text="Bug Fix" /%} **API Reference**: Highlighting endpoint during scrolling was not working for all endpoints.
 
