@@ -259,6 +259,8 @@ We have set up variables for you to change, so you can change the look and feel 
   
   --index-width: calc(var(--secondary-font-size) * 18); /* Width of documentation index */
   --reference-index-width: calc(var(--secondary-font-size) * 16); /* Width of reference index */
+  
+  --dropdown-animation: dropdownIn 500ms cubic-bezier(0, 1, 0.4, 1); /* Animation when dropdown opens */
 }
 
 .customise .references {
