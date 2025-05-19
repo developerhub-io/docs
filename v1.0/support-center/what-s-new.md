@@ -17,6 +17,7 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 ### 19 May
 
 - {% badge type="success" text="New" /%} **Performance**: Enterprise only - switching pages just got blazing fast with preloaded pages 🚀
+- {% badge type="error" text="Bug Fix" /%} **Editor**: Double underscores inside inline code inside callouts were transforming text into italics.
 
 ### 18 May
 
