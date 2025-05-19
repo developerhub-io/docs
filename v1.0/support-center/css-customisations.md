@@ -441,3 +441,59 @@ Use the code above as such:
 </script>
 {% /tab %}
 {% /code %}
+
+## Add a Fading Edge to References
+
+To add a fading edge to references, use the following javascript:
+
+{% code %}
+{% tab language="javascript" %}
+document.addEventListener("onsectionchange", (event) => {
+  if (event.detail.type === 'reference') {
+    setupFadingEdge();
+  }
+});
+
+document.addEventListener('onreferencecontentloaded', (event) => {
+  const fadingEdge = document.querySelector('.references .sidebar .sticky-top');
+  if (!fadingEdge) {
+    return;
+  }
+
+  const scrollElement = fadingEdge.querySelector('.ps-container');
+  applyFadingEdge(scrollElement, fadingEdge);
+});
+
+function setupFadingEdge() {
+  const fadingEdge = document.querySelector('.references .sidebar .sticky-top');
+  if (!fadingEdge) {
+    console.warn('Fading edge element not found');
+    return;
+  }
+
+  const scrollElement = fadingEdge.querySelector('.ps-container');
+
+  applyFadingEdge(scrollElement, fadingEdge);
+  scrollElement.addEventListener('scroll', () => applyFadingEdge(scrollElement, fadingEdge));
+}
+
+function applyFadingEdge(scrollEl, el) {
+  const scrollTop = scrollEl.scrollTop;
+  const scrollHeight = scrollEl.scrollHeight;
+  const clientHeight = scrollEl.clientHeight;
+  const isScrolled = scrollTop + clientHeight < scrollHeight;
+  if (isScrolled) {
+    // Calculate how close we are to the bottom (as a percentage)
+    const scrollPosition = scrollTop + clientHeight;
+    const scrollRatio = Math.min(1, (scrollHeight - scrollPosition) / (scrollHeight * 0.25));
+
+    // Adjust the gradient based on scroll position
+    // As scrollRatio approaches 0, the gradient becomes less pronounced
+    const opacity = Math.max(0, scrollRatio * 100);
+    el.style.maskImage = `linear-gradient(180deg, #FFF 75%, rgba(255, 255, 255, ${1 - opacity/100}) 99%)`;
+  } else {
+    el.style.maskImage = '';
+  }
+}
+{% /tab %}
+{% /code %}
