@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 19 May
+
+- {% badge type="success" text="New" /%} **Performance**: Enterprise only - switching pages just got blazing fast with preloaded pages 🚀
+
 ### 18 May
 
 - {% badge type="success" text="New" /%} **CSS**: Ability to change the dropdown animation with `--dropdown-animation` [CSS variable](/support-center/custom-css#css-variables).
