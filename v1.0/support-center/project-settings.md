@@ -10,7 +10,7 @@ keywords:
 tags: 
 ---
 
-Access the project settings from the sidebar to change how the project details, [hosting](/support-center/hosting), [security](/support-center/password-protection) and other details.
+Access the project settings from the sidebar to change how the project details, [hosting](/support-center/hosting), [security](/support-center/private-docs) and other details.
 
 This page talks about the basic settings.
 

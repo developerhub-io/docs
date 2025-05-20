@@ -34,11 +34,11 @@ Yes. See [Using Custom Domain](/support-center/using-custom-domain).
 
 ## Can I restrict who can view the documentation?
 
-We provide many ways for making your docs site private, see [all privacy options](/support-center/password-protection),
+We provide many ways for making your docs site private, see [all privacy options](/support-center/private-docs),
 
 ## Can I restrict access to certain documentation/pages?
 
-Our projects can either be public or private at a time. If you are restricting access internally to your teammates, then they can already access it through the editor. If you want to restrict access for readers who do not have %product% teammate access, then you would need a second project that is [protected/private](/support-center/password-protection).
+Our projects can either be public or private at a time. If you are restricting access internally to your teammates, then they can already access it through the editor. If you want to restrict access for readers who do not have %product% teammate access, then you would need a second project that is [protected/private](/support-center/private-docs).
 
 ## Is there support for draft versions?
 

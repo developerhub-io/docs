@@ -360,7 +360,7 @@ tags:
 
 ### 29 Jan
 
-- {% badge type="success" text="New" /%} **Link Sharing**: A [secure link](/support-center/password-protection#link-sharing) can be shared for password protected projects.
+- {% badge type="success" text="New" /%} **Link Sharing**: A [secure link](/support-center/private-docs#link-sharing) can be shared for password protected projects.
 
 ### 27 Jan
 
