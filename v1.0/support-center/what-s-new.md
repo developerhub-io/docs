@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 20 May
+
+- {% badge type="success" text="New" /%} **Reader SSO**: [Single-Sign On (SSO)](/support-center/reader-single-sign-on) is now available for readers at the enterprise plan.
+
 ### 19 May
 
 - {% badge type="success" text="New" /%} **Performance**: Enterprise only - switching pages just got blazing fast with preloaded pages 🚀
