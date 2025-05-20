@@ -16,8 +16,6 @@ Custom login for readers on %product% is provided using JSON Web Tokens (JWT). B
 - You can [personalise](/support-center/personalised-docs) the docs to the logged in reader.
 - You control when the access expires.
 
-You can use JWT login with your [SSO provider](/support-center/custom-login#reader-authentication-through-ssocognitosalesforce) (cognito, Okta, Salesforce...) to allow or deny access for readers according to your own logic.
-
 ## How JWT Login works
 
 When JWT login is enabled, the flow of login would be as such:
@@ -158,13 +156,3 @@ If the same JWT was used to access a project again, the reader would be denied a
 ## Handling JWT Login Error
 
 You can provide an `error_redirect_url`  in the payload of your JWT. When an error occurs (because token expired or signature verification failed), the user will be redirected to that URL with a query param added `dh_jwt_error` containing the error message.
-
-## Reader Authentication through SSO/Cognito/Salesforce
-
-To provide reader authentication through SSO, cognito, salesforce or other identity providers, the steps are as follows:
-
-1. Once the reader reaches the docs site unauthenticated, they will be taken to the login URL which you set up in %product%.
-2. The login URL is a page that is hosted by you, which performs the authentication needed using SSO, cognito, salesforce, other identity providers, or your own login system. The user would log in as they normally would on your systems.
-3. According to your own logic, if you wish to allow the user to have access to the docs, then you would [sign a JWT](/support-center/custom-login#signing-jwt) and forward the user back to the docs site with the token added to the URL.
-
-In summary: %product% does not directly integrate with the identity providers for reader authentication. The integration is done through your backend systems which makes it highly customisable, and allows the personalisation of the docs for your users. If you already have a login system, then most of the work for reader authentication is done. All that is needed is a new API GET endpoint (login URL) which signs the JWT.
