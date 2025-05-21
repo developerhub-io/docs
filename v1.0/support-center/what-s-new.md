@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 21 May
+
+- {% badge type="info" text="Improvement" /%} **Synced Blocks**: Headings inside synced blocks are now shown in the table of contents when editing.
+
 ### 20 May
 
 - {% badge type="success" text="New" /%} **Reader SSO**: [Single-Sign On (SSO)](/support-center/reader-single-sign-on) is now available for readers at the enterprise plan.
