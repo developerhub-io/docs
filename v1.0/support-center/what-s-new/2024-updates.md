@@ -338,7 +338,7 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ### 14 Jan
 
-- {% badge type="success" text="New" /%} **SSO**: More SSO [configuration](/support-center/single-sign-on--sso-#configuration) is available.
+- {% badge type="success" text="New" /%} **SSO**: More SSO [configuration](/support-center/editor-single-sign-on--sso-#configuration) is available.
 
 ### 8 Jan
 

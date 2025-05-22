@@ -397,7 +397,7 @@ tags:
 
 ### 5 Mar
 
-- {% badge type="success" text="New" /%} **SSO**: [Sign in](/support-center/single-sign-on--sso-) your users through your Identity Provider (IdP).
+- {% badge type="success" text="New" /%} **SSO**: [Sign in](/support-center/editor-single-sign-on--sso-) your users through your Identity Provider (IdP).
 
 ### 27 Feb
 

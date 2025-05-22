@@ -76,7 +76,7 @@ To remove a teammate, do the following:
 - Open the Team {% icon classes="fas fa-users-cog inv-icon" /%} menu from the sidebar.
 - Click on the badge next to the user and select "Remove teammate".
 
-If your organisation is managed (for Enterprise), check [Deprovisioning Users](/support-center/single-sign-on--sso-#deprovisioning-users).
+If your organisation is managed (for Enterprise), check [Deprovisioning Users](/support-center/editor-single-sign-on--sso-#deprovisioning-users).
 
 ## Changing Project Ownership
 
