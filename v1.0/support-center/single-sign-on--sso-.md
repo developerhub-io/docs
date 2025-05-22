@@ -1,10 +1,10 @@
 ---
 type: page
-title: Single Sign-On (SSO)
+title: Editor Single Sign-On (SSO)
 listed: true
 slug: single-sign-on--sso-
 description: 
-index_title: Single Sign-On (SSO)
+index_title: Editor Single Sign-On (SSO)
 hidden: 
 keywords: 
 tags: 
