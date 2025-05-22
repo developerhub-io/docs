@@ -1,10 +1,10 @@
 ---
 type: page
-title: Reader Single-Sign On
+title: Reader Single-Sign On (SSO)
 listed: true
 slug: reader-single-sign-on
 description: 
-index_title: Reader Single-Sign On
+index_title: Reader Single-Sign On (SSO)
 hidden: 
 keywords: 
 tags: 
