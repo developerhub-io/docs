@@ -34,7 +34,12 @@ The process for setting up SSO is as follows:
     - Entity ID: `https://auth.developerhub.io/sp`
     - [Logo link](https://res.cloudinary.com/developerhub/image/upload/v1561908888/1/gmoiyrndwsboeffgiz1x.svg).
 
-- We will then require from you the IdP SSO URL, the IdP Issuer and a X.509 certificate.
+- We will then require from you 
+    - IdP SSO URL.
+    - IdP Issuer.
+    - Are responses signed?
+    - X.509 certificate.
+
 - Inform us of the [SSO configuration](/support-center/single-sign-on--sso-#configuration) you require.
 
 {% callout type="info" title="Multiple SSO integrations" %}
