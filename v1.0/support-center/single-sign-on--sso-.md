@@ -10,6 +10,10 @@ keywords:
 tags: 
 ---
 
+{% callout type="warning" title="Editor SSO vs Reader SSO" %}
+This page is about editors using SSO to sign in to %product%. If you're looking for readers using SSO to sign into your private docs, see [auto$](/support-center/reader-single-sign-on).
+{% /callout %}
+
 With SSO, you can manage your team access to %product% projects without having to add them one by one.
 
 %product% easily integrates with your existing Identity Provider (IdP) so you can provide your employees with single sign-on to %product% using the same credentials and login experience as your other service providers.
