@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 28 May
+
+- {% badge type="success" text="New" /%} **Enterprise Search**: Ability to search in certain version and section for [column search](/support-center/enterprise-search#column-search).
+
 ### 21 May
 
 - {% badge type="info" text="Improvement" /%} **Synced Blocks**: Headings inside synced blocks are now shown in the table of contents when editing.
