@@ -26,6 +26,8 @@ When using column search, searching on one project will search on multiple proje
 {% image url="https://res.cloudinary.com/developerhub/image/upload/v1631619633/v2_1/eph4ar8ixffemvvpqoyd.png" mode="responsive" height="930" width="1498" %}
 {% /image %}
 
+When using column search, we can specify which exact version and section to search in.
+
 ## Global Analytics
 
 We are able to differentiate between searches that originate from a different project than the one being searched in. When your organisation is setup to be using [global search](/support-center/enterprise-search#global-search), the [search analytics](/support-center/search-analytics) would display data as follows:
