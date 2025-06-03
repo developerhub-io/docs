@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 3 Jun
+
+- {% badge type="error" text="Bug Fix" /%} **API Reference**: Fixed an issue where empty objects in example request/responses show as empty arrays.
+
 ### 28 May
 
 - {% badge type="success" text="New" /%} **Enterprise Search**: Ability to search in certain version and section for [column search](/support-center/enterprise-search#column-search).
