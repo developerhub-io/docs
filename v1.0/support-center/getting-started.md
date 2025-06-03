@@ -18,6 +18,12 @@ tags:
 
 Welcome %user.name% to our _Supercharged_ documentation which has been written using %product%.
 
+See how it works in action:
+
+{% html %}
+<!--ARCADE EMBED START--><div style="position: relative; padding-bottom: calc(56.22254758418741% + 41px); height: 0; width: 100%;"><iframe src="https://demo.arcade.software/mXfTOZfQRMMXPJIqWjzp?embed&embed_mobile=tab&embed_desktop=tab&show_copy_link=true" title="How to Edit and Publish Updates in DeveloperHub Documentation" frameborder="0" loading="lazy" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" onload="window.postMessage('resize', '*')" ></iframe></div><!--ARCADE EMBED END-->
+{% /html %}
+
 ## What is %product%?
 
 %product% is a documentation tool to build online documentation. With %product% you can write product & user guides, developer hubs/portals, knowledge bases and support centres. %product% is the only product on the market that has an advanced editor and native support for OpenAPI specs.
