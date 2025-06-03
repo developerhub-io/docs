@@ -10,7 +10,13 @@ keywords: release notes
 tags: 
 ---
 
-See [Upcoming Features](/support-center/upcoming-features) to know what we're currently working on.
+See [Upcoming Features](/support-center/upcoming-features) to know what we're currently working on. Hello! 👋 Let's type text. Or you can type **markdown** directly.
+
+{% code %}
+{% tab language="javascript" %}
+console.log('hello');
+{% /tab %}
+{% /code %}
 
 ## 2025 Updates
 
