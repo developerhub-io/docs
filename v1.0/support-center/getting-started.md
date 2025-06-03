@@ -18,7 +18,7 @@ tags:
 
 Welcome %user.name% to our _Supercharged_ documentation which has been written using %product%.
 
-See how it works in action:
+Learn how to use %product% in our step-by-step guide:
 
 {% html %}
 <!--ARCADE EMBED START-->
