@@ -17,6 +17,7 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 ### 4 Jun
 
 - {% badge type="success" text="New" /%} **Search**: Ability to [hide AI search](/support-center/advanced-settings) but keep the vector search available through API.
+- {% badge type="error" text="Bug Fix" /%} **Top Navigation**: Top navigation was not scrollable when it had too many items.
 
 ### 3 Jun
 
