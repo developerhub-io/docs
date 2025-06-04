@@ -56,7 +56,8 @@ The available settings are (with their defaults):
     categoryToggle: false // false|true: Set true to disable automatic category toggling on changing page
   },
   search: {
-    scope: "version" // "version"|"section": Set the scope of the search bar
+    scope: "version", // "version"|"section": Set the scope of the search bar
+    hideAiSearch: false // false|true: Hides AI search but keeps the vector search available through API
   },
   tableOfContents: {
     hideH3: false, // false|true: Hides H3 from table of contents
