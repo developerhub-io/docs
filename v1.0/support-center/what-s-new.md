@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 4 Jun
+
+- {% badge type="success" text="New" /%} **Search**: Ability to [hide AI search](/support-center/advanced-settings) but keep the vector search available through API.
+
 ### 3 Jun
 
 - {% badge type="error" text="Bug Fix" /%} **API Reference**: Fixed an issue where empty objects in example request/responses show as empty arrays.
