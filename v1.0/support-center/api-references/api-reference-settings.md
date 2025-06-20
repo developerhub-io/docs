@@ -48,7 +48,7 @@ curl --request GET \
 {% /tab %}
 {% /code %}
 
-## Allow Tags to be Expand
+## Allow Tags to Expand
 
 If your API Reference is dense, loading thousands of items could be slow. To optimise for performance, you can check this option to allow tags to expand. By allowing tags to expand, you can load an API Reference of any size without performance hit.
 
