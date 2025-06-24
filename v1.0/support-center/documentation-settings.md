@@ -62,3 +62,11 @@ To enable your readers to see who updated the page last, and when was it updated
 
 {% image url="https://res.cloudinary.com/developerhub/image/upload/v1585424716/12016/fzm4ex8ao3vkbo84hlht.jpg" mode="responsive" height="443" width="839" %}
 {% /image %}
+
+## Copy Documentation to Version
+
+If needed, you can copy a documentation section to a version. The same documentation slug should not exist in the destination version. To copy the documentation section to a version:
+
+- In your sidebar, choose Documentation {% icon classes="fas fa-book inv-icon" /%}
+- Next to the title, click on Settings {% icon classes="fas fa-cog" /%}
+- Click on Copy to Version and select the version.
