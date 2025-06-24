@@ -14,6 +14,14 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 24 Jun
+
+- {% badge type="success" text="New" /%} **Documentation**: Ability to copy documentation section to another version. 
+
+### 23 Jun
+
+- {% badge type="error" text="Bug Fix" /%} **Top Navigation**: Landing page button was not showing on mobile layout.
+
 ### 4 Jun
 
 - {% badge type="success" text="New" /%} **Search**: Ability to [hide AI search](/support-center/advanced-settings) but keep the vector search available through API.
