@@ -18,6 +18,7 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 - {% badge type="info" text="Improvement" /%} **Export API**: The [GET - Exports project](/v1.0/api/ref#export-project) API now supports exporting a specific version.
 - {% badge type="error" text="Bug Fix" /%} **Export**: Exporting large projects was failing due to a timeout.
+- {% badge type="error" text="Bug Fix" /%} **GitHub Sync**: Tables with assigned column widths caused syncing problems.
 
 ### 24 Jun
 
