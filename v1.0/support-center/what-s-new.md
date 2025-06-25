@@ -14,6 +14,11 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 25 Jun
+
+- {% badge type="info" text="Improvement" /%} **Export API**: The [GET - Exports project](/v1.0/api/ref#export-project) API now supports exporting a specific version.
+- {% badge type="error" text="Bug Fix" /%} **Export**: Exporting large projects was failing due to a timeout.
+
 ### 24 Jun
 
 - {% badge type="success" text="New" /%} **Documentation**: Ability to copy documentation section to another version. 
