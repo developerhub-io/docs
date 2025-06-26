@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 26 Jun
+
+- {% badge type="error" text="Bug Fix" /%} **Editor**: Documentation sections ordering was not working.
+
 ### 25 Jun
 
 - {% badge type="info" text="Improvement" /%} **Export API**: The [GET - Exports project](/v1.0/api/ref#export-project) API now supports exporting a specific version.
