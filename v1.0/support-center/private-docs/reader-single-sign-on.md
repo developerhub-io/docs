@@ -11,7 +11,7 @@ tags:
 ---
 
 {% callout type="warning" title="Editor SSO vs Reader SSO" %}
-This page is about readers using SSO to sign in to your private docs. If you're looking for editors using SSO to sign in to %product%, see [auto$](/support-center/single-sign-on--sso-).
+This page is about readers using SSO to sign in to your private docs. If you're looking for editors using SSO to sign in to %product%, see [auto$](/support-center/editor-single-sign-on--sso-).
 {% /callout %}
 
 With SSO, you can manage reader access to a %product% docs site using an identity provider.

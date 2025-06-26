@@ -99,7 +99,7 @@ To change the font of the entire project:
 2. Under Customisation, edit the font.
 3. Choose from the list of Google Fonts available. The font will be previewed immediately in the current documentation.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1540594232/31/ieksywzrtjepcuiodwax.png" mode="responsive" height="718" %}
+{% image url="https://res.cloudinary.com/developerhub/image/upload/v1540594232/31/ieksywzrtjepcuiodwax.png" mode="responsive" height="718" width="1320" %}
 {% /image %}
 
 {% callout type="warning" title="Automatic Saving" %}
@@ -117,39 +117,6 @@ If you are not using Google Fonts, you can serve your own font to your documenta
 ### Font Weights Missing?
 
 If the font you are using does not have all the font weights we expect, then you can change the actual font weight for an expected one. See [Font Weights](/support-center/custom-css#font-weights).
-
-## Adding Links / Home Button
-
-The logo, and four top navigation links can be setup for external linking to another website, or internal linking inside the documentation. To setup the navigations links:
-
-1. Hover over the top navigation and click on Edit Navigation {% icon classes="fas fa-edit" /%} in the top left corner.
-2. Type in the title.
-3. Type in the link.
-4. Click outside the window to close the top navigation editor and save.
-
-You can change if links open in a new tab or the same tab by checking **Open Links in New Tab**.
-
-The last two links only show in documentations that have wide layout.
-
-{% callout type="info" title="Go Home" %}
-Setting the link to `/` goes to the landing page, or the default page if no landing page is setup.
-{% /callout %}
-
-{% callout type="warning" title="Automatic Saving" %}
-Navigation links will be automatically saved on change without prompt
-{% /callout %}
-
-## Sticky Top Navigation Bar
-
-To set the top navigation bar to stick to the top when page is scrolled:
-
-1. Click on Project settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar.
-2. Under Customisation, check "Is Top Navigation Bar Sticky?"
-3. The setting will be saved immediately.
-
-### Inline Code Colour
-
-Check `--inline-code` in [CSS Variables](/support-center/custom-css#css-variables).
 
 ## Need More Customisation?
 
