@@ -17,6 +17,7 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 ### 27 Jun
 
 - {% badge type="success" text="New" /%} **API Key**: Revoked keys are now shown in the list, along with creation dates for all keys.
+- {% badge type="error" text="Bug Fix" /%} **GitHub Sync**: Multiple fixes to sync process.
 
 ### 26 Jun
 
