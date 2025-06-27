@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 27 Jun
+
+- {% badge type="success" text="New" /%} **API Key**: Revoked keys are now shown in the list, along with creation dates for all keys.
+
 ### 26 Jun
 
 - {% badge type="error" text="Bug Fix" /%} **Editor**: Documentation sections ordering was not working.
