@@ -74,7 +74,7 @@ Exactly, files would be synced to GitHub whenever a:
 - Version is deleted,
 - Version is imported (using Project Import),
 
-Whenever a file is updated on GitHub, the corresponding contents or settings would be updated on %product%.
+Whenever a file is created or updated on GitHub, the corresponding contents or settings would be updated on %product%.
 
 ## File Formats
 
@@ -133,7 +133,7 @@ For example:
 
 GitHub sync is a work-in-progress. At the moment, the following is not possible:
 
-- Creating new pages, documentation sections or versions from GitHub.
+- Creating new documentation sections or versions from GitHub.
 - Ordering pages, documentation sections or version from GitHub.
 - API references are not synced yet.
 - Synced blocks are not synced yet.
