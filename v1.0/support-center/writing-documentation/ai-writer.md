@@ -14,10 +14,6 @@ tags: ai
 The following page was written partly by AI Writer.
 {% /callout %}
 
-{% callout type="warning" title="Beta" %}
-This is a beta feature. Your [feedback](/support-center/contact-us) is appreciated.
-{% /callout %}
-
 AI Writer is a powerful tool designed to assist you with routine writing tasks and content brainstorming. Whether you’re looking to refine your text, enhance readability, or generate new ideas, AI Writer can help streamline the process efficiently.
 
 {% image url="https://uploads.developerhub.io/prod/02/juxnayqn31312o9m4271khzrepblhwrwooadcaax3i6tguwxv185oh4q1tt1x4rt.gif" mode="responsive" height="348" width="846" %}
