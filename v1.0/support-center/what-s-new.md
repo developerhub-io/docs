@@ -14,6 +14,14 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 1 Jul
+
+- {% badge type="success" text="New" /%} **LLMs**: `llms.txt` is now [supported](/support-center/llms-txt).
+
+### 30 Jun
+
+- {% badge type="info" text="Improvement" /%} **GitHub Sync**: Creating files in GitHub creates published pages on DeveloperHub.
+
 ### 27 Jun
 
 - {% badge type="success" text="New" /%} **API Key**: Revoked keys are now shown in the list, along with creation dates for all keys.
