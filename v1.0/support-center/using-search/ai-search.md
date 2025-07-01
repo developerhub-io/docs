@@ -12,14 +12,6 @@ tags: ai
 
 Search by asking a question and getting a natural response. This feature uses OpenAI GPT models.
 
-{% callout type="warning" title="Free feature" %}
-At the moment, this feature is for free. However, we may monetise on AI features in the future.
-{% /callout %}
-
-{% callout type="warning" title="Beta" %}
-This is a beta feature. Your [feedback](/support-center/contact-us) is appreciated.
-{% /callout %}
-
 {% video videoId="https://uploads.developerhub.io/prod/02/nvrnanscgw7okyvlbqfcs8n1xmgxtc6h1cmr54i3e18avestnunznr12liyvk6gx.mp4?autoplay=true&loop=true&muted=true&playsinline=true&controls=false" provider="raw" %}
 {% /video %}
 
