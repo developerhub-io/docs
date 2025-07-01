@@ -29,6 +29,10 @@ For projects without a basepath: `https://<project-url>/llms.txt`.
 
 For projects with a basepath: `https://<project-url>/<basepath>/llms.txt`.
 
+{% callout type="info" title="Info" %}
+`llms.txt` is updated every 6 hours
+{% /callout %}
+
 ## Markdown for LLMs
 
 When llms.txt is enabled, pages are also readable in markdown format if `.md` is added to the end of a URL. For example, if you visit this page with `.md` added to the end of its URL, then you can read its markdown equivalent.
