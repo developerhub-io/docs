@@ -35,7 +35,7 @@ For projects with a basepath: `https://<project-url>/<basepath>/llms.txt`.
 
 ## Markdown for LLMs
 
-When llms.txt is enabled, pages are also readable in markdown format if `.md` is added to the end of a URL. For example, if you visit this page with `.md` added to the end of its URL, then you can read its markdown equivalent.
+When llms.txt is enabled, pages are also readable in markdown format if `.md` is added to the end of a URL. For example, if you visit this page with `.md` added to the end of its URL, then you can read its markdown equivalent:
 
 [https://docs.developerhub.io/support-center/llms-txt.md](https://docs.developerhub.io/support-center/llms-txt.md)
 
