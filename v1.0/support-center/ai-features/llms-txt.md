@@ -42,4 +42,3 @@ When llms.txt is enabled, pages are also readable in markdown format if `.md` is
 ## Limitations of llms.txt support
 
 - We only support `llms.txt` for now. `llms-full.txt` is not supported yet.
-- API references are not yet added to `llms.txt`.
