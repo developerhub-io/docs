@@ -140,3 +140,7 @@ GitHub sync is a work-in-progress. At the moment, the following is not possible:
 - Project settings are not synced yet.
 
 For any requirements, please [contact us](/support-center/contact-us).
+
+## Uninstalling GitHub Sync
+
+To uninstall GitHub sync, you should remove the application `DeveloperHub - Sync` from your GitHub application settings. Depending on the installation, it could be under your personal GitHub application settings or under the organisation GitHub application settings. Once the application is removed, the GitHub connection would be freed from %product%'s side automatically.
