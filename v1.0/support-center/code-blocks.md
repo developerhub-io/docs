@@ -303,7 +303,7 @@ You may use the widely adopted keyboard shortcuts in a code block to expand or c
 - Expand: {% key key="Ctrl" /%} + {% key key="I" /%}
 - Collapse: {% key key="Ctrl" /%} + {% key key="Y" /%}
 
-### Show Line Numbers
+## Show Line Numbers
 
 There are two ways to show line numbers:
 
@@ -375,3 +375,7 @@ See the following code blocks for examples:
     }
 {% /tab %}
 {% /code %}
+
+## Line Wrapping
+
+By default, code block lines wrap unless a line exceeds 120 characters or the view is in mobile mode. However, you have the option to enable or disable line wrapping as needed.
