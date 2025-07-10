@@ -27,7 +27,7 @@ Learn how to use %product% in our step-by-step guide:
           title="How to Edit and Publish Updates in DeveloperHub Documentation" 
           frameborder="0" loading="lazy" 
           webkitallowfullscreen mozallowfullscreen allowfullscreen 
-          allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" 
+          allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 500px; color-scheme: light;" 
           onload="window.postMessage('resize', '*')" ></iframe>
 </div><!--ARCADE EMBED END-->
 {% /html %}
