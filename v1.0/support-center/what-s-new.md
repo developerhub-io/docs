@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 10 Jul
+
+- {% badge type="success" text="New" /%} **Code Block**: Lines wrap automatically when a line exceeds 120 characters. Added an option to disable or enable line wrapping per code block.
+
 ### 7 Jul
 
 - {% badge type="success" text="New" /%} **API Key**: API keys can be cloned and renewed.
