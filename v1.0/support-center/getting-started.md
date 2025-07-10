@@ -22,12 +22,12 @@ Learn how to use %product% in our step-by-step guide:
 
 {% html %}
 <!--ARCADE EMBED START-->
-<div style="position: relative; padding-bottom: calc(56.22254758418741% + 41px); height: 0; width: 100%;">
+<div style="position: relative; height: 0; width: 100%;">
   <iframe src="https://demo.arcade.software/mXfTOZfQRMMXPJIqWjzp?embed&embed_mobile=tab&embed_desktop=tab&show_copy_link=true" 
           title="How to Edit and Publish Updates in DeveloperHub Documentation" 
           frameborder="0" loading="lazy" 
           webkitallowfullscreen mozallowfullscreen allowfullscreen 
-          allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; color-scheme: light;" 
+          allow="clipboard-write" style="position: absolute; top: 0; left: 0; width: 100%; height: 500px; color-scheme: light;" 
           onload="window.postMessage('resize', '*')" ></iframe>
 </div><!--ARCADE EMBED END-->
 {% /html %}
