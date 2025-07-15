@@ -30,7 +30,7 @@ Single-sourcing tool to write content once and use it multiple times
 {% card title="Tabs" link="/support-center/tabs" %}
 Split content into multiple tabs for ease of reading
 {% /card %}
-{% card title="Custom HTML" link="https://example.com" %}
+{% card title="Custom HTML" link="/support-center/custom-html" %}
 Add anything to the page. Anything at all!
 {% /card %}
 {% /cards %}
