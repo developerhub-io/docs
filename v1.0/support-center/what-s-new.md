@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 15 Jul
+
+- {% badge type="success" text="New" /%} **Cards**: [auto$](/support-center/cards) block available to highlight and link to main pages.
+
 ### 10 Jul
 
 - {% badge type="success" text="New" /%} **Code Block**: Lines wrap automatically when a line exceeds 120 characters. Added an option to disable or enable line wrapping per code block.
