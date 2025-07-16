@@ -23,6 +23,15 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 - {% badge type="success" text="New" /%} **Cards**: [auto$](/support-center/cards) block available to highlight and link to main pages.
 
+{% cards %}
+{% card title="Getting Start" link="/support-center/getting-started" %}
+This goes to the start
+{% /card %}
+{% card title="Cards" link="/support-center/cards" %}
+See the docs about cards
+{% /card %}
+{% /cards %}
+
 ### 10 Jul
 
 - {% badge type="success" text="New" /%} **Code Block**: Lines wrap automatically when a line exceeds 120 characters. Added an option to disable or enable line wrapping per code block.
