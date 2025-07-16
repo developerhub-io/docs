@@ -19,11 +19,15 @@ To create a card layout:
 
 - Select Cards.
 
-A card layout can fit in its width a maximum of 3 cards. Each card has a title, text and link. The link can be internal or external. Internal links should look like `/support-center/cards`, `/api`, or `/custom-page` and should not include the project's basepath or the version.
+You can switch between a grid and list layout by clicking the {% icon classes="fas fa-eye" /%} icon at the top right.
+
+When in grid layout, the card layout can fit in its width a maximum of 3 cards. When in list layout, each card takes the entire width.
+
+Each card has a title, text and link. The link can be internal or external. Internal links should look like `/support-center/cards`, `/api`, or `/custom-page` and should not include the project's basepath or the version.
 
 ## Cards Example
 
-{% cards %}
+{% cards view="grid" %}
 {% card title="Synced Blocks" link="/support-center/synced-blocks" %}
 Single-sourcing tool to write content once and use it multiple times
 {% /card %}
