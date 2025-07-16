@@ -12,9 +12,17 @@ tags:
 
 %product% makes hosting a breeze for you. We offer multiple ways in which you can have your docs hosted:
 
-- On a [subdomain](/support-center/project-settings#changing-subdomain) of %product%, such as `pied-piper.developerhub.io`.
-- On an unused [custom domain](/support-center/using-custom-domain) that you own, such as `docs.pied-piper.com`.
-- Under [your existing website](/support-center/hosting#hosting-under-an-existing-website), such as `pied-piper.com/docs`.
+{% cards %}
+{% card title="Custom Domain" link="/support-center/using-custom-domain" %}
+Host on your own domain, such as docs.pied-piper.com
+{% /card %}
+{% card title="Under a Path" link="/support-center/hosting#hosting-under-an-existing-website" %}
+Host under a path, such as pied-piper.com/docs
+{% /card %}
+{% card title="Subdomain" link="/support-center/project-settings#changing-subdomain" %}
+Under our domain, such as pied-piper.developerhub.io
+{% /card %}
+{% /cards %}
 
 You can also host multiple projects on the same site.
 
