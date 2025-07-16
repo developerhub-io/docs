@@ -19,11 +19,11 @@ To create a card layout:
 
 - Select Cards.
 
-You can switch between a grid and list layout by clicking the {% icon classes="fas fa-eye" /%} icon at the top right.
+You can switch between a grid and list layout by clicking the {% icon classes="fas fa-eye" /%} icon at the top right. When in grid layout, the card layout can fit in its width a maximum of 3 cards. When in list layout, each card takes the entire width.
 
-When in grid layout, the card layout can fit in its width a maximum of 3 cards. When in list layout, each card takes the entire width.
+To create a new card, click on the {% icon classes="fas fa-plus" /%} icon to the left of the card layout.
 
-Each card has a title, text and link. The link can be internal or external. Internal links should look like `/support-center/cards`, `/api`, or `/custom-page` and should not include the project's basepath or the version.
+Each card has a title, text and link which can be set up by clicking the {% icon classes="fas fa-ellipsis-v" /%}on the card. The link can be internal or external. Internal links should look like `/support-center/cards`, `/api`, or `/custom-page` and should not include the project's basepath or the version.
 
 ## Cards Example
 
