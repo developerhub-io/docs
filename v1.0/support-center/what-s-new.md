@@ -14,6 +14,11 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 16 Jul
+
+- {% badge type="info" text="Improvement" /%} **Cards**: Further improvements to usability and keyboard shortcuts.
+- {% badge type="error" text="Bug Fix" /%} **Editor**: Better handling when backspace is pressed at start of a list.
+
 ### 15 Jul
 
 - {% badge type="success" text="New" /%} **Cards**: [auto$](/support-center/cards) block available to highlight and link to main pages.
