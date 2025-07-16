@@ -56,6 +56,35 @@ Using %product% all you have to do is to write your content. No coding, no desig
 - Where you edit your documentation looks the same as the live documentation. You never have to guess how it will look like when it's published 👍
 - We take customisation to the next level. Completely modify the look by changing [global CSS](/support-center/custom-css) and injecting [javascript](/support-center/custom-javascript).
 
+Explore more below:
+
+{% cards %}
+{% card title="First Steps" link="/support-center/first-steps" %}
+Signing up
+{% /card %}
+{% card title="Formatting Text" link="/support-center/formatting-text" %}
+All formatting options
+{% /card %}
+{% card title="Blocks" link="/support-center/blocks" %}
+Rich native elements
+{% /card %}
+{% card title="Hosting" link="/support-center/hosting" %}
+Options for hosting the docs
+{% /card %}
+{% card title="Customisation" link="/support-center/customising-visuals" %}
+Logo, font, colours, CSS
+{% /card %}
+{% card title="API References" link="/support-center/api-references" %}
+OpenAPI viewer and editor, with API playground
+{% /card %}
+{% card title="Importing Documentation" link="/support-center/importing-documentation" %}
+Migrating docs
+{% /card %}
+{% card title="AI Features" link="/support-center/ai-features" %}
+AI writer, AI search...
+{% /card %}
+{% /cards %}
+
 ---
 
 Our team has been working so hard since December 2017 to craft the best possible experience for you to enjoy writing documentation, without any hassles. Our editor is specifically designed to give you the same exact experience of the live documentation while editing, so you never have to worry about how would it look after publishing it. Our engineers have made sure that you get the smoothest experience editing and also viewing your documentation.
