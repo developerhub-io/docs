@@ -15,6 +15,7 @@ tags:
 - [Pages](/support-center/managing-pages)
 - [Sub-Pages](/support-center/managing-pages#adding-subpage)
 - [Categories](/support-center/categories)
+- [Labels](/support-center/categories#labels)
 - [auto$](/support-center/code-steps)
 - [Links](/support-center/external-links)
 - [Separators](/support-center/categories#separators)
