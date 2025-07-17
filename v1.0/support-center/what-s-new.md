@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 17 Jul
+
+- {% badge type="success" text="New" /%} **Labels**: New index item ["Label"](/support-center/categories#labels) to add text and group page.
+
 ### 16 Jul
 
 - {% badge type="info" text="Improvement" /%} **Cards**: Further improvements to usability and keyboard shortcuts.
@@ -23,7 +27,7 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 - {% badge type="success" text="New" /%} **Cards**: [auto$](/support-center/cards) block available to highlight and link to main pages.
 
-{% cards %}
+{% cards view="grid" %}
 {% card title="Getting Start" link="/support-center/getting-started" %}
 This goes to the start
 {% /card %}
