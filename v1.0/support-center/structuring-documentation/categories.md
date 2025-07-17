@@ -12,7 +12,7 @@ tags:
 
 Categories make it easier to segment your documentation. You can see an example of categories on the left hand-side, such as "Start Here".
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1547502201/6763/lrngsvnjrtqrplm6wrnl.png" caption="Categories example" mode="set" height="279.875" width="282" %}
+{% image url="https://res.cloudinary.com/developerhub/image/upload/v1547502201/6763/lrngsvnjrtqrplm6wrnl.png" caption="Categories example" mode="set" height="528" width="282" %}
 {% /image %}
 
 ## Adding Categories
@@ -54,3 +54,7 @@ Categories are only top-level elements in the index.
 ## Separators
 
 Separators act as a divider between a category and other index items. For example, if you wish to provide links below a category, but not in the category itself, then you can add a separator to allow the links to be top-level items.
+
+## Labels
+
+Labels are just like categories, but they do not really contain the pages under them, thus they do not expand nor collapse. Literally, they're just pieces of text you can add to the index to group pages.
