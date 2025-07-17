@@ -17,6 +17,7 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 ### 17 Jul
 
 - {% badge type="success" text="New" /%} **Labels**: New index item ["Label"](/support-center/categories#labels) to add text and group page.
+- {% badge type="error" text="Bug Fix" /%} **Import**: Multiple bug fixes to importing projects.
 
 ### 16 Jul
 
