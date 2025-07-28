@@ -497,3 +497,22 @@ function applyFadingEdge(scrollEl, el) {
 }
 {% /tab %}
 {% /code %}
+
+## Redirect to Documentation in Latest Version
+
+If you wish for a documentation to only be view-able in the latest version, add the following Custom HEAD tags:
+
+{% code %}
+{% tab language="html" %}
+<script>
+document.addEventListener("onsectionchange", event => {
+  const version = window.getActiveVersion();
+  const section = window.getActiveSection();
+  if (section.type === 'documentation' && section.slug !== 'example-slug' && !version.isLatest) {
+    const page = window.getActivePage();
+    navigate('/' + section.slug + '/' + page.slug, {addBasePath: true});
+  }
+});
+</script>
+{% /tab %}
+{% /code %}
