@@ -26,7 +26,7 @@ We cache new SEO results every 7 days.
 
 Our pages rank at 100% using Google's Lighthouse SEO test:
 
-{% image url="https://uploads.developerhub.io/prod/02/tkxojqodsrgjtvcg92sum06d8yffmxpq0n02kbwiekx8chtdwa9qv8rslva99krk.png" caption="Google's Lighthouse SEO test on our pages" mode="600" height="1456" width="1724" %}
+{% image url="https://uploads.developerhub.io/prod/02/tkxojqodsrgjtvcg92sum06d8yffmxpq0n02kbwiekx8chtdwa9qv8rslva99krk.png" caption="Google's Lighthouse SEO test on our pages" mode="600" height="1456" width="600" %}
 {% /image %}
 
 Furthermore, links are unfurled in external applications like Slack.
@@ -62,7 +62,7 @@ To add META tags to provide more custom SEO options, descriptions, images and so
 
 ### SEO software suite shows that all pages are empty
 
-%product% renders the pages differently to actual readers vs. bots. These bots includes indexing spiders, site verification bots, SEO software spiders, etc...
+%product% renders the pages differently to actual readers vs. bots. These bots includes indexing spiders, site verification bots, SEO software spiders, AI agents, etc...
 
 To view how a bot sees a page add `?_escaped_fragment_=` to the end of a URL. For example, if your page had the link `https://docs.developerhub.io/support-center/getting-started`, then the bot sees the page as `https://docs.developerhub.io/support-center/getting-started?_escaped_fragment_=`.
 
