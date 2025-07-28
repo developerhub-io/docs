@@ -14,6 +14,11 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 28 Jul
+
+- {% badge type="success" text="New" /%} **Index**: Index can be as hierarchical as needed. Pages can grand-grand-grand father other pages.
+- {% badge type="warning" text="CSS Changes" /%} **Index**: Index chevron icon is moved to the right and the margins are changed. We've pinned the frontend deployment application for some projects to DeveloperHub version from 24th of July 2025.
+
 ### 17 Jul
 
 - {% badge type="success" text="New" /%} **Labels**: New index item ["Label"](/support-center/categories#labels) to add text and group page.
