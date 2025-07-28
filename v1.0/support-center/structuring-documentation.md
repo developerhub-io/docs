@@ -13,7 +13,6 @@ tags:
 %product% documentation index contains six elements:
 
 - [Pages](/support-center/managing-pages)
-- [Sub-Pages](/support-center/managing-pages#adding-subpage)
 - [Categories](/support-center/categories)
 - [Labels](/support-center/categories#labels)
 - [auto$](/support-center/code-steps)
@@ -31,8 +30,8 @@ To re-order an element far away in the index, you can either:
 
 ## Index Depth
 
-Index can be three level deep at most. Categories as top-level elements can hold parent pages, and parent pages can hold sub-pages. A sub-page cannot have subpages of its own.
+Index can be as hierarchical as needed. Categories and separators are top-level elements. All other elements can be placed as parent or child elements.
 
-{% callout type="success" title="But why?" %}
-A deeper documentation index makes it harder for the reader to find the information they need. A flatter hierarchy provides an easier navigation experience. Remember that complex lengthy subjects can be extracted into separate [documentation](/support-center/managing-documentation). Also, making categories [collapse](/support-center/documentation-settings#collapsible-categories) helps in decluttering the index.
+{% callout type="info" title="Info" %}
+We recommend keeping your documentation index as flat as possible. It's good UX!
 {% /callout %}
