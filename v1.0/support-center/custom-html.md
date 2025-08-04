@@ -49,7 +49,7 @@ For this mode, you can use inline styling. You should not add any `<body>` or `<
 
 ## iFrame in Custom HTML
 
-For security, when the HTML includes scripts, styles, head tags, or further iFrames, it is rendered in an iFrame inside the page. For example, such code would be rendered inside an iFrame:
+For security, when the HTML includes scripts or styles, it is rendered in an iFrame inside the page. For example, such code would be rendered inside an iFrame:
 
 {% code %}
 {% tab language="html" %}
