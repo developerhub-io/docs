@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 4 Aug
+
+- {% badge type="info" text="Improvement" /%} **Custom HTML**: HTML blocks that contain an iFrame no longer encapsulate around another iFrame.
+
 ### 28 Jul
 
 - {% badge type="success" text="New" /%} **Index**: Index can be as hierarchical as needed. Pages can grand-grand-grand father other pages. Also, the index is now MUCH faster 🚀
