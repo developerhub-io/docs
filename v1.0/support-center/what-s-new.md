@@ -14,6 +14,10 @@ See [Upcoming Features](/support-center/upcoming-features) to know what we're cu
 
 ## 2025 Updates
 
+### 21 Aug
+
+- {% badge type="success" text="New" /%} **Custom CSS**: Organisation owners can set organisation-wide CSS and select on which projects it applies within the organisation.
+
 ### 4 Aug
 
 - {% badge type="info" text="Improvement" /%} **Custom HTML**: HTML blocks that contain an iFrame no longer encapsulate around another iFrame.
