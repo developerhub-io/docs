@@ -27,3 +27,7 @@ You can now change the path and description of the changelog from its settings {
 ## Adding a Post
 
 To add a new post to the changelog, click on New Post. Each post has a label, a slug to be accessed from, and contents. The contents of a post are the same as documentation pages and can include any block.
+
+## RSS Feed
+
+Changelogs can be subscribed to through an RSS feed. This enables users to remain up-to-date with all the new posts.
