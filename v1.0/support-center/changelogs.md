@@ -10,4 +10,4 @@ keywords:
 tags: 
 ---
 
-$link[page,314242,markdoc format,changelog]
+$link[page,314242,markdoc format]
