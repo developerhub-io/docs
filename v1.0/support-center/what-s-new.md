@@ -1,7 +1,7 @@
 ---
 type: page
 title: What's New (2025)
-listed: true
+listed: false
 slug: what-s-new
 description: 
 index_title: What's New (2025)
