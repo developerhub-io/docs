@@ -39,7 +39,7 @@ To setup JWT login on %product%, follow these steps:
 4. Provide a login URL, read more about [login URL](/support-center/private-docs#using-login-url) here.
 5. Click Save.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1627247198/v2_1/hxpx3ftravzsheerfkrd.png" mode="responsive" height="966" width="1436" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/hxpx3ftravzsheerfkrd/1627247198.png" mode="responsive" height="966" width="1436" %}
 {% /image %}
 
 ## Signing JWT

@@ -18,19 +18,19 @@ To ensure that your documentation is of high quality, up-to-date, and brings the
 
 When enabled, a question at the bottom of each page would show asking if the page was helpful. The reader may respond with a {% icon classes="far fa-thumbs-up" /%} Yes or a {% icon classes="far fa-thumbs-down" /%} No, which may be followed by a prompt to add a message to explain their feedback.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1619385559/v2_1/no1zhgofia3ampndzvas.jpg" caption="Feedback prompt" mode="responsive" height="504" width="1016" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/no1zhgofia3ampndzvas/1619385559.jpg" caption="Feedback prompt" mode="responsive" height="504" width="1016" %}
 {% /image %}
 
 ## Where can I find the received Feedback?
 
 Feedback can be observed on two levels: Page and project. When a page is liked or disliked, you can view the average sentiment of the page on the right sidebar. You can also see the sentiment log over time, as well as the messages that you received for that page. You may mark the message as read.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1619735382/v2_1/pewivgxetdeaq1cqmwkk.jpg" mode="responsive" height="676" width="783" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/pewivgxetdeaq1cqmwkk/1619735382.jpg" mode="responsive" height="676" width="783" %}
 {% /image %}
 
 Also, in the [dashboard](/support-center/dashboard), you are also able to see the sentiment for the project against time, as well as all the unread messages. Furthermore, you will find in the dashboard a list of the most liked pages as well as the least liked pages. You can use this information to apply the good documentation style applied in most likes pages into the least liked pages, and analyse the messages to learn how to make the pages better.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1619735374/v2_1/a5abqfsjuvjvqpoytnms.jpg" mode="responsive" height="969" width="993" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/a5abqfsjuvjvqpoytnms/1619735374.jpg" mode="responsive" height="969" width="993" %}
 {% /image %}
 
 Feedback can be marked as spam by anyone on the team. Feedback marked as spam would be minimised in the feedback dashboard. Spam feedback would not show up under the feedback sidebar of a page. Spam feedback does not count into any statistics nor would they be sent through our notification channels. You could also use [an automatic spam filter](/support-center/feedback#feedback-spam-filter).
@@ -41,7 +41,7 @@ If you have a [Slack](/support-center/slack) channel connected to your project, 
 
 We send out the notifications every hour.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1619735477/v2_1/uhqm7he9lhdqd8qt4vxb.jpg" mode="responsive" height="200" width="391" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/uhqm7he9lhdqd8qt4vxb/1619735477.jpg" mode="responsive" height="200" width="391" %}
 {% /image %}
 
 ## Feedback Spam Filter

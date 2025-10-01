@@ -12,7 +12,7 @@ tags:
 
 Supercharged plan users can integrate %product% with Intercom to communicate with their users and to add a docs search widget in their messenger home.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1539432578/5969/zqyhywd6ogykwn2xrrau.png" mode="300" height="1330" width="1500" %}
+{% image url="https://image-archive.developerhub.io/image/upload/5969/zqyhywd6ogykwn2xrrau/1539432578.png" mode="300" height="1330" width="1500" %}
 {% /image %}
 
 ## Setting up Intercom
@@ -24,7 +24,7 @@ Supercharged plan users can integrate %product% with Intercom to communicate wit
 Intercom widget will now show on your published documentation.
 {% /callout %}
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1539432510/5969/duevquzhwvpwpamdzhfm.png" mode="600" height="1252" width="1970" %}
+{% image url="https://image-archive.developerhub.io/image/upload/5969/duevquzhwvpwpamdzhfm/1539432510.png" mode="600" height="1252" width="1970" %}
 {% /image %}
 
 ## Adding Search Widget

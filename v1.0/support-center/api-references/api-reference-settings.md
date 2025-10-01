@@ -54,7 +54,7 @@ If your API Reference is dense, loading thousands of items could be slow. To opt
 
 When tags are allowed to expand, the tag with its description would show, alongside an table of all the operations available under this tag. Also, a button to "Show" the operations will appear.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1612663200/v2_1/zw6p9hmb6rhrzfgiznpf.png" mode="responsive" height="489" width="1410" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/zw6p9hmb6rhrzfgiznpf/1612663200.png" mode="responsive" height="489" width="1410" %}
 {% /image %}
 
 ## Allow Index to Collapse

@@ -23,7 +23,7 @@ When using global search, one project will be assigned to be a global project. T
 
 When using column search, searching on one project will search on multiple projects and show the results divided in different columns in the search result box. This works best for organisations with two or three projects maximum.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1631619633/v2_1/eph4ar8ixffemvvpqoyd.png" mode="responsive" height="930" width="1498" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/eph4ar8ixffemvvpqoyd/1631619633.png" mode="responsive" height="930" width="1498" %}
 {% /image %}
 
 When using column search, we can specify which exact version and section to search in.

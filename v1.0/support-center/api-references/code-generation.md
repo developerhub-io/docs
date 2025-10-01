@@ -12,7 +12,7 @@ tags:
 
 An example request is generated for each operation. The example request helps your developers integrate your services faster by providing them boilerplate code for calling the operation. See how it works on our [API References](/v1.0/api/ref).
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1563746195/17882/qj5fooyfkcvqp2pur2ao.png" mode="600" height="308" width="627" %}
+{% image url="https://image-archive.developerhub.io/image/upload/17882/qj5fooyfkcvqp2pur2ao/1563746195.png" mode="600" height="308" width="627" %}
 {% /image %}
 
 ## Available Libraries

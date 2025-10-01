@@ -64,7 +64,7 @@ While configuring SSO, use `EMAIL` Name ID format with `Basic Information > Prim
 
 The attributes for Google SSO must look as follows:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1621016202/v2_1/uj1k8qntxsf2bq5ahttj.jpg" mode="responsive" height="528" width="1175" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/uj1k8qntxsf2bq5ahttj/1621016202.jpg" mode="responsive" height="528" width="1175" %}
 {% /image %}
 
 ### Okta SSO
@@ -73,7 +73,7 @@ While configuring SSO, use Name ID format `EmailAddress` and Application usernam
 
 The attributes for Okta SSO must look as follows:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1621016253/v2_1/ygliplh25qaaysj5jzm2.jpg" mode="responsive" height="300" width="702" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/ygliplh25qaaysj5jzm2/1621016253.jpg" mode="responsive" height="300" width="702" %}
 {% /image %}
 
 ## Configuration

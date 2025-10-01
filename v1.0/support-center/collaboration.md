@@ -66,7 +66,7 @@ If they are not already a user, an e-mail message will be sent to the e-mail add
 
 If they are already a user, an e-mail message will be sent to their e-mail address to notify them that they can collaborate on this project. They will be automatically added and no prompt is required from them.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1598785884/1253/e5ol2cjcrgu1fxwni98j.png" mode="responsive" height="532" width="618" %}
+{% image url="https://image-archive.developerhub.io/image/upload/1253/e5ol2cjcrgu1fxwni98j/1598785884.png" mode="responsive" height="532" width="618" %}
 {% /image %}
 
 ## Remove a Teammate

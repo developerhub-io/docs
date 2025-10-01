@@ -12,7 +12,7 @@ tags: inline-blocks
 
 Project Variables help you label parts of your documentation that are repetitive, to be able to change them centrally in one place. It also allows you to [personalise](/support-center/personalised-docs) the documentation for your readers.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1570989659/20816/ivlyuncbuan72p02gv9m.png" mode="600" height="1360" width="1600" %}
+{% image url="https://image-archive.developerhub.io/image/upload/20816/ivlyuncbuan72p02gv9m/1570989659.png" mode="600" height="1360" width="1600" %}
 {% /image %}
 
 For example, you might want all of API reference to use the latest version in their example requests. Without variables, you would need to upload a new reference containing changes to each example request every time you update the version.

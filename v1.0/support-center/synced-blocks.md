@@ -26,7 +26,7 @@ To create a synced block:
     - **Title:** Select a title that accurately represents the content, making it easy for your teammates to locate. Note that the title is editable and can be changed later.
     - **The contents:** Utilise the editor to compose the contents of the synced block. These contents are flexible and can be modified later. Feel free to include any [blocks](/support-center/blocks) that are already supported in %product%.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1637268467/v2_1/itgncmmhvfhnqhspyiqk.gif" mode="responsive" height="986" width="1580" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/itgncmmhvfhnqhspyiqk/1637268467.gif" mode="responsive" height="986" width="1580" %}
 {% /image %}
 
 ## Reuse a Synced Block
@@ -40,14 +40,14 @@ To reuse a synced block:
 - Select the synced block you want to reuse, or search for it first.
 - Click on Choose.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1637268820/v2_1/clvzrwd0iaap0ssxtzdd.gif" mode="responsive" height="986" width="1580" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/clvzrwd0iaap0ssxtzdd/1637268820.gif" mode="responsive" height="986" width="1580" %}
 {% /image %}
 
 ## Identifying a Synced Block
 
 When you're in the editor, synced blocks will have a {% badge type="warning" text="Synced" /%} badge at the top right. Once you hover on a synced block, an orange dotted line will show what contents are exactly in the synced block.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1637269710/v2_1/yq1zxvfhyehbrrfvzyvd.jpg" mode="responsive" height="654" width="886" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/yq1zxvfhyehbrrfvzyvd/1637269710.jpg" mode="responsive" height="654" width="886" %}
 {% /image %}
 
 ## Editing a Synced Block

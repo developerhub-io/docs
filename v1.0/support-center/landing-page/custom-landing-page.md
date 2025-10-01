@@ -19,7 +19,7 @@ tags: customisation
 
 If you wish to have more control and branding over your landing page, you may use HTML, CSS and Javascript to craft a custom landing page.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1586529385/27830/giywcgidtrajyrzmqrih.jpg" caption="Our Custom Landing Page" mode="responsive" height="1189" width="1501" %}
+{% image url="https://image-archive.developerhub.io/image/upload/27830/giywcgidtrajyrzmqrih/1586529385.jpg" caption="Our Custom Landing Page" mode="responsive" height="1189" width="1501" %}
 {% /image %}
 
 ## Use Custom Landing Page
@@ -50,7 +50,7 @@ This also apply to `<style>`. All styles should be moved to [Custom CSS](/suppor
 
 ## Crafting a Landing Page
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1586528975/27830/dpvldj3gudm4i4lokx8j.jpg" mode="responsive" height="507" width="914" %}
+{% image url="https://image-archive.developerhub.io/image/upload/27830/dpvldj3gudm4i4lokx8j/1586528975.jpg" mode="responsive" height="507" width="914" %}
 {% /image %}
 
 When customising the landing page, you may enter HTML that will be inserted asynchronously in your landing page.

@@ -326,7 +326,7 @@ For example:
 See the following code blocks for examples:
 
 {% code %}
-{% tab language="php" title="Lines 7-13" highlightLines="7-13" showLineNumbers="1" %}
+{% tab language="php" title="Lines 7-13" highlightLines="7-13" showLineNumbers="true" %}
 /** Returns a stripped Markdown
      * @param $html
      * @return string
@@ -342,7 +342,7 @@ See the following code blocks for examples:
         return $converter->convert($html);
     }
 {% /tab %}
-{% tab language="php" title="Lines 1-6,14" highlightLines="1-6,14" showLineNumbers="1" %}
+{% tab language="php" title="Lines 1-6,14" highlightLines="1-6,14" showLineNumbers="true" %}
 /** Returns a stripped Markdown
      * @param $html
      * @return string
@@ -358,7 +358,7 @@ See the following code blocks for examples:
         return $converter->convert($html);
     }
 {% /tab %}
-{% tab language="php" title="Lines 7,9,11,13" highlightLines="7,9,11,13" showLineNumbers="1" %}
+{% tab language="php" title="Lines 7,9,11,13" highlightLines="7,9,11,13" showLineNumbers="true" %}
 /** Returns a stripped Markdown
      * @param $html
      * @return string

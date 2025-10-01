@@ -12,7 +12,7 @@ tags:
 
 Adding comments to pages and references is a useful way to record additional details, and collaborate with team members. Comments are shown in the Activity right sidebar.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1576446803/-1/qmtyjvhkftuvdhqfsjhq.png" mode="set" height="347.765625" width="402" %}
+{% image url="https://image-archive.developerhub.io/image/upload/-1/qmtyjvhkftuvdhqfsjhq/1576446803.png" mode="set" height="347.765625" width="402" %}
 {% /image %}
 
 ## Why to use Comments?

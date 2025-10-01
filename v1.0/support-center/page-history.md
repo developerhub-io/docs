@@ -12,7 +12,7 @@ tags:
 
 Supercharged plans can view and go back to older versions of each page.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1612105931/v2_1/rrv8kcxakxzxbjqif6qb.png" mode="responsive" height="985" width="1751" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/rrv8kcxakxzxbjqif6qb/1612105931.png" mode="responsive" height="985" width="1751" %}
 {% /image %}
 
 ## View and Revert Edit History
@@ -50,7 +50,7 @@ If you are currently writing a draft, and you need to review the changes since p
 - Select Page Info {% icon classes="fas fa-file-alt inv-icon" /%} from the right sidebar.
 - Next to Edit History, click on Compare With Published.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1612106730/v2_1/jhlohkfins1clwbt5tkt.png" mode="responsive" height="164" width="339" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/jhlohkfins1clwbt5tkt/1612106730.png" mode="responsive" height="164" width="339" %}
 {% /image %}
 
 All edits since last published edit will be merged and showed.

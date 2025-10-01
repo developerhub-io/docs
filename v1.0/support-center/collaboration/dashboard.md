@@ -12,7 +12,7 @@ tags:
 
 Dashboard is where every teammate should start their day.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1610490963/87583/xwemjvlkx6tv1xcipqqd.jpg" mode="full" height="1016" width="1679" %}
+{% image url="https://image-archive.developerhub.io/image/upload/87583/xwemjvlkx6tv1xcipqqd/1610490963.jpg" mode="full" height="1016" width="1679" %}
 {% /image %}
 
 ## What is in the Dashboard?

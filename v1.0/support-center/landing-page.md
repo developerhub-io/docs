@@ -17,7 +17,7 @@ There are two types of Landing Pages:
 - Main landing page: The page that lives at the root `/` of the docs site.
 - Other landing pages: Pages that live on other paths. Other landing pages can be designated as 404 pages.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1554047902/-1/qt0rs0duol5a8fekpbed.png" mode="responsive" height="709" width="1035" %}
+{% image url="https://image-archive.developerhub.io/image/upload/-1/qt0rs0duol5a8fekpbed/1554047902.png" mode="responsive" height="709" width="1035" %}
 {% /image %}
 
 ## Main Landing Page

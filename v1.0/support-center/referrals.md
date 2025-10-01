@@ -50,7 +50,7 @@ Changing your referral code will make your old referral code invalid.
 
 - Click on Refer Friends.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1535921585/1338/fmsepzgbnnah4ux9xsiy.png" mode="responsive" height="804" width="1036" %}
+{% image url="https://image-archive.developerhub.io/image/upload/1338/fmsepzgbnnah4ux9xsiy/1535921585.png" mode="responsive" height="804" width="1036" %}
 {% /image %}
 
 - On clicking OK, your referral code will be copied to your clipboard.

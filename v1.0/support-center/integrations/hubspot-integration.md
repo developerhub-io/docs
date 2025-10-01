@@ -12,7 +12,7 @@ tags:
 
 To add Hubspot Analytics integration to %product%, you must have a [plan](https://developerhub.io/pricing) with [](/support-center/custom-javascript) enabled.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1590850779/30375/whcrnufvfv8jrgmhigyn.png" mode="300" height="315" width="841" %}
+{% image url="https://image-archive.developerhub.io/image/upload/30375/whcrnufvfv8jrgmhigyn/1590850779.png" mode="300" height="315" width="841" %}
 {% /image %}
 
 ## Setting up Hubspot Analytics

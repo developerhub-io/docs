@@ -22,7 +22,7 @@ If you are on an enterprise plan, then we also provide reader authentication thr
 
 ## Comparison Between Different Methods
 
-{% table %}
+{% table widths="" %}
 | Method | Security Level | Ease of Access | Needs a Developer? | Usage | 
 | ---- | ---- | ---- | ---- | ---- | 
 | [Password](/support-center/private-docs#password-protect-set-up) | Weak. Your readers might leak the password. | Need to remember a password | No | Use to block out competitors and crawlers. | 
@@ -40,14 +40,14 @@ To set up password protection:
 - Go to your Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} from the sidebar.
 - Click on Make Private (or Manage Access).
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1627246980/v2_1/ngcyeblh95ndzy4j1oen.png" mode="set" height="814" width="448" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/ngcyeblh95ndzy4j1oen/1627246980.png" mode="set" height="814" width="448" %}
 {% /image %}
 
 - Choose Password.
 - Input the password.
 - Click on Save.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1627247025/v2_1/ywv2jwt5nl8qifyt9ewl.png" mode="responsive" height="1088" width="1424" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/ywv2jwt5nl8qifyt9ewl/1627247025.png" mode="responsive" height="1088" width="1424" %}
 {% /image %}
 
 {% callout type="success" title="Success" %}
@@ -56,7 +56,7 @@ Great, all the published pages of this project are now protected by a password
 
 To try it out, go to the live mode of your documentation. You will be presented with such a page.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1535064244/1375/mrc1g4xci0xhrfgb0foo.jpg" mode="responsive" height="1698" width="2276" %}
+{% image url="https://image-archive.developerhub.io/image/upload/1375/mrc1g4xci0xhrfgb0foo/1535064244.jpg" mode="responsive" height="1698" width="2276" %}
 {% /image %}
 
 Once a reader inputs the right password, they will continue to be logged in for 24 hours.
@@ -74,7 +74,7 @@ To share a link:
 - Open Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} 
 - Next to Manage Access, click on Share Link {% icon classes="fas fa-share-alt" /%} icon.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1627247140/v2_1/kavdyj1e0lxamqjwruyz.png" mode="set" height="790" width="478" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/kavdyj1e0lxamqjwruyz/1627247140.png" mode="set" height="790" width="478" %}
 {% /image %}
 
 - You can send invitations directly to your readers. Separate e-mail address by using commas.

@@ -12,7 +12,7 @@ tags:
 
 All users can integrate %product% with Slack to keep the team up-to-date with all changes in their developer hub.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1555452122/-1/xfknb3rnlegcsojsiomh.png" mode="responsive" height="531" width="1297" %}
+{% image url="https://image-archive.developerhub.io/image/upload/-1/xfknb3rnlegcsojsiomh/1555452122.png" mode="responsive" height="531" width="1297" %}
 {% /image %}
 
 ## What does the Integration do?

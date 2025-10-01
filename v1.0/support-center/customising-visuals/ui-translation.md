@@ -17,7 +17,7 @@ If you wish to change %product% UI  text that shows to your readers, which defau
 
 ## Which Text Can be Changed?
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1587679852/-1/njdbubhyvukyseiqn5dd.jpg" mode="responsive" height="724" width="1185" %}
+{% image url="https://image-archive.developerhub.io/image/upload/-1/njdbubhyvukyseiqn5dd/1587679852.jpg" mode="responsive" height="724" width="1185" %}
 {% /image %}
 
 All text on the UI that we provide that shows to your reader can be translated. This includes text in landing page, search, table of contents as well as the version and section pickers.

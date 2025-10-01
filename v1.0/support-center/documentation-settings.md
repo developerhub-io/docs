@@ -60,7 +60,7 @@ To enable your readers to see who updated the page last, and when was it updated
 - Next to the title, click on Settings {% icon classes="fas fa-cog" /%}
 - Change "Show page last updated?" to one of **Disabled**, **Date & author** or **Date only**.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1585424716/12016/fzm4ex8ao3vkbo84hlht.jpg" mode="responsive" height="443" width="839" %}
+{% image url="https://image-archive.developerhub.io/image/upload/12016/fzm4ex8ao3vkbo84hlht/1585424716.jpg" mode="responsive" height="443" width="839" %}
 {% /image %}
 
 ## Copy Documentation to Version

@@ -19,7 +19,7 @@ tags:
 
 What is the value of documentation that lacks the essential information your readers require? Search analytics serve as critical indicators, helping you determine whether your documentation effectively meets its intended purpose. By analysing these insights, you can make informed decisions to enhance your content, ensuring that it aligns with the needs of your audience.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1617450880/v2_1/cvzusewkow6v58vo8zat.png" mode="responsive" height="1092" width="1608" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/cvzusewkow6v58vo8zat/1617450880.png" mode="responsive" height="1092" width="1608" %}
 {% /image %}
 
 ## What is in Search Analytics?

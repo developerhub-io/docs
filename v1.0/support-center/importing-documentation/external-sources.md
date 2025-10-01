@@ -37,7 +37,7 @@ The maximum upload size is 5MB. Contact us if your documentation has a larger si
 
 To import documentation from any external sources into %product%, you must structure your files as such:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1537921431/-1/k6i9iufqnrhsxjnfnao2.png" mode="responsive" height="636" width="694" %}
+{% image url="https://image-archive.developerhub.io/image/upload/-1/k6i9iufqnrhsxjnfnao2/1537921431.png" mode="responsive" height="636" width="694" %}
 {% /image %}
 
 Where:

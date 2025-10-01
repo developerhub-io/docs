@@ -12,7 +12,7 @@ tags:
 
 %product% can integrate with your CI/CD pipelines to update pages and keep your references up to date.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1554055997/11500/pvyadjgik57ixpqzx9yi.png" mode="responsive" height="617" width="868" %}
+{% image url="https://image-archive.developerhub.io/image/upload/11500/pvyadjgik57ixpqzx9yi/1554055997.png" mode="responsive" height="617" width="868" %}
 {% /image %}
 
 ## Integrating with CI/CD

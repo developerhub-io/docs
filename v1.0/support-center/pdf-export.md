@@ -19,7 +19,7 @@ tags:
 
 If your readers cannot access the documentation online, then you can provide them with a PDF export of the documentation.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1629932270/v2_1/mjng2s29txxysurxggbt.png" mode="responsive" height="2202" width="3176" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/mjng2s29txxysurxggbt/1629932270.png" mode="responsive" height="2202" width="3176" %}
 {% /image %}
 
 ## How to export to PDF?

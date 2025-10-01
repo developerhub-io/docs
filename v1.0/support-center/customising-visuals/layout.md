@@ -21,7 +21,7 @@ Wide layout is the most common layout and is recommended.
 
 Minimal layout is for small documentation and does not show a table of contents. This is how it looks like:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1548529201/-1/utcqo1u0vkka5pda1deg.png" mode="600" height="2263" width="3558" %}
+{% image url="https://image-archive.developerhub.io/image/upload/-1/utcqo1u0vkka5pda1deg/1548529201.png" mode="600" height="2263" width="3558" %}
 {% /image %}
 
 ## Wide Layout
@@ -30,7 +30,7 @@ Wide layout is recommended for larger documentations with longer page content th
 
 It is the current layout of this documentation. This is how it looks like:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1548529206/-1/thy56y9ykprxo6x6gzl9.png" mode="600" height="2263" width="3558" %}
+{% image url="https://image-archive.developerhub.io/image/upload/-1/thy56y9ykprxo6x6gzl9/1548529206.png" mode="600" height="2263" width="3558" %}
 {% /image %}
 
 The wide layout features a table of contents which outlines all the headings that are available in the page, and provides a shortcut for navigating there. The table of contents only shows when the browser window width is greater than 1240px.
@@ -43,5 +43,5 @@ Each documentation can have a different layout, to change the layout:
 - Next to the title, click on Settings {% icon classes="fas fa-cog" /%}
 - Under Layout, choose the preferred layout.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1548530216/7272/j5kwdrxoeyis705yiapk.png" mode="responsive" height="927" width="758" %}
+{% image url="https://image-archive.developerhub.io/image/upload/7272/j5kwdrxoeyis705yiapk/1548530216.png" mode="responsive" height="927" width="758" %}
 {% /image %}

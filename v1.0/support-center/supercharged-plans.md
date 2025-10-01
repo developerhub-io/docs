@@ -19,7 +19,7 @@ Plans are subscribed to, and are paid for _per project per month_. To upgrade yo
 - Select Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar, and make sure that you have selected the correct project to upgrade. If not, then scroll down to the bottom of Project menu to change projects.
 - Below the Project Title, click Upgrade Plan {% icon classes="fas fa-arrow-up" /%}
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1543785748/-1/zf7cgnzlrxujfvl1htri.jpg" mode="responsive" height="410" width="678" %}
+{% image url="https://image-archive.developerhub.io/image/upload/-1/zf7cgnzlrxujfvl1htri/1543785748.jpg" mode="responsive" height="410" width="678" %}
 {% /image %}
 
 - A pop-up will show outlining every available plan's features. Select the plan you need.
@@ -35,7 +35,7 @@ To downgrade a project's supercharged plan:
 - Select Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar, and make sure that you have selected the correct project to downgrade. If not, then scroll down to the bottom of Project menu to change projects.
 - Below the Project Title, click Manage Plan {% icon classes="fas fa-sync-alt" /%}
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1634378875/v2_1/os5usd6hvprmmqidigmq.png" mode="responsive" height="115" width="356" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/os5usd6hvprmmqidigmq/1634378875.png" mode="responsive" height="115" width="356" %}
 {% /image %}
 
 - A pop-up will show outlining every available plan's features and the free plan. Select the plan you need, or the free plan to cancel your subscription.

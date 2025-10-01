@@ -12,7 +12,7 @@ tags:
 
 If you find yourself writing pages with the same format and structure, then you can use Templates to simplify your experience.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1633641714/v2_1/icwrscqph0zx0adj4x0n.jpg" mode="responsive" height="806" width="1136" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/icwrscqph0zx0adj4x0n/1633641714.jpg" mode="responsive" height="806" width="1136" %}
 {% /image %}
 
 By using Templates, you can make an already existing page into a template, so the same format and structure can be applied on new pages.
@@ -61,7 +61,7 @@ Note that all parts of the link before `?` are the exact same as any page link y
 
 Where `template_id` can be found when you are selecting a template at the top right corner:
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1637613403/v2_1/yjceftaraiarngmp3ztm.png" mode="responsive" height="578" width="1044" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/yjceftaraiarngmp3ztm/1637613403.png" mode="responsive" height="578" width="1044" %}
 {% /image %}
 
 ## Known Limitations

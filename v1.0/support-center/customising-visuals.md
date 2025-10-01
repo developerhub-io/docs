@@ -12,7 +12,7 @@ tags: customisation
 
 %product% supports the following customisations: [UI](/support-center/customising-visuals#changing-ui) , [CSS](/support-center/custom-css), [Footer](/support-center/custom-footer), [theme (dark mode)](/support-center/theme), [code theme](/support-center/code-theme), logos, header colour, link colour, font and navigation links.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1534309237/31/nh5qwt0x9vkkbolafw1z.png" mode="set" height="546" width="276" %}
+{% image url="https://image-archive.developerhub.io/image/upload/31/nh5qwt0x9vkkbolafw1z/1534309237.png" mode="set" height="546" width="276" %}
 {% /image %}
 
 ## Custom CSS and Footer
@@ -99,7 +99,7 @@ To change the font of the entire project:
 2. Under Customisation, edit the font.
 3. Choose from the list of Google Fonts available. The font will be previewed immediately in the current documentation.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1540594232/31/ieksywzrtjepcuiodwax.png" mode="responsive" height="718" width="1320" %}
+{% image url="https://image-archive.developerhub.io/image/upload/31/ieksywzrtjepcuiodwax/1540594232.png" mode="responsive" height="718" width="1320" %}
 {% /image %}
 
 {% callout type="warning" title="Automatic Saving" %}

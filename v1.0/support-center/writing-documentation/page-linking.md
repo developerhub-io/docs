@@ -28,7 +28,7 @@ When a page is linked inside a version:
 
 To create a link between pages, type `@` to open the pages selector.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1563223959/1546/tua5rsujdeohrkofuty3.gif" caption="Pages selector open" mode="600" height="490" width="640" %}
+{% image url="https://image-archive.developerhub.io/image/upload/1546/tua5rsujdeohrkofuty3/1563223959.gif" caption="Pages selector open" mode="600" height="490" width="640" %}
 {% /image %}
 
 A list of all pages under the version will be listed for you to choose from. Search through the list by typing down the page name or slug. To select a page, click on its name in the list. If you are selecting an API Reference, then you'll find the title of the API Reference.
@@ -43,7 +43,7 @@ After selecting the page, you will be prompted to change the link text (title) a
 
 **Note**: If you do not specify a title, then the title will _automatically_ update whenever the linked page title changes. For example, if you linked to page "Getting Started", and then you modified "Getting Started" page title into "Welcome", then the link text will automatically change to "Welcome".
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1587429308/1546/d9jvvlyjpxs6tmnwx5lq.jpg" caption="Changing link title and specifying heading" mode="responsive" height="303" width="760" %}
+{% image url="https://image-archive.developerhub.io/image/upload/1546/d9jvvlyjpxs6tmnwx5lq/1587429308.jpg" caption="Changing link title and specifying heading" mode="responsive" height="303" width="760" %}
 {% /image %}
 
 If you want to jump to a certain heading in a page, you can specify it. Start typing to find a heading in the page you selected, or click on the arrow to view all. Leaving **Heading** empty will default to jumping to the title of the page. The same goes for API references, where you can select a specific operation to jump to.
@@ -72,7 +72,7 @@ Analysing links helps you understand the links that are:
 
 If a link between pages or references is unreachable, then you will be notified below the page title of the link analysis results. Link analysis runs automatically every time a page loads.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1563224515/1546/rnl5toktxfjvgkf6tgeg.jpg" caption="Broken link notification" mode="responsive" height="1058" width="2268" %}
+{% image url="https://image-archive.developerhub.io/image/upload/1546/rnl5toktxfjvgkf6tgeg/1563224515.jpg" caption="Broken link notification" mode="responsive" height="1058" width="2268" %}
 {% /image %}
 
 ### Analyse Links for Entire Version
@@ -82,7 +82,7 @@ You can analyse all links in a version at once by:
 - In the sidebar, open Version {% icon classes="fas fa-code-branch inv-icon" /%}.
 - Click on Analyse Links.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1599091046/1546/dinsht9kadbxnmzigbyi.jpg" mode="responsive" height="321" width="720" %}
+{% image url="https://image-archive.developerhub.io/image/upload/1546/dinsht9kadbxnmzigbyi/1599091046.jpg" mode="responsive" height="321" width="720" %}
 {% /image %}
 
 ### View Broken Links in a Page
@@ -113,7 +113,7 @@ If you are planning to delete a page, or modify the page heavily, then you might
 - Click on Get Links {% icon classes="fas fa-search" /%}.
 - All links will be shown below, if any.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1623595658/v2_1/wmii4cnakmysjssaai4z.png" mode="responsive" height="380" width="331" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/wmii4cnakmysjssaai4z/1623595658.png" mode="responsive" height="380" width="331" %}
 {% /image %}
 
 ## Page Permalinks

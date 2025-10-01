@@ -12,14 +12,14 @@ tags:
 
 Supercharged plan users can integrate %product% with Google Analytics to track page views. You can use both Universal Analytics or Google Analytics 4 IDs.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1539432558/1046/boju4eyx10fx0mvgxbji.png" mode="300" height="1808" width="2388" %}
+{% image url="https://image-archive.developerhub.io/image/upload/1046/boju4eyx10fx0mvgxbji/1539432558.png" mode="300" height="1808" width="2388" %}
 {% /image %}
 
 ## Setting up Google Analytics
 
 - Click on Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar to access Google Analytics settings under Integrations for Customers.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1534309321/1046/dqi1osxednsypifmfm2u.png" mode="300" height="96" width="400" %}
+{% image url="https://image-archive.developerhub.io/image/upload/1046/dqi1osxednsypifmfm2u/1534309321.png" mode="300" height="96" width="400" %}
 {% /image %}
 
 - You should already have a property set up for the documentation subdomain on Google Analytics. 

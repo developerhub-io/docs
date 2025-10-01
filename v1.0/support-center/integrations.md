@@ -14,7 +14,7 @@ It is your documentation. You want it to work with you, to work for you.
 
 Add integrations to your project to be able to understand better how your users are using your documentation and your product, and to communicate with them.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1556179730/5968/xgjcnqlmkrta4zlhfj8e.jpg" mode="300" height="1615" width="2006" %}
+{% image url="https://image-archive.developerhub.io/image/upload/5968/xgjcnqlmkrta4zlhfj8e/1556179730.jpg" mode="300" height="1615" width="2006" %}
 {% /image %}
 
 ## Current Integrations
@@ -25,28 +25,28 @@ Add integrations to your project to be able to understand better how your users 
 
 [Google Analytics](/support-center/google-analytics) helps you better understand your customers by knowing how they navigate in your documentation.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1539432076/-1/t0glspycpulda3rdz6oh.png" mode="300" height="1808" width="2388" %}
+{% image url="https://image-archive.developerhub.io/image/upload/-1/t0glspycpulda3rdz6oh/1539432076.png" mode="300" height="1808" width="2388" %}
 {% /image %}
 
 ### Intercom
 
 [Intercom](/support-center/intercom) is a customer messaging app for sales, marketing and support.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1539432099/-1/ksd9pyxj4s1lnj0dcxyu.png" mode="300" height="1330" width="1500" %}
+{% image url="https://image-archive.developerhub.io/image/upload/-1/ksd9pyxj4s1lnj0dcxyu/1539432099.png" mode="300" height="1330" width="1500" %}
 {% /image %}
 
 ### Slack
 
 [Slack](/support-center/slack) is a team collaboration tool which replaces e-mail by putting everyone in your business on chat.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1556179928/5968/u8sxrekzwakciepzvbtf.png" mode="600" height="531" width="1297" %}
+{% image url="https://image-archive.developerhub.io/image/upload/5968/u8sxrekzwakciepzvbtf/1556179928.png" mode="600" height="531" width="1297" %}
 {% /image %}
 
 ### Localize
 
 [Localize](https://localizejs.com/) helps you translate all your docs to many languages, and ensuring that all doc translations are up-to-date. To enable this integration, see [localisation](/support-center/localisation#localise-using-localize).
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1621556168/v2_1/nfrsolb170tpefux40h7.png" mode="300" height="533" width="2032" %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/nfrsolb170tpefux40h7/1621556168.png" mode="300" height="533" width="2032" %}
 {% /image %}
 
 ## Custom Integrations

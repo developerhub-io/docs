@@ -17,7 +17,7 @@ tags:
 
 The search bar exists at the top of the pages to attract attention and give the readers the best experience possible.
 
-{% image url="https://res.cloudinary.com/developerhub/image/upload/v1544135843/1011/sbj62viuedt8qlcrhxqf.png" mode="responsive" height="335" width="734" %}
+{% image url="https://image-archive.developerhub.io/image/upload/1011/sbj62viuedt8qlcrhxqf/1544135843.png" mode="responsive" height="335" width="734" %}
 {% /image %}
 
 ### Look and Feel
