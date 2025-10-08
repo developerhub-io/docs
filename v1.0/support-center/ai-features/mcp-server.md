@@ -65,4 +65,7 @@ You can test out our own MCP server before enabling it on your docs. Let's take 
 
 - Save the file.
 - Toggle the AI pane {% key key="⌘" /%} + {% key key="I" /%}.
-- Ask the agent a question like "Search DeveloperHub docs for how to enable the MCP server".
+- Ask the agent a question like "Search DeveloperHub docs for how to add an image".
+
+{% image url="https://uploads.developerhub.io/prod/02/7z38mrq35ibpdzkkv3cxcjrehb3rlgqdl98qymu45brpn8y10wtgt4sbcdyqayyl.png" mode="responsive" height="943" width="1398" %}
+{% /image %}
