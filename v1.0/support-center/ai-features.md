@@ -20,6 +20,7 @@ The features are:
 - [auto$](/support-center/ai-search): Ask questions about the docs in natural language and receive GPT powered answers.
 - [auto$](/support-center/ai-commit-messages): Automatically annotate page histories.
 - [auto$](/support-center/ai-summarisation): Summarises pages to write a META description.
+- [auto$](/support-center/mcp-server): Connect AI applications with your docs.
 - [Feedback Spam Filter](/support-center/feedback#feedback-spam-filter): Filters spam in feedback messages automatically.
 - [Redact PII from Feedback](/support-center/feedback#redact-pii-from-feedback): Redacts personal identifiable information from feedback messages automatically.
 
