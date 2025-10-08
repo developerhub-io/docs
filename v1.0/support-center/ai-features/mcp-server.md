@@ -69,3 +69,9 @@ You can test out our own MCP server before enabling it on your docs. Let's take 
 
 {% image url="https://uploads.developerhub.io/prod/02/7z38mrq35ibpdzkkv3cxcjrehb3rlgqdl98qymu45brpn8y10wtgt4sbcdyqayyl.png" mode="responsive" height="943" width="1398" %}
 {% /image %}
+
+Or you can add it directly using this button:
+
+{% html %}
+<a href="https://cursor.com/install-mcp?name=DeveloperHub&config=eyJ1cmwiOiJodHRwczovL2RvY3MuZGV2ZWxvcGVyaHViLmlvL21jcCJ9"><img src="https://cursor.com/deeplink/mcp-install-light.svg" alt="Add DeveloperHub MCP server to Cursor" height="32" /></a>
+{% /html %}
