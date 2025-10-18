@@ -10,7 +10,7 @@ keywords:
 tags: blocks
 ---
 
-You can upload images to your pages by using the Images uploader, or by simply pasting into the page.
+You can upload images to your pages by using the Images uploader, or by simply pasting into the page. Your images are organised in the [auto$](/support-center/image-library), and can be re-used and centrally managed.
 
 On creating the image block, a file dialog to upload an image is shown. After selecting the image, it will be uploaded and served using a CDN (content delivery network) to ensure minimum latency to all of your users.
 
