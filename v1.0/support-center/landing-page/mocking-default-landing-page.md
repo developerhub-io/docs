@@ -17,7 +17,7 @@ In the auto-generated part, we should a card for every category in our Support C
 {% inline-image url="asset:2zx88kcpmcw5" width="523" mode="w100" /%}" %}
 {% step title="HTML" description="The HTML for the landing page is very simple. All it is shown is a heading and then a div with id `landing-cards` in which we will generate the cards." codeId="code-1" %}
 {% /step %}
-{% step title="Listening to \"oncardschanged\"" description="To show the cards, we can listen to an [event](/support-center/developer-tools#landing-page-cards-generated) called `oncardschanged`. This event is dispatched when the reader navigates to the landing page. The event details contain the information needed to generate the layout." codeId="eWJte" highlightLines="1,2,49,50" %}
+{% step title="Listening to \"oncardschanged\"" description="To show the cards, we can listen to an [event](/support-center/developer-tools#landing-page-cards-generated) called `oncardschanged`. This event is dispatched when the reader navigates to the landing page. The event details contain the information needed to generate the layout." codeId="eWJte" highlightLines="1-2,47-48" %}
 {% /step %}
 {% step title="Checking if we're on a landing page" description="Check if we're on a landing page as opposed to a custom page. (You could also implement the same thing on a custom page if needed)" codeId="eWJte" highlightLines="3-5" %}
 {% /step %}
@@ -93,6 +93,3 @@ In the auto-generated part, we should a card for every category in our Support C
 </script>
 {% /code %}
 {% /code-steps %}
-
-{% image url="asset:2zx88kcpmcw5" mode="responsive" height="312" width="523" %}
-{% /image %}
