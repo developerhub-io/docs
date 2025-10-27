@@ -17,7 +17,11 @@ With %product% you can edit your OpenAPI 2/3 definitions using our visual API ed
 
 ## OpenAPI Editor Features
 
-The OpenAPI Editor is a fully-featured visual web-based editor that supports OpenAPI versions 2.0, 3.0.0, 3.0.1, 3.0.2 and 3.0.3. (OpenAPI v3.1.0+ support is upcoming). It helps you build the schema of your OpenAPI reference without needing to know the ins and outs of the specification.
+The OpenAPI Editor is a fully-featured visual web-based editor that supports OpenAPI versions 2.0, 3.0.0, 3.0.1, 3.0.2 and 3.0.3. It helps you build the schema of your OpenAPI reference without needing to know the ins and outs of the specification.
+
+{% callout type="warning" title="Limitation" %}
+OpenAPI versions 3.1 and above are not supported in the OpenAPI visual editor. However, they can be uploaded, validated and added as API references for viewing on DeveloperHub.
+{% /callout %}
 
 ## Editing an API Definition
 
