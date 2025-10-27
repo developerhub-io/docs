@@ -25,7 +25,7 @@ Your beautiful API References consist of:
 - All available server URLs.
 - Authentication methods.
 - All the operations listed grouped by tags.
-- All webhooks (OAS 3.1).
+- All webhooks (OAS 3.1+).
 
 Every operation shows the following:
 
@@ -60,7 +60,7 @@ You can personalise your API references, so your readers do not have to fetch th
 
 ## Supported Specifications
 
-We support OpenAPI 2/3 (Swagger). We also support Webhooks in OAS 3.1. 
+We support OpenAPI 3.2, 3.1, 3.0 and OpenAPI 2.0 (legacy Swagger).
 
 ## File Type
 
