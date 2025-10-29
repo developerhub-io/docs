@@ -528,3 +528,35 @@ To add indentation under category, add the following to Custom CSS:
 }
 {% /tab %}
 {% /code %}
+
+## Move Search Bar to Landing Page Hero
+
+To move the search bar to a hero element with selector `.docs-hero-content` in the landing page, add the following to Custom HEAD tags:
+
+{% code %}
+{% tab language="html" %}
+<script>
+  let searchEl = null;
+  let originalSearchParent = null;
+
+  document.addEventListener("onsectionchange", (event) => {
+    setupSearch(event.detail.type === 'landing-page');
+  });
+
+  function setupSearch(placeInHero) {
+    if (!searchEl) {
+      searchEl = document.querySelector('app-search');
+      originalSearchParent = searchEl.parentElement;
+    }
+
+    if (placeInHero) {
+      document.querySelector('.docs-hero-content').append(searchEl);
+    } else if (originalSearchParent) {
+      originalSearchParent.append(searchEl);
+    }
+  }
+</script>
+{% /tab %}
+{% /code %}
+
+If you're using Next UI, use `app-search-v2` instead of `app-search`.
