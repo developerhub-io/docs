@@ -12,7 +12,7 @@ tags:
 
 Supercharged plan users can integrate %product% with Intercom to communicate with their users and to add a docs search widget in their messenger home.
 
-{% image url="https://image-archive.developerhub.io/image/upload/5969/zqyhywd6ogykwn2xrrau/1539432578.png" mode="300" height="1330" width="1500" %}
+{% image url="https://image-archive.developerhub.io/image/upload/5969/zqyhywd6ogykwn2xrrau/1539432578.png" mode="300" height="1330" width="300" %}
 {% /image %}
 
 ## Setting up Intercom
@@ -24,7 +24,7 @@ Supercharged plan users can integrate %product% with Intercom to communicate wit
 Intercom widget will now show on your published documentation.
 {% /callout %}
 
-{% image url="https://image-archive.developerhub.io/image/upload/5969/duevquzhwvpwpamdzhfm/1539432510.png" mode="600" height="1252" width="1970" %}
+{% image url="https://image-archive.developerhub.io/image/upload/5969/duevquzhwvpwpamdzhfm/1539432510.png" mode="600" height="1252" width="600" %}
 {% /image %}
 
 ## Adding Search Widget
@@ -45,12 +45,17 @@ To add a %product% search widget to your messenger home, ensure that you first h
 - Choose %product%.
 - Change the card title if needed.
 
-{% image url="https://uploads.developerhub.io/prod/02/ww5likoo946tze098bo5ofusyp5wpvsd6uclposbspv3abs0gx9dy4mrp1rc8gip.png" mode="300" height="1700" width="1124" %}
+{% image url="https://uploads.developerhub.io/prod/02/ww5likoo946tze098bo5ofusyp5wpvsd6uclposbspv3abs0gx9dy4mrp1rc8gip.png" mode="300" height="1700" width="300" %}
 {% /image %}
 
 ## Changing Intercom Region or Settings
 
-To apply your own `intercomSettings`, including if you wish to change the data region, then you can do so using [auto$](/support-center/custom-javascript). Add a script tag that assigns the `intercomSettings` needed, such as:
+If Intercom widget is not showing after installing , check the DevTools console and network requests for error messages. Common issues include:
+
+- `Your workspace is hosted in Europe but you connected to United States` which shows when the widget is trying to connect to the wrong data region.
+- `This domain has not been trusted for the Intercom app defined in the JavaScript snippet.` which shows when you have not trusted your docs site in Intercom settings.
+
+To apply your own `intercomSettings` for the widget, including if you wish to change the data region, then you can do so using [auto$](/support-center/custom-javascript). Add a script tag that assigns the `intercomSettings` needed, such as:
 
 {% code %}
 {% tab language="json" %}
