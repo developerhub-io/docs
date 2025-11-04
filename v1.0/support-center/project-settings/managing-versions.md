@@ -90,3 +90,22 @@ To lock/unlock a version:
 - Check or uncheck the setting Locked.
 
 A lock icon would show next to the locked version and the buttons to save drafts or publish would be replaced by a button having "Locked" on it.
+
+## Version Reports
+
+Version reports can be downloaded which includes a list of all pages with the following information:
+
+- Title
+- Creator
+- Updater
+- Created date
+- Updated date
+- Is in draft state
+- Is published
+
+To download a version report:
+
+- Click on Version {% icon classes="fas fa-code-branch inv-icon" /%} in the sidebar.
+- Select the version to have its report downloaded.
+- Open the version settings {% icon classes="fas fa-cog" /%}.
+- Click on Download next to Pages Report.
