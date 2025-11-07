@@ -10,7 +10,7 @@ keywords:
 tags: 
 ---
 
-%product% provides powerful tools to enable you to easily move your content around, edit it and restructure it, all out of the editor.
+%product% provides powerful tools to enable you to easily move your content around, edit it and restructure it, all out of the editor..
 
 ## Import Sources
 
