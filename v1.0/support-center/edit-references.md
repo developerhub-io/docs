@@ -10,18 +10,17 @@ keywords:
 tags: 
 ---
 
-With %product% you can edit your OpenAPI 2/3 definitions using our visual API editor that is powered by Apicurio.
+With %product% you can edit your OpenAPI 2/3 definitions using our editors. We support two different editors:
+
+- DeveloperHub API Editor: Supports all OpenAPI specifications including v3.2. Text based running on a powerful VSCode environment with built-in linting, outline and go to definition features.
+
+{% image url="asset:edux05rpub27" mode="responsive" height="1574" width="3000" %}
+{% /image %}
+
+- Visual API Editor: Supports OpenAPI specifications up until 3.0.3. Powered by Apicurio, it's a visual editor for a lower learning curve. It helps you build the schema of your OpenAPI reference without needing to know the ins and outs of the specification.
 
 {% image url="https://uploads.developerhub.io/prod/02/87uyuvaekjddt88824m037v0lf1cn5gwx4lawhpn3yc6d25opz8j85654qadhdks.png" mode="responsive" height="1827" width="2920" %}
 {% /image %}
-
-## OpenAPI Editor Features
-
-The OpenAPI Editor is a fully-featured visual web-based editor that supports OpenAPI versions 2.0, 3.0.0, 3.0.1, 3.0.2 and 3.0.3. It helps you build the schema of your OpenAPI reference without needing to know the ins and outs of the specification.
-
-{% callout type="warning" title="Limitation" %}
-OpenAPI versions 3.1 and above are not supported in the OpenAPI visual editor. However, they can be uploaded, validated and added as API references for viewing on DeveloperHub.
-{% /callout %}
 
 ## Editing an API Definition
 
