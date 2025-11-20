@@ -14,7 +14,7 @@ An `Ask AI` button can be added next to the page's title. This button opens a co
 
 ## Enabling Ask AI button
 
-Ask AI button is enabled by default on new projects and can be disabled by an admin. To enable/disable Ask AI button:
+Ask AI button is enabled by default on new projects. To enable/disable Ask AI button:
 
 - From the left sidebar, open **Project Settings** {% icon classes="fas fa-layer-group" /%} 
 - Under **AI**, make sure **Enable llms.txt** is checked (this is a pre-requisite).
