@@ -62,7 +62,6 @@ The logs contain a UID which is an anonymous identifier of the user. It can help
 
 ## Limitations of AI Search
 
-- Only indexes and shows on the default version of the documentation.
 - Prone to provide incorrect, misleading or incomplete answers.
 - No analytics are collected yet.
 - AI Search only works on [Next UI](/support-center/customising-visuals#next-ui).
