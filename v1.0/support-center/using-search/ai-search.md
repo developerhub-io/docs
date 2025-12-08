@@ -10,7 +10,7 @@ keywords:
 tags: ai
 ---
 
-Search by asking a question and getting a natural response. This feature uses OpenAI GPT models.
+Search by asking a question and getting a natural response. This feature uses OpenAI GPT models. This is your reader's AI assistant.
 
 {% video videoId="https://uploads.developerhub.io/prod/02/nvrnanscgw7okyvlbqfcs8n1xmgxtc6h1cmr54i3e18avestnunznr12liyvk6gx.mp4?autoplay=true&loop=true&muted=true&playsinline=true&controls=false" provider="raw" %}
 {% /video %}
