@@ -23,6 +23,7 @@ Search by asking a question and getting a natural response. This feature uses Op
 - Can ask questions in any language, regardless if the documentation is written using that language or not.
 - Responds using the language of the question.
 - Provides a source list for further reading.
+- The reader can ask follow up questions.
 
 ## AI Search Experience
 
