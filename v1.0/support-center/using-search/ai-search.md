@@ -17,7 +17,7 @@ Search by asking a question and getting a natural response. This feature uses Op
 
 ## AI Search Features
 
-{% glossary term="AI Search" /%} allows the readers to ask a questions about the docs and get GPT-powered responses with answers right from the docs. Features of AI search: 
+{% glossary term="AI Search" /%} allows the readers to ask a questions about the docs and API endpoints, delivering GPT-powered responses. Features of AI search: 
 
 - Answers from both documentation and API references.
 - Can ask questions in any language, regardless if the documentation is written using that language or not.
