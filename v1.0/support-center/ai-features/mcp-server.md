@@ -43,7 +43,7 @@ MCP server is only available for public projects. [Contact us](/support-center/c
 
 ## Try out our MCP Server
 
-You can test out our own MCP server before enabling it on your docs. Let's take Cursor as the MCP client for an example:
+You can test out our own MCP server before enabling it on your docs. For a quick test, you can click the **AI Tools** button at the top of this page &gt; **Connect to Cursor**/**VS Code**. Alternatively, you can do it manually. Let's take Cursor as the MCP client for an example:
 
 - Launch **Cursor**.
 - Under **Settings** &gt; **Cursor Settings**.
@@ -69,9 +69,3 @@ You can test out our own MCP server before enabling it on your docs. Let's take 
 
 {% image url="https://uploads.developerhub.io/prod/02/7z38mrq35ibpdzkkv3cxcjrehb3rlgqdl98qymu45brpn8y10wtgt4sbcdyqayyl.png" mode="responsive" height="943" width="1398" %}
 {% /image %}
-
-Or you can add it directly using this button:
-
-{% html %}
-<a href="https://cursor.com/install-mcp?name=DeveloperHub&config=eyJ1cmwiOiJodHRwczovL2RvY3MuZGV2ZWxvcGVyaHViLmlvL21jcCJ9"><img src="https://cursor.com/deeplink/mcp-install-light.svg" alt="Add DeveloperHub MCP server to Cursor" height="32" /></a>
-{% /html %}
