@@ -10,7 +10,11 @@ keywords:
 tags: 
 ---
 
-An `AI Tools` button can be added next to the page's title. This button opens a contextual menu that provides quick access to direct integrations with popular AI tools. By utilising the `AI Tools`  button, users can effortlessly copy the page's markdown, read the content, and pose questions about it using ChatGPT or Claude.
+An `AI Tools` button can be added next to the page's title. This button opens a contextual menu that provides quick access to direct integrations with popular AI tools. By utilising the `AI Tools`  button, users can do the following:
+
+- Copy the page's markdown
+- Pose questions about the content using ChatGPT or Claude.
+- Connect to Cursor or VS Code using [auto$](/support-center/mcp-server).
 
 ## Enabling AI Tools button
 
