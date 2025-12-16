@@ -12,6 +12,9 @@ tags:
 
 Conditional content blocks let you control who can see a given block of content on your page based on [variables](/support-center/variables). These variables can be passed in via [custom login](/support-center/custom-login).
 
+{% synced id="beta-feature" %}
+{% /synced %}
+
 ## Create conditional content
 
 To add a conditional block:
