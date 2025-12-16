@@ -35,7 +35,7 @@ To enable the MCP server:
 - From **Project Settings** {% icon classes="fas fa-layer-group" /%}, scroll down to AI Features.
 - Check **Enable MCP Server**.
 
-It will take up to 5 minutes for the change to occur.
+It will take up to 5 minutes for the change to occur. If `AI Tools` button is enabled, the readers would be able to connect to Cursor and VS Code using the MCP server through the dropdown.
 
 ## Limitations
 
