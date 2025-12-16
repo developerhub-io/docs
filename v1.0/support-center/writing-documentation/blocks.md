@@ -21,7 +21,7 @@ The blocks menu will show, just like this one:
 
 %product% supports the following blocks:
 
-{% cards %}
+{% cards view="grid" %}
 {% card title="Code Blocks" link="/support-center/code-blocks" %}
 Pretty-formatted code
 {% /card %}
@@ -55,11 +55,14 @@ Embed GitHub code
 {% card title="Index List" link="/support-center/index-list" %}
 List the child pages under a parent page automatically
 {% /card %}
+{% card title="Conditional Block" link="/support-center/conditional-content" %}
+Conditional content based on user variables
+{% /card %}
 {% /cards %}
 
 And the following inline blocks. Inline blocks go on the same line as text. %product% supports the following inline blocks:
 
-{% cards %}
+{% cards view="grid" %}
 {% card title="Link to Page" link="/support-center/page-linking" %}
 Internal dynamic linking
 {% /card %}
