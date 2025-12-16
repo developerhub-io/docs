@@ -10,9 +10,8 @@ keywords:
 tags: 
 ---
 
-{% callout type="warning" title="Beta" %}
-This is a beta feature. Your [feedback](/support-center/contact-us) is appreciated.
-{% /callout %}
+{% synced id="beta-feature" %}
+{% /synced %}
 
 With %product% you can have two-way sync set up with GitHub. This enables you to:-
 
