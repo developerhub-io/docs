@@ -75,6 +75,10 @@ function getSignedDeveloperHubUrl() {
 
 Once the URL is generated, you may redirect your reader to the generated URL to provide them access to the docs.
 
+{% callout type="info" title="Variables and Conditional Content" %}
+The `vars` object in the JWT payload is used to evaluate [content audiences](/support-center/conditional-content) for conditional content. Variables are matched against audience conditions to determine which content is visible to each reader.
+
+{% /callout %}
 {% callout type="warning" title="Sign only in the backend" %}
 To sign a JWT, you need an API Key with `access.write` permission. The API Key is a secret and it should never be shared online.
 {% /callout %}
