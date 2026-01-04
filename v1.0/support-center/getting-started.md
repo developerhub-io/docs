@@ -81,6 +81,9 @@ Migrating docs
 {% card title="AI Features" link="/support-center/ai-features" %}
 AI writer, AI search...
 {% /card %}
+{% card title="Conditional Content" link="/support-center/conditional-content" %}
+Restrict content to specific audiences
+{% /card %}
 {% /cards %}
 
 ---
