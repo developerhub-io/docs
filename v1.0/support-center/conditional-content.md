@@ -47,7 +47,7 @@ To edit the conditions for an audience:
 
 In the expression builder, you can add as many conditions as needed. Each condition checks that a variable matches a value. All conditions must be satisfied for the content to show.
 
-{% image url="asset:kyilvi320tpu" mode="responsive" height="708" width="1888" %}
+{% image url="asset:rotyylnr1119" mode="responsive" height="318" width="529" %}
 {% /image %}
 
 ### Deleting an Audience
