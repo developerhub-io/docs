@@ -28,7 +28,7 @@ When a page is linked inside a version:
 
 To create a link between pages, type `@` to open the pages selector.
 
-{% image url="https://image-archive.developerhub.io/image/upload/1546/tua5rsujdeohrkofuty3/1563223959.gif" caption="Pages selector open" mode="600" height="490" width="640" %}
+{% image url="https://image-archive.developerhub.io/image/upload/1546/tua5rsujdeohrkofuty3/1563223959.gif" caption="Pages selector open" mode="600" height="490" width="600" %}
 {% /image %}
 
 A list of all pages under the version will be listed for you to choose from. Search through the list by typing down the page name or slug. To select a page, click on its name in the list. If you are selecting an API Reference, then you'll find the title of the API Reference.
@@ -104,6 +104,10 @@ All broken page links will have the HREF of "/-" which leads to a 404 page.
 {% callout type="info" title="Only Internal Links" %}
 Only internal links created by using Page Linking are examined for breaking. The monitoring tool will not examine or alert about external links leading to 404.
 {% /callout %}
+
+### Broken Links Email
+
+A bi-weekly email is sent to admins and publishers that lists all the broken links in the docs. An email is sent per project and a maximum of 3 emails is sent per user. The email subscription status can be changed from [auto$](/support-center/account-settings).
 
 ## Listing Linked Pages (Backlinks)
 
