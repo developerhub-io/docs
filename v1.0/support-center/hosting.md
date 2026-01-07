@@ -12,7 +12,7 @@ tags:
 
 %product% makes hosting a breeze for you. We offer multiple ways in which you can have your docs hosted:
 
-{% cards %}
+{% cards view="grid" %}
 {% card title="Custom Domain" link="/support-center/using-custom-domain" %}
 Host on your own domain, such as docs.pied-piper.com
 {% /card %}
@@ -72,7 +72,7 @@ If you already have a website, for example `pied-piper.com` and you would like t
     6. Enter the host where the existing website lives, such as `pied-piper.com` or `support.pied-piper.com`.
 
 - On your server:
-    - Set up a reverse proxy to your %product% subdomain, such as with nginx. Here is an example configuration:
+    - Set up a reverse proxy to `you.developerhub.io`, such as with nginx. Here is an example configuration:
 
 {% code %}
 {% tab language="bash" title="docs.conf" %}
@@ -80,7 +80,7 @@ server {
   server_name <custom-domain>; # e.g. server_name support.pied-piper.com
 
   location /docs {
-    proxy_pass https://<subdomain>.developerhub.io; # e.g. proxy_pass https://piper.developerhub.io
+    proxy_pass https://you.developerhub.io;
     proxy_http_version 1.1;
     proxy_set_header Upgrade $http_upgrade;
     proxy_set_header Connection "upgrade";
