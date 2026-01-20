@@ -12,7 +12,7 @@ tags:
 
 With %product% you can edit your OpenAPI 2/3 definitions using our editors. We support two different editors:
 
-- DeveloperHub API Editor: Supports all OpenAPI specifications including v3.2. Text based running on a powerful VSCode environment with built-in linting, outline and go to definition features. The API editor is a [free tool that can also be accessed](https://app.developerhub.io/api-editor) without logging into %product%.
+- DeveloperHub API Editor: Supports all OpenAPI specifications including v3.2. Text based running on a powerful VSCode environment with built-in linting, outline, autocompletion and go to definition features. The API editor is a [free tool that can also be accessed](https://app.developerhub.io/api-editor) without logging into %product%.
 
 {% image url="asset:edux05rpub27" mode="responsive" height="1574" width="3000" %}
 {% /image %}
