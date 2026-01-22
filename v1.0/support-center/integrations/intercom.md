@@ -48,6 +48,8 @@ To add a %product% search widget to your messenger home, ensure that you first h
 {% image url="https://uploads.developerhub.io/prod/02/ww5likoo946tze098bo5ofusyp5wpvsd6uclposbspv3abs0gx9dy4mrp1rc8gip.png" mode="300" height="1700" width="300" %}
 {% /image %}
 
+The search widget would use [auto$](/support-center/ai-search) if it is enabled.
+
 ## Changing Intercom Region or Settings
 
 If Intercom widget is not showing after installing , check the DevTools console and network requests for error messages. Common issues include:
