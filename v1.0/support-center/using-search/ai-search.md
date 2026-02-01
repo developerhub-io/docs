@@ -10,7 +10,7 @@ keywords:
 tags: ai
 ---
 
-Search by asking a question and getting a natural response. This feature uses OpenAI GPT models. This is your reader's AI assistant.
+An intelligent assistant that helps readers find answers through natural conversation. This feature uses OpenAI GPT models to provide contextual answers about your documentation and API endpoints.
 
 {% video videoId="https://uploads.developerhub.io/prod/02/nvrnanscgw7okyvlbqfcs8n1xmgxtc6h1cmr54i3e18avestnunznr12liyvk6gx.mp4?autoplay=true&loop=true&muted=true&playsinline=true&controls=false" provider="raw" %}
 {% /video %}
@@ -27,14 +27,16 @@ Search by asking a question and getting a natural response. This feature uses Op
 
 ## AI Search Experience
 
-When [AI Search is enabled](/support-center/ai-search#enabling-ai-search), the search bar would prompt the reader to "Search or ask a question" instead of "Search". The AI search would be activated when the reader:
+When [AI Search is enabled](/support-center/ai-search#enabling-ai-search), an **Ask AI** button appears next to the search bar. Clicking this button opens an assistant sidebar on the right side of the screen.
 
-- Presses the enter key or,
-- Types in text in a question form (such as start with "How" "Where" "Why") or,
-- Types in a question mark or,
-- Clicks on the AI prompt "Press enter to ask".
+The assistant provides a conversational interface where readers can:
 
-When the reader presses enter, the question would be answered according to the docs available with explanations and examples if possible. The sources would be listed after the question is answered. 
+- Ask questions about the current page they're viewing.
+- Ask questions about the documentation in general.
+- Ask questions about specific API endpoints.
+- Engage in follow-up conversations to clarify or expand on answers.
+
+The assistant responds with detailed explanations and examples when possible, and provides source references for further reading. 
 
 ## Enabling AI Search
 
