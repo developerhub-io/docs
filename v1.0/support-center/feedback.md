@@ -30,6 +30,8 @@ Feedback can be observed on two levels: Page and project. When a page is liked o
 
 Also, in the [dashboard](/support-center/dashboard), you are also able to see the sentiment for the project against time, as well as all the unread messages. Furthermore, you will find in the dashboard a list of the most liked pages as well as the least liked pages. You can use this information to apply the good documentation style applied in most likes pages into the least liked pages, and analyse the messages to learn how to make the pages better.
 
+You can also download feedback as a CSV from the dashboard, using the download option next to **Feedback Inbox**.
+
 {% image url="https://image-archive.developerhub.io/image/upload/v2_1/a5abqfsjuvjvqpoytnms/1619735374.jpg" mode="responsive" height="969" width="993" %}
 {% /image %}
 
