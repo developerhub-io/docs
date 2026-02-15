@@ -46,6 +46,13 @@ AI Agent can use documentation context to produce better edits:
 
 AI Agent produces proposed edits that are scoped to a page. You can apply any suggestion that you want, and skip the rest.
 
+## Why use %product%'s AI Agent (vs third-party AI agents)
+
+Using %product%'s AI Agent inside DeveloperHub has practical advantages over using a third-party AI agent to generate documentation edits:
+
+- **Correct page syntax and blocks**: AI Agent is aware of our page syntax and capabilities (including the supported blocks and inline blocks). Third-party agents typically do not have this reference, and may hallucinate blocks or attributes that do not exist.
+- **Correct internal links**: AI Agent can link to your documentation pages accurately in the current documentation version. Third-party agents may try to guess links by combining slugs, which can produce broken or incorrect links.
+
 ## Applying edit suggestions
 
 When AI Agent provides edit suggestions, you can:
