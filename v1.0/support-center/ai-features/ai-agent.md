@@ -24,6 +24,8 @@ AI Agent is enabled when **AI Writer** is enabled. For instructions, see [AI Wri
 
 On any page, open the right sidebar and select **AI Agent** {% icon classes="fas fa-robot" /%}
 
+You can modify AI Instructions from **Project Settings** &gt; **AI Features** (at the bottom of the page).
+
 ## What AI Agent can do
 
 AI Agent can help you:
@@ -45,6 +47,21 @@ AI Agent can use documentation context to produce better edits:
 - Search includes all content in that version, including drafts and unpublished pages.
 
 AI Agent produces proposed edits that are scoped to a page. You can apply any suggestion that you want, and skip the rest.
+
+## AI Instructions
+
+You can add AI Instructions to control how AI Agent responds. For example, you can ask it to:
+
+- Use a specific language (for example, British English)
+- Use a specific tone (for example, friendly and direct, or more formal)
+- Follow a style guide (for example, sentence length, preferred terminology, or avoiding jargon)
+- Format output in a particular way (for example, what to bold, whether to use lists, or whether to include examples)
+
+If your instructions conflict with each other, AI Agent will do its best to follow the most specific instruction.
+
+{% callout type="info" title="Example instructions" %}
+Write in British English. Keep the tone concise and practical. Use short paragraphs and bullet lists. Bold UI labels and button names.
+{% /callout %}
 
 ## Why use %product%'s AI Agent (vs third-party AI agents)
 
