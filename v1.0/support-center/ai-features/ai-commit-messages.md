@@ -24,6 +24,6 @@ AI commit messages are disabled by default and must be enabled by an admin. To e
 
 Every content change will have its page history annotated by AI.
 
-## What data is sent to OpenAI?
+## What data is sent to the LLM?
 
-The page content diff is sent to OpenAI when AI annotates page histories.
+The page content diff is sent to the LLM when AI annotates page histories.
