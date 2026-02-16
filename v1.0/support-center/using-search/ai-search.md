@@ -17,7 +17,7 @@ An intelligent assistant that helps readers find answers through natural convers
 
 ## AI Search Features
 
-{% glossary term="AI Search" /%} allows the readers to ask a questions about the docs and API endpoints, delivering GPT-powered responses. Features of AI search: 
+{% glossary term="AI Search" /%} allows the readers to ask a questions about the docs and API endpoints, delivering GPT-powered responses. Features of AI search:
 
 - Answers from both documentation and API references.
 - Can ask questions in any language, regardless if the documentation is written using that language or not.
@@ -36,7 +36,7 @@ The assistant provides a conversational interface where readers can:
 - Ask questions about specific API endpoints.
 - Engage in follow-up conversations to clarify or expand on answers.
 
-The assistant responds with detailed explanations and examples when possible, and provides source references for further reading. 
+The assistant responds with detailed explanations and examples when possible, and provides source references for further reading.
 
 ## Enabling AI Search
 
@@ -59,7 +59,7 @@ To download the log:
 
 - From the left sidebar, choose **Project Settings** {% icon classes="fas fa-layer-group inv-icon" /%}.
 - Under AI Search, click on the {% icon classes="fas fa-download" /%} icon.
-- Select the duration to download the logs for. 
+- Select the duration to download the logs for.
 
 The logs contain a UID which is an anonymous identifier of the user. It can help understand the different questions a user has asked.
 
@@ -69,6 +69,6 @@ The logs contain a UID which is an anonymous identifier of the user. It can help
 - No analytics are collected yet.
 - AI Search only works on [Next UI](/support-center/customising-visuals#next-ui).
 
-## What data is sent to OpenAI?
+## What data is sent to the LLM?
 
-When enabling AI search for a project, the entirety of the content that readers can access is sent to OpenAI. Whenever content is re-indexed, the new content would be sent to OpenAI.
+When enabling AI search for a project, the entirety of the content that readers can access is sent to the LLM. Whenever content is re-indexed, the new content would be sent to the LLM.
