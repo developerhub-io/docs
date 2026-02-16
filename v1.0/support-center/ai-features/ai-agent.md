@@ -10,7 +10,7 @@ keywords:
 tags: 
 ---
 
-AI Agent helps editors draft and revise documentation pages by turning a conversation into proposed page edits. Like [AI Writer](/support-center/ai-writer), it can help you write. Unlike [AI Writer](/support-center/ai-writer), AI Agent can search and reference the documentation in your current documentation version to produce more informed, page-specific edit suggestions.
+AI Agent helps editors draft and revise documentation pages by turning a conversation into proposed page edits. It supports similar writing workflows to [AI Writer](/support-center/ai-writer), but it can also search and reference the documentation in your current documentation version to produce more informed, page-specific edit suggestions.
 
 AI Agent never applies changes automatically. Instead, it produces one or more edit suggestions that you can review and apply selectively.
 
