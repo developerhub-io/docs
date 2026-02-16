@@ -52,6 +52,6 @@ If the generated response does not meet your expectations, you can quickly rever
 - Output tokens are limited. This may result in incomplete responses being displayed.
 - Text formatting (including variables, glossary or any rich text features) might not be preserved in certain cases.
 
-## What data is sent to OpenAI?
+## What data is sent to the LLM?
 
-Only selected text is sent to OpenAI when AI Writer is used.
+Only selected text is sent to the LLM when AI Writer is used.
