@@ -105,3 +105,7 @@ AI Agent and AI Writer both help with writing and editing, but they are designed
 
 - AI Agent cannot modify page info (slug, description, etc...).
 - AI Agent cannot generate images.
+
+## What data is sent to the LLM?
+
+For each question, one or more pages might be sent fully to the LLM.
