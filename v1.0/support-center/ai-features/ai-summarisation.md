@@ -22,9 +22,9 @@ To use an AI generated META description of a page:
 - You may modify the description if needed.
 - Click Save.
 
-{% image url="https://uploads.developerhub.io/prod/02/24lhykojz6dhhz8pdildykxtjstaynjj4j37ad0j4i74vy91hvkl8i4v8hzmb8io.png" mode="set" height="594.515625" width="496" %}
+{% image url="https://uploads.developerhub.io/prod/02/24lhykojz6dhhz8pdildykxtjstaynjj4j37ad0j4i74vy91hvkl8i4v8hzmb8io.png" mode="set" height="1062" width="496" %}
 {% /image %}
 
-## What data is sent to OpenAI?
+## What data is sent to the LLM?
 
-When generating META descriptions for a page, a plain text version of the page content is sent to OpenAI. If the page is in draft mode, the draft content is sent instead.
+When generating META descriptions for a page, a plain text version of the page content is sent to the LLM. If the page is in draft mode, the draft content is sent instead.
