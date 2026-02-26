@@ -10,22 +10,33 @@ keywords:
 tags: 
 ---
 
-All users can integrate %product% with Slack to keep the team up-to-date with all changes in their developer hub.
+All users can integrate %product% with Slack to keep the team up-to-date, and to make it easier to search your documentation directly from Slack.
 
-{% image url="https://image-archive.developerhub.io/image/upload/-1/xfknb3rnlegcsojsiomh/1555452122.png" mode="responsive" height="531" width="1297" %}
+{% image url="https://image-archive.developerhub.io/image/upload/-1/xfknb3rnlegcsojsiomh/1555452122.png" mode="set" height="144.9296875" width="354" %}
 {% /image %}
 
 ## What does the Integration do?
 
-Our Slack integration notifies your team on a Slack channel you choose instantly of the following changes:
+The Slack integration does two things:
 
-- Page created, edited and published.
+### Real Time Notifications
+
+Real time notifications post directly into a Slack channel you select, including:
+
+- Page created, edited, and published.
+- API reference created, edited, and published.
 - Version created.
-- API reference created, edited and published.
 
-It also updates you whenever you receive [feedback](/support-center/feedback) on an hourly-basis.
+It also sends an hourly notification when new [feedback](/support-center/feedback) is received.
 
-{% image url="https://uploads.developerhub.io/prod/02/tw9ni3h36y72395klgilh23t0xwysy27jjkbeu23heryazxtq7gb9l6lve3ylg7q.png" mode="responsive" height="656" width="1152" %}
+{% image url="asset:snqb6q6fvror" mode="responsive" height="1000" width="1600" %}
+{% /image %}
+
+### Search your Docs from Slack with /developerhub
+
+Use the `/developerhub` slash command to search your docs directly from Slack. This is especially helpful for support agents and internal teams who need quick answers without leaving Slack.
+
+{% image url="asset:5chh6dfkhhzu" mode="responsive" height="1000" width="1600" %}
 {% /image %}
 
 ## Setting up Slack
