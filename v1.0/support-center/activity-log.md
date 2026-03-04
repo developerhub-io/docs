@@ -26,6 +26,7 @@ We audit all actions on %product% made by your team. These include the creation,
 - Glossary
 - Comments
 - Changelogs
+- Template Pages
 
 The activity log is scoped as such:
 
