@@ -7,7 +7,7 @@ description:
 index_title: AI Tools Button
 hidden: 
 keywords: 
-tags: 
+tags: ai
 ---
 
 The **AI Tools** button appears next to a page title and opens a contextual menu with quick links to popular AI tools. With **AI Tools**, users can:
