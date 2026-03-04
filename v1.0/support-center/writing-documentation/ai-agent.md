@@ -14,6 +14,9 @@ AI Agent helps editors draft and revise documentation pages by turning a convers
 
 AI Agent never applies changes automatically. Instead, it produces one or more edit suggestions that you can review and apply selectively.
 
+{% image url="asset:nxl620ajqf2e" mode="responsive" height="951" width="1334" %}
+{% /image %}
+
 ## Who can use AI Agent
 
 AI Agent is available to all editors except reviewers. It's available for all plans currently in preview mode.
