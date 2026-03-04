@@ -7,7 +7,7 @@ description:
 index_title: MCP Server
 hidden: 
 keywords: 
-tags: 
+tags: ai
 ---
 
 %product% now integrates with **MCP (Model Context Protocol)** servers, allowing AI agents to connect directly to your docs and perform contextual actions like intelligent search.
