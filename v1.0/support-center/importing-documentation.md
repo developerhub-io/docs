@@ -51,7 +51,7 @@ To import one page, follow these steps:
 
 To import documentation from %product% export into %product%, you must structure your files as such:
 
-{% image url="[https://image-archive.developerhub.io/image/upload/7458/g7vrypbxvdyysrbhpabz/1557871279.png"](https://image-archive.developerhub.io/image/upload/7458/g7vrypbxvdyysrbhpabz/1557871279.png&quot;) mode="responsive" height="704" width="722" %}
+{% image url="https://image-archive.developerhub.io/image/upload/7458/g7vrypbxvdyysrbhpabz/1557871279.png" mode="responsive" height="704" width="722" %}
 {% /image %}
 
 Where, for example:
