@@ -7,7 +7,7 @@ description:
 index_title: llms.txt
 hidden: 
 keywords: 
-tags: 
+tags: ai
 ---
 
 {% callout type="warning" title="Beta" %}
