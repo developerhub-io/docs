@@ -214,15 +214,4 @@ iOS Tab
 {% /tab %}
 {% /code %}
 
-### Inline Blocks
-
-{% code %}
-{% tab language="markdown" %}
-Variables: %user.id%
-Badges: {% badge type="success" text="Great" /%}
-Icons: {% icon classes="layers" /%}
-Keyboard Keys: {% key key="F" /%}
-Glossary: {% glossary term="product" /%}
-Inline Images: {% inline-image url="https://img.com/img.url" width="100" /%}
-{% /tab %}
-{% /code %}
+###
