@@ -22,6 +22,10 @@ We audit all actions on %product% made by your team. These include the creation,
 - Users / Teammates
 - API Key
 - Landing Page
+- Custom Pages
+- Glossary
+- Comments
+- Changelogs
 
 The activity log is scoped as such:
 
