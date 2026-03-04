@@ -51,10 +51,11 @@ To import one page, follow these steps:
 
 To import documentation from %product% export into %product%, you must structure your files as such:
 
-{% image url="https://image-archive.developerhub.io/image/upload/7458/g7vrypbxvdyysrbhpabz/1557871279.png" mode="responsive" height="704" width="722" %}
+{% image url="https://uploads.developerhub.io/prod/02/c4ghrsdoo780zk1ii0fv0cde45vg2e8fo79ea2qu0chyak8xmu3fiie6c9ls0y5v.png" mode="set" height="368.5625" width="378" %}
 {% /image %}
 
 Where, for example:
+
 - `v1.0` is the name of your version.
 - `Support Center` is the title of your documentation.
 - `1 Getting Started.md` is a documentation page written in Darkdown format. Its order is 1st in Support Center documentation and its title is `Getting Started`. `Getting Started` folder indicates that `1 Getting Started.md` is a parent page, and it has a subpage titled `First Steps`.
