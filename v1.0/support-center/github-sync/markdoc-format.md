@@ -14,7 +14,6 @@ Markdoc format is the format used when pages are synced on %product% using [auto
 
 ## Frontmatter Syntax
 
-
 Every page has a frontmatter header, such as this one:
 
 {% code %}
@@ -86,7 +85,8 @@ While inline blocks have the following syntax:
 
 {% code %}
 {% tab language="markdown" %}
-{% block-type attr1="value1" attr2="value2" /%}
+{% icon classes="fas fa-bookmark" /%}
+{% glossary term="CDN" /%}
 {% /tab %}
 {% /code %}
 
@@ -106,8 +106,6 @@ function fibonacci(num, memo) {
 
   return memo[num] = fibonacci(num - 1, memo) + fibonacci(num - 2, memo);
 }
-{% /tab %}
-{% /code %}
 {% /tab %}
 {% /code %}
 
@@ -182,10 +180,8 @@ Great **success**!
 {% tab title="Android" %}
 Android Tab
 {% /tab %}
-{% tab title="iOS" %}
+{% tab language="none" title="iOS" %}
 iOS Tab
-{% /tab %}
-{% /tabs %}
 {% /tab %}
 {% /code %}
 
