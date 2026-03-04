@@ -10,7 +10,7 @@ keywords:
 tags: customisation
 ---
 
-%product% functionality can be modified, accessed and tested in many ways:
+%product% functionality can be modified, accessed, and tested through URL query parameters, JavaScript functions, dispatched events, and global objects.
 
 - Adding query params to the URL.
 - Using javascript functions.
@@ -18,264 +18,296 @@ tags: customisation
 - Using scripts that modify settings.
 - Reading javascript objects.
 
-## URL Modifications
+## URL Query Parameters
 
 ### Embed Mode
 
-Query: `?mode=<mode>`
+**Syntax:** `?mode=<mode>`
 
-Strips away top navigation, index, table of contents, footer and others for preview mode. See [Embed Mode](/support-center/previewing-documentation#embed-mode).
+**Description:** Strips away top navigation, index, table of contents, footer, and others for preview mode.
+
+**See:** [Embed Mode](/support-center/previewing-documentation#embed-mode)
 
 ### Disable Scripts
 
-Query: `?disableScripts=true`
+**Syntax:** `?disableScripts=true`
 
-Disables scripts momentarily. See [Disabling HEAD Tags](/support-center/custom-javascript#disabling-head-tags).
+**Description:** Disables scripts temporarily.
+
+**See:** [Disabling HEAD Tags](/support-center/custom-javascript#disabling-head-tags)
 
 ### Disable Styles
 
-Query: `?disableStyles=true`
+**Syntax:** `?disableStyles=true`
 
-Disables styles momentarily. See [Disabling Styles](/support-center/custom-css#disabling-styles).
+**Description:** Disables styles temporarily.
 
-### Personalisation - Clear Text
+**See:** [Disabling Styles](/support-center/custom-css#disabling-styles)
 
-Query: `?vars=<vars>`
+### Personalisation (Clear Text)
 
-Personalises the documentation by overriding variables with clear text in JSON format. See [Personalising through URL](/support-center/personalised-docs#personalising-through-url).
+**Syntax:** `?vars=<vars>`
 
-### Personalisation - Base64
+**Description:** Personalises the documentation by overriding variables with clear text in JSON format.
 
-Query: `?hvars=<vars>`
+**See:** [Personalising through URL](/support-center/personalised-docs#personalising-through-url)
 
-Personalises the documentation by overriding variables with base64 text. See [Personalising through URL](/support-center/personalised-docs#personalising-through-url).
+### Personalisation (Base64)
+
+**Syntax:** `?hvars=<vars>`
+
+**Description:** Personalises the documentation by overriding variables with Base64 text.
+
+**See:** [Personalising through URL](/support-center/personalised-docs#personalising-through-url)
 
 ### JWT Authentication
 
-Query: `?jwt=<token>`
+**Syntax:** `?jwt=<token>`
 
-Securely give access to the docs. See [auto$](/support-center/custom-login).
+**Description:** Securely give access to the docs.
+
+**See:** [auto$](/support-center/custom-login)
 
 ### Set Frontend Application Deployment ID
 
-Query: `?deployment_id=<id>` 
+**Syntax:** `?deployment_id=<id>`
 
-Sets the frontend application deployment version. Use `latest` for latest version. See [Testing CSS](/support-center/custom-css#testing-css).
+**Description:** Sets the frontend application deployment version. Use `latest` for the latest version.
 
-## Javascript Functions
+**See:** [Testing CSS](/support-center/custom-css#testing-css)
+
+## JavaScript Functions
 
 ### Navigate to URL (Deprecated)
 
-Function: `openLink(event, link)`
+**Function:** `openLink(event, link)`
 
-Returns: Nothing.
+**Returns:** Nothing.
 
-Arguments:
+**Arguments:**
 
-- `event`: the MouseEvent or KeyboardEvent.
+- `event`: The `MouseEvent` or `KeyboardEvent`.
 - `link`: Absolute path (without host and basepath) such as `/support-center/developer-tools`.
 
-See [Linking to Content](/support-center/custom-landing-page#linking-to-content).
+**See:** [Linking to Content](/support-center/custom-landing-page#linking-to-content)
 
-Deprecated: Use [Navigate to Path](/support-center/developer-tools#navigate-to-path) instead.
+**Deprecated:** Use [Navigate to Path](/support-center/developer-tools#navigate-to-path) instead.
 
 ### Navigate to Path
 
-Function: `navigate(link, options ?: {addBasePath: boolean})` 
+**Function:** `navigate(link, options ?: {addBasePath: boolean})`
 
-Returns: Nothing.
+**Returns:** Nothing.
 
-Arguments:
+**Arguments:**
 
 - `link`: Absolute path (without host and basepath) such as `/support-center/developer-tools`.
 - `options`: (optional)
     - `addBasePath`: Prepends the base path automatically to the link.
 
-Navigates to a path internally inside the single page application, without reloading the page. See [Linking to Content](/support-center/custom-landing-page#linking-to-content).
+**Description:** Navigates to a path internally inside the single page application, without reloading the page.
+
+**See:** [Linking to Content](/support-center/custom-landing-page#linking-to-content)
 
 ### Navigate Home
 
-Function `goHome()` 
+**Function:** `goHome()`
 
-Returns: Nothing.
+**Returns:** Nothing.
 
-Arguments: None.
+**Arguments:** None.
 
-Goes to landing page, or to the default page if no landing page is set. Equivalent to `openLink('/')` when the project has no basepath.
+**Description:** Goes to the landing page, or to the default page if no landing page is set. Equivalent to `openLink('/')` when the project has no basepath.
 
 ### Make All Landing Page Links Route in SPA
 
-Function: `window.applyClickHandlersOnLinks()` 
+**Function:** `window.applyClickHandlersOnLinks()`
 
-Returns: Nothing.
+**Returns:** Nothing.
 
-Arguments: None.
+**Arguments:** None.
 
-Captures all absolute paths on a rendered landing page and routes them internally in the single-page application rather than a browser tab navigation. Use after all anchor elements have been rendered on a landing page. See [Custom Landing Page](/support-center/custom-landing-page#adding-javascript).
+**Description:** Captures all absolute paths on a rendered landing page and routes them internally in the single page application rather than a browser tab navigation. Use after all anchor elements have been rendered on a landing page.
+
+**See:** [Custom Landing Page](/support-center/custom-landing-page#adding-javascript)
 
 ### Resize Custom HTML iFrame
 
-Function: `window.postMessage('resize', '*');`
+**Function:** `window.postMessage('resize', '*');`
 
-Returns: Nothing.
+**Returns:** Nothing.
 
-Arguments: Must be provided as is.
+**Arguments:** Must be provided as is.
 
-Informs the parent element to resize because elements have been dynamically added to the iFrame. See [Resizing Dynamic iFrames](/support-center/custom-html#resizing-dynamic-iframes).
+**Description:** Informs the parent element to resize because elements have been dynamically added to the iFrame.
+
+**See:** [Resizing Dynamic iFrames](/support-center/custom-html#resizing-dynamic-iframes)
 
 ### Apply Advanced Settings
 
-Function: `window.settings.apply(settings)`
+**Function:** `window.settings.apply(settings)`
 
-Returns: Nothing.
+**Returns:** Nothing.
 
-Arguments:
+**Arguments:**
 
 - `settings`: An object containing [specific settings](/support-center/advanced-settings#applying-settings).
 
-Modifies UI or functionality, including search, code theme, SEO and others. See [Applying Settings](/support-center/advanced-settings#applying-settings).
+**Description:** Modifies UI or functionality, including search, code theme, SEO, and others.
+
+**See:** [Applying Settings](/support-center/advanced-settings#applying-settings)
 
 ### Modify UI Text
 
-Function: `window.translations.apply(translation)`
+**Function:** `window.translations.apply(translation)`
 
-Returns: Nothing.
+**Returns:** Nothing.
 
-Arguments:
+**Arguments:**
 
 - `translation`: An object containing [certain UI texts that can be changed](/support-center/ui-translation#which-text-can-be-changed).
 
-Modifies UI text, whether for translation or else. See [auto$](/support-center/ui-translation).
+**Description:** Modifies UI text, whether for translation or otherwise.
+
+**See:** [auto$](/support-center/ui-translation)
 
 ### Register Custom Interceptors
 
-Function: `window.registerCustomInterceptor(interceptor)` 
+**Function:** `window.registerCustomInterceptor(interceptor)`
 
-Returns: Nothing.
+**Returns:** Nothing.
 
-Arguments:
+**Arguments:**
 
 - `interceptor`: A function with two arguments, `data` and `next`. See [Custom Interceptors](/support-center/try-it-out#how-to-set-up-custom-interceptors).
 
-Registers a custom interceptor that can modify API playground requests before they're sent.
+**Description:** Registers a custom interceptor that can modify API playground requests before they are sent.
 
 ### Get Active Project
 
-Function: `window.getActiveProject()` 
+**Function:** `window.getActiveProject()`
 
-Returns: `Project Object {id: number, title: string, slug: string, basepath: string}`
+**Returns:** `Project Object {id: number, title: string, slug: string, basepath: string}`
 
 ### Get Active Version
 
-Function: `window.getActiveVersion()` 
+**Function:** `window.getActiveVersion()`
 
-Returns: `Version Object {id: number, name: string, slug: string, isLatest: boolean, docs: {id: number, title: string, slug: string}[], refs: {id: number, title: string, slug: string}[]}` or `null`
+**Returns:** `Version Object {id: number, name: string, slug: string, isLatest: boolean, docs: {id: number, title: string, slug: string}[], refs: {id: number, title: string, slug: string}[]}` or `null`
 
 ### Get Active Section
 
-Function: `window.getActiveSection()` 
+**Function:** `window.getActiveSection()`
 
-Returns: `Section Object {id: number, title: string, slug: string, type: string, index: any}` or `null`
+**Returns:** `Section Object {id: number, title: string, slug: string, type: string, index: any}` or `null`
 
 ### Get Active Page
 
-Function: `window.getActivePage()` 
+**Function:** `window.getActivePage()`
 
-Returns: `Page Object {id: number, title: string, slug: string}` or `null`
+**Returns:** `Page Object {id: number, title: string, slug: string}` or `null`
 
 ### Zoom Image
 
-Function: `window.zoomImage(src)`
+**Function:** `window.zoomImage(src)`
 
-Return: Nothing.
+**Returns:** Nothing.
 
-Arguments:
+**Arguments:**
 
 - `src`: The URL of the image to load.
 
-Loads the image in an overlay over the docs, just like when native images are clicked on product.
+**Description:** Loads the image in an overlay over the docs, just like when native images are clicked in product.
 
 ### Zoom Image from within an iFrame
 
-Function: `window.postMessage({zoomImage: src}, '*')`
+**Function:** `window.postMessage({zoomImage: src}, '*')`
 
-Return: Nothing.
+**Returns:** Nothing.
 
-Arguments:
+**Arguments:**
 
 - `src`: The URL of the image to load.
 
-Loads the image in an overlay over the docs, just like when native images are clicked on product. Use it when the image is created by a [auto$](/support-center/custom-html) which uses an iFrame (when there is a script or iFrame).
+**Description:** Loads the image in an overlay over the docs, just like when native images are clicked in product. Use it when the image is created by a [auto$](/support-center/custom-html) which uses an iFrame (when there is a script or iFrame).
 
 ### Change Theme
 
-Function: `window.setTheme(theme: 'light' | 'dark')` 
+**Function:** `window.setTheme(theme: 'light' | 'dark')`
 
-Return: Nothing.
+**Returns:** Nothing.
 
-Arguments:
+**Arguments:**
 
 - `theme`: Either `light` or `dark`.
 
-Changes the theme for the session.
+**Description:** Changes the theme for the session.
 
-## Javascript Dispatched Events
+## JavaScript Dispatched Events
 
 ### Landing Page Cards Generated
 
-Event: `oncardschanged`
+**Event:** `oncardschanged`
 
-When: Landing page is loading
+**When:** Landing page is loading.
 
-Emits: Details about every documentation and API reference in the default version which make up the cards in the landing page. See [Adding Javascript](/support-center/custom-landing-page#adding-javascript).
+**Emits:** Details about every documentation and API reference in the default version which make up the cards in the landing page.
 
-### On Project Loaded
+**See:** [Adding JavaScript](/support-center/custom-landing-page#adding-javascript)
 
-Event: `onprojectloaded`
+### Project Loaded
 
-When: Project has loaded. DOM elements should already be available now for manipulation if needed.
+**Event:** `onprojectloaded`
 
-Emits: Nothing. See [Project Loaded](/support-center/custom-javascript#project-loaded).
+**When:** Project has loaded. DOM elements should already be available now for manipulation if needed.
 
-### On Version Change
+**Emits:** Nothing.
 
-Event: `onversionchange`
+**See:** [Project Loaded](/support-center/custom-javascript#project-loaded)
 
-When: When version has changed.
+### Version Changed
 
-Emits: Details about the version that is being switched to.
+**Event:** `onversionchange`
 
-### On Section Change
+**When:** Version has changed.
 
-Event: `onsectionchange`
+**Emits:** Details about the version that is being switched to.
 
-When: When section (documentation or API reference) is changing.
+### Section Changed
 
-Emits: Details about the section that is being switched to. See [Section Changes](/support-center/custom-javascript#section-changes).
+**Event:** `onsectionchange`
 
-### On Page Change
+**When:** Section (documentation or API reference) is changing.
 
-Event: `onpagechange`
+**Emits:** Details about the section that is being switched to.
 
-When: When page is changing.
+**See:** [Section Changes](/support-center/custom-javascript#section-changes)
 
-Emits: Details about the page that is being switched to. See [Page Changes](/support-center/custom-javascript#page-changes).
+### Page Changed
 
-### On Page Loaded
+**Event:** `onpagechange`
 
-Event: `onpageloaded`
+**When:** Page is changing.
 
-When: When page has loaded.
+**Emits:** Details about the page that is being switched to.
 
-Emits: Details about the page that has loaded. Note that async-retrieved objects may not have loaded yet, such as images or videos.
+**See:** [Page Changes](/support-center/custom-javascript#page-changes)
 
-### On Reference Content Loaded
+### Page Loaded
 
-Event: `onreferencecontentloaded` 
+**Event:** `onpageloaded`
 
-When: When reference has loaded and UI is ready. Also when a tag expands and shows new content.
+**When:** Page has loaded.
 
-Emits: The HTML element that loaded if you wish to make customisations to the API reference UI, as follows:
+**Emits:** Details about the page that has loaded. Note that async-retrieved objects may not have loaded yet, such as images or videos.
+
+### Reference Content Loaded
+
+**Event:** `onreferencecontentloaded`
+
+**When:** Reference has loaded and UI is ready. Also when a tag expands and shows new content.
+
+**Emits:** The HTML element that loaded if you wish to make customisations to the API reference UI, as follows:
 
 {% code %}
 {% tab language="json" %}
@@ -285,13 +317,13 @@ Emits: The HTML element that loaded if you wish to make customisations to the AP
 {% /tab %}
 {% /code %}
 
-### On Search
+### Search Performed
 
-Event: `onsearch` 
+**Event:** `onsearch`
 
-When: When search has been performed.
+**When:** Search has been performed.
 
-Emits: Details about the query and hits count as follows:
+**Emits:** Details about the query and hits count as follows:
 
 {% code %}
 {% tab language="json" %}
@@ -307,13 +339,13 @@ Emits: Details about the query and hits count as follows:
 This is only available for non-enterprise search currently.
 {% /callout %}
 
-### On Feedback
+### Feedback Submitted
 
-Event: `onfeedback`
+**Event:** `onfeedback`
 
-When: When feedback (like/dislike) vote has been registered.
+**When:** Feedback (like/dislike) vote has been registered.
 
-Emits: Details about the feedback as follows:
+**Emits:** Details about the feedback as follows:
 
 {% code %}
 {% tab language="json" %}
@@ -325,10 +357,12 @@ Emits: Details about the feedback as follows:
 {% /tab %}
 {% /code %}
 
-## Javascript Objects
+## JavaScript Objects
 
-### Accessing Variables
+### Access Variables
 
-Object: `window.vars`
+**Object:** `window.vars`
 
-Access current variables set in the documentation. Available after the project loads. See [Using Project Variables in Scripts](/support-center/variables#using-project-variables-in-scripts).
+**Description:** Access current variables set in the documentation. Available after the project loads.
+
+**See:** [Using Project Variables in Scripts](/support-center/variables#using-project-variables-in-scripts)
