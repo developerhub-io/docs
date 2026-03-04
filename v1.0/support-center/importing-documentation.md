@@ -55,7 +55,6 @@ To import documentation from %product% export into %product%, you must structure
 {% /image %}
 
 Where, for example:
-
 - `v1.0` is the name of your version.
 - `Support Center` is the title of your documentation.
 - `1 Getting Started.md` is a documentation page written in Darkdown format. Its order is 1st in Support Center documentation and its title is `Getting Started`. `Getting Started` folder indicates that `1 Getting Started.md` is a parent page, and it has a subpage titled `First Steps`.
