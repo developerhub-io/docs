@@ -14,6 +14,7 @@ Markdoc format is the format used when pages are synced on %product% using [auto
 
 ## Frontmatter Syntax
 
+
 Every page has a frontmatter header, such as this one:
 
 {% code %}
