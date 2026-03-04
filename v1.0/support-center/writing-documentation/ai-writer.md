@@ -36,7 +36,7 @@ With AI Writer, you can:
 AI Writer is disabled by default and must be enabled by an admin. To enable the AI Writer:
 
 - From the left sidebar, open **Project Settings** {% icon classes="fas fa-layer-group" /%} 
-- Under **AI**, check **AI Writer**.
+- Under **AI**, check **Enable AI writing agent**.
 - Refresh the page for changes to apply.
 
 ## Using AI Writer
