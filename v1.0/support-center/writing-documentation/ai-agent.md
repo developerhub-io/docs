@@ -38,6 +38,7 @@ AI Agent can help you:
 
 - Draft new pages
 - Revise or rewrite existing text
+- Audit content.
 - Generate summaries
 - Plan content (for example, outlines and section suggestions)
 - Restructure a page (for example, reorder sections and improve flow)
