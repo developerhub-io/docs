@@ -180,6 +180,7 @@ Great **success**!
 {% tab title="Android" %}
 Android Tab
 {% /tab %}
+{% /tab %}
 {% tab language="none" title="iOS" %}
 iOS Tab
 {% /tab %}
