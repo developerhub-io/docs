@@ -14,8 +14,8 @@ An intelligent assistant that helps readers find answers through natural convers
 
 Formerly called AI Search.
 
-{% video videoId="https://uploads.developerhub.io/prod/02/nvrnanscgw7okyvlbqfcs8n1xmgxtc6h1cmr54i3e18avestnunznr12liyvk6gx.mp4?autoplay=true&loop=true&muted=true&playsinline=true&controls=false" provider="raw" %}
-{% /video %}
+{% image url="asset:phevav8uo2iw" mode="responsive" height="831" width="1402" %}
+{% /image %}
 
 ## AI Assistant Features
 
