@@ -16,9 +16,12 @@ AI Agent never applies changes automatically. Instead, it produces one or more e
 
 ## Who can use AI Agent
 
-AI Agent is available to all editors except reviewers.
+AI Agent is available to all editors except reviewers. It's available for all plans currently in preview mode.
 
-AI Agent is enabled when **AI Writer** is enabled. For instructions, see [AI Writer](/support-center/ai-writer).
+To enable the AI Agent:
+
+- From the left sidebar, open **Project Settings** {% icon classes="fas fa-layer-group" /%} 
+- Under **AI**, check **Enable AI writing agent**.
 
 ## Where to find AI Agent
 
