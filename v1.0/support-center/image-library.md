@@ -12,6 +12,9 @@ tags:
 
 Image Library lets you manage and reuse your uploaded images across pages, so you don’t have to upload the same file multiple times or update each usage individually.
 
+{% image url="asset:k00imentacu2" mode="responsive" height="848" width="1090" %}
+{% /image %}
+
 ## What is Image Library?
 
 - Image Library is a central repository of all the images you’ve uploaded in %product%.
