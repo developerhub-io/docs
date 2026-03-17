@@ -99,6 +99,6 @@ Conflicts are resolved by name. If the same name exists in multiple references, 
 
 To change precedence, use the **up** and **down** arrows next to each reference in the list.
 
-## Limitations
+## Requirements
 
 - All API definitions in the merge must use the exact same OpenAPI version.
