@@ -10,7 +10,7 @@ keywords:
 tags: 
 ---
 
-%product% generates beautiful and powerful API References from your API definitions. [Create](/support-center/edit-references#create-a-new-api-definition), [upload](/support-center/uploading-references) or [edit](/support-center/edit-references) your OpenAPI definitions directly on %product%. 
+%product% generates beautiful and powerful API References from your API definitions. [Create](/support-center/edit-references#create-a-new-api-definition), [upload](/support-center/uploading-references), [merge](/support-center/merge-api-definitions) or [edit](/support-center/edit-references) your OpenAPI definitions directly on %product%. 
 
 See our [own API References](/v1.0/api/ref) here.
 
