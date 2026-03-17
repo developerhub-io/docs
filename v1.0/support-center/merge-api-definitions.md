@@ -36,7 +36,7 @@ The **Override API Reference** is an optional OpenAPI definition that takes prec
 The Override API Reference must include the `openapi` version. In practice, it is also expected that `info`, `description`, and `version` are overridden here.
 {% /callout %}
 
-### Example Override API Reference (YAML)
+### Example Override API Reference
 
 {% callout type="info" title="What This Example Does" %}
 This override sets the API title and version, and replaces the `bearerAuth` security scheme.
