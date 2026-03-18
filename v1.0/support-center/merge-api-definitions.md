@@ -14,6 +14,9 @@ Merging API references lets you combine multiple existing API definitions into a
 
 The merged result is saved as a **draft** API reference so you can review it before publishing.
 
+{% image url="asset:hqcj861fb8nx" mode="responsive" height="1190" width="1720" %}
+{% /image %}
+
 ## Merge API References
 
 To create a merged API reference:
