@@ -10,6 +10,7 @@ keywords:
 tags: 
 ---
 
+
 Custom login for readers on %product% is provided using JSON Web Tokens (JWT). By using JWT login:
 
 - You control who has access to your docs without having to share a global password/link.
@@ -29,6 +30,7 @@ When JWT login is enabled, the flow of login would be as such:
 We do provide the URL which the reader tried to access in a query param called `redirect`. Your servers may read this query param and use it as the redirect URL instead of the landing page of your docs.
 {% /callout %}
 
+
 ## How to enable JWT Login
 
 To setup JWT login on %product%, follow these steps:
@@ -39,8 +41,9 @@ To setup JWT login on %product%, follow these steps:
 4. Provide a login URL, read more about [login URL](/support-center/private-docs#using-login-url) here.
 5. Click Save.
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_1/hxpx3ftravzsheerfkrd/1627247198.png" mode="responsive" height="966" width="1436" %}
+{% image url="https://uploads.developerhub.io/prod/02/wwvzkc8c0ouvdjwunip7tfd7tvwxjj21lplslq6yb29xafd92g510epvdjfq4rci.png" caption="" mode="responsive" height="966" width="1436" %}
 {% /image %}
+
 
 ## Signing JWT
 
@@ -73,15 +76,18 @@ function getSignedDeveloperHubUrl() {
 {% /tab %}
 {% /code %}
 
+
 Once the URL is generated, you may redirect your reader to the generated URL to provide them access to the docs.
 
 {% callout type="info" title="Variables and Conditional Content" %}
 The `vars` object in the JWT payload is used to evaluate [content audiences](/support-center/conditional-content) for conditional content. Variables are matched against audience conditions to determine which content is visible to each reader.
 
 {% /callout %}
+
 {% callout type="warning" title="Sign only in the backend" %}
 To sign a JWT, you need an API Key with `access.write` permission. The API Key is a secret and it should never be shared online.
 {% /callout %}
+
 
 For easy access, you can also generate a JWT directly from the Manage Access window by clicking on "Generate JWT" and selecting the expiry value.
 
@@ -126,6 +132,7 @@ app.listen(port, () => {
 {% /tab %}
 {% /code %}
 
+
 ## Limiting Access to One Device
 
 To limit a single JWT token to give access only on one device, a unique `jti` may be added in the payload. For example:
@@ -152,6 +159,7 @@ function getSignedDeveloperHubUrl(url) {
 }
 {% /tab %}
 {% /code %}
+
 
 In this example, a UUID was used to provide uniqueness for the `jti` parameter, but any random sequence can be used.
 

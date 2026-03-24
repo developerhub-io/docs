@@ -10,10 +10,12 @@ keywords:
 tags: 
 ---
 
+
 Conditional Content lets you control who can see specific content in your documentation based on user variables. Content visibility is managed through audiences, which define conditions that are evaluated against [variables](/support-center/variables) passed via [custom login](/support-center/custom-login).
 
 {% synced id="beta-feature" %}
 {% /synced %}
+
 
 There are two ways to use Conditional Content:
 
@@ -47,8 +49,9 @@ To edit the conditions for an audience:
 
 In the expression builder, you can add as many conditions as needed. Each condition checks that a variable matches a value. All conditions must be satisfied for the content to show.
 
-{% image url="asset:rotyylnr1119" mode="responsive" height="318" width="529" %}
+{% image url="asset:rotyylnr1119" caption="" mode="responsive" height="318" width="529" %}
 {% /image %}
+
 
 ### Deleting an Audience
 
@@ -61,6 +64,7 @@ To delete an audience:
 {% callout type="warning" title="Deleting Audiences" %}
 If an audience is in use on pages or conditional blocks, deleting it may affect content visibility.
 {% /callout %}
+
 
 ## Setting Page Audience
 
@@ -107,6 +111,7 @@ const payload = {
 };
 {% /tab %}
 {% /code %}
+
 
 These variables are then matched against the conditions defined in each audience to determine which content the reader can access.
 

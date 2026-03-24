@@ -7,13 +7,15 @@ description:
 index_title: Conditional Blocks
 hidden: 
 keywords: 
-tags: blocks
+tags: 
 ---
+
 
 Conditional blocks let you control who can see a given block of content on your page based on content audiences. Audiences define conditions that determine whether content is visible to specific readers.
 
 {% synced id="beta-feature" %}
 {% /synced %}
+
 
 ## Create a Conditional Block
 
@@ -21,6 +23,7 @@ To add a conditional block:
 
 {% synced id="open-block-menu" %}
 {% /synced %}
+
 
 - Select **Conditional Block**.
 - Add the content as needed inside the conditional block.
@@ -42,6 +45,7 @@ When a reader views your documentation, their audience is evaluated based on var
 {% callout type="info" title="Managing Audiences" %}
 To create, edit, or delete audiences, go to Project Settings → Audiences. See [Conditional Content](/support-center/conditional-content) for full details.
 {% /callout %}
+
 
 If you require more of the Conditional Content feature, please do not hesitate to [contact us](/support-center/contact-us).
 

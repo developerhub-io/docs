@@ -1,10 +1,10 @@
 ---
 type: page
-title: IMDS Plugin Page
+title: IMDS Plugin Page [sync-test]
 listed: true
 slug: imds-plugin-page
 description: 
-index_title: IMDS Plugin Page
+index_title: IMDS Plugin Page [sync-test]
 hidden: 
 keywords: 
 tags: 
