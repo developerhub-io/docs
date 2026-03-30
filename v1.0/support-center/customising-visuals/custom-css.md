@@ -250,8 +250,9 @@ We have set up variables for you to change, so you can change the look and feel 
   
   --bg-color: #FFF; /* Background color */
   --alt-bg-color: #FFF;  /* Used in some controls for differentiating from background color in dark mode */
-  --font-color: #333; /* Font color */
-  --heading-color: #444; /* Heading color */
+  --font-color: #444; /* Font color */
+  --heading-color: #2a2a2a; /* Heading color */
+  --text-secondary-color: #666; /* Image caption color */
   --category-color: #555; /* Category (in index) color */
   --toc-link-color: #666;  /* TOC text color */
   --table-second-color: #FAFAFA;  /* Alternating table background color */
