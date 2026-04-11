@@ -17,7 +17,12 @@ If you wish to create another project, with an _entirely_ different subdomain/cu
 - In the sidebar below our logo, click on the project selector.
 - Choose Create New Project.
 - Set the new project title.
+- (Optional) Tick **Copy settings** to reuse most settings from the current project.
 - Click on Create.
+
+{% callout type="info" title="Copy Settings" %}
+**Copy settings** copies most settings from the current project into the new project, except **security** and **hosting** settings.
+{% /callout %}
 
 Your new project will be on a trial plan.
 
