@@ -26,6 +26,6 @@ When launched, the diff opens in a window and highlights changes in different co
 3. Under **Edit History**, hover over the revision you want to inspect.
 4. Click **Diff**.
 
-In the diff modal, use the selector next to **Compare** to choose what to compare against: **vs Previous Revision** (default), **vs Current Revision**, **or vs Published Revision**.
+In the diff modal, use the selector next to **Compare** to choose what to compare against: **vs Previous Revision** (default), **vs Latest Revision**, **or vs Published Revision**.
 
 You can also jump between diffs using the arrows in the top right corner.
