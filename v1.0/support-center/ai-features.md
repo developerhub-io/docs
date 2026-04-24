@@ -28,9 +28,9 @@ Read the linked sections to understand what information we send to OpenAI for ea
 
 ## Terms & Conditions
 
-We use OpenAI for all our AI features. Quoting from [OpenAI's data usage policy](https://openai.com/policies/api-data-usage-policies):
+We use OpenAI for all our AI features. Quoting from [OpenAI's Data Controls](https://developers.openai.com/api/docs/guides/your-data):
 
-"OpenAI will not use API data to train OpenAI models or improve OpenAI’s service offering."
+"Your data is your data. As of March 1, 2023, data sent to the OpenAI API is not used to train or improve OpenAI models".
 
 However:
 
