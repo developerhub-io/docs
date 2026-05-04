@@ -75,6 +75,10 @@ Exactly, files would be synced to GitHub whenever a:
 
 Whenever a file is created or updated on GitHub, the corresponding contents or settings would be updated on %product%.
 
+{% callout type="info" title="Sync Error Notifications" %}
+If an error occurs while syncing changes from GitHub to %product%, we will send an email notification to the email address of the user who pushed the commit.
+{% /callout %}
+
 ## File Formats
 
 The files synced on GitHub are of two types:
