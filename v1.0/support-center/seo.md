@@ -10,84 +10,148 @@ keywords:
 tags: 
 ---
 
-Your readers do not always start searching in your documentation and might look first through a search engine. If you are publishing your documentation with us on %product% subdomain or your own custom domain then you already are visible to search engines and all your content is indexed.
+Search is one of the main ways readers discover documentation. %product% is built to be crawlable and indexable out of the box, with sensible defaults and a small set of project-level controls.
 
 ## Optimised for SEO
 
-All our documentation portals are optimised for SEO. The pages are clearly structured and have canonical URLs which prevent content duplication. 
+%product% documentation portals are optimised for SEO by default:
 
-Each documentation, API reference and page can have its META description modified. You can even generate it using [auto$](/support-center/ai-summarisation).
-
-We also show the best image and description for the content when pasting a documentation link on social media, slack, etc... You may also modify the description from **Page Info** (right sidebar).
+- Clean, stable URLs
+- Semantic structure and headings
+- Canonical URL support to reduce duplication (especially with versioning)
+- Bot-friendly rendering for indexing and SEO tooling
 
 {% callout type="info" title="Info" %}
-We cache new SEO results every 7 days.
+We cache bot-rendered pages every 7 days for fast serving to search engines and SEO software.
 {% /callout %}
 
-Our pages rank at 100% using Google's Lighthouse SEO test:
+Our pages typically score highly on Google Lighthouse SEO audits:
 
 {% image url="https://uploads.developerhub.io/prod/02/tkxojqodsrgjtvcg92sum06d8yffmxpq0n02kbwiekx8chtdwa9qv8rslva99krk.png" caption="Google's Lighthouse SEO test on our pages" mode="600" height="1456" width="600" %}
 {% /image %}
 
-Furthermore, links are unfurled in external applications like Slack.
+## Page Structure and Headings
+
+Pages use semantic headings:
+
+- The page title is the H1.
+- Additional headings (H2, H3, etc.) are used as authored in the editor.
+
+This helps search engines understand the content hierarchy.
+
+## Titles, Descriptions, and Social Previews
+
+This section covers the most common questions about how metadata is derived and what you can customise.
+
+### Title Tag (Browser Tab Title)
+
+The `<title>` tag is controlled globally using `seo.titleFormats` in [auto$](/support-center/advanced-settings).
+
+By default, it uses the format:
+
+- `%page% - %project%`
+
+### Meta Description
+
+Each page can override its meta description from **Page Info** (right sidebar).
+
+By default, the meta description is taken from the first paragraph on the page.
+
+You can also generate a description from **Page Info &gt; Generate**. For more details, see [AI SEO Helper](/support-center/ai-summarisation).
+
+### Social Preview Image (Open Graph Image)
+
+When a documentation link is shared (for example in Slack), the preview image is determined automatically:
+
+- If the page contains an image, the first image on the page is used.
+- If the page contains no images, the project logo is used.
 
 {% image url="https://uploads.developerhub.io/prod/02/rlu0qs6ug3n30m3l9m7b7bak9vrpm8ml7o3ng3vehgtgseoxr1p0ryui4p0yywbw.png" mode="responsive" height="461" width="702" %}
 {% /image %}
 
-## Sitemap
+## Sitemap and robots.txt
 
-For SEO purposes, there is a sitemap that is available under `/sitemap.xml` of your subdomain and custom domain. If you are [hosting under an existing website](/support-center/hosting#hosting-under-an-existing-website), you should find it under `/sitemap.xml` of the subdomain, such as `<subdomain>.developerhub.io/sitemap.xml`, or under the basepath such as `docs.pied-piper.com/kb/sitemap.xml`.
+%product% provides standard discovery endpoints at the root of your docs site:
 
-You may also find the `robots.txt` file that we serve under `/robots.txt`. Furthermore, text sitemaps `sitemap.txt` are available.
+- `/robots.txt`
+- `/sitemap.xml`
+- `/sitemap.txt`
+
+Where to find them depends on how your docs are hosted. Examples:
+
+- Custom domain without a base path:
+    - `https://<custom-domain>/sitemap.xml`
+
+- Custom domain with a base path:
+    - `https://<custom-domain>/<base-path>/sitemap.xml` 
+
+- %product% subdomain:
+    - `https://<subdomain>.developerhub.io/sitemap.xml`
+
+If you are [hosting under an existing website](/support-center/hosting#hosting-under-an-existing-website), the sitemap and robots endpoints live under the documentation base path on the custom domain (and are also available on the subdomain).
 
 {% callout type="info" title="Info" %}
 Sitemaps are generated every 6 hours.
 {% /callout %}
 
-## When Using Custom Domain
+## Search Console (Custom Domains)
 
-If you are using your custom domain, you should create a property on the search engine's Search Console, such as [Google's Search Console](https://www.google.com/webmasters/tools/home). This will help you have control over the content published and get information about the search your readers are reaching you through.
+If you are using a custom domain, create a property in a search engine’s Search Console (for example [Google Search Console](https://www.google.com/webmasters/tools/home)). This provides crawl diagnostics, indexing status, and query performance for your documentation.
 
-## More Custom Options
+## Project Settings That Affect SEO
 
-By default, we indicate that the [short URL](/support-center/previewing-documentation#url-strategy) of the page without the version slug is the canonical URL. If you wish to change this to include the version slug, then you may do from Project Settings &gt; Under Hosting &gt; check "Canonicalize Short URL Form".
+These settings live in Project Settings and are the main switches that affect indexation and canonical behaviour.
 
-Also, if you wish to disable indexing for the non-default version, then you may do so from Project Settings &gt; Under Hosting &gt; check "Only Index Default Version".
+### Enable or Disable Search Indexing
 
-Furthermore, if you wish to modify globally the titles of pages, then you may do so using [auto$](/support-center/advanced-settings) under `seo.titleFormats`.
+If you do not want the documentation visible on search engines, uncheck **Enable Search Engines Indexing** in Project Settings.
 
-To add META tags to provide more custom SEO options, descriptions, images and so on, check [auto$](/support-center/custom-javascript).
+### Canonical URL Strategy for Versioned Docs
+
+By default, %product% treats the [short URL](/support-center/previewing-documentation#url-strategy) (without the version slug) as the canonical URL.
+
+If you want canonical URLs to include the version slug, enable **Canonicalize Short URL Form** in Project Settings (Hosting).
+
+If you want only the default version indexed, enable **Only Index Default Version** in Project Settings (Hosting).
+
+### Additional Meta Tags
+
+If you need to add custom verification tags or additional SEO-related meta tags, see [Custom HEAD Tags](/support-center/custom-javascript).
 
 ## Troubleshooting
 
-### SEO software suite shows that all pages are empty
+### SEO Software Suite Shows That All Pages Are Empty
 
-%product% renders the pages differently to actual readers vs. bots. These bots includes indexing spiders, site verification bots, SEO software spiders, AI agents, etc...
+%product% renders pages differently for readers vs bots. Bots include indexing spiders, site verification bots, SEO software spiders, and AI agents.
 
-To view how a bot sees a page add `?_escaped_fragment_=` to the end of a URL. For example, if your page had the link `https://docs.developerhub.io/support-center/getting-started`, then the bot sees the page as `https://docs.developerhub.io/support-center/getting-started?_escaped_fragment_=`.
+To view how a bot sees a page, add `?_escaped_fragment_=` to the end of the URL.
 
-This is because our pages are dynamic and they get created as the reader views them, however spiders do not wait for the page to get created, so we serve them a static version of the page that has already loaded. This has no effect on SEO.
+Example:
 
-We have a long list of supported bots including all the major search engines, and SEO softwares such as SemRush, Ahrefs, Moz. If you are using a SEO software that seems to be unsupported by us, then either configure your SEO software to use a known spider user agent such as "googlebot", or [contact us](/support-center/contact-us) to add support for the SEO software.
+- Reader URL: `https://docs.developerhub.io/support-center/getting-started`
+- Bot URL: `https://docs.developerhub.io/support-center/getting-started?_escaped_fragment_=`.
 
-### When I inspect the page source, the page is empty
+This does not harm SEO. It ensures crawlers receive a fully rendered HTML snapshot.
 
-Please see the [troubleshooting tip](/support-center/seo#seo-software-suite-shows-that-all-pages-are-empty) above. To view the source of the page, either open your browser's DevTools and view the source under Elements tab, or add `?_escaped_fragment_=` to the end of the URL and then view source normally.
+We support major search engines and common SEO tools. If your SEO software appears unsupported, configure it to use a known spider user agent such as `googlebot`, or [contact us](/support-center/contact-us) to add support.
 
-### Search Engine report showing 404
+### When I Inspect the Page Source, the Page Is Empty
 
-If you are using any middleware (like Cloudflare) to serve your docs, then they might be affecting the ability for our caching servers to serve the pages to search engines. Disable the middleware for the docs site if possible.
+See the troubleshooting tip above. To view rendered content, either:
 
-### Getting a 403 or bad result
+- Use your browser DevTools and inspect the DOM in the Elements tab, or
+- Append `?_escaped_fragment_=` to the URL and then view source.
 
-If you are using a firewall, your firewall might be blocking the requests from our SEO renderer. Please whitelist the user agent `DeveloperHub.io SSR`.
+### Search Engine Reports 404s
 
-### Search Engine showing "Unable to Load Project"
+If you use middleware (for example Cloudflare) in front of the docs site, it may interfere with serving bot-rendered pages. Disable the middleware for the docs site if possible, or configure it to preserve bot rendering behaviour.
 
-Such issue happens when the docs are being cached by a middleware. Our docs are served differently according to the user agent header, which tells us if the user is a reader or a bot. To resolve the issue, either configure the cache to serve different version of the pages according to the user agent header, or disable the cache completely for the docs.
+### Getting a 403 or an Unexpected Bot Result
 
----
+If you use a firewall, it may block our SEO renderer. Whitelist the user agent `DeveloperHub.io SSR`.
 
-## Do Not Want To Be Visible?
+### Search Engine Shows "Unable to Load Project"
 
-If you do not want to be visible on search engines, you can uncheck "Enable Search Engines Indexing" in Project Settings.
+This can happen when the docs are cached by middleware without varying by user agent. %product% serves different responses depending on whether the user agent is a reader or a bot.
+
+Configure caching to vary by user agent, or disable caching for the docs site.
