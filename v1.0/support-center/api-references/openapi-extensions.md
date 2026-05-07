@@ -72,36 +72,38 @@ Those variables are specifically useful to construct links inside markdown descr
 
 `x-labels` adds one or more labels to a schema property's description.
 
+{% image url="asset:m6y4rqoms68k" mode="responsive" height="664" width="1450" %}
+{% /image %}
+
 Labels can be defined as such in OpenAPI:
 
 {% code %}
-{% tab language="yaml" highlightLines="17-21" %}
-"/documentation/{id}/page":
-  post:
-    requestBody:
-      content:
-        application/json:
+{% tab language="yaml" highlightLines="13-15" %}
+/page:
+    get:
+      parameters:
+        - name: page_slug
+          description: Page Slug.
           schema:
-            description: Page object
-            required:
-              - title
-              - content
-            type: object
-            properties:
-              title:
-                description: Title of the page
-                type: string
-              content:
-                x-labels:
-                  - text: New
-                    type: green-badge
-                  - text: Private
-                    type: red-badge
-                description: >-
-                  Draft contents of the page in [Darkdown
-                  format](https://docs.developerhub.io/support-center/exporting-documentation#darkdown)
-                type: string
+            type: string
+          in: query
+          required: true
+        - name: format
+          description: Format type
+          schema:
+            x-labels:
+              - text: New
+                type: "badge badge-success mr-1"
+            default: darkdown
+            enum:
+              - darkdown
+              - markdown
+              - html
+              - text
+            type: string
+          in: query
+          required: false
 {% /tab %}
 {% /code %}
 
-When `x-labels` is set, each label is placed in the description, unstyled, using the text provided. Each label is given the CSS classes `label` and `type` specified. This can be used to add specific labels with specific colours, like badges on a description.
+When `x-labels` is set, each label is placed in the description, unstyled, using the text provided. Each label is given the CSS classes `label` and the value of `type`. This can be used to add specific labels with specific colours, like badges on a description.
