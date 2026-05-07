@@ -72,7 +72,7 @@ Those variables are specifically useful to construct links inside markdown descr
 
 `x-labels` adds one or more labels to a schema property's description.
 
-{% image url="asset:m6y4rqoms68k" mode="responsive" height="664" width="1450" %}
+{% image url="asset:m6y4rqoms68k" caption="Example showing \"New\" badge on format" mode="responsive" height="664" width="1450" %}
 {% /image %}
 
 Labels can be defined as such in OpenAPI:
