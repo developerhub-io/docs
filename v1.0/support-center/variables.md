@@ -62,8 +62,7 @@ Project variables can be inserted in:
 
 To edit project variables, do the following:
 
-- From the sidebar, select **Project Settings** {% icon classes="fas fa-layer-group inv-icon" /%}
-- Under **Project Variables**, click on the button on the right.
+- Open Project Settings → **Content** → **Project Variables**.
 - Enter a JSON object defining all your variables. For example:
 
 {% code %}
@@ -110,10 +109,9 @@ Note that YAML requires you to use double quotations to escape a string containi
 
 To use project variables in [scripts](/support-center/custom-javascript), you must first set up the project to expose variables through `window.vars` object. To do that:
 
-- From the sidebar, select **Project Settings** {% icon classes="fas fa-layer-group inv-icon" /%}
-- Under **Project Variables**, click on the button on the right.
-- Check Expose Variables in Javascript.
-- Click Save.
+- Open Project Settings → **Content** → **Project Variables**.
+- Check **Expose variables in Javascript**.
+- Click **Save changes** in the top menu.
 
 For the published docs, once the project loads, you'll be able to access the variables (defined under Project and injected through personalisation) through `window.vars`.
 

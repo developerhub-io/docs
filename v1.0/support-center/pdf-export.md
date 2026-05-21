@@ -26,9 +26,9 @@ If your readers cannot access the documentation online, then you can provide the
 
 PDFs are exported by version. To export a PDF:
 
-- From the sidebar, choose Version {% icon classes="fas fa-code-branch inv-icon" /%}
-- Next to the title, click on Settings {% icon classes="fas fa-cog" /%}
-- Next to Export to PDF, choose Manage {% icon classes="far fa-file-pdf" /%}
+- Open Manage Versions (version menu → settings {% icon classes="fas fa-cog" /%} cog).
+- Select the version.
+- In the Lifecycle card, click **Export as PDF**.
 - In the PDF Exports window, click on Generate New PDF.
 
 Once a PDF export job starts, you can see its progress in the PDF Exports window. When a job is finished, the job will be marked as Done, and you will be able to download the PDF.
@@ -39,9 +39,9 @@ After you have at least one PDF generated, you can generate a permalink for PDF 
 
 To get a permalink:
 
-- From the sidebar, choose Version {% icon classes="fas fa-code-branch inv-icon" /%}
-- Next to the title, click on Settings {% icon classes="fas fa-cog" /%}
-- Next to Export to PDF, choose Manage {% icon classes="far fa-file-pdf" /%}
+- Open Manage Versions (version menu → settings {% icon classes="fas fa-cog" /%} cog).
+- Select the version.
+- In the Lifecycle card, click **Export as PDF**.
 - In the PDF Exports window, click on Get Permalink {% icon classes="fas fa-link" /%}. The URL will be copied to your clipboard.
 
 {% callout type="warning" title="Unique link" %}

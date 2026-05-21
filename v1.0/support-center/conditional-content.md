@@ -32,11 +32,10 @@ Audiences are created and managed in Project Settings. Each audience has an ID a
 
 To create a new audience:
 
-1. From the sidebar, choose Project Settings {% icon classes="fas fa-layer-group inv-icon" /%}.
-2. Navigate to **Audiences**.
-3. Click **Create audience**.
-4. Enter an **Audience ID** (this ID will be used to reference the audience).
-5. Click **Save**.
+1. Open Project Settings → **Content** → **Audiences**.
+2. Click **Create audience**.
+3. Enter an **Audience ID** (this ID will be used to reference the audience).
+4. Click **Save**.
 
 ### Editing Audience Conditions
 

@@ -26,7 +26,7 @@ If you wish to have more control and branding over your landing page, you may us
 
 To enable a custom landing page for the main landing page:
 
-- Open Landing Page from the sidebar {% icon classes="fas fa-rocket inv-icon" /%}
+- In the editor top navigation, open the scope picker and select **Landing Pages**.
 - Choose the main landing page.
 - Click on the {% icon classes="fas fa-cog" /%} settings icon at the top.
 - Click on **Enable** next to Use Custom Page.

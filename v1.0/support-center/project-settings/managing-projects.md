@@ -14,11 +14,11 @@ tags:
 
 If you wish to create another project, with an _entirely_ different subdomain/custom domain, visuals and integrations:
 
-- In the sidebar below our logo, click on the project selector.
-- Choose Create New Project.
+- In the editor top navigation, click on the project menu.
+- Choose **Create new project**.
 - Set the new project title.
 - (Optional) Tick **Copy settings** to reuse most settings from the current project.
-- Click on Create.
+- Click **Create**.
 
 {% callout type="info" title="Copy Settings" %}
 **Copy settings** copies most settings from the current project into the new project, except **security** and **hosting** settings.
@@ -30,15 +30,15 @@ Your new project will be on a trial plan.
 
 If you have multiple projects, to switch between projects:
 
-- In the sidebar below our logo, click on the project selector.
-- To switch to any of the projects, click on that project.
+- In the editor top navigation, click on the project menu.
+- Click the project you want to switch to.
 
 ## Deleting Project
 
 To delete a project:
 
-- Click on Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar.
-- At the top, next to the Project Title, click on the red bin {% icon classes="fas fa-trash-alt red-bg-icon" /%} icon.
+- Open Project Settings → **General**.
+- In the Danger zone card, click **Delete project**.
 - Confirm your project deletion.
 
 {% callout type="warning" title="Warning" %}

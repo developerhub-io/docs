@@ -42,13 +42,14 @@ Terms and conditions:
 
 Here is a step-by-step guide into how to have your documentation on your custom domain through the referral program:
 
-- Click on Account {% icon classes="fas fa-user inv-icon" /%} in the sidebar, and edit your referral code if you want to personalise it.
+- Open the user menu in the top navigation, then choose **Account settings**.
+- In the Security pane, edit your referral code if you want to personalise it.
 
 {% callout type="warning" title="Warning" %}
 Changing your referral code will make your old referral code invalid.
 {% /callout %}
 
-- Click on Refer Friends.
+- Click **Copy invitation link**.
 
 {% image url="https://image-archive.developerhub.io/image/upload/1338/fmsepzgbnnah4ux9xsiy/1535921585.png" mode="responsive" height="804" width="1036" %}
 {% /image %}

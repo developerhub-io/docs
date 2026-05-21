@@ -26,8 +26,7 @@ With %product% you can edit your OpenAPI 2/3 definitions using our editors. We s
 
 To edit an existing API definition:
 
-- From the sidebar, choose Reference {% icon classes="fas fa-vector-square" /%}.
-- Choose the API Reference to be edited from the list.
+- In the editor top navigation, open the section menu and choose the API reference from the API Reference group.
 - Once the API Reference has loaded, click on Edit in the bottom right side of the screen. The API Editor will load in a new tab.
 - Make the changes. Click Save Draft when done.
 
@@ -37,8 +36,9 @@ Once you are ready to publish the API Reference, a publisher may click Publish b
 
 To create a new API definition using our OpenAPI editor:
 
-- From the sidebar, choose Reference {% icon classes="fas fa-vector-square" /%}.
-- Choose "Create new OpenAPI 3 reference". The API editor will launch in a new tab.
+- In the editor top navigation, open the section menu.
+- Click **+ New API reference**.
+- Choose **Create from scratch**. The API editor will launch in a new tab.
 
 ## Generators
 

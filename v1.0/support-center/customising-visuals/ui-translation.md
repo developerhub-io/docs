@@ -10,9 +10,9 @@ keywords:
 tags: customisation
 ---
 
-If you wish to change %product% UI  text that shows to your readers, which defaults to English, then you can modify it through two ways:
+If you wish to change %product% UI text that shows to your readers, which defaults to English, then you can modify it through two ways:
 
-- Changing the Language from Documentation {% icon classes="fas fa-book inv-icon" /%} settings.
+- Changing the Language in the documentation section's settings on the Manage Sections page.
 - Modifying the [javascript](/support-center/custom-javascript).
 
 ## Which Text Can be Changed?
@@ -94,8 +94,8 @@ The text that is available to be translated is detailed as such:
 
 To specify in which language should the UI text show in:
 
-- From the sidebar, choose Documentation {% icon classes="fas fa-book inv-icon" /%}
-- Next to the title, click on Settings {% icon classes="fas fa-cog" /%}
+- Open Manage Sections (section menu → settings {% icon classes="fas fa-cog" /%} cog).
+- Select the documentation.
 - Next to Language, select the language to translate the UI text to.
 
 Each documentation can have its own translation.

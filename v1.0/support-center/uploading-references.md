@@ -12,8 +12,9 @@ tags:
 
 To upload a new reference or to override an existing reference, you may either do it using our [API](/support-center/api-key) or through the editor as such:
 
-- Open References {% icon classes="fas fa-vector-square inv-icon" /%} from the sidebar.
-- Select Import OpenAPI 2/3 Reference {% icon classes="fas fa-plus" /%}
+- In the editor top navigation, open the section menu.
+- Click **+ New API reference**.
+- Choose **Upload OpenAPI definition**.
 - Choose a valid OpenAPI 2/3 (Swagger) JSON or YAML file.
 - Wait until validation and parsing is complete.
 

@@ -16,15 +16,14 @@ You may want to set up extra server headers for security purposes. The headers a
 
 To set up server headers:
 
-- From the sidebar, click on Project Settings {% icon classes="fas fa-layer-group inv-icon" /%}.
-- Under Hosting, click on Edit Headers {% icon classes="fas fa-server" /%}.
-- Add the server headers as follows:
+- Open Project Settings → **Hosting**.
+- In the Server headers card, edit the inline list:
     - Each header must be on one line.
     - Each header must have the header name and value separated by `:`.
     - You cannot modify certain headers, such as `Cache-Control` or `Server`.
     - Any invalid header will be removed.
 
-- Hit Save.
+- Click **Save changes** in the top menu.
 
 It may take up to 5 minutes for changes to take effect.
 

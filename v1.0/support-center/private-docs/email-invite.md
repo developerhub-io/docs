@@ -25,18 +25,17 @@ The process is as follows:
 
 ## How to Enable Email Invite?
 
-1. From the sidebar, choose Project Settings {% icon classes="fas fa-layer-group inv-icon" /%}.
-2. Under General Settings, choose Make Private (or Manage Access).
-3. Select Email Invite.
-4. Hit Save.
+1. Open Project Settings → **Access**.
+2. In the Access method card, select **Invited emails**.
+3. Click **Save changes** in the top menu.
 
 ## How to Invite Readers?
 
 To invite readers:
 
 1. First, ensure that the project is protected by Email Invite.
-2. From the sidebar, choose Project Settings {% icon classes="fas fa-layer-group inv-icon" /%}.
-3. Under General Settings, click the button {% icon classes="fas fa-share-alt" /%} next to Manage Access.
+2. Open Project Settings → **Access**.
+3. In the Sharing & invites card, click **View readers**.
 4. Input the reader's e-mail address and expiry, if any.
 5. Click Grant Access.
 
@@ -46,8 +45,8 @@ Once you click Grant Access, an e-mail message with be sent out to the e-mail ad
 
 To revoke reader access:
 
-1. From the sidebar, choose Project Settings {% icon classes="fas fa-layer-group inv-icon" /%}.
-2. Under General Settings, click the button {% icon classes="fas fa-share-alt" /%} next to Manage Access.
+1. Open Project Settings → **Access**.
+2. In the Sharing & invites card, click **View readers**.
 3. Find the reader whose access is to be revoked, then click on the {% icon classes="fas fa-times red-text" /%} next to it.
 
 The reader will no longer be able to access the docs, or to request a magic link.

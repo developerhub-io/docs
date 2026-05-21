@@ -21,8 +21,9 @@ The merged result is saved as a **draft** API reference so you can review it bef
 
 To create a merged API reference:
 
-- Open **References** {% icon classes="fas fa-vector-square inv-icon" /%} from the sidebar.
-- Select **Merge API References**.
+- In the editor top navigation, open the section menu.
+- Click **+ New API reference**.
+- Choose **Merge references**.
 - (Optional) Add an **Override API Reference**.
 - Select the API references you want to merge from the list (from the current version).
 - Set the merge order using the **up** and **down** arrows next to each reference.

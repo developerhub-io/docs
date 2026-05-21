@@ -31,8 +31,8 @@ With %product% you can have two-way sync set up with GitHub. This enables you to
 The set up is needed from both GitHub side and %product% side. Follow the steps:
 
 - First of all, ensure that you have created the repository for syncing and that it has at least one commit (so a branch would be created). Your initial commit could be adding a README file.
-- From the left sidebar, open Project Settings {% icon classes="fas fa-layer-group inv-icon" /%}
-- Under Integrations, click Connect next to GitHub.
+- Open Project Settings → **Integrations**.
+- Click **Connect** next to GitHub.
 - Complete the authorisation on GitHub and give access to the repositories with which you wish to sync.
 
 {% callout type="info" title="Multiple Projects" %}

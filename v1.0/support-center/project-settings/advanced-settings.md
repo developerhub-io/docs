@@ -14,15 +14,17 @@ tags:
 
 To publish safely ensuring all comments have been resolved, you can check the Ask Before Publishing setting. To do that:
 
-- Click on Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar.
-- At the bottom under Advanced Settings, check Ask Before Publishing.
+- Open Project Settings → **Advanced**.
+- Check **Ask before publishing**.
+- Click **Save changes** in the top menu.
 
 ## Lock Page when Editing
 
 To ensure only one user is editing the page at a time, you can check the Lock Page when Editing setting. To do that:
 
-- Click on Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar.
-- At the bottom under Advanced Settings, check Lock Page when Editing.
+- Open Project Settings → **Advanced**.
+- Check **Lock page when editing**.
+- Click **Save changes** in the top menu.
 
 When this setting is enabled and a user is editing, all other users will see a banner informing them that the page is locked. While this banner is showing, they will not be able to modify the page until the editing user saves or discards. Once the page gets unlocked, the page will refresh automatically.
 
@@ -30,8 +32,9 @@ When this setting is enabled and a user is editing, all other users will see a b
 
 Force editors to annotate the changes to be saved. This helps you keep a clean history. To do that:
 
-- Click on Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar.
-- At the bottom under Advanced Settings, check Require Annotating on Saving.
+- Open Project Settings → **Advanced**.
+- Check **Require annotating on saving**.
+- Click **Save changes** in the top menu.
 
 ## Other Settings
 

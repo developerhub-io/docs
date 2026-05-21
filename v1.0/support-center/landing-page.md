@@ -48,11 +48,11 @@ Every reference is contained in its own card.
 
 Main landing page can be customised as such:
 
-- **Hero background**: In your sidebar under Landing Page, you can choose a pattern for the background. The colour is the same as your [main colour](/support-center/customising-visuals#changing-colours).
+- **Hero background**: In the editor top navigation, switch the scope picker to **Landing Pages**, then choose a pattern for the background. The colour is the same as your [main colour](/support-center/customising-visuals#changing-colours).
 - **Hero title**: The title can be changed directly from your Landing Page by editing it.
 - **Hero button**: The button text can be changed by clicking on the button. You may also remove the button completely.
 
-All landing pages can be enabled or disabled as needed from the sidebar as well.
+All landing pages can be enabled or disabled from the Landing Pages scope as well.
 
 Landing page META description can be modified from its settings.
 

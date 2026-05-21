@@ -20,8 +20,9 @@ The file named `llms.txt`, located at the base of your project path, is integral
 
 `llms.txt` support is enabled by default for new projects. To enable `llms.txt`:
 
-- From the left sidebar, open **Project Settings** {% icon classes="fas fa-layer-group" /%} 
-- Under **AI**, check **Enable llms.txt**.
+- Open Project Settings → **AI Features**.
+- Check **Enable llms.txt**.
+- Click **Save changes** in the top menu.
 
 `llms.txt` file can be found at the base of your project.
 

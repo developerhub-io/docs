@@ -17,7 +17,7 @@ Supercharged plan users can integrate %product% with Google Analytics to track p
 
 ## Setting up Google Analytics
 
-- Click on Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar to access Google Analytics settings under Integrations for Customers.
+- Open Project Settings → **Integrations**.
 
 {% image url="https://image-archive.developerhub.io/image/upload/1046/dqi1osxednsypifmfm2u/1534309321.png" mode="300" height="96" width="400" %}
 {% /image %}

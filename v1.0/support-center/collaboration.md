@@ -55,12 +55,12 @@ A breakdown of the permissions is detailed below:
 
 ## Setting up Teammates
 
-- If you are on a paid plan, you can invite your teammates to collaborate from the Team menu.
-- Open the Team {% icon classes="fas fa-users-cog inv-icon" /%} menu from the sidebar.
-- Click on "Invite teammate to collaborate" {% icon classes="fas fa-plus" /%}
-- Enter the e-mail address of the teammate to invite. You can add multiple at the same time by separating them with a comma.
-- If you want to change their role, click on their badge and change it.
-- If you want to change their name, click on their badge and select "Edit Name".
+If you are on a paid plan, you can invite your teammates to collaborate from the Team pane:
+
+- Open Project Settings → **Team**. You can also open the user menu in the top navigation and choose **Invite teammates**.
+- In the toolbar, enter the e-mail address of the teammate to invite and click **Invite**. You can add multiple at the same time by separating them with a comma.
+- To change a teammate's role, use the role select next to their name.
+- To change a teammate's display name, click their badge and select **Edit name**.
 
 If they are not already a user, an e-mail message will be sent to the e-mail address to help them sign up. They will be added in the list, and an "Invited" badge will be next to their e-mail address until they are signed up.
 
@@ -73,8 +73,8 @@ If they are already a user, an e-mail message will be sent to their e-mail addre
 
 To remove a teammate, do the following:
 
-- Open the Team {% icon classes="fas fa-users-cog inv-icon" /%} menu from the sidebar.
-- Click on the badge next to the user and select "Remove teammate".
+- Open Project Settings → **Team**.
+- Click the badge next to the user and select **Remove teammate**.
 
 If your organisation is managed (for Enterprise), check [Deprovisioning Users](/support-center/editor-single-sign-on--sso-#deprovisioning-users).
 
@@ -83,8 +83,8 @@ If your organisation is managed (for Enterprise), check [Deprovisioning Users](/
 To move ownership to another teammate:
 
 1. Make sure that the user has been invited, has already joined the project as a teammate.
-2. Open the Team {% icon classes="fas fa-users-cog inv-icon" /%} menu from the sidebar.
-3. Click on the badge next to the user and select "Make Owner".
+2. Open Project Settings → **Team**.
+3. Click the badge next to the user and select **Make owner**.
 4. Confirm your choice. The user will receive an e-mail that they became an owner of the project.
 
 {% callout type="warning" title="Transferring Ownership" %}

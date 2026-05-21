@@ -50,8 +50,7 @@ The tag will be created and applied onto the page. If you wish to remove the tag
 
 To list all tags in a project:
 
-- From the left sidebar, click on Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} .
-- Scroll down to Page Tags (expand it if needed).
+- Open Project Settings → **Content** → **Page Tags**.
 - All the tags would be listed there.
 - Click on a tag to rename it or delete it.
 

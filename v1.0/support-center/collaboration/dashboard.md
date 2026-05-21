@@ -31,4 +31,4 @@ The dashboard helps your teammates find upcoming items as fast as possible. The 
 
 To open the dashboard:
 
-- From the left sidebar, click Dashboard {% icon classes="fas fa-home inv-icon" /%}.
+- Open Project Settings → **Insights**.

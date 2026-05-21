@@ -85,15 +85,15 @@ The attributes for Okta SSO must look as follows:
 - Add users to all projects by default: Specifies whether when a user logs in, they would have access to all the projects in the organisation, or if they would require an invitation for each project.
 - Email domain: (Optional) The organisation email domain (e.g. `tesla.com`). Used when new users are logging in using SSO.
 
-SSO settings can be viewed by organisation owners from the sidebar &gt; Organisation {% icon classes="fas fa-building inv-icon" /%}. SSO settings can be changed by [contacting us](/support-center/contact-us).
+SSO settings can be viewed by organisation owners from the user menu → **Organisation settings** → **SSO**. SSO settings can be changed by [contacting us](/support-center/contact-us).
 
 ## Creating Users
 
 To create/invite users into your project, you can:
 
 - Initiate a session from your IdP.
-- Provide them with a link which you can copy from Team {% icon classes="fas fa-user-cog inv-icon" /%} &gt; Copy SSO Login URL {% icon classes="far fa-copy" /%}
-- Invite them by e-mail address from Team {% icon classes="fas fa-user-cog inv-icon" /%} &gt; Invite teammate to collaborate {% icon classes="fas fa-plus" /%}. They will be sent an e-mail containing the SSO Login URL.
+- Provide them with a link which you can copy from Project Settings → **Team** → **Copy SSO login URL**.
+- Invite them by e-mail address from Project Settings → **Team**. They will be sent an e-mail containing the SSO Login URL.
 - Ask them to log in directly from [our login screen](https://app.developerhub.io/login) if "Email domain" is configured for the SSO connection.
 
 ## Logging in Users
@@ -101,7 +101,7 @@ To create/invite users into your project, you can:
 To login existing users, they can:
 
 - Initiate a session from your IdP.
-- Provide them with a link which you can copy from Team {% icon classes="fas fa-user-cog inv-icon" /%} &gt; Copy SSO Login URL {% icon classes="far fa-copy" /%}.
+- Provide them with a link which you can copy from Project Settings → **Team** → **Copy SSO login URL**.
 - Login directly from [our login screen](https://app.developerhub.io/login) by using **Log in Using SSO**.
 
 ## Deprovisioning Users
@@ -114,7 +114,7 @@ When deprovisioning a user, the following will happen:
 
 To deprovision a user:
 
-- From the sidebar, click on Team {% icon classes="fas fa-user-cog inv-icon" /%}.
+- Open Project Settings → **Team**.
 - Click on the badge next to the user, and click **Deprovision from Organisation**.
 - Confirm your choice.
 

@@ -37,15 +37,14 @@ If you are on an enterprise plan, then we also provide reader authentication thr
 
 To set up password protection:
 
-- Go to your Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} from the sidebar.
-- Click on Make Private (or Manage Access).
+- Open Project Settings → **Access**.
+- In the Access method card, select **Password**.
 
 {% image url="https://image-archive.developerhub.io/image/upload/v2_1/ngcyeblh95ndzy4j1oen/1627246980.png" mode="set" height="814" width="448" %}
 {% /image %}
 
-- Choose Password.
 - Input the password.
-- Click on Save.
+- Click **Save changes** in the top menu.
 
 {% image url="https://image-archive.developerhub.io/image/upload/v2_1/ywv2jwt5nl8qifyt9ewl/1627247025.png" mode="responsive" height="1088" width="1424" %}
 {% /image %}
@@ -71,8 +70,8 @@ Once a project is protected by a password, you can share a link which accesses t
 
 To share a link:
 
-- Open Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} 
-- Next to Manage Access, click on Share Link {% icon classes="fas fa-share-alt" /%} icon.
+- Open Project Settings → **Access**.
+- In the Sharing & invites card, click **Share link**.
 
 {% image url="https://image-archive.developerhub.io/image/upload/v2_1/kavdyj1e0lxamqjwruyz/1627247140.png" mode="set" height="790" width="478" %}
 {% /image %}
@@ -93,19 +92,19 @@ If your docs are protected by using a [shared link](/support-center/private-docs
 
 To setup login URL:
 
-- Go to Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar.
-- Click on Manage Access.
+- Open Project Settings → **Access**.
 - Under Login URL, input the URL. An example would be `https://pied-piper.com/docs-login`.
+- Click **Save changes** in the top menu.
 
 ### Disabling Protection
 
 To disable password protection:
 
-- Go to Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar.
-- Click on Manage Access.
-- Choose Public {% icon classes="fas fa-unlock" /%}
+- Open Project Settings → **Access**.
+- In the Access method card, choose **Public** {% icon classes="fas fa-unlock" /%}.
+- Click **Save changes** in the top menu.
 
-Immediately, the project will be unprotected.
+The project will then be unprotected.
 
 {% callout type="warning" title="Warning" %}
 All your published versions will continue to be published. Make sure to unpublish any version that you do not want accessible to the general public before you unprotect the project if needed.

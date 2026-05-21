@@ -21,9 +21,9 @@ It is possible to set the default theme for readers and to show a toggle for you
 
 To change the default theme for readers:
 
-- Click on Project settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar.
-- Under Customisation, choose the theme.
-- Click Save.
+- Open Project Settings → **Customisation**.
+- Choose the theme.
+- Click **Save changes** in the top menu.
 
 {% callout type="success" title="Code Theme" %}
 We suggest using the [light code theme](/support-center/code-theme) when using the light theme.
@@ -33,9 +33,9 @@ We suggest using the [light code theme](/support-center/code-theme) when using t
 
 To show a theme toggle for readers:
 
-- Click on Project settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar.
-- Under Customisation, check Show Theme Toggle.
-- Click Save.
+- Open Project Settings → **Customisation**.
+- Check Show Theme Toggle.
+- Click **Save changes** in the top menu.
 
 ## Light Theme
 

@@ -43,7 +43,7 @@ Use the `/developerhub` slash command to search your docs directly from Slack. T
 
 To setup the Slack integration:
 
-- Click on Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar to access Slack settings under Integrations for Team.
+- Open Project Settings → **Integrations**.
 - Click on Connect. You will be taken to Slack's authentication page.
 - Choose the channel to post the notifications to.
 

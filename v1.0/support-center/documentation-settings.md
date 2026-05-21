@@ -20,8 +20,8 @@ Minimal layout is no longer supported. Only wide layout is available. Also, inde
 
 You may manually set a description for your Documentation. The description will be read by search engines and shown in search results. To set the description:
 
-- In your sidebar, choose Documentation {% icon classes="fas fa-book inv-icon" /%}
-- Next to the title, click on Settings {% icon classes="fas fa-cog" /%}
+- Open Manage Sections (section menu → settings {% icon classes="fas fa-cog" /%} cog).
+- Select the documentation.
 - Edit the documentation description.
 
 ## Collapsible Index
@@ -30,8 +30,8 @@ By default, the index of your documentation is all expanded. That means that the
 
 If your documentation has a long index, you might want to consider setting the index to collapsible. To achieve that:
 
-- In your sidebar, choose Documentation {% icon classes="fas fa-book inv-icon" /%}
-- Next to the title, click on Settings {% icon classes="fas fa-cog" /%}
+- Open Manage Sections (section menu → settings {% icon classes="fas fa-cog" /%} cog).
+- Select the documentation.
 - Check "Can parent pages indices collapse?" option.
 
 {% callout type="info" title="Only in live mode" %}
@@ -44,8 +44,8 @@ By default, all categories of your documentation would be expanded.
 
 To change this behaviour and allow categories to be collapsed:
 
-- In your sidebar, choose Documentation {% icon classes="fas fa-book inv-icon" /%}
-- Next to the title, click on Settings {% icon classes="fas fa-cog" /%}
+- Open Manage Sections (section menu → settings {% icon classes="fas fa-cog" /%} cog).
+- Select the documentation.
 - Check "Can categories collapse?"
 
 {% callout type="info" title="Manually Toggle Categories?" %}
@@ -56,8 +56,8 @@ If you want the categories to be manually toggle-able, add a [HEAD tag](/support
 
 To enable your readers to see who updated the page last, and when was it updated, you can enable Show Page Last Updated setting. To achieve that:
 
-- In your sidebar, choose Documentation {% icon classes="fas fa-book inv-icon" /%}
-- Next to the title, click on Settings {% icon classes="fas fa-cog" /%}
+- Open Manage Sections (section menu → settings {% icon classes="fas fa-cog" /%} cog).
+- Select the documentation.
 - Change "Show page last updated?" to one of **Disabled**, **Date & author** or **Date only**.
 
 {% image url="https://image-archive.developerhub.io/image/upload/12016/fzm4ex8ao3vkbo84hlht/1585424716.jpg" mode="responsive" height="443" width="839" %}
@@ -67,6 +67,6 @@ To enable your readers to see who updated the page last, and when was it updated
 
 If needed, you can copy a documentation section to a version. The same documentation slug should not exist in the destination version. To copy the documentation section to a version:
 
-- In your sidebar, choose Documentation {% icon classes="fas fa-book inv-icon" /%}
-- Next to the title, click on Settings {% icon classes="fas fa-cog" /%}
+- Open Manage Sections (section menu → settings {% icon classes="fas fa-cog" /%} cog).
+- Select the documentation.
 - Click on Copy to Version and select the version.

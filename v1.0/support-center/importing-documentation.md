@@ -27,8 +27,8 @@ You can import to %product% from many sources:
 To import documentation, follow these steps:
 
 - Make sure your import files are [structured](/support-center/importing-documentation#structuring-files) as required.
-- From the sidebar, open Project settings {% icon classes="fas fa-layer-group inv-icon" /%}
-- Click on Import {% icon classes="fas fa-download" /%}
+- Open Project Settings → **Import & Export**.
+- Click **Open import**.
 - Choose %product%.
 
 Importing could take a few seconds up to a minute.

@@ -24,7 +24,7 @@ AI Agent is enabled when **AI Writer** is enabled. For instructions, see [AI Wri
 
 On any page, open the right sidebar and select **AI Agent** {% icon classes="fas fa-robot" /%}
 
-You can modify AI Instructions from **Project Settings** &gt; **AI Features** (at the bottom of the page).
+You can modify AI Instructions from Project Settings → **AI Features**.
 
 ## What AI Agent can do
 

@@ -23,11 +23,11 @@ Apply project-wide javascript, styles, links, and meta that gets added to the HE
 
 To customise HEAD tags:
 
-- Open Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} from the Sidebar.
-- Under External Integrations, select **Custom HEAD Tags** {% icon classes="fab fa-js-square" /%}
-- Enter the custom tags as you would in HTML, and click Save. This will save the HTML in draft mode, so you can test it out.
-- To publish it to readers, click Save & Publish.
-- To revert the draft changes, click Revert.
+- Open Project Settings → **Customisation**.
+- In the Custom code card, click **Edit HEAD tags**.
+- Enter the custom tags as you would in HTML, then click **Save draft** in the top menu. This will save the HTML in draft mode, so you can test it out.
+- To publish it to readers, click **Save & publish**.
+- To discard the draft changes, click **Revert**.
 
 All custom tags will only run in live mode, and will not load in editor mode.
 

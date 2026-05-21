@@ -25,12 +25,12 @@ Unlike [auto$](/support-center/documentation-footer), this footer is placed outs
 
 To customise footer:
 
-- Open Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} from the Sidebar.
-- Under Customise, select Edit Footer {% icon classes="fas fa-code" /%}
-- Enter the custom HTML, and select Done.
+- Open Project Settings → **Customisation**.
+- In the Custom code card, click **Edit footer**.
+- Enter the custom HTML, then click **Save & publish** in the top menu.
 - Refresh the page to see the changes.
 
-The footer can also be set to use full width from the same settings window.
+The footer can also be set to use full width from the same page.
 
 The custom HTML is contained in an iFrame. It should contain a head and body. We recommend that you link your website styles and scripts rather than writing them in the footer as this would allow your footer to be cached.
 

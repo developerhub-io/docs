@@ -17,8 +17,8 @@ tags:
 To import documentation, follow these steps:
 
 - Make sure your import files are structured as required.
-- From the sidebar, open Project Settings {% icon classes="fas fa-layer-group inv-icon" /%}
-- Click on Import {% icon classes="fas fa-download" /%}
+- Open Project Settings → **Import & Export**.
+- Click **Open import**.
 - Choose the appropriate import source.
 
 Importing could take a few seconds up to a minute.

@@ -21,6 +21,7 @@ The **AI Tools** button appears next to a page title and opens a contextual menu
 
 The AI Tools button is enabled by default for new projects. To enable or disable it:
 
-1. In the left sidebar, open **Project Settings** {% icon classes="fas fa-layer-group" /%}.
-2. Under **AI**, ensure **Enable llms.txt** is checked (required).
-3. Under **AI**, toggle **AI Tools** on or off.
+1. Open Project Settings → **AI Features**.
+2. Ensure **Enable llms.txt** is checked (required).
+3. Toggle **AI Tools** on or off.
+4. Click **Save changes** in the top menu.

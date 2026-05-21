@@ -16,8 +16,9 @@ Supercharged plans give you much more benefit than free plans. To see all the pl
 
 Plans are subscribed to, and are paid for _per project per month_. To upgrade your project to a supercharged plan:
 
-- Select Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar, and make sure that you have selected the correct project to upgrade. If not, then scroll down to the bottom of Project menu to change projects.
-- Below the Project Title, click Upgrade Plan {% icon classes="fas fa-arrow-up" /%}
+- In the editor top navigation, open the project menu and make sure you have selected the correct project to upgrade.
+- Open Project Settings → **Plan & Usage**.
+- Click **Upgrade plan** {% icon classes="fas fa-arrow-up" /%}.
 
 {% image url="https://image-archive.developerhub.io/image/upload/-1/zf7cgnzlrxujfvl1htri/1543785748.jpg" mode="responsive" height="410" width="678" %}
 {% /image %}
@@ -32,8 +33,9 @@ We accept payment through debit/credit cards. For enterprise plans, we offer pay
 
 To downgrade a project's supercharged plan:
 
-- Select Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar, and make sure that you have selected the correct project to downgrade. If not, then scroll down to the bottom of Project menu to change projects.
-- Below the Project Title, click Manage Plan {% icon classes="fas fa-sync-alt" /%}
+- In the editor top navigation, open the project menu and make sure you have selected the correct project to downgrade.
+- Open Project Settings → **Plan & Usage**.
+- Click **Manage plan** {% icon classes="fas fa-sync-alt" /%}.
 
 {% image url="https://image-archive.developerhub.io/image/upload/v2_1/os5usd6hvprmmqidigmq/1634378875.png" mode="responsive" height="115" width="356" %}
 {% /image %}
@@ -45,16 +47,16 @@ To downgrade a project's supercharged plan:
 
 If your payment method has changed, or you wish to add more information to the invoices, then you may update your billing details by:
 
-- Select Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar.
-- Below the Project Title, click Manage Plan {% icon classes="fas fa-sync-alt" /%}
-- In the bottom right corner, click on View Invoices/Update Card.
+- Open Project Settings → **Plan & Usage**.
+- Click **Manage plan** {% icon classes="fas fa-sync-alt" /%}.
+- In the bottom right corner, click **View invoices / Update card**.
 - You will be taken to the payment provider's portal to make the changes needed.
 
 ## View Invoices
 
 To view all invoices that you have paid:
 
-- Select Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar.
-- Below the Project Title, click Manage Plan {% icon classes="fas fa-sync-alt" /%}
-- In the bottom right corner, click on View Invoices/Update Card.
+- Open Project Settings → **Plan & Usage**.
+- Click **Manage plan** {% icon classes="fas fa-sync-alt" /%}.
+- In the bottom right corner, click **View invoices / Update card**.
 - You will be taken to the payment provider's portal to view the invoices.

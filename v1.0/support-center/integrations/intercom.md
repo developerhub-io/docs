@@ -17,7 +17,7 @@ Supercharged plan users can integrate %product% with Intercom to communicate wit
 
 ## Setting up Intercom
 
-- Click on Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar to access Intercom settings under Integrations for Customers.
+- Open Project Settings → **Integrations**.
 - Click Connect. You'll be taken through a flow to install %product% app on Intercom.
 
 {% callout type="success" title="All set up!" %}

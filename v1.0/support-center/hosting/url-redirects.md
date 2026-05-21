@@ -22,9 +22,8 @@ URL redirects are server-based, 301 permanent redirects. 301 redirects are follo
 
 To set up URL redirects:
 
-- From the sidebar, click on Project Settings {% icon classes="fas fa-layer-group inv-icon" /%}.
-- Under Hosting, click on Edit Redirects {% icon classes="fas fa-random" /%}.
-- Add the redirection rules as follows:
+- Open Project Settings → **Hosting**.
+- In the Redirects card, edit the inline list. Add the redirection rules as follows:
     - Every rule is on a line. Rules take precedence by order.
     - Every rule has a pattern, and a destination, separated by `>>` (exactly: a space, two angle brackets, a space).
     - The pattern is regex-based, such as: `/android-sdk/intro` or `/ios-sdk/(.*)`.
@@ -36,7 +35,7 @@ To set up URL redirects:
     - Redirection rules are evaluated from first to last. Only the first one matching is used for redirection.
     - Once a redirection rule matches, a **regex replace** happens. Thus if a rule is `ios >> android`, then for every `ios` that exists in the path, it is replaced into `android`. To do an exact match, use `^` to denote the start of the path and `$` to denote the end of the path, such as: `^/android-sdk/intro$ >> /ios-sdk/intro`.
 
-- Hit Save.
+- Click **Save changes** in the top menu.
 
 It may take up to 5 minutes for changes to take effect.
 

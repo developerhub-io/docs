@@ -27,21 +27,19 @@ If you wish to apply (or test) on a version, then you can use the selector `.cus
 
 To customise CSS:
 
-- Open Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} from the Sidebar.
-- Under Customise, select Edit CSS.
-- Enter the custom CSS, and click Save. This will save the CSS in draft mode, so you can test it out.
-- To publish it to readers, click Save & Publish.
-- To revert the draft changes, click Revert.
+- Open Project Settings → **Customisation**.
+- In the Custom code card, click **Edit CSS**.
+- Enter the custom CSS, then click **Save draft** in the top menu. This will save the CSS in draft mode, so you can test it out.
+- To publish it to readers, click **Save & publish**.
+- To discard the draft changes, click **Revert**.
 
 The CSS will be applied immediately.
 
 ## Testing CSS
 
-You probably want to test your CSS changes before shipping them to your customers. To test CSS, click on Save in the Custom CSS window. At this stage, the CSS will be applied immediately inside the editor. Also, if you use any of the Go To buttons from the sidebar, then you will also see the CSS changes on the published docs.
+You probably want to test your CSS changes before shipping them to your customers. To test CSS, click **Save draft** in the top menu while editing CSS. At this stage, the CSS will be applied immediately inside the editor. To check what your readers see, open the published docs in an incognito window of your browser.
 
-If you want to double check what your readers see after you click the Go To button, then open the published docs in an incognito window of your browser.
-
-You can revert the changes from the Custom CSS window.
+You can revert the draft from the top menu's **Revert** button.
 
 {% callout type="warning" title="Reverting Draft CSS" %}
 When you revert the CSS, the draft changes are discarded and lost.
@@ -315,8 +313,8 @@ To prevent this from happening, you can pin the frontend application version to 
 
 To pin your frontend application version:
 
-- From the left sidebar, click on Project Settings {% icon classes="fas fa-layer-group inv-icon" /%}.
-- Under Advanced Settings, click the button next to Pin frontend application version.
+- Open Project Settings → **Advanced**.
+- Click the button next to Pin frontend application version.
 - Choose a version according to its date and description.
 
 To unpin the frontend application version, choose Latest version.
@@ -349,6 +347,6 @@ As your CSS/JS changes are now perfect, publish them to your readers.
 
 To unpin your frontend application version:
 
-- From the left sidebar, click on Project Settings {% icon classes="fas fa-layer-group inv-icon" /%}.
-- Under Advanced Settings, click the button next to Pin frontend application version.
+- Open Project Settings → **Advanced**.
+- Click the button next to Pin frontend application version.
 - Choose "Latest".

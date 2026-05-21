@@ -16,9 +16,9 @@ Natively, %product% supports a light and dark theme for code blocks. We suggest 
 
 To change the code theme between light and dark:
 
-- Click on Project settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar.
-- Under Customisation, choose the Code Theme.
-- Click Save.
+- Open Project Settings → **Customisation**.
+- Choose the Code Theme.
+- Click **Save changes** in the top menu.
 
 ## Advanced Code Theming
 

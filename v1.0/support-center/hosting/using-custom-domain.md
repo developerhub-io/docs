@@ -20,9 +20,9 @@ Your documentation reader will never have to leave your website and you still ge
 
 Custom domain is available for supercharged plans. To set it up:
 
-- Click on Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar.
-- Choose a custom subdomain such as `box.hooli.com` that exists under your own existing domain where you would like to have your documentation published on.
-- Save the change.
+- Open Project Settings → **Hosting**.
+- In the Custom domain field, enter a domain such as `box.hooli.com` that exists under your own existing domain where you would like to have your documentation published on.
+- Click **Save changes** in the top menu.
 - Configure your DNS records as in [Configure DNS](/support-center/configure-dns) page.
 - When your documentation is published, then you can view it at either your custom domain or DeveloperHub.io subdomain.
 

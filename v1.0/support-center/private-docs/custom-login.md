@@ -35,11 +35,10 @@ We do provide the URL which the reader tried to access in a query param called `
 
 To setup JWT login on %product%, follow these steps:
 
-1. From the sidebar, choose Project Settings {% icon classes="fas fa-layer-group inv-icon" /%}.
-2. Under General Settings, choose Make Private (or Manage Access).
-3. Select JWT.
-4. Provide a login URL, read more about [login URL](/support-center/private-docs#using-login-url) here.
-5. Click Save.
+1. Open Project Settings → **Access**.
+2. In the Access method card, select **JWT**.
+3. Provide a login URL, read more about [login URL](/support-center/private-docs#using-login-url) here.
+4. Click **Save changes** in the top menu.
 
 {% image url="https://uploads.developerhub.io/prod/02/wwvzkc8c0ouvdjwunip7tfd7tvwxjj21lplslq6yb29xafd92g510epvdjfq4rci.png" caption="" mode="responsive" height="966" width="1436" %}
 {% /image %}

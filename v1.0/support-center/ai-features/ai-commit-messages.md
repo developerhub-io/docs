@@ -19,8 +19,9 @@ In %product%, AI can automatically annotate the history of every page, making it
 
 AI commit messages are disabled by default and must be enabled by an admin. To enable AI commit messages:
 
-- From the left sidebar, open **Project Settings** {% icon classes="fas fa-layer-group" /%} 
-- Under **AI**, check **AI Commit Messages**.
+- Open Project Settings → **AI Features**.
+- Check **AI Commit Messages**.
+- Click **Save changes** in the top menu.
 
 Every content change will have its page history annotated by AI.
 

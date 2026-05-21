@@ -19,7 +19,7 @@ We love you either way.
 
 ## Help & Support
 
-You can access all help and support options through Help & Support in the left sidebar.
+You can access all help and support options from the help {% icon classes="fas fa-question-circle" /%} icon in the editor top navigation.
 
 ## Chat
 

@@ -22,8 +22,8 @@ Changelogs operate independently of specific versions, in contrast to pages. Whe
 
 To create a changelog:
 
-- From the left sidebar, choose Changelogs {% icon classes="fas fa-clock" /%}
-- Click "Create new changelog".
+- In the editor top navigation, open the scope picker and choose **Changelogs**.
+- Click **Create new changelog**.
 - Give it a title and click Create.
 
 You can now change the path and description of the changelog from its settings {% icon classes="fas fa-cog" /%}.

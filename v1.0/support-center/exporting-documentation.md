@@ -31,9 +31,8 @@ We provide project exports in two formats:
 
 To export a project:
 
-- Open Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} from the sidebar.
-- Click Export {% icon classes="fas fa-upload" /%}.
-- Choose the export format. The active project will be exported.
+- Open Project Settings → **General** and find the Move content card (or open Project Settings → **Import & Export**).
+- Click the export format you want. The active project will be exported.
 
 It will take a few seconds, and a download will start. The downloaded file is a compressed file (zip) containing all versions, documentations, API references, and indices of the documentation. The structure of the file is as such:
 

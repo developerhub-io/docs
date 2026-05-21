@@ -31,16 +31,16 @@ To use navigation groups, first they need to be created. Then, documentation sec
 
 To create a navigation group:
 
-1. Click on Project settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar.
-2. Under Navigation Groups, click "Create navigation group".
-3. Give it a title and click Create.
+1. Open Project Settings → **Content** → **Navigation Groups**.
+2. Click **Create navigation group**.
+3. Give it a title and click **Create**.
 
 You can reorder the navigation groups as needed here.
 
 Now to assign a documentation section or an API reference to the navigation group:
 
-1. From the sidebar, choose Documentation or API Reference.
-2. Open the settings by clicking on the settings {% icon classes="fas fa-cog" /%} icon.
+1. Open Manage Sections (section menu → settings {% icon classes="fas fa-cog" /%} cog).
+2. Select the documentation or API reference.
 3. Next to Navigation Group, assign a navigation group.
 
 {% callout type="info" title="Info" %}
@@ -49,14 +49,12 @@ If a documentation section or an API reference is not assigned to a navigation g
 
 ## Adding Links / Home Button
 
-The logo, and four top navigation links can be setup for external linking to another website, or internal linking inside the documentation. To setup the navigations links:
+The logo, and four top navigation links can be setup for external linking to another website, or internal linking inside the documentation. To setup the navigation links:
 
-1. Hover over the top navigation and click on Edit Navigation {% icon classes="fas fa-edit" /%} in the top left corner.
-2. Type in the title.
-3. Type in the link.
-4. Click outside the window to close the top navigation editor and save.
-
-You can change if links open in a new tab or the same tab by checking **Open Links in New Tab**.
+1. Open Project Settings → **Customisation**.
+2. In the Top navigation links card, type the title and link for each of the four slots.
+3. Use the **Open links in new tab** toggle to choose whether links open in a new tab.
+4. Click **Save changes** in the top menu.
 
 The last two links only show in documentations that have wide layout.
 
@@ -64,15 +62,10 @@ The last two links only show in documentations that have wide layout.
 Setting the link to `/` goes to the landing page, or the default page if no landing page is setup.
 {% /callout %}
 
-{% callout type="warning" title="Automatic Saving" %}
-Navigation links will be automatically saved on change without prompt
-{% /callout %}
-
 ## Sticky Top Navigation Bar
 
 To set the top navigation bar to stick to the top when page is scrolled:
 
-1. Click on Project settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar.
-2. Under Customisation, check "Is Top Navigation Bar Sticky?"
-
-The setting will be saved immediately.
+1. Open Project Settings → **Customisation**.
+2. Check **Is top navigation bar sticky?**.
+3. Click **Save changes** in the top menu.

@@ -46,10 +46,9 @@ In conclusion: Use [Hosting under an Existing Website](/support-center/hosting#h
 
 To set or change the subdomain:
 
-1. Click on Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar.
-2. Under Subdomain, click on Edit to enable edit mode.
-3. Change the subdomain.
-4. Click on Save. If the subdomain was already taken, then you will be notified.
+1. Open Project Settings → **Hosting**.
+2. Edit the Subdomain input.
+3. Click **Save changes** in the top menu. If the subdomain is already taken, then you will be notified.
 
 ## Hosting under your own Custom Domain
 
@@ -64,12 +63,10 @@ You must have access to your server configuration files to host under an existin
 If you already have a website, for example `pied-piper.com` and you would like to host your docs under `pied-piper.com/docs`, then you can do this by modifying the basepath and setting up a reverse proxy from your servers. A step-by-step guide is as follows:
 
 - On %product%:
-    1. Click on Project Settings {% icon classes="fas fa-layer-group inv-icon" /%} in the sidebar.
-    2. Enter the basepath where your want your docs to live, such as `docs` or `hooli`. It could be a deeper subdirectory, such as `docs/project1`.
-    3. Under Basepath, click on Edit to enable edit mode.
-    4. Click on Save.
-    5. Under Custom Domain, click on Edit to enable edit mode.
-    6. Enter the host where the existing website lives, such as `pied-piper.com` or `support.pied-piper.com`.
+    1. Open Project Settings → **Hosting**.
+    2. Edit Base path. Enter where you want your docs to live, such as `docs` or `hooli`. It could be a deeper subdirectory, such as `docs/project1`.
+    3. Edit Custom domain. Enter the host where the existing website lives, such as `pied-piper.com` or `support.pied-piper.com`.
+    4. Click **Save changes** in the top menu.
 
 - On your server:
     - Set up a reverse proxy to `you.developerhub.io`, such as with nginx. Here is an example configuration:

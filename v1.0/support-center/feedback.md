@@ -98,15 +98,17 @@ When the setting is enabled, any new feedback that contains a message would be s
 
 ## Feedback Settings
 
-Feedback by default is enabled for all projects if you project was created after April 2021. You may enable or disable Feedback as such:
+Feedback by default is enabled for all projects if your project was created after April 2021. You may enable or disable Feedback as such:
 
-- From the left sidebar, choose **Project Settings** {% icon classes="fas fa-layer-group inv-icon" /%}.
-- Under Feedback, check or uncheck **Allow liking/disliking page .**
+- Open Project Settings → **Advanced**.
+- Check or uncheck **Allow liking/disliking page**.
+- Click **Save changes** in the top menu.
 
 Projects on a plan that has Feedback Messages feature (Grow and above) can enable Feedback messages as such:
 
-- From the left sidebar, choose **Project Settings** {% icon classes="fas fa-layer-group inv-icon" /%}.
-- Under Feedback, check **Allow adding message.**
+- Open Project Settings → **Advanced**.
+- Check **Allow adding message**.
+- Click **Save changes** in the top menu.
 
 To enable or disable spam filtering:
 

@@ -39,8 +39,8 @@ The wide layout features a table of contents which outlines all the headings tha
 
 Each documentation can have a different layout, to change the layout:
 
-- Go to Documentation {% icon classes="fas fa-book inv-icon" /%} in the sidebar.
-- Next to the title, click on Settings {% icon classes="fas fa-cog" /%}
+- Open Manage Sections (section menu → settings {% icon classes="fas fa-cog" /%} cog).
+- Select the documentation.
 - Under Layout, choose the preferred layout.
 
 {% image url="https://image-archive.developerhub.io/image/upload/7272/j5kwdrxoeyis705yiapk/1548530216.png" mode="responsive" height="927" width="758" %}

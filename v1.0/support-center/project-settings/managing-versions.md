@@ -14,37 +14,47 @@ Using %product%, you can version your documentations. The default version is cal
 
 Versioning is very powerful. When pages are [linked](/support-center/page-linking) inside a version, and that version is cloned, all the page links are updated accordingly to the match the new version.
 
-## Creating Versions (Cloning)
+## Manage Versions
 
-New versions are always cloned from other versions, to clone a version:
+Most version actions live on the **Manage Versions** page. To open it:
 
-1. Click on Version {% icon classes="fas fa-code-branch inv-icon" /%} in the sidebar.
-2. Select the version to clone from.
-3. Click on "Clone from current version".
+- In the editor top navigation, click on the version menu.
+- Click the settings {% icon classes="fas fa-cog" /%} cog.
+
+The left list shows every version in the project. Select a version to see and edit its settings on the right.
+
+## Creating Versions
+
+To create a new version:
+
+1. Open the version menu in the top navigation.
+2. Click **+ New version**.
+3. Give it a name.
+4. Choose **Clone from current version** to copy every documentation and page from the current version, or **Create from scratch** to start empty.
 
 {% callout type="success" title="What has happened?" %}
-Nice, you cloned a version. That means that every documentation and page under that version has been copied  to the new version.
+When you clone a version, every documentation, API reference and page under the source version is copied to the new version.
 {% /callout %}
 
 ## Publishing Versions
 
-Versions by default are not published. Once you are ready to publish (or to unpublish):
+Versions by default are not published. To publish (or unpublish):
 
-1. Click on Version {% icon classes="fas fa-code-branch inv-icon" /%} in the sidebar.
-2. Below the version title at the top, click on the publishing state and modify it as needed.
+- Open the version menu in the top navigation, then select the version.
+- In Manage Versions, toggle **Published** in the Visibility card or use the **Publish** / **Unpublish** button in the header.
 
-When a version gets published, only published documentation and API references in the version would be viewable by readers. Unpublishing a version makes the version and all its contents unviewable by readers, but it does not modify the publish state for its documentation and API reference.
+When a version gets published, only published documentation and API references in the version would be viewable by readers. Unpublishing a version makes the version and all its contents unviewable by readers, but it does not modify the publish state for its documentation and API references.
 
-When a version is published, it will appear with a green dot {% icon classes="fas fa-circle green-text" /%} next to it in the sidebar. When the version is unpublished, it will appear with a red dot {% icon classes="fas fa-circle red-text" /%} next to it.
+Unpublished versions show an `Unpublished` pill on the version menu and in the Manage Versions list.
 
 ## Deleting Versions
 
 To delete a version:
 
-- Click on Version {% icon classes="fas fa-code-branch inv-icon" /%} in the sidebar.
-- Select the version to delete.
-- Click on the red bin {% icon classes="far fa-trash-alt red-bg-icon" /%} next to the Version title at the top.
-- Confirm your deletion.
+1. Open Manage Versions.
+2. Select the version to delete.
+3. In the Danger zone card, click **Delete version**.
+4. Confirm your deletion.
 
 {% callout type="warning" title="Warning" %}
 Once a version is deleted, it cannot be retrieved back.
@@ -54,11 +64,11 @@ Once a version is deleted, it cannot be retrieved back.
 
 To change a version order in the picker:
 
-- Click on Version {% icon classes="fas fa-code-branch inv-icon" /%} in the sidebar.
-- Drag the version to be ordered from the handle {% icon classes="fas fa-grip-vertical" /%}
+- Open Manage Versions.
+- Drag the version from the handle {% icon classes="fas fa-grip-vertical" /%}.
 - Drop the version in the desired place.
 
-If the version is ordered first and is published, then it will be the default version to load for your readers. A default badge would show to indicate that it is default.
+If the version is ordered first and is published, then it will be the default version to load for your readers.
 
 The default version does not show its slug in the live page links, for example, if version 1.0 was default for this documentation project then:
 
@@ -82,14 +92,13 @@ Versions can be locked when they no longer should have their documentation and A
 
 This also applies to changes made using the [auto$](/v1.0/api/ref).
 
-To lock/unlock a version:
+To lock or unlock a version:
 
-- Click on Version {% icon classes="fas fa-code-branch inv-icon" /%} in the sidebar.
-- Select the version to be locked/unlocked.
-- Open the version settings {% icon classes="fas fa-cog" /%}.
-- Check or uncheck the setting Locked.
+- Open Manage Versions.
+- Select the version.
+- In the Visibility card, toggle **Locked**.
 
-A lock icon would show next to the locked version and the buttons to save drafts or publish would be replaced by a button having "Locked" on it.
+A `Locked` pill shows on the version menu and in the Manage Versions list. The Save draft and Publish buttons in pages are replaced by a disabled "Locked" button.
 
 ## Version Reports
 
@@ -105,7 +114,6 @@ Version reports can be downloaded which includes a list of all pages with the fo
 
 To download a version report:
 
-- Click on Version {% icon classes="fas fa-code-branch inv-icon" /%} in the sidebar.
-- Select the version to have its report downloaded.
-- Open the version settings {% icon classes="fas fa-cog" /%}.
-- Click on Download next to Pages Report.
+- Open Manage Versions.
+- Select the version.
+- In the Lifecycle card, click **Download** next to Pages report.

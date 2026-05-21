@@ -23,14 +23,15 @@ AI Agent is available to all editors except reviewers. It's available for all pl
 
 To enable the AI Agent:
 
-- From the left sidebar, open **Project Settings** {% icon classes="fas fa-layer-group" /%} 
-- Under **AI**, check **Enable AI writing agent**.
+- Open Project Settings → **AI Features**.
+- Check **Enable AI writing agent**.
+- Click **Save changes** in the top menu.
 
 ## Where to find AI Agent
 
 On any page, open the right sidebar and select **AI Agent** {% icon classes="fas fa-robot" /%}
 
-You can modify AI Instructions from **Project Settings** &gt; **AI Features** (at the bottom of the page).
+You can modify AI Instructions from Project Settings → **AI Features**.
 
 ## What AI Agent can do
 
