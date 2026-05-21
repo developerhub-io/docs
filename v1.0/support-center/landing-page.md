@@ -66,7 +66,7 @@ If you want to use a custom landing page, writing your own HTML/CSS/JS, check [a
 
 To create a new landing page, at a path other than `/`, follow these steps:
 
-1. From the sidebar, choose {% icon classes="fas fa-rocket inv-icon" /%} Landing Pages.
+1. In the editor top navigation, open the scope picker and choose **Landing Pages**.
 2. Click on {% icon classes="fas fa-plus" /%} Create new landing page.
 3. Type in the path for the page to exist on (without basepath if any).
 4. Click Save.
@@ -76,7 +76,7 @@ To create a new landing page, at a path other than `/`, follow these steps:
 
 To remove a landing page, other than the main landing page, follow these steps:
 
-1. From the sidebar, choose {% icon classes="fas fa-rocket inv-icon" /%} Landing Pages.
+1. In the editor top navigation, open the scope picker and choose **Landing Pages**.
 2. Choose the landing page you wish to delete.
 3. Click on Delete at the top right.
 
@@ -84,7 +84,7 @@ To remove a landing page, other than the main landing page, follow these steps:
 
 A landing page can be designated as a 404 page. When a reader visits an unrecognised URL, they would be taken to this 404 landing page. To designate a landing page as a 404 page:
 
-1. From the sidebar, choose {% icon classes="fas fa-rocket inv-icon" /%} Landing Pages.
+1. In the editor top navigation, open the scope picker and choose **Landing Pages**.
 2. Choose the landing page you wish to designate.
 3. Click on the settings {% icon classes="fas fa-cog" /%} 
 4. Toggle Use as a 404 Page.

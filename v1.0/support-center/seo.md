@@ -104,7 +104,7 @@ These settings live in Project Settings and are the main switches that affect in
 
 ### Enable or Disable Search Indexing
 
-If you do not want the documentation visible on search engines, uncheck **Enable Search Engines Indexing** in Project Settings.
+If you do not want the documentation visible on search engines, turn off **Allow search-engine indexing** in Project Settings (Hosting).
 
 ### Canonical URL Strategy for Versioned Docs
 

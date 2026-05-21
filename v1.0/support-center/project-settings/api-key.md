@@ -32,7 +32,7 @@ To upload references programmatically:
 
 To create an API Key for a project:
 
-- In the sidebar, select API Key {% icon classes="fas fa-key inv-icon" /%}
+- Open Project Settings → **API Keys**.
 - If you already have a key, then you can click on Copy to copy it.
 - If not, then you can generate a new API Key.
 

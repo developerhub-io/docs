@@ -90,7 +90,7 @@ You can analyse all links in a version at once by:
 
 To view all the links analysis in a page, either click on the notification under the page title or:
 
-- From the right sidebar, open Page Info {% icon classes="fas fa-file-alt inv-icon" /%}.
+- From the right sidebar, open Page Info {% icon classes="fas fa-file-alt" /%}.
 - View all broken links and link issues under Link Analysis.
 
 {% image url="https://uploads.developerhub.io/prod/02/l2z8fzfc43l1pd5aa5uaza1mlgapvgb1z4bd1fffkjedinx1gdtz355emoytpdil.png" mode="responsive" height="442" width="972" %}
@@ -114,7 +114,7 @@ A bi-weekly email is sent to admins and publishers that lists all the broken lin
 
 If you are planning to delete a page, or modify the page heavily, then you might want to know what other pages are depending on this page. To list all pages linking to the current page you are on:
 
-- From the right sidebar, open Page Info {% icon classes="fas fa-file-alt inv-icon" /%}.
+- From the right sidebar, open Page Info {% icon classes="fas fa-file-alt" /%}.
 - Click on Get Links {% icon classes="fas fa-search" /%}.
 - All links will be shown below, if any.
 
@@ -127,7 +127,7 @@ Permalinks are links that never change providing a reliable reference to a page.
 
 To get a page permalink:
 
-- From the right sidebar, open Page Info {% icon classes="fas fa-file-alt inv-icon" /%}.
+- From the right sidebar, open Page Info {% icon classes="fas fa-file-alt" /%}.
 - Click on the page ID just below the title.
 - The link will be copied to your clipboard.
 

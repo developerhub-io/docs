@@ -35,7 +35,7 @@ You can customise your docs using [auto$](/support-center/custom-css) and [Custo
 ## Make top navigation sticky
 
 {% callout type="warning" title="Only in Original UI" %}
-Only apply this customisation for the original UI. For Next UI, there's a setting under Project Settings &gt; Customisations to enable it.
+Only apply this customisation for the original UI. For Next UI, there's a setting under Project Settings &gt; Customisation to enable it.
 {% /callout %}
 
 {% code %}
