@@ -79,8 +79,9 @@ If a link between pages or references is unreachable, then you will be notified 
 
 You can analyse all links in a version at once by:
 
-- In the sidebar, open Version {% icon classes="fas fa-code-branch inv-icon" /%}.
-- Click on Analyse Links.
+- Open Manage Versions (version menu → settings {% icon classes="fas fa-cog" /%} cog).
+- Select the version.
+- In the Lifecycle card, click **Check broken links**.
 
 {% image url="https://image-archive.developerhub.io/image/upload/1546/dinsht9kadbxnmzigbyi/1599091046.jpg" mode="responsive" height="321" width="720" %}
 {% /image %}
