@@ -14,13 +14,13 @@ To open Account Settings, open the user menu in the editor top navigation, then 
 
 Account Settings is organised into panes:
 
-- **Profile** — display name, company name, job title (email and organisation are read-only).
-- **Security (Password)** — change your password.
-- **Security (Passkeys)** — add and remove [passkeys](/support-center/account-settings#using-passkeys).
-- **Preferences** — notification settings and [live markdown rendering](/support-center/using-markdown#disable-live-markdown-rendering).
-- **Danger zone** — delete your account.
+- **Profile**: display name, company name, job title (email and organisation are read-only).
+- **Security (Password)**: change your password.
+- **Security (Passkeys)**: add and remove [passkeys](/support-center/account-settings#using-passkeys).
+- **Preferences**: notification settings and [live markdown rendering](/support-center/using-markdown#disable-live-markdown-rendering).
+- **Danger zone**: delete your account.
 
-Your referral code lives under the Security (Password) pane — see [Referrals](/support-center/referrals).
+Your referral code lives under the Security (Password) pane. See [Referrals](/support-center/referrals).
 
 ## Using Passkeys
 

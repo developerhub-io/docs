@@ -30,9 +30,9 @@ To create an API reference:
 1. Open the section menu in the top navigation.
 2. Under the API Reference group, click **+ New API reference**.
 3. Choose one:
-    - **Create from scratch** — start with an empty OpenAPI definition.
-    - **Upload OpenAPI definition** — upload an existing file. See [Uploading References](/support-center/uploading-references).
-    - **Merge references** — combine two or more existing references. See [Merging API Definitions](/support-center/merge-api-definitions).
+    - **Create from scratch**: start with an empty OpenAPI definition.
+    - **Upload OpenAPI definition**: upload an existing file. See [Uploading References](/support-center/uploading-references).
+    - **Merge references**: combine two or more existing references. See [Merging API Definitions](/support-center/merge-api-definitions).
 
 ## Deleting API References
 
@@ -55,6 +55,6 @@ To change an API reference order in the picker:
 - Drag the reference in the left list from the handle {% icon classes="fas fa-grip-vertical" /%}.
 - Drop the reference in the desired place.
 
-You can only reorder within the API Reference group — drag-and-drop between Documentation and API Reference is not supported.
+You can only reorder within the API Reference group; drag-and-drop between Documentation and API Reference is not supported.
 
 If the reference is ordered first, is published and there are no documentations, then it will be the default reference to load for your readers.

@@ -10,7 +10,7 @@ keywords:
 tags: 
 ---
 
-Along with [code generation](/support-center/code-generation), each API Reference has settings which you can manage. To open them, open [Manage Sections](/support-center/managing-api-references#manage-sections) and select the API reference from the left list — its settings appear on the right.
+Along with [code generation](/support-center/code-generation), each API Reference has settings which you can manage. To open them, open [Manage Sections](/support-center/managing-api-references#manage-sections) and select the API reference from the left list; its settings appear on the right.
 
 {% image url="https://uploads.developerhub.io/prod/02/0hjexvjnju890j1pv3hw34iec82jwf8alpp23y84p8pj45hlel9dv39z6lez3k7y.png" mode="responsive" height="529" width="446" %}
 {% /image %}

@@ -26,7 +26,7 @@ This is only available in the editor. Your readers can use the global search dir
 
 To open quick switcher, click the search {% icon classes="fas fa-search" /%} button in the editor top navigation or hit {% key key="⌘" /%}/{% key key="Ctrl" /%} + {% key key="K" /%}. Type in your search and hit Enter to choose the best result.
 
-The quick switcher also indexes Project Settings, Account Settings and Organisation Settings panes — type something like "redirects" or "passkeys" to jump straight to the right pane.
+The quick switcher also indexes Project Settings, Account Settings and Organisation Settings panes. Type something like "redirects" or "passkeys" to jump straight to the right pane.
 
 ## Search Mode: Find Page
 

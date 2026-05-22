@@ -84,4 +84,4 @@ tags:
 
 Feel free to reorder the operations in your OpenAPI definition as needed to create the right journey for your readers.
 
-To reorder, open the reference in our [API Editor](/support-center/edit-references) and edit the order of paths, operations, or tags directly in **Source** view — the reference re-renders in that order on save.
+To reorder, open the reference in our [API Editor](/support-center/edit-references) and edit the order of paths, operations, or tags directly in **Source** view; the reference re-renders in that order on save.

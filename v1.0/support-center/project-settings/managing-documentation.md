@@ -60,6 +60,6 @@ To change a documentation order in the picker:
 - Drag the documentation in the left list from the handle {% icon classes="fas fa-grip-vertical" /%}.
 - Drop the documentation in the desired place.
 
-You can only reorder within the Documentation group — drag-and-drop between Documentation and API Reference is not supported.
+You can only reorder within the Documentation group; drag-and-drop between Documentation and API Reference is not supported.
 
 If the documentation is ordered first and is published, then it will be the default documentation to load for your readers.

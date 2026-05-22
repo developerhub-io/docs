@@ -113,7 +113,7 @@ Most readability metrics were developed based on the **U.S. education system**, 
 
 Readability scores are based on algorithms that assess the complexity of text using factors like sentence structure and word choice. These metrics are calibrated against the average literacy levels of the general population in the U.S. education system.
 
-For technical documentation, the target audience—such as developers and product managers—often has a higher-than-average familiarity with specialised terminology and complex concepts. Therefore, an “advanced” readability score does not necessarily mean the content is inappropriate. Instead, it reflects the advanced nature of the subject matter, which is expected for technical audiences.
+For technical documentation, the target audience (such as developers and product managers) often has a higher-than-average familiarity with specialised terminology and complex concepts. Therefore, an “advanced” readability score does not necessarily mean the content is inappropriate. Instead, it reflects the advanced nature of the subject matter, which is expected for technical audiences.
 
 Writers should prioritise clarity, precision, and audience needs over trying to simplify content excessively. Technical accuracy often takes precedence, even if it results in a higher complexity score.
 
