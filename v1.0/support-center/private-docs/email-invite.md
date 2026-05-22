@@ -41,6 +41,10 @@ To invite readers:
 
 Once you click Grant Access, an e-mail message with be sent out to the e-mail address containing the magic link for access.
 
+{% callout type="info" title="If the invitation e-mail doesn't arrive" %}
+Some corporate e-mail security tools quarantine or pre-scan messages, which can prevent the invitation from reaching the reader. If that happens, copy the reader's invitation link directly from the readers list and share it with them through another channel.
+{% /callout %}
+
 ## How to Revoke Reader Access?
 
 To revoke reader access:
