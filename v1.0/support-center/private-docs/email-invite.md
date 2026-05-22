@@ -66,7 +66,3 @@ You can also invite reader programmatically using our API. See:
 - [Get access details of all invited readers](/v1.0/api/ref#get-reader-access)
 - [Grant access to reader](/v1.0/api/ref#create-reader-access)
 - [Revoke access to reader](/v1.0/api/ref#revoke-reader-access)
-
-## Troubleshooting
-
-If you are getting `Magic Link has already been used` everytime, it might be that an e-mail security software is installed on our mail domain. Such security software might access links to check it before you receive the e-mail, which causes the link to become void. Please [contact us](/support-center/contact-us) to resolve this mentioning "two step magic links".
