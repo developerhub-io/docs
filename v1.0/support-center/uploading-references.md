@@ -30,7 +30,7 @@ Ensure that every operation has a unique operation ID. Operation IDs are used in
 
 ### Validation Fail
 
-We will notify you of detailed validation errors if any do exist. To interactively fix the validation error, you can use our [API Editor](/support-center/edit-references).
+We will notify you of detailed validation errors if any do exist. To interactively fix them, open the reference in our [API Editor](/support-center/edit-references) — the issues panel at the bottom lists every error and jumps to the offending line on click.
 
 ### Limitations
 

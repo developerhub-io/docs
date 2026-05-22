@@ -84,6 +84,4 @@ tags:
 
 Feel free to reorder the operations in your OpenAPI definition as needed to create the right journey for your readers.
 
-{% callout type="warning" title="Cannot use API editor to reorder" %}
-Unfortunately, due to limitations in the API editor, reordering operations from the source view in the API editor has no effect. The operations must be reordered locally on a file, and uploaded as an API reference import to take effect.
-{% /callout %}
+To reorder, open the reference in our [API Editor](/support-center/edit-references) and edit the order of paths, operations, or tags directly in **Source** view — the reference re-renders in that order on save.
