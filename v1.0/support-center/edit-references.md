@@ -14,14 +14,14 @@ tags:
 
 The editor is also available as a free tool at [app.developerhub.io/api-editor](https://app.developerhub.io/api-editor) without logging into %product%.
 
-{% image url=".screenshots/01-visual-overview.png" mode="responsive" height="900" width="1440" %}
+{% image url="asset:hmm65uny5oea" mode="responsive" height="900" width="1440" %}
 {% /image %}
 
 ## The Three Views
 
 A segmented control at the top of the editor switches between three views. Your choice is remembered across sessions.
 
-{% image url=".screenshots/04-split.png" mode="responsive" height="900" width="1440" %}
+{% image url="asset:estexfkcz4f5" mode="responsive" height="900" width="1440" %}
 {% /image %}
 
 - **Visual** — the default. A form-driven editor with a left sidebar that mirrors your OpenAPI document: Overview, Servers, Security schemes, Tags, Paths, Schemas, and Components. Edits flow straight into the underlying spec.
@@ -36,7 +36,7 @@ Swagger 2.0 references open directly in **Source**. The visual editor covers Ope
 
 Pick a section from the left sidebar; the matching form loads in the main area.
 
-{% image url=".screenshots/02-visual-operation.png" mode="responsive" height="900" width="1440" %}
+{% image url="asset:9yufm43n8fnn" mode="responsive" height="900" width="1440" %}
 {% /image %}
 
 The visual editor covers the whole spec:
@@ -54,20 +54,20 @@ The visual editor covers the whole spec:
 
 The schema editor renders any JSON Schema, however deep, with inline property rows, type and format dropdowns, required toggles, and one-click drill-down into nested schemas.
 
-{% image url=".screenshots/06-schema-editor.png" mode="responsive" height="900" width="1440" %}
+{% image url="asset:aizq3o7l0g7e" mode="responsive" height="900" width="1440" %}
 {% /image %}
 
 Renaming a schema updates its display in the sidebar, but `$ref` paths elsewhere in the spec still point at the old name — update those references manually.
 
 ### Undo / Redo
 
-The toolbar shows **Undo** and **Redo** buttons whenever you're editing in Visual or Split mode. Keyboard shortcuts: <kbd>Ctrl/⌘</kbd>+<kbd>Z</kbd> and <kbd>Ctrl/⌘</kbd>+<kbd>Shift</kbd>+<kbd>Z</kbd>.
+The toolbar shows **Undo** and **Redo** buttons whenever you're editing in Visual or Split mode.
 
 ## Editing in Source
 
 Click **Source** to take over the canvas with a full-width Monaco editor. Use the YAML / JSON toggle at the top of the pane to flip formats — the editor reserializes for you.
 
-{% image url=".screenshots/03-source.png" mode="responsive" height="900" width="1440" %}
+{% image url="asset:sts9n8yeg7w7" mode="responsive" height="900" width="1440" %}
 {% /image %}
 
 Switching back to **Visual** parses your buffer. If the source has a syntax error, the editor keeps the last valid state and shows a dismissable banner with a **Return to source** button so you don't lose your work.
@@ -86,7 +86,7 @@ The editor lints your spec continuously against the OpenAPI specification, regar
 
 A dock at the bottom of the editor always shows an **Issues** header. Click the pill or the chevron on the header to expand it and see the list. The panel tracks your preference in `localStorage`, and will auto-expand once on first load if there are any errors.
 
-{% image url=".screenshots/05-issues-expanded.png" mode="responsive" height="900" width="1440" %}
+{% image url="asset:eb7oe6r0q8lz" mode="responsive" height="900" width="1440" %}
 {% /image %}
 
 Filter by **All / Errors / Warnings** at the top. Click any issue to jump to the offending line — if you're in Visual, the editor flips to Source automatically and scrolls the line into view. Source mode also renders the issues inline as red and amber squiggles.
