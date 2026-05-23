@@ -17,19 +17,18 @@ tags: customisation
 </div>
 {% /html %}
 
-If you wish to have more control and branding over your landing page, you may use HTML, CSS and Javascript to craft a custom landing page.
+Most landing pages are best built with the visual [Landing Page Designer](/support-center/landing-page). If you want complete control and branding, you can instead craft a landing page from your own HTML, CSS, and JavaScript. This works for both the main landing page and any [custom page](/support-center/landing-page#custom-pages).
 
 {% image url="https://image-archive.developerhub.io/image/upload/27830/giywcgidtrajyrzmqrih/1586529385.jpg" caption="Our Custom Landing Page" mode="responsive" height="1189" width="1501" %}
 {% /image %}
 
 ## Use Custom Landing Page
 
-To enable a custom landing page for the main landing page:
+To switch a landing page to custom HTML:
 
 - In the editor top navigation, open the scope picker and select **Landing Pages**.
-- Choose the main landing page.
-- Click on the {% icon classes="fas fa-cog" /%} settings icon at the top.
-- Click on **Enable** next to Use Custom Page.
+- Open [Manage Landing Pages](/support-center/landing-page#managing-landing-pages) and select the page (the main landing page or a custom page).
+- Under **Customise**, turn on **Use custom HTML page**.
 
 To modify the landing page HTML:
 
@@ -69,7 +68,7 @@ Remember that the CSS is applied globally. Modifying classes of conventional nam
 
 ## Adding Javascript
 
-If you wish to add Javascript, then you can add it in [Custom HEAD Tags](/support-center/custom-javascript) in a `<script>` tag. If you wish to reuse the [cards](/support-center/landing-page) from our original landing page, then you can listen to a dedicated event `oncardschanged` as such:
+If you wish to add Javascript, then you can add it in [Custom HEAD Tags](/support-center/custom-javascript) in a `<script>` tag. If you wish to reuse the auto-generated [cards](/support-center/landing-page#card-generation-strategy) that %product% builds from your content, then you can listen to a dedicated event `oncardschanged` as such:
 
 {% code %}
 {% tab language="html" %}
@@ -83,7 +82,7 @@ document.addEventListener('oncardschanged', function (event) {
 
 This event also indicates that the landing page HTML has already loaded, and that you can query its selectors.
 
-The event output looks like the follows for the main landing page:
+The `detail` carries `docs` and `refs` (and `groups` when your project uses [navigation groups](/support-center/structuring-documentation)), mirroring the [card generation strategy](/support-center/landing-page#card-generation-strategy). The event output looks like the follows for the main landing page:
 
 {% code %}
 {% tab language="json" %}
