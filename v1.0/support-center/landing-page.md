@@ -19,7 +19,7 @@ There are two kinds of landing page:
 
 Both are designed in exactly the same way.
 
-{% image url="PLACEHOLDER:reader-view" caption="A landing page as readers see it" mode="responsive" height="900" width="1440" %}
+{% image url="asset:w0wahpix1a90" caption="A landing page as readers see it" mode="responsive" height="900" width="1440" %}
 {% /image %}
 
 ## The Landing Page Designer
@@ -32,7 +32,7 @@ To open the designer, do any of the following:
 - From [Manage Landing Pages](/support-center/landing-page#managing-landing-pages), select a page and click **Edit design**.
 - Use the Landing Pages picker in the editor top navigation to switch between the main landing page and your custom pages.
 
-{% image url="PLACEHOLDER:editor-overview" caption="The landing page designer" mode="responsive" height="900" width="1440" %}
+{% image url="asset:idxiqa5wdx9z" caption="The landing page designer" mode="responsive" height="900" width="1440" %}
 {% /image %}
 
 Working in the designer:
@@ -53,7 +53,7 @@ Only project Publishers and Admins can edit landing pages.
 
 A landing page is made of blocks stacked top to bottom. To add one, click **Add block** where you want it and pick from the library.
 
-{% image url="PLACEHOLDER:block-library" caption="The block library" mode="responsive" height="900" width="1440" %}
+{% image url="asset:7iv94g84rat3" caption="The block library" mode="responsive" height="900" width="1440" %}
 {% /image %}
 
 The available blocks are:
@@ -79,7 +79,7 @@ Alongside its own options, every block shares a common set of style controls in 
 
 Cards are the most flexible block. A Cards block has a **Variant** that decides where its cards come from.
 
-{% image url="PLACEHOLDER:cards-inspector" caption="A Cards block and its settings" mode="responsive" height="900" width="1440" %}
+{% image url="asset:yab0icj2dprt" caption="A Cards block and its settings" mode="responsive" height="900" width="1440" %}
 {% /image %}
 
 ### Auto
@@ -145,7 +145,7 @@ To create one:
 
 The **Manage Landing Pages** screen lists the main landing page and all your custom pages, and is where you change everything other than the design itself.
 
-{% image url="PLACEHOLDER:manage-landing-pages" caption="Manage Landing Pages" mode="responsive" height="900" width="1440" %}
+{% image url="asset:143caei1g5tu" caption="Manage Landing Pages" mode="responsive" height="900" width="1440" %}
 {% /image %}
 
 For each page you can:
