@@ -59,6 +59,15 @@ The schema editor renders any JSON Schema, however deep, with inline property ro
 
 Renaming a schema updates its display in the sidebar, but `$ref` paths elsewhere in the spec still point at the old name. Update those references manually.
 
+### Navigating a Large Spec
+
+Two shortcuts make big definitions easier to move around:
+
+- **Quick Switcher**: press {% key key="⌘" /%} + {% key key="K" /%} (or {% key key="Ctrl" /%} + {% key key="K" /%} on Windows and Linux) to open a search palette over the whole document. Type to filter sections, paths, operations, schemas, and components, then jump straight to one.
+- **Jump to definition**: wherever a `$ref` is used (a parameter, response, header, or schema), the editor shows the referenced definition inline and gives you a link to jump to it. This works across operations and components so you can follow a reference to its source in one click.
+
+Descriptions throughout the visual editor render their Markdown, so formatting, links, and code spans appear as readers will see them.
+
 ### Undo / Redo
 
 The toolbar shows **Undo** and **Redo** buttons whenever you're editing in Visual or Split mode.
@@ -90,6 +99,24 @@ A dock at the bottom of the editor always shows an **Issues** header. Click the 
 {% /image %}
 
 Filter by **All / Errors / Warnings** at the top. Click any issue to jump to the offending line. If you're in Visual, the editor flips to Source automatically and scrolls the line into view. Source mode also renders the issues inline as red and amber squiggles.
+
+## AI Agent
+
+The API Editor has a built-in AI Agent that edits your OpenAPI spec for you. Describe what you want in plain language and it proposes the changes; you review them before anything is applied.
+
+Open it with the **Ask AI** button in the editor toolbar. The panel suggests a few quick actions to get started:
+
+- **Fix all issues**: resolve the errors and warnings the linter found.
+- **Add an endpoint**: describe a path and operation to add.
+- **Upgrade OpenAPI version**: migrate the document to a newer OpenAPI version.
+
+You can also fix a single linter issue with AI: each row in the Issues panel has a **Fix with AI** button that scopes the agent to that one issue, and when the same rule appears more than once you can fix every occurrence at once.
+
+### Reviewing AI Changes
+
+The AI Agent never edits the spec silently. When it proposes changes, they open as **Proposed AI changes** in a diff over the source pane, so you can see exactly what is being added or removed. Choose **Accept all** to apply them, or **Reject** to discard them. Accepted edits go through the same undo/redo history as your own, so you can always step back.
+
+The AI Agent is scoped to the API reference you are editing. It reads the current spec before suggesting edits, and it declines requests that are not about this API reference.
 
 ## Editing an Existing API Definition
 

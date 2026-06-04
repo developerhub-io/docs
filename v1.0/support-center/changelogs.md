@@ -32,6 +32,10 @@ You can now change the path and description of the changelog from its settings {
 
 To add a new post to the changelog, click on New Post. Each post has a label, a slug to be accessed from, and contents. The contents of a post are the same as documentation pages and can include any block.
 
+## Creating Posts Programmatically
+
+You can also create and list changelog posts through the [API](/v1.0/api/ref), or with the [CLI](/support-center/cli) using `changelog create` and `changelog list`. This is useful for publishing release notes automatically from your CI/CD pipeline.
+
 ## RSS Feed
 
 Changelogs can be subscribed to through an RSS feed. This enables users to remain up-to-date with all the new posts.

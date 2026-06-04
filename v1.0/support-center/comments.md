@@ -76,17 +76,14 @@ Publishers and admins can resolve all comments at once.
 
 You may setup [Ask before Publishing](/support-center/advanced-settings#ask-before-publishing) if you wish to only publish if all comments are resolved.
 
-## Watch/Mute
+## Notifications
 
-Once you comment on a page, or get tagged in one, you become a watcher of that page. Being a watcher means being subscribed to all comment activity that happens on the page.
+You can control how you are notified about comment activity on a page. Open **View options** in the right sidebar and set **Notify** to one of three states:
 
-When you are a watcher, you will be receiving e-mails summarising the changes that happened in the page comments.
+- **On all comments**: you are a watcher and receive e-mails summarising every change in the page's comments.
+- **When mentioned**: the default. You are notified only when someone tags you, and you become a watcher automatically once you comment on the page or are tagged in it.
+- **Muted**: you receive no notifications for the page.
 
-To unwatch a page at any time:
-
-- Open **View options** in the right sidebar.
-- Toggle **Notify** to set it into **Muted**.
-
-To resubscribe, toggle **Notify** into **On all comments**.
+Once you comment on a page, or get tagged in one, you become a watcher of that page. To stop notifications, set **Notify** to **Muted**; to follow everything again, set it to **On all comments**.
 
 You may also unsubscribe from all activity notifications from the User Settings.
