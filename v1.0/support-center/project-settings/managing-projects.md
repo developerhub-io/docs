@@ -33,6 +33,16 @@ If you have multiple projects, to switch between projects:
 - In the editor top navigation, click on the project menu.
 - Click the project you want to switch to.
 
+## Favourite Projects
+
+If you work across several projects, you can favourite the ones you use most so they stay at the top of the project menu:
+
+- In the editor top navigation, click on the project menu.
+- Hover over a project in the list and click the star icon.
+- Favourited projects move to the top of the menu and show a filled star.
+
+To remove a favourite, click its star again.
+
 ## Deleting Project
 
 To delete a project:
