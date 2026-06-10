@@ -14,7 +14,7 @@ AI Agent helps editors draft and revise documentation pages by turning a convers
 
 AI Agent never applies changes automatically. Instead, it produces one or more edit suggestions that you can review and apply selectively.
 
-{% image url="PLACEHOLDER:ai-agent-panel" caption="The AI Agent panel" mode="responsive" height="864" width="542" %}
+{% image url="asset:499s9a2n4aoa" caption="The AI Agent panel" mode="responsive" height="864" width="542" %}
 {% /image %}
 
 ## Who can use AI Agent
