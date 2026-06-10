@@ -14,7 +14,7 @@ Supercharged plans can view and go back to older versions of each page.
 
 Edit history has its own entry in the editor's right sidebar, the {% icon classes="fas fa-history" /%} icon, separate from **Page Info**.
 
-{% image url="PLACEHOLDER:edit-history-panel" caption="The Edit history panel" mode="responsive" height="540" width="464" %}
+{% image url="asset:2doioqr1wruk" caption="The Edit history panel" mode="responsive" height="540" width="464" %}
 {% /image %}
 
 ## View and Revert Edit History
@@ -52,7 +52,7 @@ If you are currently writing a draft, and you need to review the changes since p
 - Select **Edit history** {% icon classes="fas fa-history" /%} from the right sidebar.
 - At the top of the panel, click **Compare with published**.
 
-{% image url="PLACEHOLDER:edit-history-compare" caption="Comparing a draft with the published page" mode="responsive" height="540" width="464" %}
+{% image url="PLACEHOLDER:edit-history-compare" caption="Comparing a draft with the published page" mode="responsive" height="540" %}
 {% /image %}
 
 All edits since last published edit will be merged and showed.
