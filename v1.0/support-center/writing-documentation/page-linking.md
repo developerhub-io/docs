@@ -28,7 +28,7 @@ When a page is linked inside a version:
 
 To create a link between pages, type `@` to open the pages selector.
 
-{% image url="https://image-archive.developerhub.io/image/upload/1546/tua5rsujdeohrkofuty3/1563223959.gif" caption="Pages selector open" mode="600" height="490" width="600" %}
+{% image url="https://uploads.developerhub.io/prod/02/kf6unx2cloets13zb93tf93cholub4q1cvs9gjt8lcwpt1i1323trusuun4t173y.gif" caption="Pages selector open" mode="600" height="490" width="600" %}
 {% /image %}
 
 A list of all pages under the version will be listed for you to choose from. Search through the list by typing down the page name or slug. To select a page, click on its name in the list. If you are selecting an API Reference, then you'll find the title of the API Reference.
@@ -43,7 +43,7 @@ After selecting the page, you will be prompted to change the link text (title) a
 
 **Note**: If you do not specify a title, then the title will _automatically_ update whenever the linked page title changes. For example, if you linked to page "Getting Started", and then you modified "Getting Started" page title into "Welcome", then the link text will automatically change to "Welcome".
 
-{% image url="https://image-archive.developerhub.io/image/upload/1546/d9jvvlyjpxs6tmnwx5lq/1587429308.jpg" caption="Changing link title and specifying heading" mode="responsive" height="303" width="760" %}
+{% image url="https://uploads.developerhub.io/prod/02/78pl37gpanmd2ml1pckb4zj0i7z5p2748zkwxlqaj99bvb9ocvsu00nrx7rwjprm.jpg" caption="Changing link title and specifying heading" mode="responsive" height="303" width="760" %}
 {% /image %}
 
 If you want to jump to a certain heading in a page, you can specify it. Start typing to find a heading in the page you selected, or click on the arrow to view all. Leaving **Heading** empty will default to jumping to the title of the page. The same goes for API references, where you can select a specific operation to jump to.
@@ -72,7 +72,7 @@ Analysing links helps you understand the links that are:
 
 If a link between pages or references is unreachable, then you will be notified below the page title of the link analysis results. Link analysis runs automatically every time a page loads.
 
-{% image url="https://image-archive.developerhub.io/image/upload/1546/rnl5toktxfjvgkf6tgeg/1563224515.jpg" caption="Broken link notification" mode="responsive" height="1058" width="2268" %}
+{% image url="https://uploads.developerhub.io/prod/02/5hkvxafayenzwmuf79oo94uc2ha9lhocfkc7jspmlg3y5nmfp9kh0pr4l4l621jv.jpg" caption="Broken link notification" mode="responsive" height="1058" width="2268" %}
 {% /image %}
 
 ### Analyse Links for Entire Version
@@ -83,7 +83,7 @@ You can analyse all links in a version at once by:
 - Select the version.
 - In the Lifecycle card, click **Check broken links**.
 
-{% image url="https://image-archive.developerhub.io/image/upload/1546/dinsht9kadbxnmzigbyi/1599091046.jpg" mode="responsive" height="321" width="720" %}
+{% image url="https://uploads.developerhub.io/prod/02/l6ai84yx1otyv04k7z51eodgqap3ebyi4orv9c14ixlfwy2clv9iuiq75o1xf8ia.jpg" mode="responsive" height="321" width="720" %}
 {% /image %}
 
 ### View Broken Links in a Page
@@ -93,7 +93,7 @@ To view all the links analysis in a page, either click on the notification under
 - From the right sidebar, open **Page Info** {% icon classes="fas fa-info-circle" /%}.
 - Open the **Links** tab and review the broken links and issues under **Link issues**.
 
-{% image url="PLACEHOLDER:page-link-issues" caption="Link issues in the Links tab" mode="responsive" height="460" width="464" %}
+{% image url="asset:0qvxa6ixoxml" caption="Link issues in the Links tab" mode="responsive" height="441" width="464" %}
 {% /image %}
 
 Every broken link will show you the title and the heading (if any) that it had before breaking. The list also shows the current text of the link so you are able to find it and fix it.
@@ -118,7 +118,7 @@ If you are planning to delete a page, or modify the page heavily, then you might
 - Open the **Links** tab. Linked pages load automatically.
 - Any linked pages are listed under **Pages linked**.
 
-{% image url="PLACEHOLDER:page-links-tab" caption="Pages linked in the Links tab" mode="responsive" height="441" width="464" %}
+{% image url="asset:0qvxa6ixoxml" caption="Pages linked in the Links tab" mode="responsive" height="441" width="464" %}
 {% /image %}
 
 ## Page Permalinks
