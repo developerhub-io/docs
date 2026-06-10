@@ -25,37 +25,37 @@ Readability metrics are algorithms designed to evaluate the complexity of writte
 
 We use six commonly recognised readability metrics to assess text complexity. Each method evaluates different aspects of text readability:
 
-### **1. Flesch-Kincaid Reading Ease**
+### 1. Flesch-Kincaid Reading Ease
 
 - Scale: 0–100 (higher = easier to read).
 - Focus: Sentence length and syllables per word.
 
-### **2. Flesch-Kincaid Grade Level**
+### 2. Flesch-Kincaid Grade Level
 
 - Scale: U.S. school grade levels (e.g., 6 = 6th grade).
 - Focus: Similar to Reading Ease but mapped to grades.
 
-### **3. Gunning Fog Index**
+### 3. Gunning Fog Index
 
 - Scale: Years of education required.
 - Focus: Sentence complexity and polysyllabic words.
 
-### **4. SMOG Index**
+### 4. SMOG Index
 
 - Scale: Years of education required.
 - Focus: Counts polysyllabic words, ideal for health and legal texts.
 
-### **5. Coleman-Liau Index**
+### 5. Coleman-Liau Index
 
 - Scale: U.S. grade levels.
 - Focus: Average sentence length and letters per word.
 
-### **6. Automated Readability Index (ARI)**
+### 6. Automated Readability Index (ARI)
 
 - Scale: U.S. grade levels.
 - Focus: Character count and word count.
 
-## **Grade Levels and Age Groups**
+## Grade Levels and Age Groups
 
 The table below maps the grade levels and their associated age groups for each readability metric:
 
