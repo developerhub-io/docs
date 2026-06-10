@@ -44,7 +44,7 @@ Use **View options** in the right sidebar to control what you see:
 - **Show resolved comments**: toggles whether resolved comments are shown.
 - **Notifications**: set how you are notified about comment activity on the page (covered below).
 
-{% image url="PLACEHOLDER:view-options" caption="View options: margin panel and notifications" mode="responsive" height="340" width="370" %}
+{% image url="asset:o7gbe0h8q4br" caption="View options: margin panel and notifications" mode="responsive" height="340" width="370" %}
 {% /image %}
 
 ## Comments in API References
