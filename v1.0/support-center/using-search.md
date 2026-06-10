@@ -55,7 +55,7 @@ You can add keywords to your page to enable your readers to find the page using 
 - Words related to the page contents.
 - Expansion of acronyms.
 
-Page keywords can be added from the Page Info {% icon classes="fas fa-file-alt" /%} toolbar on the right side of the page.
+Page keywords can be added from **Page Info** {% icon classes="fas fa-info-circle" /%} in the right sidebar, under the **Settings** tab.
 
 ## Change Search Scope
 

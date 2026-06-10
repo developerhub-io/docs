@@ -74,7 +74,7 @@ You can apply an audience to an entire page to control who can access it. Page a
 To set an audience on a page:
 
 1. Open the page you want to restrict.
-2. In the right sidebar, go to **Page Info**.
+2. In the right sidebar, open **Page Info** {% icon classes="fas fa-info-circle" /%} and go to the **Settings** tab.
 3. Under **Audience**, select an audience from the dropdown.
 4. The page will now only be visible to readers who match the audience conditions.
 

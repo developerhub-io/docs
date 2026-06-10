@@ -90,10 +90,10 @@ You can analyse all links in a version at once by:
 
 To view all the links analysis in a page, either click on the notification under the page title or:
 
-- From the right sidebar, open Page Info {% icon classes="fas fa-file-alt" /%}.
-- View all broken links and link issues under Link Analysis.
+- From the right sidebar, open **Page Info** {% icon classes="fas fa-info-circle" /%}.
+- Open the **Links** tab and review the broken links and issues under **Link issues**.
 
-{% image url="https://uploads.developerhub.io/prod/02/l2z8fzfc43l1pd5aa5uaza1mlgapvgb1z4bd1fffkjedinx1gdtz355emoytpdil.png" mode="responsive" height="442" width="972" %}
+{% image url="PLACEHOLDER:page-link-issues" caption="Link issues in the Links tab" mode="responsive" height="460" width="464" %}
 {% /image %}
 
 Every broken link will show you the title and the heading (if any) that it had before breaking. The list also shows the current text of the link so you are able to find it and fix it.
@@ -114,11 +114,11 @@ A bi-weekly email is sent to admins and publishers that lists all the broken lin
 
 If you are planning to delete a page, or modify the page heavily, then you might want to know what other pages are depending on this page. To list all pages linking to the current page you are on:
 
-- From the right sidebar, open Page Info {% icon classes="fas fa-file-alt" /%}.
-- Click on Get Links {% icon classes="fas fa-search" /%}.
-- All links will be shown below, if any.
+- From the right sidebar, open **Page Info** {% icon classes="fas fa-info-circle" /%}.
+- Open the **Links** tab. Linked pages load automatically.
+- Any linked pages are listed under **Pages linked**.
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_1/wmii4cnakmysjssaai4z/1623595658.png" mode="responsive" height="380" width="331" %}
+{% image url="PLACEHOLDER:page-links-tab" caption="Pages linked in the Links tab" mode="responsive" height="441" width="464" %}
 {% /image %}
 
 ## Page Permalinks
@@ -127,8 +127,8 @@ Permalinks are links that never change providing a reliable reference to a page.
 
 To get a page permalink:
 
-- From the right sidebar, open Page Info {% icon classes="fas fa-file-alt" /%}.
-- Click on the page ID just below the title.
+- From the right sidebar, open **Page Info** {% icon classes="fas fa-info-circle" /%}.
+- Click the permalink button {% icon classes="fas fa-link" /%} in the panel header.
 - The link will be copied to your clipboard.
 
 Our permalinks have the following structure: `https://<domain>/_permalink/<id>`.

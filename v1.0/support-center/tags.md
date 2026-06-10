@@ -40,8 +40,8 @@ Readers can then filter by a tag or more simultaneously.
 To create a tag:
 
 - Visit the page on which you wish to apply the tag.
-- Open Page Info {% icon classes="fas fa-file-alt" /%} from the right sidebar.
-- Under tags, type the label of the new tag.
+- Open **Page Info** {% icon classes="fas fa-info-circle" /%} from the right sidebar.
+- Open the **Settings** tab. Under **Tags**, type the label of the new tag.
 - Hit Enter.
 
 The tag will be created and applied onto the page. If you wish to remove the tag, click on it and select Remove.

@@ -14,7 +14,7 @@ AI Agent helps editors draft and revise documentation pages by turning a convers
 
 AI Agent never applies changes automatically. Instead, it produces one or more edit suggestions that you can review and apply selectively.
 
-{% image url="asset:nxl620ajqf2e" mode="responsive" height="951" width="1334" %}
+{% image url="PLACEHOLDER:ai-agent-panel" caption="The AI Agent panel" mode="responsive" height="864" width="542" %}
 {% /image %}
 
 ## Who can use AI Agent
@@ -29,7 +29,7 @@ To enable the AI Agent:
 
 ## Where to find AI Agent
 
-On any page, open the right sidebar and select **AI Agent** {% icon classes="fas fa-robot" /%}
+On any page, select the **AI Agent** {% icon classes="fas fa-robot" /%} button in the editor's right sidebar. It has its own entry there, alongside Edit history, Page Info, and Readability.
 
 You can modify AI Instructions from Project Settings → **AI Features**.
 

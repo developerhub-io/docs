@@ -40,9 +40,12 @@ Your comment will appear on the right-hand side of the page, aligned with the te
 
 Use **View options** in the right sidebar to control what you see:
 
-- **Show table of contents**: shows the table of contents even when comments are visible.
+- **Margin panel**: choose what shows in the right margin. **Outline** (the table of contents) shows by default; switch to **Comments** to keep the comment thread in view. Comments take over automatically when a thread is open.
 - **Show resolved comments**: toggles whether resolved comments are shown.
-- The current **watch** state for the page is also available here.
+- **Notifications**: set how you are notified about comment activity on the page (covered below).
+
+{% image url="PLACEHOLDER:view-options" caption="View options: margin panel and notifications" mode="responsive" height="340" width="370" %}
+{% /image %}
 
 ## Comments in API References
 

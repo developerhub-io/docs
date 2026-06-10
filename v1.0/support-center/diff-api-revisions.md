@@ -22,8 +22,8 @@ When launched, the diff opens in a window and highlights changes in different co
 ## Diff API Revisions
 
 1. Open your **API Reference**.
-2. In the right sidebar, open **Revisions**.
-3. Under **Edit History**, hover over the revision you want to inspect.
+2. In the right sidebar, open **Revisions** {% icon classes="fas fa-history" /%}.
+3. In the revisions timeline, hover over the revision you want to inspect.
 4. Click **Diff**.
 
 In the diff modal, use the selector next to **Compare** to choose what to compare against: **vs Previous Revision** (default), **vs Latest Revision**, **or vs Published Revision**.

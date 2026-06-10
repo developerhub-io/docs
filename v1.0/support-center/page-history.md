@@ -12,7 +12,9 @@ tags:
 
 Supercharged plans can view and go back to older versions of each page.
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_1/rrv8kcxakxzxbjqif6qb/1612105931.png" mode="responsive" height="985" width="1751" %}
+Edit history has its own entry in the editor's right sidebar, the {% icon classes="fas fa-history" /%} icon, separate from **Page Info**.
+
+{% image url="PLACEHOLDER:edit-history-panel" caption="The Edit history panel" mode="responsive" height="540" width="464" %}
 {% /image %}
 
 ## View and Revert Edit History
@@ -20,7 +22,7 @@ Supercharged plans can view and go back to older versions of each page.
 To view edit history of a page:
 
 - Select the page from the index.
-- Select Page Info {% icon classes="fas fa-file-alt" /%} from the right sidebar.
+- Select **Edit history** {% icon classes="fas fa-history" /%} from the right sidebar.
 - Each edit will be shown in chronological order, newest (or current) first, supplied with the team member who made the changes, the local time, and an "estimate" of how many lines have been added or removed.
 - On clicking on an edit history, the page will preview the change that was made.
 - You may at this stage revert to this change. This will create a new edit history.
@@ -38,7 +40,7 @@ When you clone a version, the page history of the original page will be accessib
 To make it easier for your team to figure out the changes you made in an edit history, you may annotate (similar to adding a commit message) the change. To annotate a history:
 
 - Select the page from the index.
-- Select Page Info {% icon classes="fas fa-file-alt" /%} from the right sidebar.
+- Select **Edit history** {% icon classes="fas fa-history" /%} from the right sidebar.
 - Hover over the edit you wish to annotate, and click on the edit icon {% icon classes="fas fa-edit" /%} next to it.
 - Type in your commit message and submit it.
 
@@ -47,10 +49,10 @@ To make it easier for your team to figure out the changes you made in an edit hi
 If you are currently writing a draft, and you need to review the changes since page was last published:
 
 - Select the page from the index.
-- Select Page Info {% icon classes="fas fa-file-alt" /%} from the right sidebar.
-- Next to Edit History, click on Compare With Published.
+- Select **Edit history** {% icon classes="fas fa-history" /%} from the right sidebar.
+- At the top of the panel, click **Compare with published**.
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_1/jhlohkfins1clwbt5tkt/1612106730.png" mode="responsive" height="164" width="339" %}
+{% image url="PLACEHOLDER:edit-history-compare" caption="Comparing a draft with the published page" mode="responsive" height="540" width="464" %}
 {% /image %}
 
 All edits since last published edit will be merged and showed.

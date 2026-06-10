@@ -93,7 +93,7 @@ The six metrics provide a comprehensive view of text complexity. Their combined 
 
 Readability metrics are available from the right sidebar.
 
-{% image url="https://uploads.developerhub.io/prod/02/tqc3a9e8w57kic79eviqtq9xv2hbnsgq7h7eqi01n3v37rm1lpokwmc6wp5p14sd.png" mode="responsive" height="303" width="487" %}
+{% image url="PLACEHOLDER:readability-panel" caption="The Readability panel" mode="responsive" height="574" width="464" %}
 {% /image %}
 
 The average reading level is calculated by averaging all the metrics and its score determines the colour of the readability metrics icon.

@@ -53,11 +53,11 @@ By default, it uses the format:
 
 ### Meta Description
 
-Each page can override its meta description from **Page Info** (right sidebar).
+Each page can override its meta description from **Page Info** (right sidebar), under the **Settings** tab.
 
 By default, the meta description is taken from the first paragraph on the page.
 
-You can also generate a description from **Page Info &gt; Generate**. For more details, see [AI SEO Helper](/support-center/ai-summarisation).
+You can also generate a description from **Page Info → Settings → AI Generate**. For more details, see [AI SEO Helper](/support-center/ai-summarisation).
 
 ### Social Preview Image (Open Graph Image)
 
