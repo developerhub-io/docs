@@ -93,7 +93,7 @@ To view all the links analysis in a page, either click on the notification under
 - From the right sidebar, open **Page Info** {% icon classes="fas fa-info-circle" /%}.
 - Open the **Links** tab and review the broken links and issues under **Link issues**.
 
-{% image url="asset:0qvxa6ixoxml" caption="Link issues in the Links tab" mode="responsive" height="441" width="464" %}
+{% image url="asset:6ounnwtpw5mk" caption="Link issues in the Links tab" mode="responsive" height="432" width="464" %}
 {% /image %}
 
 Every broken link will show you the title and the heading (if any) that it had before breaking. The list also shows the current text of the link so you are able to find it and fix it.
