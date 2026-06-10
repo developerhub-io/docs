@@ -52,7 +52,7 @@ If you are currently writing a draft, and you need to review the changes since p
 - Select **Edit history** {% icon classes="fas fa-history" /%} from the right sidebar.
 - At the top of the panel, click **Compare with published**.
 
-{% image url="PLACEHOLDER:edit-history-compare" caption="Comparing a draft with the published page" mode="responsive" height="540" %}
+{% image url="asset:iy1975sv7gh8" caption="Comparing a draft with the published page" mode="responsive" height="315" width="464" %}
 {% /image %}
 
 All edits since last published edit will be merged and showed.
