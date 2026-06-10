@@ -59,7 +59,7 @@ We use six commonly recognised readability metrics to assess text complexity. Ea
 
 The table below maps the grade levels and their associated age groups for each readability metric:
 
-{% table %}
+{% table widths="" %}
 | **Metric** | **Grade Level** | **Age Group (Years)** | **Meaning** | 
 | ---- | ---- | ---- | ---- | 
 | **Flesch-Kincaid Reading Ease** | 90–100 (4th grade) | 9–10 | Very easy to read (e.g., children's books). | 
@@ -93,7 +93,7 @@ The six metrics provide a comprehensive view of text complexity. Their combined 
 
 Readability metrics are available from the right sidebar.
 
-{% image url="PLACEHOLDER:readability-panel" caption="The Readability panel" mode="responsive" height="574" width="464" %}
+{% image url="asset:f9lu4pqa4u0w" caption="The Readability panel" mode="responsive" height="574" width="464" %}
 {% /image %}
 
 The average reading level is calculated by averaging all the metrics and its score determines the colour of the readability metrics icon.
