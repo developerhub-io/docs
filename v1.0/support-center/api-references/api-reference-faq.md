@@ -17,7 +17,7 @@ Check that your [schema object](https://swagger.io/specification/#schema-object)
 For example:
 
 {% code %}
-{% tab language="yaml" title="Bad ❌" %}
+```yaml {% title="Bad ❌" %}
 content:
 	application/json:
     schema:
@@ -26,8 +26,9 @@ content:
           type: number
         name:
          type: string
-{% /tab %}
-{% tab language="yaml" title="Good ✅" %}
+```
+
+```yaml {% title="Good ✅" %}
 content:
 	application/json:
     schema:
@@ -37,7 +38,7 @@ content:
           type: number
         name:
          type: string
-{% /tab %}
+```
 {% /code %}
 
 ### How do I reorder Operations?
@@ -45,7 +46,7 @@ content:
 Operations (for example `GET /version` , `POST /reference`) are ordered according to how they are ordered in the OpenAPI definition itself. We use `tags` to group the operations, but we do not modify the order. For example:
 
 {% code %}
-{% tab language="yaml" %}
+```yaml
 # If the operations and tags are specified as such in the API definition:
 
 paths:
@@ -79,7 +80,7 @@ tags:
 # Cats
 #   POST /cat
 #   GET  /cat
-{% /tab %}
+```
 {% /code %}
 
 Feel free to reorder the operations in your OpenAPI definition as needed to create the right journey for your readers.

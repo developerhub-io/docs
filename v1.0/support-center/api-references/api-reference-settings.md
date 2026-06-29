@@ -12,8 +12,7 @@ tags:
 
 Along with [code generation](/support-center/code-generation), each API Reference has settings which you can manage. To open them, open [Manage Sections](/support-center/managing-api-references#manage-sections) and select the API reference from the left list; its settings appear on the right.
 
-{% image url="https://uploads.developerhub.io/prod/02/0hjexvjnju890j1pv3hw34iec82jwf8alpp23y84p8pj45hlel9dv39z6lez3k7y.png" mode="responsive" height="529" width="446" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/0hjexvjnju890j1pv3hw34iec82jwf8alpp23y84p8pj45hlel9dv39z6lez3k7y.png" /%}
 
 ## Allow Download
 
@@ -21,19 +20,19 @@ Allow Download setting allows the API Reference to be downloadable by showing a 
 
 ## Show Try It Out
 
-Enables [auto$](/support-center/try-it-out) to test APIs right from the API Reference.
+Enables [API Playground](/support-center/try-it-out) to test APIs right from the API Reference.
 
 ## Show Content-Type Header
 
 For operations (OAS3 only) that have request body, checking this option shows a header in the example defining the content-type. For example:
 
 {% code %}
-{% tab language="bash" %}
+```bash
 curl --request POST \
  --url https://api.developerhub.io/api/v1/version/{versionId}/reference \
  --header "Content-Type: application/json" # <--- This line would be added 
  --form "file=@{file}"
-{% /tab %}
+```
 {% /code %}
 
 ## Show Accept Header
@@ -41,11 +40,11 @@ curl --request POST \
 For operations (OAS3 only), checking this options shows a header in the example defining the accepted response media type. For example:
 
 {% code %}
-{% tab language="bash" %}
+```bash
 curl --request GET \
  --url https://api.developerhub.io/api/v1/page?version_id={version_id}&version_slug={version_slug}&documentation_id={documentation_id}&documentation_slug={documentation_slug}&page_slug={page_slug}&format={format} \
  --header "Accept: application/json"
-{% /tab %}
+```
 {% /code %}
 
 ## Allow Tags to Expand
@@ -54,8 +53,7 @@ If your API Reference is dense, loading thousands of items could be slow. To opt
 
 When tags are allowed to expand, the tag with its description would show, alongside an table of all the operations available under this tag. Also, a button to "Show" the operations will appear.
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_1/zw6p9hmb6rhrzfgiznpf/1612663200.png" mode="responsive" height="489" width="1410" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/e0126ozyvqy0qi2lpszaqhnvy5tw1ofvsz23ifci69nnm4gfmgs3a3hlee5u0dx4.png" /%}
 
 ## Allow Index to Collapse
 

@@ -16,17 +16,17 @@ By default, all features are disabled and require activation by an admin.
 
 The features are:
 
-- [auto$](/support-center/ai-writer): Provides AI functions to manipulate text, including shortening, enhancing and grammar correction.
-- [auto$](/support-center/ai-search): Ask questions about the docs in natural language and receive GPT powered answers.
-- [auto$](/support-center/ai-commit-messages): Automatically annotate page histories.
-- [auto$](/support-center/ai-summarisation): Summarises pages to write a META description.
-- [auto$](/support-center/mcp-server): Connect AI applications with your docs.
+- [AI Writer](/support-center/ai-writer): Provides AI functions to manipulate text, including shortening, enhancing and grammar correction.
+- [AI Assistant](/support-center/ai-search): Ask questions about the docs in natural language and receive GPT powered answers.
+- [AI Commit Messages](/support-center/ai-commit-messages): Automatically annotate page histories.
+- [AI SEO Helper](/support-center/ai-summarisation): Summarises pages to write a META description.
+- [MCP Server](/support-center/mcp-server): Connect AI applications with your docs.
 - [Feedback Spam Filter](/support-center/feedback#feedback-spam-filter): Filters spam in feedback messages automatically.
 - [Redact PII from Feedback](/support-center/feedback#redact-pii-from-feedback): Redacts personal identifiable information from feedback messages automatically.
 
-Read the linked sections to understand what information we send to OpenAI for each feature. 
+Read the linked sections to understand what information we send to OpenAI for each feature.
 
-## Terms & Conditions
+## Terms \& Conditions
 
 We use OpenAI for all our AI features. Quoting from [OpenAI's Data Controls](https://developers.openai.com/api/docs/guides/your-data):
 

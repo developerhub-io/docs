@@ -10,4 +10,4 @@ keywords:
 tags: 
 ---
 
-This is an example index for [auto$](/support-center/index-list). Page has no use.
+This is an example index for [Index List](/support-center/index-list). Page has no use.

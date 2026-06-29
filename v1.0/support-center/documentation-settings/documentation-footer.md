@@ -14,7 +14,7 @@ A footer for all documentation pages can be added. The footer could be a support
 
 An example of a footer is our message below the line at the bottom.
 
-{% callout type="info" title="Shared Footer" %}
+{% callout title="Shared Footer" %}
 Footer is shared between all documentation pages in a project
 {% /callout %}
 

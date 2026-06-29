@@ -18,11 +18,10 @@ To set up server headers:
 
 - Open Project Settings → **Hosting**.
 - In the Server headers card, edit the inline list:
-    - Each header must be on one line.
-    - Each header must have the header name and value separated by `:`.
-    - You cannot modify certain headers, such as `Cache-Control` or `Server`.
-    - Any invalid header will be removed.
-
+  - Each header must be on one line.
+  - Each header must have the header name and value separated by `:`.
+  - You cannot modify certain headers, such as `Cache-Control` or `Server`.
+  - Any invalid header will be removed.
 - Click **Save changes** in the top menu.
 
 It may take up to 5 minutes for changes to take effect.
@@ -36,11 +35,11 @@ Make sure you fully understand what each header is. Using headers incorrectly co
 {% /callout %}
 
 {% code %}
-{% tab language="yaml" title="Headers" %}
+```yaml {% title="Headers" %}
 Strict-Transport-Security: max-age=31536000
 X-Frame-Options: DENY
 Referrer-Policy: no-referrer
-{% /tab %}
+```
 {% /code %}
 
 ## Content Security Policy
@@ -51,12 +50,12 @@ Content security policy (CSP) can be set up using Server Headers.
 Content security policy should only be configured by security professionals. Any misconfiguration might break your docs site or limit features. Furthermore, expect that you should keep updating the content security policy as %product% advances with new features.
 {% /callout %}
 
-To enable inline styles and scripts, you must add a nonce configuration for `style-src`  and `script-src` directives. The nonce configuration must be `nonce-%NONCE%` where our backend servers will replace `%NONCE%` for every session with a random nonce.  
+To enable inline styles and scripts, you must add a nonce configuration for `style-src`  and `script-src` directives. The nonce configuration must be `nonce-%NONCE%` where our backend servers will replace `%NONCE%` for every session with a random nonce.
 
 An example starter content security policy for projects is:
 
 {% code %}
-{% tab language="ruby" title="Content Security Policy" %}
+```ruby {% title="Content Security Policy" %}
 default-src 'self';
 script-src 'self' 'nonce-%NONCE%' https://files.developerhub.io;
 style-src 'self' 'nonce-%NONCE%' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css https://files.developerhub.io;
@@ -68,7 +67,7 @@ https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-brands-40
 frame-src 'self';
 base-uri 'self';
 object-src 'none';
-{% /tab %}
+```
 {% /code %}
 
 Modify as needed for your security and project needs.

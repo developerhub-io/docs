@@ -48,7 +48,7 @@ Project homepage: [https://latex.js.org/](https://latex.js.org/)
 Code:
 
 {% code %}
-{% tab language="html" %}
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -67,7 +67,7 @@ Code:
   </script>
 </body>
 </html>
-{% /tab %}
+```
 {% /code %}
 
 ## KaTex
@@ -100,7 +100,7 @@ Project homepage: [https://katex.org/](https://katex.org/)
 Code:
 
 {% code %}
-{% tab language="html" %}
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -116,5 +116,5 @@ Code:
     </script>
   </body>
 </html>
-{% /tab %}
+```
 {% /code %}

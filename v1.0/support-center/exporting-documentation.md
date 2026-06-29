@@ -31,15 +31,14 @@ We provide project exports in two formats:
 
 To export a project:
 
-- Open Project Settings → **General** and find the Move content card (or open Project Settings → **Import & Export**).
+- Open Project Settings → **General** and find the Move content card (or open Project Settings → **Import \& Export**).
 - Click the export format you want. The active project will be exported.
 
 It will take a few seconds, and a download will start. The downloaded file is a compressed file (zip) containing all versions, documentations, API references, and indices of the documentation. The structure of the file is as such:
 
-{% image url="https://image-archive.developerhub.io/image/upload/7457/v3ewfbrk8hhni7blkttz/1557871252.png" mode="set" height="704" width="464" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/anun2ah7qx47rehzb8jcfq5717vkc314t328e9de6lnjmo3ouk1cygrcln2brpvt.png" width=464 /%}
 
-To learn how to import this export back into %product%, check [auto$](/support-center/importing-documentation).
+To learn how to import this export back into %product%, check [Importing Documentation](/support-center/importing-documentation).
 
 ## Exporting a Page
 

@@ -14,8 +14,7 @@ Code blocks allow you to write in pretty formatted code that has syntax highligh
 
 To create a code block:
 
-{% synced id="open-block-menu" %}
-{% /synced %}
+{% synced id="open-block-menu" /%}
 
 - Select Code Block {% icon classes="fas fa-code" /%}
 
@@ -27,7 +26,7 @@ The following languages are currently supported for syntax highlighting:
 
 If you need more languages, we'd be happy to support them. Give us a nudge!
 
-{% callout type="info" title="Info" %}
+{% callout title="Info" %}
 Syntax error highlighting only shows while editing
 {% /callout %}
 
@@ -36,7 +35,7 @@ Syntax error highlighting only shows while editing
 Here is how to write the fibonacci sequence in different languages:
 
 {% code %}
-{% tab language="javascript" %}
+```javascript
 function fibonacci(num, memo) {
   memo = memo || {};
 
@@ -45,8 +44,9 @@ function fibonacci(num, memo) {
 
   return memo[num] = fibonacci(num - 1, memo) + fibonacci(num - 2, memo);
 }
-{% /tab %}
-{% tab language="python" %}
+```
+
+```python
 # Program to display the Fibonacci sequence up to n-th term
 
 nterms = int(input("How many terms? "))
@@ -70,16 +70,18 @@ else:
        n1 = n2
        n2 = nth
        count += 1
-{% /tab %}
-{% tab language="go" %}
+```
+
+```go
 func FibonacciRecursion(n int) int {
     if n <= 1 {
         return n
     }
     return FibonacciRecursion(n-1) + FibonacciRecursion(n-2)
 }
-{% /tab %}
-{% tab language="c" %}
+```
+
+```c
 #include <stdio.h>
 int main() {
     int i, n, t1 = 0, t2 = 1, nextTerm;
@@ -96,8 +98,9 @@ int main() {
 
     return 0;
 }
-{% /tab %}
-{% tab language="ruby" %}
+```
+
+```ruby
 def fib(n)
   first_num, second_num = [0, 1]
   (n - 1).times do
@@ -105,7 +108,7 @@ def fib(n)
   end
   puts first_num
 end
-{% /tab %}
+```
 {% /code %}
 
 ## Multi Language Code Blocks
@@ -117,18 +120,18 @@ You can add multiple languages for each code block that will show as tabs, such 
 Code blocks can have no formatting if language "None" is selected. Also, if only language "None" was provided for the code block, then the language selector will disappear unless if the tab has a title. For example:
 
 {% code %}
-{% tab language="none" title="" %}
+```none
 This is a code block with no formatting
 - Correct?
-{% /tab %}
+```
 {% /code %}
 
 And another one with title:
 
 {% code %}
-{% tab language="none" title="No Formatting" %}
+```none {% title="No Formatting" %}
 A titled code block without formatting keeps its title
-{% /tab %}
+```
 {% /code %}
 
 ## Titled Tabs
@@ -136,7 +139,7 @@ A titled code block without formatting keeps its title
 You can also provide titles for each tab, which is a great way to identify and group the content. For example:
 
 {% code %}
-{% tab language="json" title="200 - Success" %}
+```json {% title="200 - Success" %}
 [
  {
   "id": 4,
@@ -148,8 +151,9 @@ You can also provide titles for each tab, which is a great way to identify and g
   "ordr": 4
  }
 ]
-{% /tab %}
-{% tab language="json" title="403 - Access Denied" %}
+```
+
+```json {% title="403 - Access Denied" %}
 {
  "error": {
   "message": "Access denied.",
@@ -157,7 +161,7 @@ You can also provide titles for each tab, which is a great way to identify and g
   "code": 403
  }
 }
-{% /tab %}
+```
 {% /code %}
 
 ## Collapsing Contents
@@ -165,7 +169,7 @@ You can also provide titles for each tab, which is a great way to identify and g
 Code block contents will collapse automatically (if possible) if there are more than 100 lines in the code block. All lines will be folded except the first line. Example:
 
 {% code %}
-{% tab language="yaml" %}
+```yaml
 paths:
   /page/{id}:
     get:
@@ -295,7 +299,7 @@ paths:
               schema:
                 $ref: '#/components/schemas/TooManyRequests'
       deprecated: false
-{% /tab %}
+```
 {% /code %}
 
 You may use the widely adopted keyboard shortcuts in a code block to expand or collapse:
@@ -325,8 +329,8 @@ For example:
 
 See the following code blocks for examples:
 
-{% code %}
-{% tab language="php" title="Lines 7-13" highlightLines="7-13" showLineNumbers="true" %}
+{% code showLineNumbers=true %}
+```php {% highlightLines="7-13" title="Lines 7-13" %}
 /** Returns a stripped Markdown
      * @param $html
      * @return string
@@ -341,8 +345,9 @@ See the following code blocks for examples:
 
         return $converter->convert($html);
     }
-{% /tab %}
-{% tab language="php" title="Lines 1-6,14" highlightLines="1-6,14" showLineNumbers="true" %}
+```
+
+```php {% highlightLines="1-6,14" title="Lines 1-6,14" %}
 /** Returns a stripped Markdown
      * @param $html
      * @return string
@@ -357,8 +362,9 @@ See the following code blocks for examples:
 
         return $converter->convert($html);
     }
-{% /tab %}
-{% tab language="php" title="Lines 7,9,11,13" highlightLines="7,9,11,13" showLineNumbers="true" %}
+```
+
+```php {% highlightLines="7,9,11,13" title="Lines 7,9,11,13" %}
 /** Returns a stripped Markdown
      * @param $html
      * @return string
@@ -373,7 +379,7 @@ See the following code blocks for examples:
 
         return $converter->convert($html);
     }
-{% /tab %}
+```
 {% /code %}
 
 ## Line Wrapping

@@ -14,8 +14,7 @@ Custom HTML block allows you to add anything on the web to your documentation pa
 
 To create a Custom HTML block:
 
-{% synced id="open-block-menu" %}
-{% /synced %}
+{% synced id="open-block-menu" /%}
 
 - Select Custom HTML {% icon classes="fas fa-window-maximize" /%}
 - Type the HTML. See [How to use Custom HTML?](/support-center/custom-html#how-to-use-custom-html)
@@ -36,13 +35,13 @@ With Custom HTML, there are two modes available:
 - When the HTML is simple, it is rendered in the page directly (body), without an iFrame, example HTML code:
 
 {% code %}
-{% tab language="html" %}
+```html
 <span>This is simple HTML</span>
 <select style="background: red">
   <option value="0">0</option>
   <option value="0">1</option>
 </select>
-{% /tab %}
+```
 {% /code %}
 
 For this mode, you can use inline styling. You should not add any `<body>` or `<html>` tags as the content is already rendered inside a `<body>` tag. If you wish to style the elements, then you can use [Custom CSS](/support-center/custom-css) to create new classes which you can apply to the elements here.
@@ -52,7 +51,7 @@ For this mode, you can use inline styling. You should not add any `<body>` or `<
 For security, when the HTML includes scripts or styles, it is rendered in an iFrame inside the page. For example, such code would be rendered inside an iFrame:
 
 {% code %}
-{% tab language="html" %}
+```html
 <style type="text/css">
   .example-css {
     color: blue;
@@ -67,19 +66,19 @@ For security, when the HTML includes scripts or styles, it is rendered in an iFr
     console.log("Script tags cause HTML to get encapsulated in an iFrame");
   }
 </script>
-{% /tab %}
+```
 {% /code %}
 
-When using an iFrame, no pre-existing CSS would load, including CSS from [auto$](/support-center/custom-css) or any third party library. Apply your own CSS rules.
+When using an iFrame, no pre-existing CSS would load, including CSS from [Custom CSS](/support-center/custom-css) or any third party library. Apply your own CSS rules.
 
 ## Resizing Dynamic iFrames
 
 If your Custom HTML is getting embedded in an iFrame, and the iFrame dynamically adds elements to the body which causes the height to be limited and the scrollbars to show, then you can instruct the iFrame to resize by using:
 
 {% code %}
-{% tab language="javascript" %}
+```javascript
 window.postMessage('resize', '*');
-{% /tab %}
+```
 {% /code %}
 
 Use this function whenever you add elements to body dynamically.
@@ -99,11 +98,11 @@ Here are our top examples:
 Generate this button by:
 
 {% code %}
-{% tab language="markup" %}
+```markup
 <a href="https://docs.developerhub.io/?goto=wide" target="_blank" style="background-color: #333; color: white; padding: 12px; border-radius: 3px; text-decoration: none !important">
     See Wide Layout
 </a>
-{% /tab %}
+```
 {% /code %}
 
 ### Postman Collection Button
@@ -117,11 +116,11 @@ Generate this button by:
 Generate a postman collection button by:
 
 {% code %}
-{% tab language="html" %}
+```html
 <a href="https://www.postman.com/run-collection/:collection_id">
 	<img src="https://run.pstmn.io/button.svg" alt="Run in Postman">
 </a>
-{% /tab %}
+```
 {% /code %}
 
 ### Column Layout
@@ -142,7 +141,7 @@ Generate a postman collection button by:
 Generate this column layout by:
 
 {% code %}
-{% tab language="html" %}
+```html
 <div class="container-fluid">
   <div class="row">
     <div class="col pl-0 text-left">
@@ -153,7 +152,7 @@ Generate this column layout by:
     </div>
   </div>
 </div>
-{% /tab %}
+```
 {% /code %}
 
 ### Grid Layout
@@ -182,7 +181,7 @@ Generate this column layout by:
 Generated this grid layout by:
 
 {% code %}
-{% tab language="html" %}
+```html
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
             grid-template-rows: auto; gap: 14px;">
     <a href="https://docs.developerhub.io/support-center/code-blocks">
@@ -201,7 +200,7 @@ Generated this grid layout by:
       <div style="max-width: 100%; height: 200px; background: #d9524f"></div>
     </a>
 </div>
-{% /tab %}
+```
 {% /code %}
 
 ### GitHub Gist
@@ -213,9 +212,9 @@ Generated this grid layout by:
 Generated this Gist by:
 
 {% code %}
-{% tab language="markup" %}
+```markup
 <script src="https://gist.github.com/pkuczynski/7821992.js"></script>
-{% /tab %}
+```
 {% /code %}
 
 ### PDF Reader
@@ -227,9 +226,9 @@ Generated this Gist by:
 Generate this PDF Reader by:
 
 {% code %}
-{% tab language="markup" %}
+```markup
 <div style="text-align: center"><iframe src="https://drive.google.com/viewerng/viewer?url=https://s3-eu-west-1.amazonaws.com/dh-misc-z/test-pdf.pdf&embedded=true" width="80%" height="390" style="border: none; left: calc(100%-150px);"></iframe></div>
-{% /tab %}
+```
 {% /code %}
 
 ### Flowcharts and Diagrams

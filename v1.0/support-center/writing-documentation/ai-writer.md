@@ -10,14 +10,13 @@ keywords:
 tags: ai
 ---
 
-{% callout type="info" title="Info" %}
+{% callout title="Info" %}
 The following page was written partly by AI Writer.
 {% /callout %}
 
 AI Writer is a powerful tool designed to assist you with routine writing tasks and content brainstorming. Whether you’re looking to refine your text, enhance readability, or generate new ideas, AI Writer can help streamline the process efficiently.
 
-{% image url="https://uploads.developerhub.io/prod/02/juxnayqn31312o9m4271khzrepblhwrwooadcaax3i6tguwxv185oh4q1tt1x4rt.gif" mode="responsive" height="348" width="846" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/juxnayqn31312o9m4271khzrepblhwrwooadcaax3i6tguwxv185oh4q1tt1x4rt.gif" /%}
 
 ## AI Writer features
 
@@ -25,7 +24,7 @@ With AI Writer, you can:
 
 - **Simplify text** – Make complex sentences easier to read and understand.
 - **Enhance** – Improve overall writing quality, making text more engaging and polished.
-- **Fix spelling & grammar** – Automatically correct errors to improve clarity and professionalism.
+- **Fix spelling \& grammar** – Automatically correct errors to improve clarity and professionalism.
 - **Make text shorter** – Condense lengthy content while retaining key information.
 - **Expand** – Expand on ideas and provide more detailed explanations.
 - **Insert emojis** – Add relevant emojis to make your text more engaging and expressive.

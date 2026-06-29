@@ -45,12 +45,12 @@ Force editors to annotate the changes to be saved. This helps you keep a clean h
 </div>
 {% /html %}
 
-For advanced settings that we do not provide through the UI, they can modified through [auto$](/support-center/custom-javascript).
+For advanced settings that we do not provide through the UI, they can modified through [Custom HEAD Tags](/support-center/custom-javascript).
 
 The available settings are (with their defaults):
 
 {% code %}
-{% tab language="javascript" %}
+```javascript
 {
   warnings: {
     oldVersion: false // false|true: Show a banner when viewing an older version
@@ -93,7 +93,7 @@ The available settings are (with their defaults):
     disable: false // Disables feedback control in runtime
   }
 }
-{% /tab %}
+```
 {% /code %}
 
 ## Applying Settings
@@ -101,7 +101,7 @@ The available settings are (with their defaults):
 To change a setting, use the `apply`  function on `window.settings`:
 
 {% code %}
-{% tab language="javascript" %}
+```javascript
 <script>
   window.settings.apply({
   	index: {
@@ -112,5 +112,5 @@ To change a setting, use the `apply`  function on `window.settings`:
     }
   });
 </script>
-{% /tab %}
+```
 {% /code %}

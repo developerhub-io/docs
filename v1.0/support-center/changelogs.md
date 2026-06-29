@@ -12,9 +12,9 @@ tags:
 
 Create a changelog for your docs using our Changelogs native feature.
 
-Check out our own changelog: [auto$](/product-updates).
+Check out our own changelog: [Product Updates](/product-updates).
 
-{% callout type="info" title="How is this different from writing a changelog on a page?" %}
+{% callout title="How is this different from writing a changelog on a page?" %}
 Changelogs operate independently of specific versions, in contrast to pages. When a changelog is included within a page, it can quickly become outdated as soon as you clone a version and commence work on a new one.
 {% /callout %}
 

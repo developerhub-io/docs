@@ -24,7 +24,7 @@ There are a few reasons why you might want to hide a page:
 - Contents are not for everyone. Might be an advanced topic which you only want to share with a few people.
 
 {% callout type="warning" title="Warning" %}
-Do not share sensitive or confidential information in a hidden page. Use [auto$](/support-center/custom-login) for securing documentation.
+Do not share sensitive or confidential information in a hidden page. Use [Custom Login](/support-center/custom-login) for securing documentation.
 {% /callout %}
 
 ## How to hide a page?

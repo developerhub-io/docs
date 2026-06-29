@@ -10,4 +10,4 @@ keywords:
 tags: 
 ---
 
-This is an example index for [](/support-center/index-list), how exciting right?
+This is an example index for [Index List](/support-center/index-list), how exciting right?

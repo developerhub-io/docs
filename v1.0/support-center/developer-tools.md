@@ -66,7 +66,7 @@ tags: customisation
 
 **Description:** Securely give access to the docs.
 
-**See:** [auto$](/support-center/custom-login)
+**See:** [Custom Login](/support-center/custom-login)
 
 ### Set Frontend Application Deployment ID
 
@@ -103,7 +103,7 @@ tags: customisation
 
 - `link`: Absolute path (without host and basepath) such as `/support-center/developer-tools`.
 - `options`: (optional)
-    - `addBasePath`: Prepends the base path automatically to the link.
+  - `addBasePath`: Prepends the base path automatically to the link.
 
 **Description:** Navigates to a path internally inside the single page application, without reloading the page.
 
@@ -169,7 +169,7 @@ tags: customisation
 
 **Description:** Modifies UI text, whether for translation or otherwise.
 
-**See:** [auto$](/support-center/ui-translation)
+**See:** [UI Translation](/support-center/ui-translation)
 
 ### Register Custom Interceptors
 
@@ -229,7 +229,7 @@ tags: customisation
 
 - `src`: The URL of the image to load.
 
-**Description:** Loads the image in an overlay over the docs, just like when native images are clicked in product. Use it when the image is created by a [auto$](/support-center/custom-html) which uses an iFrame (when there is a script or iFrame).
+**Description:** Loads the image in an overlay over the docs, just like when native images are clicked in product. Use it when the image is created by a [Custom HTML](/support-center/custom-html) which uses an iFrame (when there is a script or iFrame).
 
 ### Change Theme
 
@@ -310,11 +310,11 @@ tags: customisation
 **Emits:** The HTML element that loaded if you wish to make customisations to the API reference UI, as follows:
 
 {% code %}
-{% tab language="json" %}
+```json
 {
   el: HTMLElement
 }
-{% /tab %}
+```
 {% /code %}
 
 ### Search Performed
@@ -326,13 +326,13 @@ tags: customisation
 **Emits:** Details about the query and hits count as follows:
 
 {% code %}
-{% tab language="json" %}
+```json
 {
   query: string,
   hitsCount: number,
   type: 'normal'|'ai'
 }
-{% /tab %}
+```
 {% /code %}
 
 {% callout type="warning" title="Only Non-Enterprise Search" %}
@@ -348,13 +348,13 @@ This is only available for non-enterprise search currently.
 **Emits:** Details about the feedback as follows:
 
 {% code %}
-{% tab language="json" %}
+```json
 {
   action: 'vote',
   vote: boolean, // true for like, false for dislike
   pageUrl: string
 }
-{% /tab %}
+```
 {% /code %}
 
 ## JavaScript Objects

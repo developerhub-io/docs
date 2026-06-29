@@ -12,16 +12,10 @@ tags:
 
 %product% makes hosting a breeze for you. We offer multiple ways in which you can have your docs hosted:
 
-{% cards view="grid" %}
-{% card title="Custom Domain" link="/support-center/using-custom-domain" %}
-Host on your own domain, such as docs.pied-piper.com
-{% /card %}
-{% card title="Under a Path" link="/support-center/hosting#hosting-under-an-existing-website" %}
-Host under a path, such as pied-piper.com/docs
-{% /card %}
-{% card title="Subdomain" link="/support-center/project-settings#changing-subdomain" %}
-Under our domain, such as pied-piper.developerhub.io
-{% /card %}
+{% cards %}
+{% card title="Custom Domain" text="Host on your own domain, such as docs.pied-piper.com" link="/support-center/using-custom-domain" /%}
+{% card title="Under a Path" text="Host under a path, such as pied-piper.com/docs" link="/support-center/hosting#hosting-under-an-existing-website" /%}
+{% card title="Subdomain" text="Under our domain, such as pied-piper.developerhub.io" link="/support-center/project-settings#changing-subdomain" /%}
 {% /cards %}
 
 You can also host multiple projects on the same site.
@@ -40,7 +34,7 @@ If you are starting with a docs site for the first time at `docs.pied-piper.com`
 
 If you already had a docs site and you're moving to %product%, then you are picking up the ranking you already had.
 
-In conclusion: Use [Hosting under an Existing Website](/support-center/hosting#hosting-under-an-existing-website) if possible, otherwise it's totally fine to host [auto$](/support-center/using-custom-domain).
+In conclusion: Use [Hosting under an Existing Website](/support-center/hosting#hosting-under-an-existing-website) if possible, otherwise it's totally fine to host [Using Custom Domain](/support-center/using-custom-domain).
 
 ## Hosting under %product% Subdomain
 
@@ -52,27 +46,26 @@ To set or change the subdomain:
 
 ## Hosting under your own Custom Domain
 
-Follow the steps in [auto$](/support-center/using-custom-domain).
+Follow the steps in [Using Custom Domain](/support-center/using-custom-domain).
 
 ## Hosting under an Existing Website
 
-{% callout type="info" title="Access to Server" %}
+{% callout title="Access to Server" %}
 You must have access to your server configuration files to host under an existing website
 {% /callout %}
 
 If you already have a website, for example `pied-piper.com` and you would like to host your docs under `pied-piper.com/docs`, then you can do this by modifying the basepath and setting up a reverse proxy from your servers. A step-by-step guide is as follows:
 
 - On %product%:
-    1. Open Project Settings → **Hosting**.
-    2. Edit Base path. Enter where you want your docs to live, such as `docs` or `hooli`. It could be a deeper subdirectory, such as `docs/project1`.
-    3. Edit Custom domain. Enter the host where the existing website lives, such as `pied-piper.com` or `support.pied-piper.com`.
-    4. Click **Save changes** in the top menu.
-
+  1. Open Project Settings → **Hosting**.
+  2. Edit Base path. Enter where you want your docs to live, such as `docs` or `hooli`. It could be a deeper subdirectory, such as `docs/project1`.
+  3. Edit Custom domain. Enter the host where the existing website lives, such as `pied-piper.com` or `support.pied-piper.com`.
+  4. Click **Save changes** in the top menu.
 - On your server:
-    - Set up a reverse proxy to `you.developerhub.io`, such as with nginx. Here is an example configuration:
+  - Set up a reverse proxy to `you.developerhub.io`, such as with nginx. Here is an example configuration:
 
 {% code %}
-{% tab language="bash" title="docs.conf" %}
+```bash {% title="docs.conf" %}
 server {
   server_name <custom-domain>; # e.g. server_name support.pied-piper.com
 
@@ -87,7 +80,7 @@ server {
     proxy_set_header X-User-Agent $http_user_agent; # Required if using a CDN
   }
 }
-{% /tab %}
+```
 {% /code %}
 
 Make sure that you do not add trailing forward slashes for `location` URI and `proxy_pass` URI as indicated in the example. Adding them may break SEO or domain settings.
@@ -96,8 +89,8 @@ Make sure that you do not add trailing forward slashes for `location` URI and `p
 HTTPS must be used, so ensure that your existing website already has a valid certificate.
 {% /callout %}
 
-{% callout type="info" title="Info" %}
-You do not need to modify [DNS records](/support-center/configure-dns) or to follow [auto$](/support-center/using-custom-domain) to host under an existing website.
+{% callout title="Info" %}
+You do not need to modify [DNS records](/support-center/configure-dns) or to follow [Using Custom Domain](/support-center/using-custom-domain) to host under an existing website.
 {% /callout %}
 
 You may also use the approach above to set up your own custom redirection rules if needed, leaving the base path empty.
@@ -116,19 +109,17 @@ To host multiple projects under one site, you can set multiple projects to be on
 For example, you may setup three projects to be as such:
 
 - Project: Product Documentation
-    - Custom domain: `docs.pied-piper.com`.
-    - No base path.
-    - Accessible at `https://docs.pied-piper.com/`.
-
+  - Custom domain: `docs.pied-piper.com`.
+  - No base path.
+  - Accessible at `https://docs.pied-piper.com/`.
 - Project: Knowledge Base
-    - Custom domain: `docs.pied-piper.com`.
-    - Base path: `kb`.
-    - Accessible at `https://docs.pied-piper.com/kb`.
-
+  - Custom domain: `docs.pied-piper.com`.
+  - Base path: `kb`.
+  - Accessible at `https://docs.pied-piper.com/kb`.
 - Project: Release Notes
-    - Custom domain: `docs.pied-piper.com`.
-    - Base path: `release-notes`.
-    - Accessible at `https://docs.pied-piper.com/release-notes`.
+  - Custom domain: `docs.pied-piper.com`.
+  - Base path: `release-notes`.
+  - Accessible at `https://docs.pied-piper.com/release-notes`.
 
 When multiple projects are hosted under a subdomain or a domain, {% icon classes="fas fa-sitemap" /%} will show next to the setting input.
 

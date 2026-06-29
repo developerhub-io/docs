@@ -12,7 +12,8 @@ tags:
 
 Categories make it easier to segment your documentation. You can see an example of categories on the left hand-side, such as "Start Here".
 
-{% image url="https://image-archive.developerhub.io/image/upload/6763/lrngsvnjrtqrplm6wrnl/1547502201.png" caption="Categories example" mode="set" height="528" width="282" %}
+{% image url="https://image-archive.developerhub.io/image/upload/6763/lrngsvnjrtqrplm6wrnl/1547502201.png" width=282 %}
+Categories example
 {% /image %}
 
 ## Adding Categories
@@ -27,7 +28,7 @@ To add a category:
 
 To delete a category, click the menu icon {% icon classes="fas fa-ellipsis-v" /%} next to it in the index, then select Delete {% icon classes="fas fa-trash" /%}.
 
-{% callout type="info" title="Info" %}
+{% callout title="Info" %}
 The category must be emptied before it can be deleted. Either move all indices under it to another category, or delete them.
 {% /callout %}
 
@@ -47,7 +48,7 @@ To make categories collapse, check [Collapsible Categories](/support-center/docu
 
 To re-order a category, drag and drop it anywhere in the index.
 
-{% callout type="info" title="Info" %}
+{% callout title="Info" %}
 Categories are only top-level elements in the index.
 {% /callout %}
 

@@ -12,8 +12,7 @@ tags:
 
 %product% can integrate with your CI/CD pipelines to update pages and keep your references up to date.
 
-{% image url="https://image-archive.developerhub.io/image/upload/11500/pvyadjgik57ixpqzx9yi/1554055997.png" mode="responsive" height="617" width="868" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/zz4105x5dsfn5y7ks1knnmk0opw15jozmpr5v3ztqa2pyb0gn4ney7hbvh4o5otl.png" /%}
 
 ## Integrating with CI/CD
 
@@ -45,10 +44,10 @@ To upload the reference through the API, check [Add or Update an API Reference](
 An example request would be:
 
 {% code %}
-{% tab language="bash" %}
+```bash
 curl --request POST \
     --url https://api.developerhub.io/api/v1/version/50/reference \
     --header "X-Api-Key: 689bbce8acc68b7a4346acca6a028e6f8126eb792b19a334f8e3f2a12ca8f561"
     --form "file=@/Users/DH/swagger.yaml"
-{% /tab %}
+```
 {% /code %}

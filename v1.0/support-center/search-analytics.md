@@ -19,8 +19,7 @@ tags:
 
 What is the value of documentation that lacks the essential information your readers require? Search analytics serve as critical indicators, helping you determine whether your documentation effectively meets its intended purpose. By analysing these insights, you can make informed decisions to enhance your content, ensuring that it aligns with the needs of your audience.
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_1/cvzusewkow6v58vo8zat/1617450880.png" mode="responsive" height="1092" width="1608" %}
-{% /image %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/cvzusewkow6v58vo8zat/1617450880.png" /%}
 
 ## What is in Search Analytics?
 
@@ -40,7 +39,7 @@ You can view search analytics for the past month, 3 months or 6 months using the
 
 ## Where is Search Analytics?
 
-You can find your Search Analytics in your [auto$](/support-center/dashboard). When you are on the Dashboard, click on Analytics.
+You can find your Search Analytics in your [Dashboard](/support-center/dashboard). When you are on the Dashboard, click on Analytics.
 
 ## Troubleshooting Analytics
 

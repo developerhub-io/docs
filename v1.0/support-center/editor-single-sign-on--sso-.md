@@ -11,7 +11,7 @@ tags:
 ---
 
 {% callout type="warning" title="Editor SSO vs Reader SSO" %}
-This page is about editors using SSO to sign in to %product%. If you're looking for readers using SSO to sign into your private docs, see [auto$](/support-center/reader-single-sign-on).
+This page is about editors using SSO to sign in to %product%. If you're looking for readers using SSO to sign into your private docs, see [Reader Single-Sign On (SSO)](/support-center/reader-single-sign-on).
 {% /callout %}
 
 With SSO, you can manage your team access to %product% projects without having to add them one by one.
@@ -34,19 +34,17 @@ The process for setting up SSO is as follows:
 
 - [Contact us](/support-center/contact-us) to let us know that you require SSO, providing us with which IdP you are integrating with.
 - We will provide you with an `sso_id` which you can use to get the ACS URL. The Entity ID and logo are as follows:
-    - ACS URL: `https://auth.developerhub.io/login/callback/<sso_id>`
-    - Entity ID: `https://auth.developerhub.io/sp`
-    - [Logo link](https://res.cloudinary.com/developerhub/image/upload/v1561908888/1/gmoiyrndwsboeffgiz1x.svg).
-
-- We will then require from you 
-    - IdP SSO URL.
-    - IdP Issuer.
-    - Are responses signed?
-    - X.509 certificate.
-
+  - ACS URL: `https://auth.developerhub.io/login/callback/<sso_id>`
+  - Entity ID: `https://auth.developerhub.io/sp`
+  - [Logo link](https://res.cloudinary.com/developerhub/image/upload/v1561908888/1/gmoiyrndwsboeffgiz1x.svg).
+- We will then require from you
+  - IdP SSO URL.
+  - IdP Issuer.
+  - Are responses signed?
+  - X.509 certificate.
 - Inform us of the [SSO configuration](/support-center/editor-single-sign-on--sso-#configuration) you require.
 
-{% callout type="info" title="Multiple SSO integrations" %}
+{% callout title="Multiple SSO integrations" %}
 If you have multiple SSO integrations with %product%, we can provide you with an alternative `entity ID` to be able to have multiple integrations on the same IdP. Please [contact us](/support-center/contact-us) for the alternative `entity ID`.
 {% /callout %}
 
@@ -64,8 +62,7 @@ While configuring SSO, use `EMAIL` Name ID format with `Basic Information > Prim
 
 The attributes for Google SSO must look as follows:
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_1/uj1k8qntxsf2bq5ahttj/1621016202.jpg" mode="responsive" height="528" width="1175" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/009ra53o0sva71qv6db1t72d4ufge4p8juyv41lbum44bmhjh6ngg9vl86la74ml.jpg" /%}
 
 ### Okta SSO
 
@@ -73,8 +70,7 @@ While configuring SSO, use Name ID format `EmailAddress` and Application usernam
 
 The attributes for Okta SSO must look as follows:
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_1/ygliplh25qaaysj5jzm2/1621016253.jpg" mode="responsive" height="300" width="702" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/j4n71ww03x0600q8j59oo9618futg89s3it785mxuwz9r09fyzag2pijrlcbd5tl.jpg" /%}
 
 ## Configuration
 

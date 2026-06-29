@@ -24,7 +24,7 @@ The tools available under the MCP server are:
 
 The MCP server supports the Streamable HTTP transport.
 
-{% callout type="info" title="More tools?" %}
+{% callout title="More tools?" %}
 If you need more tools, [contact us](/support-center/contact-us) with the details!
 {% /callout %}
 
@@ -44,16 +44,16 @@ MCP server is only available for public projects. [Contact us](/support-center/c
 
 ## Try out our MCP Server
 
-You can test out our own MCP server before enabling it on your docs. For a quick test, you can click the **AI Tools** button at the top of this page &gt; **Connect to Cursor**/**VS Code**. Alternatively, you can do it manually. Let's take Cursor as the MCP client for an example:
+You can test out our own MCP server before enabling it on your docs. For a quick test, you can click the **AI Tools** button at the top of this page \> **Connect to Cursor**/**VS Code**. Alternatively, you can do it manually. Let's take Cursor as the MCP client for an example:
 
 - Launch **Cursor**.
-- Under **Settings** &gt; **Cursor Settings**.
+- Under **Settings** \> **Cursor Settings**.
 - Click on **Tools** in the sidebar.
 - Click **New MCP Server**.
 - In the file that was opened, enter the following:
 
 {% code %}
-{% tab language="json" %}
+```json
 {
   "mcpServers": {
     "DeveloperHub Docs": {
@@ -61,12 +61,11 @@ You can test out our own MCP server before enabling it on your docs. For a quick
     }
   }
 }
-{% /tab %}
+```
 {% /code %}
 
 - Save the file.
 - Toggle the AI pane {% key key="⌘" /%} + {% key key="I" /%}.
 - Ask the agent a question like "Search DeveloperHub docs for how to add an image".
 
-{% image url="https://uploads.developerhub.io/prod/02/7z38mrq35ibpdzkkv3cxcjrehb3rlgqdl98qymu45brpn8y10wtgt4sbcdyqayyl.png" mode="responsive" height="943" width="1398" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/7z38mrq35ibpdzkkv3cxcjrehb3rlgqdl98qymu45brpn8y10wtgt4sbcdyqayyl.png" /%}

@@ -27,9 +27,38 @@ Inline images support two modes which you can modify by clicking on the image an
 
 ## Inline Image Examples
 
-{% table widths="173,0" %}
-| Type of Animal | Sound | How it looks like | 
-| ---- | ---- | ---- | 
-| Cat | Meow | {% inline-image url="https:\\/\\/uploads.developerhub.io\\/prod\\/02\\/kgnzg0ig37q5lyjn3sxwjekoxmvcio2qf4s1sutk77z61157kyih40xtxrj7p05l.png" width="113" /%} | 
-| Dog | Woof | {% inline-image url="https:\\/\\/uploads.developerhub.io\\/prod\\/02\\/o4y7fb9jve2gbw4zdq1j3p5b5txg9aio7vymkjrnle44j8fcsizrccj3nd0oo9o3.png" width="88" /%} | 
+{% table layout="auto" %}
+{% row %}
+{% cell header=true colwidth=[173] %}
+Type of Animal
+{% /cell %}
+{% cell header=true %}
+Sound
+{% /cell %}
+{% cell header=true %}
+How it looks like
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Cat
+{% /cell %}
+{% cell %}
+Meow
+{% /cell %}
+{% cell %}
+{% inline-image url="https://uploads.developerhub.io/prod/02/kgnzg0ig37q5lyjn3sxwjekoxmvcio2qf4s1sutk77z61157kyih40xtxrj7p05l.png" width="113" /%}
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Dog
+{% /cell %}
+{% cell %}
+Woof
+{% /cell %}
+{% cell %}
+{% inline-image url="https://uploads.developerhub.io/prod/02/o4y7fb9jve2gbw4zdq1j3p5b5txg9aio7vymkjrnle44j8fcsizrccj3nd0oo9o3.png" width="88" /%}
+{% /cell %}
+{% /row %}
 {% /table %}

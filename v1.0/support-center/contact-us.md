@@ -17,7 +17,7 @@ We seriously would **love** to hear from you, whether you are:
 
 We love you either way.
 
-## Help & Support
+## Help \& Support
 
 You can access all help and support options from the help {% icon classes="fas fa-question-circle" /%} icon in the editor top navigation.
 

@@ -19,7 +19,8 @@ tags: customisation
 
 Most landing pages are best built with the visual [Landing Page Designer](/support-center/landing-page). If you want complete control and branding, you can instead craft a landing page from your own HTML, CSS, and JavaScript. This works for both the main landing page and any [custom page](/support-center/landing-page#custom-pages).
 
-{% image url="https://image-archive.developerhub.io/image/upload/27830/giywcgidtrajyrzmqrih/1586529385.jpg" caption="Our Custom Landing Page" mode="responsive" height="1189" width="1501" %}
+{% image url="https://uploads.developerhub.io/prod/02/ahrp4vnyagpw6e0nmkes5omnq7zfeokv4x7qcnz9co3to08b5jqy6fvpf7jgpsol.jpg" %}
+Our Custom Landing Page
 {% /image %}
 
 ## Use Custom Landing Page
@@ -34,11 +35,10 @@ To modify the landing page HTML:
 
 - Click **Edit HTML**.
 
-{% image url="https://uploads.developerhub.io/prod/02/9qnjmb6yys60jmptwoto2ymwoa0hp23qinnli89kmege90vrp9gkbsgu4sy51zcz.png" mode="responsive" height="794" width="1198" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/9qnjmb6yys60jmptwoto2ymwoa0hp23qinnli89kmege90vrp9gkbsgu4sy51zcz.png" /%}
 
 - Paste or type in the HTML that will make your custom landing page. Click Save. This will save the HTML in draft mode, so you can test it out.
-- To publish it to readers, click Save & Publish.
+- To publish it to readers, click Save \& Publish.
 - To revert the draft changes, click Revert.
 
 {% callout type="warning" title="Write body only - Not full HTML page" %}
@@ -49,8 +49,7 @@ This also apply to `<style>`. All styles should be moved to [Custom CSS](/suppor
 
 ## Crafting a Landing Page
 
-{% image url="https://image-archive.developerhub.io/image/upload/27830/dpvldj3gudm4i4lokx8j/1586528975.jpg" mode="responsive" height="507" width="914" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/au3a1w2hsmjxxlt9afmlctvoi7c8fgrc4s7na4xcr852qzcsekk3yeclp89a850d.jpg" /%}
 
 When customising the landing page, you may enter HTML that will be inserted asynchronously in your landing page.
 
@@ -71,13 +70,13 @@ Remember that the CSS is applied globally. Modifying classes of conventional nam
 If you wish to add Javascript, then you can add it in [Custom HEAD Tags](/support-center/custom-javascript) in a `<script>` tag. If you wish to reuse the auto-generated [cards](/support-center/landing-page#card-generation-strategy) that %product% builds from your content, then you can listen to a dedicated event `oncardschanged` as such:
 
 {% code %}
-{% tab language="html" %}
+```html
 <script>
 document.addEventListener('oncardschanged', function (event) {
   console.log("cards changed", event);
 });
 </script>
-{% /tab %}
+```
 {% /code %}
 
 This event also indicates that the landing page HTML has already loaded, and that you can query its selectors.
@@ -85,7 +84,7 @@ This event also indicates that the landing page HTML has already loaded, and tha
 The `detail` carries `docs` and `refs` (and `groups` when your project uses [navigation groups](/support-center/structuring-documentation)), mirroring the [card generation strategy](/support-center/landing-page#card-generation-strategy). The event output looks like the follows for the main landing page:
 
 {% code %}
-{% tab language="json" %}
+```json
 CustomEvent {
   "detail": {
     "sectionType": "landing-page"
@@ -117,13 +116,13 @@ CustomEvent {
     ]
   }
 }
-{% /tab %}
+```
 {% /code %}
 
 For a non-main landing page, the detail would be as such:
 
 {% code %}
-{% tab language="json" %}
+```json
 CustomEvent {
   "detail": {
     "sectionType": "custom-page",
@@ -156,7 +155,7 @@ CustomEvent {
     ]
   }
 }
-{% /tab %}
+```
 {% /code %}
 
 Where `sectionId` is an identifier you may use to customise what elements are added to which landing page.
@@ -166,7 +165,7 @@ Where `sectionId` is an identifier you may use to customise what elements are ad
 To navigate to content in the documentation from your landing page, use absolute paths. When using absolute paths, the navigation would be done internally in the single-page application, rather than a full-slow navigation. For example:
 
 {% code %}
-{% tab language="markup" title="HTML" %}
+```markup {% title="HTML" %}
 <a href="/support-center/getting-started">
   Getting Started
 </a>
@@ -179,32 +178,32 @@ To navigate to content in the documentation from your landing page, use absolute
 <a href="https://docs.example.com/support-center/getting-started">
   Example Requests
 </a>
-{% /tab %}
+```
 {% /code %}
 
 If you are creating the content dynamically using Javascript, you can use `window.applyClickHandlersOnLinks()` at the end of your javascript (when all anchors have been added) to make all absolute path links navigate internally:
 
 {% code %}
-{% tab language="javascript" %}
+```javascript
 const anchor = document.createElement('A');
 anchor.href = "/support-center/getting-started";
 
 window.applyClickHandlersOnLinks();
-{% /tab %}
+```
 {% /code %}
 
 {% callout type="warning" title="Deprecated" %}
 Previously, `openLink` function used to handle opening internal links. This is no longer required and such functions can be removed.
 {% /callout %}
 
-## Tips & Tricks
+## Tips \& Tricks
 
 ### Hiding Top Navigation Bar
 
 If you wish to hide the top navigation bar when on the custom landing page, you can do that using Javascript:
 
 {% code %}
-{% tab language="html" %}
+```html
 <script>
 	document.addEventListener('onsectionchange', function (event) {
         switch (event.detail.type) {
@@ -216,9 +215,9 @@ If you wish to hide the top navigation bar when on the custom landing page, you 
             }
     });
 </script>
-{% /tab %}
+```
 {% /code %}
 
 ## Mocking default Landing Page
 
-See [auto$](/support-center/mocking-default-landing-page) for step-by-step instructions on how to create a landing page like our own.
+See [Mocking Default Landing Page](/support-center/mocking-default-landing-page) for step-by-step instructions on how to create a landing page like our own.

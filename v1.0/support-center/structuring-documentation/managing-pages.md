@@ -24,7 +24,7 @@ To add a new subpage to an existing parent page, click on the plus sign {% icon 
 
 To re-order a page, simply drag and drop it anywhere in the index.
 
-{% callout type="info" title="Info" %}
+{% callout title="Info" %}
 Parent pages with subpages cannot be re-ordered into another parent page
 {% /callout %}
 
@@ -36,7 +36,7 @@ Index order is saved automatically, no prompt is given
 
 To delete a page, click on the menu icon {% icon classes="fas fa-ellipsis-v" /%} next to it, then select Delete {% icon classes="fas fa-trash" /%}. You will be prompted to delete the page.
 
-{% callout type="info" title="Info" %}
+{% callout title="Info" %}
 Parent pages with subpages cannot be deleted until all its subpages are deleted
 {% /callout %}
 

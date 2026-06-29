@@ -12,8 +12,7 @@ tags:
 
 Adding comments to pages and references is a useful way to record additional details, and collaborate with team members.
 
-{% video videoId="https://uploads.developerhub.io/prod/02/7q1omqvl9cbvjm8pymkpdfn03jv1j1d47sr109pgv0m7lxit3xm6ypz1uiruxvjx.mp4?autoplay=true&loop=true&muted=true&playsinline=true&controls=false" provider="raw" %}
-{% /video %}
+{% video provider="raw" videoId="https://uploads.developerhub.io/prod/02/7q1omqvl9cbvjm8pymkpdfn03jv1j1d47sr109pgv0m7lxit3xm6ypz1uiruxvjx.mp4?autoplay=true&loop=true&muted=true&playsinline=true&controls=false" /%}
 
 ## Why Use Comments?
 
@@ -44,7 +43,8 @@ Use **View options** in the right sidebar to control what you see:
 - **Show resolved comments**: toggles whether resolved comments are shown.
 - **Notifications**: set how you are notified about comment activity on the page (covered below).
 
-{% image url="asset:o7gbe0h8q4br" caption="View options: margin panel and notifications" mode="responsive" height="340" width="370" %}
+{% image url="asset:o7gbe0h8q4br" %}
+View options: margin panel and notifications
 {% /image %}
 
 ## Comments in API References
@@ -67,7 +67,7 @@ When a teammate clicks on a comment, the associated part will be highlighted.
 
 To tag your teammates in a comment, start by typing an `@` character. A list of all teammates will be available to choose from.
 
-{% callout type="info" title="Info" %}
+{% callout title="Info" %}
 You and anyone you tag in comments will become a watcher of that page's comments.
 {% /callout %}
 

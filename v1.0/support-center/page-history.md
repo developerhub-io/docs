@@ -14,7 +14,8 @@ Supercharged plans can view and go back to older versions of each page.
 
 Edit history has its own entry in the editor's right sidebar, the {% icon classes="fas fa-history" /%} icon, separate from **Page Info**.
 
-{% image url="asset:2doioqr1wruk" caption="The Edit history panel" mode="responsive" height="540" width="464" %}
+{% image url="asset:2doioqr1wruk" %}
+The Edit history panel
 {% /image %}
 
 ## View and Revert Edit History
@@ -27,7 +28,7 @@ To view edit history of a page:
 - On clicking on an edit history, the page will preview the change that was made.
 - You may at this stage revert to this change. This will create a new edit history.
 
-{% callout type="info" title="Info" %}
+{% callout title="Info" %}
 Users upgrading to a higher tier plan will be able to access history older than what their previous plan allowed immediately.
 {% /callout %}
 
@@ -52,12 +53,13 @@ If you are currently writing a draft, and you need to review the changes since p
 - Select **Edit history** {% icon classes="fas fa-history" /%} from the right sidebar.
 - At the top of the panel, click **Compare with published**.
 
-{% image url="asset:iy1975sv7gh8" caption="Comparing a draft with the published page" mode="responsive" height="315" width="464" %}
+{% image url="asset:iy1975sv7gh8" %}
+Comparing a draft with the published page
 {% /image %}
 
 All edits since last published edit will be merged and showed.
 
-## Known Limitations & Bugs
+## Known Limitations \& Bugs
 
 - Diffs might have extra spaces and dashes after an import.
 - If a [block](/support-center/blocks) is changed, then we only highlight it in orange and we do not show the previous state. The new state is only shown.

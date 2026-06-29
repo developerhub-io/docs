@@ -27,13 +27,13 @@ You can import to %product% from many sources:
 To import documentation, follow these steps:
 
 - Make sure your import files are [structured](/support-center/importing-documentation#structuring-files) as required.
-- Open Project Settings → **Import & Export**.
+- Open Project Settings → **Import \& Export**.
 - Click **Open import**.
 - Choose %product%.
 
 Importing could take a few seconds up to a minute.
 
-{% callout type="info" title="Info" %}
+{% callout title="Info" %}
 All imports add versions. Versions, documentations and pages are never overwritten.
 {% /callout %}
 
@@ -51,8 +51,7 @@ To import one page, follow these steps:
 
 To import documentation from %product% export into %product%, you must structure your files as such:
 
-{% image url="https://uploads.developerhub.io/prod/02/c4ghrsdoo780zk1ii0fv0cde45vg2e8fo79ea2qu0chyak8xmu3fiie6c9ls0y5v.png" mode="set" height="368.5625" width="378" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/c4ghrsdoo780zk1ii0fv0cde45vg2e8fo79ea2qu0chyak8xmu3fiie6c9ls0y5v.png" width=378 /%}
 
 Where, for example:
 
@@ -81,7 +80,7 @@ Each file contains a header depending on the index element being described.
 - Page:
 
 {% code %}
-{% tab language="yaml" %}
+```yaml
 ---
 type: page
 title: Callouts
@@ -93,40 +92,40 @@ hidden:
 keywords: keyword1,keyword2
 tags: tag1,tag2
 ---
-{% /tab %}
+```
 {% /code %}
 
 - Category:
 
 {% code %}
-{% tab language="yaml" %}
+```yaml
 ---
 type: category
 title: Start Here
 ---
-{% /tab %}
+```
 {% /code %}
 
 - Link:
 
 {% code %}
-{% tab language="yaml" %}
+```yaml
 ---
 type: link
 title: Go to DeveloperHub.io
 url: https://developerhub.io
 ---
-{% /tab %}
+```
 {% /code %}
 
 - Separator:
 
 {% code %}
-{% tab language="none" %}
+```none
 ---
 type: separator
 ---
-{% /tab %}
+```
 {% /code %}
 
 ### Content
@@ -136,7 +135,7 @@ Category, link and separator elements do not have content. Pages do have content
 Draft and published page contents can be defined in an export and it is annotated by a `---draft` or `---published` header, such as:
 
 {% code %}
-{% tab language="yaml" %}
+```yaml
 ---draft
 
 Draft content is here
@@ -144,13 +143,13 @@ Draft content is here
 ---published
 
 Published content is here
-{% /tab %}
+```
 {% /code %}
 
 An example of published content that contains a heading, text and a code block would be:
 
 {% code %}
-{% tab language="yaml" %}
+```yaml
 ---published
 ## Code Block Example
 
@@ -175,7 +174,7 @@ $plugin[{
         ]
     }
 }]$
-{% /tab %}
+```
 {% /code %}
 
 ### Blocks
@@ -183,12 +182,12 @@ $plugin[{
 As Markdown does not include many of our powerful features, so we created Darkdown formatting to enable such features. All blocks are exported as such:
 
 {% code %}
-{% tab language="yaml" %}
+```yaml
 $plugin[{
      "type": "<<type>>",
      "data": "<<data>>"
 }]$
-{% /tab %}
+```
 {% /code %}
 
 Where type is one of `code-block`, `image`, `video`, `table`, `github-code`, `synced-block`, `tab-block`, `index-list` and `custom-html`. Data definition depends on the type.
@@ -197,20 +196,20 @@ Where type is one of `code-block`, `image`, `video`, `table`, `github-code`, `sy
 
 Additionally, inline blocks are exported in Darkdown format such as [badges](/support-center/badges), [icons](/support-center/icons) and [keyboard keys](/support-center/keyboard-keys). For example,
 
-This badge: {% badge type="success" text="Great!" /%} would be formatted as:
+This badge: {% badge text="Great!" type="success" /%} would be formatted as:
 
 {% code %}
-{% tab language="yaml" %}
+```yaml
 {% badge type="success" text="Great!" /%}
-{% /tab %}
+```
 {% /code %}
 
 And this icon: {% icon classes="fas fa-adjust" /%} would be formatted as:
 
 {% code %}
-{% tab language="yaml" %}
+```yaml
 {% icon classes="fas fa-adjust" /%}
-{% /tab %}
+```
 {% /code %}
 
 Feel free to export any page to understand the formatting of its contents.
@@ -222,12 +221,12 @@ Tables are exported in Markdown format, except if column width is set then we us
 The Markdown format for tables used for imports and exports are as such:
 
 {% code %}
-{% tab language="none" %}
+```none
 | Browser | Mode | Is Supported? | Remarks | 
 | ---- | ---- | ---- | ---- | 
 | Chrome | Desktop | Yes | Fully supported | 
 | Chrome | Mobile | Yes | Fully supported |
-{% /tab %}
+```
 {% /code %}
 
 Requirements:
@@ -258,11 +257,11 @@ By importing images on %product%, you are responsible to ensure that you have ri
 To import images from the internet, they should be referenced as such:
 
 {% code %}
-{% tab language="markdown" %}
+```markdown
 HTTP Image:
 
 ![Image Caption](https://example.com/image.png)
-{% /tab %}
+```
 {% /code %}
 
 It will then be downloaded from its source, and uploaded to our content delivery network. The image must be accessible online publicly, otherwise the import will fail.
@@ -274,11 +273,11 @@ To import images locally from the provided ZIP file, they must exist in a folder
 They should be referenced as such:
 
 {% code %}
-{% tab language="markdown" %}
+```markdown
 Local Image:
 
 ![Image Caption](/assets/image.png)
-{% /tab %}
+```
 {% /code %}
 
 Inside `assets` folder, any folder structure is allowed.

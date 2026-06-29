@@ -17,15 +17,14 @@ If you wish to change %product% UI text that shows to your readers, which defaul
 
 ## Which Text Can be Changed?
 
-{% image url="https://image-archive.developerhub.io/image/upload/-1/njdbubhyvukyseiqn5dd/1587679852.jpg" mode="responsive" height="724" width="1185" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/ilv8pnmnleivr9f9bczddwu9wl4z4blb8chjij4pg0uiyaboo6maq412xza61vth.jpg" /%}
 
 All text on the UI that we provide that shows to your reader can be translated. This includes text in landing page, search, table of contents as well as the version and section pickers.
 
 The text that is available to be translated is detailed as such:
 
 {% code %}
-{% tab language="javascript" %}
+```javascript
 {
   navbar: {
     home: 'Home',
@@ -87,7 +86,7 @@ The text that is available to be translated is detailed as such:
     button: 'Go back'
   }
 }
-{% /tab %}
+```
 {% /code %}
 
 ## Translate UI Text
@@ -114,7 +113,7 @@ At the moment, we have support for English, French, Deutsch and Spanish. If ther
 By using [custom javascript](/support-center/custom-javascript), you can modify any or all of the default translations. For example, you can add a script to your HEAD tags to override table of contents and search results as such:
 
 {% code %}
-{% tab language="html" title="Javascript" %}
+```html {% title="Javascript" %}
 <script>
   window.translations.apply({
   	tableOfContents: {
@@ -126,10 +125,10 @@ By using [custom javascript](/support-center/custom-javascript), you can modify 
     }
   });
 </script>
-{% /tab %}
+```
 {% /code %}
 
-{% callout type="info" title="Info" %}
+{% callout title="Info" %}
 Some translations contain variables such as `search.results` which will be replaced by the number of search results. The question mark indicates where the number will be replaced and must be kept in the translation.
 
 Other translations such as `consent.text` have plus signs where a URL should be added.
@@ -140,7 +139,7 @@ Other translations such as `consent.text` have plus signs where a URL should be 
 To change the UI text according to which version or which documentation is selected, then you can do that with [custom javascript](/support-center/custom-javascript). Example code that you can use:
 
 {% code %}
-{% tab language="html" title="Javascript" %}
+```html {% title="Javascript" %}
 <script>
 	document.addEventListener('onsectionchange', function (event) {
         if (event.detail.type === 'documentation') {
@@ -152,5 +151,5 @@ To change the UI text according to which version or which documentation is selec
         }
     });
 </script>
-{% /tab %}
+```
 {% /code %}

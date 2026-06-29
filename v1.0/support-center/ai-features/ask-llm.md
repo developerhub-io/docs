@@ -15,7 +15,7 @@ The **AI Tools** button appears next to a page title and opens a contextual menu
 - Summarize the page using the [assistant](/support-center/ai-search).
 - Copy the page Markdown.
 - Ask questions about the page content using ChatGPT or Claude.
-- Connect to Cursor or VS Code using the [auto$](/support-center/mcp-server).
+- Connect to Cursor or VS Code using the [MCP Server](/support-center/mcp-server).
 
 ## Enabling the AI Tools button
 

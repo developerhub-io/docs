@@ -14,7 +14,8 @@ AI Agent helps editors draft and revise documentation pages by turning a convers
 
 AI Agent never applies changes automatically. Instead, it produces one or more edit suggestions that you can review and apply selectively.
 
-{% image url="asset:499s9a2n4aoa" caption="The AI Agent panel" mode="responsive" height="864" width="542" %}
+{% image url="asset:499s9a2n4aoa" %}
+The AI Agent panel
 {% /image %}
 
 ## Who can use AI Agent
@@ -67,7 +68,7 @@ You can add AI Instructions to control how AI Agent responds. For example, you c
 
 If your instructions conflict with each other, AI Agent will do its best to follow the most specific instruction.
 
-{% callout type="info" title="Example instructions" %}
+{% callout title="Example instructions" %}
 Write in British English. Keep the tone concise and practical. Use short paragraphs and bullet lists. Bold UI labels and button names.
 {% /callout %}
 
@@ -99,14 +100,73 @@ Conversations with AI Agent are personal and are scoped to the page.
 
 AI Agent and AI Writer both help with writing and editing, but they are designed for different workflows.
 
-{% table widths="" %}
-| Feature | AI Writer | AI Agent | 
-| ---- | ---- | ---- | 
-| Where you use it | Inline while editing | From the right sidebar on a page | 
-| Primary interaction | Inline assistance | Conversational workflow that produces edit suggestions | 
-| Access to documentation context | Only highlighted text | Can search and reference documentation in the current version, including drafts and unpublished content | 
-| Output | Writing assistance inline | One or more edit suggestions you can apply selectively | 
-| Applies changes automatically | Yes | No | 
+{% table layout="auto" %}
+{% row %}
+{% cell header=true %}
+Feature
+{% /cell %}
+{% cell header=true %}
+AI Writer
+{% /cell %}
+{% cell header=true %}
+AI Agent
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Where you use it
+{% /cell %}
+{% cell %}
+Inline while editing
+{% /cell %}
+{% cell %}
+From the right sidebar on a page
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Primary interaction
+{% /cell %}
+{% cell %}
+Inline assistance
+{% /cell %}
+{% cell %}
+Conversational workflow that produces edit suggestions
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Access to documentation context
+{% /cell %}
+{% cell %}
+Only highlighted text
+{% /cell %}
+{% cell %}
+Can search and reference documentation in the current version, including drafts and unpublished content
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Output
+{% /cell %}
+{% cell %}
+Writing assistance inline
+{% /cell %}
+{% cell %}
+One or more edit suggestions you can apply selectively
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Applies changes automatically
+{% /cell %}
+{% cell %}
+Yes
+{% /cell %}
+{% cell %}
+No
+{% /cell %}
+{% /row %}
 {% /table %}
 
 ## Notes and limitations

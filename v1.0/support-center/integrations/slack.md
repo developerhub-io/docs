@@ -12,8 +12,7 @@ tags:
 
 All users can integrate %product% with Slack to keep the team up-to-date, and to make it easier to search your documentation directly from Slack.
 
-{% image url="https://image-archive.developerhub.io/image/upload/-1/xfknb3rnlegcsojsiomh/1555452122.png" mode="set" height="144.9296875" width="354" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/mr45r0diindk5sdxjz6pddpdh52f4pqm1reyno86rm3cp2bw0k2bfru4pxq6ld14.png" width=354 /%}
 
 ## What does the Integration do?
 
@@ -29,15 +28,13 @@ Real time notifications post directly into a Slack channel you select, including
 
 It also sends an hourly notification when new [feedback](/support-center/feedback) is received.
 
-{% image url="asset:snqb6q6fvror" mode="responsive" height="1000" width="1600" %}
-{% /image %}
+{% image url="asset:snqb6q6fvror" /%}
 
 ### Search your Docs from Slack with /developerhub
 
 Use the `/developerhub` slash command to search your docs directly from Slack. This is especially helpful for support agents and internal teams who need quick answers without leaving Slack.
 
-{% image url="asset:5chh6dfkhhzu" mode="responsive" height="1000" width="1600" %}
-{% /image %}
+{% image url="asset:5chh6dfkhhzu" /%}
 
 ## Setting up Slack
 

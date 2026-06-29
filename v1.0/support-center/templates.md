@@ -12,8 +12,7 @@ tags:
 
 If you find yourself writing pages with the same format and structure, then you can use Templates to simplify your experience.
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_1/icwrscqph0zx0adj4x0n/1633641714.jpg" mode="responsive" height="806" width="1136" %}
-{% /image %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/icwrscqph0zx0adj4x0n/1633641714.jpg" /%}
 
 By using Templates, you can make an already existing page into a template, so the same format and structure can be applied on new pages.
 
@@ -49,20 +48,19 @@ If you are usually building pages from templates, you might want to use a templa
 To do this, use such a link:
 
 {% code %}
-{% tab language="none" %}
+```none
 https://app.developerhub.io/{project_slug}/{version_slug}/{documentation_slug}/new?create_from_template_id={template_id}
 
 ## Example from this documentation
 https://app.developerhub.io/developerhub.io/v1.0/support-center/new?create_from_template_id=10
-{% /tab %}
+```
 {% /code %}
 
 Note that all parts of the link before `?` are the exact same as any page link you have open in the editor. If you just load up the desired documentation in the editor, copy the link and add the query, that would be a template link.
 
 Where `template_id` can be found when you are selecting a template at the top right corner:
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_1/yjceftaraiarngmp3ztm/1637613403.png" mode="responsive" height="578" width="1044" %}
-{% /image %}
+{% image url="https://image-archive.developerhub.io/image/upload/v2_1/yjceftaraiarngmp3ztm/1637613403.png" /%}
 
 ## Known Limitations
 

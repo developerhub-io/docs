@@ -13,7 +13,7 @@ tags:
 Custom HEAD tag:
 
 {% code %}
-{% tab language="html" %}
+```html
 <script src="https://www.powr.io/powr.js?platform=<<platform>>"></script>
 <script>
   window.powrform = null;
@@ -29,5 +29,5 @@ Custom HEAD tag:
     window.powrform = form;
   });
 </script>
-{% /tab %}
+```
 {% /code %}

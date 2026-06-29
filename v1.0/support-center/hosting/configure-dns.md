@@ -16,19 +16,38 @@ You only need to configure your DNS if you have a custom domain registered with 
 
 ## What happens when you configure Custom Domain?
 
-After completing these steps, you should be able to access your %product% documentation through the custom domain your setup. For example, if the setup custom domain is `box.hooli.com` then your documentation will be accessible from there for your readers. 
+After completing these steps, you should be able to access your %product% documentation through the custom domain your setup. For example, if the setup custom domain is `box.hooli.com` then your documentation will be accessible from there for your readers.
 
 ## How to configure DNS?
 
 You need access to your DNS configuration. If you are not sure who might have access, then it is most likely it is your IT Admin. The only configuration needed is to setup a CNAME record that matches the host `you.developerhub.io` to the custom domain that you set up. To summarise, the DNS CNAME record should match:
 
-{% table %}
-| Name | Type | Value | 
-| ---- | ---- | ---- | 
-| The custom domain you set\n\ne.g. `developers.xyz.com` | `CNAME` | `you.developerhub.io` | 
+{% table layout="auto" %}
+{% row %}
+{% cell header=true %}
+Name
+{% /cell %}
+{% cell header=true %}
+Type
+{% /cell %}
+{% cell header=true %}
+Value
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+The custom domain you set e.g. `developers.xyz.com`
+{% /cell %}
+{% cell %}
+`CNAME`
+{% /cell %}
+{% cell %}
+`you.developerhub.io`
+{% /cell %}
+{% /row %}
 {% /table %}
 
-{% callout type="info" title="Info" %}
+{% callout title="Info" %}
 DNS configuration might take a few minutes up to a few hours, depending on your DNS provider, to be effective.
 {% /callout %}
 

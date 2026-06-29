@@ -54,7 +54,7 @@ Yes, all the published pages are optimised for mobile viewing. The editor has on
 
 ## Can I change how it looks?
 
-Every bit and piece can be changed. We provide [many built-in options](/support-center/customising-visuals) to make it easy for you to change logos, colours, navigation, font and layout. You can also provide your own [Custom Landing Page](/support-center/custom-landing-page), [auto$](/support-center/custom-css), [auto$](/support-center/custom-javascript) and [auto$](/support-center/custom-footer).
+Every bit and piece can be changed. We provide [many built-in options](/support-center/customising-visuals) to make it easy for you to change logos, colours, navigation, font and layout. You can also provide your own [Custom Landing Page](/support-center/custom-landing-page), [Custom CSS](/support-center/custom-css), [Custom HEAD Tags](/support-center/custom-javascript) and [Custom Footer](/support-center/custom-footer).
 
 ## Would search engines index the pages?
 
@@ -78,15 +78,15 @@ We have native support for [images](/support-center/images) uploads. For videos,
 
 ## Can we sync the docs with a GIT repo?
 
-Yes, check [auto$](/support-center/github-sync) which allows you to set up two-way sync between GitHub and %product%.
+Yes, check [GitHub Sync](/support-center/github-sync) which allows you to set up two-way sync between GitHub and %product%.
 
 ## Do you support GraphQL docs?
 
-Yes. Check [auto$](/support-center/graphql) where you can embed it in a [auto$](/support-center/custom-html) block or in an entire [landing page](/support-center/landing-page).
+Yes. Check [GraphQL](/support-center/graphql) where you can embed it in a [Custom HTML](/support-center/custom-html) block or in an entire [landing page](/support-center/landing-page).
 
 ## Do you support ChatGPT chat-like experience for search?
 
-Yes, check [auto$](/support-center/ai-search).
+Yes, check [AI Assistant](/support-center/ai-search).
 
 ## Do you support AsyncAPI references?
 

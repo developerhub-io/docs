@@ -14,19 +14,57 @@ tags: blocks
 
 To create a table:
 
-{% synced id="open-block-menu" %}
-{% /synced %}
+{% synced id="open-block-menu" /%}
 
 - Select Table {% icon classes="fas fa-table" /%}
 
 ### Table Example
 
-{% table %}
-| Parameter | Type | Default Value | 
-| ---- | ---- | ---- | 
-| user_id | int | Auto generated | 
-| user_name | string | John Doe | 
-| user_age | int | 25 | 
+{% table layout="auto" %}
+{% row %}
+{% cell header=true %}
+Parameter
+{% /cell %}
+{% cell header=true %}
+Type
+{% /cell %}
+{% cell header=true %}
+Default Value
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+user\_id
+{% /cell %}
+{% cell %}
+int
+{% /cell %}
+{% cell %}
+Auto generated
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+user\_name
+{% /cell %}
+{% cell %}
+string
+{% /cell %}
+{% cell %}
+John Doe
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+user\_age
+{% /cell %}
+{% cell %}
+int
+{% /cell %}
+{% cell %}
+25
+{% /cell %}
+{% /row %}
 {% /table %}
 
 ## Table Options
@@ -62,7 +100,7 @@ If you set a fixed size for a column, then it is best to make sure that it works
 
 If a table has a fixed size column, then on [exporting](/support-center/exporting-documentation) the documentation, it will not be in markdown format as markdown does not support fixed column widths notation.
 
-## Copying & Pasting
+## Copying \& Pasting
 
 To copy an entire table, select the table entirely. To make sure you're doing that right, select the line above it and below it then copy. You may then paste it where you need and remove the extra lines.
 

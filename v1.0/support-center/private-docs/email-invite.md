@@ -12,8 +12,7 @@ tags:
 
 With Magic Links, your private project can only be accessed by those whom you invite.
 
-{% image url="https://uploads.developerhub.io/prod/02/dbxagnkoxv0fytzpry413esklxm3mtb8pa43c9ykfp72q6djna5pcaqxh1k92exf.png" mode="responsive" height="603" width="949" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/dbxagnkoxv0fytzpry413esklxm3mtb8pa43c9ykfp72q6djna5pcaqxh1k92exf.png" /%}
 
 ## How do Magic Links work?
 
@@ -35,13 +34,13 @@ To invite readers:
 
 1. First, ensure that the project is protected by Email Invite.
 2. Open Project Settings → **Access**.
-3. In the Sharing & invites card, click **View readers**.
+3. In the Sharing \& invites card, click **View readers**.
 4. Input the reader's e-mail address and expiry, if any.
 5. Click Grant Access.
 
 Once you click Grant Access, an e-mail message with be sent out to the e-mail address containing the magic link for access.
 
-{% callout type="info" title="If the invitation e-mail doesn't arrive" %}
+{% callout title="If the invitation e-mail doesn't arrive" %}
 Some corporate e-mail security tools quarantine or pre-scan messages, which can prevent the invitation from reaching the reader. If that happens, copy the reader's invitation link directly from the readers list and share it with them through another channel.
 {% /callout %}
 
@@ -50,7 +49,7 @@ Some corporate e-mail security tools quarantine or pre-scan messages, which can 
 To revoke reader access:
 
 1. Open Project Settings → **Access**.
-2. In the Sharing & invites card, click **View readers**.
+2. In the Sharing \& invites card, click **View readers**.
 3. Find the reader whose access is to be revoked, then click on the {% icon classes="fas fa-times red-text" /%} next to it.
 
 The reader will no longer be able to access the docs, or to request a magic link.

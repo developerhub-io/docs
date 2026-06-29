@@ -12,12 +12,11 @@ tags: customisation
 
 %product% supports the following customisations: [UI](/support-center/customising-visuals#changing-ui) , [CSS](/support-center/custom-css), [Footer](/support-center/custom-footer), [theme (dark mode)](/support-center/theme), [code theme](/support-center/code-theme), logos, header colour, link colour, font and navigation links.
 
-{% image url="https://image-archive.developerhub.io/image/upload/31/nh5qwt0x9vkkbolafw1z/1534309237.png" mode="set" height="546" width="276" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/4xxcn5idwk0zimsk1iyxiw10mvrusone25kd7etmqf0irl8b9yx0phjwnyzcz8fw.png" width=276 /%}
 
 ## Custom CSS and Footer
 
-Check [Custom CSS](/support-center/custom-css), and [auto$](/support-center/custom-footer) pages.
+Check [Custom CSS](/support-center/custom-css), and [Custom Footer](/support-center/custom-footer) pages.
 
 ## Changing Logo
 
@@ -29,7 +28,7 @@ To change the logo:
 
 You can also change [the URL](/support-center/customising-visuals#adding-links--home-button) which is navigated to when the logo is clicked on.
 
-{% callout type="info" title="Logo" %}
+{% callout title="Logo" %}
 It is best to have a wide logo with transparent background.
 {% /callout %}
 
@@ -39,7 +38,7 @@ To change the website icon (favicon):
 2. In the Brand assets card, click **Change** next to Favicon.
 3. Choose the new favicon.
 
-{% callout type="info" title="Favicon" %}
+{% callout title="Favicon" %}
 We automatically rescale your favicon if it was too big. Note that the favicon only shows on live mode, and not in the editing mode.
 {% /callout %}
 
@@ -55,15 +54,13 @@ Logo and favicon are saved automatically on change without prompt.
 
 Original UI is the first UI of %product%, notable for its hovering search bar. The different sections and version are hidden behind dropdown, and the index has coloured categories.
 
-{% image url="https://uploads.developerhub.io/prod/02/1i99io8bxcrui9rkvtdpxgnnop4h4umjxi03lb6l4ujz27znuulsxbdrmkcr7g0v.png" mode="responsive" height="1434" width="2454" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/1i99io8bxcrui9rkvtdpxgnnop4h4umjxi03lb6l4ujz27znuulsxbdrmkcr7g0v.png" /%}
 
 ### Next UI
 
 Next UI is the new UI. Next UI features a sleek design where different sections are visible in the top navigation, and a redesigned index with clearer margins and animation. It also providers a better [search experience](/support-center/using-search#next-ui-search).
 
-{% image url="https://uploads.developerhub.io/prod/02/gisilvod2lm55ppsfekwri28qjfpk1deoc98ftqniqtb3juejaflqbidqhcf2ao1.png" mode="responsive" height="1432" width="2456" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/gisilvod2lm55ppsfekwri28qjfpk1deoc98ftqniqtb3juejaflqbidqhcf2ao1.png" /%}
 
 To change the UI:
 
@@ -71,7 +68,7 @@ To change the UI:
 2. In the Customisation card, choose which UI to use.
 3. Click **Save changes** in the top menu.
 
-{% callout type="info" title="Navigation bar sections" %}
+{% callout title="Navigation bar sections" %}
 In Next UI, the different sections are laid out in the top navigation bar. In mobile layout, they would collapse into a section picker dropdown.
 {% /callout %}
 
@@ -80,14 +77,13 @@ In Next UI, the different sections are laid out in the top navigation bar. In mo
 The header, link and navigation colours are modifiable. To change the colours:
 
 1. Open Project Settings → **Customisation**.
-2. In the Colour & typography card, click the swatch next to the colour you want to change.
+2. In the Colour \& typography card, click the swatch next to the colour you want to change.
 3. Pick the desired colour. We will warn you if the colour is not contrasting enough. The change previews live in the embedded reader preview at the top of the pane.
 4. Click **Save changes** in the top menu.
 
-{% image url="https://uploads.developerhub.io/prod/02/t5tfi5ko1eerfgdi92b3qkk5m6mnshfaktg43nvnfudtlhvr8hvji926ke7hvscs.png" mode="set" height="1172" width="372" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/t5tfi5ko1eerfgdi92b3qkk5m6mnshfaktg43nvnfudtlhvr8hvji926ke7hvscs.png" width=372 /%}
 
-{% callout type="info" title="Link Colour" %}
+{% callout title="Link Colour" %}
 Make sure to set the link colour distinct from the font colour. This is usually your secondary brand colour. The text in your pages is almost black in light theme (white in dark theme), so you need a colourful link for it to be distinguished.
 {% /callout %}
 
@@ -96,14 +92,13 @@ Make sure to set the link colour distinct from the font colour. This is usually 
 To change the font of the entire project:
 
 1. Open Project Settings → **Customisation**.
-2. In the Colour & typography card, click the Font row.
+2. In the Colour \& typography card, click the Font row.
 3. Choose from the list of Google Fonts available. The font is previewed immediately in the current documentation and the embedded reader preview at the top of the pane.
 4. Click **Save changes** in the top menu.
 
-{% image url="https://image-archive.developerhub.io/image/upload/31/ieksywzrtjepcuiodwax/1540594232.png" mode="responsive" height="718" width="1320" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/a42me6zj2gppl815wkrthfxrbbk56pfb6k3s7jk9h0zqmi8e7xbhhqm4395lqcb3.png" /%}
 
-{% callout type="info" title="Paid Plan" %}
+{% callout title="Paid Plan" %}
 Changing font is only a paid plan feature
 {% /callout %}
 

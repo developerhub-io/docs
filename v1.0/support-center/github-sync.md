@@ -10,8 +10,7 @@ keywords:
 tags: 
 ---
 
-{% synced id="beta-feature" %}
-{% /synced %}
+{% synced id="beta-feature" /%}
 
 With %product% you can have two-way sync set up with GitHub. This enables you to:-
 
@@ -19,12 +18,11 @@ With %product% you can have two-way sync set up with GitHub. This enables you to
 - Update your docs in GitHub if your team prefers using their local text editors to write docs, which would reflect to %product% on push.
 - Enable readers to edit the docs from GitHub and even use GitHub's comment system.
 - Do some fancy GitHub stuff:
-    - Set up a pull request review system.
-    - Keep drafted docs in a branch.
-    - Use GitHub actions to modify or lint docs before pushing.
+  - Set up a pull request review system.
+  - Keep drafted docs in a branch.
+  - Use GitHub actions to modify or lint docs before pushing.
 
-{% image url="https://uploads.developerhub.io/prod/02/5s6oz6b4qimfnm8uotra4tb1jzfn44wbrph802xb406g2q9e79lh4xaulqpbpe2p.jpg" mode="responsive" height="1200" width="2221" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/5s6oz6b4qimfnm8uotra4tb1jzfn44wbrph802xb406g2q9e79lh4xaulqpbpe2p.jpg" /%}
 
 ## Setting up GitHub Sync
 
@@ -35,7 +33,7 @@ The set up is needed from both GitHub side and %product% side. Follow the steps:
 - Click **Connect** next to GitHub.
 - Complete the authorisation on GitHub and give access to the repositories with which you wish to sync.
 
-{% callout type="info" title="Multiple Projects" %}
+{% callout title="Multiple Projects" %}
 If you have multiple projects, choose all the repositories to sync with.
 {% /callout %}
 
@@ -48,7 +46,7 @@ If you have multiple projects, choose all the repositories to sync with.
 
 On clicking Save, the initial sync process would start where all the files would be synced from %product% to GitHub. This could take minutes.
 
-{% callout type="info" title="Info" %}
+{% callout title="Info" %}
 Initial sync occurs only from %product% to GitHub. No files from GitHub would be synced to %product% at this point.
 {% /callout %}
 
@@ -75,7 +73,7 @@ Exactly, files would be synced to GitHub whenever a:
 
 Whenever a file is created or updated on GitHub, the corresponding contents or settings would be updated on %product%.
 
-{% callout type="info" title="Sync Error Notifications" %}
+{% callout title="Sync Error Notifications" %}
 If an error occurs while syncing changes from GitHub to %product%, we will send an email notification to the email address of the user who pushed the commit.
 {% /callout %}
 
@@ -91,17 +89,17 @@ The files synced on GitHub are of two types:
 In the repository the files would be structured (from the basepath) as such:
 
 - Folder for each version having the version slug as its name.
-    - `settings.yaml` file containing the version settings.
-    - Folder for each documentation section having the documentation slug as its name.
-        - `settings.yaml` file containing the documentation settings.
-        - File for each parent page having the page slug as its name with a `md` extension.
-        - Folder for each parent page that has child pages, having the page slug as its name.
-            - File for each child page having the page slug as its name with a `md` extension.
+  - `settings.yaml` file containing the version settings.
+  - Folder for each documentation section having the documentation slug as its name.
+    - `settings.yaml` file containing the documentation settings.
+    - File for each parent page having the page slug as its name with a `md` extension.
+    - Folder for each parent page that has child pages, having the page slug as its name.
+      - File for each child page having the page slug as its name with a `md` extension.
 
 For example:
 
 {% code %}
-{% tab language="none" %}
+```none
 .
 ├── README.md
 ├── v1.0
@@ -129,7 +127,7 @@ For example:
         │   └── using-custom-domain.md
         ├── hosting.md
         └── writing-documentation.md
-{% /tab %}
+```
 {% /code %}
 
 ## GitHub Sync in Beta

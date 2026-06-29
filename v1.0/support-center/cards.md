@@ -14,8 +14,7 @@ Cards are a great way to highlight main points and provide links to them.
 
 To create a card layout:
 
-{% synced id="open-block-menu" %}
-{% /synced %}
+{% synced id="open-block-menu" /%}
 
 - Select Cards.
 
@@ -29,28 +28,16 @@ Each card has a title, text and link which can be set up by clicking the {% icon
 
 Grid layout:
 
-{% cards view="grid" %}
-{% card title="Synced Blocks" link="/support-center/synced-blocks" %}
-Single-sourcing tool to write content once and use it multiple times
-{% /card %}
-{% card title="Tabs" link="/support-center/tabs" %}
-Split content into multiple tabs for ease of reading
-{% /card %}
-{% card title="Custom HTML" link="/support-center/custom-html" %}
-Add anything to the page. Anything at all!
-{% /card %}
+{% cards %}
+{% card title="Synced Blocks" text="Single-sourcing tool to write content once and use it multiple times" link="/support-center/synced-blocks" /%}
+{% card title="Tabs" text="Split content into multiple tabs for ease of reading" link="/support-center/tabs" /%}
+{% card title="Custom HTML" text="Add anything to the page. Anything at all!" link="/support-center/custom-html" /%}
 {% /cards %}
 
 List layout:
 
 {% cards view="list" %}
-{% card title="Synced Blocks" link="/support-center/synced-blocks" %}
-Single-sourcing tool to write content once and use it multiple times
-{% /card %}
-{% card title="Tabs" link="/support-center/tabs" %}
-Split content into multiple tabs for ease of reading
-{% /card %}
-{% card title="Custom HTML" link="/support-center/custom-html" %}
-Add anything to the page. Anything at all!
-{% /card %}
+{% card title="Synced Blocks" text="Single-sourcing tool to write content once and use it multiple times" link="/support-center/synced-blocks" /%}
+{% card title="Tabs" text="Split content into multiple tabs for ease of reading" link="/support-center/tabs" /%}
+{% card title="Custom HTML" text="Add anything to the page. Anything at all!" link="/support-center/custom-html" /%}
 {% /cards %}

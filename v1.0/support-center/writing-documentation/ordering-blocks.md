@@ -18,7 +18,7 @@ Drag and drop any block from the {% icon classes="fas fa-arrows-alt" /%} icon at
 
 ## Copying Blocks
 
-Blocks can be duplicated inside the same page by clicking the duplicate icon at the top right side of the block. 
+Blocks can be duplicated inside the same page by clicking the duplicate icon at the top right side of the block.
 
 To copy a block to another page, you can either highlight it using a text selection or simply triple-click on the block. Once selected, copy the block and then paste it into your desired destination.
 

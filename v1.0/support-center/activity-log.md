@@ -47,9 +47,9 @@ Enterprise users can query full audit log for any activity in the past 6 months 
 Example of how to query full audit log is as such:
 
 {% code %}
-{% tab language="bash" title="cURL" %}
+```bash {% title="cURL" %}
 curl --request GET \
  --header "X-Api-Key: 689bbce8acc68b7a4346acca6a028e6f8126eb792b19a334f8e3f2a12ca8f561"
  --url https://api.developerhub.io/api/v1/audit?max_date=2021-01-19T21:08:44%2B0000
-{% /tab %}
+```
 {% /code %}

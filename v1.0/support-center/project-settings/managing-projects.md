@@ -12,7 +12,7 @@ tags:
 
 ## Adding New Project
 
-If you wish to create another project, with an _entirely_ different subdomain/custom domain, visuals and integrations:
+If you wish to create another project, with an *entirely* different subdomain/custom domain, visuals and integrations:
 
 - In the editor top navigation, click on the project menu.
 - Choose **Create new project**.
@@ -20,7 +20,7 @@ If you wish to create another project, with an _entirely_ different subdomain/cu
 - (Optional) Tick **Copy settings** to reuse most settings from the current project.
 - Click **Create**.
 
-{% callout type="info" title="Copy Settings" %}
+{% callout title="Copy Settings" %}
 **Copy settings** copies most settings from the current project into the new project, except **security** and **hosting** settings.
 {% /callout %}
 

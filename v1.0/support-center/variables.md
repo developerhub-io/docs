@@ -12,15 +12,14 @@ tags: inline-blocks
 
 Project Variables help you label parts of your documentation that are repetitive, to be able to change them centrally in one place. It also allows you to [personalise](/support-center/personalised-docs) the documentation for your readers.
 
-{% image url="https://image-archive.developerhub.io/image/upload/20816/ivlyuncbuan72p02gv9m/1570989659.png" mode="600" height="1360" width="1600" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/p0i6rq7dvsyh7thtvekkrd3cczz3exiolk81z7vq4f9wsvyjbnl8hol1mu3nshyj.png" width=600 /%}
 
 For example, you might want all of API reference to use the latest version in their example requests. Without variables, you would need to upload a new reference containing changes to each example request every time you update the version.
 
 One of the example requests might look as such:
 
 {% code %}
-{% tab language="javascript" %}
+```javascript
 var options = {
  "method": "GET",
  "url": "https://api.your-service.com/user",
@@ -35,7 +34,7 @@ request(options, function (error, response, body) {
 
   console.log(body);
 });
-{% /tab %}
+```
 {% /code %}
 
 With variables, you'll be able to centrally change version value, saving you time and effort.
@@ -66,14 +65,14 @@ To edit project variables, do the following:
 - Enter a JSON object defining all your variables. For example:
 
 {% code %}
-{% tab language="javascript" %}
+```javascript
 {
   "project_name": "Xyz",
   "versions": {
     "latest_version": "1.54.2"
   }
 }
-{% /tab %}
+```
 {% /code %}
 
 ## Using Project Variables in References
@@ -81,24 +80,24 @@ To edit project variables, do the following:
 To use project variables in an API Reference, replace all occurrences of the variable with the variable reference. For example, one definition property could be:
 
 {% code %}
-{% tab language="yaml" %}
+```yaml
 version:
     type: string
     description: Version of the API
     example: "%versions.last_version%"
-{% /tab %}
+```
 {% /code %}
 
 Or to replace a variable named `subdomain` in the Server URL:
 
 {% code %}
-{% tab language="yaml" %}
+```yaml
 servers:
   - url: https://{subdomain}.developerhub.io/api/v1
     variables:
       subdomain:
         default: "%subdomain%"
-{% /tab %}
+```
 {% /code %}
 
 {% callout type="warning" title="Warning" %}
@@ -117,7 +116,7 @@ For the published docs, once the project loads, you'll be able to access the var
 
 ## Personalising Docs
 
-You can use variables to personalise docs. Read more about it in [auto$](/support-center/personalised-docs).
+You can use variables to personalise docs. Read more about it in [Personalised Docs](/support-center/personalised-docs).
 
 ### Known Limitations
 

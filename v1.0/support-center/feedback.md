@@ -10,7 +10,6 @@ keywords:
 tags: 
 ---
 
-
 Gather feedback from your readers right away from the pages.
 
 To ensure that your documentation is of high quality, up-to-date, and brings the needed information to your readers, then gathering feedback from your readers is of high importance. %product% brings feedback to your readers on the pages, and crunches the data out for you in the dashboard, so you can iterate on the docs and have happier readers.
@@ -19,25 +18,21 @@ To ensure that your documentation is of high quality, up-to-date, and brings the
 
 When enabled, a question at the bottom of each page would show asking if the page was helpful. The reader may respond with a {% icon classes="far fa-thumbs-up" /%} Yes or a {% icon classes="far fa-thumbs-down" /%} No, which may be followed by a prompt to add a message to explain their feedback.
 
-{% image url="https://uploads.developerhub.io/prod/02/lhwyo20idla00kvv95t8mpp1cumiqm812b4dethxxfw5tcssdsdy7vcdejdc9q5r.jpg" caption="Feedback prompt" mode="responsive" height="504" width="1016" %}
+{% image url="https://uploads.developerhub.io/prod/02/lhwyo20idla00kvv95t8mpp1cumiqm812b4dethxxfw5tcssdsdy7vcdejdc9q5r.jpg" %}
+Feedback prompt
 {% /image %}
-
 
 ## Where can I find the received Feedback?
 
 Feedback can be observed on two levels: Page and project. When a page is liked or disliked, you can view the average sentiment of the page on the right sidebar. You can also see the sentiment log over time, as well as the messages that you received for that page. You may mark the message as read.
 
-{% image url="https://uploads.developerhub.io/prod/02/pqyxyj5sulsiu38nw1tjox2uc1pqenzulwknbf7lwmi9z0zavsd677wg761b8tht.jpg" caption="" mode="responsive" height="676" width="783" %}
-{% /image %}
-
+{% image url="https://uploads.developerhub.io/prod/02/pqyxyj5sulsiu38nw1tjox2uc1pqenzulwknbf7lwmi9z0zavsd677wg761b8tht.jpg" /%}
 
 Also, in the [dashboard](/support-center/dashboard), you are also able to see the sentiment for the project against time, as well as all the unread messages. Furthermore, you will find in the dashboard a list of the most liked pages as well as the least liked pages. You can use this information to apply the good documentation style applied in most likes pages into the least liked pages, and analyse the messages to learn how to make the pages better.
 
 You can also download feedback as a CSV from the dashboard, using the download option next to **Feedback Inbox**.
 
-{% image url="https://uploads.developerhub.io/prod/02/q88g4uahc2r78jo8vfh97i1ain9iyjbr9u8ick8mollzkv6yk5ejlr0bawv1ftw7.jpg" caption="" mode="responsive" height="969" width="993" %}
-{% /image %}
-
+{% image url="https://uploads.developerhub.io/prod/02/q88g4uahc2r78jo8vfh97i1ain9iyjbr9u8ick8mollzkv6yk5ejlr0bawv1ftw7.jpg" /%}
 
 Feedback can be marked as spam by anyone on the team. Feedback marked as spam would be minimised in the feedback dashboard. Spam feedback would not show up under the feedback sidebar of a page. Spam feedback does not count into any statistics nor would they be sent through our notification channels. You could also use [an automatic spam filter](/support-center/feedback#feedback-spam-filter).
 
@@ -47,9 +42,7 @@ If you have a [Slack](/support-center/slack) channel connected to your project, 
 
 We send out the notifications every hour.
 
-{% image url="https://uploads.developerhub.io/prod/02/cn96bd4vaieoxy5028szjxkgg0plurf2ldlze1h0gs2xow1bsprmx0iqpe18t2ax.jpg" caption="" mode="responsive" height="200" width="391" %}
-{% /image %}
-
+{% image url="https://uploads.developerhub.io/prod/02/cn96bd4vaieoxy5028szjxkgg0plurf2ldlze1h0gs2xow1bsprmx0iqpe18t2ax.jpg" /%}
 
 ## Feedback Spam Filter
 
@@ -62,7 +55,7 @@ When the setting is enabled, any new feedback that contains a message would be s
 Feedback controls can also be shown or disabled according to the referrer site (the site from which the reader has visited the docs). This can be useful if readers are mistaking your site for the support site of your own B2B customer. As an example, feedback controls can disabled according to referrer by adding the following [Custom JS](/support-center/custom-javascript) :
 
 {% code %}
-{% tab language="html" %}
+```html
 <script>
   var referrer = document.referrer;
   if (!referrer) {
@@ -80,9 +73,8 @@ Feedback controls can also be shown or disabled according to the referrer site (
     }
   });
 </script>
-{% /tab %}
+```
 {% /code %}
-
 
 The same can be done to set up a referrer deny list.
 

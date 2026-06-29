@@ -15,7 +15,7 @@ To log out readers, a `logout` function can be called on the `window` object.
 For example, if you wish to allow the readers to log out themselves from a secure session, a logout button can be added to the top right corner next to the navigation links. Add the following [Custom JS](/support-center/custom-javascript):
 
 {% code %}
-{% tab language="html" %}
+```html
 <script>
   document.addEventListener('onprojectloaded', function () {
     var logoutBtn = document.createElement('DIV');
@@ -28,5 +28,5 @@ For example, if you wish to allow the readers to log out themselves from a secur
     document.querySelector('.links-container').appendChild(logoutBtn);
   });
 </script>
-{% /tab %}
+```
 {% /code %}

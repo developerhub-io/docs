@@ -34,18 +34,18 @@ We use CodeMirror for rendering and formatting our [code blocks](/support-center
 To change the code theme, you will need to import the theme stylesheet and also provide a [setting](/support-center/advanced-settings) that specifies which theme to use. This ensures that your selected theme is applied correctly within the application.
 
 - First, find a CDN providing the stylesheet of the theme for maximum performance. [cdnjs](https://cdnjs.com/libraries/codemirror) is an example.
-- Import the theme stylesheet by add such a style tag using [auto$](/support-center/custom-javascript):
+- Import the theme stylesheet by add such a style tag using [Custom HEAD Tags](/support-center/custom-javascript):
 
 {% code %}
-{% tab language="css" %}
+```css
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.60.0/theme/ambiance.min.css">
-{% /tab %}
+```
 {% /code %}
 
 - Apply the theme settings also by adding a script to your HEAD tags:
 
 {% code %}
-{% tab language="html" %}
+```html
 <script>
     window.settings.apply({
       code: {
@@ -54,10 +54,10 @@ To change the code theme, you will need to import the theme stylesheet and also 
       }
     });  
 </script>
-{% /tab %}
+```
 {% /code %}
 
-{% callout type="info" title="Note" %}
+{% callout title="Note" %}
 Changes will only show in live mode
 {% /callout %}
 

@@ -16,7 +16,7 @@ tags:
 </div>
 {% /html %}
 
-Welcome %user.name% to our _Supercharged_ documentation which has been written using %product%.
+Welcome %user.name% to our *Supercharged* documentation which has been written using %product%.
 
 Learn how to use %product% in our step-by-step guide:
 
@@ -32,13 +32,13 @@ Learn how to use %product% in our step-by-step guide:
 
 ## What is %product%?
 
-%product% is a documentation tool to build online documentation. With %product% you can write product & user guides, developer hubs/portals, knowledge bases and support centres. %product% is the only product on the market that has an advanced editor and native support for OpenAPI specs.
+%product% is a documentation tool to build online documentation. With %product% you can write product \& user guides, developer hubs/portals, knowledge bases and support centres. %product% is the only product on the market that has an advanced editor and native support for OpenAPI specs.
 
 Using %product% all you have to do is to write your content. No coding, no designing, no managing infrastructure or hiring a software team.
 
 ## Why should I use %product%?
 
-%product% provides you with the simplest way ever to have your documentation written. But don't take our word for it, try it out. Everything you need to do on %product% is literally a click away from you. %product% decreases the time needed by your team to have a functional documentation up and running, allowing them to focus on the most important part: _Writing the perfect documentation_.
+%product% provides you with the simplest way ever to have your documentation written. But don't take our word for it, try it out. Everything you need to do on %product% is literally a click away from you. %product% decreases the time needed by your team to have a functional documentation up and running, allowing them to focus on the most important part: *Writing the perfect documentation*.
 
 %product% is the only platform that you, your techie and non-techie writers, as well as your readers will love 💛 That is because:
 
@@ -47,7 +47,7 @@ Using %product% all you have to do is to write your content. No coding, no desig
 - Styling your content cannot be any easier. Whether your writers are tech people or not, they can format the content using a [toolbar](/support-center/formatting-text), [keyboard shortcuts](/support-center/keyboard-shortcuts), or using [Markdown](/support-center/using-markdown) syntax on the fly 👩‍💻
 - Sync your docs with [GitHub](/support-center/github-sync) so everyone can use their local favourite tools to write documentation.
 - You can set up a review process with powerful [user permissions](/support-center/collaboration), page [comments](/support-center/comments), [drafting](/support-center/draft-mode) and publishing capabilities.
-- [AI-Powered](/support-center/ai-features) with [auto$](/support-center/ai-writer), [auto$](/support-center/ai-search), [META descriptions generator](/support-center/ai-summarisation) and more {% icon classes="fas fa-robot" /%}
+- [AI-Powered](/support-center/ai-features) with [AI Writer](/support-center/ai-writer), [AI Assistant](/support-center/ai-search), [META descriptions generator](/support-center/ai-summarisation) and more {% icon classes="fas fa-robot" /%}
 - [Analytics](/support-center/google-analytics), [search](/support-center/using-search), [reviews](/support-center/comments), [search analytics](/support-center/search-analytics), [SEO](/support-center/seo), [link checking](/support-center/page-linking#listing-broken-links), [glossary](/support-center/glossary) and [feedback](/support-center/feedback) are all built in (seriously) 🚀
 - You can [host](/support-center/hosting) on your [custom domain](/support-center/using-custom-domain), on [your existing website](/support-center/hosting#hosting-under-an-existing-website), or on a [subdomain](/support-center/hosting#hosting-under-product-subdomain) of ours 🔗
 - We have native support for [OpenAPI 2 and 3](/support-center/api-references), with an API editor and API playground built-in, so your users can test your APIs right away and you can bring your API References close to your user guides 🗂
@@ -56,34 +56,16 @@ Using %product% all you have to do is to write your content. No coding, no desig
 
 Explore more below:
 
-{% cards view="grid" %}
-{% card title="First Steps" link="/support-center/first-steps" %}
-Signing up
-{% /card %}
-{% card title="Formatting Text" link="/support-center/formatting-text" %}
-All formatting options
-{% /card %}
-{% card title="Blocks" link="/support-center/blocks" %}
-Rich native elements
-{% /card %}
-{% card title="Hosting" link="/support-center/hosting" %}
-Options for hosting the docs
-{% /card %}
-{% card title="Customisation" link="/support-center/customising-visuals" %}
-Logo, font, colours, CSS
-{% /card %}
-{% card title="API References" link="/support-center/api-references" %}
-OpenAPI viewer and editor, with API playground
-{% /card %}
-{% card title="Importing Documentation" link="/support-center/importing-documentation" %}
-Migrating docs
-{% /card %}
-{% card title="AI Features" link="/support-center/ai-features" %}
-AI writer, AI search...
-{% /card %}
-{% card title="Conditional Content" link="/support-center/conditional-content" %}
-Restrict content to specific audiences
-{% /card %}
+{% cards %}
+{% card title="First Steps" text="Signing up" link="/support-center/first-steps" /%}
+{% card title="Formatting Text" text="All formatting options" link="/support-center/formatting-text" /%}
+{% card title="Blocks" text="Rich native elements" link="/support-center/blocks" /%}
+{% card title="Hosting" text="Options for hosting the docs" link="/support-center/hosting" /%}
+{% card title="Customisation" text="Logo, font, colours, CSS" link="/support-center/customising-visuals" /%}
+{% card title="API References" text="OpenAPI viewer and editor, with API playground" link="/support-center/api-references" /%}
+{% card title="Importing Documentation" text="Migrating docs" link="/support-center/importing-documentation" /%}
+{% card title="AI Features" text="AI writer, AI search..." link="/support-center/ai-features" /%}
+{% card title="Conditional Content" text="Restrict content to specific audiences" link="/support-center/conditional-content" /%}
 {% /cards %}
 
 ---

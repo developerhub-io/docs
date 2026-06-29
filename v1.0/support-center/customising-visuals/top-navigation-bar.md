@@ -24,8 +24,7 @@ By default, the top navigation hosts a list of tabs. Starting with the Home tab 
 
 The navigation structure can be further customised to feature navigation groups; a way for multiple documentation sections and API references to be grouped together under a dropdown.
 
-{% video videoId="https://uploads.developerhub.io/prod/02/nrz4mx3xlcly8g3w4amahs5n7a68nudf2ln5h4jaibjnilq6qhu89y3zseojqeu3.mp4?controls=0&autoplay=1&loop=1&muted=1&playsinline=1" provider="raw" %}
-{% /video %}
+{% video provider="raw" videoId="https://uploads.developerhub.io/prod/02/nrz4mx3xlcly8g3w4amahs5n7a68nudf2ln5h4jaibjnilq6qhu89y3zseojqeu3.mp4?controls=0&autoplay=1&loop=1&muted=1&playsinline=1" /%}
 
 To use navigation groups, first they need to be created. Then, documentation sections and API references can be assigned to navigation groups.
 
@@ -43,7 +42,7 @@ Now to assign a documentation section or an API reference to the navigation grou
 2. Select the documentation or API reference.
 3. Next to Navigation Group, assign a navigation group.
 
-{% callout type="info" title="Info" %}
+{% callout title="Info" %}
 If a documentation section or an API reference is not assigned to a navigation group, it will show up at the end of the tab list. If you wish for the documentation section or API reference to show up in a different order, create a navigation group and assign the documentation section or API reference to it. If a navigation group only contains one documentation section or API reference, it will show as a link tab, not as a dropdown.
 {% /callout %}
 
@@ -58,7 +57,7 @@ The logo, and four top navigation links can be setup for external linking to ano
 
 The last two links only show in documentations that have wide layout.
 
-{% callout type="info" title="Go Home" %}
+{% callout title="Go Home" %}
 Setting the link to `/` goes to the landing page, or the default page if no landing page is setup.
 {% /callout %}
 

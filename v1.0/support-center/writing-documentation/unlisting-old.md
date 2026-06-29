@@ -12,7 +12,8 @@ tags:
 
 An unlisted page is a page that your readers can not see yet or reach. It can only be edited by your teammates.
 
-{% image url="https://image-archive.developerhub.io/image/upload/18830/kvovikgj0qbgbo4kbvmm/1566173703.png" caption="Unlisted Page" mode="responsive" height="1834" width="2740" %}
+{% image url="https://image-archive.developerhub.io/image/upload/18830/kvovikgj0qbgbo4kbvmm/1566173703.png" %}
+Unlisted Page
 {% /image %}
 
 ## How could a Page get Unlisted?
@@ -40,11 +41,11 @@ To list the page back again:
 If you wish to hide a page from the index, but keep it available for readers if they access it through a URL or a [page link](/support-center/page-linking), then you can do so using [Custom CSS](/support-center/custom-css). Every item in the index has specific CSS classes that help you apply certain CSS rules to it. For example, to hide this page from the index, we can use:
 
 {% code %}
-{% tab language="css" %}
+```css
 .customise.live .node_<page_id> {
   display: none;
 }
-{% /tab %}
+```
 {% /code %}
 
 {% callout type="warning" title="Warning" %}

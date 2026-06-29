@@ -22,7 +22,7 @@ Localize easily translates websites and applications to new languages and stream
 To use Localize with %product%, you need to set up a script using [Custom HEAD Tags](/support-center/custom-javascript) as follows:
 
 {% code %}
-{% tab language="html" %}
+```html
 <script>
   (function(d, script) {
       script = d.createElement('script');
@@ -42,12 +42,12 @@ To use Localize with %product%, you need to set up a script using [Custom HEAD T
       d.getElementsByTagName('head')[0].appendChild(script);
   }(document));
 </script>
-{% /tab %}
+```
 {% /code %}
 
 The two options `rememberLanguage` and `saveNewPhrasesFromSource` are recommended by Localize.
 
-{% callout type="info" title="Info" %}
+{% callout title="Info" %}
 We handle variables in your docs as indicated by Localize.
 {% /callout %}
 

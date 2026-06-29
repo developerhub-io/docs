@@ -59,27 +59,273 @@ We use six commonly recognised readability metrics to assess text complexity. Ea
 
 The table below maps the grade levels and their associated age groups for each readability metric:
 
-{% table widths="" %}
-| **Metric** | **Grade Level** | **Age Group (Years)** | **Meaning** | 
-| ---- | ---- | ---- | ---- | 
-| **Flesch-Kincaid Reading Ease** | 90–100 (4th grade) | 9–10 | Very easy to read (e.g., children's books). | 
-|  | 60–70 (8th–9th grade) | 13–15 | Standard readability (e.g., newspapers). | 
-|  | 0–30 (College) | 18+ | Very difficult, complex texts. | 
-| **Flesch-Kincaid Grade Level** | 4 (4th grade) | 9–10 | Simple texts for young readers. | 
-|  | 8–12 (High school) | 14–18 | Suitable for high school students. | 
-|  | &gt;12 (College) | 18+ | Advanced, academic-level texts. | 
-| **Gunning Fog Index** | 7–8 | 12–14 | Ideal for general audiences. | 
-|  | 10–12 (High school) | 14–18 | Requires more effort to read. | 
-|  | &gt;12 (College) | 18+ | Difficult, technical writing. | 
-| **SMOG Index** | 4–6 | 9–11 | Easy-to-read, suitable for children. | 
-|  | 8–12 (High school) | 14–18 | Moderate difficulty. | 
-|  | &gt;12 (College) | 18+ | Complex, technical texts. | 
-| **Coleman-Liau Index** | 4 (4th grade) | 9–10 | Simple and accessible. | 
-|  | 8–12 (High school) | 14–18 | Challenging for younger audiences. | 
-|  | &gt;12 (College) | 18+ | Requires higher education. | 
-| **Automated Readability Index (ARI)** | 3–6 | 8–11 | Basic readability, suitable for kids. | 
-|  | 8–12 (High school) | 14–18 | Standard for educated adults. | 
-|  | &gt;12 (College) | 18+ | Technical or professional texts. | 
+{% table layout="auto" %}
+{% row %}
+{% cell header=true %}
+**Metric**
+{% /cell %}
+{% cell header=true %}
+**Grade Level**
+{% /cell %}
+{% cell header=true %}
+**Age Group (Years)**
+{% /cell %}
+{% cell header=true %}
+**Meaning**
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+**Flesch-Kincaid Reading Ease**
+{% /cell %}
+{% cell %}
+90–100 (4th grade)
+{% /cell %}
+{% cell %}
+9–10
+{% /cell %}
+{% cell %}
+Very easy to read (e.g., children's books).
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+{% p /%}
+{% /cell %}
+{% cell %}
+60–70 (8th–9th grade)
+{% /cell %}
+{% cell %}
+13–15
+{% /cell %}
+{% cell %}
+Standard readability (e.g., newspapers).
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+{% p /%}
+{% /cell %}
+{% cell %}
+0–30 (College)
+{% /cell %}
+{% cell %}
+18+
+{% /cell %}
+{% cell %}
+Very difficult, complex texts.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+**Flesch-Kincaid Grade Level**
+{% /cell %}
+{% cell %}
+4 (4th grade)
+{% /cell %}
+{% cell %}
+9–10
+{% /cell %}
+{% cell %}
+Simple texts for young readers.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+{% p /%}
+{% /cell %}
+{% cell %}
+8–12 (High school)
+{% /cell %}
+{% cell %}
+14–18
+{% /cell %}
+{% cell %}
+Suitable for high school students.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+{% p /%}
+{% /cell %}
+{% cell %}
+\>12 (College)
+{% /cell %}
+{% cell %}
+18+
+{% /cell %}
+{% cell %}
+Advanced, academic-level texts.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+**Gunning Fog Index**
+{% /cell %}
+{% cell %}
+7–8
+{% /cell %}
+{% cell %}
+12–14
+{% /cell %}
+{% cell %}
+Ideal for general audiences.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+{% p /%}
+{% /cell %}
+{% cell %}
+10–12 (High school)
+{% /cell %}
+{% cell %}
+14–18
+{% /cell %}
+{% cell %}
+Requires more effort to read.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+{% p /%}
+{% /cell %}
+{% cell %}
+\>12 (College)
+{% /cell %}
+{% cell %}
+18+
+{% /cell %}
+{% cell %}
+Difficult, technical writing.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+**SMOG Index**
+{% /cell %}
+{% cell %}
+4–6
+{% /cell %}
+{% cell %}
+9–11
+{% /cell %}
+{% cell %}
+Easy-to-read, suitable for children.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+{% p /%}
+{% /cell %}
+{% cell %}
+8–12 (High school)
+{% /cell %}
+{% cell %}
+14–18
+{% /cell %}
+{% cell %}
+Moderate difficulty.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+{% p /%}
+{% /cell %}
+{% cell %}
+\>12 (College)
+{% /cell %}
+{% cell %}
+18+
+{% /cell %}
+{% cell %}
+Complex, technical texts.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+**Coleman-Liau Index**
+{% /cell %}
+{% cell %}
+4 (4th grade)
+{% /cell %}
+{% cell %}
+9–10
+{% /cell %}
+{% cell %}
+Simple and accessible.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+{% p /%}
+{% /cell %}
+{% cell %}
+8–12 (High school)
+{% /cell %}
+{% cell %}
+14–18
+{% /cell %}
+{% cell %}
+Challenging for younger audiences.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+{% p /%}
+{% /cell %}
+{% cell %}
+\>12 (College)
+{% /cell %}
+{% cell %}
+18+
+{% /cell %}
+{% cell %}
+Requires higher education.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+**Automated Readability Index (ARI)**
+{% /cell %}
+{% cell %}
+3–6
+{% /cell %}
+{% cell %}
+8–11
+{% /cell %}
+{% cell %}
+Basic readability, suitable for kids.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+{% p /%}
+{% /cell %}
+{% cell %}
+8–12 (High school)
+{% /cell %}
+{% cell %}
+14–18
+{% /cell %}
+{% cell %}
+Standard for educated adults.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+{% p /%}
+{% /cell %}
+{% cell %}
+\>12 (College)
+{% /cell %}
+{% cell %}
+18+
+{% /cell %}
+{% cell %}
+Technical or professional texts.
+{% /cell %}
+{% /row %}
 {% /table %}
 
 ## Interpreting Results
@@ -93,7 +339,8 @@ The six metrics provide a comprehensive view of text complexity. Their combined 
 
 Readability metrics are available from the right sidebar.
 
-{% image url="asset:f9lu4pqa4u0w" caption="The Readability panel" mode="responsive" height="574" width="464" %}
+{% image url="asset:f9lu4pqa4u0w" %}
+The Readability panel
 {% /image %}
 
 The average reading level is calculated by averaging all the metrics and its score determines the colour of the readability metrics icon.

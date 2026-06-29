@@ -10,10 +10,9 @@ keywords:
 tags: 
 ---
 
-To add Hubspot Analytics integration to %product%, you must have a [plan](https://developerhub.io/pricing) with [](/support-center/custom-javascript) enabled.
+To add Hubspot Analytics integration to %product%, you must have a [plan](https://developerhub.io/pricing) with [Custom HEAD Tags](/support-center/custom-javascript) enabled.
 
-{% image url="https://image-archive.developerhub.io/image/upload/30375/whcrnufvfv8jrgmhigyn/1590850779.png" mode="300" height="315" width="841" %}
-{% /image %}
+{% image url="https://image-archive.developerhub.io/image/upload/30375/whcrnufvfv8jrgmhigyn/1590850779.png" width=300 /%}
 
 ## Setting up Hubspot Analytics
 
@@ -22,15 +21,15 @@ Follow the steps as provided in [Install the HubSpot tracking code](https://know
 The script should look like:
 
 {% code %}
-{% tab language="markup" title="Embed Code" %}
+```markup {% title="Embed Code" %}
 <script type="text/javascript" id="hs-script-loader" src="//js.hs-scripts.com/{{your-id}}.js"></script>
-{% /tab %}
+```
 {% /code %}
 
 HubSpot Analytics integration is created for traditional websites, while your %product% documentation is built over a single page application. To trigger tracking page views, add the following [Custom HEAD Tag](/support-center/custom-javascript) after the embed code above:
 
 {% code %}
-{% tab language="markup" title="Custom HEAD Tag" %}
+```markup {% title="Custom HEAD Tag" %}
 <script>
 	var trackPage = function(event) {
     var _hsq = window._hsq;
@@ -44,5 +43,5 @@ HubSpot Analytics integration is created for traditional websites, while your %p
 	document.addEventListener('onsectionchange', trackPage);
 	document.addEventListener('onpagechange', trackPage);
 </script>
-{% /tab %}
+```
 {% /code %}

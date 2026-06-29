@@ -30,7 +30,8 @@ Each page could have three states:
 
 Once you publish the unlisted draft page, it becomes listed. Listed means that it is visible to your readers. Also, the changes that were in draft mode are now applied and published.
 
-{% image url="https://image-archive.developerhub.io/image/upload/13709/x6cir4ft15qzcwworngl/1560088765.png" caption="Published page" mode="responsive" height="1834" width="2740" %}
+{% image url="https://image-archive.developerhub.io/image/upload/13709/x6cir4ft15qzcwworngl/1560088765.png" %}
+Published page
 {% /image %}
 
 The **Publish** {% icon classes="fas fa-forward" /%} button will indicate that the page is published.
@@ -41,7 +42,8 @@ If you edit a page that was listed and published, it goes back into draft mode. 
 
 Publish when you are ready!
 
-{% image url="https://image-archive.developerhub.io/image/upload/13709/chubvtpjinyipevy1zes/1560088839.png" caption="Draft page" mode="responsive" height="1834" width="2740" %}
+{% image url="https://image-archive.developerhub.io/image/upload/13709/chubvtpjinyipevy1zes/1560088839.png" %}
+Draft page
 {% /image %}
 
 Draft pages show a draft page icon in the index, and the control buttons allow you to publish.
@@ -50,7 +52,7 @@ Draft pages show a draft page icon in the index, and the control buttons allow y
 
 Every draft is saved in the page history and is indicated as a draft version. To discard all draft changes, and to revert to the published version:
 
-1. Click on {% icon classes="fas fa-history" /%} Show Published under the page title. 
+1. Click on {% icon classes="fas fa-history" /%} Show Published under the page title.
 2. Make any edit.
 3. Save the page again and publish it.
 

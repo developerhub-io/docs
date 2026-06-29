@@ -21,13 +21,14 @@ Search is one of the main ways readers discover documentation. %product% is buil
 - Canonical URL support to reduce duplication (especially with versioning)
 - Bot-friendly rendering for indexing and SEO tooling
 
-{% callout type="info" title="Info" %}
+{% callout title="Info" %}
 We cache bot-rendered pages every 7 days for fast serving to search engines and SEO software.
 {% /callout %}
 
 Our pages typically score highly on Google Lighthouse SEO audits:
 
-{% image url="https://uploads.developerhub.io/prod/02/tkxojqodsrgjtvcg92sum06d8yffmxpq0n02kbwiekx8chtdwa9qv8rslva99krk.png" caption="Google's Lighthouse SEO test on our pages" mode="600" height="1456" width="600" %}
+{% image url="https://uploads.developerhub.io/prod/02/tkxojqodsrgjtvcg92sum06d8yffmxpq0n02kbwiekx8chtdwa9qv8rslva99krk.png" width=600 %}
+Google's Lighthouse SEO test on our pages
 {% /image %}
 
 ## Page Structure and Headings
@@ -45,7 +46,7 @@ This section covers the most common questions about how metadata is derived and 
 
 ### Title Tag (Browser Tab Title)
 
-The `<title>` tag is controlled globally using `seo.titleFormats` in [auto$](/support-center/advanced-settings).
+The `<title>` tag is controlled globally using `seo.titleFormats` in [Advanced Settings](/support-center/advanced-settings).
 
 By default, it uses the format:
 
@@ -66,8 +67,7 @@ When a documentation link is shared (for example in Slack), the preview image is
 - If the page contains an image, the first image on the page is used.
 - If the page contains no images, the project logo is used.
 
-{% image url="https://uploads.developerhub.io/prod/02/rlu0qs6ug3n30m3l9m7b7bak9vrpm8ml7o3ng3vehgtgseoxr1p0ryui4p0yywbw.png" mode="responsive" height="461" width="702" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/rlu0qs6ug3n30m3l9m7b7bak9vrpm8ml7o3ng3vehgtgseoxr1p0ryui4p0yywbw.png" /%}
 
 ## Sitemap and robots.txt
 
@@ -80,17 +80,15 @@ When a documentation link is shared (for example in Slack), the preview image is
 Where to find them depends on how your docs are hosted. Examples:
 
 - Custom domain without a base path:
-    - `https://<custom-domain>/sitemap.xml`
-
+  - `https://<custom-domain>/sitemap.xml`
 - Custom domain with a base path:
-    - `https://<custom-domain>/<base-path>/sitemap.xml` 
-
+  - `https://<custom-domain>/<base-path>/sitemap.xml`
 - %product% subdomain:
-    - `https://<subdomain>.developerhub.io/sitemap.xml`
+  - `https://<subdomain>.developerhub.io/sitemap.xml`
 
 If you are [hosting under an existing website](/support-center/hosting#hosting-under-an-existing-website), the sitemap and robots endpoints live under the documentation base path on the custom domain (and are also available on the subdomain).
 
-{% callout type="info" title="Info" %}
+{% callout title="Info" %}
 Sitemaps are generated every 6 hours.
 {% /callout %}
 

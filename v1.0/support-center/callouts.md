@@ -14,8 +14,7 @@ Callouts are pieces of information that standout from normal text to notify the 
 
 To create a callout:
 
-{% synced id="open-block-menu" %}
-{% /synced %}
+{% synced id="open-block-menu" /%}
 
 - Select Callout {% icon classes="fas fa-exclamation" /%}
 
@@ -42,7 +41,7 @@ Great **success**!
 Woah, watch out!
 {% /callout %}
 
-{% callout type="info" title="Info" %}
+{% callout title="Info" %}
 Informative callout
 {% /callout %}
 

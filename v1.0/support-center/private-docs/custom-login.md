@@ -10,7 +10,6 @@ keywords:
 tags: 
 ---
 
-
 Custom login for readers on %product% is provided using JSON Web Tokens (JWT). By using JWT login:
 
 - You control who has access to your docs without having to share a global password/link.
@@ -26,10 +25,9 @@ When JWT login is enabled, the flow of login would be as such:
 3. When the reader tries to access the docs site unauthenticated with the JWT token in the URL, our backend servers will verify the token and create an access token with the expiry defined in the token. The reader can now access the docs site.
 4. When the reader access token expires, they no longer can access the content, and would be redirected again to the login URL where this process repeats.
 
-{% callout type="info" title="Info" %}
+{% callout title="Info" %}
 We do provide the URL which the reader tried to access in a query param called `redirect`. Your servers may read this query param and use it as the redirect URL instead of the landing page of your docs.
 {% /callout %}
-
 
 ## How to enable JWT Login
 
@@ -40,9 +38,7 @@ To setup JWT login on %product%, follow these steps:
 3. Provide a login URL, read more about [login URL](/support-center/private-docs#using-login-url) here.
 4. Click **Save changes** in the top menu.
 
-{% image url="https://uploads.developerhub.io/prod/02/wwvzkc8c0ouvdjwunip7tfd7tvwxjj21lplslq6yb29xafd92g510epvdjfq4rci.png" caption="" mode="responsive" height="966" width="1436" %}
-{% /image %}
-
+{% image url="https://uploads.developerhub.io/prod/02/wwvzkc8c0ouvdjwunip7tfd7tvwxjj21lplslq6yb29xafd92g510epvdjfq4rci.png" /%}
 
 ## Signing JWT
 
@@ -53,7 +49,7 @@ There are numerous libraries for most programming languages for signing JWT, see
 Example code to sign the JWT:
 
 {% code %}
-{% tab language="javascript" %}
+```javascript
 const sign = require('jsonwebtoken').sign;
 const apiKey = '689c3ce8e7c68b7c7f86acca6a028e6f8656eb792b19a334f8e3f2a56ca8f561';
 
@@ -72,21 +68,18 @@ function getSignedDeveloperHubUrl() {
 
   return `${docsUrl}?jwt=${token}`;
 }
-{% /tab %}
+```
 {% /code %}
-
 
 Once the URL is generated, you may redirect your reader to the generated URL to provide them access to the docs.
 
-{% callout type="info" title="Variables and Conditional Content" %}
+{% callout title="Variables and Conditional Content" %}
 The `vars` object in the JWT payload is used to evaluate [content audiences](/support-center/conditional-content) for conditional content. Variables are matched against audience conditions to determine which content is visible to each reader.
-
 {% /callout %}
 
 {% callout type="warning" title="Sign only in the backend" %}
 To sign a JWT, you need an API Key with `access.write` permission. The API Key is a secret and it should never be shared online.
 {% /callout %}
-
 
 For easy access, you can also generate a JWT directly from the Manage Access window by clicking on "Generate JWT" and selecting the expiry value.
 
@@ -95,7 +88,7 @@ For easy access, you can also generate a JWT directly from the Manage Access win
 An example express app which you may use:
 
 {% code %}
-{% tab language="javascript" %}
+```javascript
 const express = require('express');
 const app = express();
 const sign = require('jsonwebtoken').sign;
@@ -128,16 +121,15 @@ app.get('/login', (req, res) => {
 app.listen(port, () => {
   console.log(`Reader login app listening at http://localhost:${port}`)
 });
-{% /tab %}
+```
 {% /code %}
-
 
 ## Limiting Access to One Device
 
 To limit a single JWT token to give access only on one device, a unique `jti` may be added in the payload. For example:
 
 {% code %}
-{% tab language="javascript" title="" highlightLines="4" %}
+```javascript {% highlightLines="4" %}
 function getSignedDeveloperHubUrl(url) {
   const docsUrl = url || 'https://docs.pied-piper.com';
   const payload = {
@@ -156,9 +148,8 @@ function getSignedDeveloperHubUrl(url) {
 
   return `${docsUrl}?jwt=${token}`;
 }
-{% /tab %}
+```
 {% /code %}
-
 
 In this example, a UUID was used to provide uniqueness for the `jti` parameter, but any random sequence can be used.
 

@@ -36,23 +36,22 @@ Different projects, even if owned by the same team, are not inter-linked and the
 A flat-hierarchy project, for simpler documentation, could have such a setup:
 
 - Project: Pied Piper
-    - Version: latest
-        - Documentation: Docs (containing any number of pages)
+  - Version: latest
+    - Documentation: Docs (containing any number of pages)
 
 A bigger project could have such a setup:
 
 - Project: Pied Piper
-    - Version: v1.0
-        - Documentation: Getting Started
-        - Documentation: Android SDK
-        - Documentation: iOS SDK
-        - Documentation: Knowledge Base
-
-    - Version: v2.0 (Latest)
-        - Documentation: Getting Started
-        - Documentation: Android SDK
-        - Documentation: iOS SDK
-        - Documentation: Knowledge Base
+  - Version: v1.0
+    - Documentation: Getting Started
+    - Documentation: Android SDK
+    - Documentation: iOS SDK
+    - Documentation: Knowledge Base
+  - Version: v2.0 (Latest)
+    - Documentation: Getting Started
+    - Documentation: Android SDK
+    - Documentation: iOS SDK
+    - Documentation: Knowledge Base
 
 ## What if I don't need versions?
 
@@ -67,11 +66,11 @@ For example, our own docs are not versioned and we only have a `v1.0`. However, 
 An unversioned project could have such a setup:
 
 - Project: Pied Piper
-    - Version: pied-piper
-        - Documentation: Getting Started
-        - Documentation: Android SDK
-        - Documentation: iOS SDK
-        - Documentation: Knowledge Base
+  - Version: pied-piper
+    - Documentation: Getting Started
+    - Documentation: Android SDK
+    - Documentation: iOS SDK
+    - Documentation: Knowledge Base
 
 Remember that you can hide the version selector using [Custom CSS](/support-center/custom-css), see [Hide Version Selector/Picker](/support-center/css-customisations#hide-version-selectorpicker).
 

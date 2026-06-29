@@ -14,8 +14,7 @@ Tabs serve as an effective tool for organising instructions tailored to various 
 
 To create tabs:
 
-{% synced id="open-block-menu" %}
-{% /synced %}
+{% synced id="open-block-menu" /%}
 
 - Select Tabs {% icon classes="fas fa-folder" /%}
 
@@ -30,15 +29,15 @@ To set up the SDK, do the following:
 3. Add an import as such to the code:
 
 {% code %}
-{% tab language="java" %}
+```java
 import AwesomeSDK;
-{% /tab %}
+```
 {% /code %}
 
 ## Example Android Code
 
 {% code %}
-{% tab language="java" %}
+```java
 package com.example.helloworld;
 
 import android.support.v7.app.AppCompatActivity;
@@ -51,9 +50,10 @@ public class MainActivity extends AppCompatActivity {
       setContentView(R.layout.activity_main);
    }
 }
-{% /tab %}
+```
 {% /code %}
 {% /tab %}
+
 {% tab title="iOS" %}
 To set up the SDK, do the following:
 
@@ -62,9 +62,9 @@ To set up the SDK, do the following:
 3. Add an import as such to the code:
 
 {% code %}
-{% tab language="swift" %}
+```swift
 import AwesomeSDK
-{% /tab %}
+```
 {% /code %}
 {% /tab %}
 {% /tabs %}
@@ -79,7 +79,7 @@ The following are features of the tab block:
 - Tab contents are searchable.
 - Tab contents can contain all kinds of blocks and formatting supported by %product%
 - When switching to a tab, all other tab blocks on the page having the same title will also get switched to automatically.
-- When switching to a tab, when visiting another page in the docs, all the tab blocks will switch to the same tab title if possible automatically. 
+- When switching to a tab, when visiting another page in the docs, all the tab blocks will switch to the same tab title if possible automatically.
 
 ## Tabs Known Limitations
 

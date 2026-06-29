@@ -22,7 +22,8 @@ To use an AI generated META description of a page:
 - You may modify the description if needed.
 - Click Save.
 
-{% image url="asset:x9dj0mdnmf00" caption="Generating a meta description from the Settings tab" mode="responsive" height="476" width="464" %}
+{% image url="asset:x9dj0mdnmf00" %}
+Generating a meta description from the Settings tab
 {% /image %}
 
 ## What data is sent to the LLM?

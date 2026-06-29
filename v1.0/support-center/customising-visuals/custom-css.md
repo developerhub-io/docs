@@ -19,7 +19,7 @@ tags: customisation
 
 Apply project-wide CSS changes and enable complete design control using Custom CSS.
 
-{% callout type="info" title="Need to be more specific?" %}
+{% callout title="Need to be more specific?" %}
 If you wish to apply (or test) on a version, then you can use the selector `.customise .version-{{versionSlug}}`.
 {% /callout %}
 
@@ -30,7 +30,7 @@ To customise CSS:
 - Open Project Settings → **Customisation**.
 - In the Custom code card, click **Edit CSS**.
 - Enter the custom CSS, then click **Save draft** in the top menu. This will save the CSS in draft mode, so you can test it out.
-- To publish it to readers, click **Save & publish**.
+- To publish it to readers, click **Save \& publish**.
 - To discard the draft changes, click **Revert**.
 
 The CSS will be applied immediately.
@@ -45,7 +45,7 @@ You can revert the draft from the top menu's **Revert** button.
 When you revert the CSS, the draft changes are discarded and lost.
 {% /callout %}
 
-{% callout type="info" title="Testing while frontend application is pinned" %}
+{% callout title="Testing while frontend application is pinned" %}
 To test latest frontend application on the readers site if your [frontend application is pinned](/support-center/custom-css#pinning-frontend-application-version), add `?deployment_id=latest` to the URL. To confirm which application version is being used, check the `X-DeveloperHub-Version` header in the first network request.
 {% /callout %}
 
@@ -87,12 +87,12 @@ The CSS is not encapsulated and applies globally. %product% CSS does change freq
 Ensure that any Custom CSS changes adhere to all display sizes and input devices. The default CSS is designed to work for phones, tablets, laptop screens and large screens. **Always test the CSS changes you make on all sizes to ensure reader satisfaction.**
 {% /callout %}
 
-### {% badge type="custom" text="1" /%} Use `.customise`
+### {% badge text="1" type="custom" /%} Use `.customise`
 
 `.customise`  is a CSS selector which you should probably use on all your CSS rules. `.customise` encapsulates everything that the editor is not, which is everything you might want to customise. For example:
 
 {% code %}
-{% tab language="css" %}
+```css
 /* DON'T DO THIS ❌ - Will change all heading 1 everywhere, in editor, in dashboard... horrible */
 h1 {
   color: green !important;
@@ -102,15 +102,15 @@ h1 {
 .customise h1 {
   color: green !important;
 }
-{% /tab %}
+```
 {% /code %}
 
-### {% badge type="custom" text="2" /%} Use `.live`
+### {% badge text="2" type="custom" /%} Use `.live`
 
 `.live`  is a CSS selector which you should probably use on all your CSS rules. `.live` encapsulates CSS that only loads on your live docs site, but not when in the editor. Changing the page styles in the editor could cause inconsistencies and features to break if CSS is not very carefully written, so it is best to only have these styles apply on the live docs site. For example:
 
 {% code %}
-{% tab language="css" %}
+```css
 /* DON'T DO THIS ❌ - Will change all heading 1 only in live docs site and editor */
 .customise h1 {
   color: green !important;
@@ -120,15 +120,15 @@ h1 {
 .customise.live h1 {
   color: green !important;
 }
-{% /tab %}
+```
 {% /code %}
 
-### {% badge type="custom" text="3" /%} Use specific selectors
+### {% badge text="3" type="custom" /%} Use specific selectors
 
 In our previous examples, `h1` is quite a vague selector. If we want to change the page title colour, then it's best to use it's specific selector and only in Documentation.
 
 {% code %}
-{% tab language="css" %}
+```css
 /* DON'T DO THIS ❌ - Will change all heading 1 only in live docs site */
 .customise.live h1 {
   color: green !important;
@@ -138,7 +138,7 @@ In our previous examples, `h1` is quite a vague selector. If we want to change t
 .customise.live .documentation .title-container>.title {
   color: green !important;
 }
-{% /tab %}
+```
 {% /code %}
 
 {% callout type="error" title="Do Not Change Generic Styles" %}
@@ -149,7 +149,7 @@ If you are creating a landing page, then create specific selectors. For example,
 
 ## CSS Customisation Examples
 
-See [auto$](/support-center/css-customisations).
+See [Popular Customisations](/support-center/css-customisations).
 
 ## Examples on Page
 
@@ -230,7 +230,7 @@ As we do not want to change the style of our documentation (since we love it so 
 We have set up variables for you to change, so you can change the look and feel easily. When [theme](/support-center/theme) is set, those variables automatically get modified.
 
 {% code %}
-{% tab language="css" %}
+```css
 :root {
   --brand: #5368e7; /* Your brand color - auto assigned from project */
   --brand-transparent: #5368e754; /* Your brand color with transparency - auto assigned from project */
@@ -265,18 +265,18 @@ We have set up variables for you to change, so you can change the look and feel 
 .customise .references {
   --required-text: '*'; /* Text that shows to denote that a field is required in request/response bodies */
 }
-{% /tab %}
+```
 {% /code %}
 
 To modify the variables used when dark theme is enabled, use the selector `.dark-mode`, for example:
 
 {% code %}
-{% tab language="css" %}
+```css
 .dark-mode {
   --brand: #123456;
   --link: blue;
 }
-{% /tab %}
+```
 {% /code %}
 
 ### Font Weights
@@ -284,7 +284,7 @@ To modify the variables used when dark theme is enabled, use the selector `.dark
 If your assigned font does not have all the weights we use on %product% then you can reassign some weights to another:
 
 {% code %}
-{% tab language="css" %}
+```css
 :root {
   --fw-100: 100;
   --fw-200: 200;
@@ -296,7 +296,7 @@ If your assigned font does not have all the weights we use on %product% then you
   --fw-800: 800;
   --fw-900: 900;
 }
-{% /tab %}
+```
 {% /code %}
 
 For example, if weight 500 does not exist, then you may set `--fw-500: 600`, so font weight 600 is used whenever 500 is expected.
@@ -335,7 +335,7 @@ To test latest frontend application on the readers site if your frontend applica
 
 Load at least the landing page, documentation page and API reference with `?deployment_id=latest` at the end of the URL and check if the pages look as expected. Otherwise, modify the CSS/JS in [draft mode](/support-center/custom-css#testing-css) and keep on iterating until the pages look perfect.
 
-{% callout type="info" title="?deployment_id=latest is temporary" %}
+{% callout title="?deployment_id=latest is temporary" %}
 Make sure that everytime you reload the page and wish to see it in latest application version, you add `?deployment_id=latest`.
 {% /callout %}
 

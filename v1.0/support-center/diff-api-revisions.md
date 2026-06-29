@@ -16,8 +16,7 @@ Use **Diff API Revisions** to compare the OpenAPI definitions between revisions.
 
 When launched, the diff opens in a window and highlights changes in different colours.
 
-{% image url="asset:v34mk5gboj7o" mode="responsive" height="1730" width="2828" %}
-{% /image %}
+{% image url="asset:v34mk5gboj7o" /%}
 
 ## Diff API Revisions
 

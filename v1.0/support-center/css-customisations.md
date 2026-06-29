@@ -10,36 +10,36 @@ keywords:
 tags: customisation
 ---
 
-You can customise your docs using [auto$](/support-center/custom-css) and [Custom Javascript](/support-center/custom-javascript). Below are some of the most used customisations:
+You can customise your docs using [Custom CSS](/support-center/custom-css) and [Custom Javascript](/support-center/custom-javascript). Below are some of the most used customisations:
 
 ## Hide version selector/picker
 
 {% code %}
-{% tab language="css" %}
+```css
 .customise.live .version-picker {
     display: none;
 }
-{% /tab %}
+```
 {% /code %}
 
 ## Hide section/documentation selector/picker
 
 {% code %}
-{% tab language="css" %}
+```css
 .customise.live .section-picker-container {
     display: none;
 }
-{% /tab %}
+```
 {% /code %}
 
 ## Make top navigation sticky
 
 {% callout type="warning" title="Only in Original UI" %}
-Only apply this customisation for the original UI. For Next UI, there's a setting under Project Settings &gt; Customisation to enable it.
+Only apply this customisation for the original UI. For Next UI, there's a setting under Project Settings \> Customisation to enable it.
 {% /callout %}
 
 {% code %}
-{% tab language="css" %}
+```css
 @media (min-width: 1024px) {
   .customise.live .topnav-container {
     position: fixed;
@@ -56,13 +56,13 @@ Only apply this customisation for the original UI. For Next UI, there's a settin
     top: 70px !important;
   }
 }
-{% /tab %}
+```
 {% /code %}
 
 When navigation is sticky, the scrolling behaviour must be modified in order for headings not to hide under the navigation when it is scrolled to. Add the following to Custom HEAD tags to modify scrolling offsets:
 
 {% code %}
-{% tab language="html" %}
+```html
 <script>
   window.settings.apply({
     scrolling: { // Modify values as needed, according to your navbar height.
@@ -70,7 +70,7 @@ When navigation is sticky, the scrolling behaviour must be modified in order for
     }
   });
 </script>
-{% /tab %}
+```
 {% /code %}
 
 ## Decrease top navigation links font-size
@@ -78,7 +78,7 @@ When navigation is sticky, the scrolling behaviour must be modified in order for
 Use if the titles are too long and they're breaking into two lines.
 
 {% code %}
-{% tab language="css" %}
+```css
 .customise.live .topnav-container .links {
   font-size: 13px; /* Original is 14px */
 }
@@ -86,7 +86,7 @@ Use if the titles are too long and they're breaking into two lines.
 .customise.live .topnav-container .links .link {
   font-size: inherit;
 }
-{% /tab %}
+```
 {% /code %}
 
 ## Move index and table of contents to edges of screen
@@ -96,7 +96,7 @@ This is enabled by default now.
 {% /callout %}
 
 {% code %}
-{% tab language="css" %}
+```css
 .customise.live .container.doc-container {
   max-width: 100%;
 }
@@ -109,7 +109,7 @@ This is enabled by default now.
 .customise.live .documentation {
   padding-left: 0;
 }
-{% /tab %}
+```
 {% /code %}
 
 ## Set theme automatically according to user preferences
@@ -117,7 +117,7 @@ This is enabled by default now.
 Place in Custom HEAD tags. Only use one of the if conditions.
 
 {% code %}
-{% tab language="html" %}
+```html
 <script>
   // If your theme is set to dark by default, use the following IF condition.
   if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
@@ -129,7 +129,7 @@ Place in Custom HEAD tags. Only use one of the if conditions.
     window.setTheme('dark');
 	}
 </script>
-{% /tab %}
+```
 {% /code %}
 
 ## Append contact us to search box on no results
@@ -137,7 +137,7 @@ Place in Custom HEAD tags. Only use one of the if conditions.
 Place in Custom HEAD tags.
 
 {% code %}
-{% tab language="html" %}
+```html
 <style>
   .search-contact-us {
     color: inherit;
@@ -162,7 +162,7 @@ Place in Custom HEAD tags.
     });
   });
 </script>
-{% /tab %}
+```
 {% /code %}
 
 ## Hide version warning banner for a specific version
@@ -170,7 +170,7 @@ Place in Custom HEAD tags.
 Place in Custom HEAD tags.
 
 {% code %}
-{% tab language="html" %}
+```html
 <script>
 document.addEventListener('onsectionchange', e => {
   let versionWarningEl = document.querySelector('.version-warning');
@@ -186,7 +186,7 @@ document.addEventListener('onsectionchange', e => {
   }
 });
 </script>
-{% /tab %}
+```
 {% /code %}
 
 ## Collapse Section Picker into Dropdown on Next UI
@@ -194,7 +194,7 @@ document.addEventListener('onsectionchange', e => {
 Place in Custom CSS.
 
 {% code %}
-{% tab language="css" %}
+```css
 .customise.live .section-links-group {
   display: none !important;
 }
@@ -208,7 +208,7 @@ Place in Custom CSS.
     padding: 8px 0;
   }
 }
-{% /tab %}
+```
 {% /code %}
 
 ## Blur Top Navigation Bar
@@ -216,7 +216,7 @@ Place in Custom CSS.
 Place is Custom CSS. You might need to handle light theme separately.
 
 {% code %}
-{% tab language="css" %}
+```css
 .customise.live .topnav-container {
     background-color: transparent;
     backdrop-filter: blur(10px);
@@ -228,18 +228,17 @@ Place is Custom CSS. You might need to handle light theme separately.
 .customise.live .external-search.dark {
     background: #00000033;
 }
-{% /tab %}
+```
 {% /code %}
 
 ## Adding Icons to Index
 
 To add an icon in place of the expander icon for categories and parent pages in the index, add such CSS:
 
-{% image url="https://uploads.developerhub.io/prod/02/df56hu6n1hk8hmm0l8asvx15zh6t8sbldfrl0x9ta42vo91c02k2vy5e8xh4478v.png" mode="responsive" height="70" width="129" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/df56hu6n1hk8hmm0l8asvx15zh6t8sbldfrl0x9ta42vo91c02k2vy5e8xh4478v.png" /%}
 
 {% code %}
-{% tab language="css" %}
+```css
 /* First hide the expander icons. You could do this individually or for all expanders */
 .customise .sidebar .node_XXXXX>.node-wrapper>.node-content-wrapper>.expander-icon>i {
 		display: none;
@@ -258,18 +257,17 @@ To add an icon in place of the expander icon for categories and parent pages in 
     width: 16px;
     height: 16px;
 }
-{% /tab %}
+```
 {% /code %}
 
 ## Expanding Enum in API Reference
 
 To have enums with their [varnames](/support-center/openapi-extensions#x-enum-varnames) expand on click, add the following in Custom HEAD tags:
 
-{% image url="https://uploads.developerhub.io/prod/02/0qgzdkjrhleclqbbl4kzuhezsrkpxzbrwt04w4a9fxz0czeatvx880ka30s9dmlc.png" mode="responsive" height="376" width="948" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/0qgzdkjrhleclqbbl4kzuhezsrkpxzbrwt04w4a9fxz0czeatvx880ka30s9dmlc.png" /%}
 
 {% code %}
-{% tab language="javascript" %}
+```javascript
 <script>
   document.addEventListener('onreferencecontentloaded', function (e) {
     console.log('Reference content loaded');
@@ -311,7 +309,7 @@ To have enums with their [varnames](/support-center/openapi-extensions#x-enum-va
     });
   });
 </script>
-{% /tab %}
+```
 {% /code %}
 
 You may modify the CSS as needed for the button using the CSS selector `.customise.live .references .expand-enum-vars`.
@@ -321,7 +319,7 @@ You may modify the CSS as needed for the button using the CSS selector `.customi
 To create a dropdown which you can add to navigation links in the top navigation bar, use this javascript:
 
 {% code %}
-{% tab language="html" %}
+```html
 <script>
   /**
    * Creates a dropdown menu
@@ -402,13 +400,13 @@ To create a dropdown which you can add to navigation links in the top navigation
     return dropdownContainer;
   }
 </script>
-{% /tab %}
+```
 {% /code %}
 
 Use the code above as such:
 
 {% code %}
-{% tab language="html" %}
+```html
 <script>
     const navbar = document.querySelector('.nav-btn-group.links-group');
 
@@ -439,7 +437,7 @@ Use the code above as such:
       ],
     }));
 </script>
-{% /tab %}
+```
 {% /code %}
 
 ## Add a Fading Edge to References
@@ -447,7 +445,7 @@ Use the code above as such:
 To add a fading edge to references, use the following javascript:
 
 {% code %}
-{% tab language="javascript" %}
+```javascript
 document.addEventListener("onsectionchange", (event) => {
   if (event.detail.type === 'reference') {
     setupFadingEdge();
@@ -495,7 +493,7 @@ function applyFadingEdge(scrollEl, el) {
     el.style.maskImage = '';
   }
 }
-{% /tab %}
+```
 {% /code %}
 
 ## Redirect to Documentation in Latest Version
@@ -503,7 +501,7 @@ function applyFadingEdge(scrollEl, el) {
 If you wish for a documentation to only be view-able in the latest version, add the following Custom HEAD tags:
 
 {% code %}
-{% tab language="html" %}
+```html
 <script>
 document.addEventListener("onsectionchange", event => {
   const version = window.getActiveVersion();
@@ -514,7 +512,7 @@ document.addEventListener("onsectionchange", event => {
   }
 });
 </script>
-{% /tab %}
+```
 {% /code %}
 
 ## Indent Index under Category
@@ -522,11 +520,11 @@ document.addEventListener("onsectionchange", event => {
 To add indentation under category, add the following to Custom CSS:
 
 {% code %}
-{% tab language="css" %}
+```css
 .customise.live .category-container .tree-node-level-2 {
     margin-left: 8px;
 }
-{% /tab %}
+```
 {% /code %}
 
 ## Move Search Bar to Landing Page Hero
@@ -534,7 +532,7 @@ To add indentation under category, add the following to Custom CSS:
 To move the search bar to a hero element with selector `.docs-hero-content` in the landing page, add the following to Custom HEAD tags:
 
 {% code %}
-{% tab language="html" %}
+```html
 <script>
   let searchEl = null;
   let originalSearchParent = null;
@@ -556,7 +554,7 @@ To move the search bar to a hero element with selector `.docs-hero-content` in t
     }
   }
 </script>
-{% /tab %}
+```
 {% /code %}
 
 If you're using Next UI, use `app-search-v2` instead of `app-search`.

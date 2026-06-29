@@ -19,7 +19,8 @@ There are two kinds of landing page:
 
 Both are designed in exactly the same way.
 
-{% image url="asset:w0wahpix1a90" caption="A landing page as readers see it" mode="responsive" height="900" width="1440" %}
+{% image url="asset:w0wahpix1a90" %}
+A landing page as readers see it
 {% /image %}
 
 ## The Landing Page Designer
@@ -32,7 +33,8 @@ To open the designer, do any of the following:
 - From [Manage Landing Pages](/support-center/landing-page#managing-landing-pages), select a page and click **Edit design**.
 - Use the Landing Pages picker in the editor top navigation to switch between the main landing page and your custom pages.
 
-{% image url="asset:idxiqa5wdx9z" caption="The landing page designer" mode="responsive" height="900" width="1440" %}
+{% image url="asset:idxiqa5wdx9z" %}
+The landing page designer
 {% /image %}
 
 Working in the designer:
@@ -45,7 +47,7 @@ Working in the designer:
 
 Your theme, brand colour and dark mode are inherited from your [visual settings](/support-center/customising-visuals), so a landing page always matches the rest of your docs.
 
-{% callout type="info" title="Who can edit" %}
+{% callout title="Who can edit" %}
 Only project Publishers and Admins can edit landing pages.
 {% /callout %}
 
@@ -53,7 +55,8 @@ Only project Publishers and Admins can edit landing pages.
 
 A landing page is made of blocks stacked top to bottom. To add one, click **Add block** where you want it and pick from the library.
 
-{% image url="asset:7iv94g84rat3" caption="The block library" mode="responsive" height="900" width="1440" %}
+{% image url="asset:7iv94g84rat3" %}
+The block library
 {% /image %}
 
 The available blocks are:
@@ -79,7 +82,8 @@ Alongside its own options, every block shares a common set of style controls in 
 
 Cards are the most flexible block. A Cards block has a **Variant** that decides where its cards come from.
 
-{% image url="asset:yab0icj2dprt" caption="A Cards block and its settings" mode="responsive" height="900" width="1440" %}
+{% image url="asset:yab0icj2dprt" %}
+A Cards block and its settings
 {% /image %}
 
 ### Auto
@@ -145,7 +149,8 @@ To create one:
 
 The **Manage Landing Pages** screen lists the main landing page and all your custom pages, and is where you change everything other than the design itself.
 
-{% image url="asset:143caei1g5tu" caption="Manage Landing Pages" mode="responsive" height="900" width="1440" %}
+{% image url="asset:143caei1g5tu" %}
+Manage Landing Pages
 {% /image %}
 
 For each page you can:
@@ -166,10 +171,10 @@ To set one up:
 
 When a page is used as the 404 page, its own path is ignored.
 
-{% callout type="info" title="One 404 page" %}
+{% callout title="One 404 page" %}
 Only one 404 page can exist in a project.
 {% /callout %}
 
 ## Custom HTML
 
-If you would rather hand-code a page with your own HTML, CSS, and JavaScript, you can switch any landing page (the main landing page or a custom page) to a custom HTML page instead of the block-based design. See [auto$](/support-center/custom-landing-page).
+If you would rather hand-code a page with your own HTML, CSS, and JavaScript, you can switch any landing page (the main landing page or a custom page) to a custom HTML page instead of the block-based design. See [Custom Landing Page](/support-center/custom-landing-page).

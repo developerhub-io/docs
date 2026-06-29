@@ -10,12 +10,11 @@ keywords:
 tags: 
 ---
 
-%product% generates beautiful and powerful API References from your API definitions. [Create](/support-center/edit-references#create-a-new-api-definition), [upload](/support-center/uploading-references), [merge](/support-center/merge-api-definitions) or [edit](/support-center/edit-references) your OpenAPI definitions directly on %product%. 
+%product% generates beautiful and powerful API References from your API definitions. [Create](/support-center/edit-references#create-a-new-api-definition), [upload](/support-center/uploading-references), [merge](/support-center/merge-api-definitions) or [edit](/support-center/edit-references) your OpenAPI definitions directly on %product%.
 
 See our [own API References](/v1.0/api/ref) here.
 
-{% video videoId="https://uploads.developerhub.io/prod/02/alfw0asaqyh1rzb2dnud9xzobfsc2l255qvbqq2pd97nrgz3pkd22pe6thc23xwm.mp4?controls=0&autoplay=1&loop=1&muted=1&playsinline=1" provider="raw" %}
-{% /video %}
+{% video provider="raw" videoId="https://uploads.developerhub.io/prod/02/alfw0asaqyh1rzb2dnud9xzobfsc2l255qvbqq2pd97nrgz3pkd22pe6thc23xwm.mp4?controls=0&autoplay=1&loop=1&muted=1&playsinline=1" /%}
 
 ## Features
 
@@ -39,18 +38,15 @@ Every operation shows the following:
 - Auto-generated example responses.
 - Callbacks.
 
-{% image url="https://uploads.developerhub.io/prod/02/kaafjmio918q0icqrl992zgctenx5bei9s0m4hg4ar1tnn64l4fe200iwor313sn.png" mode="set" height="863" width="1038" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/kaafjmio918q0icqrl992zgctenx5bei9s0m4hg4ar1tnn64l4fe200iwor313sn.png" width=1038 /%}
 
 You can directly link to the API references from the documentation by following the steps in [page linking](/support-center/page-linking).
 
-{% image url="https://uploads.developerhub.io/prod/02/s9c05oknkjn80rj50fxddju1d4nkjnviqerqy3gldz2mq6c2nogv7jges35f6svc.png" mode="responsive" height="660" width="1122" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/s9c05oknkjn80rj50fxddju1d4nkjnviqerqy3gldz2mq6c2nogv7jges35f6svc.png" /%}
 
 ## Try It Out
 
-{% image url="https://uploads.developerhub.io/prod/02/aja6dp81xp8atteilzyxqz0n1ceimluy4667m0y5g4u7r97ryj80f1y6s6bymmh2.png" mode="responsive" height="528" width="1126" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/aja6dp81xp8atteilzyxqz0n1ceimluy4667m0y5g4u7r97ryj80f1y6s6bymmh2.png" /%}
 
 Readers can [try out your API](/support-center/try-it-out) right from the API Reference.
 

@@ -33,10 +33,10 @@ Project Settings is organised into groups. Each group contains panes:
 - **Content**: [Glossary](/support-center/glossary), [Navigation Groups](/support-center/top-navigation-bar#navigation-structure), [Project Variables](/support-center/variables), [Page Tags](/support-center/tags), [Audiences](/support-center/conditional-content).
 - **Developers**: [API Keys](/support-center/api-key), [Integrations](/support-center/integrations) (Slack, GitHub, Intercom, Google Analytics), [AI Features](/support-center/ai-features).
 - **Team**: [Invite teammates, change roles, transfer ownership](/support-center/collaboration).
-- **Plan & Usage**: Current plan, seats, [upgrade](/support-center/supercharged-plans).
+- **Plan \& Usage**: Current plan, seats, [upgrade](/support-center/supercharged-plans).
 - **Advanced**: Editorial flow toggles, pinned deployment, multi-format exports.
 
-{% callout type="info" title="Saving changes" %}
+{% callout title="Saving changes" %}
 Most settings in Project Settings use a draft model. Edit the controls you want, then click **Save changes** in the top menu to commit. **Discard** reverts your draft. Images (logo, favicon) are an exception; they save automatically on upload.
 {% /callout %}
 
@@ -61,7 +61,7 @@ To change the logo link:
 3. Edit Logo link URL.
 4. Click **Save changes** in the top menu.
 
-{% callout type="info" title="Info" %}
+{% callout title="Info" %}
 If the link is not set, then the user will be navigated to the landing page (if enabled).
 {% /callout %}
 

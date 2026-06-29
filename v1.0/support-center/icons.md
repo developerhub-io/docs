@@ -37,11 +37,11 @@ To style icons, you can provide CSS in [Custom CSS](/support-center/custom-css),
 - Icon with a different background colour using the following CSS:
 
 {% code %}
-{% tab language="css" title="CSS" %}
+```css {% title="CSS" %}
 .custom-icon.blue-bg {
   background: blue;
   color: white;
   padding: 2px;
 }
-{% /tab %}
+```
 {% /code %}

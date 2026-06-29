@@ -10,7 +10,7 @@ keywords:
 tags: 
 ---
 
-We always have something exciting to deliver for you. 
+We always have something exciting to deliver for you.
 
 Here are a list of features where we have invested heavily but have not completed yet because we need customer's input:
 

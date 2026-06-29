@@ -14,8 +14,7 @@ Embed code from GitHub repository right into %product%. This allows you to keep 
 
 To create GitHub Code block:
 
-{% synced id="open-block-menu" %}
-{% /synced %}
+{% synced id="open-block-menu" /%}
 
 - Select GitHub Code {% icon classes="fab fa-github" /%}.
 - Paste in the box the URL of the GitHub file, for example: `https://github.com/torvalds/linux/blob/master/kernel/signal.c`.
@@ -34,5 +33,4 @@ Embedding is powered by [https://emgithub.com/](https://emgithub.com/). You can 
 
 Source: `https://github.com/torvalds/linux/blob/master/kernel/signal.c#L152-L170`.
 
-{% github-code url="https://github.com/torvalds/linux/blob/master/kernel/signal.c#L152-L170" %}
-{% /github-code %}
+{% github-code url="https://github.com/torvalds/linux/blob/master/kernel/signal.c#L152-L170" /%}

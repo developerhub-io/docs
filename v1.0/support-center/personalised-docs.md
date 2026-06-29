@@ -23,7 +23,7 @@ Things you might show in your docs that can be personalised:
 
 ## How to Personalise Docs
 
-You can use [variables](/support-center/variables) to personalise the docs for your readers. For example, if you opened this documentation through our Help & Support then you would find your name %user.name% on the first page and also here.
+You can use [variables](/support-center/variables) to personalise the docs for your readers. For example, if you opened this documentation through our Help \& Support then you would find your name %user.name% on the first page and also here.
 
 Variables can be injected into the docs in two ways:
 
@@ -42,9 +42,9 @@ Variables can be injected into a page through the URL. You can provide the varia
 
 As an example, if you load this documentation from this link:
 
-[https://docs.developerhub.io/?vars={"user":{"name": "John"}}](https://docs.developerhub.io/?vars=%7B%22user%22:%7B%22name%22:%22John%22%7D%7D)
+[https://docs.developerhub.io/?vars=\{"user":\{"name": "John"\}\}](https://docs.developerhub.io/?vars=%7B%22user%22:%7B%22name%22:%22John%22%7D%7D)
 
-{% callout type="info" title="Info" %}
+{% callout title="Info" %}
 The injected variables by URL would be stored for the user's session. It will persist until the browser is closed.
 {% /callout %}
 
@@ -58,10 +58,10 @@ The cookie is expected to be written outside of the docs site. For example, if y
 
 Cookies can only be readable on the same root domain regardless of the subdomain. For example, you can write cookie on: `pied-piper.com` and set it readable on `docs.pied-piper.com` as well as `pied-piper.com/docs`. However, if your docs site is on a different root domain such as `pied-docs.com` then you need to personalise through [URL or custom login](/support-center/personalised-docs#how-to-personalise-docs).
 
-To inject variables using a cookie, provide the following in the cookie: 
+To inject variables using a cookie, provide the following in the cookie:
 
 {% code %}
-{% tab language="none" %}
+```none
 Name: vars
 Value: eyJ1c2VyIjp7Im5hbWUiOiJKb2huIn19 # Base64 of the variables JSON
 Domain: .docs.pied-piper.com # Custom domain of your docs
@@ -70,17 +70,17 @@ Expires: Thu, 18 Dec 2022 12:00:00 UTC # As needed
 HttpOnly: false
 Secure: true
 SameSite: Lax
-{% /tab %}
+```
 {% /code %}
 
 For example, to write such a cookie using javascript:
 
 {% code %}
-{% tab language="javascript" %}
+```javascript
 let vars = {"user": {"name": "John"}};
 
 document.cookie = "vars=" + btoa(JSON.stringify(vars)) + "; expires=Thu, 18 Dec 2022 12:00:00 UTC; path=/; domain=docs.pied-piper.com; SameSite=lax; Secure";
-{% /tab %}
+```
 {% /code %}
 
 ## Standard for User Details
@@ -88,7 +88,7 @@ document.cookie = "vars=" + btoa(JSON.stringify(vars)) + "; expires=Thu, 18 Dec 
 For personalising docs, we propose this standard for any features that we have or may build in the future. We recommend that you use the following JSON structure:
 
 {% code %}
-{% tab language="javascript" %}
+```javascript
 {
   "user": {
     "id": 8
@@ -96,5 +96,5 @@ For personalising docs, we propose this standard for any features that we have o
     "name": "User Name"
 	}
 }
-{% /tab %}
+```
 {% /code %}

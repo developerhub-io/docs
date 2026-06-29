@@ -10,20 +10,15 @@ keywords:
 tags: 
 ---
 
-
 Conditional blocks let you control who can see a given block of content on your page based on content audiences. Audiences define conditions that determine whether content is visible to specific readers.
 
-{% synced id="beta-feature" %}
-{% /synced %}
-
+{% synced id="beta-feature" /%}
 
 ## Create a Conditional Block
 
 To add a conditional block:
 
-{% synced id="open-block-menu" %}
-{% /synced %}
-
+{% synced id="open-block-menu" /%}
 
 - Select **Conditional Block**.
 - Add the content as needed inside the conditional block.
@@ -42,10 +37,8 @@ Audiences are managed in [Project Settings](/support-center/project-settings). L
 
 When a reader views your documentation, their audience is evaluated based on variables passed through [custom login](/support-center/custom-login). The `vars` object in the JWT payload is matched against the audience conditions to determine which conditional blocks are visible.
 
-{% callout type="info" title="Managing Audiences" %}
+{% callout title="Managing Audiences" %}
 To create, edit, or delete audiences, go to Project Settings → Audiences. See [Conditional Content](/support-center/conditional-content) for full details.
 {% /callout %}
 
-
 If you require more of the Conditional Content feature, please do not hesitate to [contact us](/support-center/contact-us).
-

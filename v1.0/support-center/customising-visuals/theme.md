@@ -39,14 +39,12 @@ To show a theme toggle for readers:
 
 ## Light Theme
 
-{% image url="https://uploads.developerhub.io/prod/02/m8oqebybjcmrcqal8uzgoon6cu61tqsl79qa57myz7vfmb85ysga5rk52ncwvoq8.png" mode="responsive" height="1846" width="3110" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/m8oqebybjcmrcqal8uzgoon6cu61tqsl79qa57myz7vfmb85ysga5rk52ncwvoq8.png" /%}
 
 ## Dark Theme
 
-{% image url="https://uploads.developerhub.io/prod/02/jyanu5mrscxmmgesvv0f5dw6oliurqr50j089lw0nvxc5iv433atbtonrlwe6ez8.png" mode="responsive" height="1846" width="3110" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/jyanu5mrscxmmgesvv0f5dw6oliurqr50j089lw0nvxc5iv433atbtonrlwe6ez8.png" /%}
 
 ## Modifying the theme
 
-To modify the theme, update [CSS Variables](/support-center/custom-css#css-variables) as needed, or add your own [auto$](/support-center/custom-css). A global `.dark-mode` CSS selector is added on `document.body` when dark theme is applied.
+To modify the theme, update [CSS Variables](/support-center/custom-css#css-variables) as needed, or add your own [Custom CSS](/support-center/custom-css). A global `.dark-mode` CSS selector is added on `document.body` when dark theme is applied.

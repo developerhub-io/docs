@@ -30,9 +30,9 @@ To create an API reference:
 1. Open the section menu in the top navigation.
 2. Under the API Reference group, click **+ New API reference**.
 3. Choose one:
-    - **Create from scratch**: start with an empty OpenAPI definition.
-    - **Upload OpenAPI definition**: upload an existing file. See [Uploading References](/support-center/uploading-references).
-    - **Merge references**: combine two or more existing references. See [Merging API Definitions](/support-center/merge-api-definitions).
+   - **Create from scratch**: start with an empty OpenAPI definition.
+   - **Upload OpenAPI definition**: upload an existing file. See [Uploading References](/support-center/uploading-references).
+   - **Merge references**: combine two or more existing references. See [Merging API Definitions](/support-center/merge-api-definitions).
 
 ## Deleting API References
 

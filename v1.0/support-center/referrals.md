@@ -34,9 +34,9 @@ Terms and conditions:
 
 ### Previous Referral Perks
 
-- **Free month**: For supercharged plans users, when a referred company subscribes to a supercharged plan, you will get a free month for your project. [2019/01/01 - 2020/08/10]
-- **Free custom domain**: On having two referrals sign up and publish their first documentation, you will be upgraded to the Social Plan, enabling you to set up a custom domain on your free plan projects. [24/08/2018 - 10/04/2019]
-- **Free custom domain**: Users were able to have free custom domain on the free plan on referring a friend. [25/07/2018 - 15/08/2018]
+- **Free month**: For supercharged plans users, when a referred company subscribes to a supercharged plan, you will get a free month for your project. \[2019/01/01 - 2020/08/10\]
+- **Free custom domain**: On having two referrals sign up and publish their first documentation, you will be upgraded to the Social Plan, enabling you to set up a custom domain on your free plan projects. \[24/08/2018 - 10/04/2019\]
+- **Free custom domain**: Users were able to have free custom domain on the free plan on referring a friend. \[25/07/2018 - 15/08/2018\]
 
 ## Referral Walk-through
 
@@ -51,8 +51,7 @@ Changing your referral code will make your old referral code invalid.
 
 - Click **Copy invitation link**.
 
-{% image url="https://image-archive.developerhub.io/image/upload/1338/fmsepzgbnnah4ux9xsiy/1535921585.png" mode="responsive" height="804" width="1036" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/8kri1p73xwfmbxxne2jyn4fdcpglyqfl2cwi1ioygyy2uhct2wflkzthgkvxn53a.png" /%}
 
 - On clicking OK, your referral code will be copied to your clipboard.
 - Find your favourite friend whom you rely on, and paste using (⌘+V or Ctrl+V) to them.

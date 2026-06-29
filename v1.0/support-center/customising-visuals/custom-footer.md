@@ -19,7 +19,7 @@ tags: customisation
 
 Apply a custom footer to match your website.
 
-Unlike [auto$](/support-center/documentation-footer), this footer is placed outside of the documentation container and is written using HTML. Thus, the custom footer is a webpage itself with its own styles and scripts.
+Unlike [Documentation Footer](/support-center/documentation-footer), this footer is placed outside of the documentation container and is written using HTML. Thus, the custom footer is a webpage itself with its own styles and scripts.
 
 ## How to set a custom footer
 
@@ -27,7 +27,7 @@ To customise footer:
 
 - Open Project Settings → **Customisation**.
 - In the Custom code card, click **Edit footer**.
-- Enter the custom HTML, then click **Save & publish** in the top menu.
+- Enter the custom HTML, then click **Save \& publish** in the top menu.
 - Refresh the page to see the changes.
 
 The footer can also be set to use full width from the same page.

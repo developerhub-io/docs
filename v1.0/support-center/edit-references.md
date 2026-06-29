@@ -14,21 +14,19 @@ tags:
 
 The editor is also available as a free tool at [app.developerhub.io/api-editor](https://app.developerhub.io/api-editor) without logging into %product%.
 
-{% image url="asset:hmm65uny5oea" mode="responsive" height="900" width="1440" %}
-{% /image %}
+{% image url="asset:hmm65uny5oea" /%}
 
 ## The Three Views
 
 A segmented control at the top of the editor switches between three views. Your choice is remembered across sessions.
 
-{% image url="asset:estexfkcz4f5" mode="responsive" height="900" width="1440" %}
-{% /image %}
+{% image url="asset:estexfkcz4f5" /%}
 
 - **Visual**: the default. A form-driven editor with a left sidebar that mirrors your OpenAPI document: Overview, Servers, Security schemes, Tags, Paths, Schemas, and Components. Edits flow straight into the underlying spec.
 - **Split**: visual form on the left, syntax-highlighted source on the right, with a draggable gutter between them. Changes on either side update the other.
 - **Source**: the full canvas becomes a Monaco editor with YAML or JSON, line numbers, and error squiggles. A YAML/JSON toggle and a Copy button live at the top of the pane.
 
-{% callout type="info" title="OpenAPI 2.0" %}
+{% callout title="OpenAPI 2.0" %}
 Swagger 2.0 references open directly in **Source**. The visual editor covers OpenAPI 3.x only.
 {% /callout %}
 
@@ -36,8 +34,7 @@ Swagger 2.0 references open directly in **Source**. The visual editor covers Ope
 
 Pick a section from the left sidebar; the matching form loads in the main area.
 
-{% image url="asset:9yufm43n8fnn" mode="responsive" height="900" width="1440" %}
-{% /image %}
+{% image url="asset:9yufm43n8fnn" /%}
 
 The visual editor covers the whole spec:
 
@@ -54,8 +51,7 @@ The visual editor covers the whole spec:
 
 The schema editor renders any JSON Schema, however deep, with inline property rows, type and format dropdowns, required toggles, and one-click drill-down into nested schemas.
 
-{% image url="asset:aizq3o7l0g7e" mode="responsive" height="900" width="1440" %}
-{% /image %}
+{% image url="asset:aizq3o7l0g7e" /%}
 
 Renaming a schema updates its display in the sidebar, but `$ref` paths elsewhere in the spec still point at the old name. Update those references manually.
 
@@ -76,8 +72,7 @@ The toolbar shows **Undo** and **Redo** buttons whenever you're editing in Visua
 
 Click **Source** to take over the canvas with a full-width Monaco editor. Use the YAML / JSON toggle at the top of the pane to flip formats; the editor reserialises for you.
 
-{% image url="asset:sts9n8yeg7w7" mode="responsive" height="900" width="1440" %}
-{% /image %}
+{% image url="asset:sts9n8yeg7w7" /%}
 
 Switching back to **Visual** parses your buffer. If the source has a syntax error, the editor keeps the last valid state and shows a dismissable banner with a **Return to source** button so you don't lose your work.
 
@@ -95,8 +90,7 @@ The editor lints your spec continuously against the OpenAPI specification, regar
 
 A dock at the bottom of the editor always shows an **Issues** header. Click the pill or the chevron on the header to expand it and see the list. The panel tracks your preference in `localStorage`, and will auto-expand once on first load if there are any errors.
 
-{% image url="asset:eb7oe6r0q8lz" mode="responsive" height="900" width="1440" %}
-{% /image %}
+{% image url="asset:eb7oe6r0q8lz" /%}
 
 Filter by **All / Errors / Warnings** at the top. Click any issue to jump to the offending line. If you're in Visual, the editor flips to Source automatically and scrolls the line into view. Source mode also renders the issues inline as red and amber squiggles.
 

@@ -22,15 +22,126 @@ If you are on an enterprise plan, then we also provide reader authentication thr
 
 ## Comparison Between Different Methods
 
-{% table widths="" %}
-| Method | Security Level | Ease of Access | Needs a Developer? | Usage | 
-| ---- | ---- | ---- | ---- | ---- | 
-| [Password](/support-center/private-docs#password-protect-set-up) | Weak. Your readers might leak the password. | Need to remember a password | No | Use to block out competitors and crawlers. | 
-| [Shared Link](/support-center/private-docs#link-sharing) | Weak. Your readers might leak the link. | Easy, click on a link. | No | Use to block out competitors and crawlers. | 
-| [Reader Magic Link](/support-center/email-invite) | Strong | Easy, readers goes to the docs site, requests a magic link and opens the link. | No | Use to secure data and control access. | 
-| [Custom Login](/support-center/custom-login) | Strong | Easy, reader needs to go to the docs site, but might need to log into your own site. | Yes | Use to secure data, control access and [personalise](/support-center/personalised-docs) docs. | 
-| [Single-Sign On (SSO)](/support-center/reader-single-sign-on) | Strong | Easy, reader needs to go to the docs site, but might need to log into SSO. | No | Use to secure data and control access. | 
-| Intranet (Enterprise only) | Strong | Easy, reader just needs to go to the docs site. | Yes | Use to secure data and control access. | 
+{% table layout="auto" %}
+{% row %}
+{% cell header=true %}
+Method
+{% /cell %}
+{% cell header=true %}
+Security Level
+{% /cell %}
+{% cell header=true %}
+Ease of Access
+{% /cell %}
+{% cell header=true %}
+Needs a Developer?
+{% /cell %}
+{% cell header=true %}
+Usage
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+[Password](/support-center/private-docs#password-protect-set-up)
+{% /cell %}
+{% cell %}
+Weak. Your readers might leak the password.
+{% /cell %}
+{% cell %}
+Need to remember a password
+{% /cell %}
+{% cell %}
+No
+{% /cell %}
+{% cell %}
+Use to block out competitors and crawlers.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+[Shared Link](/support-center/private-docs#link-sharing)
+{% /cell %}
+{% cell %}
+Weak. Your readers might leak the link.
+{% /cell %}
+{% cell %}
+Easy, click on a link.
+{% /cell %}
+{% cell %}
+No
+{% /cell %}
+{% cell %}
+Use to block out competitors and crawlers.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+[Reader Magic Link](/support-center/email-invite)
+{% /cell %}
+{% cell %}
+Strong
+{% /cell %}
+{% cell %}
+Easy, readers goes to the docs site, requests a magic link and opens the link.
+{% /cell %}
+{% cell %}
+No
+{% /cell %}
+{% cell %}
+Use to secure data and control access.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+[Custom Login](/support-center/custom-login)
+{% /cell %}
+{% cell %}
+Strong
+{% /cell %}
+{% cell %}
+Easy, reader needs to go to the docs site, but might need to log into your own site.
+{% /cell %}
+{% cell %}
+Yes
+{% /cell %}
+{% cell %}
+Use to secure data, control access and [personalise](/support-center/personalised-docs) docs.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+[Single-Sign On (SSO)](/support-center/reader-single-sign-on)
+{% /cell %}
+{% cell %}
+Strong
+{% /cell %}
+{% cell %}
+Easy, reader needs to go to the docs site, but might need to log into SSO.
+{% /cell %}
+{% cell %}
+No
+{% /cell %}
+{% cell %}
+Use to secure data and control access.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Intranet (Enterprise only)
+{% /cell %}
+{% cell %}
+Strong
+{% /cell %}
+{% cell %}
+Easy, reader just needs to go to the docs site.
+{% /cell %}
+{% cell %}
+Yes
+{% /cell %}
+{% cell %}
+Use to secure data and control access.
+{% /cell %}
+{% /row %}
 {% /table %}
 
 ## Password Protect Set up
@@ -40,14 +151,12 @@ To set up password protection:
 - Open Project Settings → **Access**.
 - In the Access method card, select **Password**.
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_1/ngcyeblh95ndzy4j1oen/1627246980.png" mode="set" height="814" width="448" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/3op6frix1y6b0iu6ie8vw3zt4lp1rebppslm1w5o3b019kin8xi96snr3gpc705r.png" width=448 /%}
 
 - Input the password.
 - Click **Save changes** in the top menu.
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_1/ywv2jwt5nl8qifyt9ewl/1627247025.png" mode="responsive" height="1088" width="1424" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/nzlxbav839gbvtovl93bd2i68iam72yp2btk9a3l2olwgupwottbp9h4rdltiqr5.png" /%}
 
 {% callout type="success" title="Success" %}
 Great, all the published pages of this project are now protected by a password
@@ -55,8 +164,7 @@ Great, all the published pages of this project are now protected by a password
 
 To try it out, go to the live mode of your documentation. You will be presented with such a page.
 
-{% image url="https://image-archive.developerhub.io/image/upload/1375/mrc1g4xci0xhrfgb0foo/1535064244.jpg" mode="responsive" height="1698" width="2276" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/ttjhjrm2tptigmzb9kkvpo42j1ihfafg4qhv4yz4kzbus123ww4clk40fm9wrmyd.jpg" /%}
 
 Once a reader inputs the right password, they will continue to be logged in for 24 hours.
 
@@ -71,10 +179,9 @@ Once a project is protected by a password, you can share a link which accesses t
 To share a link:
 
 - Open Project Settings → **Access**.
-- In the Sharing & invites card, click **Share link**.
+- In the Sharing \& invites card, click **Share link**.
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_1/kavdyj1e0lxamqjwruyz/1627247140.png" mode="set" height="790" width="478" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/w2f0pq7konhpbfcklasx822gsqd750c96j63hry3od99cybni0zl3jcigvrw5qv7.png" width=478 /%}
 
 - You can send invitations directly to your readers. Separate e-mail address by using commas.
 - Or you can copy the link and paste it.

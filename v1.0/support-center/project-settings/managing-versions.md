@@ -78,7 +78,8 @@ The default version does not show its slug in the live page links, for example, 
 
 If your readers have bookmarked pages from older versions, or are unaware that your documentation is versioned, then you might want to notify them using a banner at the top of the page that there is a newer version. You can do so using [an advanced setting](/support-center/advanced-settings) by setting `warnings.oldVersion` to `true`.
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_1/mo0dxqrzmkjs8qkq8rra/1621206651.png" caption="Banner suggesting to the reader that there's a newer version" mode="responsive" height="656" width="1249" %}
+{% image url="https://uploads.developerhub.io/prod/02/b2che9v8mdz4wz0mv6m16fnjq802n8ifibyrcr9xw9dv8hqjl1zns90zke259auw.png" %}
+Banner suggesting to the reader that there's a newer version
 {% /image %}
 
 ## Locking Versions

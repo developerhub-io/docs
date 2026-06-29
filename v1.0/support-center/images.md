@@ -10,7 +10,7 @@ keywords:
 tags: blocks
 ---
 
-You can upload images to your pages by using the Images uploader, or by simply pasting into the page. Your images are organised in the [auto$](/support-center/image-library), and can be re-used and centrally managed.
+You can upload images to your pages by using the Images uploader, or by simply pasting into the page. Your images are organised in the [Image Library](/support-center/image-library), and can be re-used and centrally managed.
 
 On creating the image block, a file dialog to upload an image is shown. After selecting the image, it will be uploaded and served using a CDN (content delivery network) to ensure minimum latency to all of your users.
 
@@ -18,8 +18,7 @@ You can change the image after the upload or delete it using the control icons.
 
 To create an Image:
 
-{% synced id="open-block-menu" %}
-{% /synced %}
+{% synced id="open-block-menu" /%}
 
 - Select Image {% icon classes="far fa-images" /%}
 
@@ -27,7 +26,8 @@ To create an Image:
 
 An example of an image:
 
-{% image url="https://uploads.developerhub.io/prod/02/mfson8uc57kbxc8i9mfx758je2t0f91sw4kju2g7anvyqlc9f2pprh85whhq0pti.png" caption="Image example" mode="responsive" height="2160" width="3377" %}
+{% image url="https://uploads.developerhub.io/prod/02/mfson8uc57kbxc8i9mfx758je2t0f91sw4kju2g7anvyqlc9f2pprh85whhq0pti.png" %}
+Image example
 {% /image %}
 
 ## Image Sizing
@@ -38,7 +38,7 @@ Images can be resized by dragging the vertical bar on the right. Please note tha
 
 Captions can be added to images which enhances their search-ability on search engines. Simple formatting like the use of bold and italic is possible on captions.
 
-## Image Warnings & Optimisations
+## Image Warnings \& Optimisations
 
 If your image is larger than 512 KB in size, then we'll show you a warning that the image is too big. We want your readers to have the best experience, so we want to make sure that you are aware that your images might not be optimised.
 

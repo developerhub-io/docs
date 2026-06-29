@@ -19,7 +19,7 @@ The following extensions are available on %product%.
 Tag groups can be defined as such in OpenAPI:
 
 {% code %}
-{% tab language="yaml" %}
+```yaml
 openapi: '3.0'
 info: ...
 tags:
@@ -36,7 +36,7 @@ x-tagGroups:
     tags:
       - Dolphin
       - Octopus
-{% /tab %}
+```
 {% /code %}
 
 ## x-enum-varnames
@@ -46,7 +46,7 @@ x-tagGroups:
 Enum var names can be defined as such in OpenAPI:
 
 {% code %}
-{% tab language="yaml" title="" %}
+```yaml
 Animal:
   type: integer
   enum:
@@ -55,7 +55,7 @@ Animal:
   x-enum-varnames:
     - Dog
     - Cat
-{% /tab %}
+```
 {% /code %}
 
 ## Variables
@@ -72,13 +72,14 @@ Those variables are specifically useful to construct links inside markdown descr
 
 `x-labels` adds one or more labels to a schema property's description.
 
-{% image url="asset:m6y4rqoms68k" caption="Example showing \"New\" badge on format" mode="responsive" height="664" width="1450" %}
+{% image url="asset:m6y4rqoms68k" %}
+Example showing "New" badge on format
 {% /image %}
 
 Labels can be defined as such in OpenAPI:
 
 {% code %}
-{% tab language="yaml" highlightLines="13-15" %}
+```yaml {% highlightLines="13-15" %}
 /page:
     get:
       parameters:
@@ -103,7 +104,7 @@ Labels can be defined as such in OpenAPI:
             type: string
           in: query
           required: false
-{% /tab %}
+```
 {% /code %}
 
 When `x-labels` is set, each label is placed in the description, unstyled, using the text provided. Each label is given the CSS classes `label` and the value of `type`. This can be used to add specific labels with specific colours, like badges on a description.

@@ -14,8 +14,7 @@ Merging API references lets you combine multiple existing API definitions into a
 
 The merged result is saved as a **draft** API reference so you can review it before publishing.
 
-{% image url="asset:hqcj861fb8nx" mode="responsive" height="1190" width="1720" %}
-{% /image %}
+{% image url="asset:hqcj861fb8nx" /%}
 
 ## Merge API References
 
@@ -45,7 +44,7 @@ The Override API Reference must include the `openapi` version. In practice, it i
 This override sets the API title and version, and replaces the `bearerAuth` security scheme.
 
 {% code %}
-{% tab language="yaml" title="YAML" %}
+```yaml {% title="YAML" %}
 openapi: 3.0.3
 info:
   title: Merged API (Public)
@@ -59,8 +58,9 @@ components:
       bearerFormat: JWT
 security:
   - bearerAuth: []
-{% /tab %}
-{% tab language="json" title="JSON" %}
+```
+
+```json {% title="JSON" %}
 {
   "openapi": "3.0.3",
   "info": {
@@ -81,7 +81,7 @@ security:
     { "bearerAuth": [] }
   ]
 }
-{% /tab %}
+```
 {% /code %}
 
 ## Merge Order and Precedence

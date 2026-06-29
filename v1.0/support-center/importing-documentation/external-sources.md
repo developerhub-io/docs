@@ -17,7 +17,7 @@ tags:
 To import documentation, follow these steps:
 
 - Make sure your import files are structured as required.
-- Open Project Settings → **Import & Export**.
+- Open Project Settings → **Import \& Export**.
 - Click **Open import**.
 - Choose the appropriate import source.
 
@@ -25,7 +25,7 @@ Importing could take a few seconds up to a minute.
 
 You could also import a single page, see [Import a page into DeveloperHub](/support-center/importing-documentation#import-a-page-into-product) for instructions.
 
-{% callout type="info" title="Info" %}
+{% callout title="Info" %}
 All imports add versions. Versions, documentations and pages are never overwritten.
 {% /callout %}
 
@@ -37,8 +37,7 @@ The maximum upload size is 5MB. Contact us if your documentation has a larger si
 
 To import documentation from any external sources into %product%, you must structure your files as such:
 
-{% image url="https://image-archive.developerhub.io/image/upload/-1/k6i9iufqnrhsxjnfnao2/1537921431.png" mode="responsive" height="636" width="694" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/8f6guhbaytdoirtiv298f646qopy72jvhg0bmqgmbkvkcy68y4w31hyv7tallpmy.png" /%}
 
 Where:
 
@@ -109,4 +108,4 @@ To import from Confluence, you need to convert it first to Markdown. Depending o
 
 ## Importing from Zendesk
 
-See [auto$](/support-center/import-from-zendesk).
+See [Import from Zendesk](/support-center/import-from-zendesk).

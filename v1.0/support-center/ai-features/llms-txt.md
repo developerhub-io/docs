@@ -30,7 +30,7 @@ For projects without a basepath: `https://<project-url>/llms.txt`.
 
 For projects with a basepath: `https://<project-url>/<basepath>/llms.txt`.
 
-{% callout type="info" title="Info" %}
+{% callout title="Info" %}
 `llms.txt` is updated every 6 hours
 {% /callout %}
 

@@ -20,7 +20,7 @@ To upload a new reference or to override an existing reference, you may either d
 
 On parsing completion, you will be notified that the reference has been created. If parsing or validation failed, an error will appear.
 
-{% callout type="info" title="Overwrite by Name" %}
+{% callout title="Overwrite by Name" %}
 If you upload a reference with the same title, then your reference will be overwritten and updated. Your old reference will not be available anymore.
 {% /callout %}
 

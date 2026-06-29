@@ -14,14 +14,13 @@ Supercharged plans give you much more benefit than free plans. To see all the pl
 
 ## Upgrading to a Supercharged Plan
 
-Plans are subscribed to, and are paid for _per project per month_. To upgrade your project to a supercharged plan:
+Plans are subscribed to, and are paid for *per project per month*. To upgrade your project to a supercharged plan:
 
 - In the editor top navigation, open the project menu and make sure you have selected the correct project to upgrade.
-- Open Project Settings → **Plan & Usage**.
+- Open Project Settings → **Plan \& Usage**.
 - Click **Upgrade plan** {% icon classes="fas fa-arrow-up" /%}.
 
-{% image url="https://image-archive.developerhub.io/image/upload/-1/zf7cgnzlrxujfvl1htri/1543785748.jpg" mode="responsive" height="410" width="678" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/u2ydxljfwxkbc1uthom26kgq7yhscl8otadro47cmpp7l74qgdxrzwal60oupz60.jpg" /%}
 
 - A pop-up will show outlining every available plan's features. Select the plan you need.
 - Fill out the payment form. If payment succeeded, a notification will show to get you started on your supercharged plan.
@@ -34,11 +33,10 @@ We accept payment through debit/credit cards. For enterprise plans, we offer pay
 To downgrade a project's supercharged plan:
 
 - In the editor top navigation, open the project menu and make sure you have selected the correct project to downgrade.
-- Open Project Settings → **Plan & Usage**.
+- Open Project Settings → **Plan \& Usage**.
 - Click **Manage plan** {% icon classes="fas fa-sync-alt" /%}.
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_1/os5usd6hvprmmqidigmq/1634378875.png" mode="responsive" height="115" width="356" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/kuicy29dnwhakbky9cdykv27vyjz6knodb8tq5lyufuocr2rhgez3xbg06qffdmy.png" /%}
 
 - A pop-up will show outlining every available plan's features and the free plan. Select the plan you need, or the free plan to cancel your subscription.
 - Click on Downgrade to take effect.
@@ -47,7 +45,7 @@ To downgrade a project's supercharged plan:
 
 If your payment method has changed, or you wish to add more information to the invoices, then you may update your billing details by:
 
-- Open Project Settings → **Plan & Usage**.
+- Open Project Settings → **Plan \& Usage**.
 - Click **Manage plan** {% icon classes="fas fa-sync-alt" /%}.
 - In the bottom right corner, click **View invoices / Update card**.
 - You will be taken to the payment provider's portal to make the changes needed.
@@ -56,7 +54,7 @@ If your payment method has changed, or you wish to add more information to the i
 
 To view all invoices that you have paid:
 
-- Open Project Settings → **Plan & Usage**.
+- Open Project Settings → **Plan \& Usage**.
 - Click **Manage plan** {% icon classes="fas fa-sync-alt" /%}.
 - In the bottom right corner, click **View invoices / Update card**.
 - You will be taken to the payment provider's portal to view the invoices.

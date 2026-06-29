@@ -23,34 +23,449 @@ Each teammate can have one of the four user roles that we support. The roles are
 
 A breakdown of the permissions is detailed below:
 
-{% table %}
-| Role | Admin | Publisher | Writer | Reviewer | 
-| ---- | ---- | ---- | ---- | ---- | 
-| Read draft and published pages | ✅ | ✅ | ✅ | ✅ | 
-| See page history | ✅ | ✅ | ✅ | ✅ | 
-| Comment on pages | ✅ | ✅ | ✅ | ✅ | 
-| View teammates | ✅ | ✅ | ✅ | ✅ | 
-| Download PDF export | ✅ | ✅ | ✅ | ✅ | 
-| Create/edit page drafts | ✅ | ✅ | ✅ | ❌ | 
-| Create/edit API references drafts | ✅ | ✅ | ✅ | ❌ | 
-| Create [synced blocks](/support-center/synced-blocks) | ✅ | ✅ | ✅ | ❌ | 
-| Create unpublished documentation section | ✅ | ✅ | ✅ | ❌ | 
-| Delete pages | ✅ | ✅ | ❌ | ❌ | 
-| Create/delete/publish versions | ✅ | ✅ | ❌ | ❌ | 
-| Publish/delete documentation sections | ✅ | ✅ | ❌ | ❌ | 
-| Publish/delete API references | ✅ | ✅ | ❌ | ❌ | 
-| Modify documentation, API references and versions settings | ✅ | ✅ | ❌ | ❌ | 
-| Edit/archive [synced blocks](/support-center/synced-blocks) | ✅ | ✅ | ❌ | ❌ | 
-| Publish pages | ✅ | ✅ | ❌ | ❌ | 
-| Import/export project | ✅ | ✅ | ❌ | ❌ | 
-| Generate PDF export/permalink | ✅ | ✅ | ❌ | ❌ | 
-| Change project variables | ✅ | ✅ | ❌ | ❌ | 
-| Lock/unlock versions | ✅ | ✅ | ❌ | ❌ | 
-| Change plan | ✅ | ✅ | ❌ | ❌ | 
-| Manage teammates | ✅ | ❌ | ❌ | ❌ | 
-| Change project settings | ✅ | ❌ | ❌ | ❌ | 
-| Create/view/revoke API key | ✅ | ❌ | ❌ | ❌ | 
-| Delete project | Owner only | ❌ | ❌ | ❌ | 
+{% table layout="auto" %}
+{% row %}
+{% cell header=true %}
+Role
+{% /cell %}
+{% cell header=true %}
+Admin
+{% /cell %}
+{% cell header=true %}
+Publisher
+{% /cell %}
+{% cell header=true %}
+Writer
+{% /cell %}
+{% cell header=true %}
+Reviewer
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Read draft and published pages
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+See page history
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Comment on pages
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+View teammates
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Download PDF export
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Create/edit page drafts
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Create/edit API references drafts
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Create [synced blocks](/support-center/synced-blocks)
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Create unpublished documentation section
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Delete pages
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Create/delete/publish versions
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Publish/delete documentation sections
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Publish/delete API references
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Modify documentation, API references and versions settings
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Edit/archive [synced blocks](/support-center/synced-blocks)
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Publish pages
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Import/export project
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Generate PDF export/permalink
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Change project variables
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Lock/unlock versions
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Change plan
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Manage teammates
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Change project settings
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Create/view/revoke API key
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Delete project
+{% /cell %}
+{% cell %}
+Owner only
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% /row %}
 {% /table %}
 
 ## Setting up Teammates
@@ -66,8 +481,7 @@ If they are not already a user, an e-mail message will be sent to the e-mail add
 
 If they are already a user, an e-mail message will be sent to their e-mail address to notify them that they can collaborate on this project. They will be automatically added and no prompt is required from them.
 
-{% image url="https://image-archive.developerhub.io/image/upload/1253/e5ol2cjcrgu1fxwni98j/1598785884.png" mode="responsive" height="532" width="618" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/fiw1hrnfsvas5rrl7930dplahylr601j9iv4wk11cykq6dpa92aggsrbg7420um9.png" /%}
 
 ## Remove a Teammate
 
@@ -91,6 +505,6 @@ To move ownership to another teammate:
 Once you transfer ownership, you cannot take it back unless if the new owner transfers it back to you.
 {% /callout %}
 
-{% callout type="info" title="Invoicing is not connected to ownership" %}
+{% callout title="Invoicing is not connected to ownership" %}
 If you have a supercharged plan, then the invoice by default would be sent to the e-mail address of the user who purchased the plan, not the owner. If you wish to modify the e-mail used for receiving invoices, check [Changing Payment/Billing Details](/support-center/supercharged-plans#changing-paymentbilling-details).
 {% /callout %}

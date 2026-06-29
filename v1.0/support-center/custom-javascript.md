@@ -26,7 +26,7 @@ To customise HEAD tags:
 - Open Project Settings → **Customisation**.
 - In the Custom code card, click **Edit HEAD tags**.
 - Enter the custom tags as you would in HTML, then click **Save draft** in the top menu. This will save the HTML in draft mode, so you can test it out.
-- To publish it to readers, click **Save & publish**.
+- To publish it to readers, click **Save \& publish**.
 - To discard the draft changes, click **Revert**.
 
 All custom tags will only run in live mode, and will not load in editor mode.
@@ -36,7 +36,7 @@ All custom tags will only run in live mode, and will not load in editor mode.
 Tags should be added fully as they would exist in HEAD, such as:
 
 {% code %}
-{% tab language="markup" title="HTML" %}
+```markup {% title="HTML" %}
 <!-- Script to install jquery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
@@ -52,10 +52,10 @@ Tags should be added fully as they would exist in HEAD, such as:
 
 <!-- Add meta such as OpenGraph title -->
 <meta property="og:title" content="X Documentation">
-{% /tab %}
+```
 {% /code %}
 
-Do not add any `<body>`, `<html>` or other tags that do not naturally exist in HEAD. 
+Do not add any `<body>`, `<html>` or other tags that do not naturally exist in HEAD.
 
 {% callout type="warning" title="Warning" %}
 Do not use async or defer in your scripts. Scripts will be loaded async regardless.
@@ -70,7 +70,7 @@ To ensure compatibility with all browsers, do not add any scripts that contain a
 By adding scripts, you can do more with your documentation:
 
 - Install third party services for tracking, analysing, interacting with your readers.
-- Create scripts that interact with [auto$](/support-center/custom-html) in the pages or [Custom Landing Page](/support-center/custom-landing-page).
+- Create scripts that interact with [Custom HTML](/support-center/custom-html) in the pages or [Custom Landing Page](/support-center/custom-landing-page).
 - Add javascript redirection rules.
 - Add your own icon set using CSS.
 - Enhance your [SEO](/support-center/seo) by adding the relevant META tags to your business.
@@ -85,14 +85,14 @@ There are several events that are triggered by %product% which can help you achi
 To listen to when a project loads, which is also when most elements of the page also are loaded, you may listen to a custom event on document called `onprojectloaded`. An example:
 
 {% code %}
-{% tab language="markup" %}
+```markup
 <script>
 	document.addEventListener('onprojectloaded', function () {
     const topnav = document.querySelector(".topnav"); // .topnav is loaded at this time, probably not before this.
     topnav.classList.add('wide');
   });
 </script>
-{% /tab %}
+```
 {% /code %}
 
 If you are aiming at modifying the top navigation, then you should use this event.
@@ -106,7 +106,7 @@ Because %product% is a single page application, `document.onload` has no effect 
 To listen to when a section (landing page, documentation) changes, you may listen to a custom event on document called `onsectionchange`. An example:
 
 {% code %}
-{% tab language="markup" %}
+```markup
 <script>
 	document.addEventListener('onsectionchange', function (event) {
         switch (event.detail.type) {
@@ -122,7 +122,7 @@ To listen to when a section (landing page, documentation) changes, you may liste
             }
     });
 </script>
-{% /tab %}
+```
 {% /code %}
 
 If the section changed is a documentation, then the indices are also listed.
@@ -132,13 +132,13 @@ If the section changed is a documentation, then the indices are also listed.
 To listen to when a page changes, you may listen to a custom event on document called `onpagechange`. An example:
 
 {% code %}
-{% tab language="markup" %}
+```markup
 <script>
 	document.addEventListener('onpagechange', function (event) {
         console.log(event.detail.slug); // e.g. getting-started
     });
 </script>
-{% /tab %}
+```
 {% /code %}
 
 ### Redirection Rules
@@ -146,7 +146,7 @@ To listen to when a page changes, you may listen to a custom event on document c
 Using Custom JS, you can setup front-end redirection rules. For example, if you want to redirect one of your projects which has semantic versioning less than 1.0 to another, you might want to use something like this:
 
 {% code %}
-{% tab language="markup" %}
+```markup
 <script>
 	const redirectDocs = function() {
 		const regex = /^\/([0-9\.]+)\//i;
@@ -163,13 +163,13 @@ Using Custom JS, you can setup front-end redirection rules. For example, if you 
 
 	redirectDocs();	
 </script>
-{% /tab %}
+```
 {% /code %}
 
 Or if you have changed a documentation slug, then you might want to redirect to the new slug:
 
 {% code %}
-{% tab language="markup" %}
+```markup
 <script>
 	const redirectDocs = function() {
 		const oldDoc = "/old-doc-slug";
@@ -181,7 +181,7 @@ Or if you have changed a documentation slug, then you might want to redirect to 
 	}
 	redirectDocs();	
 </script>
-{% /tab %}
+```
 {% /code %}
 
 If you need more powerful redirection rules, then check [server-side 301 redirect rules](/support-center/url-redirects).

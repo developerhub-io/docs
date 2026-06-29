@@ -34,7 +34,7 @@ If your documentation has a long index, you might want to consider setting the i
 - Select the documentation.
 - Check "Can parent pages indices collapse?" option.
 
-{% callout type="info" title="Only in live mode" %}
+{% callout title="Only in live mode" %}
 The index will always be expanded in edit mode. This setting only has an effect in live mode.
 {% /callout %}
 
@@ -48,7 +48,7 @@ To change this behaviour and allow categories to be collapsed:
 - Select the documentation.
 - Check "Can categories collapse?"
 
-{% callout type="info" title="Manually Toggle Categories?" %}
+{% callout title="Manually Toggle Categories?" %}
 If you want the categories to be manually toggle-able, add a [HEAD tag](/support-center/custom-javascript) containing a script with `window.settings.categoryToggle = true`.
 {% /callout %}
 
@@ -58,10 +58,9 @@ To enable your readers to see who updated the page last, and when was it updated
 
 - Open Manage Sections (section menu → settings {% icon classes="fas fa-cog" /%} cog).
 - Select the documentation.
-- Change "Show page last updated?" to one of **Disabled**, **Date & author** or **Date only**.
+- Change "Show page last updated?" to one of **Disabled**, **Date \& author** or **Date only**.
 
-{% image url="https://image-archive.developerhub.io/image/upload/12016/fzm4ex8ao3vkbo84hlht/1585424716.jpg" mode="responsive" height="443" width="839" %}
-{% /image %}
+{% image url="https://uploads.developerhub.io/prod/02/sikovrv4yiiqxll4dxd0epki60e1wgzg5n9ks5j1nfk72w8br32m5tsnv40ptvwc.jpg" /%}
 
 ## Copy Documentation to Version
 
