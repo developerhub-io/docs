@@ -29,7 +29,7 @@ Project Settings is organised into groups. Each group contains panes:
 - **Insights**: Dashboard view (activity, drafts, comments, feedback).
 - **Hosting**: Subdomain, custom domain, base path, SSL, search-engine indexing, redirects, server headers.
 - **Customisation**: Logo, favicon, top navigation links, colours, font, theme, [Custom CSS](/support-center/custom-css), [Custom Footer](/support-center/custom-footer), [HEAD tags](/support-center/custom-javascript).
-- **Access**: [Password](/support-center/password-protection), [email](/support-center/email-invite), [SSO](/support-center/reader-single-sign-on) and [JWT](/support-center/custom-login) access.
+- **Access**: [Password](/support-center/private-docs#password-protect-set-up), [email](/support-center/email-invite), [SSO](/support-center/reader-single-sign-on) and [JWT](/support-center/custom-login) access.
 - **Content**: [Glossary](/support-center/glossary), [Navigation Groups](/support-center/top-navigation-bar#navigation-structure), [Project Variables](/support-center/variables), [Page Tags](/support-center/tags), [Audiences](/support-center/conditional-content).
 - **Developers**: [API Keys](/support-center/api-key), [Integrations](/support-center/integrations) (Slack, GitHub, Intercom, Google Analytics), [AI Features](/support-center/ai-features).
 - **Team**: [Invite teammates, change roles, transfer ownership](/support-center/collaboration).
