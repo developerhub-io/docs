@@ -34,7 +34,7 @@ To add a new post to the changelog, click on New Post. Each post has a label, a 
 
 ## Creating Posts Programmatically
 
-You can also create and list changelog posts through the [API](/v1.0/api/ref), or with the [CLI](/support-center/cli) using `changelog create` and `changelog list`. This is useful for publishing release notes automatically from your CI/CD pipeline.
+You can also create and list changelog posts through the [API](/v1.0/api/ref). This is useful for publishing release notes automatically from your CI/CD pipeline.
 
 ## RSS Feed
 
