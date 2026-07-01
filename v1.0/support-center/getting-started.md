@@ -16,6 +16,8 @@ tags:
 </div>
 {% /html %}
 
+{% p /%}
+
 Welcome %user.name% to our *Supercharged* documentation which has been written using %product%.
 
 Learn how to use %product% in our step-by-step guide:
