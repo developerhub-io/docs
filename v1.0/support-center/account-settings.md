@@ -20,7 +20,7 @@ Account Settings is organised into panes:
 - **Preferences**: notification settings and [live markdown rendering](/support-center/using-markdown#disable-live-markdown-rendering).
 - **Danger zone**: delete your account.
 
-Your referral code lives under the Security (Password) pane. See [Referrals](/support-center/referrals).
+Your referral code lives under the Security (Password) pane.
 
 ## Using Passkeys
 
