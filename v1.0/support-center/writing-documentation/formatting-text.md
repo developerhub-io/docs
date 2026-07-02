@@ -20,7 +20,7 @@ There are three ways to format your text:
 
 To format text in your documentation, highlight with your cursor the chunk of text you want to format. A toolbar like this one will show.
 
-{% image url="https://uploads.developerhub.io/prod/02/mvbg9tjyq16d4i2biewisgsl5p5v91lkwsa8xiflmnftg15tz5z6406laqhkq0jq.png" /%}
+{% image url="asset:g9xvq21zn6y2" width=556 /%}
 
 Using the toolbar you can do the following:
 
@@ -39,17 +39,11 @@ And you can use the [AI Writer](/support-center/ai-writer).
 
 ## Tips \& Tricks
 
-### HTML in Text
-
-If you need to write down text that contains HTML tags, then you can do so if it is inserted as line code, as such:
-
-`<body><p>Hey</p></body>`.
-
 ### Ordered List Numbering
 
 In case you interrupt the ordering of a list by adding a [block](/support-center/blocks), you can resume the ordering by typing on a new line the number, dot and a space, such as `5. `.
 
-Furthermore, you can right-click on the number of the first item in an ordered list to change it.
+Furthermore, you can click on an ordered list's drag handle to set the start numbering.
 
 ---
 
