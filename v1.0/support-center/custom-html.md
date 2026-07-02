@@ -1,23 +1,23 @@
 ---
 type: page
-title: Custom HTML
+title: HTML Block
 listed: true
 slug: custom-html
 description: 
-index_title: Custom HTML
+index_title: HTML Block
 hidden: 
 keywords: 
 tags: blocks
 ---
 
-Custom HTML block allows you to add anything on the web to your documentation pages.
+HTML block allows you to add anything on the web to your documentation pages.
 
-To create a Custom HTML block:
+To create a HTML block:
 
 {% synced id="open-block-menu" /%}
 
-- Select Custom HTML {% icon classes="fas fa-window-maximize" /%}
-- Type the HTML. See [How to use Custom HTML?](/support-center/custom-html#how-to-use-custom-html)
+- Select HTML {% icon classes="fas fa-window-maximize" /%}
+- Type the HTML. See [How to use HTML Block?](/support-center/custom-html#how-to-use-html-block)
 - Click on Apply, or press {% key key="⌘" /%} / {% key key="Ctrl" /%} + {% key key="Enter" /%}.
 
 Inside the HTML editor, {% key key="Tab" /%} and {% key key="⇧" /%} + {% key key="Tab" /%} indent and outdent the current line so you can keep your markup tidy.
@@ -30,9 +30,9 @@ Never inject code that you did not inspect yourself.
 
 We already have Bootstrap 4.1 and FontAwesome 5 Free loaded which you can use.
 
-## How to use Custom HTML?
+## How to use HTML Block?
 
-With Custom HTML, there are two modes available:
+With HTML block, there are two modes available:
 
 - When the HTML is simple, it is rendered in the page directly (body), without an iFrame, example HTML code:
 
@@ -48,7 +48,7 @@ With Custom HTML, there are two modes available:
 
 For this mode, you can use inline styling. You should not add any `<body>` or `<html>` tags as the content is already rendered inside a `<body>` tag. If you wish to style the elements, then you can use [Custom CSS](/support-center/custom-css) to create new classes which you can apply to the elements here.
 
-## iFrame in Custom HTML
+## iFrame in HTML Block
 
 For security, when the HTML includes scripts or styles, it is rendered in an iFrame inside the page. For example, such code would be rendered inside an iFrame:
 
@@ -79,7 +79,7 @@ Simple HTML that renders directly in the page shares your docs' Content Security
 
 ## Resizing Dynamic iFrames
 
-If your Custom HTML is getting embedded in an iFrame, and the iFrame dynamically adds elements to the body which causes the height to be limited and the scrollbars to show, then you can instruct the iFrame to resize by using:
+If your HTML block is getting embedded in an iFrame, and the iFrame dynamically adds elements to the body which causes the height to be limited and the scrollbars to show, then you can instruct the iFrame to resize by using:
 
 {% code %}
 ```javascript
