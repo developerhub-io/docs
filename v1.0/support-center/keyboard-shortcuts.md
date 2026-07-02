@@ -50,6 +50,17 @@ Publish page
 {% /row %}
 {% row %}
 {% cell %}
+{% key key="⌘" /%} + {% key key="B" /%}
+{% /cell %}
+{% cell %}
+{% key key="Ctrl" /%} + {% key key="B" /%}
+{% /cell %}
+{% cell %}
+Bold text
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
 {% key key="⌘" /%} + {% key key="I" /%}
 {% /cell %}
 {% cell %}
@@ -61,13 +72,24 @@ Italicise text
 {% /row %}
 {% row %}
 {% cell %}
-{% key key="⌘" /%} + {% key key="B" /%}
+{% key key="⌘" /%} + {% key key="U" /%}
 {% /cell %}
 {% cell %}
-{% key key="Ctrl" /%} + {% key key="B" /%}
+{% key key="Ctrl" /%} + {% key key="U" /%}
 {% /cell %}
 {% cell %}
-Bold text
+Underline text
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+{% key key="⌘" /%} + {% key key="⌥" /%} + {% key key="1" /%}
+{% /cell %}
+{% cell %}
+{% key key="Ctrl" /%} + {% key key="Alt" /%} + {% key key="1" /%}
+{% /cell %}
+{% cell %}
+Heading 1
 {% /cell %}
 {% /row %}
 {% row %}
@@ -173,104 +195,20 @@ View all keyboard shortcuts
 {% /row %}
 {% row %}
 {% cell %}
-{% key key="⇧" /%} + Click
-{% /cell %}
-{% cell %}
-{% key key="⇧" /%} + Click
-{% /cell %}
-{% cell %}
-Opens internal link when editing
-{% /cell %}
-{% /row %}
-{% row %}
-{% cell %}
-{% key key="⌥" /%} + 1
-{% /cell %}
-{% cell %}
-{% key key="Alt" /%} + 1
-{% /cell %}
-{% cell %}
-Switch to Dashboard
-{% /cell %}
-{% /row %}
-{% row %}
-{% cell %}
-{% key key="⌥" /%} + 2
-{% /cell %}
-{% cell %}
-{% key key="Alt" /%} + 2
-{% /cell %}
-{% cell %}
-Switch to Landing Page
-{% /cell %}
-{% /row %}
-{% row %}
-{% cell %}
-{% key key="⌥" /%} + 3
-{% /cell %}
-{% cell %}
-{% key key="Alt" /%} + 3
-{% /cell %}
-{% cell %}
-Switch to Version
-{% /cell %}
-{% /row %}
-{% row %}
-{% cell %}
-{% key key="⌥" /%} + 4
-{% /cell %}
-{% cell %}
-{% key key="Alt" /%} + 4
-{% /cell %}
-{% cell %}
-Switch to Documentation
-{% /cell %}
-{% /row %}
-{% row %}
-{% cell %}
-{% key key="⌥" /%} + 5
-{% /cell %}
-{% cell %}
-{% key key="Alt" /%} + 5
-{% /cell %}
-{% cell %}
-Switch to Reference
-{% /cell %}
-{% /row %}
-{% row %}
-{% cell %}
-{% key key="⌥" /%} + 6
-{% /cell %}
-{% cell %}
-{% key key="Alt" /%} + 6
-{% /cell %}
-{% cell %}
-Switch to Project
-{% /cell %}
-{% /row %}
-{% row %}
-{% cell %}
-{% key key="⌥" /%} + 7
-{% /cell %}
-{% cell %}
-{% key key="Alt" /%} + 7
-{% /cell %}
-{% cell %}
-Switch to Team
-{% /cell %}
-{% /row %}
-{% row %}
-{% cell %}
 {% key key="^" /%} + {% key key="⇧" /%} + D
 {% /cell %}
 {% cell %}
 {% key key="Ctrl" /%} + {% key key="⇧" /%} + D
 {% /cell %}
 {% cell %}
-When in reader mode, open the page in editor. When in editor mode, open the page in reader site.
+When in reader mode, open the page in the editor. When in editor mode, open the page in the reader site. The other mode opens in a new tab.
 {% /cell %}
 {% /row %}
 {% /table %}
+
+{% callout title="Typing an arrow" %}
+Type `-->` to turn it into `→`, or `<--` to turn it into `←`.
+{% /callout %}
 
 ### More shortcuts?
 

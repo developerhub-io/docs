@@ -58,8 +58,8 @@ Fragment can only contain alphanumeric characters and hyphens.
 We do not monitor changes to the headings/operations. If a heading/operation is changed, then you should create the link again.
 {% /callout %}
 
-{% callout title="Keyboard Shortcut" %}
-Did you know that you can follow the link when in editor mode by holding Shift +  ⇧  and clicking on the link?
+{% callout title="Following a link" %}
+To open a link's target while editing, click the link to bring up its toolbar, then use the open control. A modifier-click (such as {% key key="⌘" /%} / {% key key="Ctrl" /%} or {% key key="⇧" /%}) opens it in a new tab.
 {% /callout %}
 
 ## Analyse Links

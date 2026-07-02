@@ -10,7 +10,7 @@ keywords:
 tags: blocks
 ---
 
-%product% tables consists of a header row and data rows.
+%product% tables consist of a header row and data rows.
 
 To create a table:
 
@@ -71,17 +71,21 @@ int
 
 To view the table options, right-click on a cell of the table. You will be able to:
 
-- Insert column left {% icon classes="fas fa-plus" /%}
-- Insert column right {% icon classes="fas fa-plus" /%}
-- Delete column {% icon classes="fas fa-times" /%}
-- Duplicate column {% icon classes="fas fa-clone" /%}
-- Insert row above {% icon classes="fas fa-plus" /%}
-- Insert row below {% icon classes="fas fa-plus" /%}
-- Delete row {% icon classes="fas fa-times" /%}
-- Duplicate row {% icon classes="fas fa-clone" /%}
-- Reorder rows and columns {% icon classes="fas fa-caret-up" /%} {% icon classes="fas fa-caret-down" /%} {% icon classes="fas fa-caret-left" /%} {% icon classes="fas fa-caret-right" /%}
+- **Insert column left** or **Insert column right**.
+- **Insert row above** or **Insert row below**.
+- **Duplicate row** or **Duplicate column**, which inserts a copy next to the current one.
+- **Merge cells**, or **Split cell** to break a merged cell back apart.
+- Set a **Colour** for the cell from the swatches, or **Clear colour**.
+- Align the cell contents left, centre or right.
+- **Toggle header row** on or off.
+- Switch the table between **auto layout** and **fixed layout**.
+- **Delete row** or **Delete column**.
 
-Note: You can also add new rows to the end by tapping {% key key="Tab" /%} key.
+To remove an entire table, hover over it and open the block's menu from the drag handle on its left, then delete the block.
+
+## Reordering Rows and Columns
+
+Hover over the table to reveal a small grip handle above each column and to the left of each row. Grab a handle and drag it to move that column or row to a new position. A guide line shows where it will land as you drag.
 
 ## Resizing Columns
 

@@ -41,6 +41,7 @@ And the following inline blocks. Inline blocks go on the same line as text. %pro
 {% card title="Link to Page" text="Internal dynamic linking" link="/support-center/page-linking" /%}
 {% card title="Variables" text="Personalise documentation" link="/support-center/variables" /%}
 {% card title="Glossary" text="Define terms and definitions" link="/support-center/glossary" /%}
+{% card title="Inline Images" text="Small images that sit within a line of text" link="/support-center/inline-images" /%}
 {% card title="Badges" text="Highlight text or use it for changelogs" link="/support-center/badges" /%}
 {% card title="Icons" text="Font awesome icons" link="/support-center/icons" /%}
 {% card title="Keyboard Keys" text="UI for keyboard keys" link="/support-center/keyboard-keys" /%}
@@ -52,7 +53,4 @@ We have support for emojis everywhere, so if you felt the need to express using 
 
 ## Adding Empty Line around Blocks
 
-To add an empty line above or below a block:
-
-- Hover over or under the centre of the block. An arrow {% icon classes="far fa-caret-square-down" /%} would show.
-- Click on the arrow to add an empty line.
+To add an empty line above a block, hover over it and click the **+** button that appears to its left.

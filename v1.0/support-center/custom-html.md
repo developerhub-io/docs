@@ -18,7 +18,9 @@ To create a Custom HTML block:
 
 - Select Custom HTML {% icon classes="fas fa-window-maximize" /%}
 - Type the HTML. See [How to use Custom HTML?](/support-center/custom-html#how-to-use-custom-html)
-- Click on Apply.
+- Click on Apply, or press {% key key="⌘" /%} / {% key key="Ctrl" /%} + {% key key="Enter" /%}.
+
+Inside the HTML editor, {% key key="Tab" /%} and {% key key="⇧" /%} + {% key key="Tab" /%} indent and outdent the current line so you can keep your markup tidy.
 
 {% callout type="warning" title="Injection Warning" %}
 Never inject code that you did not inspect yourself.
@@ -70,6 +72,10 @@ For security, when the HTML includes scripts or styles, it is rendered in an iFr
 {% /code %}
 
 When using an iFrame, no pre-existing CSS would load, including CSS from [Custom CSS](/support-center/custom-css) or any third party library. Apply your own CSS rules.
+
+{% callout title="Content Security Policy" %}
+Simple HTML that renders directly in the page shares your docs' Content Security Policy. If you serve your docs with a strict CSP, make sure it allows the sources your embed loads from (scripts, styles, fonts or frames), otherwise the browser will block them.
+{% /callout %}
 
 ## Resizing Dynamic iFrames
 

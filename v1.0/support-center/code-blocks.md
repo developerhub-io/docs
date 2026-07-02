@@ -302,10 +302,7 @@ paths:
 ```
 {% /code %}
 
-You may use the widely adopted keyboard shortcuts in a code block to expand or collapse:
-
-- Expand: {% key key="Ctrl" /%} + {% key key="I" /%}
-- Collapse: {% key key="Ctrl" /%} + {% key key="Y" /%}
+To fold or unfold a section yourself, click the fold arrows in the gutter to the left of the code.
 
 ## Show Line Numbers
 

@@ -43,9 +43,13 @@ AI Writer is disabled by default and must be enabled by an admin. To enable the 
 
 To use AI Writer, simply highlight the text within your documentation pages. A hovering formatting toolbar will appear, allowing you to access AI-powered features. Click on **AI Tools** and select the desired function.
 
-Once a function is selected, the text will enter a loading state, indicated by a yellow highlight, while AI Writer processes your request. Once the response is generated, the updated text will appear automatically.
+AI Writer streams its response straight into the page, shown in a distinct colour while it works. When it finishes, a small bar gives you three choices:
 
-If the generated response does not meet your expectations, you can quickly revert to the original text by undoing. This ensures you have full control over your content and can refine it until it aligns with your needs.
+- **Apply**: accept the suggestion and replace your original text.
+- **Try again**: run the same function again for a different result.
+- **Discard**: dismiss the suggestion and keep your original text.
+
+Nothing is changed until you click **Apply**, so you stay in full control of your content.
 
 ## AI Writer Limitations
 

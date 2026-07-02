@@ -10,7 +10,17 @@ keywords:
 tags: 
 ---
 
-Writing documentation on %product% cannot be any easier. In your editor pages, click anywhere on the text in your documentation and start writing down. You can even use [the AI Writer](/support-center/ai-writer) to help you craft the best content. Everything in the editor will be shown to you just as your readers - no split view.
+Writing documentation on %product% cannot be any easier. In your editor pages, click anywhere on the text in your documentation and start writing down. You can even use [the AI Writer](/support-center/ai-writer) to help you craft the best content. Everything in the editor will be shown to you just as your readers, so there is no split view and no separate preview to keep in sync.
+
+## Editing
+
+The editor works in place: what you see is what your readers get. Three things are worth knowing to get around quickly.
+
+- **Add a block.** Type {% key key="/" /%} on an empty line to open the insert menu, then search for and pick the block you want (a callout, image, table, code block and more). See [blocks](/support-center/blocks) for the full list.
+- **Format text.** Select any text to bring up the formatting toolbar. From there you can make text **bold**, *italic*, underlined, struck through or `inline code`, turn the block into a heading or list with **Turn into**, add a [link](/support-center/page-linking), or leave a [comment](/support-center/comments).
+- **Move or change a block.** Hover over a block and use the drag handle to its left to move it, or open the handle's menu for more options such as deleting the block.
+
+You can also drop in [links](/support-center/page-linking), [variables](/support-center/variables) and [glossary terms](/support-center/glossary) inline by typing `@`, `%` or `<`.
 
 ## Page Sections
 

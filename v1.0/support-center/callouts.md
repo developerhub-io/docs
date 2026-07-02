@@ -22,14 +22,16 @@ To create a callout:
 
 Callouts have the following types:
 
-- Success
 - Info
 - Warning
+- Success
 - Error
+
+To change a callout's type, click its icon and pick the type you want. The colour updates to match.
 
 ## Fields
 
-Callouts have editable title and contents.
+A callout has an optional title and its contents. Use **Add title** to show the title row, or **Remove title** to hide it and keep just the body.
 
 ## Callout Example
 
