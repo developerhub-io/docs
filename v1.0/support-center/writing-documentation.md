@@ -12,6 +12,8 @@ tags:
 
 Writing documentation on %product% cannot be any easier. In your editor pages, click anywhere on the text in your documentation and start writing down. You can even use [the AI Writer](/support-center/ai-writer) to help you craft the best content. Everything in the editor will be shown to you just as your readers, so there is no split view and no separate preview to keep in sync.
 
+{% image url="asset:rsp05rc3s5yb" /%}
+
 ## Editing
 
 The editor works in place: what you see is what your readers get. Three things are worth knowing to get around quickly.
