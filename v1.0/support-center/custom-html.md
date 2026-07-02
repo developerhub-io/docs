@@ -226,14 +226,18 @@ Generated this Gist by:
 ### PDF Reader
 
 {% html %}
-<div style="text-align: center"><iframe src="https://drive.google.com/viewerng/viewer?url=https://s3-eu-west-1.amazonaws.com/dh-misc-z/test-pdf.pdf&embedded=true" width="80%" height="390" style="border: none; left: calc(100%-150px);"></iframe></div>
+<div style="text-align: center">
+  <iframe src="https://s3-eu-west-1.amazonaws.com/dh-misc-z/test-pdf.pdf#toolbar=0&view=Fit" width="100%" height="600" style="border: none;"></iframe>
+</div>
 {% /html %}
 
 Generate this PDF Reader by:
 
 {% code %}
 ```markup
-<div style="text-align: center"><iframe src="https://drive.google.com/viewerng/viewer?url=https://s3-eu-west-1.amazonaws.com/dh-misc-z/test-pdf.pdf&embedded=true" width="80%" height="390" style="border: none; left: calc(100%-150px);"></iframe></div>
+<div style="text-align: center">
+  <iframe src="https://s3-eu-west-1.amazonaws.com/dh-misc-z/test-pdf.pdf#toolbar=0&view=Fit" width="80%" height="600" style="border: none;"></iframe>
+</div>
 ```
 {% /code %}
 
