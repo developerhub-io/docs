@@ -16,7 +16,7 @@ The following page was written partly by AI Writer.
 
 AI Writer is a powerful tool designed to assist you with routine writing tasks and content brainstorming. Whether you’re looking to refine your text, enhance readability, or generate new ideas, AI Writer can help streamline the process efficiently.
 
-{% image url="https://uploads.developerhub.io/prod/02/juxnayqn31312o9m4271khzrepblhwrwooadcaax3i6tguwxv185oh4q1tt1x4rt.gif" /%}
+{% video provider="raw" videoId="https://uploads.developerhub.io/prod/02/z8xlri6ihst36627hnbt10vbvv22z1sfxmnsij4p04hj1hov1wtsx8e84usya19l.mp4" /%}
 
 ## AI Writer features
 
@@ -40,8 +40,6 @@ AI Writer is disabled by default and must be enabled by an admin. To enable the 
 - Refresh the page for changes to apply.
 
 ## Using AI Writer
-
-To use AI Writer, simply highlight the text within your documentation pages. A hovering formatting toolbar will appear, allowing you to access AI-powered features. Click on **AI Tools** and select the desired function.
 
 AI Writer streams its response straight into the page, shown in a distinct colour while it works. When it finishes, a small bar gives you three choices:
 
