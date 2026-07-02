@@ -32,6 +32,8 @@ To create a link between pages, type `@` to open the pages selector.
 
 A list of all pages under the version will be listed for you to choose from. Search through the list by typing down the page name or slug. To select a page, click on its name in the list. If you are selecting an API Reference, then you'll find the title of the API Reference.
 
+Alternatively, you can also link to an internal page by highlighting text and clicking on the link icon.
+
 {% callout title="External vs Page link" %}
 External links in the editor show with a top-right pointing arrow so you can tell them apart from page links. The arrow will not show in live mode.
 {% /callout %}
