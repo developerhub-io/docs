@@ -28,9 +28,7 @@ When a page is linked inside a version:
 
 To create a link between pages, type `@` to open the pages selector.
 
-{% image url="https://uploads.developerhub.io/prod/02/kf6unx2cloets13zb93tf93cholub4q1cvs9gjt8lcwpt1i1323trusuun4t173y.gif" width=600 %}
-Pages selector open
-{% /image %}
+{% image url="asset:wdg3e43i77vv" /%}
 
 A list of all pages under the version will be listed for you to choose from. Search through the list by typing down the page name or slug. To select a page, click on its name in the list. If you are selecting an API Reference, then you'll find the title of the API Reference.
 
@@ -40,13 +38,9 @@ External links in the editor show with a top-right pointing arrow so you can tel
 
 ## Changing Link Title/Specifying Heading
 
-After selecting the page, you will be prompted to change the link text (title) and optionally to link to a specific heading if you selected a page, or link to a specific operation if you selected an API reference.
+After selecting the page, you will be prompted to optionally link to a specific heading if you selected a page, or link to a specific operation if you selected an API reference.
 
-**Note**: If you do not specify a title, then the title will *automatically* update whenever the linked page title changes. For example, if you linked to page "Getting Started", and then you modified "Getting Started" page title into "Welcome", then the link text will automatically change to "Welcome".
-
-{% image url="https://uploads.developerhub.io/prod/02/78pl37gpanmd2ml1pckb4zj0i7z5p2748zkwxlqaj99bvb9ocvsu00nrx7rwjprm.jpg" %}
-Changing link title and specifying heading
-{% /image %}
+{% image url="asset:izhgztn8ajwh" /%}
 
 If you want to jump to a certain heading in a page, you can specify it. Start typing to find a heading in the page you selected, or click on the arrow to view all. Leaving **Heading** empty will default to jumping to the title of the page. The same goes for API references, where you can select a specific operation to jump to.
 
@@ -59,7 +53,7 @@ We do not monitor changes to the headings/operations. If a heading/operation is 
 {% /callout %}
 
 {% callout title="Following a link" %}
-To open a link's target while editing, click the link to bring up its toolbar, then use the open control. A modifier-click (such as {% key key="⌘" /%} / {% key key="Ctrl" /%} or {% key key="⇧" /%}) opens it in a new tab.
+To open a link's target while editing, click the link to bring up its toolbar, then use the open control or hit {% key key="⇧" /%} while clicking on it. A modifier-click (such as {% key key="⌘" /%} / {% key key="Ctrl" /%} or {% key key="⇧" /%}) opens it in a new tab.
 {% /callout %}
 
 ## Analyse Links
@@ -72,11 +66,12 @@ Analysing links helps you understand the links that are:
 
 ## Listing Broken Links
 
-If a link between pages or references is unreachable, then you will be notified below the page title of the link analysis results. Link analysis runs automatically every time a page loads.
+If a page contains links with issues, a badge will appear next to the page actions in the navigation bar. Link analysis runs automatically every time a page loads.
 
-{% image url="https://uploads.developerhub.io/prod/02/5hkvxafayenzwmuf79oo94uc2ha9lhocfkc7jspmlg3y5nmfp9kh0pr4l4l621jv.jpg" %}
-Broken link notification
-{% /image %}
+Links with issues are also underlined in the editor:
+
+- Orange underline indicates a warning or lower-severity issue.
+- Red underline indicates a higher-severity issue (for example, a broken or unreachable link).
 
 ### Analyse Links for Entire Version
 
@@ -86,7 +81,7 @@ You can analyse all links in a version at once by:
 - Select the version.
 - In the Lifecycle card, click **Check broken links**.
 
-{% image url="https://uploads.developerhub.io/prod/02/l6ai84yx1otyv04k7z51eodgqap3ebyi4orv9c14ixlfwy2clv9iuiq75o1xf8ia.jpg" /%}
+{% image url="asset:xsxgwvgrfw4b" /%}
 
 ### View Broken Links in a Page
 
@@ -101,8 +96,10 @@ Link issues in the Links tab
 
 Every broken link will show you the title and the heading (if any) that it had before breaking. The list also shows the current text of the link so you are able to find it and fix it.
 
+Under **Link issues**, click an issue to view the link it refers to.
+
 {% callout title="404 Page" %}
-All broken page links will have the HREF of "/-" which leads to a 404 page.
+Broken page links lead to [404 Page](/support-center/landing-page#404-page).
 {% /callout %}
 
 {% callout title="Only Internal Links" %}
