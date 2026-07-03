@@ -10,7 +10,7 @@ keywords:
 tags: 
 ---
 
-We have tested on the following browsers:
+We support all major modern browsers, for both the editor and the published reader experience.
 
 {% table layout="auto" %}
 {% row %}
@@ -18,13 +18,10 @@ We have tested on the following browsers:
 Browser
 {% /cell %}
 {% cell header=true %}
-Mode
+Editor
 {% /cell %}
 {% cell header=true %}
-Is Supported?
-{% /cell %}
-{% cell header=true %}
-Remarks
+Reader
 {% /cell %}
 {% /row %}
 {% row %}
@@ -32,27 +29,10 @@ Remarks
 Chrome
 {% /cell %}
 {% cell %}
-Desktop
-{% /cell %}
-{% cell %}
 Yes
 {% /cell %}
 {% cell %}
-Fully supported
-{% /cell %}
-{% /row %}
-{% row %}
-{% cell %}
-Chrome
-{% /cell %}
-{% cell %}
-Mobile
-{% /cell %}
-{% cell %}
 Yes
-{% /cell %}
-{% cell %}
-Fully supported
 {% /cell %}
 {% /row %}
 {% row %}
@@ -60,41 +40,10 @@ Fully supported
 Safari
 {% /cell %}
 {% cell %}
-Desktop
-{% /cell %}
-{% cell %}
 Yes
 {% /cell %}
 {% cell %}
-Reader experience is fully supported. Editor has a few quirks to iron out.
-{% /cell %}
-{% /row %}
-{% row %}
-{% cell %}
-Safari
-{% /cell %}
-{% cell %}
-Mobile
-{% /cell %}
-{% cell %}
 Yes
-{% /cell %}
-{% cell %}
-Reader experience is fully supported. Editor has a few quirks to iron out.
-{% /cell %}
-{% /row %}
-{% row %}
-{% cell %}
-Opera
-{% /cell %}
-{% cell %}
-Desktop
-{% /cell %}
-{% cell %}
-Yes
-{% /cell %}
-{% cell %}
-Fully supported
 {% /cell %}
 {% /row %}
 {% row %}
@@ -102,13 +51,10 @@ Fully supported
 Firefox
 {% /cell %}
 {% cell %}
-Desktop
-{% /cell %}
-{% cell %}
 Yes
 {% /cell %}
 {% cell %}
-Reader experience is fully supported. Editor has a few quirks to iron out.
+Yes
 {% /cell %}
 {% /row %}
 {% row %}
@@ -116,29 +62,39 @@ Reader experience is fully supported. Editor has a few quirks to iron out.
 Edge
 {% /cell %}
 {% cell %}
-Desktop
+Yes
 {% /cell %}
 {% cell %}
-Partially
-{% /cell %}
-{% cell %}
-Reader experience is provided. Editor is not supported.
+Yes
 {% /cell %}
 {% /row %}
 {% row %}
 {% cell %}
-IE9+
+Opera
 {% /cell %}
 {% cell %}
-Desktop
+Yes
 {% /cell %}
 {% cell %}
-Limited
-{% /cell %}
-{% cell %}
-Reader experience is provided. Some visual styles are not supported by IE. Editor is not supported.
+Yes
 {% /cell %}
 {% /row %}
 {% /table %}
 
-We will continue supporting these browsers, and work on supporting more browsers.
+## Mobile
+
+The reader experience is fully supported on mobile devices. The editor is built for desktop, so editing from a mobile browser is limited on all browsers.
+
+## Internet Explorer
+
+Internet Explorer is no longer supported.
+
+## Minimum Versions
+
+Both the editor and the published reader are built against the following browser floor. Older versions may still work but are not guaranteed:
+
+- Chrome 98+
+- Edge 98+
+- Firefox 104+
+- Safari 15.4+ (desktop and iOS)
+- Android (Chrome) 98+
