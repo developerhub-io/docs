@@ -7,7 +7,7 @@ description:
 index_title: Accordions
 hidden: 
 keywords: 
-tags: blocks
+tags: 
 ---
 
 Accordions group content into collapsible titled sections, so readers can expand only the parts they need. They are handy for FAQs, optional details, and long reference material you want to keep tidy.
@@ -32,13 +32,13 @@ A section can hold any other block: text, images, code blocks, callouts, and eve
 ## Example
 
 {% accordion-group %}
-{% accordion title="Getting started" open=true %}
+{% accordion title="Getting started" %}
+This section stays collapsed until the reader expands it.
+{% /accordion %}
+
+{% accordion title="Advanced features" open=true %}
 This section is expanded by default because its **Open** toggle is on.
 
 You can put other blocks inside an accordion section.
-{% /accordion %}
-
-{% accordion title="Advanced features" %}
-This section stays collapsed until the reader expands it.
 {% /accordion %}
 {% /accordion-group %}
