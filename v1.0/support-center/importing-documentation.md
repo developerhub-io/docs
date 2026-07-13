@@ -16,22 +16,26 @@ tags:
 
 You can import to %product% from many sources:
 
-- %product% export (available for entire project imports and one page imports)
+- [Markdoc](/support-center/markdoc-format) export (available for entire project imports and one page imports)
 - [Markdown](/support-center/external-sources#markdown-import)
 - [ReadMe](/support-center/external-sources#readme-import)
 - [Zendesk](/support-center/import-from-zendesk)
 - Other sources, such as: [HTML](/support-center/external-sources#importing-from-html), [Confluence](/support-center/external-sources#importing-from-confluence), [Word](/support-center/external-sources#importing-from-word-documents) or [other external sources](/support-center/external-sources).
 
-## Import DeveloperHub.io Export
+## Import a Markdoc Export
 
 To import documentation, follow these steps:
 
 - Make sure your import files are [structured](/support-center/importing-documentation#structuring-files) as required.
 - Open Project Settings → **Import \& Export**.
 - Click **Open import**.
-- Choose %product%.
+- Choose **Markdoc**.
 
 Importing could take a few seconds up to a minute.
+
+{% callout type="warning" title="Legacy Darkdown exports" %}
+Older DeveloperHub exports in the legacy Darkdown format are no longer accepted. Re-export your project as Markdoc and import that instead.
+{% /callout %}
 
 {% callout title="Info" %}
 All imports add versions. Versions, documentations and pages are never overwritten.
@@ -39,7 +43,7 @@ All imports add versions. Versions, documentations and pages are never overwritt
 
 ## Import a page into %product%
 
-You can import a single Markdown or a [Darkdown](/support-center/importing-documentation#darkdown-format) page at a time into %product%.
+You can import a single Markdown or a [Markdoc](/support-center/markdoc-format) page at a time into %product%.
 
 To import one page, follow these steps:
 
@@ -57,7 +61,7 @@ Where, for example:
 
 - `v1.0` is the name of your version.
 - `Support Center` is the title of your documentation.
-- `1 Getting Started.md` is a documentation page written in Darkdown format. Its order is 1st in Support Center documentation and its title is `Getting Started`. `Getting Started` folder indicates that `1 Getting Started.md` is a parent page, and it has a subpage titled `First Steps`.
+- `1 Getting Started.md` is a documentation page written in Markdoc format. Its order is 1st in Support Center documentation and its title is `Getting Started`. `Getting Started` folder indicates that `1 Getting Started.md` is a parent page, and it has a subpage titled `First Steps`.
 - `1 Formatting Text.md`, `2 Keyboard Shortcuts.md` and `3 Using Markdown.md` are all subpages of Writing Documentation page.
 - `settings.json` is `Support Center` documentation settings file. Settings file is an optional file.
 
@@ -69,9 +73,9 @@ Additionally, you may add OpenAPI spec files in a folder named `refs` in the ver
 
 All the files in the import must be compressed into a ZIP file.
 
-## Darkdown Format
+## File Format
 
-Darkdown Format is simple. Each file must contain a header and optionally content.
+Each file contains a YAML header (frontmatter) and, for pages, optional content.
 
 ### Header
 
@@ -130,7 +134,7 @@ type: separator
 
 ### Content
 
-Category, link and separator elements do not have content. Pages do have content, and it can be pure Markdown or Markdown mixed with our powerful blocks annotation.
+Category, link and separator elements do not have content. Pages do have content, written in [Markdoc](/support-center/markdoc-format): plain Markdown mixed with %product%'s block tags.
 
 Draft and published page contents can be defined in an export and it is annotated by a `---draft` or `---published` header, such as:
 
@@ -146,96 +150,11 @@ Published content is here
 ```
 {% /code %}
 
-An example of published content that contains a heading, text and a code block would be:
-
-{% code %}
-```yaml
----published
-## Code Block Example
-
-A Hello World code block:
-
-$plugin[{
-    "type": "code-block",
-    "data": {
-        "languageBlocks": [
-            {
-                "code": "console.log(\"Hello World\");",
-                "language": "javascript"
-            },
-            {
-                "code": "print(\"Hello World!\")",
-                "language": "python"
-            },
-            {
-                "code": "package main\n\nimport \"fmt\" \n\nfunc main() {\n     fmt.Println(\"hello world\")\n}",
-                "language": "go"
-            }
-        ]
-    }
-}]$
-```
-{% /code %}
-
 ### Blocks
 
-As Markdown does not include many of our powerful features, so we created Darkdown formatting to enable such features. All blocks are exported as such:
-
-{% code %}
-```yaml
-$plugin[{
-     "type": "<<type>>",
-     "data": "<<data>>"
-}]$
-```
-{% /code %}
-
-Where type is one of `code-block`, `image`, `video`, `table`, `github-code`, `synced-block`, `tab-block`, `index-list` and `custom-html`. Data definition depends on the type.
-
-### Inline Blocks
-
-Additionally, inline blocks are exported in Darkdown format such as [badges](/support-center/badges), [icons](/support-center/icons) and [keyboard keys](/support-center/keyboard-keys). For example,
-
-This badge: {% badge text="Great!" type="success" /%} would be formatted as:
-
-{% code %}
-```yaml
-{% badge type="success" text="Great!" /%}
-```
-{% /code %}
-
-And this icon: {% icon classes="fas fa-adjust" /%} would be formatted as:
-
-{% code %}
-```yaml
-{% icon classes="fas fa-adjust" /%}
-```
-{% /code %}
+Blocks and inline blocks are written in Markdoc tag syntax. See [Markdoc Format](/support-center/markdoc-format) for the full syntax of every block, with an example for each.
 
 Feel free to export any page to understand the formatting of its contents.
-
-## Table Format
-
-Tables are exported in Markdown format, except if column width is set then we use the Darkdown format in order to retain the information.
-
-The Markdown format for tables used for imports and exports are as such:
-
-{% code %}
-```none
-| Browser | Mode | Is Supported? | Remarks | 
-| ---- | ---- | ---- | ---- | 
-| Chrome | Desktop | Yes | Fully supported | 
-| Chrome | Mobile | Yes | Fully supported |
-```
-{% /code %}
-
-Requirements:
-
-1. All rows start and end with `|`.
-2. Every column is separated by `|`.
-3. A header row must exist.
-4. A separator row under header must exist.
-5. Multiline cells use `\n` to separate lines.
 
 ## Image Import
 

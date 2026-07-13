@@ -36,13 +36,13 @@ Find page searches through all pages and API references by title and slug in the
 
 ## Search Mode: Find Text
 
-Find text searches through all pages in the version you're on for text. Search is performed on [Darkdown](/support-center/exporting-documentation#darkdown) format and is not case sensitive.
+Find text searches through all pages in the version you're on for text. Search is performed on [Markdoc](/support-center/exporting-documentation#markdoc) format and is not case sensitive.
 
 {% image url="https://uploads.developerhub.io/prod/02/jf6o54rxx3rf5agijr6cbrsqcysjs8bxljwi6mir7m6xb1sv1oj6691oien51ofm.png" /%}
 
 ## Search Mode: Find \& Replace
 
-Find \& replace searches through all pages in the version you're on for text, and allows you to replace the text directly. Search is performed on [Darkdown](/support-center/exporting-documentation#darkdown) format and is case sensitive.
+Find \& replace searches through all pages in the version you're on for text, and allows you to replace the text directly. Search is performed on [Markdoc](/support-center/exporting-documentation#markdoc) format and is case sensitive.
 
 All occurrences that can be replaced would be shown to you prior to replacing them.
 
@@ -54,7 +54,7 @@ Once text is replaced, there is no way to undo the operation. Check all occurren
 
 ## Notes about Quick Switcher
 
-Find Text and Find \& Replace search through [Darkdown](/support-center/exporting-documentation#darkdown) format, with this come a few notes:
+Find Text and Find \& Replace search through [Markdoc](/support-center/exporting-documentation#markdoc) format, with this come a few notes:
 
 - Search performed is exact text search. This means that it is not typo tolerant.
 - To search in formatted text like "pied **piper**", you'd need to search for `pied **piper**`. Searching for `pied piper` will not yield results.

@@ -18,7 +18,7 @@ To import from Zendesk, follow these steps:
 
 1. [Contact us](/support-center/contact-us) and provide us with the domain that is currently hosting your Zendesk user guides.
 2. We will use our internal migration tool to make a %product%-compatible import. We will send this import file to you.
-3. [Import](/support-center/importing-documentation#import-developerhubio-export) the file using %product% format.
+3. [Import](/support-center/importing-documentation#import-a-markdoc-export) the file using the Markdoc format.
 
 ## Notes about Zendesk Migration
 

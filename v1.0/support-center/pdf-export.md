@@ -30,6 +30,8 @@ PDFs are exported by version. To export a PDF:
 - In the Lifecycle card, click **Export as PDF**.
 - In the PDF Exports window, click on Generate New PDF.
 
+You can also start from Project Settings → **Import \& Export** and click **Export PDF**, which opens the same version settings.
+
 Once a PDF export job starts, you can see its progress in the PDF Exports window. When a job is finished, the job will be marked as Done, and you will be able to download the PDF.
 
 ## PDF Permalink

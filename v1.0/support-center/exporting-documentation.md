@@ -14,12 +14,14 @@ Your data is your data. You can always export it at any time.
 
 We provide project exports in two formats:
 
-- [Darkdown](/support-center/exporting-documentation#darkdown): Use if you wish to re-import the data into %product% later with no data loss.
+- [Markdoc](/support-center/exporting-documentation#markdoc): Use if you wish to re-import the data into %product% later with no data loss.
 - Markdown: Use for external purposes.
 
-## Darkdown
+You can also export a version to [PDF](/support-center/pdf-export).
 
-[Darkdown](/support-center/importing-documentation#darkdown-format) is our flavour of Markdown. When a project is exported, and imported back, Darkdown allows the following to be retained:
+## Markdoc
+
+[Markdoc](/support-center/markdoc-format) is the markdown-based format %product% uses for pages. When a project is exported, and imported back, Markdoc allows the following to be retained:
 
 - All the published and draft text in each page.
 - All the blocks in each page with every configuration and detail.
@@ -31,7 +33,7 @@ We provide project exports in two formats:
 
 To export a project:
 
-- Open Project Settings → **General** and find the Move content card (or open Project Settings → **Import \& Export**).
+- Open Project Settings → **Import \& Export**.
 - Click the export format you want. The active project will be exported.
 
 It will take a few seconds, and a download will start. The downloaded file is a compressed file (zip) containing all versions, documentations, API references, and indices of the documentation. The structure of the file is as such:
@@ -46,9 +48,9 @@ To export a page:
 
 - In the documentation index, select the page to be exported.
 - Click on Export {% icon classes="fas fa-upload" /%} under the title.
-- Choose the export format: Darkdown, Markdown, Markdoc or Word.
+- Choose the export format: Markdoc, Markdown or Word.
 
-If you plan to re-import the page into %product% later with no data loss, use [Darkdown format](/support-center/importing-documentation#darkdown-format).
+If you plan to re-import the page into %product% later with no data loss, use [Markdoc format](/support-center/markdoc-format).
 
 ## Exporting Images
 
