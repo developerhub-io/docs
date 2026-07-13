@@ -10,13 +10,16 @@ keywords:
 tags: blocks
 ---
 
-Code blocks allow you to write in pretty formatted code that has syntax highlighting in multiple coding languages.
+Code blocks let you present pretty, syntax-highlighted code. There are two related blocks:
 
-To create a code block:
+- **Code block**: a single snippet in one language.
+- **Code tabs**: several snippets shown as tabs, for instance the same code in different languages.
+
+To add either one:
 
 {% synced id="open-block-menu" /%}
 
-- Select Code Block {% icon classes="fas fa-code" /%}
+- Select **Code block** or **Code tabs** {% icon classes="fas fa-code" /%}
 
 ## Supported Languages
 
@@ -30,9 +33,9 @@ If you need more languages, we'd be happy to support them. Give us a nudge!
 Syntax error highlighting only shows while editing
 {% /callout %}
 
-## Code Block Example
+## Code Tabs Example
 
-Here is how to write the fibonacci sequence in different languages:
+A Code tabs block showing the fibonacci sequence in different languages:
 
 {% code %}
 ```javascript
@@ -111,10 +114,6 @@ end
 ```
 {% /code %}
 
-## Multi Language Code Blocks
-
-You can add multiple languages for each code block that will show as tabs, such as the example above.
-
 ## No Formatting Code Block
 
 Code blocks can have no formatting if language "None" is selected. Also, if only language "None" was provided for the code block, then the language selector will disappear unless if the tab has a title. For example:
@@ -166,7 +165,7 @@ You can also provide titles for each tab, which is a great way to identify and g
 
 ## Collapsing Contents
 
-Code block contents will collapse automatically (if possible) if there are more than 100 lines in the code block. All lines will be folded except the first line. Example:
+When a code block has more than 100 lines, it is shown with its foldable regions collapsed, so a long snippet does not dominate the page. Folding is language-aware: each function or indented block folds at its own boundary, and languages without their own grammar fall back to indentation-based folding. Example:
 
 {% code %}
 ```yaml
@@ -176,7 +175,7 @@ paths:
       tags:
         - Page
       summary: Read page
-      description: "Read a page including its content in [Darkdown](https://docs.developerhub.io/support-center/exporting-documentation#darkdown) or text format. Rate limit: 600 in 1 minute."
+      description: "Read a page including its content in [Darkdown](https://docs.developerhub.io/support-center/exporting-documentation#markdoc) or text format. Rate limit: 600 in 1 minute."
       operationId: read_page
       parameters:
         - name: id
@@ -253,7 +252,7 @@ paths:
                   example: "getting-started"
                 content:
                   type: string
-                  description: Draft contents of the page in [Darkdown format](https://docs.developerhub.io/support-center/exporting-documentation#darkdown)
+                  description: Draft contents of the page in [Darkdown format](https://docs.developerhub.io/support-center/exporting-documentation#markdoc)
                   example: "Let's start here\n\n##Step 1\nWelcome to **DeveloperHub**\n"
                 categoryTitle:
                   type: string
@@ -302,7 +301,7 @@ paths:
 ```
 {% /code %}
 
-To fold or unfold a section yourself, click the fold arrows in the gutter to the left of the code.
+To fold or unfold a region yourself, click the fold arrows in the gutter to the left of the code.
 
 ## Show Line Numbers
 

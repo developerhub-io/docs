@@ -10,20 +10,19 @@ keywords:
 tags: 
 ---
 
-All blocks can be re-ordered on the page using drag and drop.
+All blocks can be re-ordered, duplicated and copied directly in the editor.
 
-## How to re-order blocks?
+## Re-ordering Blocks
 
-Drag and drop any block from the {% icon classes="fas fa-arrows-alt" /%} icon at the top right of the block.
+Hover over a block to reveal its handle (a six-dot grip) in the gutter on its left. Drag the handle to move the block anywhere on the page. Clicking the handle instead opens the block menu.
 
-## Copying Blocks
+## Duplicating Blocks
 
-Blocks can be duplicated inside the same page by clicking the duplicate icon at the top right side of the block.
+Click the handle to open the block menu, then choose **Duplicate**. A copy is inserted directly below the original.
 
-To copy a block to another page, you can either highlight it using a text selection or simply triple-click on the block. Once selected, copy the block and then paste it into your desired destination.
+## Copying Blocks to Another Page
 
-Alternatively, you can also follow these steps:
+You can copy blocks from one page and paste them into another:
 
-1. [Export the source page](/support-center/exporting-documentation#exporting-a-page) and the destination page.
-2. Copy the equivalent [darkdown](/support-center/exporting-documentation#darkdown) text from source page to destination page.
-3. [Import](/support-center/importing-documentation#import-a-page-into-product) the destination page.
+- Click the handle and choose **Copy to clipboard**, or select the content on the page and press {% key key="⌘" /%} / {% key key="Ctrl" /%} + {% key key="C" /%}.
+- Open the destination page and paste. The blocks are recreated in place.

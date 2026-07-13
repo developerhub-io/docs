@@ -94,10 +94,11 @@ The syntax is shown below for every block with an example:
 
 ### Code Block
 
+A **Code block** is a single fenced block with the language on the opening fence. **Code tabs** wrap several fenced blocks in a `{% code %}` / `{% /code %}` pair.
+
 {% code %}
-```markdown
-{% code %}
-{% tab language="javascript" %}
+````markdown
+```javascript {% title="fibonacci.js" %}
 function fibonacci(num, memo) {
   memo = memo || {};
 
@@ -107,27 +108,44 @@ function fibonacci(num, memo) {
   return memo[num] = fibonacci(num - 1, memo) + fibonacci(num - 2, memo);
 }
 ```
+````
 {% /code %}
 
 ### Images
 
+Self-closing when there is no caption, or a body form when there is:
+
 {% code %}
 ```markdown
-{% image url="https://uploads.developerhub.io/dev/V5Na/u0dpegq8xdpnclhctkpxycekhj04sev9j2kztstph3bnj41cde13o7vuzlpxw6yj.jpg" caption="Image example" mode="responsive" height="1200" width="1920" %}
+{% image url="https://uploads.developerhub.io/dev/V5Na/u0dpegq8xdpnclhctkpxycekhj04sev9j2kztstph3bnj41cde13o7vuzlpxw6yj.jpg" width=464 %}
+Image caption
 {% /image %}
 ```
 {% /code %}
 
 ### Tables
 
+Tables are `{% row %}` and `{% cell %}` trees; a header cell sets `header=true`. A simple table can also be written as a plain Markdown pipe table.
+
 {% code %}
 ```markdown
-{% table widths="null,100" %}
-| Parameter | Type | Default Value | 
-| ---- | ---- | ---- | 
-| user_id | int | Auto generated | 
-| user_name | string | John Doe | 
-| user_age | int | 25 | 
+{% table layout="auto" %}
+{% row %}
+{% cell header=true %}
+Parameter
+{% /cell %}
+{% cell header=true %}
+Type
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+user_id
+{% /cell %}
+{% cell %}
+int
+{% /cell %}
+{% /row %}
 {% /table %}
 ```
 {% /code %}
@@ -146,8 +164,7 @@ Great **success**!
 
 {% code %}
 ```markdown
-{% video videoId="e5b8c04bca094dd8a5507925ab887002" provider="loom" %}
-{% /video %}
+{% video provider="loom" videoId="e5b8c04bca094dd8a5507925ab887002" /%}
 ```
 {% /code %}
 
@@ -155,8 +172,7 @@ Great **success**!
 
 {% code %}
 ```markdown
-{% synced id="open-block-menu" %}
-{% /synced %}
+{% synced id="open-block-menu" /%}
 ```
 {% /code %}
 
@@ -165,7 +181,7 @@ Great **success**!
 {% code %}
 ```markdown
 {% html %}
-SWISHHTMLBODY0
+<div class="promo">Custom widget</div>
 {% /html %}
 ```
 {% /code %}
@@ -176,12 +192,12 @@ SWISHHTMLBODY0
 ```markdown
 {% tabs %}
 {% tab title="Android" %}
-Android Tab
+Android content.
 {% /tab %}
-```
-
-```none {% title="iOS" %}
-iOS Tab
+{% tab title="iOS" %}
+iOS content.
+{% /tab %}
+{% /tabs %}
 ```
 {% /code %}
 
@@ -199,8 +215,7 @@ iOS Tab
 
 {% code %}
 ```markdown
-{% github-code url="https://github.com/torvalds/linux/blob/master/kernel/signal.c#L152-L170" %}
-{% /github-code %}
+{% github-code url="https://github.com/torvalds/linux/blob/master/kernel/signal.c#L152-L170" /%}
 ```
 {% /code %}
 
@@ -208,7 +223,6 @@ iOS Tab
 
 {% code %}
 ```markdown
-{% index-list %}
-{% /index-list %}
+{% index-list /%}
 ```
 {% /code %}
