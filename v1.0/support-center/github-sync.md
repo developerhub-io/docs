@@ -84,6 +84,8 @@ The files synced on GitHub are of two types:
 - Contents: Such as page contents, formatted in [Markdoc](/support-center/markdoc-format).
 - Settings: Such as documentation settings, formatted in YAML.
 
+If you edit these files with an AI coding agent, our [Markdoc Agent Skill](/support-center/write-markdoc-with-ai) teaches it to write the correct Markdoc, so its changes sync back without churn or lost content.
+
 ## File Structure
 
 In the repository the files would be structured (from the basepath) as such:

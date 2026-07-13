@@ -12,6 +12,8 @@ tags:
 
 Markdoc format is the format used when pages are synced on %product% using [GitHub Sync](/support-center/github-sync). Markdoc is markdown-based authoring framework for writing documentation.
 
+If you author pages with an AI coding agent, our [Markdoc Agent Skill](/support-center/write-markdoc-with-ai) teaches it this exact syntax, so its edits round-trip cleanly.
+
 ## Frontmatter Syntax
 
 Every page has a frontmatter header, such as this one:
