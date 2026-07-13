@@ -16,7 +16,7 @@ You may want to set up extra server headers for security purposes. The headers a
 
 To set up server headers:
 
-- Open Project Settings → **Hosting**.
+- Open Project Settings → **Hosting \& Domain**.
 - In the Server headers card, edit the inline list:
   - Each header must be on one line.
   - Each header must have the header name and value separated by `:`.
