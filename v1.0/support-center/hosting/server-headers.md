@@ -31,7 +31,7 @@ It may take up to 5 minutes for changes to take effect.
 These are some security headers that you may want to apply.
 
 {% callout type="warning" title="Caution" %}
-Make sure you fully understand what each header is. Using headers incorrectly could cause your entire custom domain to be **irreversibly broken**. We are not liable for any damages due to misconfiguration.
+Make sure you fully understand what each header is. Using headers incorrectly could cause your entire custom domain to be **irreversibly broken**. %product% is not liable for any damages due to misconfiguration.
 {% /callout %}
 
 {% code %}
