@@ -12,6 +12,8 @@ tags:
 
 You may want to set up extra server headers for security purposes. The headers are returned when a client requests your docs site.
 
+Some server headers apply to the entire custom domain that your docs are hosted on. If the same custom domain also serves other content (for example, a marketing site or app under different paths), these headers may affect those areas too.
+
 ## How to set up Server Headers?
 
 To set up server headers:
