@@ -16,7 +16,7 @@ We provide project exports in two formats:
 - [Markdoc](exporting-documentation.md#markdoc): Use if you wish to re-import the data into %product% later with no data loss.
 - Markdown: Use for external purposes.
 
-You can also export a version to [PDF](pdf-export.md).
+You can export the whole project, a single [version](exporting-documentation.md#exporting-a-version), or an individual [page](exporting-documentation.md#exporting-a-page). A version can also be exported to [PDF](pdf-export.md).
 
 ## Markdoc
 
@@ -40,6 +40,18 @@ It will take a few seconds, and a download will start. The downloaded file is a 
 {% image url="https://uploads.developerhub.io/prod/02/anun2ah7qx47rehzb8jcfq5717vkc314t328e9de6lnjmo3ouk1cygrcln2brpvt.png" width=464 /%}
 
 To learn how to import this export back into %product%, check [Importing Documentation](importing-documentation.md).
+
+## Exporting a Version
+
+You can also export a single version on its own:
+
+- Open **Manage Versions** (version menu → settings {% icon classes="fas fa-cog" /%} cog).
+- Select the version.
+- Under **Lifecycle**, choose **Export as Markdoc** for a full-fidelity zip you can re-import with no data loss, or **Export as Markdown** for a portable zip for external use.
+
+The download is a zip named after the version, containing that version's documentations, pages, and API references. Project-wide changelogs are not included in a single-version export; use a [project export](exporting-documentation.md#exporting-a-project) if you need them.
+
+The same card also offers **Export as PDF** (see [PDF Export](pdf-export.md)).
 
 ## Exporting a Page
 
