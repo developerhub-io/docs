@@ -2,15 +2,14 @@
 type: page
 title: Popular Customisations
 listed: true
-slug: css-customisations
 description: Learn how to customize your docs using Custom CSS. Hide version selector, section selector, make top navigation sticky, decrease font size, move index, set theme and more.
 index_title: Popular Customisations
-hidden: 
+hidden: false
 keywords: 
 tags: customisation
 ---
 
-You can customise your docs using [Custom CSS](/support-center/custom-css) and [Custom Javascript](/support-center/custom-javascript). Below are some of the most used customisations:
+You can customise your docs using [Custom CSS](customising-visuals/custom-css.md) and [Custom Javascript](custom-javascript.md). Below are some of the most used customisations:
 
 ## Hide version selector/picker
 
@@ -262,7 +261,7 @@ To add an icon in place of the expander icon for categories and parent pages in 
 
 ## Expanding Enum in API Reference
 
-To have enums with their [varnames](/support-center/openapi-extensions#x-enum-varnames) expand on click, add the following in Custom HEAD tags:
+To have enums with their [varnames](api-references/openapi-extensions.md#x-enum-varnames) expand on click, add the following in Custom HEAD tags:
 
 {% image url="https://uploads.developerhub.io/prod/02/0qgzdkjrhleclqbbl4kzuhezsrkpxzbrwt04w4a9fxz0czeatvx880ka30s9dmlc.png" /%}
 

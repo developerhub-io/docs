@@ -2,18 +2,17 @@
 type: page
 title: Search
 listed: true
-slug: using-search
 description: 
 index_title: Search
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
 
 %product% provides two search experiences:
 
-- [Standard Search](/support-center/using-search#standard-search): Lightning-fast search service available for all paid plans. The search looks through each section of the documentation and links to it directly if a hit has been found. Typos are forgiven as well.
-- [AI Assistant](/support-center/ai-search): Search powered by GPT models that provide answers to questions with sources in natural language form.
+- [Standard Search](using-search.md#standard-search): Lightning-fast search service available for all paid plans. The search looks through each section of the documentation and links to it directly if a hit has been found. Typos are forgiven as well.
+- [AI Assistant](using-search/ai-search.md): Search powered by GPT models that provide answers to questions with sources in natural language form.
 
 The search bar exists at the top of the pages to attract attention and give the readers the best experience possible.
 
@@ -21,15 +20,15 @@ The search bar exists at the top of the pages to attract attention and give the 
 
 ### Look and Feel
 
-The search bar shadow and the highlighting of the results uses the same branding colour that you have assigned as in [Customising Visuals](/support-center/customising-visuals#changing-colour).
+The search bar shadow and the highlighting of the results uses the same branding colour that you have assigned as in [Customising Visuals](customising-visuals.md#changing-colour).
 
 {% callout title="Only in live mode" %}
-Search is only available in live mode. The bar does show in editor mode, but it is just a demonstration. If you want to search for a page while in edit mode, then use the [Quick Switcher](/support-center/quick-switcher).
+Search is only available in live mode. The bar does show in editor mode, but it is just a demonstration. If you want to search for a page while in edit mode, then use the [Quick Switcher](quick-switcher.md).
 {% /callout %}
 
 ## Next UI Search
 
-[Next UI](/support-center/customising-visuals#next-ui) provides a more powerful search experience for the readers. The search pops out for a larger search area, and provides controls for the reader to select the search scope.
+[Next UI](customising-visuals.md#next-ui) provides a more powerful search experience for the readers. The search pops out for a larger search area, and provides controls for the reader to select the search scope.
 
 {% image url="https://uploads.developerhub.io/prod/02/x4214x1qe2ok4wd8jfrzt0w8lckysq2mard4qdwz08qgy3z8v1w2ulap1x637kmg.png" /%}
 
@@ -57,7 +56,7 @@ Page keywords can be added from **Page Info** {% icon classes="fas fa-info-circl
 
 ## Change Search Scope
 
-To change the search scope to only look into the active documentation or API reference, have a look at `search.scope` in our [Advanced Settings](/support-center/advanced-settings).
+To change the search scope to only look into the active documentation or API reference, have a look at `search.scope` in our [Advanced Settings](project-settings/advanced-settings.md).
 
 ## Searching using URL
 
@@ -91,8 +90,8 @@ curl --request GET \
 
 ## Multi-Project Search
 
-See [Enterprise Search](/support-center/enterprise-search) for more information about multi-project search.
+See [Enterprise Search](using-search/enterprise-search.md) for more information about multi-project search.
 
 ## Javascript Hook for Search
 
-If you wish to send search analytics to third party services, you can use the `onsearch` javascript event to handle all search operations. See [On Search event](/support-center/developer-tools#on-search).
+If you wish to send search analytics to third party services, you can use the `onsearch` javascript event to handle all search operations. See [On Search event](developer-tools.md#on-search).

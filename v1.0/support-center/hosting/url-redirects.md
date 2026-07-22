@@ -2,10 +2,9 @@
 type: page
 title: URL Redirects
 listed: true
-slug: url-redirects
 description: 
 index_title: URL Redirects
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -48,7 +47,7 @@ Under the hood, all rules are regex based. For exact matches, you might want to 
 For example, if you wish to redirect `/docs/help` but not `/docs/help-and-support`, you must use the pattern `/docs/help$`.
 {% /callout %}
 
-If you need redirections to work within the single-page application, then look at [JS redirection rules](/support-center/custom-javascript#redirection-rules).
+If you need redirections to work within the single-page application, then look at [JS redirection rules](../custom-javascript.md#redirection-rules).
 
 ## Scope of Redirects
 
@@ -56,7 +55,7 @@ URL redirects work within the scope of a project. They cannot redirect to anothe
 
 For example, for a project hosted at `https://docs.pied-piper.com`, a redirect rule could redirect `https://docs.pied-piper.com/doc/page` to `https://docs.pied-piper.com/doc2/page2`, but it cannot redirect to `https://docs.other-site.com/doc/page`.
 
-If you wish to have complete site redirect, please [contact us](/support-center/contact-us).
+If you wish to have complete site redirect, please [contact us](../contact-us.md).
 
 ## Redirection Examples
 

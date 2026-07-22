@@ -2,10 +2,9 @@
 type: page
 title: Upcoming Features
 listed: true
-slug: upcoming-features
 description: 
 index_title: Upcoming Features
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -18,8 +17,8 @@ Here are a list of features where we have invested heavily but have not complete
 - Landing page builder.
 - AI agent.
 
-If you'd like to have any of these implemented, please [contact us](/support-center/contact-us).
+If you'd like to have any of these implemented, please [contact us](contact-us.md).
 
 ---
 
-If you have any feature request, don't hesitate to [contact us](/support-center/contact-us).
+If you have any feature request, don't hesitate to [contact us](contact-us.md).

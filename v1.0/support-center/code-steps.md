@@ -2,10 +2,9 @@
 type: page
 title: Code Steps
 listed: true
-slug: code-steps
 description: 
 index_title: Code Steps
-hidden: 
+hidden: false
 keywords: code walkthough, recipe
 tags: 
 ---
@@ -16,7 +15,7 @@ Code steps are pages just like this one, where you can show the steps to achievi
 - From the index, click on a {% icon classes="fas fa-plus" /%}.
 - Choose Code Steps {% icon classes="fas fa-terminal" /%}
 
-To demonstrate Code Steps, this is an example of how you could use [Custom Login](/support-center/custom-login) on %product%.
+To demonstrate Code Steps, this is an example of how you could use [Custom Login](private-docs/custom-login.md) on %product%.
 
 This example uses `express` as the backend server.
 
@@ -25,7 +24,7 @@ First, to generate JWT, it is easier to do it using a library. To install `jsonw
 {% /step %}
 
 {% step title="Get API Key" codeId="code-1" highlightLines="3" %}
-The JWT would be signed using the API Key. Get your [API Key](/support-center/api-key) and save it in the code.
+The JWT would be signed using the API Key. Get your [API Key](project-settings/api-key.md) and save it in the code.
 {% /step %}
 
 {% step title="Set the payload" codeId="code-1" highlightLines="7-15" %}
@@ -33,7 +32,7 @@ The payload is the information being sent securely using JWT. The payload for Cu
 
 `version` must be set to `1`
 
-`vars` contains the [variables](/support-center/variables) to set when the docs load. You could personalise the docs for the user here.
+`vars` contains the [variables](variables.md) to set when the docs load. You could personalise the docs for the user here.
 {% /step %}
 
 {% step title="Set Expiry" codeId="code-1" highlightLines="16" %}

@@ -2,10 +2,9 @@
 type: page
 title: Feedback
 listed: true
-slug: feedback
 description: 
 index_title: Feedback
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -28,17 +27,17 @@ Feedback can be observed on two levels: Page and project. When a page is liked o
 
 {% image url="https://uploads.developerhub.io/prod/02/pqyxyj5sulsiu38nw1tjox2uc1pqenzulwknbf7lwmi9z0zavsd677wg761b8tht.jpg" /%}
 
-Also, in the [dashboard](/support-center/dashboard), you are also able to see the sentiment for the project against time, as well as all the unread messages. Furthermore, you will find in the dashboard a list of the most liked pages as well as the least liked pages. You can use this information to apply the good documentation style applied in most likes pages into the least liked pages, and analyse the messages to learn how to make the pages better.
+Also, in the [dashboard](collaboration/dashboard.md), you are also able to see the sentiment for the project against time, as well as all the unread messages. Furthermore, you will find in the dashboard a list of the most liked pages as well as the least liked pages. You can use this information to apply the good documentation style applied in most likes pages into the least liked pages, and analyse the messages to learn how to make the pages better.
 
 You can also download feedback as a CSV from the dashboard, using the download option next to **Feedback Inbox**.
 
 {% image url="https://uploads.developerhub.io/prod/02/q88g4uahc2r78jo8vfh97i1ain9iyjbr9u8ick8mollzkv6yk5ejlr0bawv1ftw7.jpg" /%}
 
-Feedback can be marked as spam by anyone on the team. Feedback marked as spam would be minimised in the feedback dashboard. Spam feedback would not show up under the feedback sidebar of a page. Spam feedback does not count into any statistics nor would they be sent through our notification channels. You could also use [an automatic spam filter](/support-center/feedback#feedback-spam-filter).
+Feedback can be marked as spam by anyone on the team. Feedback marked as spam would be minimised in the feedback dashboard. Spam feedback would not show up under the feedback sidebar of a page. Spam feedback does not count into any statistics nor would they be sent through our notification channels. You could also use [an automatic spam filter](feedback.md#feedback-spam-filter).
 
 ## Feedback Notifications
 
-If you have a [Slack](/support-center/slack) channel connected to your project, then we will notify you on the Slack channel of the feedback that you have received.
+If you have a [Slack](integrations/slack.md) channel connected to your project, then we will notify you on the Slack channel of the feedback that you have received.
 
 We send out the notifications every hour.
 
@@ -46,13 +45,13 @@ We send out the notifications every hour.
 
 ## Feedback Spam Filter
 
-Feedback spam filter is disabled by default and can be enabled from [Feedback Settings](/support-center/feedback#feedback-settings).
+Feedback spam filter is disabled by default and can be enabled from [Feedback Settings](feedback.md#feedback-settings).
 
 The spam filter flags any newly submitted feedback which has a message that looks useless, suspicious, spammy, too short, malicious or offensive as spam.
 
 When the setting is enabled, any new feedback that contains a message would be sent to OpenAI for spam filtering.
 
-Feedback controls can also be shown or disabled according to the referrer site (the site from which the reader has visited the docs). This can be useful if readers are mistaking your site for the support site of your own B2B customer. As an example, feedback controls can disabled according to referrer by adding the following [Custom JS](/support-center/custom-javascript) :
+Feedback controls can also be shown or disabled according to the referrer site (the site from which the reader has visited the docs). This can be useful if readers are mistaking your site for the support site of your own B2B customer. As an example, feedback controls can disabled according to referrer by adding the following [Custom JS](custom-javascript.md) :
 
 {% code %}
 ```html
@@ -80,7 +79,7 @@ The same can be done to set up a referrer deny list.
 
 ## Redact PII from Feedback
 
-Personal identifiable information (PII) can be redacted from feedback automatically. It is disable by default and can be enabled from [Feedback Settings](/support-center/feedback#feedback-settings).
+Personal identifiable information (PII) can be redacted from feedback automatically. It is disable by default and can be enabled from [Feedback Settings](feedback.md#feedback-settings).
 
 The PII filter would redact any information that looks personal from feedback messages as they are submitted, such as names, phone numbers, email addresses, physical addresses, etc...
 
@@ -112,4 +111,4 @@ To enable or disable redacting personal identifiable information:
 
 ## Javascript Hook for Feedback
 
-If you wish to send search analytics to third party services, you can use the `onfeedback` javascript event to listen to feedback events. See [On Feedback](/support-center/developer-tools#on-feedback).
+If you wish to send search analytics to third party services, you can use the `onfeedback` javascript event to listen to feedback events. See [On Feedback](developer-tools.md#on-feedback).

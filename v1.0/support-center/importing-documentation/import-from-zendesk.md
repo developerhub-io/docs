@@ -2,10 +2,9 @@
 type: page
 title: Import from Zendesk
 listed: true
-slug: import-from-zendesk
 description: 
 index_title: Import from Zendesk
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -16,9 +15,9 @@ To import from Zendesk user guides, we have created an internal tool that will h
 
 To import from Zendesk, follow these steps:
 
-1. [Contact us](/support-center/contact-us) and provide us with the domain that is currently hosting your Zendesk user guides.
+1. [Contact us](../contact-us.md) and provide us with the domain that is currently hosting your Zendesk user guides.
 2. We will use our internal migration tool to make a %product%-compatible import. We will send this import file to you.
-3. [Import](/support-center/importing-documentation#import-a-markdoc-export) the file using the Markdoc format.
+3. [Import](../importing-documentation.md#import-a-markdoc-export) the file using the Markdoc format.
 
 ## Notes about Zendesk Migration
 

@@ -2,10 +2,9 @@
 type: page
 title: Slack
 listed: true
-slug: slack
 description: 
 index_title: Slack
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -26,15 +25,15 @@ Real time notifications post directly into a Slack channel you select, including
 - API reference created, edited, and published.
 - Version created.
 
-It also sends an hourly notification when new [feedback](/support-center/feedback) is received.
+It also sends an hourly notification when new [feedback](../feedback.md) is received.
 
-{% image url="asset:snqb6q6fvror" /%}
+{% image url="../../../assets/89b807cc101e922ecfaf07fb16bef04f4d77fbb1.jpeg" /%}
 
 ### Search your Docs from Slack with /developerhub
 
 Use the `/developerhub` slash command to search your docs directly from Slack. This is especially helpful for support agents and internal teams who need quick answers without leaving Slack.
 
-{% image url="asset:5chh6dfkhhzu" /%}
+{% image url="../../../assets/230530d69d9553ef061db951ae9316b7e7b4ed46.jpeg" /%}
 
 ## Setting up Slack
 

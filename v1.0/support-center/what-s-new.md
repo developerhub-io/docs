@@ -2,15 +2,14 @@
 type: page
 title: What's New (2025)
 listed: false
-slug: what-s-new
 description: 
 index_title: What's New (2025)
-hidden: 
+hidden: false
 keywords: release notes
 tags: 
 ---
 
-See [Upcoming Features](/support-center/upcoming-features) to know what we're currently working on.
+See [Upcoming Features](upcoming-features.md) to know what we're currently working on.
 
 {% callout title="Info" %}
 We're migrating our changelog to [Product Updates](/product-updates). This list is no longer updated.
@@ -33,7 +32,7 @@ We're migrating our changelog to [Product Updates](/product-updates). This list 
 
 ### 17 Jul
 
-- {% badge text="New" type="success" /%} **Labels**: New index item ["Label"](/support-center/categories#labels) to add text and group page.
+- {% badge text="New" type="success" /%} **Labels**: New index item ["Label"](structuring-documentation/categories.md#labels) to add text and group page.
 - {% badge text="Bug Fix" type="error" /%} **Import**: Multiple bug fixes to importing projects.
 
 ### 16 Jul
@@ -43,11 +42,11 @@ We're migrating our changelog to [Product Updates](/product-updates). This list 
 
 ### 15 Jul
 
-- {% badge text="New" type="success" /%} **Cards**: [Cards](/support-center/cards) block available to highlight and link to main pages.
+- {% badge text="New" type="success" /%} **Cards**: [Cards](cards.md) block available to highlight and link to main pages.
 
 {% cards %}
-{% card title="Getting Start" text="This goes to the start" link="/support-center/getting-started" /%}
-{% card title="Cards" text="See the docs about cards" link="/support-center/cards" /%}
+{% card title="Getting Start" text="This goes to the start" link="getting-started.md" /%}
+{% card title="Cards" text="See the docs about cards" link="cards.md" /%}
 {% /cards %}
 
 ### 10 Jul
@@ -61,7 +60,7 @@ We're migrating our changelog to [Product Updates](/product-updates). This list 
 
 ### 1 Jul
 
-- {% badge text="New" type="success" /%} **LLMs**: `llms.txt` is now [supported](/support-center/llms-txt).
+- {% badge text="New" type="success" /%} **LLMs**: `llms.txt` is now [supported](ai-features/llms-txt.md).
 
 ### 30 Jun
 
@@ -92,7 +91,7 @@ We're migrating our changelog to [Product Updates](/product-updates). This list 
 
 ### 4 Jun
 
-- {% badge text="New" type="success" /%} **Search**: Ability to [hide AI search](/support-center/advanced-settings) but keep the vector search available through API.
+- {% badge text="New" type="success" /%} **Search**: Ability to [hide AI search](project-settings/advanced-settings.md) but keep the vector search available through API.
 - {% badge text="Bug Fix" type="error" /%} **Top Navigation**: Top navigation was not scrollable when it had too many items.
 
 ### 3 Jun
@@ -101,7 +100,7 @@ We're migrating our changelog to [Product Updates](/product-updates). This list 
 
 ### 28 May
 
-- {% badge text="New" type="success" /%} **Enterprise Search**: Ability to search in certain version and section for [column search](/support-center/enterprise-search#column-search).
+- {% badge text="New" type="success" /%} **Enterprise Search**: Ability to search in certain version and section for [column search](using-search/enterprise-search.md#column-search).
 
 ### 21 May
 
@@ -109,7 +108,7 @@ We're migrating our changelog to [Product Updates](/product-updates). This list 
 
 ### 20 May
 
-- {% badge text="New" type="success" /%} **Reader SSO**: [Single-Sign On (SSO)](/support-center/reader-single-sign-on) is now available for readers at the enterprise plan.
+- {% badge text="New" type="success" /%} **Reader SSO**: [Single-Sign On (SSO)](private-docs/reader-single-sign-on.md) is now available for readers at the enterprise plan.
 
 ### 19 May
 
@@ -118,7 +117,7 @@ We're migrating our changelog to [Product Updates](/product-updates). This list 
 
 ### 18 May
 
-- {% badge text="New" type="success" /%} **CSS**: Ability to change the dropdown animation with `--dropdown-animation` [CSS variable](/support-center/custom-css#css-variables).
+- {% badge text="New" type="success" /%} **CSS**: Ability to change the dropdown animation with `--dropdown-animation` [CSS variable](customising-visuals/custom-css.md#css-variables).
 - {% badge text="Improvement" /%} **API Reference**: anyOf/oneOf now supported for inline schemas.
 - {% badge text="Improvement" /%} **Import**: Pages that are not ordered correctly will no longer fail import.
 - {% badge text="Improvement" /%} **Editor**: Using select all keyboard shortcuts inside blocks selects only text inside the block.
@@ -126,10 +125,10 @@ We're migrating our changelog to [Product Updates](/product-updates). This list 
 
 ### 16 May
 
-- {% badge text="New" type="success" /%} **Top Navigation Bar**: [Navigation groups](/support-center/top-navigation-bar#navigation-structure) can be created to group documentation sections and API references in the top navigation bar.
+- {% badge text="New" type="success" /%} **Top Navigation Bar**: [Navigation groups](customising-visuals/top-navigation-bar.md#navigation-structure) can be created to group documentation sections and API references in the top navigation bar.
 - {% badge text="New" type="success" /%} **API References**: `--required-text` CSS variable available to change the text showing up when a field is required, defaults to `*`.
 - {% badge text="Improvement" /%} **Index**: Index scroll functional regardless of custom customisations made to the top navigation.
-- {% badge text="Improvement" /%} **General**: Deprecated `scrolling` [advanced setting](/support-center/advanced-settings). Scrolling offsets would be calculated automatically.
+- {% badge text="Improvement" /%} **General**: Deprecated `scrolling` [advanced setting](project-settings/advanced-settings.md). Scrolling offsets would be calculated automatically.
 - {% badge text="Change" type="warning" /%} **Callouts**: Callouts no longer use table HTML markup. They use flexbox instead for easier customisation.
 - {% badge text="Bug Fix" type="error" /%} **Landing Page**: Landing page in edit mode was showing up stacked when changed.
 
@@ -151,7 +150,7 @@ We're migrating our changelog to [Product Updates](/product-updates). This list 
 
 ### 26 Apr
 
-- {% badge text="New" type="success" /%} **Developer Tools**: New javascript event [On Version Change](/support-center/developer-tools#on-version-change) and new functions [Get Active Project](/support-center/developer-tools#get-active-project) and [Get Active Version](/support-center/developer-tools#get-active-version). Index can now be retrieved using [Get Active Section](/support-center/developer-tools#get-active-section).
+- {% badge text="New" type="success" /%} **Developer Tools**: New javascript event [On Version Change](developer-tools.md#on-version-change) and new functions [Get Active Project](developer-tools.md#get-active-project) and [Get Active Version](developer-tools.md#get-active-version). Index can now be retrieved using [Get Active Section](developer-tools.md#get-active-section).
 - {% badge text="Improvement" /%} **CSS Changes**: Many CSS and layout changes aiming at cleaning and simplifying code. Changes include:
   - Addition of `--font-size`, `--secondary-font-size`, `--index-width` and `--reference-index-width` variable additions.
   - Revamp of search container and results.
@@ -170,7 +169,7 @@ We're migrating our changelog to [Product Updates](/product-updates). This list 
 
 ### 31 Mar
 
-- {% badge text="New" type="success" /%} **Theme**: [Light-themed code](/support-center/code-theme) blocks.
+- {% badge text="New" type="success" /%} **Theme**: [Light-themed code](customising-visuals/code-theme.md) blocks.
 - {% badge text="New" type="success" /%} **API Reference**: The API references have been given a fresh new look! Exciting new features include:
   - An intuitive pop-out playground designed to enhance user interaction.
   - Dynamic endpoint highlighting in the index to facilitate smoother navigation.
@@ -186,13 +185,13 @@ We're migrating our changelog to [Product Updates](/product-updates). This list 
 
 ### 22 Mar
 
-- {% badge text="Improvement" /%} **API Reference**: Code is not line wrapped by default anymore. Use `apiReference.lineWrapCode` [setting](/support-center/advanced-settings) to enable line wrapping.
+- {% badge text="Improvement" /%} **API Reference**: Code is not line wrapped by default anymore. Use `apiReference.lineWrapCode` [setting](project-settings/advanced-settings.md) to enable line wrapping.
 - {% badge text="Change" type="warning" /%} **API Reference**: Changed GET `curl` requests syntax format.
 - {% badge text="Change" type="warning" /%} **API Reference**: Rewrote the layout CSS. We no longer use bootstrap for API reference general layout.
 
 ### 20 Mar
 
-- {% badge text="New" type="success" /%} **API Reference**: New setting to disable [auto-capitalizing tags](/support-center/api-reference-settings#auto-capitalize-tags).
+- {% badge text="New" type="success" /%} **API Reference**: New setting to disable [auto-capitalizing tags](api-references/api-reference-settings.md#auto-capitalize-tags).
 
 ### 18 Mar
 
@@ -200,23 +199,23 @@ We're migrating our changelog to [Product Updates](/product-updates). This list 
 
 ### 14 Mar
 
-- {% badge text="New" type="success" /%} **Search Analytics**: Clicks analytics is now also available for [enterprise search](/support-center/enterprise-search).
+- {% badge text="New" type="success" /%} **Search Analytics**: Clicks analytics is now also available for [enterprise search](using-search/enterprise-search.md).
 
 ### 13 Mar
 
 - {% badge text="New" type="success" /%} **Search Analytics**: We're now collecting analytics on clicks in searches.
-- {% badge text="New" type="success" /%} **Search Analytics**: Click analytics are now available in [dashboard](/support-center/search-analytics). Data will be incomplete until 13 Apr 2025.
+- {% badge text="New" type="success" /%} **Search Analytics**: Click analytics are now available in [dashboard](search-analytics.md). Data will be incomplete until 13 Apr 2025.
 
 ### 12 Mar
 
-- {% badge text="New" type="success" /%} **Video**: [Videos](/support-center/videos) can now be uploaded too up to 10MB.
+- {% badge text="New" type="success" /%} **Video**: [Videos](videos.md) can now be uploaded too up to 10MB.
 - {% badge text="Improvement" /%} **Editor**: Many blocks had their looks in edit mode updated.
 - {% badge text="Improvement" /%} **Images**: Images can now be freely resized, removing image modes.
 
 ### 9 Mar
 
-- {% badge text="New" type="success" /%} **AI Writer**: Type better, summarise, shorten, expand, enhance and more with [AI Writer](/support-center/ai-writer).
-- {% badge text="New" type="success" /%} **AI Commit Messages**: Automatically annotate page history with [AI Commit Messages](/support-center/ai-commit-messages).
+- {% badge text="New" type="success" /%} **AI Writer**: Type better, summarise, shorten, expand, enhance and more with [AI Writer](writing-documentation/ai-writer.md).
+- {% badge text="New" type="success" /%} **AI Commit Messages**: Automatically annotate page history with [AI Commit Messages](ai-features/ai-commit-messages.md).
 - {% badge text="Bug Fix" type="error" /%} **Images**: Replace button was not functioning.
 
 ### 6 Mar
@@ -227,7 +226,7 @@ We're migrating our changelog to [Product Updates](/product-updates). This list 
 
 ### 1 Mar
 
-- {% badge text="Improvement" /%} **Server Headers**: Better support for [content security policy](/support-center/server-headers#content-security-policy) set up using server headers.
+- {% badge text="Improvement" /%} **Server Headers**: Better support for [content security policy](hosting/server-headers.md#content-security-policy) set up using server headers.
 
 ### 26 Feb
 
@@ -237,7 +236,7 @@ We're migrating our changelog to [Product Updates](/product-updates). This list 
 ### 20 Feb
 
 - {% badge text="New" type="success" /%} **API**: New API to [lists all documentation section under a version](/v1.0/api/ref#list-documentation).
-- {% badge text="New" type="success" /%} **Custom HTML**: [Custom HTML](/support-center/custom-html) block now supports [variables](/support-center/variables).
+- {% badge text="New" type="success" /%} **Custom HTML**: [Custom HTML](custom-html.md) block now supports [variables](variables.md).
 
 ### 19 Feb
 
@@ -254,7 +253,7 @@ We're migrating our changelog to [Product Updates](/product-updates). This list 
 
 ### 20 Jan
 
-- {% badge text="New" type="success" /%} **Comments**: [Comments](/support-center/comments#comments-in-api-references) are now available on API references where a specific part of the API reference can be tagged.
+- {% badge text="New" type="success" /%} **Comments**: [Comments](comments.md#comments-in-api-references) are now available on API references where a specific part of the API reference can be tagged.
 
 ### 19 Jan
 
@@ -267,5 +266,5 @@ We're migrating our changelog to [Product Updates](/product-updates). This list 
 
 ### 3 Jan
 
-- {% badge text="New" type="success" /%} **API Reference**: Extra [variables](/support-center/openapi-extensions#variables) available in API references.
+- {% badge text="New" type="success" /%} **API Reference**: Extra [variables](api-references/openapi-extensions.md#variables) available in API references.
 - {% badge text="Bug Fix" type="error" /%} **API Reference**: Fix to navigating to anchor from markdown links when tags are expandable.

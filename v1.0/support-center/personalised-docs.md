@@ -2,10 +2,9 @@
 type: page
 title: Personalised Docs
 listed: true
-slug: personalised-docs
 description: 
 index_title: Personalised Docs
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -23,13 +22,13 @@ Things you might show in your docs that can be personalised:
 
 ## How to Personalise Docs
 
-You can use [variables](/support-center/variables) to personalise the docs for your readers. For example, if you opened this documentation through our Help \& Support then you would find your name %user.name% on the first page and also here.
+You can use [variables](variables.md) to personalise the docs for your readers. For example, if you opened this documentation through our Help \& Support then you would find your name %user.name% on the first page and also here.
 
 Variables can be injected into the docs in two ways:
 
 - By sending your readers to a docs URL having certain query parameters.
-- By writing a [cookie](/support-center/personalised-docs#personalising-through-cookie).
-- By using a [custom login](/support-center/custom-login) flow.
+- By writing a [cookie](personalised-docs.md#personalising-through-cookie).
+- By using a [custom login](private-docs/custom-login.md) flow.
 
 When the variables are injected, then the docs will show the information that is relevant to the reader.
 
@@ -56,7 +55,7 @@ You can personalise (inject variables) by setting a cookie that your docs site c
 
 The cookie is expected to be written outside of the docs site. For example, if you own `pied-piper.com` and your docs site is on `pied-piper.com/docs`, then you would write the cookie in `pied-piper.com` that is also readable on `pied-piper.com/docs`.
 
-Cookies can only be readable on the same root domain regardless of the subdomain. For example, you can write cookie on: `pied-piper.com` and set it readable on `docs.pied-piper.com` as well as `pied-piper.com/docs`. However, if your docs site is on a different root domain such as `pied-docs.com` then you need to personalise through [URL or custom login](/support-center/personalised-docs#how-to-personalise-docs).
+Cookies can only be readable on the same root domain regardless of the subdomain. For example, you can write cookie on: `pied-piper.com` and set it readable on `docs.pied-piper.com` as well as `pied-piper.com/docs`. However, if your docs site is on a different root domain such as `pied-docs.com` then you need to personalise through [URL or custom login](personalised-docs.md#how-to-personalise-docs).
 
 To inject variables using a cookie, provide the following in the cookie:
 

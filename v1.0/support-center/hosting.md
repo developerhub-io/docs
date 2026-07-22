@@ -2,10 +2,9 @@
 type: page
 title: Hosting
 listed: true
-slug: hosting
 description: Host your documentation easily with DeveloperHub. Choose between hosting on a subdomain, a custom domain, or under your existing website. Multiple projects? No problem! Learn more about hosting options and how to optimize performance.
 index_title: Hosting
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -13,9 +12,9 @@ tags:
 %product% makes hosting a breeze for you. We offer multiple ways in which you can have your docs hosted:
 
 {% cards %}
-{% card title="Custom Domain" text="Host on your own domain, such as docs.pied-piper.com" link="/support-center/using-custom-domain" /%}
-{% card title="Under a Path" text="Host under a path, such as pied-piper.com/docs" link="/support-center/hosting#hosting-under-an-existing-website" /%}
-{% card title="Subdomain" text="Under our domain, such as pied-piper.developerhub.io" link="/support-center/project-settings#changing-subdomain" /%}
+{% card title="Custom Domain" text="Host on your own domain, such as docs.pied-piper.com" link="hosting/using-custom-domain.md" /%}
+{% card title="Under a Path" text="Host under a path, such as pied-piper.com/docs" link="hosting.md#hosting-under-an-existing-website" /%}
+{% card title="Subdomain" text="Under our domain, such as pied-piper.developerhub.io" link="project-settings.md#changing-subdomain" /%}
 {% /cards %}
 
 You can also host multiple projects on the same site.
@@ -30,11 +29,11 @@ Your readers would like to get a familiar URL when they visit your docs, so we a
 
 However, it isn't only readers that access your docs. In fact, all kinds of bots and crawlers access it as well to index it for search engines. Allowing the search engines to crawl is very important for your search ranking. For search engines, every host is a different entity, that is unrelated to the root domain. For example, `docs.pied-piper.com` has a completely different ranking than `pied-piper.com`.
 
-If you are starting with a docs site for the first time at `docs.pied-piper.com`, then you're starting with a fresh slate. Your ranking still has to grow from the start. So we recommend that you use [Hosting under an Existing Website](/support-center/hosting#hosting-under-an-existing-website) hosting option so you can pick up the ranking from your root domain at `pied-piper.com` since that is probably where all the marketing has been done previously.
+If you are starting with a docs site for the first time at `docs.pied-piper.com`, then you're starting with a fresh slate. Your ranking still has to grow from the start. So we recommend that you use [Hosting under an Existing Website](hosting.md#hosting-under-an-existing-website) hosting option so you can pick up the ranking from your root domain at `pied-piper.com` since that is probably where all the marketing has been done previously.
 
 If you already had a docs site and you're moving to %product%, then you are picking up the ranking you already had.
 
-In conclusion: Use [Hosting under an Existing Website](/support-center/hosting#hosting-under-an-existing-website) if possible, otherwise it's totally fine to host [Using Custom Domain](/support-center/using-custom-domain).
+In conclusion: Use [Hosting under an Existing Website](hosting.md#hosting-under-an-existing-website) if possible, otherwise it's totally fine to host [Using Custom Domain](hosting/using-custom-domain.md).
 
 ## Hosting under %product% Subdomain
 
@@ -46,7 +45,7 @@ To set or change the subdomain:
 
 ## Hosting under your own Custom Domain
 
-Follow the steps in [Using Custom Domain](/support-center/using-custom-domain).
+Follow the steps in [Using Custom Domain](hosting/using-custom-domain.md).
 
 ## Hosting under an Existing Website
 
@@ -90,7 +89,7 @@ HTTPS must be used, so ensure that your existing website already has a valid cer
 {% /callout %}
 
 {% callout title="Info" %}
-You do not need to modify [DNS records](/support-center/configure-dns) or to follow [Using Custom Domain](/support-center/using-custom-domain) to host under an existing website.
+You do not need to modify [DNS records](hosting/configure-dns.md) or to follow [Using Custom Domain](hosting/using-custom-domain.md) to host under an existing website.
 {% /callout %}
 
 You may also use the approach above to set up your own custom redirection rules if needed, leaving the base path empty.
@@ -99,7 +98,7 @@ You may also use the approach above to set up your own custom redirection rules 
 
 When you are hosting under an existing website and you have an application firewall running, you must perform the following:
 
-1. Whitelist `DeveloperHub.io SSR` user agent for all URLs in the docs site. This ensures that we can serve the pages to search indexing robots for SEO purposes. See [SEO troubleshooting](/support-center/seo#getting-a-403-or-bad-result).
+1. Whitelist `DeveloperHub.io SSR` user agent for all URLs in the docs site. This ensures that we can serve the pages to search indexing robots for SEO purposes. See [SEO troubleshooting](seo.md#getting-a-403-or-bad-result).
 2. Whitelist `DeveloperHub.io PDF Exporter` user agent for all URLs in the docs site. This ensures that PDF exports are enabled.
 
 ## Hosting Multiple Projects under One Site

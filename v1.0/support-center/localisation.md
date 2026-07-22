@@ -2,10 +2,9 @@
 type: page
 title: Localisation
 listed: true
-slug: localisation
 description: 
 index_title: Localisation
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -19,7 +18,7 @@ tags:
 
 Localize easily translates websites and applications to new languages and streamlines your translation workflow.
 
-To use Localize with %product%, you need to set up a script using [Custom HEAD Tags](/support-center/custom-javascript) as follows:
+To use Localize with %product%, you need to set up a script using [Custom HEAD Tags](custom-javascript.md) as follows:
 
 {% code %}
 ```html
@@ -53,11 +52,11 @@ We handle variables in your docs as indicated by Localize.
 
 ## Localise using different documentation
 
-To localise using different documentation, you would need to [create documentation](/support-center/managing-documentation#creating-documentations) for each language.
+To localise using different documentation, you would need to [create documentation](project-settings/managing-documentation.md#creating-documentations) for each language.
 
 For example, in your v1.0 version, you can have the following documentation sections: `en`, `de`, and `es`. If you already had multiple documentation, for example for `Android SDK`, `iOS SDK` and so on, then you can expand your documentation to `Android SDK (EN)`, `Android SDK (DE)` and `Android SDK (ES)`, and so on.
 
-We also provide the option for you to customise the UI text to better suit your needs. For detailed instructions, please refer to [UI translation](/support-center/ui-translation).
+We also provide the option for you to customise the UI text to better suit your needs. For detailed instructions, please refer to [UI translation](customising-visuals/ui-translation.md).
 
 ## Which localisation method should I choose?
 

@@ -2,10 +2,9 @@
 type: page
 title: Publishing States
 listed: true
-slug: unlisting
 description: 
 index_title: Publishing States
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---

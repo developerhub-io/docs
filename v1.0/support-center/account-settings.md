@@ -2,10 +2,9 @@
 type: page
 title: Account Settings
 listed: true
-slug: account-settings
 description: 
 index_title: Account Settings
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -16,8 +15,8 @@ Account Settings is organised into panes:
 
 - **Profile**: display name, company name, job title (email and organisation are read-only).
 - **Security (Password)**: change your password.
-- **Security (Passkeys)**: add and remove [passkeys](/support-center/account-settings#using-passkeys).
-- **Preferences**: notification settings and [live markdown rendering](/support-center/using-markdown#disable-live-markdown-rendering).
+- **Security (Passkeys)**: add and remove [passkeys](account-settings.md#using-passkeys).
+- **Preferences**: notification settings and [live markdown rendering](writing-documentation/using-markdown.md#disable-live-markdown-rendering).
 - **Danger zone**: delete your account.
 
 Your referral code lives under the Security (Password) pane.

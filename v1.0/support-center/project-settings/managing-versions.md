@@ -2,17 +2,16 @@
 type: page
 title: Managing Versions
 listed: true
-slug: managing-versions
 description: 
 index_title: Managing Versions
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
 
 Using %product%, you can version your documentations. The default version is called v1.0, it is up to you to define how you call your versions. Semantic versioning is not required, so you can use words such as "beta", "alpha" and "latest" along actual version numbers.
 
-Versioning is very powerful. When pages are [linked](/support-center/page-linking) inside a version, and that version is cloned, all the page links are updated accordingly to the match the new version.
+Versioning is very powerful. When pages are [linked](../writing-documentation/page-linking.md) inside a version, and that version is cloned, all the page links are updated accordingly to the match the new version.
 
 ## Manage Versions
 
@@ -76,7 +75,7 @@ The default version does not show its slug in the live page links, for example, 
 
 ## Moving Readers to New Version
 
-If your readers have bookmarked pages from older versions, or are unaware that your documentation is versioned, then you might want to notify them using a banner at the top of the page that there is a newer version. You can do so using [an advanced setting](/support-center/advanced-settings) by setting `warnings.oldVersion` to `true`.
+If your readers have bookmarked pages from older versions, or are unaware that your documentation is versioned, then you might want to notify them using a banner at the top of the page that there is a newer version. You can do so using [an advanced setting](advanced-settings.md) by setting `warnings.oldVersion` to `true`.
 
 {% image url="https://uploads.developerhub.io/prod/02/b2che9v8mdz4wz0mv6m16fnjq802n8ifibyrcr9xw9dv8hqjl1zns90zke259auw.png" %}
 Banner suggesting to the reader that there's a newer version
@@ -91,7 +90,7 @@ Versions can be locked when they no longer should have their documentation and A
 - Removed.
 - Published.
 
-This also applies to changes made using the [auto$](/v1.0/api/ref).
+This also applies to changes made using the [API](/v1.0/api/ref).
 
 To lock or unlock a version:
 

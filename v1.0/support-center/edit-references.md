@@ -2,10 +2,9 @@
 type: page
 title: Edit References
 listed: true
-slug: edit-references
 description: 
 index_title: Edit References
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -14,13 +13,13 @@ tags:
 
 The editor is also available as a free tool at [app.developerhub.io/api-editor](https://app.developerhub.io/api-editor) without logging into %product%.
 
-{% image url="asset:hmm65uny5oea" /%}
+{% image url="../../assets/49b0d2c20dc42bbc3c3e6513c92100247b7225db.png" /%}
 
 ## The Three Views
 
 A segmented control at the top of the editor switches between three views. Your choice is remembered across sessions.
 
-{% image url="asset:estexfkcz4f5" /%}
+{% image url="../../assets/3c0d57f531ee07b9a9d04a8b18e7becbc53e84b1.png" /%}
 
 - **Visual**: the default. A form-driven editor with a left sidebar that mirrors your OpenAPI document: Overview, Servers, Security schemes, Tags, Paths, Schemas, and Components. Edits flow straight into the underlying spec.
 - **Split**: visual form on the left, syntax-highlighted source on the right, with a draggable gutter between them. Changes on either side update the other.
@@ -34,7 +33,7 @@ Swagger 2.0 references open directly in **Source**. The visual editor covers Ope
 
 Pick a section from the left sidebar; the matching form loads in the main area.
 
-{% image url="asset:9yufm43n8fnn" /%}
+{% image url="../../assets/55de75f6f0e6c92793435da4365a4b36af282e7c.png" /%}
 
 The visual editor covers the whole spec:
 
@@ -51,7 +50,7 @@ The visual editor covers the whole spec:
 
 The schema editor renders any JSON Schema, however deep, with inline property rows, type and format dropdowns, required toggles, and one-click drill-down into nested schemas.
 
-{% image url="asset:aizq3o7l0g7e" /%}
+{% image url="../../assets/e03ace7d2829dfa3009ba732562e8c6ad715caa7.png" /%}
 
 Renaming a schema updates its display in the sidebar, but `$ref` paths elsewhere in the spec still point at the old name. Update those references manually.
 
@@ -72,7 +71,7 @@ The toolbar shows **Undo** and **Redo** buttons whenever you're editing in Visua
 
 Click **Source** to take over the canvas with a full-width Monaco editor. Use the YAML / JSON toggle at the top of the pane to flip formats; the editor reserialises for you.
 
-{% image url="asset:sts9n8yeg7w7" /%}
+{% image url="../../assets/5794134b35a8000d7b1e2053176010081c752883.png" /%}
 
 Switching back to **Visual** parses your buffer. If the source has a syntax error, the editor keeps the last valid state and shows a dismissable banner with a **Return to source** button so you don't lose your work.
 
@@ -90,7 +89,7 @@ The editor lints your spec continuously against the OpenAPI specification, regar
 
 A dock at the bottom of the editor always shows an **Issues** header. Click the pill or the chevron on the header to expand it and see the list. The panel tracks your preference in `localStorage`, and will auto-expand once on first load if there are any errors.
 
-{% image url="asset:eb7oe6r0q8lz" /%}
+{% image url="../../assets/66d1c48cf63e503c6a2a0a4c0c6ea49f27bfd8f0.png" /%}
 
 Filter by **All / Errors / Warnings** at the top. Click any issue to jump to the offending line. If you're in Visual, the editor flips to Source automatically and scrolls the line into view. Source mode also renders the issues inline as red and amber squiggles.
 
@@ -130,7 +129,7 @@ To start from scratch:
 - Click **+ New API reference**.
 - Choose **Create from scratch**. The API Editor opens in a new tab with an empty OpenAPI 3.x document, ready to edit.
 
-To import an existing file instead, see [Importing References](/support-center/uploading-references).
+To import an existing file instead, see [Importing References](uploading-references.md).
 
 ## Saving and Publishing
 
@@ -152,4 +151,4 @@ If you'd rather generate the OpenAPI file directly from code so it stays in sync
 - Go: [go-swagger](https://goswagger.io/)
 - Spring: [springfox](https://github.com/springfox/springfox)
 
-You can also use our [API to upload references programmatically](/support-center/api-key#how-to-upload-references-programmatically).
+You can also use our [API to upload references programmatically](project-settings/api-key.md#how-to-upload-references-programmatically).

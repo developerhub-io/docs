@@ -2,15 +2,14 @@
 type: page
 title: API Reference Settings
 listed: true
-slug: api-reference-settings
 description: 
 index_title: API Reference Settings
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
 
-Along with [code generation](/support-center/code-generation), each API Reference has settings which you can manage. To open them, open [Manage Sections](/support-center/managing-api-references#manage-sections) and select the API reference from the left list; its settings appear on the right.
+Along with [code generation](code-generation.md), each API Reference has settings which you can manage. To open them, open [Manage Sections](../project-settings/managing-api-references.md#manage-sections) and select the API reference from the left list; its settings appear on the right.
 
 {% image url="https://uploads.developerhub.io/prod/02/0hjexvjnju890j1pv3hw34iec82jwf8alpp23y84p8pj45hlel9dv39z6lez3k7y.png" /%}
 
@@ -20,7 +19,7 @@ Allow Download setting allows the API Reference to be downloadable by showing a 
 
 ## Show Try It Out
 
-Enables [API Playground](/support-center/try-it-out) to test APIs right from the API Reference.
+Enables [API Playground](../try-it-out.md) to test APIs right from the API Reference.
 
 ## Show Content-Type Header
 

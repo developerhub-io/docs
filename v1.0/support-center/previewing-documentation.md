@@ -2,10 +2,9 @@
 type: page
 title: Previewing Documentation
 listed: true
-slug: previewing-documentation
 description: 
 index_title: Previewing Documentation
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -132,11 +131,11 @@ Redirected To
 
 Any other form of link will load the default page.
 
-Note that you can add a base path if you are [hosting under your own existing website](/support-center/hosting#hosting-under-your-own-custom-domain), the above rules would still be applicable but a base path would be added right after the `<project>`. For example, instead of `https://<project>/<version>/<documentation>/<page>`, the link would be `https://<project>/<base-path>/<version>/<documentation>/<page>`.
+Note that you can add a base path if you are [hosting under your own existing website](hosting.md#hosting-under-your-own-custom-domain), the above rules would still be applicable but a base path would be added right after the `<project>`. For example, instead of `https://<project>/<version>/<documentation>/<page>`, the link would be `https://<project>/<base-path>/<version>/<documentation>/<page>`.
 
 ## Print-Optimised
 
-Our pages are print-optimised (specially for A4 paper size). We recommend having the wide documentation layout when printing, and always printing from the published documentation site (not on the editor). If you are an enterprise customer, then you may also [export an entire version as PDF](/support-center/pdf-export).
+Our pages are print-optimised (specially for A4 paper size). We recommend having the wide documentation layout when printing, and always printing from the published documentation site (not on the editor). If you are an enterprise customer, then you may also [export an entire version as PDF](pdf-export.md).
 
 {% image url="https://image-archive.developerhub.io/image/upload/285/eyb5rboboeyujowo73rl/1549534333.jpg" /%}
 

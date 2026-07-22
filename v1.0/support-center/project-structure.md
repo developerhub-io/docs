@@ -2,10 +2,9 @@
 type: page
 title: Project Structure
 listed: true
-slug: project-structure
 description: Get the most flexibility with DeveloperHub projects. Understand how projects are structured with landing pages, versions, documentation, and references. Customize branding, look, and team. Learn the best practices for versioning and organizing your docs effectively.
 index_title: Project Structure
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -57,7 +56,7 @@ A bigger project could have such a setup:
 
 If your docs are not versioned, then you can simply use a generic name for the default version, such as the name of your project. Under that version, you can have all the documentation and API references you need, such as User Guide, Knowledge Base, FAQ, Android SDK, iOS SDK and so on.
 
-If you only have one version, which is the default version, then the version name would not even show in the URL according to our [URL Strategy](/support-center/previewing-documentation#url-strategy).
+If you only have one version, which is the default version, then the version name would not even show in the URL according to our [URL Strategy](previewing-documentation.md#url-strategy).
 
 For example, our own docs are not versioned and we only have a `v1.0`. However, if you are on this page, then you'll notice that the link is actually `support-center/structuring-documentation` with no mention of `v1.0`.
 
@@ -72,7 +71,7 @@ An unversioned project could have such a setup:
     - Documentation: iOS SDK
     - Documentation: Knowledge Base
 
-Remember that you can hide the version selector using [Custom CSS](/support-center/custom-css), see [Hide Version Selector/Picker](/support-center/css-customisations#hide-version-selectorpicker).
+Remember that you can hide the version selector using [Custom CSS](customising-visuals/custom-css.md), see [Hide Version Selector/Picker](css-customisations.md#hide-version-selectorpicker).
 
 ## What is the use of versions?
 

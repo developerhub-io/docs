@@ -2,21 +2,20 @@
 type: page
 title: Top Navigation Bar
 listed: true
-slug: top-navigation-bar
 description: 
 index_title: Top Navigation Bar
-hidden: 
+hidden: false
 keywords: 
 tags: customisation
 ---
 
 The top navigation bar can be customised in multiple ways:
 
-- [Logo](/support-center/customising-visuals#changing-logo)
-- Bar colour ([brand colour](/support-center/customising-visuals#changing-colours)) and navigation links colour
-- [Links](/support-center/top-navigation-bar#adding-links--home-button)
-- [Stickiness](/support-center/top-navigation-bar#sticky-top-navigation-bar)
-- [Navigation Structure](/support-center/top-navigation-bar#navigation-structure)
+- [Logo](../customising-visuals.md#changing-logo)
+- Bar colour ([brand colour](../customising-visuals.md#changing-colours)) and navigation links colour
+- [Links](top-navigation-bar.md#adding-links--home-button)
+- [Stickiness](top-navigation-bar.md#sticky-top-navigation-bar)
+- [Navigation Structure](top-navigation-bar.md#navigation-structure)
 
 ## Navigation Structure
 

@@ -2,10 +2,9 @@
 type: page
 title: Configure DNS
 listed: true
-slug: configure-dns
 description: 
 index_title: Configure DNS
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---

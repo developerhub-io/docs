@@ -2,10 +2,9 @@
 type: page
 title: Tags
 listed: true
-slug: tags
 description: 
 index_title: Tags
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -27,7 +26,7 @@ The related pages are those that share the highest number of matching tags with 
 
 ## Search tag filtering
 
-Tags can also be used to filter search. Once you have at least one tag set up in the project, the filter option would show up in the reader search (only in [Next UI](/support-center/customising-visuals#next-ui)).
+Tags can also be used to filter search. Once you have at least one tag set up in the project, the filter option would show up in the reader search (only in [Next UI](customising-visuals.md#next-ui)).
 
 Readers can then filter by a tag or more simultaneously.
 

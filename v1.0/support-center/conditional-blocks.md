@@ -2,10 +2,9 @@
 type: page
 title: Conditional Blocks
 listed: true
-slug: conditional-blocks
 description: 
 index_title: Conditional Blocks
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -31,14 +30,14 @@ Each conditional block uses an audience to determine visibility. To change the a
 - Click on the audience label (shown with a grey background) at the top of the conditional block.
 - Select from the dropdown of available audiences.
 
-Audiences are managed in [Project Settings](/support-center/project-settings). Learn more about creating and configuring audiences in [Conditional Content](/support-center/conditional-content).
+Audiences are managed in [Project Settings](project-settings.md). Learn more about creating and configuring audiences in [Conditional Content](conditional-content.md).
 
 ## How Audiences are Evaluated
 
-When a reader views your documentation, their audience is evaluated based on variables passed through [custom login](/support-center/custom-login). The `vars` object in the JWT payload is matched against the audience conditions to determine which conditional blocks are visible.
+When a reader views your documentation, their audience is evaluated based on variables passed through [custom login](private-docs/custom-login.md). The `vars` object in the JWT payload is matched against the audience conditions to determine which conditional blocks are visible.
 
 {% callout title="Managing Audiences" %}
-To create, edit, or delete audiences, go to Project Settings → Audiences. See [Conditional Content](/support-center/conditional-content) for full details.
+To create, edit, or delete audiences, go to Project Settings → Audiences. See [Conditional Content](conditional-content.md) for full details.
 {% /callout %}
 
-If you require more of the Conditional Content feature, please do not hesitate to [contact us](/support-center/contact-us).
+If you require more of the Conditional Content feature, please do not hesitate to [contact us](contact-us.md).

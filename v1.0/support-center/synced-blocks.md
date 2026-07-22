@@ -2,10 +2,9 @@
 type: page
 title: Synced Blocks
 listed: true
-slug: synced-blocks
 description: Discover how to streamline your content management with synced blocks. Learn to create, reuse, edit, and archive these blocks for consistent messaging across pages. Enhance efficiency by ensuring changes reflect everywhere instantly. Perfect for teams looking to save time!
 index_title: Synced Blocks
-hidden: 
+hidden: false
 keywords: 
 tags: blocks
 ---
@@ -23,7 +22,7 @@ To create a synced block:
 - In the form, you need to define:
   - **ID:** An identifier for the synced block. Once saved, the ID cannot be modified. This ID will be visible in your exports. For example, if you are creating a guide on installing Docker, your ID could be `docker-installation`.
   - **Title:** Select a title that accurately represents the content, making it easy for your teammates to locate. Note that the title is editable and can be changed later.
-  - **The contents:** Utilise the editor to compose the contents of the synced block. These contents are flexible and can be modified later. Feel free to include any [blocks](/support-center/blocks) that are already supported in %product%.
+  - **The contents:** Utilise the editor to compose the contents of the synced block. These contents are flexible and can be modified later. Feel free to include any [blocks](writing-documentation/blocks.md) that are already supported in %product%.
 
 {% image url="https://image-archive.developerhub.io/image/upload/v2_1/itgncmmhvfhnqhspyiqk/1637268467.gif" /%}
 

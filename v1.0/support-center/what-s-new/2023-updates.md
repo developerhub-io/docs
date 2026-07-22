@@ -2,10 +2,9 @@
 type: page
 title: 2023 Updates
 listed: true
-slug: 2023-updates
 description: 
 index_title: 2023 Updates
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -20,15 +19,15 @@ tags:
 
 ### 14 Dec
 
-- {% badge text="New" type="success" /%} **Glossary**: Add [terms and definitions](/support-center/glossary) to your docs for contextual help.
+- {% badge text="New" type="success" /%} **Glossary**: Add [terms and definitions](../glossary.md) to your docs for contextual help.
 
 ### 11 Dec
 
 A huge update to %product% UI.
 
-- {% badge text="New" type="success" /%} **UI**: [Next UI](/support-center/customising-visuals#next-ui) is now available with sleek navigation bar, new search experience and clearer index.
-- {% badge text="New" type="success" /%} **Customisation**: Ability to change [navigation link colours](/support-center/customising-visuals#changing-colours).
-- {% badge text="New" type="success" /%} **Customisation**: Ability to make the [top navigation bar sticky](/support-center/customising-visuals#sticky-top-navigation-bar) to the top of the page.
+- {% badge text="New" type="success" /%} **UI**: [Next UI](../customising-visuals.md#next-ui) is now available with sleek navigation bar, new search experience and clearer index.
+- {% badge text="New" type="success" /%} **Customisation**: Ability to change [navigation link colours](../customising-visuals.md#changing-colours).
+- {% badge text="New" type="success" /%} **Customisation**: Ability to make the [top navigation bar sticky](../customising-visuals.md#sticky-top-navigation-bar) to the top of the page.
 - {% badge text="Change" type="warning" /%} **Documentation**: Minimal layout is no longer supported.
 - {% badge text="Change" type="warning" /%} **Documentation**: Only scrollable indices are now supported.
 - {% badge text="Improvement" /%} **UI**: Index is now placed to the side of the page, and content with TOC is in the middle.
@@ -41,7 +40,7 @@ A huge update to %product% UI.
 
 ### 19 Nov
 
-- {% badge text="New" type="success" /%} **Keywords**: Added [page keywords](/support-center/using-search#page-keywords) to improve search results.
+- {% badge text="New" type="success" /%} **Keywords**: Added [page keywords](../using-search.md#page-keywords) to improve search results.
 
 ### 18 Nov
 
@@ -87,7 +86,7 @@ A huge update to %product% UI.
 
 ### 28 Aug
 
-- {% badge text="New" type="success" /%} **Code Blocks**: Add [setting](/support-center/advanced-settings) to show line numbers in the gutter.
+- {% badge text="New" type="success" /%} **Code Blocks**: Add [setting](../project-settings/advanced-settings.md) to show line numbers in the gutter.
 
 ### 26 Aug
 
@@ -115,7 +114,7 @@ A huge update to %product% UI.
 
 ### 7 Aug
 
-- {% badge text="New" type="success" /%} **AI Summarisation**: Use [AI SEO Helper](/support-center/ai-summarisation) to generate META descriptions of pages.
+- {% badge text="New" type="success" /%} **AI Summarisation**: Use [AI SEO Helper](../ai-features/ai-summarisation.md) to generate META descriptions of pages.
 
 ### 5 Aug
 
@@ -123,7 +122,7 @@ A huge update to %product% UI.
 
 ### 26 Jul
 
-- {% badge text="New" type="success" /%} **Landing Pages**: Adding [other landing pages](/support-center/landing-page) at a non-root path is now available.
+- {% badge text="New" type="success" /%} **Landing Pages**: Adding [other landing pages](../landing-page.md) at a non-root path is now available.
 
 ### 13 Jul
 
@@ -132,10 +131,10 @@ A huge update to %product% UI.
 
 ### 6 Jul
 
-- {% badge text="New" type="success" /%} **Theme**: Dark [theme](/support-center/theme) is now available.
-- {% badge text="New" type="success" /%} **Developer Tools**: New [Navigate to Path](/support-center/developer-tools#navigate-to-path) function.
-- {% badge text="Change" type="warning" /%} **Developer Tools**: [Navigate to URL (Deprecated)](/support-center/developer-tools#navigate-to-url-deprecated) is now deprecated.
-- {% badge text="Improvement" /%} **CSS**: New [CSS Variables](/support-center/custom-css#css-variables) for easier customisation.
+- {% badge text="New" type="success" /%} **Theme**: Dark [theme](../customising-visuals/theme.md) is now available.
+- {% badge text="New" type="success" /%} **Developer Tools**: New [Navigate to Path](../developer-tools.md#navigate-to-path) function.
+- {% badge text="Change" type="warning" /%} **Developer Tools**: [Navigate to URL (Deprecated)](../developer-tools.md#navigate-to-url-deprecated) is now deprecated.
+- {% badge text="Improvement" /%} **CSS**: New [CSS Variables](../customising-visuals/custom-css.md#css-variables) for easier customisation.
 - {% badge text="Bug Fix" type="error" /%} **Stability**: Various bug fixes around stability.
 
 ### 1 Jul
@@ -144,8 +143,8 @@ A huge update to %product% UI.
 
 ### 21 Jun
 
-- {% badge text="New " type="success" /%} **Table of Contents**: Highlights last scrolled to heading by default. Can be disabled from [advanced settings](/support-center/advanced-settings).
-- {% badge text="New" type="success" /%} **Table of Contents**: H4 now shows in TOC. Can be disabled from [advanced settings](/support-center/advanced-settings).
+- {% badge text="New " type="success" /%} **Table of Contents**: Highlights last scrolled to heading by default. Can be disabled from [advanced settings](../project-settings/advanced-settings.md).
+- {% badge text="New" type="success" /%} **Table of Contents**: H4 now shows in TOC. Can be disabled from [advanced settings](../project-settings/advanced-settings.md).
 - {% badge text="New" type="success" /%} **Images**: Images now lazy-load to gain faster page loads.
 
 ### 18 Jun
@@ -158,9 +157,9 @@ Today we bring a large overhaul of %product%'s codebase after months of work to 
 - {% badge text="Change" type="warning" /%} **Page Info**: Duplicate slugs are no longer allowed. If a page, section or version has a duplicate slug, then you'll be forced to modify it to make it accessible.
 - {% badge text="Change" type="warning" /%} **Embed**: Using `?goto=embed` is no longer supported. Use `?mode=embed` instead.
 - {% badge text="Improvement" /%} **Navigation**: Handles faster user navigation better when page has not loaded yet.
-- {% badge text="Improvement" /%} **URL Strategy**: Modified [URL Strategy](/support-center/previewing-documentation#url-strategy). `/ref` has been dropped from API Reference URLs, and dash URLs have been deprecated (`/-/-/-`).
+- {% badge text="Improvement" /%} **URL Strategy**: Modified [URL Strategy](../previewing-documentation.md#url-strategy). `/ref` has been dropped from API Reference URLs, and dash URLs have been deprecated (`/-/-/-`).
 - {% badge text="Improvement" /%} **Navigation**: Browser back button functionality improved for both editor and reader modes.
-- {% badge text="Improvement" /%} **Landing Page**: Using `openLink` is no longer needed to navigate internally. Added a [new function](/support-center/developer-tools#make-all-landing-page-links-route-in-spa) to use for dynamically generated anchors.
+- {% badge text="Improvement" /%} **Landing Page**: Using `openLink` is no longer needed to navigate internally. Added a [new function](../developer-tools.md#make-all-landing-page-links-route-in-spa) to use for dynamically generated anchors.
 - {% badge text="Improvement" /%} **Performance**: Smoother UI interactions.
 - {% badge text="Improvement" /%} **Editor**: Links all around the editor are openable in a new tab (in dashboard, feedback, comments...)
 - {% badge text="Bug Fix" type="error" /%} **Index**: Parent pages that have all child pages hidden from index were showing the chevron icon.
@@ -176,12 +175,12 @@ Today we bring a large overhaul of %product%'s codebase after months of work to 
 
 ### 23 May
 
-- {% badge text="New" type="success" /%} **Developer Tools**: Added ability to [zoom images](/support-center/developer-tools#zoom-image) using javascript for dynamically generated images.
+- {% badge text="New" type="success" /%} **Developer Tools**: Added ability to [zoom images](../developer-tools.md#zoom-image) using javascript for dynamically generated images.
 
 ### 16 May
 
 - {% badge text="New" type="success" /%} **Developer Tools**: Added `onfeedback` event.
-- {% badge text="New" type="success" /%} **Integrations**: Added instructions for embedding [PlantUML](/support-center/graphs-charts#plantuml).
+- {% badge text="New" type="success" /%} **Integrations**: Added instructions for embedding [PlantUML](../integrations/graphs-charts.md#plantuml).
 
 ### 11 May
 
@@ -189,11 +188,11 @@ Today we bring a large overhaul of %product%'s codebase after months of work to 
 
 ### 3 May
 
-- {% badge text="New" type="success" /%} **Developer Tools**: Added [Get Active Version](/support-center/developer-tools#get-active-version), [Get Active Section](/support-center/developer-tools#get-active-section) and [Get Active Page](/support-center/developer-tools#get-active-page) functions.
+- {% badge text="New" type="success" /%} **Developer Tools**: Added [Get Active Version](../developer-tools.md#get-active-version), [Get Active Section](../developer-tools.md#get-active-section) and [Get Active Page](../developer-tools.md#get-active-page) functions.
 
 ### 27 Apr
 
-- {% badge text="Improvement" /%} **API Reference**: Add support for `application/x-www-form-urlencoded` for OpenAPI 3 definitions in [API Playground](/support-center/try-it-out).
+- {% badge text="Improvement" /%} **API Reference**: Add support for `application/x-www-form-urlencoded` for OpenAPI 3 definitions in [API Playground](../try-it-out.md).
 
 ### 26 Apr
 
@@ -208,7 +207,7 @@ Today we bring a large overhaul of %product%'s codebase after months of work to 
 
 ### 12 Apr
 
-- {% badge text="New" type="success" /%} **Quick Switcher**: [Quick Switcher](/support-center/quick-switcher) can now find text in the page, and perform find \& replace inside the editor.
+- {% badge text="New" type="success" /%} **Quick Switcher**: [Quick Switcher](../quick-switcher.md) can now find text in the page, and perform find \& replace inside the editor.
 
 ### 29 Mar
 
@@ -221,12 +220,12 @@ Today we bring a large overhaul of %product%'s codebase after months of work to 
 
 ### 24 Mar
 
-- {% badge text="New" type="success" /%} **Search**: Added a [javascript event](/support-center/developer-tools#on-search) for when a search operation happens.
+- {% badge text="New" type="success" /%} **Search**: Added a [javascript event](../developer-tools.md#on-search) for when a search operation happens.
 - {% badge text="Improvement" /%} **Custom HTML**: Headings in custom HTML blocks now show in the table of contents.
 
 ### 23 Mar
 
-- {% badge text="New" type="success" /%} **SEO**: Added a setting to [canonicalize short URL form](/support-center/seo) directly from Project Settings.
+- {% badge text="New" type="success" /%} **SEO**: Added a setting to [canonicalize short URL form](../seo.md) directly from Project Settings.
 
 ### 20 Mar
 
@@ -238,7 +237,7 @@ Today we bring a large overhaul of %product%'s codebase after months of work to 
 
 ### 5 Mar
 
-- {% badge text="New" type="success" /%} **SEO**: Page titles can be formatted to include more than page title and project title using [advanced settings](/support-center/advanced-settings).
+- {% badge text="New" type="success" /%} **SEO**: Page titles can be formatted to include more than page title and project title using [advanced settings](../project-settings/advanced-settings.md).
 
 ### 2 Mar
 
@@ -273,4 +272,4 @@ Today we bring a large overhaul of %product%'s codebase after months of work to 
 
 ### 2 Jan
 
-- {% badge text="New" type="success" /%} **Import**: [Zendesk migration](/support-center/import-from-zendesk) to %product% tool is available now.
+- {% badge text="New" type="success" /%} **Import**: [Zendesk migration](../importing-documentation/import-from-zendesk.md) to %product% tool is available now.

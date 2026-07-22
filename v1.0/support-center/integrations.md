@@ -2,10 +2,9 @@
 type: page
 title: Integrations
 listed: true
-slug: integrations
 description: 
 index_title: Integrations
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -22,32 +21,32 @@ Add integrations to your project to be able to understand better how your users 
 
 ### Google Analytics
 
-[Google Analytics](/support-center/google-analytics) helps you better understand your customers by knowing how they navigate in your documentation.
+[Google Analytics](integrations/google-analytics.md) helps you better understand your customers by knowing how they navigate in your documentation.
 
 {% image url="https://image-archive.developerhub.io/image/upload/-1/t0glspycpulda3rdz6oh/1539432076.png" width=300 /%}
 
 ### Intercom
 
-[Intercom](/support-center/intercom) is a customer messaging app for sales, marketing and support.
+[Intercom](integrations/intercom.md) is a customer messaging app for sales, marketing and support.
 
 {% image url="https://image-archive.developerhub.io/image/upload/-1/ksd9pyxj4s1lnj0dcxyu/1539432099.png" width=300 /%}
 
 ### Slack
 
-[Slack](/support-center/slack) is a team collaboration tool which replaces e-mail by putting everyone in your business on chat.
+[Slack](integrations/slack.md) is a team collaboration tool which replaces e-mail by putting everyone in your business on chat.
 
 {% image url="https://image-archive.developerhub.io/image/upload/5968/u8sxrekzwakciepzvbtf/1556179928.png" width=600 /%}
 
 ### Localize
 
-[Localize](https://localizejs.com/) helps you translate all your docs to many languages, and ensuring that all doc translations are up-to-date. To enable this integration, see [localisation](/support-center/localisation#localise-using-localize).
+[Localize](https://localizejs.com/) helps you translate all your docs to many languages, and ensuring that all doc translations are up-to-date. To enable this integration, see [localisation](localisation.md#localise-using-localize).
 
 {% image url="https://image-archive.developerhub.io/image/upload/v2_1/nfrsolb170tpefux40h7/1621556168.png" width=300 /%}
 
 ## Custom Integrations
 
-Your custom integrations can be added using [Custom HEAD Tags](/support-center/custom-javascript).
+Your custom integrations can be added using [Custom HEAD Tags](custom-javascript.md).
 
 ## More Integrations
 
-We are always adding more integrations based on your feedback. We are happy to support more integrations. [Contact us](/support-center/contact-us) and let us know what you need.
+We are always adding more integrations based on your feedback. We are happy to support more integrations. [Contact us](contact-us.md) and let us know what you need.

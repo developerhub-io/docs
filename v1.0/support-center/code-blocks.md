@@ -2,10 +2,9 @@
 type: page
 title: Code Blocks
 listed: true
-slug: code-blocks
 description: 
 index_title: Code Blocks
-hidden: 
+hidden: false
 keywords: 
 tags: blocks
 ---
@@ -308,7 +307,7 @@ To fold or unfold a region yourself, click the fold arrows in the gutter to the 
 There are two ways to show line numbers:
 
 - For each tab, you could enable showing line numbers from the tab options.
-- Globally, you could enable showing line numbers for all code blocks in the project. See option `code.showLineNumbers` in [advanced settings](/support-center/advanced-settings).
+- Globally, you could enable showing line numbers for all code blocks in the project. See option `code.showLineNumbers` in [advanced settings](project-settings/advanced-settings.md).
 
 ## Highlight Code
 

@@ -2,10 +2,9 @@
 type: page
 title: Ordering Blocks
 listed: true
-slug: ordering-blocks
 description: 
 index_title: Ordering Blocks
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---

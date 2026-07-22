@@ -2,10 +2,9 @@
 type: page
 title: Links
 listed: true
-slug: external-links
 description: 
 index_title: Links
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---

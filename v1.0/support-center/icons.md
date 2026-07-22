@@ -2,10 +2,9 @@
 type: page
 title: Icons
 listed: true
-slug: icons
 description: 
 index_title: Icons
-hidden: 
+hidden: false
 keywords: 
 tags: inline-blocks
 ---
@@ -30,7 +29,7 @@ To add an icon, start typing "/" and choose **Icon** from the inline blocks list
 </div>
 {% /html %}
 
-To style icons, you can provide CSS in [Custom CSS](/support-center/custom-css), and supply the class used in Classes option when editing the icon. For example:
+To style icons, you can provide CSS in [Custom CSS](customising-visuals/custom-css.md), and supply the class used in Classes option when editing the icon. For example:
 
 - Icon with primary colour (already available) {% icon classes="fas fa-rocket primary-text" /%} by applying `primary-text` class.
 - Icon with primary background (already available) {% icon classes="fas fa-check-circle primary-background" /%} by applying `primary-background` class.

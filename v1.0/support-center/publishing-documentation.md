@@ -2,10 +2,9 @@
 type: page
 title: Publishing Documentation
 listed: false
-slug: publishing-documentation
 description: 
 index_title: Publishing Documentation
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---

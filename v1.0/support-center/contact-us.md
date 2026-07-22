@@ -2,10 +2,9 @@
 type: page
 title: Contact Us
 listed: true
-slug: contact-us
 description: 
 index_title: Contact Us
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---

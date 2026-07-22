@@ -2,10 +2,9 @@
 type: page
 title: AI Commit Messages
 listed: true
-slug: ai-commit-messages
 description: 
 index_title: AI Commit Messages
-hidden: 
+hidden: false
 keywords: 
 tags: ai
 ---

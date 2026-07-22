@@ -2,10 +2,9 @@
 type: page
 title: Latex
 listed: true
-slug: latex
 description: 
 index_title: Latex
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---

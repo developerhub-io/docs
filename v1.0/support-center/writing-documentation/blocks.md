@@ -2,10 +2,9 @@
 type: page
 title: Blocks
 listed: true
-slug: blocks
 description: 
 index_title: Blocks
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -16,35 +15,35 @@ To add more than text to your documentation, just hit {% key key="/" /%} anywher
 
 The blocks menu will show, just like this one:
 
-{% image url="asset:r9us6q1pd13n" width=264 /%}
+{% image url="../../../assets/178cf1545545cd6e9e6a3df24ea18033dae7e1b0.png" width=264 /%}
 
 %product% supports the following blocks:
 
 {% cards %}
-{% card title="Code Blocks" text="Pretty-formatted code" link="/support-center/code-blocks" /%}
-{% card title="Images" text="Full-size zoomable images" link="/support-center/images" /%}
-{% card title="Tables" text="Supports inline media" link="/support-center/tables" /%}
-{% card title="Callouts" text="Highlight notes for readers" link="/support-center/callouts" /%}
-{% card title="Videos" text="Embed from YouTube, Vimeo, Loom or upload your own" link="/support-center/videos" /%}
-{% card title="Cards" text="The exact block that makes this card" link="/support-center/cards" /%}
-{% card title="Synced Blocks" text="Single-sourcing tool to reuse content" link="/support-center/synced-blocks" /%}
-{% card title="Custom HTML" text="Embed anything in the page" link="/support-center/custom-html" /%}
-{% card title="Tabs" text="Split content for different user types" link="/support-center/tabs" /%}
-{% card title="GitHub Code" text="Embed GitHub code" link="/support-center/github-code" /%}
-{% card title="Index List" text="List the child pages under a parent page automatically" link="/support-center/index-list" /%}
-{% card title="Conditional Block" text="Conditional content based on user variables" link="/support-center/conditional-content" /%}
+{% card title="Code Blocks" text="Pretty-formatted code" link="../code-blocks.md" /%}
+{% card title="Images" text="Full-size zoomable images" link="../images.md" /%}
+{% card title="Tables" text="Supports inline media" link="../tables.md" /%}
+{% card title="Callouts" text="Highlight notes for readers" link="../callouts.md" /%}
+{% card title="Videos" text="Embed from YouTube, Vimeo, Loom or upload your own" link="../videos.md" /%}
+{% card title="Cards" text="The exact block that makes this card" link="../cards.md" /%}
+{% card title="Synced Blocks" text="Single-sourcing tool to reuse content" link="../synced-blocks.md" /%}
+{% card title="Custom HTML" text="Embed anything in the page" link="../custom-html.md" /%}
+{% card title="Tabs" text="Split content for different user types" link="../tabs.md" /%}
+{% card title="GitHub Code" text="Embed GitHub code" link="../github-code.md" /%}
+{% card title="Index List" text="List the child pages under a parent page automatically" link="../index-list.md" /%}
+{% card title="Conditional Block" text="Conditional content based on user variables" link="../conditional-content.md" /%}
 {% /cards %}
 
 And the following inline blocks. Inline blocks go on the same line as text. %product% supports the following inline blocks:
 
 {% cards %}
-{% card title="Link to Page" text="Internal dynamic linking" link="/support-center/page-linking" /%}
-{% card title="Variables" text="Personalise documentation" link="/support-center/variables" /%}
-{% card title="Glossary" text="Define terms and definitions" link="/support-center/glossary" /%}
-{% card title="Inline Images" text="Small images that sit within a line of text" link="/support-center/inline-images" /%}
-{% card title="Badges" text="Highlight text or use it for changelogs" link="/support-center/badges" /%}
-{% card title="Icons" text="Font awesome icons" link="/support-center/icons" /%}
-{% card title="Keyboard Keys" text="UI for keyboard keys" link="/support-center/keyboard-keys" /%}
+{% card title="Link to Page" text="Internal dynamic linking" link="page-linking.md" /%}
+{% card title="Variables" text="Personalise documentation" link="../variables.md" /%}
+{% card title="Glossary" text="Define terms and definitions" link="../glossary.md" /%}
+{% card title="Inline Images" text="Small images that sit within a line of text" link="../inline-images.md" /%}
+{% card title="Badges" text="Highlight text or use it for changelogs" link="../badges.md" /%}
+{% card title="Icons" text="Font awesome icons" link="../icons.md" /%}
+{% card title="Keyboard Keys" text="UI for keyboard keys" link="../keyboard-keys.md" /%}
 {% /cards %}
 
 ## Emojis

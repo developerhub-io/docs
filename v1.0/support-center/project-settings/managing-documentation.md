@@ -2,10 +2,9 @@
 type: page
 title: Managing Documentation
 listed: true
-slug: managing-documentation
 description: 
 index_title: Managing Documentation
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---

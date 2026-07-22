@@ -2,10 +2,9 @@
 type: page
 title: External Sources
 listed: true
-slug: external-sources
 description: 
 index_title: External Sources
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -23,7 +22,7 @@ To import documentation, follow these steps:
 
 Importing could take a few seconds up to a minute.
 
-You could also import a single page, see [Import a page into DeveloperHub](/support-center/importing-documentation#import-a-page-into-product) for instructions.
+You could also import a single page, see [Import a page into DeveloperHub](../importing-documentation.md#import-a-page-into-product) for instructions.
 
 {% callout title="Info" %}
 All imports add versions. Versions, documentations and pages are never overwritten.
@@ -96,11 +95,11 @@ To import from ReadMe:
 
 ## Importing from HTML
 
-To import HTML, you need to convert it first to Markdown. There are many free services online that can help you convert HTML to Markdown such as [h2m](http://tinyambition.com/h2m/) or [turndown](https://domchristie.github.io/turndown/). There are also heaps of libraries available if you wish to convert many files at once. Once your docs are in markdown format, follow the [how to import documentation](/support-center/external-sources#how-to-import-documentation) guide.
+To import HTML, you need to convert it first to Markdown. There are many free services online that can help you convert HTML to Markdown such as [h2m](http://tinyambition.com/h2m/) or [turndown](https://domchristie.github.io/turndown/). There are also heaps of libraries available if you wish to convert many files at once. Once your docs are in markdown format, follow the [how to import documentation](external-sources.md#how-to-import-documentation) guide.
 
 ## Importing from Word Documents
 
-To import Word doc/docx format, you need to convert it first to Markdown. You can use this free online [Word to Markdown Converter](https://word2md.com/) to do that. Once your docs are in markdown format, follow the [how to import documentation](/support-center/external-sources#how-to-import-documentation) guide.
+To import Word doc/docx format, you need to convert it first to Markdown. You can use this free online [Word to Markdown Converter](https://word2md.com/) to do that. Once your docs are in markdown format, follow the [how to import documentation](external-sources.md#how-to-import-documentation) guide.
 
 ## Importing from Confluence
 
@@ -108,4 +107,4 @@ To import from Confluence, you need to convert it first to Markdown. Depending o
 
 ## Importing from Zendesk
 
-See [Import from Zendesk](/support-center/import-from-zendesk).
+See [Import from Zendesk](import-from-zendesk.md).

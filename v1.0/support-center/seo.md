@@ -2,10 +2,9 @@
 type: page
 title: SEO
 listed: true
-slug: seo
 description: 
 index_title: SEO
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -46,7 +45,7 @@ This section covers the most common questions about how metadata is derived and 
 
 ### Title Tag (Browser Tab Title)
 
-The `<title>` tag is controlled globally using `seo.titleFormats` in [Advanced Settings](/support-center/advanced-settings).
+The `<title>` tag is controlled globally using `seo.titleFormats` in [Advanced Settings](project-settings/advanced-settings.md).
 
 By default, it uses the format:
 
@@ -58,7 +57,7 @@ Each page can override its meta description from **Page Info** (right sidebar), 
 
 By default, the meta description is taken from the first paragraph on the page.
 
-You can also generate a description from **Page Info → Settings → AI Generate**. For more details, see [AI SEO Helper](/support-center/ai-summarisation).
+You can also generate a description from **Page Info → Settings → AI Generate**. For more details, see [AI SEO Helper](ai-features/ai-summarisation.md).
 
 ### Social Preview Image (Open Graph Image)
 
@@ -86,7 +85,7 @@ Where to find them depends on how your docs are hosted. Examples:
 - %product% subdomain:
   - `https://<subdomain>.developerhub.io/sitemap.xml`
 
-If you are [hosting under an existing website](/support-center/hosting#hosting-under-an-existing-website), the sitemap and robots endpoints live under the documentation base path on the custom domain (and are also available on the subdomain).
+If you are [hosting under an existing website](hosting.md#hosting-under-an-existing-website), the sitemap and robots endpoints live under the documentation base path on the custom domain (and are also available on the subdomain).
 
 {% callout title="Info" %}
 Sitemaps are generated every 6 hours.
@@ -106,7 +105,7 @@ If you do not want the documentation visible on search engines, turn off **Allow
 
 ### Canonical URL Strategy for Versioned Docs
 
-By default, %product% treats the [short URL](/support-center/previewing-documentation#url-strategy) (without the version slug) as the canonical URL.
+By default, %product% treats the [short URL](previewing-documentation.md#url-strategy) (without the version slug) as the canonical URL.
 
 If you want canonical URLs to include the version slug, enable **Canonicalize Short URL Form** in Project Settings (Hosting).
 
@@ -114,7 +113,7 @@ If you want only the default version indexed, enable **Only Index Default Versio
 
 ### Additional Meta Tags
 
-If you need to add custom verification tags or additional SEO-related meta tags, see [Custom HEAD Tags](/support-center/custom-javascript).
+If you need to add custom verification tags or additional SEO-related meta tags, see [Custom HEAD Tags](custom-javascript.md).
 
 ## Troubleshooting
 
@@ -131,7 +130,7 @@ Example:
 
 This does not harm SEO. It ensures crawlers receive a fully rendered HTML snapshot.
 
-We support major search engines and common SEO tools. If your SEO software appears unsupported, configure it to use a known spider user agent such as `googlebot`, or [contact us](/support-center/contact-us) to add support.
+We support major search engines and common SEO tools. If your SEO software appears unsupported, configure it to use a known spider user agent such as `googlebot`, or [contact us](contact-us.md) to add support.
 
 ### When I Inspect the Page Source, the Page Is Empty
 

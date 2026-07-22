@@ -2,10 +2,9 @@
 type: page
 title: Separators
 listed: true
-slug: separators
 description: 
 index_title: Separators
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---

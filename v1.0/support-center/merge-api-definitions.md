@@ -2,10 +2,9 @@
 type: page
 title: Merge API Definitions
 listed: true
-slug: merge-api-definitions
 description: 
 index_title: Merge API Definitions
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -14,7 +13,7 @@ Merging API references lets you combine multiple existing API definitions into a
 
 The merged result is saved as a **draft** API reference so you can review it before publishing.
 
-{% image url="asset:hqcj861fb8nx" /%}
+{% image url="../../assets/311e454de768810c35c15b89a931dfe334df204a.png" /%}
 
 ## Merge API References
 

@@ -2,10 +2,9 @@
 type: page
 title: UI Translation
 listed: true
-slug: ui-translation
 description: 
 index_title: UI Translation
-hidden: 
+hidden: false
 keywords: 
 tags: customisation
 ---
@@ -13,7 +12,7 @@ tags: customisation
 If you wish to change %product% UI text that shows to your readers, which defaults to English, then you can modify it through two ways:
 
 - Changing the Language in the documentation section's settings on the Manage Sections page.
-- Modifying the [javascript](/support-center/custom-javascript).
+- Modifying the [javascript](../custom-javascript.md).
 
 ## Which Text Can be Changed?
 
@@ -99,7 +98,7 @@ To specify in which language should the UI text show in:
 
 Each documentation can have its own translation.
 
-At the moment, we have support for English, French, Deutsch and Spanish. If there is a language which you need for your documentation which we do not provide yet, then please [contact us](/support-center/contact-us).
+At the moment, we have support for English, French, Deutsch and Spanish. If there is a language which you need for your documentation which we do not provide yet, then please [contact us](../contact-us.md).
 
 ## How to Customise UI Text
 
@@ -110,7 +109,7 @@ At the moment, we have support for English, French, Deutsch and Spanish. If ther
 </div>
 {% /html %}
 
-By using [custom javascript](/support-center/custom-javascript), you can modify any or all of the default translations. For example, you can add a script to your HEAD tags to override table of contents and search results as such:
+By using [custom javascript](../custom-javascript.md), you can modify any or all of the default translations. For example, you can add a script to your HEAD tags to override table of contents and search results as such:
 
 {% code %}
 ```html {% title="Javascript" %}
@@ -136,7 +135,7 @@ Other translations such as `consent.text` have plus signs where a URL should be 
 
 ### Change Translation According to Content
 
-To change the UI text according to which version or which documentation is selected, then you can do that with [custom javascript](/support-center/custom-javascript). Example code that you can use:
+To change the UI text according to which version or which documentation is selected, then you can do that with [custom javascript](../custom-javascript.md). Example code that you can use:
 
 {% code %}
 ```html {% title="Javascript" %}

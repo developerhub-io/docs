@@ -2,10 +2,9 @@
 type: page
 title: API Playground
 listed: true
-slug: try-it-out
 description: 
 index_title: API Playground
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -34,7 +33,7 @@ Access-Control-Max-Age: 86400
 ```
 {% /code %}
 
-2. (Optional) Set up your OAuth2 client to redirect to our redirect URL. If your API uses OAuth2 and you wish for the reader to be able to generate a token from the API playground directly, then you must add our redirect URL to your OAuth2 client. See [OAuth 2.0 Authentication](/support-center/try-it-out#oauth-20-authentication).
+2. (Optional) Set up your OAuth2 client to redirect to our redirect URL. If your API uses OAuth2 and you wish for the reader to be able to generate a token from the API playground directly, then you must add our redirect URL to your OAuth2 client. See [OAuth 2.0 Authentication](try-it-out.md#oauth-20-authentication).
 
 ## Enabling Try It Out
 
@@ -51,7 +50,7 @@ All requests are made from the browser directly, so you must ensure that the API
 
 ## Personalising Authentication Values
 
-To personalise authentication values, such as in the header and query string, please [contact us](/support-center/contact-us).
+To personalise authentication values, such as in the header and query string, please [contact us](contact-us.md).
 
 ## OAuth 2.0 Authentication
 
@@ -79,7 +78,7 @@ Custom Interceptors allow you to modify a request before sending it. This can be
 
 To set up custom interceptors:
 
-1. Edit [Custom HEAD Tags](/support-center/custom-javascript).
+1. Edit [Custom HEAD Tags](custom-javascript.md).
 2. Add a script that registers every custom interceptor needed using `window.registerCustomInterceptor` function.
 
 Function: `registerCustomInterceptor`.

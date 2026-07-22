@@ -2,10 +2,9 @@
 type: page
 title: Google Analytics
 listed: true
-slug: google-analytics
 description: 
 index_title: Google Analytics
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---

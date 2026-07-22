@@ -2,10 +2,9 @@
 type: page
 title: Page History
 listed: true
-slug: page-history
 description: 
 index_title: Page History
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -14,7 +13,7 @@ Supercharged plans can view and go back to older versions of each page.
 
 Edit history has its own entry in the editor's right sidebar, the {% icon classes="fas fa-history" /%} icon, separate from **Page Info**.
 
-{% image url="asset:2doioqr1wruk" %}
+{% image url="../../assets/1b0c2c82b00521eba51b54ca77370b236d32b234.png" %}
 The Edit history panel
 {% /image %}
 
@@ -53,7 +52,7 @@ If you are currently writing a draft, and you need to review the changes since p
 - Select **Edit history** {% icon classes="fas fa-history" /%} from the right sidebar.
 - At the top of the panel, click **Compare with published**.
 
-{% image url="asset:iy1975sv7gh8" %}
+{% image url="../../assets/b797277314e51a5372853ce5515e029306d7c950.png" %}
 Comparing a draft with the published page
 {% /image %}
 
@@ -62,4 +61,4 @@ All edits since last published edit will be merged and showed.
 ## Known Limitations \& Bugs
 
 - Diffs might have extra spaces and dashes after an import.
-- If a [block](/support-center/blocks) is changed, then we only highlight it in orange and we do not show the previous state. The new state is only shown.
+- If a [block](writing-documentation/blocks.md) is changed, then we only highlight it in orange and we do not show the previous state. The new state is only shown.

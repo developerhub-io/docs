@@ -2,10 +2,9 @@
 type: page
 title: Custom Landing Page
 listed: true
-slug: custom-landing-page
 description: 
 index_title: Custom Landing Page
-hidden: 
+hidden: false
 keywords: 
 tags: customisation
 ---
@@ -17,7 +16,7 @@ tags: customisation
 </div>
 {% /html %}
 
-Most landing pages are best built with the visual [Landing Page Designer](/support-center/landing-page). If you want complete control and branding, you can instead craft a landing page from your own HTML, CSS, and JavaScript. This works for both the main landing page and any [custom page](/support-center/landing-page#custom-pages).
+Most landing pages are best built with the visual [Landing Page Designer](../landing-page.md). If you want complete control and branding, you can instead craft a landing page from your own HTML, CSS, and JavaScript. This works for both the main landing page and any [custom page](../landing-page.md#custom-pages).
 
 {% image url="https://uploads.developerhub.io/prod/02/ahrp4vnyagpw6e0nmkes5omnq7zfeokv4x7qcnz9co3to08b5jqy6fvpf7jgpsol.jpg" %}
 Our Custom Landing Page
@@ -28,7 +27,7 @@ Our Custom Landing Page
 To switch a landing page to custom HTML:
 
 - In the editor top navigation, open the scope picker and select **Landing Pages**.
-- Open [Manage Landing Pages](/support-center/landing-page#managing-landing-pages) and select the page (the main landing page or a custom page).
+- Open [Manage Landing Pages](../landing-page.md#managing-landing-pages) and select the page (the main landing page or a custom page).
 - Under **Customise**, turn on **Use custom HTML page**.
 
 To modify the landing page HTML:
@@ -42,9 +41,9 @@ To modify the landing page HTML:
 - To revert the draft changes, click Revert.
 
 {% callout type="warning" title="Write body only - Not full HTML page" %}
-The HTML you provide will be inserted into the body of the landing page in a div with `landing-page-container` class. Thus, do not wrap everything in `<html>` tag. `<head>` tag will also be discarded. See our examples [below](/support-center/custom-landing-page#mocking-default-landing-page).
+The HTML you provide will be inserted into the body of the landing page in a div with `landing-page-container` class. Thus, do not wrap everything in `<html>` tag. `<head>` tag will also be discarded. See our examples [below](custom-landing-page.md#mocking-default-landing-page).
 
-This also apply to `<style>`. All styles should be moved to [Custom CSS](/support-center/custom-css).
+This also apply to `<style>`. All styles should be moved to [Custom CSS](../customising-visuals/custom-css.md).
 {% /callout %}
 
 ## Crafting a Landing Page
@@ -59,7 +58,7 @@ Note that we do not evaluate or validate the HTML inserted - please double check
 
 ## Adding CSS
 
-If you wish to add CSS, then you can add it to [Custom CSS](/support-center/custom-css), or you could add it in [Custom HEAD Tags](/support-center/custom-javascript) in a `<style>` tag, or even link external CSS by using `<link>` tag.
+If you wish to add CSS, then you can add it to [Custom CSS](../customising-visuals/custom-css.md), or you could add it in [Custom HEAD Tags](../custom-javascript.md) in a `<style>` tag, or even link external CSS by using `<link>` tag.
 
 {% callout type="warning" title="Global CSS" %}
 Remember that the CSS is applied globally. Modifying classes of conventional names (specially Bootstrap selectors), such as `.container` might have unwanted effects.
@@ -67,7 +66,7 @@ Remember that the CSS is applied globally. Modifying classes of conventional nam
 
 ## Adding Javascript
 
-If you wish to add Javascript, then you can add it in [Custom HEAD Tags](/support-center/custom-javascript) in a `<script>` tag. If you wish to reuse the auto-generated [cards](/support-center/landing-page#card-generation-strategy) that %product% builds from your content, then you can listen to a dedicated event `oncardschanged` as such:
+If you wish to add Javascript, then you can add it in [Custom HEAD Tags](../custom-javascript.md) in a `<script>` tag. If you wish to reuse the auto-generated [cards](../landing-page.md#card-generation-strategy) that %product% builds from your content, then you can listen to a dedicated event `oncardschanged` as such:
 
 {% code %}
 ```html
@@ -81,7 +80,7 @@ document.addEventListener('oncardschanged', function (event) {
 
 This event also indicates that the landing page HTML has already loaded, and that you can query its selectors.
 
-The `detail` carries `docs` and `refs` (and `groups` when your project uses [navigation groups](/support-center/structuring-documentation)), mirroring the [card generation strategy](/support-center/landing-page#card-generation-strategy). The event output looks like the follows for the main landing page:
+The `detail` carries `docs` and `refs` (and `groups` when your project uses [navigation groups](../structuring-documentation.md)), mirroring the [card generation strategy](../landing-page.md#card-generation-strategy). The event output looks like the follows for the main landing page:
 
 {% code %}
 ```json
@@ -220,4 +219,4 @@ If you wish to hide the top navigation bar when on the custom landing page, you 
 
 ## Mocking default Landing Page
 
-See [Mocking Default Landing Page](/support-center/mocking-default-landing-page) for step-by-step instructions on how to create a landing page like our own.
+See [Mocking Default Landing Page](mocking-default-landing-page.md) for step-by-step instructions on how to create a landing page like our own.

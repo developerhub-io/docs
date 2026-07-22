@@ -2,10 +2,9 @@
 type: page
 title: Using Custom Domain
 listed: true
-slug: using-custom-domain
 description: 
 index_title: Using Custom Domain
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -23,7 +22,7 @@ Custom domain is available for supercharged plans. To set it up:
 - Open Project Settings → **Hosting**.
 - In the Custom domain field, enter a domain such as `box.hooli.com` that exists under your own existing domain where you would like to have your documentation published on.
 - Click **Save changes** in the top menu.
-- Configure your DNS records as in [Configure DNS](/support-center/configure-dns) page.
+- Configure your DNS records as in [Configure DNS](configure-dns.md) page.
 - When your documentation is published, then you can view it at either your custom domain or DeveloperHub.io subdomain.
 
 ## HTTPS Support
@@ -38,4 +37,4 @@ If you would like to enable Google Search Console, or any other Google product t
 
 To enable the ownership, select the alternative methods option when prompted on Google's tools and choose using DNS verification.
 
-If you are unable to use DNS verification, then you can then verify your ownership by adding a META tag by using [Custom HEAD Tags](/support-center/custom-javascript). However, you would either need to wait up to 7 days for the META tag to show for Google Site Verification bot, or you can [contact us](/support-center/contact-us) to speed up the process.
+If you are unable to use DNS verification, then you can then verify your ownership by adding a META tag by using [Custom HEAD Tags](../custom-javascript.md). However, you would either need to wait up to 7 days for the META tag to show for Google Site Verification bot, or you can [contact us](../contact-us.md) to speed up the process.

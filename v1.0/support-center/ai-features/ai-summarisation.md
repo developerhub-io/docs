@@ -2,10 +2,9 @@
 type: page
 title: AI SEO Helper
 listed: true
-slug: ai-summarisation
 description: Discover how to use AI summarization to generate META descriptions for your pages. Our beta feature simplifies tasks using OpenAI, with the option to modify descriptions as needed.
 index_title: AI SEO Helper
-hidden: 
+hidden: false
 keywords: 
 tags: ai
 ---
@@ -22,7 +21,7 @@ To use an AI generated META description of a page:
 - You may modify the description if needed.
 - Click Save.
 
-{% image url="asset:x9dj0mdnmf00" %}
+{% image url="../../../assets/bfa97bef4f5c762e19b5e5dbba04f7bb08018afe.png" %}
 Generating a meta description from the Settings tab
 {% /image %}
 

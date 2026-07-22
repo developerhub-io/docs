@@ -2,10 +2,9 @@
 type: page
 title: Accordions
 listed: true
-slug: accordions
 description: 
 index_title: Accordions
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---

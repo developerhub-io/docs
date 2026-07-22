@@ -2,19 +2,18 @@
 type: page
 title: AI Agent
 listed: true
-slug: ai-agent
 description: 
 index_title: AI Agent
-hidden: 
+hidden: false
 keywords: 
 tags: ai
 ---
 
-AI Agent helps editors draft and revise documentation pages by turning a conversation into proposed page edits. It supports similar writing workflows to [AI Writer](/support-center/ai-writer), but it can also search and reference the documentation in your current documentation version to produce more informed, page-specific edit suggestions.
+AI Agent helps editors draft and revise documentation pages by turning a conversation into proposed page edits. It supports similar writing workflows to [AI Writer](ai-writer.md), but it can also search and reference the documentation in your current documentation version to produce more informed, page-specific edit suggestions.
 
 AI Agent never applies changes automatically. Instead, it produces one or more edit suggestions that you can review and apply selectively.
 
-{% image url="asset:499s9a2n4aoa" %}
+{% image url="../../../assets/faf74b6131d6fb5c47063db4ab57c65ec59d52b0.png" %}
 The AI Agent panel
 {% /image %}
 
@@ -86,7 +85,7 @@ When AI Agent provides edit suggestions, you can:
 - Select **Apply** on a suggestion to apply it to the page
 - Apply suggestions selectively (you do not need to apply all suggestions)
 
-Applied suggestions update the page in [draft mode](/support-center/draft-mode):
+Applied suggestions update the page in [draft mode](draft-mode.md):
 
 - Applying a suggestion updates the draft content on the page.
 - The draft is **not saved automatically**.

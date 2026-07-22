@@ -2,10 +2,9 @@
 type: page
 title: Glossary
 listed: true
-slug: glossary
 description: 
 index_title: Glossary
-hidden: 
+hidden: false
 keywords: 
 tags: inline-blocks
 ---
@@ -16,8 +15,8 @@ Glossary helps readers understand terms in-page in the context of your product. 
 
 To use glossary:
 
-1. [Define](/support-center/glossary#defining-glossary) the terms and their definitions in the glossary.
-2. [Add](/support-center/glossary#adding-glossary-to-page) the term to the page.
+1. [Define](glossary.md#defining-glossary) the terms and their definitions in the glossary.
+2. [Add](glossary.md#adding-glossary-to-page) the term to the page.
 
 ## Defining Glossary
 

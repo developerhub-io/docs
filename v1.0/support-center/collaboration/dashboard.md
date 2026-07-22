@@ -2,10 +2,9 @@
 type: page
 title: Dashboard
 listed: true
-slug: dashboard
 description: 
 index_title: Dashboard
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -22,9 +21,9 @@ The dashboard helps your teammates find upcoming items as fast as possible. The 
 - All the users that are currently logged in.
 - All the unresolved comments that are assigned to you, and other unresolved comments.
 - All pages that are in draft mode currently.
-- [Activity log](/support-center/activity-log): A log of everything that has been happening in your project so you keep up with your teammates.
+- [Activity log](../activity-log.md): A log of everything that has been happening in your project so you keep up with your teammates.
 - : Understand how readers are using your search bar, are they finding what they're looking for?
-- [Feedback](/support-center/feedback): Read and analyse feedback trends on your pages.
+- [Feedback](../feedback.md): Read and analyse feedback trends on your pages.
 
 ## How to get to the Dashboard?
 

@@ -2,10 +2,9 @@
 type: page
 title: Index List
 listed: true
-slug: index-list
 description: 
 index_title: Index List
-hidden: 
+hidden: false
 keywords: 
 tags: blocks
 ---

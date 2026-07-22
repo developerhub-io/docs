@@ -2,17 +2,16 @@
 type: page
 title: Markdoc Format
 listed: true
-slug: markdoc-format
 description: 
 index_title: Markdoc Format
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
 
-Markdoc format is the format used when pages are synced on %product% using [GitHub Sync](/support-center/github-sync). Markdoc is markdown-based authoring framework for writing documentation.
+Markdoc format is the format used when pages are synced on %product% using [GitHub Sync](../github-sync.md). Markdoc is markdown-based authoring framework for writing documentation.
 
-If you author pages with an AI coding agent, our [Markdoc Agent Skill](/support-center/write-markdoc-with-ai) teaches it this exact syntax, so its edits round-trip cleanly.
+If you author pages with an AI coding agent, our [Markdoc Agent Skill](write-markdoc-with-ai.md) teaches it this exact syntax, so its edits round-trip cleanly.
 
 ## Frontmatter Syntax
 
@@ -71,7 +70,7 @@ Code fences
 ````
 {% /code %}
 
-In addition to Markdown, we provide tags and attributes for all [blocks](/support-center/blocks) and inline blocks.
+In addition to Markdown, we provide tags and attributes for all [blocks](../writing-documentation/blocks.md) and inline blocks.
 
 Blocks have the following syntax:
 
@@ -183,7 +182,7 @@ Great **success**!
 {% code %}
 ```markdown
 {% html %}
-<div class="promo">Custom widget</div>
+SWISHHTMLBODY0
 {% /html %}
 ```
 {% /code %}

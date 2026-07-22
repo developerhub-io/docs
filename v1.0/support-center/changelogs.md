@@ -2,10 +2,9 @@
 type: page
 title: Changelogs
 listed: true
-slug: changelogs
 description: 
 index_title: Changelogs
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -42,10 +41,10 @@ Changelogs can be subscribed to through an RSS feed. This enables users to remai
 
 ## Importing Posts
 
-Posts can be imported in [markdoc format](/support-center/markdoc-format#changelog) by clicking the import button {% icon classes="fas fa-download" /%} next to the changelog title.
+Posts can be imported in [markdoc format](github-sync/markdoc-format.md#changelog) by clicking the import button {% icon classes="fas fa-download" /%} next to the changelog title.
 
 Importing posts only adds posts to the changelog. It does not remove any posts.
 
 ## Exporting Changelog
 
-All posts in a changelog can be exported by clicking the export button {% icon classes="fas fa-upload" /%} next to the changelog title. Posts are exported in [markdoc format](/support-center/markdoc-format).
+All posts in a changelog can be exported by clicking the export button {% icon classes="fas fa-upload" /%} next to the changelog title. Posts are exported in [markdoc format](github-sync/markdoc-format.md).

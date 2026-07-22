@@ -2,15 +2,14 @@
 type: page
 title: Hubspot
 listed: true
-slug: hubspot-integration
 description: 
 index_title: Hubspot
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
 
-To add Hubspot Analytics integration to %product%, you must have a [plan](https://developerhub.io/pricing) with [Custom HEAD Tags](/support-center/custom-javascript) enabled.
+To add Hubspot Analytics integration to %product%, you must have a [plan](https://developerhub.io/pricing) with [Custom HEAD Tags](../custom-javascript.md) enabled.
 
 {% image url="https://image-archive.developerhub.io/image/upload/30375/whcrnufvfv8jrgmhigyn/1590850779.png" width=300 /%}
 
@@ -26,7 +25,7 @@ The script should look like:
 ```
 {% /code %}
 
-HubSpot Analytics integration is created for traditional websites, while your %product% documentation is built over a single page application. To trigger tracking page views, add the following [Custom HEAD Tag](/support-center/custom-javascript) after the embed code above:
+HubSpot Analytics integration is created for traditional websites, while your %product% documentation is built over a single page application. To trigger tracking page views, add the following [Custom HEAD Tag](../custom-javascript.md) after the embed code above:
 
 {% code %}
 ```markup {% title="Custom HEAD Tag" %}

@@ -2,10 +2,9 @@
 type: page
 title: Using Markdown
 listed: true
-slug: using-markdown
 description: 
 index_title: Using Markdown
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -43,7 +42,7 @@ Lists can be indented and outdented using Tab and Shift+Tab.
 {% /callout %}
 
 {% callout title="Escaping back tick (`)" %}
-To escape back tick, you need to [disable live markdown formatting](/support-center/using-markdown#disable-live-markdown-rendering) and type two back ticks, your expression, then two back ticks. For example: `` abc ` def ``
+To escape back tick, you need to [disable live markdown formatting](using-markdown.md#disable-live-markdown-rendering) and type two back ticks, your expression, then two back ticks. For example: `` abc ` def ``
 {% /callout %}
 
 {% callout title="Underscores are making text italic?" %}

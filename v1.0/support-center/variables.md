@@ -2,15 +2,14 @@
 type: page
 title: Variables
 listed: true
-slug: variables
 description: 
 index_title: Variables
-hidden: 
+hidden: false
 keywords: 
 tags: inline-blocks
 ---
 
-Project Variables help you label parts of your documentation that are repetitive, to be able to change them centrally in one place. It also allows you to [personalise](/support-center/personalised-docs) the documentation for your readers.
+Project Variables help you label parts of your documentation that are repetitive, to be able to change them centrally in one place. It also allows you to [personalise](personalised-docs.md) the documentation for your readers.
 
 {% image url="https://uploads.developerhub.io/prod/02/p0i6rq7dvsyh7thtvekkrd3cczz3exiolk81z7vq4f9wsvyjbnl8hol1mu3nshyj.png" width=600 /%}
 
@@ -53,7 +52,7 @@ Project variables can be inserted in:
 - Page content and blocks.
 - API Reference descriptions.
 - Index external links.
-- [Custom javascript](/support-center/variables#using-project-variables-in-scripts).
+- [Custom javascript](variables.md#using-project-variables-in-scripts).
 - Default landing page layout.
 - Custom HTML in landing pages.
 
@@ -106,7 +105,7 @@ Note that YAML requires you to use double quotations to escape a string containi
 
 ## Using Project Variables in Scripts
 
-To use project variables in [scripts](/support-center/custom-javascript), you must first set up the project to expose variables through `window.vars` object. To do that:
+To use project variables in [scripts](custom-javascript.md), you must first set up the project to expose variables through `window.vars` object. To do that:
 
 - Open Project Settings → **Content** → **Project Variables**.
 - Check **Expose variables in Javascript**.
@@ -116,7 +115,7 @@ For the published docs, once the project loads, you'll be able to access the var
 
 ## Personalising Docs
 
-You can use variables to personalise docs. Read more about it in [Personalised Docs](/support-center/personalised-docs).
+You can use variables to personalise docs. Read more about it in [Personalised Docs](personalised-docs.md).
 
 ### Known Limitations
 

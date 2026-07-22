@@ -2,22 +2,21 @@
 type: page
 title: Conditional Content
 listed: true
-slug: conditional-content
 description: 
 index_title: Conditional Content
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
 
-Conditional Content lets you control who can see specific content in your documentation based on user variables. Content visibility is managed through audiences, which define conditions that are evaluated against [variables](/support-center/variables) passed via [custom login](/support-center/custom-login).
+Conditional Content lets you control who can see specific content in your documentation based on user variables. Content visibility is managed through audiences, which define conditions that are evaluated against [variables](variables.md) passed via [custom login](private-docs/custom-login.md).
 
 {% synced id="beta-feature" /%}
 
 There are two ways to use Conditional Content:
 
 - **Page-level Audiences**: Apply an audience to an entire page to control who can access it.
-- [**Conditional Blocks**](/support-center/conditional-blocks): Use conditional blocks to control visibility of specific content within a page.
+- [**Conditional Blocks**](conditional-blocks.md): Use conditional blocks to control visibility of specific content within a page.
 
 Both methods use the same audience system and conditions.
 
@@ -45,7 +44,7 @@ To edit the conditions for an audience:
 
 In the expression builder, you can add as many conditions as needed. Each condition checks that a variable matches a value. All conditions must be satisfied for the content to show.
 
-{% image url="asset:rotyylnr1119" /%}
+{% image url="../../assets/3b731ff238faf45d271cbd0a6a9fb5c8341e9dbd.png" /%}
 
 ### Deleting an Audience
 
@@ -80,17 +79,17 @@ When a page has an audience set on it, editors will see a lock icon {% icon clas
 
 ## Conditional Blocks
 
-[Conditional blocks](/support-center/conditional-blocks) allow you to control the visibility of specific content within a page. Each conditional block is assigned an audience.
+[Conditional blocks](conditional-blocks.md) allow you to control the visibility of specific content within a page. Each conditional block is assigned an audience.
 
 To change the audience of a conditional block, click on the audience label (shown with a grey background) at the top of the block and select from the available audiences.
 
-Learn more about using [Conditional Blocks](/support-center/conditional-blocks).
+Learn more about using [Conditional Blocks](conditional-blocks.md).
 
 ## How Audiences are Evaluated
 
 When a reader accesses your documentation, their audience is determined by matching the variables in their JWT token against the audience conditions.
 
-Variables are passed through the `vars` object in the JWT payload when using [custom login](/support-center/custom-login). For example:
+Variables are passed through the `vars` object in the JWT payload when using [custom login](private-docs/custom-login.md). For example:
 
 {% code %}
 ```javascript
@@ -111,4 +110,4 @@ These variables are then matched against the conditions defined in each audience
 
 Search results are filtered based on the reader's audience. Readers will only see search results for pages and content they have access to, ensuring that restricted content remains hidden even in search.
 
-If you require more of the Conditional Content feature, please do not hesitate to [contact us](/support-center/contact-us).
+If you require more of the Conditional Content feature, please do not hesitate to [contact us](contact-us.md).

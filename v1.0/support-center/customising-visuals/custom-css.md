@@ -2,10 +2,9 @@
 type: page
 title: Custom CSS
 listed: true
-slug: custom-css
 description: Apply project-wide CSS changes and have complete design control using Custom CSS. Learn how to customize CSS, test it, revert changes, and more.
 index_title: Custom CSS
-hidden: 
+hidden: false
 keywords: 
 tags: customisation
 ---
@@ -46,12 +45,12 @@ When you revert the CSS, the draft changes are discarded and lost.
 {% /callout %}
 
 {% callout title="Testing while frontend application is pinned" %}
-To test latest frontend application on the readers site if your [frontend application is pinned](/support-center/custom-css#pinning-frontend-application-version), add `?deployment_id=latest` to the URL. To confirm which application version is being used, check the `X-DeveloperHub-Version` header in the first network request.
+To test latest frontend application on the readers site if your [frontend application is pinned](custom-css.md#pinning-frontend-application-version), add `?deployment_id=latest` to the URL. To confirm which application version is being used, check the `X-DeveloperHub-Version` header in the first network request.
 {% /callout %}
 
 ## Testing Dark Theme
 
-To test dark theme without enabling it for your readers, use [Change Theme](/support-center/developer-tools#change-theme) function to apply the theme without modifying the project settings.
+To test dark theme without enabling it for your readers, use [Change Theme](../developer-tools.md#change-theme) function to apply the theme without modifying the project settings.
 
 ## Disabling Styles
 
@@ -72,11 +71,11 @@ By customising CSS, you can:
 - Import another CSS file using `@import url(...)` .
 - Use your own [custom (non Google Font) font](https://developerhub.io/blog/using-your-own-font/).
 - Create a custom landing page, removing sidebars and titles.
-- Change the [code theme](/support-center/code-theme).
+- Change the [code theme](code-theme.md).
 - Or anything you can think of, really...
 
 {% callout type="warning" title="Warning" %}
-The CSS is not encapsulated and applies globally. %product% CSS does change frequently, and we cannot guarantee consistent design (check [Pinning Frontend Application Version](/support-center/custom-css#pinning-frontend-application-version)). You might want to add `!important` to your styles.
+The CSS is not encapsulated and applies globally. %product% CSS does change frequently, and we cannot guarantee consistent design (check [Pinning Frontend Application Version](custom-css.md#pinning-frontend-application-version)). You might want to add `!important` to your styles.
 {% /callout %}
 
 ## CSS Best Practices
@@ -149,7 +148,7 @@ If you are creating a landing page, then create specific selectors. For example,
 
 ## CSS Customisation Examples
 
-See [Popular Customisations](/support-center/css-customisations).
+See [Popular Customisations](../css-customisations.md).
 
 ## Examples on Page
 
@@ -227,7 +226,7 @@ As we do not want to change the style of our documentation (since we love it so 
 
 ## CSS Variables
 
-We have set up variables for you to change, so you can change the look and feel easily. When [theme](/support-center/theme) is set, those variables automatically get modified.
+We have set up variables for you to change, so you can change the look and feel easily. When [theme](theme.md) is set, those variables automatically get modified.
 
 {% code %}
 ```css
@@ -333,7 +332,7 @@ If you are pinned to a different application version and wish to move to the lat
 
 To test latest frontend application on the readers site if your frontend application is pinned, add `?deployment_id=latest` to the URL. To confirm which application version is being used, check the `X-DeveloperHub-Version header` in the first network request.
 
-Load at least the landing page, documentation page and API reference with `?deployment_id=latest` at the end of the URL and check if the pages look as expected. Otherwise, modify the CSS/JS in [draft mode](/support-center/custom-css#testing-css) and keep on iterating until the pages look perfect.
+Load at least the landing page, documentation page and API reference with `?deployment_id=latest` at the end of the URL and check if the pages look as expected. Otherwise, modify the CSS/JS in [draft mode](custom-css.md#testing-css) and keep on iterating until the pages look perfect.
 
 {% callout title="?deployment_id=latest is temporary" %}
 Make sure that everytime you reload the page and wish to see it in latest application version, you add `?deployment_id=latest`.

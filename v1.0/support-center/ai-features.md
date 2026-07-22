@@ -2,10 +2,9 @@
 type: page
 title: AI Features
 listed: true
-slug: ai-features
 description: 
 index_title: AI Features
-hidden: 
+hidden: false
 keywords: 
 tags: ai
 ---
@@ -16,13 +15,13 @@ By default, all features are disabled and require activation by an admin.
 
 The features are:
 
-- [AI Writer](/support-center/ai-writer): Provides AI functions to manipulate text, including shortening, enhancing and grammar correction.
-- [AI Assistant](/support-center/ai-search): Ask questions about the docs in natural language and receive GPT powered answers.
-- [AI Commit Messages](/support-center/ai-commit-messages): Automatically annotate page histories.
-- [AI SEO Helper](/support-center/ai-summarisation): Summarises pages to write a META description.
-- [MCP Server](/support-center/mcp-server): Connect AI applications with your docs.
-- [Feedback Spam Filter](/support-center/feedback#feedback-spam-filter): Filters spam in feedback messages automatically.
-- [Redact PII from Feedback](/support-center/feedback#redact-pii-from-feedback): Redacts personal identifiable information from feedback messages automatically.
+- [AI Writer](writing-documentation/ai-writer.md): Provides AI functions to manipulate text, including shortening, enhancing and grammar correction.
+- [AI Assistant](using-search/ai-search.md): Ask questions about the docs in natural language and receive GPT powered answers.
+- [AI Commit Messages](ai-features/ai-commit-messages.md): Automatically annotate page histories.
+- [AI SEO Helper](ai-features/ai-summarisation.md): Summarises pages to write a META description.
+- [MCP Server](ai-features/mcp-server.md): Connect AI applications with your docs.
+- [Feedback Spam Filter](feedback.md#feedback-spam-filter): Filters spam in feedback messages automatically.
+- [Redact PII from Feedback](feedback.md#redact-pii-from-feedback): Redacts personal identifiable information from feedback messages automatically.
 
 Read the linked sections to understand what information we send to OpenAI for each feature.
 

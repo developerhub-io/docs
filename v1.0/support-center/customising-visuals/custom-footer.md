@@ -2,10 +2,9 @@
 type: page
 title: Custom Footer
 listed: true
-slug: custom-footer
 description: 
 index_title: Custom Footer
-hidden: 
+hidden: false
 keywords: 
 tags: customisation
 ---
@@ -19,7 +18,7 @@ tags: customisation
 
 Apply a custom footer to match your website.
 
-Unlike [Documentation Footer](/support-center/documentation-footer), this footer is placed outside of the documentation container and is written using HTML. Thus, the custom footer is a webpage itself with its own styles and scripts.
+Unlike [Documentation Footer](../documentation-settings/documentation-footer.md), this footer is placed outside of the documentation container and is written using HTML. Thus, the custom footer is a webpage itself with its own styles and scripts.
 
 ## How to set a custom footer
 

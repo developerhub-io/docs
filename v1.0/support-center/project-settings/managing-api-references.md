@@ -2,17 +2,16 @@
 type: page
 title: Managing API References
 listed: true
-slug: managing-api-references
 description: 
 index_title: Managing API References
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
 
 %product% generates beautiful and powerful API References from your API specification files. See our [Swagger Petstore](https://swagger.developerhub.io/v1.0/swagger-petstore/ref) demo here.
 
-See [Uploading References](/support-center/uploading-references) to learn how to add an API reference to your version.
+See [Uploading References](../uploading-references.md) to learn how to add an API reference to your version.
 
 ## Manage Sections
 
@@ -31,8 +30,8 @@ To create an API reference:
 2. Under the API Reference group, click **+ New API reference**.
 3. Choose one:
    - **Create from scratch**: start with an empty OpenAPI definition.
-   - **Upload OpenAPI definition**: upload an existing file. See [Uploading References](/support-center/uploading-references).
-   - **Merge references**: combine two or more existing references. See [Merging API Definitions](/support-center/merge-api-definitions).
+   - **Upload OpenAPI definition**: upload an existing file. See [Uploading References](../uploading-references.md).
+   - **Merge references**: combine two or more existing references. See [Merging API Definitions](../merge-api-definitions.md).
 
 ## Deleting API References
 

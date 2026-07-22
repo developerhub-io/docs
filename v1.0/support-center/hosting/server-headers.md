@@ -2,10 +2,9 @@
 type: page
 title: Server Headers
 listed: true
-slug: server-headers
 description: 
 index_title: Server Headers
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -74,4 +73,4 @@ object-src 'none';
 
 Modify as needed for your security and project needs.
 
-You may also add `nonce=%NONCE%` in your [custom footer](/support-center/custom-footer) to apply style in the head tags.
+You may also add `nonce=%NONCE%` in your [custom footer](../customising-visuals/custom-footer.md) to apply style in the head tags.

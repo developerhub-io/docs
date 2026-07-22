@@ -2,15 +2,14 @@
 type: page
 title: Project Settings
 listed: true
-slug: project-settings
 description: Learn how to access and change project settings including project details, hosting, security, and more. Also, find out how to change the title and website link, set privacy policy consent, and enable automatic saving.
 index_title: Project Settings
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
 
-Project Settings is a full page where you change [hosting](/support-center/hosting), [customisation](/support-center/customising-visuals), [security](/support-center/private-docs), [team](/support-center/collaboration), plan and other details.
+Project Settings is a full page where you change [hosting](hosting.md), [customisation](customising-visuals.md), [security](private-docs.md), [team](collaboration.md), plan and other details.
 
 ## Opening Project Settings
 
@@ -28,12 +27,12 @@ Project Settings is organised into groups. Each group contains panes:
 - **General**: Project title, project ID, privacy policy URL, move content, delete project.
 - **Insights**: Dashboard view (activity, drafts, comments, feedback).
 - **Hosting**: Subdomain, custom domain, base path, SSL, search-engine indexing, redirects, server headers.
-- **Customisation**: Logo, favicon, top navigation links, colours, font, theme, [Custom CSS](/support-center/custom-css), [Custom Footer](/support-center/custom-footer), [HEAD tags](/support-center/custom-javascript).
-- **Access**: [Password](/support-center/private-docs#password-protect-set-up), [email](/support-center/email-invite), [SSO](/support-center/reader-single-sign-on) and [JWT](/support-center/custom-login) access.
-- **Content**: [Glossary](/support-center/glossary), [Navigation Groups](/support-center/top-navigation-bar#navigation-structure), [Project Variables](/support-center/variables), [Page Tags](/support-center/tags), [Audiences](/support-center/conditional-content).
-- **Developers**: [API Keys](/support-center/api-key), [Integrations](/support-center/integrations) (Slack, GitHub, Intercom, Google Analytics), [AI Features](/support-center/ai-features).
-- **Team**: [Invite teammates, change roles, transfer ownership](/support-center/collaboration).
-- **Plan \& Usage**: Current plan, seats, [upgrade](/support-center/supercharged-plans).
+- **Customisation**: Logo, favicon, top navigation links, colours, font, theme, [Custom CSS](customising-visuals/custom-css.md), [Custom Footer](customising-visuals/custom-footer.md), [HEAD tags](custom-javascript.md).
+- **Access**: [Password](private-docs.md#password-protect-set-up), [email](private-docs/email-invite.md), [SSO](private-docs/reader-single-sign-on.md) and [JWT](private-docs/custom-login.md) access.
+- **Content**: [Glossary](glossary.md), [Navigation Groups](customising-visuals/top-navigation-bar.md#navigation-structure), [Project Variables](variables.md), [Page Tags](tags.md), [Audiences](conditional-content.md).
+- **Developers**: [API Keys](project-settings/api-key.md), [Integrations](integrations.md) (Slack, GitHub, Intercom, Google Analytics), [AI Features](ai-features.md).
+- **Team**: [Invite teammates, change roles, transfer ownership](collaboration.md).
+- **Plan \& Usage**: Current plan, seats, [upgrade](supercharged-plans.md).
 - **Advanced**: Editorial flow toggles, pinned deployment, multi-format exports.
 
 {% callout title="Saving changes" %}
@@ -67,7 +66,7 @@ If the link is not set, then the user will be navigated to the landing page (if 
 
 ## Privacy Policy Consent
 
-If you are setting cookies on your documentation portal, then you will need to ask for the user's consent. If you provide a privacy policy URL in your project settings, then we will show our own privacy policy consent which will prevent our [Google Analytics](/support-center/google-analytics) integration from tracking your users until they accept the cookie consent.
+If you are setting cookies on your documentation portal, then you will need to ask for the user's consent. If you provide a privacy policy URL in your project settings, then we will show our own privacy policy consent which will prevent our [Google Analytics](integrations/google-analytics.md) integration from tracking your users until they accept the cookie consent.
 
 To set your own privacy policy:
 

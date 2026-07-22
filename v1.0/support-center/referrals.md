@@ -2,10 +2,9 @@
 type: page
 title: Referrals
 listed: false
-slug: referrals
 description: 
 index_title: Referrals
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -26,7 +25,7 @@ For supercharged plans users, when a referred company subscribes to a supercharg
 
 Terms and conditions:
 
-- To redeem this perk, [contact us](/support-center/contact-us) with the name of the referred company and your referral code after the referred company has subscribed.
+- To redeem this perk, [contact us](contact-us.md) with the name of the referred company and your referral code after the referred company has subscribed.
 - The referred company must not be affiliated with the referring company.
 - If the referred company unsubscribes during the first month of their subscription, DeveloperHub.io Ltd may remove the extra team members added due to the referral without notice.
 - This perk can be redeemed multiple times for every referred company that subscribes to a supercharged plan.

@@ -2,10 +2,9 @@
 type: page
 title: Advanced Settings
 listed: true
-slug: advanced-settings
 description: 
 index_title: Advanced Settings
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -45,7 +44,7 @@ Force editors to annotate the changes to be saved. This helps you keep a clean h
 </div>
 {% /html %}
 
-For advanced settings that we do not provide through the UI, they can modified through [Custom HEAD Tags](/support-center/custom-javascript).
+For advanced settings that we do not provide through the UI, they can modified through [Custom HEAD Tags](../custom-javascript.md).
 
 The available settings are (with their defaults):
 

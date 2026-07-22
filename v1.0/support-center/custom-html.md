@@ -2,10 +2,9 @@
 type: page
 title: HTML Block
 listed: true
-slug: custom-html
 description: 
 index_title: HTML Block
-hidden: 
+hidden: false
 keywords: 
 tags: blocks
 ---
@@ -17,7 +16,7 @@ To create a HTML block:
 {% synced id="open-block-menu" /%}
 
 - Select HTML {% icon classes="fas fa-window-maximize" /%}
-- Type the HTML. See [How to use HTML Block?](/support-center/custom-html#how-to-use-html-block)
+- Type the HTML. See [How to use HTML Block?](custom-html.md#how-to-use-html-block)
 - Click on Apply, or press {% key key="⌘" /%} / {% key key="Ctrl" /%} + {% key key="Enter" /%}.
 
 Inside the HTML editor, {% key key="Tab" /%} and {% key key="⇧" /%} + {% key key="Tab" /%} indent and outdent the current line so you can keep your markup tidy.
@@ -46,7 +45,7 @@ With HTML block, there are two modes available:
 ```
 {% /code %}
 
-For this mode, you can use inline styling. You should not add any `<body>` or `<html>` tags as the content is already rendered inside a `<body>` tag. If you wish to style the elements, then you can use [Custom CSS](/support-center/custom-css) to create new classes which you can apply to the elements here.
+For this mode, you can use inline styling. You should not add any `<body>` or `<html>` tags as the content is already rendered inside a `<body>` tag. If you wish to style the elements, then you can use [Custom CSS](customising-visuals/custom-css.md) to create new classes which you can apply to the elements here.
 
 ## iFrame in HTML Block
 
@@ -71,7 +70,7 @@ For security, when the HTML includes scripts or styles, it is rendered in an iFr
 ```
 {% /code %}
 
-When using an iFrame, no pre-existing CSS would load, including CSS from [Custom CSS](/support-center/custom-css) or any third party library. Apply your own CSS rules.
+When using an iFrame, no pre-existing CSS would load, including CSS from [Custom CSS](customising-visuals/custom-css.md) or any third party library. Apply your own CSS rules.
 
 {% callout title="Content Security Policy" %}
 Simple HTML that renders directly in the page shares your docs' Content Security Policy. If you serve your docs with a strict CSP, make sure it allows the sources your embed loads from (scripts, styles, fonts or frames), otherwise the browser will block them.

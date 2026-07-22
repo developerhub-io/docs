@@ -2,10 +2,9 @@
 type: page
 title: 2021 Updates
 listed: true
-slug: 2021-updates
 description: 
 index_title: 2021 Updates
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -23,8 +22,8 @@ tags:
 
 ### 16 Dec
 
-- {% badge text="New" type="success" /%} **Variables**: Allow exposing variables to `window` object for use in [Custom HEAD Tags](/support-center/custom-javascript).
-- {% badge text="New" type="success" /%} **Scripts/Styles**: Allow disabling [scripts](/support-center/custom-javascript#disabling-head-tags) and [styles](/support-center/custom-css#disabling-styles) through URL for testing purposes.
+- {% badge text="New" type="success" /%} **Variables**: Allow exposing variables to `window` object for use in [Custom HEAD Tags](../custom-javascript.md).
+- {% badge text="New" type="success" /%} **Scripts/Styles**: Allow disabling [scripts](../custom-javascript.md#disabling-head-tags) and [styles](../customising-visuals/custom-css.md#disabling-styles) through URL for testing purposes.
 
 ### 11 Dec
 
@@ -54,7 +53,7 @@ tags:
 
 ### 28 Nov
 
-- {% badge text="Bug Fix" type="error" /%} **Images**: Fixed bug where pasting images does not create an [image](/support-center/images) block.
+- {% badge text="Bug Fix" type="error" /%} **Images**: Fixed bug where pasting images does not create an [image](../images.md) block.
 
 ### 27 Nov
 
@@ -66,11 +65,11 @@ tags:
 
 ### 22 Nov
 
-- {% badge text="New" type="success" /%} **Templates**: Ability to start from a template directly using [template links](/support-center/templates#share-a-template-link).
+- {% badge text="New" type="success" /%} **Templates**: Ability to start from a template directly using [template links](../templates.md#share-a-template-link).
 
 ### 18 Nov
 
-- {% badge text="New" type="success" /%} **Synced Blocks**: Reuse content with [Synced Blocks](/support-center/synced-blocks).
+- {% badge text="New" type="success" /%} **Synced Blocks**: Reuse content with [Synced Blocks](../synced-blocks.md).
 - {% badge text="Improvement" /%} **Blocks**: All margins for blocks have been standardised for a more consistent look.
 - {% badge text="Improvement" /%} **Templates**: Choose templates from a form that displays all the templates available including their content, rather than from a dropdown.
 - {% badge text="Change" type="warning" /%} **API**: `entityId` of [GET - Get audit log](/api/ref#get-audit-log) is a string, no longer an integer.
@@ -90,7 +89,7 @@ tags:
 
 ### 09 Nov
 
-- {% badge text="New" type="success" /%} **Custom HTML**: Added [Jupyter Notebook](/support-center/jupyter-notebook-integration) embedding instructions.
+- {% badge text="New" type="success" /%} **Custom HTML**: Added [Jupyter Notebook](../integrations/jupyter-notebook-integration.md) embedding instructions.
 - {% badge text="New" type="success" /%} **API**: Added an API to [update pages](/api/ref#update-page).
 - {% badge text="Change" type="warning" /%} **API**: [Search Content API](/api/ref#search) now also provides pageId in addition to the page name.
 - {% badge text="Bug Fix" type="error" /%} **Custom HTML**: Styles are no longer removed, but instead the Custom HTML contents would be enclosed in an iFrame.
@@ -102,8 +101,8 @@ tags:
 
 ### 27 Oct
 
-- {% badge text="Change" type="warning" /%} **Custom Login**: Variables are now [injected](/support-center/custom-login) in a `vars` object under `payload`.
-- {% badge text="Bug Fix" type="error" /%} **Quick Switcher**: Opening [Quick Switcher](/support-center/quick-switcher) before a version has loaded used to break the search.
+- {% badge text="Change" type="warning" /%} **Custom Login**: Variables are now [injected](../private-docs/custom-login.md) in a `vars` object under `payload`.
+- {% badge text="Bug Fix" type="error" /%} **Quick Switcher**: Opening [Quick Switcher](../quick-switcher.md) before a version has loaded used to break the search.
 
 ### 26 Oct
 
@@ -117,7 +116,7 @@ tags:
 
 ### 16 Oct
 
-- {% badge text="New" type="success" /%} **Invoices**: View invoices and [update billing details](/support-center/supercharged-plans#changing-paymentbilling-details) easily.
+- {% badge text="New" type="success" /%} **Invoices**: View invoices and [update billing details](../supercharged-plans.md#changing-paymentbilling-details) easily.
 
 ### 14 Oct
 
@@ -125,7 +124,7 @@ tags:
 
 ### 07 Oct
 
-- {% badge text="New" type="success" /%} **CSS**: [Test CSS changes](/support-center/custom-css#testing-css) before deploying them to your readers.
+- {% badge text="New" type="success" /%} **CSS**: [Test CSS changes](../customising-visuals/custom-css.md#testing-css) before deploying them to your readers.
 - {% badge text="Bug Fix" type="error" /%} **Callout**: Icons and badges in callouts were not being saved correctly.
 
 ### 06 Oct
@@ -140,16 +139,16 @@ tags:
 
 ### 03 Oct
 
-- {% badge text="New" type="success" /%} **Templates**: Create page [templates](/support-center/templates) and apply on new pages.
+- {% badge text="New" type="success" /%} **Templates**: Create page [templates](../templates.md) and apply on new pages.
 - {% badge text="Change" type="warning" /%} **CSS**: Huge changes of how the editor is integrated were made (so we can enable further features), which lead to some CSS changes. CSS selectors which you might want to double check: `app-documentation-content`, `.master >` and `.master-content`.
 
 ### 20 Sep
 
-- {% badge text="New" type="success" /%} **Embed**: A non-minimal [embed mode](/support-center/previewing-documentation#embed-mode) is now available.
+- {% badge text="New" type="success" /%} **Embed**: A non-minimal [embed mode](../previewing-documentation.md#embed-mode) is now available.
 
 ### 14 Sep
 
-- {% badge text="New" type="success" /%} **Search Analytics**: Enterprise accounts can setup [enterprise search](/support-center/enterprise-search) analytics to segment data from different projects.
+- {% badge text="New" type="success" /%} **Search Analytics**: Enterprise accounts can setup [enterprise search](../using-search/enterprise-search.md) analytics to segment data from different projects.
 
 ### 13 Sep
 
@@ -162,7 +161,7 @@ tags:
 
 ### 08 Sep
 
-- {% badge text="New" type="success" /%} **API Reference**: Can use OpenAPI native variables in Server URL, as well as our own [variables](/support-center/variables).
+- {% badge text="New" type="success" /%} **API Reference**: Can use OpenAPI native variables in Server URL, as well as our own [variables](../variables.md).
 - {% badge text="New" type="success" /%} **API**: Two new APIs to [create a page](/api/ref#create-page) and [publish a page](/api/ref#publish-page).
 
 ### 07 Sep
@@ -181,11 +180,11 @@ tags:
 
 ### 27 Aug
 
-- {% badge text="New" type="success" /%} **Search Engine**: Setup your docs site as a [search engine](/support-center/using-search#searching-using-url) on browsers.
+- {% badge text="New" type="success" /%} **Search Engine**: Setup your docs site as a [search engine](../using-search.md#searching-using-url) on browsers.
 
 ### 26 Aug
 
-- {% badge text="New" type="success" /%} **PDF Export**: Enterprise customers can [export an entire version to PDF](/support-center/pdf-export).
+- {% badge text="New" type="success" /%} **PDF Export**: Enterprise customers can [export an entire version to PDF](../pdf-export.md).
 
 ### 20 Aug
 
@@ -197,12 +196,12 @@ tags:
 
 ### 11 Aug
 
-- {% badge text="New" type="success" /%} **Search**: Enabled [advanced search operators](/support-center/using-search#advanced-search-operators) for our lightning-fast search.
+- {% badge text="New" type="success" /%} **Search**: Enabled [advanced search operators](../using-search.md#advanced-search-operators) for our lightning-fast search.
 - {% badge text="Bug Fix" type="error" /%} **API References**: No longer show a collapsed table when `requestBody` is defined but empty.
 
 ### 10 Aug
 
-- {% badge text="New" type="success" /%} **Read Page API**: Added an [API](/api/ref#read-page) to read pages in [Darkdown](/support-center/exporting-documentation#darkdown) or text format.
+- {% badge text="New" type="success" /%} **Read Page API**: Added an [API](/api/ref#read-page) to read pages in [Darkdown](../exporting-documentation.md#darkdown) or text format.
 - {% badge text="New" type="success" /%} **Users**: Search through the team members list by name/email.
 
 ### 09 Aug
@@ -224,12 +223,12 @@ tags:
 
 ### 25 Jul
 
-- {% badge text="New" type="success" /%} **JWT authentication**: Use [custom login](/support-center/custom-login) through JWT to log in your readers and [personalise](/support-center/personalised-docs) their docs.
+- {% badge text="New" type="success" /%} **JWT authentication**: Use [custom login](../private-docs/custom-login.md) through JWT to log in your readers and [personalise](../personalised-docs.md) their docs.
 
 ### 20 Jul
 
-- {% badge text="New" type="success" /%} **Documentation Settings**: You can now only [show the date](/support-center/documentation-settings#show-page-last-updated) without the author in "Last Page Updated" section at the bottom of the page, without needing to modify CSS.
-- {% badge text="New" type="success" /%} **Formatting**: External links will now show a top-right pointing arrow in editor mode to indicate that they are external links, not [internal links](/support-center/page-linking).
+- {% badge text="New" type="success" /%} **Documentation Settings**: You can now only [show the date](../documentation-settings.md#show-page-last-updated) without the author in "Last Page Updated" section at the bottom of the page, without needing to modify CSS.
+- {% badge text="New" type="success" /%} **Formatting**: External links will now show a top-right pointing arrow in editor mode to indicate that they are external links, not [internal links](../writing-documentation/page-linking.md).
 - {% badge text="Bug Fix" type="error" /%} **Audit**: Deleting version was spamming the audit log with multiple entries.
 
 ### 13 Jul
@@ -238,7 +237,7 @@ tags:
 
 ### 12 Jul
 
-- {% badge text="New" type="success" /%} **Hosting**: [Host multiple projects](/support-center/hosting#hosting-multiple-projects-under-one-site) under the same subdomain or custom domain.
+- {% badge text="New" type="success" /%} **Hosting**: [Host multiple projects](../hosting.md#hosting-multiple-projects-under-one-site) under the same subdomain or custom domain.
 - {% badge text="Bug Fix" type="error" /%} **Landing Page**: Clicking on the logo to go to landing page did not change the URL.
 
 ### 29 Jun
@@ -247,8 +246,8 @@ tags:
 
 ### 23 Jun
 
-- {% badge text="New" type="success" /%} **Formatting**: Heading 4 is now available through all the different methods of [formatting](/support-center/formatting-text).
-- {% badge text="New" type="success" /%} **UI Translation**: French is now available as a pre-defined [UI language](/support-center/ui-translation).
+- {% badge text="New" type="success" /%} **Formatting**: Heading 4 is now available through all the different methods of [formatting](../writing-documentation/formatting-text.md).
+- {% badge text="New" type="success" /%} **UI Translation**: French is now available as a pre-defined [UI language](../customising-visuals/ui-translation.md).
 
 ### 21 Jun
 
@@ -265,8 +264,8 @@ tags:
 
 ### 13 Jun
 
-- {% badge text="New" type="success" /%} **Hosting**: Host your docs in a [subdirectory under your existing website](/support-center/hosting#hosting-under-an-existing-website).
-- {% badge text="New" type="success" /%} **Linked Pages**: View the [pages linking](/support-center/page-linking#listing-linked-pages) to any page.
+- {% badge text="New" type="success" /%} **Hosting**: Host your docs in a [subdirectory under your existing website](../hosting.md#hosting-under-an-existing-website).
+- {% badge text="New" type="success" /%} **Linked Pages**: View the [pages linking](../writing-documentation/page-linking.md#listing-linked-pages) to any page.
 
 ### 22 May
 
@@ -274,7 +273,7 @@ tags:
 
 ### 20 May
 
-- {% badge text="New" type="success" /%} **Localisation**: We added a guide for [localisation](/support-center/localisation).
+- {% badge text="New" type="success" /%} **Localisation**: We added a guide for [localisation](../localisation.md).
 - {% badge text="New" type="success" /%} **Formatting**: Ordered lists now show different list type so you can reference items better, such as:
   1. This is first item, uses numbering.
      1. This is second item, uses lower alpha.
@@ -292,13 +291,13 @@ tags:
 ### 17 May
 
 - {% badge text="New" type="success" /%} **SEO**: To disable search engine indexing, you can do it now from Project Settings directly.
-- {% badge text="New" type="success" /%} **SEO**: There are now [Advanced Settings](/support-center/advanced-settings) to canonicalise URLs without version slug for the default version, as well as to prevent indexing for older versions.
+- {% badge text="New" type="success" /%} **SEO**: There are now [Advanced Settings](../project-settings/advanced-settings.md) to canonicalise URLs without version slug for the default version, as well as to prevent indexing for older versions.
 - {% badge text="Bug Fix" type="error" /%} **Access**: Projects using custom domains were unable to load due to a security rule change. All functionality has been returned to normal now.
 
 ### 16 May
 
 - {% badge text="New" type="success" /%} **Images**: You can upload images directly by pasting them.
-- {% badge text="New" type="success" /%} **Version Banner**: Added an [advanced setting](/support-center/advanced-settings) to show a banner when the reader is viewing an older version.
+- {% badge text="New" type="success" /%} **Version Banner**: Added an [advanced setting](../project-settings/advanced-settings.md) to show a banner when the reader is viewing an older version.
 - {% badge text="Improvement" /%} **Formatting**: Place cursor correctly after outdenting a list.
 
 ### 14 May
@@ -312,16 +311,16 @@ tags:
 
 ### 3 May
 
-- {% badge text="New" type="success" /%} **Feedback**: [Feedback](/support-center/feedback) is now enabled by default for all new projects.
+- {% badge text="New" type="success" /%} **Feedback**: [Feedback](../feedback.md) is now enabled by default for all new projects.
 - {% badge text="Bug Fix" type="error" /%} **Links**: Having commas in the title of a link used to break a link.
 
 ### 29 Apr
 
-- {% badge text="New" type="success" /%} **Slack Feedback**: [Feedback](/support-center/feedback) is now sent to [Slack](/support-center/slack).
+- {% badge text="New" type="success" /%} **Slack Feedback**: [Feedback](../feedback.md) is now sent to [Slack](../integrations/slack.md).
 
 ### 25 Apr
 
-- {% badge text="New" type="success" /%} **Feedback**: Gather [feedback](/support-center/feedback) from your readers right from the pages.
+- {% badge text="New" type="success" /%} **Feedback**: Gather [feedback](../feedback.md) from your readers right from the pages.
 - {% badge text="Change" type="warning" /%} **Search Analytics**: Increase viewable analytics range to 30 days from 14 days.
 
 ### 15 Apr
@@ -335,12 +334,12 @@ tags:
 
 ### 10 Apr
 
-- {% badge text="New" type="success" /%} **Require Annotation**: Added a [project setting](/support-center/advanced-settings) to require that editors annotate changes.
-- {% badge text="New" type="success" /%} **Open in Editor**: Added a [keyboard shortcut](/support-center/keyboard-shortcuts) to open pages in editor when in live mode.
+- {% badge text="New" type="success" /%} **Require Annotation**: Added a [project setting](../project-settings/advanced-settings.md) to require that editors annotate changes.
+- {% badge text="New" type="success" /%} **Open in Editor**: Added a [keyboard shortcut](../keyboard-shortcuts.md) to open pages in editor when in live mode.
 
 ### 3 Apr
 
-- {% badge text="New" type="success" /%} **Search Analytics:** Find out how your readers are using search using [Search Analytics](/support-center/search-analytics).
+- {% badge text="New" type="success" /%} **Search Analytics:** Find out how your readers are using search using [Search Analytics](../search-analytics.md).
 - {% badge text="New" type="success" /%} **Page Contributors**: Find the list of contributors on a page from Page details menu.
 - {% badge text="Bug Fix" type="error" /%} **Index**: Index rarely went out of sync, but no more.
 
@@ -358,7 +357,7 @@ tags:
 
 ### 28 Mar
 
-- {% badge text="New" type="success" /%} **Lock pages when editing**: Added a project setting to [lock page](/support-center/advanced-settings#lock-page-when-editing) when editing to ensure data does not get overwritten by multiple people editing at the same time.
+- {% badge text="New" type="success" /%} **Lock pages when editing**: Added a project setting to [lock page](../project-settings/advanced-settings.md#lock-page-when-editing) when editing to ensure data does not get overwritten by multiple people editing at the same time.
 
 ### 27 Mar
 
@@ -371,17 +370,17 @@ tags:
 
 ### 22 Mar
 
-- {% badge text="New" type="success" /%} **Code Theme**: Use other CodeMirror [code themes](/support-center/code-theme).
+- {% badge text="New" type="success" /%} **Code Theme**: Use other CodeMirror [code themes](../customising-visuals/code-theme.md).
 
 ### 17 Mar
 
-- {% badge text="New" type="success" /%} **Personalise Docs**: Personalise the docs using [injected variables](/support-center/variables#personalise-docs).
+- {% badge text="New" type="success" /%} **Personalise Docs**: Personalise the docs using [injected variables](../variables.md#personalise-docs).
 - {% badge text="Improvement" /%} **Editor**: Editor loading is now much faster for users with multiple projects.
 - {% badge text="Change" type="warning" /%} **API References**: Disabled breaking words in tables.
 
 ### 16 Mar
 
-- {% badge text="New" type="success" /%} **API References**: Added Java OkHttp to [available libraries](/support-center/code-generation#available-libraries) for generating example requests.
+- {% badge text="New" type="success" /%} **API References**: Added Java OkHttp to [available libraries](../api-references/code-generation.md#available-libraries) for generating example requests.
 - {% badge text="New" type="success" /%} **Annotate History**: Add a message to page history to indicate what the change was.
 
 ### 10 Mar
@@ -396,7 +395,7 @@ tags:
 
 ### 5 Mar
 
-- {% badge text="New" type="success" /%} **SSO**: [Sign in](/support-center/editor-single-sign-on--sso-) your users through your Identity Provider (IdP).
+- {% badge text="New" type="success" /%} **SSO**: [Sign in](../editor-single-sign-on--sso-.md) your users through your Identity Provider (IdP).
 
 ### 27 Feb
 
@@ -441,17 +440,17 @@ tags:
 
 - {% badge text="New" type="success" /%} **SEO**: On pasting a documentation link on a social platform/slack/etc..., we'll preview the best image and description of the content possible.
 - {% badge text="New" type="success" /%} **API References**: Show response headers under responses.
-- {% badge text="New" type="success" /%} **API References**: Added C# HttpClient to [available libraries](/support-center/code-generation#available-libraries) for generation request examples.
+- {% badge text="New" type="success" /%} **API References**: Added C# HttpClient to [available libraries](../api-references/code-generation.md#available-libraries) for generation request examples.
 - {% badge text="New" type="success" /%} **API References CSS**: Add CSS selectors for each field in the tables.
 
 ### 8 Feb
 
 - {% badge text="Change" type="warning" /%} **Font**: We have changed the default font to [Nunito](https://fonts.google.com/specimen/Nunito).
-- {% badge text="New" type="success" /%} **Font**: Customise [font weights](/support-center/custom-css#font-weights) for your font.
+- {% badge text="New" type="success" /%} **Font**: Customise [font weights](../customising-visuals/custom-css.md#font-weights) for your font.
 
 ### 6 Feb
 
-- {% badge text="New" type="success" /%} **API References**: Allow tags to [expand](/support-center/api-reference-settings#allow-tags-to-be-expand).
+- {% badge text="New" type="success" /%} **API References**: Allow tags to [expand](../api-references/api-reference-settings.md#allow-tags-to-be-expand).
 - {% badge text="New" type="success" /%} **API References**: Show endpoint operations next to tags when expandable.
 - {% badge text="New" type="success" /%} **API References**: Show enums for properties.
 - {% badge text="New" type="success" /%} **API References**: Tag links in the index are now clickable.
@@ -467,7 +466,7 @@ tags:
 
 ### 3 Feb
 
-- {% badge text="New" type="success" /%} **API References**: Go net/http and PHP Guzzle are now available as [libraries](/support-center/code-generation#available-libraries) for generated request examples.
+- {% badge text="New" type="success" /%} **API References**: Go net/http and PHP Guzzle are now available as [libraries](../api-references/code-generation.md#available-libraries) for generated request examples.
 - {% badge text="New" type="success" /%} **Search**: Search can now be opened using {% key key="⌘" /%}/{% key key="Ctrl" /%} + K for readers.
 - {% badge text="Change" type="warning" /%} **Code Generation**: Removed ability to choose which libraries are seen by your users. Majority of API References had all libraries enabled.
 - {% badge text="Bug Fix" type="error" /%} **API References**: Request and responses `examples`  included the key `value`. Now it's removed.
@@ -484,7 +483,7 @@ tags:
 
 ### 31 Jan
 
-- {% badge text="New" type="success" /%} **Edit History**: [Edit history](/support-center/page-history) now shows the differences in colours. You can also see the change between current edit and the published edit. Along that, we redesigned a bit the page history panel to focus on published edits rather than drafts.
+- {% badge text="New" type="success" /%} **Edit History**: [Edit history](../page-history.md) now shows the differences in colours. You can also see the change between current edit and the published edit. Along that, we redesigned a bit the page history panel to focus on published edits rather than drafts.
 - {% badge text="Bug Fix" type="error" /%} **Import/Export**: We no longer show import/export options when viewing a page edit history as it was misleading.
 - {% badge text="Bug Fix" type="error" /%} **Dashboard**: Comment list was not scrollable if too long.
 - {% badge text="Bug Fix" type="error" /%} **Compatibility**: On Safari, project logo width could be miscalculated on same loads causing search bar to fall.
@@ -496,14 +495,14 @@ tags:
 
 ### 24 Jan
 
-- {% badge text="New" type="success" /%} **Audit**: Enterprise customers can query [audit logs](/support-center/activity-log#enterprise-auditing) using the [API](/api/ref#get-activity-log).
+- {% badge text="New" type="success" /%} **Audit**: Enterprise customers can query [audit logs](../activity-log.md#enterprise-auditing) using the [API](/api/ref#get-activity-log).
 - {% badge text="New" type="success" /%} **Get All**: All users can query all resources on %product% using [API](/api/ref#all-project).
 - {% badge text="Change" type="warning" /%} **API Rate Limits**: All APIs are rate limited.
 
 ### 19 Jan
 
-- {% badge text="New" type="success" /%} **Publishing**: Added a [setting](/support-center/advanced-settings#ask-before-publishing) to prompt you if you are publishing a page that has unresolved comments.
-- {% badge text="New" type="success" /%} **Comments**: You can now [resolve](/support-center/comments#resolve-comments) all comments on a page from the activity bar.
+- {% badge text="New" type="success" /%} **Publishing**: Added a [setting](../project-settings/advanced-settings.md#ask-before-publishing) to prompt you if you are publishing a page that has unresolved comments.
+- {% badge text="New" type="success" /%} **Comments**: You can now [resolve](../comments.md#resolve-comments) all comments on a page from the activity bar.
 - {% badge text="Improvement" type="warning" /%} **Page Linking**: Search for page linking after typing "@" now searches through titles and slugs. It also tolerates typos.
 
 ### 16 Jan
@@ -513,7 +512,7 @@ tags:
 
 ### 12 Jan
 
-- {% badge text="New" type="success" /%} **Activity Log**: View the latest changes right away from the [dashboard](/support-center/dashboard).
+- {% badge text="New" type="success" /%} **Activity Log**: View the latest changes right away from the [dashboard](../collaboration/dashboard.md).
 - {% badge text="Improvement" type="warning" /%} **Heading Selection**: When linking a page, we'll automatically copy the heading title if a heading was selected and no title was chosen yet.
 - {% badge text="Bug Fix" type="error" /%} **API Reference**: API References were not delete-able from 11 Jan 2021.
 - {% badge text="Bug Fix" type="error" /%} **Import**: In case of an incomplete import due to error, we now delete the incomplete versions.
@@ -524,7 +523,7 @@ tags:
 
 ### 8 Jan
 
-- {% badge text="New" type="success" /%} **Embed Mode**: Add `?goto=embed` when navigating to a page to enable [embed mode](/support-center/previewing-documentation#embed-mode).
+- {% badge text="New" type="success" /%} **Embed Mode**: Add `?goto=embed` when navigating to a page to enable [embed mode](../previewing-documentation.md#embed-mode).
 
 ### 7 Jan
 

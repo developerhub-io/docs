@@ -2,21 +2,20 @@
 type: page
 title: Customising Visuals
 listed: true
-slug: customising-visuals
 description: 
 index_title: Customising Visuals
-hidden: 
+hidden: false
 keywords: white-labelled, white-label, whitelabel, whitelabelling
 tags: customisation
 ---
 
-%product% supports the following customisations: [UI](/support-center/customising-visuals#changing-ui) , [CSS](/support-center/custom-css), [Footer](/support-center/custom-footer), [theme (dark mode)](/support-center/theme), [code theme](/support-center/code-theme), logos, header colour, link colour, font and navigation links.
+%product% supports the following customisations: [UI](customising-visuals.md#changing-ui) , [CSS](customising-visuals/custom-css.md), [Footer](customising-visuals/custom-footer.md), [theme (dark mode)](customising-visuals/theme.md), [code theme](customising-visuals/code-theme.md), logos, header colour, link colour, font and navigation links.
 
 {% image url="https://uploads.developerhub.io/prod/02/4xxcn5idwk0zimsk1iyxiw10mvrusone25kd7etmqf0irl8b9yx0phjwnyzcz8fw.png" width=276 /%}
 
 ## Custom CSS and Footer
 
-Check [Custom CSS](/support-center/custom-css), and [Custom Footer](/support-center/custom-footer) pages.
+Check [Custom CSS](customising-visuals/custom-css.md), and [Custom Footer](customising-visuals/custom-footer.md) pages.
 
 ## Changing Logo
 
@@ -26,7 +25,7 @@ To change the logo:
 2. In the Brand assets card, click **Change** next to Logo.
 3. Choose the new logo.
 
-You can also change [the URL](/support-center/customising-visuals#adding-links--home-button) which is navigated to when the logo is clicked on.
+You can also change [the URL](customising-visuals.md#adding-links--home-button) which is navigated to when the logo is clicked on.
 
 {% callout title="Logo" %}
 It is best to have a wide logo with transparent background.
@@ -58,7 +57,7 @@ Original UI is the first UI of %product%, notable for its hovering search bar. T
 
 ### Next UI
 
-Next UI is the new UI. Next UI features a sleek design where different sections are visible in the top navigation, and a redesigned index with clearer margins and animation. It also providers a better [search experience](/support-center/using-search#next-ui-search).
+Next UI is the new UI. Next UI features a sleek design where different sections are visible in the top navigation, and a redesigned index with clearer margins and animation. It also providers a better [search experience](using-search.md#next-ui-search).
 
 {% image url="https://uploads.developerhub.io/prod/02/gisilvod2lm55ppsfekwri28qjfpk1deoc98ftqniqtb3juejaflqbidqhcf2ao1.png" /%}
 
@@ -108,10 +107,10 @@ If you are not using Google Fonts, you can serve your own font to your documenta
 
 ### Font Weights Missing?
 
-If the font you are using does not have all the font weights we expect, then you can change the actual font weight for an expected one. See [Font Weights](/support-center/custom-css#font-weights).
+If the font you are using does not have all the font weights we expect, then you can change the actual font weight for an expected one. See [Font Weights](customising-visuals/custom-css.md#font-weights).
 
 ## Need More Customisation?
 
-Check also our [popular customisations](/support-center/css-customisations).
+Check also our [popular customisations](css-customisations.md).
 
-[Let us know](/support-center/contact-us) what you need, we'd love to help!
+[Let us know](contact-us.md) what you need, we'd love to help!

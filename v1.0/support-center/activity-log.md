@@ -2,10 +2,9 @@
 type: page
 title: Activity Log
 listed: true
-slug: activity-log
 description: 
 index_title: Activity Log
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---

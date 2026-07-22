@@ -2,15 +2,14 @@
 type: page
 title: Writing Markdoc with AI Agents
 listed: true
-slug: write-markdoc-with-ai
 description: 
 index_title: Writing Markdoc with AI Agents
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
 
-%product% pages are authored in [Markdoc](/support-center/markdoc-format), a superset of Markdown with a set of typed custom tags. When you edit pages with an AI coding agent (in your IDE, a [GitHub-synced](/support-center/github-sync) repository, or a docs-as-code pipeline), the agent needs to emit %product%'s exact Markdoc dialect. Emit a non-canonical shape and the edit churns on the first save, or silently drops content.
+%product% pages are authored in [Markdoc](markdoc-format.md), a superset of Markdown with a set of typed custom tags. When you edit pages with an AI coding agent (in your IDE, a [GitHub-synced](../github-sync.md) repository, or a docs-as-code pipeline), the agent needs to emit %product%'s exact Markdoc dialect. Emit a non-canonical shape and the edit churns on the first save, or silently drops content.
 
 `@developerhub/dh-skills` is an open-source [Agent Skill](https://github.com/developerhub-io/dh-skills) that teaches your agent that dialect, so the pages it writes round-trip cleanly.
 
@@ -28,7 +27,7 @@ It uses the portable Agent Skills format (Markdown with YAML frontmatter), so it
 
 Reach for it whenever an agent, rather than the editor, is writing your pages:
 
-- Editing pages in a [GitHub Sync](/support-center/github-sync) repository or any docs-as-code workflow.
+- Editing pages in a [GitHub Sync](../github-sync.md) repository or any docs-as-code workflow.
 - Any task where you want the agent to produce correct, lossless Markdoc the first time.
 
 The in-product editor already knows the format, so this skill is for agents working on your pages from outside %product%.
@@ -57,7 +56,7 @@ npm install @developerhub/dh-skills
 
 Once the skill is installed, your agent picks it up automatically when a task involves creating or editing a %product% page: inserting a callout, code block, table, image, tabs, and so on. The skill gives the agent the canonical shape for each tag, so the page it writes imports cleanly and does not churn or drop content on the next save.
 
-For the same reference the skill is built on, see [Markdoc Format](/support-center/markdoc-format), which lists every block with an example.
+For the same reference the skill is built on, see [Markdoc Format](markdoc-format.md), which lists every block with an example.
 
 ## Feedback
 

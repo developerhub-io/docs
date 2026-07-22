@@ -2,18 +2,17 @@
 type: page
 title: Enterprise Search
 listed: true
-slug: enterprise-search
 description: 
 index_title: Enterprise Search
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
 
 Enterprise accounts can have multi-project search activated on their organisation. This allows them to:
 
-- Setup one project to be a [global project](/support-center/enterprise-search#global-search), where searching from this project will search in one or more other projects under the organisation, or
-- Setup search on [multiple projects](/support-center/enterprise-search#column-search) to view results from each one of the projects.
+- Setup one project to be a [global project](enterprise-search.md#global-search), where searching from this project will search in one or more other projects under the organisation, or
+- Setup search on [multiple projects](enterprise-search.md#column-search) to view results from each one of the projects.
 
 ## Global Search
 
@@ -29,7 +28,7 @@ When using column search, we can specify which exact version and section to sear
 
 ## Global Analytics
 
-We are able to differentiate between searches that originate from a different project than the one being searched in. When your organisation is setup to be using [global search](/support-center/enterprise-search#global-search), the [search analytics](/support-center/search-analytics) would display data as follows:
+We are able to differentiate between searches that originate from a different project than the one being searched in. When your organisation is setup to be using [global search](enterprise-search.md#global-search), the [search analytics](../search-analytics.md) would display data as follows:
 
 - For global project: Data for all searches made through the global project on all other projects.
 - For other projects: Data for searches made on that project specifically, excluding any data for searches made through the global project even if it was for that project.

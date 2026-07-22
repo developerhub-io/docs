@@ -2,10 +2,9 @@
 type: page
 title: Managing Projects
 listed: true
-slug: managing-projects
 description: 
 index_title: Managing Projects
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---

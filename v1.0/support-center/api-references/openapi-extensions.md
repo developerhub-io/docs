@@ -2,10 +2,9 @@
 type: page
 title: OpenAPI Extensions
 listed: true
-slug: openapi-extensions
 description: 
 index_title: OpenAPI Extensions
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -14,7 +13,7 @@ The following extensions are available on %product%.
 
 ## x-tagGroups
 
-`x-tagGroups` groups operations in the index, creating one further hierarchy. This feature is only enabled if the  [index is set to be collapsible](/support-center/api-reference-settings#allow-index-to-collapse).
+`x-tagGroups` groups operations in the index, creating one further hierarchy. This feature is only enabled if the  [index is set to be collapsible](api-reference-settings.md#allow-index-to-collapse).
 
 Tag groups can be defined as such in OpenAPI:
 
@@ -60,7 +59,7 @@ Animal:
 
 ## Variables
 
-In addition to using [variables](/support-center/variables) throughout the API references, those variables can also be used:
+In addition to using [variables](../variables.md) throughout the API references, those variables can also be used:
 
 - `%_.project.base_path%` for project base path.
 - `%_.version.slug%` for version slug.
@@ -72,7 +71,7 @@ Those variables are specifically useful to construct links inside markdown descr
 
 `x-labels` adds one or more labels to a schema property's description.
 
-{% image url="asset:m6y4rqoms68k" %}
+{% image url="../../../assets/acbcb8ceca4cdbb6dcdc08f7e0c468f9fe92fa12.png" %}
 Example showing "New" badge on format
 {% /image %}
 

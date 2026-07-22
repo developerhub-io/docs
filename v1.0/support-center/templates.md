@@ -2,10 +2,9 @@
 type: page
 title: Templates
 listed: true
-slug: templates
 description: 
 index_title: Templates
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -65,5 +64,5 @@ Where `template_id` can be found when you are selecting a template at the top ri
 ## Known Limitations
 
 {% callout type="error" title="Page Linking" %}
-If a template has a [page link](/support-center/page-linking) in its contents, then the page link would only be valid for the version it was created in. You might want to create different template pages for different versions if you must have an internal page link in it.
+If a template has a [page link](writing-documentation/page-linking.md) in its contents, then the page link would only be valid for the version it was created in. You might want to create different template pages for different versions if you must have an internal page link in it.
 {% /callout %}

@@ -2,25 +2,24 @@
 type: page
 title: Formatting Text
 listed: true
-slug: formatting-text
 description: 
 index_title: Formatting Text
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
 
 There are three ways to format your text:
 
-- [Toolbar](/support-center/formatting-text#using-toolbar)
-- [Markdown](/support-center/using-markdown)
-- [Keyboard Shortcuts](/support-center/keyboard-shortcuts)
+- [Toolbar](formatting-text.md#using-toolbar)
+- [Markdown](using-markdown.md)
+- [Keyboard Shortcuts](../keyboard-shortcuts.md)
 
 ## Using Toolbar
 
 To format text in your documentation, highlight with your cursor the chunk of text you want to format. A toolbar like this one will show.
 
-{% image url="asset:g9xvq21zn6y2" width=556 /%}
+{% image url="../../../assets/41ab53e2f22d10ec1c6b8a928741476ea6715615.png" width=556 /%}
 
 Using the toolbar you can do the following:
 
@@ -35,13 +34,13 @@ Using the toolbar you can do the following:
 - Inline code
 - Comment
 
-And you can use the [AI Writer](/support-center/ai-writer).
+And you can use the [AI Writer](ai-writer.md).
 
 ## Tips \& Tricks
 
 ### Ordered List Numbering
 
-In case you interrupt the ordering of a list by adding a [block](/support-center/blocks), you can resume the ordering by typing on a new line the number, dot and a space, such as `5. `.
+In case you interrupt the ordering of a list by adding a [block](blocks.md), you can resume the ordering by typing on a new line the number, dot and a space, such as `5. `.
 
 Furthermore, you can click on an ordered list's drag handle to set the start numbering.
 

@@ -2,16 +2,15 @@
 type: page
 title: Editor Single Sign-On (SSO)
 listed: true
-slug: editor-single-sign-on--sso-
 description: 
 index_title: Editor Single Sign-On (SSO)
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
 
 {% callout type="warning" title="Editor SSO vs Reader SSO" %}
-This page is about editors using SSO to sign in to %product%. If you're looking for readers using SSO to sign into your private docs, see [Reader Single-Sign On (SSO)](/support-center/reader-single-sign-on).
+This page is about editors using SSO to sign in to %product%. If you're looking for readers using SSO to sign into your private docs, see [Reader Single-Sign On (SSO)](private-docs/reader-single-sign-on.md).
 {% /callout %}
 
 With SSO, you can manage your team access to %product% projects without having to add them one by one.
@@ -32,7 +31,7 @@ By using SSO, you employees can access %product% directly from the shared dashbo
 
 The process for setting up SSO is as follows:
 
-- [Contact us](/support-center/contact-us) to let us know that you require SSO, providing us with which IdP you are integrating with.
+- [Contact us](contact-us.md) to let us know that you require SSO, providing us with which IdP you are integrating with.
 - We will provide you with an `sso_id` which you can use to get the ACS URL. The Entity ID and logo are as follows:
   - ACS URL: `https://auth.developerhub.io/login/callback/<sso_id>`
   - Entity ID: `https://auth.developerhub.io/sp`
@@ -42,10 +41,10 @@ The process for setting up SSO is as follows:
   - IdP Issuer.
   - Are responses signed?
   - X.509 certificate.
-- Inform us of the [SSO configuration](/support-center/editor-single-sign-on--sso-#configuration) you require.
+- Inform us of the [SSO configuration](editor-single-sign-on--sso-.md#configuration) you require.
 
 {% callout title="Multiple SSO integrations" %}
-If you have multiple SSO integrations with %product%, we can provide you with an alternative `entity ID` to be able to have multiple integrations on the same IdP. Please [contact us](/support-center/contact-us) for the alternative `entity ID`.
+If you have multiple SSO integrations with %product%, we can provide you with an alternative `entity ID` to be able to have multiple integrations on the same IdP. Please [contact us](contact-us.md) for the alternative `entity ID`.
 {% /callout %}
 
 ## Attributes
@@ -77,11 +76,11 @@ The attributes for Okta SSO must look as follows:
 %product% provides configuration settings for SSO connections. They are:
 
 - SSO login enforced: Specifies if editors can only log in using SSO. By default this is disabled until SSO connection is tested.
-- Default role: The default [role](/support-center/collaboration#user-roles) for users that get created by signing into SSO.
+- Default role: The default [role](collaboration.md#user-roles) for users that get created by signing into SSO.
 - Add users to all projects by default: Specifies whether when a user logs in, they would have access to all the projects in the organisation, or if they would require an invitation for each project.
 - Email domain: (Optional) The organisation email domain (e.g. `tesla.com`). Used when new users are logging in using SSO.
 
-SSO settings can be viewed by organisation owners from the user menu → **Organisation settings** → **SSO**. SSO settings can be changed by [contacting us](/support-center/contact-us).
+SSO settings can be viewed by organisation owners from the user menu → **Organisation settings** → **SSO**. SSO settings can be changed by [contacting us](contact-us.md).
 
 ## Creating Users
 

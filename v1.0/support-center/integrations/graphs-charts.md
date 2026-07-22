@@ -2,15 +2,14 @@
 type: page
 title: Graphs/Charts
 listed: true
-slug: graphs-charts
 description: 
 index_title: Graphs/Charts
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
 
-The web is full of different graphing/charting open-source libraries. The good news is that if it has a javascript API, then you can use [Custom Javascript](/support-center/custom-javascript) with [Custom HTML](/support-center/custom-html) to render directly on the page. In this page, we'll look into how to add the integration for different libraries.
+The web is full of different graphing/charting open-source libraries. The good news is that if it has a javascript API, then you can use [Custom Javascript](../custom-javascript.md) with [Custom HTML](../custom-html.md) to render directly on the page. In this page, we'll look into how to add the integration for different libraries.
 
 ## Mermaid Charts
 

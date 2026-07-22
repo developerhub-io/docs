@@ -2,10 +2,9 @@
 type: page
 title: AI Assistant
 listed: true
-slug: ai-search
 description: 
 index_title: AI Assistant
-hidden: 
+hidden: false
 keywords: 
 tags: ai
 ---
@@ -14,7 +13,7 @@ An intelligent assistant that helps readers find answers through natural convers
 
 Formerly called AI Search.
 
-{% image url="asset:phevav8uo2iw" /%}
+{% image url="../../../assets/9b367e38ca840cb5a0e9b635541ee859b16b538c.png" /%}
 
 ## AI Assistant Features
 
@@ -28,7 +27,7 @@ AI Assistant allows the readers to ask a questions about the docs and API endpoi
 
 ## AI Search Experience
 
-When [AI Search is enabled](/support-center/ai-search#enabling-ai-search), an **Ask AI** button appears next to the search bar. Clicking this button opens an assistant sidebar on the right side of the screen.
+When [AI Search is enabled](ai-search.md#enabling-ai-search), an **Ask AI** button appears next to the search bar. Clicking this button opens an assistant sidebar on the right side of the screen.
 
 The assistant provides a conversational interface where readers can:
 
@@ -69,7 +68,7 @@ The logs contain a UID which is an anonymous identifier of the user. It can help
 
 - Prone to provide incorrect, misleading or incomplete answers.
 - No analytics are collected yet.
-- AI Assistant only works on [Next UI](/support-center/customising-visuals#next-ui).
+- AI Assistant only works on [Next UI](../customising-visuals.md#next-ui).
 
 ## What Data Is Sent to the LLM?
 

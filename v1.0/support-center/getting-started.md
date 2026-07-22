@@ -2,10 +2,9 @@
 type: page
 title: Getting Started
 listed: true
-slug: getting-started
 description: 
 index_title: Getting Started
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -46,28 +45,28 @@ Using %product% all you have to do is to write your content. No coding, no desig
 
 - Beautiful clear documentation decreases your product's churn rate and helps your prospective customers understand your product. Our expert design makes sure that your documentation is so easy to navigate through 📈
 - Our integrations help you reach out to customers and to track usage, allowing you provide higher customer happiness even on your documentation pages.
-- Styling your content cannot be any easier. Whether your writers are tech people or not, they can format the content using a [toolbar](/support-center/formatting-text), [keyboard shortcuts](/support-center/keyboard-shortcuts), or using [Markdown](/support-center/using-markdown) syntax on the fly 👩‍💻
-- Sync your docs with [GitHub](/support-center/github-sync) so everyone can use their local favourite tools to write documentation.
-- You can set up a review process with powerful [user permissions](/support-center/collaboration), page [comments](/support-center/comments), [drafting](/support-center/draft-mode) and publishing capabilities.
-- [AI-Powered](/support-center/ai-features) with [AI Writer](/support-center/ai-writer), [AI Assistant](/support-center/ai-search), [META descriptions generator](/support-center/ai-summarisation) and more {% icon classes="fas fa-robot" /%}
-- [Analytics](/support-center/google-analytics), [search](/support-center/using-search), [reviews](/support-center/comments), [search analytics](/support-center/search-analytics), [SEO](/support-center/seo), [link checking](/support-center/page-linking#listing-broken-links), [glossary](/support-center/glossary) and [feedback](/support-center/feedback) are all built in (seriously) 🚀
-- You can [host](/support-center/hosting) on your [custom domain](/support-center/using-custom-domain), on [your existing website](/support-center/hosting#hosting-under-an-existing-website), or on a [subdomain](/support-center/hosting#hosting-under-product-subdomain) of ours 🔗
-- We have native support for [OpenAPI 2 and 3](/support-center/api-references), with an API editor and API playground built-in, so your users can test your APIs right away and you can bring your API References close to your user guides 🗂
+- Styling your content cannot be any easier. Whether your writers are tech people or not, they can format the content using a [toolbar](writing-documentation/formatting-text.md), [keyboard shortcuts](keyboard-shortcuts.md), or using [Markdown](writing-documentation/using-markdown.md) syntax on the fly 👩‍💻
+- Sync your docs with [GitHub](github-sync.md) so everyone can use their local favourite tools to write documentation.
+- You can set up a review process with powerful [user permissions](collaboration.md), page [comments](comments.md), [drafting](writing-documentation/draft-mode.md) and publishing capabilities.
+- [AI-Powered](ai-features.md) with [AI Writer](writing-documentation/ai-writer.md), [AI Assistant](using-search/ai-search.md), [META descriptions generator](ai-features/ai-summarisation.md) and more {% icon classes="fas fa-robot" /%}
+- [Analytics](integrations/google-analytics.md), [search](using-search.md), [reviews](comments.md), [search analytics](search-analytics.md), [SEO](seo.md), [link checking](writing-documentation/page-linking.md#listing-broken-links), [glossary](glossary.md) and [feedback](feedback.md) are all built in (seriously) 🚀
+- You can [host](hosting.md) on your [custom domain](hosting/using-custom-domain.md), on [your existing website](hosting.md#hosting-under-an-existing-website), or on a [subdomain](hosting.md#hosting-under-product-subdomain) of ours 🔗
+- We have native support for [OpenAPI 2 and 3](api-references.md), with an API editor and API playground built-in, so your users can test your APIs right away and you can bring your API References close to your user guides 🗂
 - Where you edit your documentation looks the same as the live documentation. You never have to guess how it will look like when it's published 👍
-- We take customisation to the next level. Completely modify the look by changing [global CSS](/support-center/custom-css) and injecting [javascript](/support-center/custom-javascript).
+- We take customisation to the next level. Completely modify the look by changing [global CSS](customising-visuals/custom-css.md) and injecting [javascript](custom-javascript.md).
 
 Explore more below:
 
 {% cards %}
-{% card title="First Steps" text="Signing up" link="/support-center/first-steps" /%}
-{% card title="Formatting Text" text="All formatting options" link="/support-center/formatting-text" /%}
-{% card title="Blocks" text="Rich native elements" link="/support-center/blocks" /%}
-{% card title="Hosting" text="Options for hosting the docs" link="/support-center/hosting" /%}
-{% card title="Customisation" text="Logo, font, colours, CSS" link="/support-center/customising-visuals" /%}
-{% card title="API References" text="OpenAPI viewer and editor, with API playground" link="/support-center/api-references" /%}
-{% card title="Importing Documentation" text="Migrating docs" link="/support-center/importing-documentation" /%}
-{% card title="AI Features" text="AI writer, AI search..." link="/support-center/ai-features" /%}
-{% card title="Conditional Content" text="Restrict content to specific audiences" link="/support-center/conditional-content" /%}
+{% card title="First Steps" text="Signing up" link="getting-started/first-steps.md" /%}
+{% card title="Formatting Text" text="All formatting options" link="writing-documentation/formatting-text.md" /%}
+{% card title="Blocks" text="Rich native elements" link="writing-documentation/blocks.md" /%}
+{% card title="Hosting" text="Options for hosting the docs" link="hosting.md" /%}
+{% card title="Customisation" text="Logo, font, colours, CSS" link="customising-visuals.md" /%}
+{% card title="API References" text="OpenAPI viewer and editor, with API playground" link="api-references.md" /%}
+{% card title="Importing Documentation" text="Migrating docs" link="importing-documentation.md" /%}
+{% card title="AI Features" text="AI writer, AI search..." link="ai-features.md" /%}
+{% card title="Conditional Content" text="Restrict content to specific audiences" link="conditional-content.md" /%}
 {% /cards %}
 
 ---

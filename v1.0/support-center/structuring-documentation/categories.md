@@ -2,10 +2,9 @@
 type: page
 title: Categories
 listed: true
-slug: categories
 description: 
 index_title: Categories
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -42,7 +41,7 @@ To rename a category:
 
 ## Collapse Settings
 
-To make categories collapse, check [Collapsible Categories](/support-center/documentation-settings#collapsible-categories).
+To make categories collapse, check [Collapsible Categories](../documentation-settings.md#collapsible-categories).
 
 ## Re-ordering Categories
 

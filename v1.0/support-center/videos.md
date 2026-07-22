@@ -2,10 +2,9 @@
 type: page
 title: Videos
 listed: true
-slug: videos
 description: 
 index_title: Videos
-hidden: 
+hidden: false
 keywords: 
 tags: blocks
 ---
@@ -169,4 +168,4 @@ For example: `https://example.com/video.mp4?autoplay=true&loop=true&muted=true&p
 
 ## Other Video Platforms
 
-To use other video platforms, you can use [Custom HTML](/support-center/custom-html) block to embed the video.
+To use other video platforms, you can use [Custom HTML](custom-html.md) block to embed the video.

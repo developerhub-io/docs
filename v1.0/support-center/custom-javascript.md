@@ -2,10 +2,9 @@
 type: page
 title: Custom HEAD Tags
 listed: true
-slug: custom-javascript
 description: 
 index_title: Custom HEAD Tags
-hidden: 
+hidden: false
 keywords: 
 tags: customisation
 ---
@@ -70,15 +69,15 @@ To ensure compatibility with all browsers, do not add any scripts that contain a
 By adding scripts, you can do more with your documentation:
 
 - Install third party services for tracking, analysing, interacting with your readers.
-- Create scripts that interact with [Custom HTML](/support-center/custom-html) in the pages or [Custom Landing Page](/support-center/custom-landing-page).
+- Create scripts that interact with [Custom HTML](custom-html.md) in the pages or [Custom Landing Page](landing-page/custom-landing-page.md).
 - Add javascript redirection rules.
 - Add your own icon set using CSS.
-- Enhance your [SEO](/support-center/seo) by adding the relevant META tags to your business.
-- Change the [UI Text](/support-center/ui-translation).
+- Enhance your [SEO](seo.md) by adding the relevant META tags to your business.
+- Change the [UI Text](customising-visuals/ui-translation.md).
 
 ## External Hooks
 
-There are several events that are triggered by %product% which can help you achieve the level of customisation you need. The full list of hooks is available at [Javascript Dispatched Events](/support-center/developer-tools#javascript-dispatched-events).
+There are several events that are triggered by %product% which can help you achieve the level of customisation you need. The full list of hooks is available at [Javascript Dispatched Events](developer-tools.md#javascript-dispatched-events).
 
 ### Project Loaded
 
@@ -184,15 +183,15 @@ Or if you have changed a documentation slug, then you might want to redirect to 
 ```
 {% /code %}
 
-If you need more powerful redirection rules, then check [server-side 301 redirect rules](/support-center/url-redirects).
+If you need more powerful redirection rules, then check [server-side 301 redirect rules](hosting/url-redirects.md).
 
 ### Custom Landing Page Loaded
 
-See [Custom Landing Page](/support-center/custom-landing-page).
+See [Custom Landing Page](landing-page/custom-landing-page.md).
 
 ## Staging Environment
 
-There is no staging environment for testing HEAD tags changes at this moment. However, you can set up a new project and test the HEAD tags on it before applying it on your production project. [Let us know ](/support-center/contact-us) if you needed help in setting up the project.
+There is no staging environment for testing HEAD tags changes at this moment. However, you can set up a new project and test the HEAD tags on it before applying it on your production project. [Let us know ](contact-us.md) if you needed help in setting up the project.
 
 ## Disabling HEAD Tags
 

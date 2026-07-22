@@ -2,10 +2,9 @@
 type: page
 title: Tabs
 listed: true
-slug: tabs
 description: 
 index_title: Tabs
-hidden: 
+hidden: false
 keywords: 
 tags: blocks
 ---
@@ -75,7 +74,7 @@ The following are features of the tab block:
 
 - It can have as many tabs as visually possible.
 - Every tab has its own title, and is linkable.
-- Headings inside tabs can be used with [page linking](/support-center/page-linking).
+- Headings inside tabs can be used with [page linking](writing-documentation/page-linking.md).
 - Tab contents are searchable.
 - Tab contents can contain all kinds of blocks and formatting supported by %product%
 - When switching to a tab, all other tab blocks on the page having the same title will also get switched to automatically.

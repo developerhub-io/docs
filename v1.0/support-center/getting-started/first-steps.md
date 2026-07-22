@@ -2,10 +2,9 @@
 type: page
 title: First Steps
 listed: true
-slug: first-steps
 description: 
 index_title: First Steps
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -34,4 +33,4 @@ You will also be asked for a subdomain. The subdomain is basically a word contai
 You've set up your first project on DeveloperHub.io.
 {% /callout %}
 
-If you would like to set up your project to be reachable on your own domain, see [Using Custom Domain](/support-center/using-custom-domain).
+If you would like to set up your project to be reachable on your own domain, see [Using Custom Domain](../hosting/using-custom-domain.md).

@@ -2,10 +2,9 @@
 type: page
 title: Diff API Revisions
 listed: true
-slug: diff-api-revisions
 description: 
 index_title: Diff API Revisions
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -16,7 +15,7 @@ Use **Diff API Revisions** to compare the OpenAPI definitions between revisions.
 
 When launched, the diff opens in a window and highlights changes in different colours.
 
-{% image url="asset:v34mk5gboj7o" /%}
+{% image url="../../assets/82ae2502647cdb1c6e0ea4a554c5caed5224ea45.png" /%}
 
 ## Diff API Revisions
 

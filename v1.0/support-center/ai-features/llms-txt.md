@@ -2,16 +2,15 @@
 type: page
 title: llms.txt
 listed: true
-slug: llms-txt
 description: 
 index_title: llms.txt
-hidden: 
+hidden: false
 keywords: 
 tags: ai
 ---
 
 {% callout type="warning" title="Beta" %}
-This is a beta feature. Your [feedback](/support-center/contact-us) is appreciated.
+This is a beta feature. Your [feedback](../contact-us.md) is appreciated.
 {% /callout %}
 
 The file named `llms.txt`, located at the base of your project path, is integral for enabling large language models (LLMs) to effectively process and understand your documentation. It's the equivalent of your docs but its intended audience is a computer rather than a human. `llms.txt` is generated using a standard format from your docs.

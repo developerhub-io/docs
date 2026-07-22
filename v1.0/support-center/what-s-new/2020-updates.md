@@ -2,10 +2,9 @@
 type: page
 title: 2020 Updates
 listed: true
-slug: 2020-updates
 description: 
 index_title: 2020 Updates
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -16,7 +15,7 @@ tags:
 
 ### 25 Dec
 
-- {% badge text="New" type="success" /%} **API Reference**: Added an option to [show content type](/support-center/api-reference-settings#show-content-type-header) header for requests with body.
+- {% badge text="New" type="success" /%} **API Reference**: Added an option to [show content type](../api-references/api-reference-settings.md#show-content-type-header) header for requests with body.
 - {% badge text="Improvement" type="warning" /%} **Raw HTML**: On saving/importing a page that has raw HTML, we now provide a verbose message which lets you know the first occurrence of raw HTML that prevented the operation.
 
 ### 24 Dec
@@ -24,7 +23,7 @@ tags:
 - {% badge text="New" type="success" /%} **Dashboard**: You can now access a dashboard which provides you with latest comments and drafts pages so you can know where to start your day.
 - {% badge text="New" type="success" /%} **OpenAPI3**: OpenAPI3 support is no longer in Beta 🎉
 - {% badge text="New" type="success" /%} **API Reference**: Loading state now appears when switching to an API Reference for your readers.
-- {% badge text="New" type="success" /%} **More Keyboard Shortcuts**: More [keyboard shortcuts](/support-center/keyboard-shortcuts) available to navigate through DeveloperHub.
+- {% badge text="New" type="success" /%} **More Keyboard Shortcuts**: More [keyboard shortcuts](../keyboard-shortcuts.md) available to navigate through DeveloperHub.
 - {% badge text="Improvement" type="warning" /%} **Quick Switcher**: Quick Switcher now looks through everything, not just the documentation you're on now.
 - {% badge text="Improvement" type="warning" /%} **Quick Switcher**: You can now navigate using keyboard keys between search results.
 - {% badge text="Change" type="warning" /%} **DOM \& CSS**: Many changes to DOM and CSS changes have been made to allow us to build new features. Please review your project to ensure sustained compatibility.
@@ -57,7 +56,7 @@ tags:
 - {% badge text="Change" type="warning" /%} **Max page size**: Max page size on upload is 2MB. Enough to have all the words in Oxford dictionary.
 - {% badge text="Improvement" type="warning" /%} **Page drag \& drop**: Index autoscrolls when dragging a page and dropping it somewhere far in the index.
 - {% badge text="Bug Fix" type="error" /%} **Custom event**: `onsectionchange` did not work as expected after category drag/drop changes on 1 Oct.
-- {% badge text="New" type="success" /%} **Custom Javascript**: On changing [custom javascript](/support-center/custom-javascript), we will validate your script automatically and warn you if it is syntactically incorrect.
+- {% badge text="New" type="success" /%} **Custom Javascript**: On changing [custom javascript](../custom-javascript.md), we will validate your script automatically and warn you if it is syntactically incorrect.
 
 ### 24 Nov
 
@@ -65,8 +64,8 @@ tags:
 
 ### 21 Nov
 
-- {% badge text="New" type="success" /%} **Search Scope**: Modify search bar scope to search through only active documentation or reference using [advanced settings](/support-center/advanced-settings).
-- {% badge text="Improvement" type="warning" /%} **Variables in Search**: [Variables](/support-center/variables) are now resolved when searching.
+- {% badge text="New" type="success" /%} **Search Scope**: Modify search bar scope to search through only active documentation or reference using [advanced settings](../project-settings/advanced-settings.md).
+- {% badge text="Improvement" type="warning" /%} **Variables in Search**: [Variables](../variables.md) are now resolved when searching.
 
 ### 17 Nov
 
@@ -95,10 +94,10 @@ tags:
 
 ### 25 Oct
 
-- {% badge text="New" type="success" /%} **Separator**: Add [separators](/support-center/categories#separators) to the index.
-- {% badge text="Improvement" /%} **Index Page Link**: [Link](/support-center/external-links) to other parts of your documentation in the index to open the links in the same tab.
+- {% badge text="New" type="success" /%} **Separator**: Add [separators](../structuring-documentation/categories.md#separators) to the index.
+- {% badge text="Improvement" /%} **Index Page Link**: [Link](../structuring-documentation/external-links.md) to other parts of your documentation in the index to open the links in the same tab.
 - {% badge text="New" type="success" /%} **Mobile Index**: Mobile index has been redesigned to match the full index experience instead of a minimal dropdown.
-- {% badge text="New" type="success" /%} **Specific CSS Classes**: Added specific classes for each index item based on the slug and internal ID. This is to help with [hiding pages](/support-center/unlisting-old#hiding-page) for example.
+- {% badge text="New" type="success" /%} **Specific CSS Classes**: Added specific classes for each index item based on the slug and internal ID. This is to help with [hiding pages](../writing-documentation/unlisting-old.md#hiding-page) for example.
 
 ### 10 Oct
 
@@ -107,17 +106,17 @@ tags:
 
 ### 1 Oct
 
-- {% badge text="New" type="success" /%} **Expandable Categories**: Set categories [to collapse](/support-center/documentation-settings#collapsible-categories) by default.
+- {% badge text="New" type="success" /%} **Expandable Categories**: Set categories [to collapse](../documentation-settings.md#collapsible-categories) by default.
 - {% badge text="Improvement" /%} **Categories drag \& drop**: Categories now carry the pages with them when dragged and dropped.
 
 ### 3 Sep
 
-- {% badge text="New" type="success" /%} **Analyse links**: [Analyse](/support-center/page-linking) all links inside a version in one-go.
+- {% badge text="New" type="success" /%} **Analyse links**: [Analyse](../writing-documentation/page-linking.md) all links inside a version in one-go.
 - {% badge text="New" type="success" /%} **Notify Breaking Links:** We'll notify you of all page links that will break when deleting a page.
 
 ### 30 Aug
 
-- {% badge text="New" type="success" /%} **User roles**: Teammates can have different [roles](/support-center/collaboration#user-roles).
+- {% badge text="New" type="success" /%} **User roles**: Teammates can have different [roles](../collaboration.md#user-roles).
 
 ### 28 Aug
 
@@ -129,7 +128,7 @@ tags:
 
 ### 12 Aug
 
-- {% badge text="New" type="success" /%} **UI Translation**: Change [UI text](/support-center/ui-translation) for each individual documentation directly from Documentation Settings.
+- {% badge text="New" type="success" /%} **UI Translation**: Change [UI text](../customising-visuals/ui-translation.md) for each individual documentation directly from Documentation Settings.
 
 ### 11 Aug
 
@@ -202,7 +201,7 @@ tags:
 
 - {% badge text="New" type="success" /%} **Code Languages**: Added Scala, Squirrel and XML. Added HTML as a language (instead of general Markup).
 - {% badge text="Improvement" /%} **Streamlined Coding**: All code blocks are tiny IDEs now with syntax highlighting enabled in edit mode, respect for indentation, key bindings and smarter syntax formatting. Code block changes do not need an extra save click anymore. Syntax highlights where you edit. Pasting code from external sources leaves no extra new lines. 🎉
-- {% badge text="New" type="success" /%} **Code Style**: `--code-font`  and `--code-font-size` can be modified using [Custom CSS](/support-center/custom-css) to modify code font and code font-size all around the platform.
+- {% badge text="New" type="success" /%} **Code Style**: `--code-font`  and `--code-font-size` can be modified using [Custom CSS](../customising-visuals/custom-css.md) to modify code font and code font-size all around the platform.
 
 ### 27 Mar
 
@@ -229,21 +228,21 @@ tags:
 
 ### 22 May
 
-- {% badge text="New" type="success" /%} **Icons**: Add Font Awesome [icons](/support-center/icons) to content {% icon classes="fas fa-check" /%}
+- {% badge text="New" type="success" /%} **Icons**: Add Font Awesome [icons](../icons.md) to content {% icon classes="fas fa-check" /%}
 
 ### 20 May
 
-- {% badge text="Improvement" /%} **Translations**: Added ability to [translate](/support-center/ui-translation) "Next to read" and "Last updated by \{\{author\}\} on \{\{date\}\}".
+- {% badge text="Improvement" /%} **Translations**: Added ability to [translate](../customising-visuals/ui-translation.md) "Next to read" and "Last updated by \{\{author\}\} on \{\{date\}\}".
 
 ### 18 May
 
 - {% badge text="Improvement" /%} **Security**: Increased key size for project protection for higher security.
 - {% badge text="New" type="success" /%} **ZIP mime:** API References handling of ZIP mime type in example responses.
-- {% badge text="New" type="success" /%} **Export API**: Projects can be exported using [API](/support-center/api-references#getexports-project) for select plans.
+- {% badge text="New" type="success" /%} **Export API**: Projects can be exported using [API](../api-references.md#getexports-project) for select plans.
 
 ### 17 May
 
-- {% badge text="New" type="success" /%} **Badges**: Add [Badges](/support-center/badges) as inline blocks to your pages.
+- {% badge text="New" type="success" /%} **Badges**: Add [Badges](../badges.md) as inline blocks to your pages.
 - {% badge text="Bug Fix" type="error" /%} **Callout Text**: Callout text was unselectable in reader mode.
 
 ### 12 May
@@ -253,7 +252,7 @@ tags:
 
 ### 6 May
 
-- {% badge text="New" type="success" /%} **Youtube Related Videos**: [Our youtube block](/support-center/videos) now defaults to having `rel=0` parameter on which shows only related videos from the same channel.
+- {% badge text="New" type="success" /%} **Youtube Related Videos**: [Our youtube block](../videos.md) now defaults to having `rel=0` parameter on which shows only related videos from the same channel.
 - {% badge text="Improvement" /%} **Compatibility**: Enhanced compatibility for IE9-10 and Safari 10.
 - {% badge text="New" type="success" /%} **CSV Support**: Code blocks now support CSV
 - {% badge text="New" type="success" /%} **Reference CSV Support**: References now show CSV responses correctly.
@@ -266,7 +265,7 @@ tags:
 
 ### 27 Apr
 
-- {% badge text="New" type="success" /%} **Quick Switcher**: Find your pages faster with our [quick switcher](/support-center/quick-switcher) by clicking `⌘/Ctrl`  + `K`. Check the [keyboard shortcuts](/support-center/keyboard-shortcuts).
+- {% badge text="New" type="success" /%} **Quick Switcher**: Find your pages faster with our [quick switcher](../quick-switcher.md) by clicking `⌘/Ctrl`  + `K`. Check the [keyboard shortcuts](../keyboard-shortcuts.md).
 
 ### 26 Apr
 
@@ -280,12 +279,12 @@ tags:
 
 ### 23 Apr
 
-- {% badge text="New" type="success" /%} **UI Translation**: Translate the [UI text](/support-center/ui-translation).
+- {% badge text="New" type="success" /%} **UI Translation**: Translate the [UI text](../customising-visuals/ui-translation.md).
 - {% badge text="Bug Fix" type="error" /%} **Importing tables**: Importing tables containing markdown does not show HTML tags anymore.
 
 ### 21 Apr
 
-- {% badge text="New" type="success" /%} **Headings linking**: On linking pages, headings show in the list to link to a [specific heading](/support-center/page-linking#changing-link-title-specifying-heading). Previously, you'd have to get the heading fragment from the URL.
+- {% badge text="New" type="success" /%} **Headings linking**: On linking pages, headings show in the list to link to a [specific heading](../writing-documentation/page-linking.md#changing-link-title-specifying-heading). Previously, you'd have to get the heading fragment from the URL.
 
 ### 20 Apr
 
@@ -297,7 +296,7 @@ tags:
 
 ### 10 Apr
 
-- {% badge text="New" type="success" /%} **Custom Landing Page**: Craft your own [custom landing page](/support-center/custom-landing-page).
+- {% badge text="New" type="success" /%} **Custom Landing Page**: Craft your own [custom landing page](../landing-page/custom-landing-page.md).
 
 ### 9 Apr
 
@@ -309,7 +308,7 @@ tags:
 
 ### 29 Mar
 
-- {% badge text="New" type="success" /%} **Titled code blocks**: Add titles to your [code blocks](/support-center/code-blocks) to indicate content regardless of code language.
+- {% badge text="New" type="success" /%} **Titled code blocks**: Add titles to your [code blocks](../code-blocks.md) to indicate content regardless of code language.
 
 ### 28 Mar
 

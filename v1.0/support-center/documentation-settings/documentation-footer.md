@@ -2,10 +2,9 @@
 type: page
 title: Documentation Footer
 listed: true
-slug: documentation-footer
 description: 
 index_title: Documentation Footer
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---

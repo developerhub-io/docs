@@ -2,10 +2,9 @@
 type: page
 title: Callouts
 listed: true
-slug: callouts
 description: 
 index_title: Callouts
-hidden: 
+hidden: false
 keywords: 
 tags: blocks
 ---

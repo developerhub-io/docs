@@ -2,10 +2,9 @@
 type: page
 title: Example Requests
 listed: true
-slug: code-generation
 description: 
 index_title: Example Requests
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -28,4 +27,4 @@ Code generation is available using:
 
 ## Need more libraries?
 
-Let us know by [contacting us](/support-center/contact-us).
+Let us know by [contacting us](../contact-us.md).

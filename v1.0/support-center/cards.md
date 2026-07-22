@@ -2,10 +2,9 @@
 type: page
 title: Cards
 listed: true
-slug: cards
 description: 
 index_title: Cards
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -29,15 +28,15 @@ Each card has a title, text and link which can be set up by clicking the {% icon
 Grid layout:
 
 {% cards %}
-{% card title="Synced Blocks" text="Single-sourcing tool to write content once and use it multiple times" link="/support-center/synced-blocks" /%}
-{% card title="Tabs" text="Split content into multiple tabs for ease of reading" link="/support-center/tabs" /%}
-{% card title="Custom HTML" text="Add anything to the page. Anything at all!" link="/support-center/custom-html" /%}
+{% card title="Synced Blocks" text="Single-sourcing tool to write content once and use it multiple times" link="synced-blocks.md" /%}
+{% card title="Tabs" text="Split content into multiple tabs for ease of reading" link="tabs.md" /%}
+{% card title="Custom HTML" text="Add anything to the page. Anything at all!" link="custom-html.md" /%}
 {% /cards %}
 
 List layout:
 
 {% cards view="list" %}
-{% card title="Synced Blocks" text="Single-sourcing tool to write content once and use it multiple times" link="/support-center/synced-blocks" /%}
-{% card title="Tabs" text="Split content into multiple tabs for ease of reading" link="/support-center/tabs" /%}
-{% card title="Custom HTML" text="Add anything to the page. Anything at all!" link="/support-center/custom-html" /%}
+{% card title="Synced Blocks" text="Single-sourcing tool to write content once and use it multiple times" link="synced-blocks.md" /%}
+{% card title="Tabs" text="Split content into multiple tabs for ease of reading" link="tabs.md" /%}
+{% card title="Custom HTML" text="Add anything to the page. Anything at all!" link="custom-html.md" /%}
 {% /cards %}

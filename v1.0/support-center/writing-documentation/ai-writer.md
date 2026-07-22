@@ -2,10 +2,9 @@
 type: page
 title: AI Writer
 listed: true
-slug: ai-writer
 description: 
 index_title: AI Writer
-hidden: 
+hidden: false
 keywords: 
 tags: ai
 ---

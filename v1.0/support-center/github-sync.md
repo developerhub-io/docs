@@ -2,10 +2,9 @@
 type: page
 title: GitHub Sync
 listed: true
-slug: github-sync
 description: 
 index_title: GitHub Sync
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -81,10 +80,10 @@ If an error occurs while syncing changes from GitHub to %product%, we will send 
 
 The files synced on GitHub are of two types:
 
-- Contents: Such as page contents, formatted in [Markdoc](/support-center/markdoc-format).
+- Contents: Such as page contents, formatted in [Markdoc](github-sync/markdoc-format.md).
 - Settings: Such as documentation settings, formatted in YAML.
 
-If you edit these files with an AI coding agent, our [Markdoc Agent Skill](/support-center/write-markdoc-with-ai) teaches it to write the correct Markdoc, so its changes sync back without churn or lost content.
+If you edit these files with an AI coding agent, our [Markdoc Agent Skill](github-sync/write-markdoc-with-ai.md) teaches it to write the correct Markdoc, so its changes sync back without churn or lost content.
 
 ## File Structure
 
@@ -142,7 +141,7 @@ GitHub sync is a work-in-progress. At the moment, the following is not possible:
 - Synced blocks are not synced yet.
 - Project settings are not synced yet.
 
-For any requirements, please [contact us](/support-center/contact-us).
+For any requirements, please [contact us](contact-us.md).
 
 ## Uninstalling GitHub Sync
 

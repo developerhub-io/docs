@@ -2,22 +2,21 @@
 type: page
 title: Structuring Documentation
 listed: true
-slug: structuring-documentation
 description: 
 index_title: Structuring Documentation
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
 
 %product% documentation index contains six elements:
 
-- [Pages](/support-center/managing-pages)
-- [Categories](/support-center/categories)
-- [Labels](/support-center/categories#labels)
-- [Code Steps](/support-center/code-steps)
-- [Links](/support-center/external-links)
-- [Separators](/support-center/categories#separators)
+- [Pages](structuring-documentation/managing-pages.md)
+- [Categories](structuring-documentation/categories.md)
+- [Labels](structuring-documentation/categories.md#labels)
+- [Code Steps](code-steps.md)
+- [Links](structuring-documentation/external-links.md)
+- [Separators](structuring-documentation/categories.md#separators)
 
 All elements can be re-ordered by dragging and dropping them.
 

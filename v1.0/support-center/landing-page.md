@@ -2,10 +2,9 @@
 type: page
 title: Landing Pages
 listed: true
-slug: landing-page
 description: 
 index_title: Landing Pages
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -15,11 +14,11 @@ Help your readers find what they need the moment they arrive. Landing pages are 
 There are two kinds of landing page:
 
 - **Main landing page**: the page that lives at the root `/` of your docs site.
-- **Custom pages**: extra pages at any path you choose (for example `/pricing` or `/start`). One custom page can also act as your [404 page](/support-center/landing-page#404-page).
+- **Custom pages**: extra pages at any path you choose (for example `/pricing` or `/start`). One custom page can also act as your [404 page](landing-page.md#404-page).
 
 Both are designed in exactly the same way.
 
-{% image url="asset:w0wahpix1a90" %}
+{% image url="../../assets/c5a764b73596445420193c9c3d50683313d56bde.png" %}
 A landing page as readers see it
 {% /image %}
 
@@ -30,10 +29,10 @@ The designer shows a live preview of your page as readers will see it, with a se
 To open the designer, do any of the following:
 
 - In the editor top navigation, open the scope picker and choose **Landing Pages**. This opens the main landing page in the designer.
-- From [Manage Landing Pages](/support-center/landing-page#managing-landing-pages), select a page and click **Edit design**.
+- From [Manage Landing Pages](landing-page.md#managing-landing-pages), select a page and click **Edit design**.
 - Use the Landing Pages picker in the editor top navigation to switch between the main landing page and your custom pages.
 
-{% image url="asset:idxiqa5wdx9z" %}
+{% image url="../../assets/73d1e6060d8b29f8dcb326d106f1610c3b1250a7.png" %}
 The landing page designer
 {% /image %}
 
@@ -45,7 +44,7 @@ Working in the designer:
 - **Duplicate or delete**: use the duplicate and delete buttons on the same action column.
 - **Page settings**: click an empty area of the page, or press `Esc`, to deselect everything and show the page-level settings.
 
-Your theme, brand colour and dark mode are inherited from your [visual settings](/support-center/customising-visuals), so a landing page always matches the rest of your docs.
+Your theme, brand colour and dark mode are inherited from your [visual settings](customising-visuals.md), so a landing page always matches the rest of your docs.
 
 {% callout title="Who can edit" %}
 Only project Publishers and Admins can edit landing pages.
@@ -55,15 +54,15 @@ Only project Publishers and Admins can edit landing pages.
 
 A landing page is made of blocks stacked top to bottom. To add one, click **Add block** where you want it and pick from the library.
 
-{% image url="asset:7iv94g84rat3" %}
+{% image url="../../assets/ef659032d2a45e86e6fea686657d59e04963059f.png" %}
 The block library
 {% /image %}
 
 The available blocks are:
 
 - **Hero**: a prominent header for the top of the page. Choose a variant (Centered, With media, With code, or With search) and set a title, subtitle, an optional pill label, and buttons.
-- **Cards**: a grid of cards linking into your docs. The cards can be auto-generated from your content or authored by hand. See [Card Generation Strategy](/support-center/landing-page#card-generation-strategy).
-- **Changelog**: a compact "recently shipped" list pulled from one of your [changelogs](/support-center/changelogs). It always shows the latest posts, so it stays current without re-editing the page.
+- **Cards**: a grid of cards linking into your docs. The cards can be auto-generated from your content or authored by hand. See [Card Generation Strategy](landing-page.md#card-generation-strategy).
+- **Changelog**: a compact "recently shipped" list pulled from one of your [changelogs](changelogs.md). It always shows the latest posts, so it stays current without re-editing the page.
 - **Heading**: a section heading (H1, H2, or H3).
 - **Text**: a rich-text paragraph for any prose you need.
 - **Buttons**: one or more call-to-action buttons (primary, outline, or ghost styles).
@@ -82,7 +81,7 @@ Alongside its own options, every block shares a common set of style controls in 
 
 Cards are the most flexible block. A Cards block has a **Variant** that decides where its cards come from.
 
-{% image url="asset:yab0icj2dprt" %}
+{% image url="../../assets/e39f506bf88a2fe55615e7b45f0b736849311ea7.png" %}
 A Cards block and its settings
 {% /image %}
 
@@ -91,7 +90,7 @@ A Cards block and its settings
 Cards are generated automatically from the structure of your project. Pick a **Source** to control how:
 
 - **Smart Auto**: %product% chooses the best layout based on your project's structure. This is the default and a good starting point for most projects.
-- **By Navigation Group**: one card per [navigation group](/support-center/structuring-documentation).
+- **By Navigation Group**: one card per [navigation group](structuring-documentation.md).
 - **By Section**: one card for each documentation or API reference in your project.
 - **By Category**: one card per category inside a single documentation. Choose which documentation to draw from.
 - **Hand-picked**: pin the exact sections or pages you want to feature. You can override the title and description of each.
@@ -122,7 +121,7 @@ With nothing selected (click an empty area or press `Esc`), the inspector shows 
 - **Page width**: Narrow, Default, or Wide.
 - **Background**: Subtle, None, or Gradient.
 
-The page's title and meta description are set on the [Manage Landing Pages](/support-center/landing-page#managing-landing-pages) screen.
+The page's title and meta description are set on the [Manage Landing Pages](landing-page.md#managing-landing-pages) screen.
 
 ## Drafts and Publishing
 
@@ -141,7 +140,7 @@ Custom pages are additional landing pages that live at a path of your choosing. 
 To create one:
 
 1. In the editor top navigation, open the scope picker and choose **Landing Pages**.
-2. Open [Manage Landing Pages](/support-center/landing-page#managing-landing-pages), or use the Landing Pages picker, and click **New custom page**.
+2. Open [Manage Landing Pages](landing-page.md#managing-landing-pages), or use the Landing Pages picker, and click **New custom page**.
 3. Enter the path the page should live on, such as `pricing` (omit your project's basepath if you have one).
 4. The page opens in the designer, ready to build.
 
@@ -149,7 +148,7 @@ To create one:
 
 The **Manage Landing Pages** screen lists the main landing page and all your custom pages, and is where you change everything other than the design itself.
 
-{% image url="asset:143caei1g5tu" %}
+{% image url="../../assets/9687dd4023a7c594d2972b13373908cf00aa2de3.png" %}
 Manage Landing Pages
 {% /image %}
 
@@ -158,7 +157,7 @@ For each page you can:
 - Edit the **title** and **description** (the meta description used by search engines).
 - **Enable or disable** it. A disabled page is hidden from readers.
 - Open the designer with **Edit design**, or **View** the published page.
-- For custom pages: change the **path**, mark it as the [404 page](/support-center/landing-page#404-page), or **delete** it.
+- For custom pages: change the **path**, mark it as the [404 page](landing-page.md#404-page), or **delete** it.
 
 ## 404 Page
 
@@ -177,4 +176,4 @@ Only one 404 page can exist in a project.
 
 ## Custom HTML
 
-If you would rather hand-code a page with your own HTML, CSS, and JavaScript, you can switch any landing page (the main landing page or a custom page) to a custom HTML page instead of the block-based design. See [Custom Landing Page](/support-center/custom-landing-page).
+If you would rather hand-code a page with your own HTML, CSS, and JavaScript, you can switch any landing page (the main landing page or a custom page) to a custom HTML page instead of the block-based design. See [Custom Landing Page](landing-page/custom-landing-page.md).

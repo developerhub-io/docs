@@ -2,10 +2,9 @@
 type: page
 title: Managing Plan
 listed: true
-slug: supercharged-plans
 description: 
 index_title: Managing Plan
-hidden: 
+hidden: false
 keywords: account billing
 tags: 
 ---

@@ -2,15 +2,14 @@
 type: page
 title: Importing References
 listed: true
-slug: uploading-references
 description: 
 index_title: Importing References
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
 
-To upload a new reference or to override an existing reference, you may either do it using our [API](/support-center/api-key) or through the editor as such:
+To upload a new reference or to override an existing reference, you may either do it using our [API](project-settings/api-key.md) or through the editor as such:
 
 - In the editor top navigation, open the section menu.
 - Click **+ New API reference**.
@@ -30,7 +29,7 @@ Ensure that every operation has a unique operation ID. Operation IDs are used in
 
 ### Validation Fail
 
-We will notify you of detailed validation errors if any do exist. To interactively fix them, open the reference in our [API Editor](/support-center/edit-references). The issues panel at the bottom lists every error and jumps to the offending line on click.
+We will notify you of detailed validation errors if any do exist. To interactively fix them, open the reference in our [API Editor](edit-references.md). The issues panel at the bottom lists every error and jumps to the offending line on click.
 
 ### Limitations
 

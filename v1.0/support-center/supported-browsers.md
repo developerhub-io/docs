@@ -2,10 +2,9 @@
 type: page
 title: Supported Browsers
 listed: true
-slug: supported-browsers
 description: 
 index_title: Supported Browsers
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---

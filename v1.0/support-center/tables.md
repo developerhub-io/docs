@@ -2,10 +2,9 @@
 type: page
 title: Tables
 listed: true
-slug: tables
 description: 
 index_title: Tables
-hidden: 
+hidden: false
 keywords: 
 tags: blocks
 ---
@@ -102,7 +101,7 @@ To remove set fixed sizing, double click on the handle.
 If you set a fixed size for a column, then it is best to make sure that it works for other screen sizes.
 {% /callout %}
 
-If a table has a fixed size column, then on [exporting](/support-center/exporting-documentation) the documentation, it will not be in markdown format as markdown does not support fixed column widths notation.
+If a table has a fixed size column, then on [exporting](exporting-documentation.md) the documentation, it will not be in markdown format as markdown does not support fixed column widths notation.
 
 ## Copying \& Pasting
 

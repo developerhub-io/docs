@@ -2,10 +2,9 @@
 type: page
 title: 2018 Updates
 listed: true
-slug: 2018-updates
 description: 
 index_title: 2018 Updates
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -20,12 +19,12 @@ tags:
 
 ### 23 Dec
 
-- {% badge text="New" type="success" /%} **No formatting code block**: Code blocks with [disabled formatting](/support-center/code-blocks#no-formatting-code-block) are now available.
+- {% badge text="New" type="success" /%} **No formatting code block**: Code blocks with [disabled formatting](../code-blocks.md#no-formatting-code-block) are now available.
 - {% badge text="New" type="success" /%} **Language titles**: Changed the language titles to match proper case and marketed name such as PHP/JavaScript/C# rather than php/javascript/csharp.
 
 ### 21 Dec
 
-- {% badge text="New" type="success" /%} **Change inline code colour**: Supercharged plans users may request a change of inline code colour on [contacting us](/support-center/contact-us).
+- {% badge text="New" type="success" /%} **Change inline code colour**: Supercharged plans users may request a change of inline code colour on [contacting us](../contact-us.md).
 
 ### 16 Dec
 
@@ -124,7 +123,7 @@ int Factorial(int i)
 
 ### 4 Nov
 
-- {% badge text="New" type="success" /%} **Change Link Colour**: [Link colour](/support-center/customising-visuals#changing-colours) can be changed separately from header colour.
+- {% badge text="New" type="success" /%} **Change Link Colour**: [Link colour](../customising-visuals.md#changing-colours) can be changed separately from header colour.
 
 ### 27 Oct
 
@@ -132,14 +131,14 @@ int Factorial(int i)
 
 ### 26 Oct
 
-- {% badge text="New" type="success" /%} **Customise Font**: Paid plans - Change the entire [font](/support-center/customising-visuals#changing-font) of your project.
+- {% badge text="New" type="success" /%} **Customise Font**: Paid plans - Change the entire [font](../customising-visuals.md#changing-font) of your project.
 - {% badge text="New" type="success" /%} **Video Width**: Videos now take up 100% of width of page.
 - {% badge text="Bug Fix" type="error" /%} **Adding teammates**: Teammates were unable to add other teammates. A new project is not required anymore for invited teammates.
 
 ### 13 Oct
 
-- {% badge text="New" type="success" /%} **Intercom**: Paid plans are able to integrate with [Intercom](/support-center/intercom) for messaging with customers.
-- {% badge text="New" type="success" /%} **Custom HTML**: Paid plans can add [custom HTML](/support-center/custom-html) into pages.
+- {% badge text="New" type="success" /%} **Intercom**: Paid plans are able to integrate with [Intercom](../integrations/intercom.md) for messaging with customers.
+- {% badge text="New" type="success" /%} **Custom HTML**: Paid plans can add [custom HTML](../custom-html.md) into pages.
 
 ### 12 Oct
 
@@ -147,15 +146,15 @@ int Factorial(int i)
 
 ### 11 Oct
 
-- {% badge text="New" type="success" /%} **API References**: Announced waitlist for [API References](/support-center/upcoming-features#api-references).
+- {% badge text="New" type="success" /%} **API References**: Announced waitlist for [API References](../upcoming-features.md#api-references).
 
 ### 26 Sep
 
-- {% badge text="New" type="success" /%} **Import Documentation**: [Import documentation](/support-center/external-sources) from external sources into DeveloperHub.io.
+- {% badge text="New" type="success" /%} **Import Documentation**: [Import documentation](../importing-documentation/external-sources.md) from external sources into DeveloperHub.io.
 
 ### 18 Sep
 
-- {% badge text="New" type="success" /%} **Privacy Policy consent**: You can [provide your own](/support-center/project-settings#privacy-policy-consent) Privacy Policy for your readers to give their consent to.
+- {% badge text="New" type="success" /%} **Privacy Policy consent**: You can [provide your own](../project-settings.md#privacy-policy-consent) Privacy Policy for your readers to give their consent to.
 
 ### 15 Sep
 
@@ -167,14 +166,14 @@ int Factorial(int i)
 
 ### 11 Sep
 
-- {% badge text="New" type="success" /%} **Link to Pages**: Powerful internal linking to pages within versions that scales with your documentation. See [Link to Pages](/support-center/page-linking) for more information.
+- {% badge text="New" type="success" /%} **Link to Pages**: Powerful internal linking to pages within versions that scales with your documentation. See [Link to Pages](../writing-documentation/page-linking.md) for more information.
 - {% badge text="New" type="success" /%} **Faster page switching**: Internal documentation links switch faster without reloading the page.
 - {% badge text="New" type="success" /%} **External links**: External links open in a new tab by default.
 
 ### 10 Sep
 
-- {% badge text="New" type="success" /%} **Embed YouTube Videos**: Convey the entire message to your readers by [embedding](/support-center/videos) YouTube videos.
-- {% badge text="New" type="success" /%} **Drop \& Drop**: All add-ons can be [dragged and dropped](/support-center/ordering-blocks) around a page for easier editing experience.
+- {% badge text="New" type="success" /%} **Embed YouTube Videos**: Convey the entire message to your readers by [embedding](../videos.md) YouTube videos.
+- {% badge text="New" type="success" /%} **Drop \& Drop**: All add-ons can be [dragged and dropped](../writing-documentation/ordering-blocks.md) around a page for easier editing experience.
 - {% badge text="New" type="success" /%} **Bug fixes**: Fixes to display on Safari, security and referrals.
 
 ### 3 Sep
@@ -182,7 +181,7 @@ int Factorial(int i)
 - {% badge text="New" type="success" /%} **(Mobile) Branded navigation**: Current page in mobile index is now highlighted with brand colour.
 - {% badge text="New" type="success" /%} **(Mobile) Wider documentation view**: Less padding on the sides for the documentation to have more space for the text.
 - {% badge text="New" type="success" /%} **Firefox compatibility**: Multiple enhancements to Firefox compatibility.
-- {% badge text="New" type="success" /%} **Supported browsers**: We are clear about our browser support. See the list [here](/support-center/supported-browsers).
+- {% badge text="New" type="success" /%} **Supported browsers**: We are clear about our browser support. See the list [here](../supported-browsers.md).
 
 ### 2 Sep
 
@@ -259,12 +258,12 @@ int
 ### 15 Aug
 
 - {% badge text="New" type="success" /%} **Paid plans launched**: Startup and Grow plans have launched publicly for all users to subscribe to. See more details [here](https://developerhub.io).
-- {% badge text="New" type="success" /%} **SEO**: All published projects are now [SEO-enabled](/support-center/seo) and are indexed by search engines.
+- {% badge text="New" type="success" /%} **SEO**: All published projects are now [SEO-enabled](../seo.md) and are indexed by search engines.
 - {% badge text="New" type="success" /%} **Smoother design**: Text is now rendered more beautifully on pages. Titles are bigger and headers are consistent. Lists are indented by default and have a different colour to show contrast with documentation text. Separators have bigger margins for a more natural thematic break.
 
 {% image url="https://uploads.developerhub.io/prod/02/n2mgfyoh1nowpthsuoqwbog8hemb686m5666ywbv5zjmp6v99yf95nkplhivd7xx.jpg" /%}
 
-- {% badge text="New" type="success" /%} **Image size controls**: Images can now be resized to either responsive, big or small size. Read more about [Responsive Size](/support-center/images#responsive-size).
+- {% badge text="New" type="success" /%} **Image size controls**: Images can now be resized to either responsive, big or small size. Read more about [Responsive Size](../images.md#responsive-size).
 
 {% image url="https://uploads.developerhub.io/prod/02/rk1girggnm2y71jett44pfoxeffmon46i6bek7l6nwxbr81ib23sbngrhgqlnyc8.jpg" /%}
 
@@ -273,7 +272,7 @@ int
 
 ### 5 Aug
 
-- {% badge text="New" type="success" /%} **Collaboration**: Startup plan users can [add teammates](/support-center/collaboration) to collaborate on a project.
+- {% badge text="New" type="success" /%} **Collaboration**: Startup plan users can [add teammates](../collaboration.md) to collaborate on a project.
 
 {% image url="https://uploads.developerhub.io/prod/02/go0o6xnnmg23vuj1neik27ig261nnfsi12kedpiyyuuh1h11z1f8g6csn0ggubeu.jpg" /%}
 
@@ -281,7 +280,7 @@ int
 
 {% image url="https://uploads.developerhub.io/prod/02/7q77pqg5dmc9ts9krfurma56li58rjh8fxezx8bn5gee289w80obgmo5jglvkxwi.gif" width=300 /%}
 
-- {% badge text="New" type="success" /%} **Enhanced adding content around add-ons**: Following to our update in [27 Jul](/support-center/what-s-new#27-jul), the clickable area around add-ons to add a line before or after text has been increased by 50%, and the mouse cursor would change icon for more visibility.
+- {% badge text="New" type="success" /%} **Enhanced adding content around add-ons**: Following to our update in [27 Jul](../what-s-new.md#27-jul), the clickable area around add-ons to add a line before or after text has been increased by 50%, and the mouse cursor would change icon for more visibility.
 - {% badge text="New" type="success" /%} **Removed limit on projects number**: All users can now have unlimited projects.
 - {% badge text="New" type="success" /%} **Bug fixes**: Sidebar on mobile devices was non-clickable depending on screen size.
 
@@ -291,11 +290,11 @@ int
 
 ### 30 Jul
 
-- {% badge text="New" type="success" /%} **Add links to navigation**: You can now add two links to the navigation. See [Customising Visuals](/support-center/customising-visuals#adding-links).
+- {% badge text="New" type="success" /%} **Add links to navigation**: You can now add two links to the navigation. See [Customising Visuals](../customising-visuals.md#adding-links).
 
 {% image url="https://uploads.developerhub.io/prod/02/0bu515omiw92fokq8nzrpjpjlal1c88m5pkv6jre056nif0ed22w0v1gbh3zt3y3.png" /%}
 
-- {% badge text="New" type="success" /%} **Google Analytics Integration**: Startup plan users can now integrate with [Google Analytics](/support-center/google-analytics) for tracking page views.
+- {% badge text="New" type="success" /%} **Google Analytics Integration**: Startup plan users can now integrate with [Google Analytics](../integrations/google-analytics.md) for tracking page views.
 
 ### 28 Jul
 
@@ -305,11 +304,11 @@ int
 I am prettier now
 {% /callout %}
 
-- {% badge text="New" type="success" /%} **Experimental search**: Super-fast [search](/support-center/using-search) has been added to select documentations.
+- {% badge text="New" type="success" /%} **Experimental search**: Super-fast [search](../using-search.md) has been added to select documentations.
 
 {% image url="https://uploads.developerhub.io/prod/02/8dnouk2twuvgmi6i8lhtb6fsqazgzqahhqkqhekgm3f3w46q2eq3ulj1ejhvtskm.png" /%}
 
-- {% badge text="New" type="success" /%} **More keyboard shortcuts**: More keyboard shortcuts have been added. See [Keyboard Shortcuts](/support-center/keyboard-shortcuts).
+- {% badge text="New" type="success" /%} **More keyboard shortcuts**: More keyboard shortcuts have been added. See [Keyboard Shortcuts](../keyboard-shortcuts.md).
 - {% badge text="New" type="success" /%} **Published versions count**: A count of the published versions versus total number of versions is now showing per project in Project Settings.
 
 ### 27 Jul
@@ -326,17 +325,17 @@ I am prettier now
 
 ### 25 Jul
 
-- {% badge text="New" type="success" /%} **Custom domain**: Use your existing [custom domain](/support-center/using-custom-domain) for free on referring friends. Read more at [Custom Domain](/support-center/using-custom-domain).
+- {% badge text="New" type="success" /%} **Custom domain**: Use your existing [custom domain](../hosting/using-custom-domain.md) for free on referring friends. Read more at [Custom Domain](../hosting/using-custom-domain.md).
 
 ### 22 Jul
 
-- {% badge text="New" type="success" /%} **Colour picker**: A [colour picker](/support-center/customising-visuals#changing-colour) is now available to choose the main colour of your brand.
+- {% badge text="New" type="success" /%} **Colour picker**: A [colour picker](../customising-visuals.md#changing-colour) is now available to choose the main colour of your brand.
 
 {% image url="https://uploads.developerhub.io/prod/02/sal66u0us813tc48iiq5qup7w57engo0s9tvdo89rp8yggkqpqsibmme2q4vo04r.png" /%}
 
 ### 21 Jul
 
-- {% badge text="New" type="success" /%} **Bold and italic using markdown:** We extended our markdown support to bold text using `**text**` and italicise text using `*text*`. See [Using Markdown](/support-center/using-markdown) for all the possible options.
+- {% badge text="New" type="success" /%} **Bold and italic using markdown:** We extended our markdown support to bold text using `**text**` and italicise text using `*text*`. See [Using Markdown](../writing-documentation/using-markdown.md) for all the possible options.
 - {% badge text="New" type="success" /%} **Callout text spans over multiple lines:** Callout text can now span over multiple lines, giving you more space to highlight information to your readers.
 
 ### 18 Jul

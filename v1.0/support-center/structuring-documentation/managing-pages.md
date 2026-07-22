@@ -2,10 +2,9 @@
 type: page
 title: Managing Pages
 listed: true
-slug: managing-pages
 description: 
 index_title: Managing Pages
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -52,7 +51,7 @@ If you move a parent page, all subpages will be moved with it as well.
 
 ## Linking Pages
 
-Pages can link other pages in the documentation, see [Page Linking](/support-center/page-linking) to learn more.
+Pages can link other pages in the documentation, see [Page Linking](../writing-documentation/page-linking.md) to learn more.
 
 ## Editing Page Slug
 

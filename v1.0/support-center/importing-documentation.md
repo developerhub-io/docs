@@ -2,10 +2,9 @@
 type: page
 title: Importing Documentation
 listed: true
-slug: importing-documentation
 description: 
 index_title: Importing Documentation
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -16,17 +15,17 @@ tags:
 
 You can import to %product% from many sources:
 
-- [Markdoc](/support-center/markdoc-format) export (available for entire project imports and one page imports)
-- [Markdown](/support-center/external-sources#markdown-import)
-- [ReadMe](/support-center/external-sources#readme-import)
-- [Zendesk](/support-center/import-from-zendesk)
-- Other sources, such as: [HTML](/support-center/external-sources#importing-from-html), [Confluence](/support-center/external-sources#importing-from-confluence), [Word](/support-center/external-sources#importing-from-word-documents) or [other external sources](/support-center/external-sources).
+- [Markdoc](github-sync/markdoc-format.md) export (available for entire project imports and one page imports)
+- [Markdown](importing-documentation/external-sources.md#markdown-import)
+- [ReadMe](importing-documentation/external-sources.md#readme-import)
+- [Zendesk](importing-documentation/import-from-zendesk.md)
+- Other sources, such as: [HTML](importing-documentation/external-sources.md#importing-from-html), [Confluence](importing-documentation/external-sources.md#importing-from-confluence), [Word](importing-documentation/external-sources.md#importing-from-word-documents) or [other external sources](importing-documentation/external-sources.md).
 
 ## Import a Markdoc Export
 
 To import documentation, follow these steps:
 
-- Make sure your import files are [structured](/support-center/importing-documentation#structuring-files) as required.
+- Make sure your import files are [structured](importing-documentation.md#structuring-files) as required.
 - Open Project Settings → **Import \& Export**.
 - Click **Open import**.
 - Choose **Markdoc**.
@@ -43,7 +42,7 @@ All imports add versions. Versions, documentations and pages are never overwritt
 
 ## Import a page into %product%
 
-You can import a single Markdown or a [Markdoc](/support-center/markdoc-format) page at a time into %product%.
+You can import a single Markdown or a [Markdoc](github-sync/markdoc-format.md) page at a time into %product%.
 
 To import one page, follow these steps:
 
@@ -134,7 +133,7 @@ type: separator
 
 ### Content
 
-Category, link and separator elements do not have content. Pages do have content, written in [Markdoc](/support-center/markdoc-format): plain Markdown mixed with %product%'s block tags.
+Category, link and separator elements do not have content. Pages do have content, written in [Markdoc](github-sync/markdoc-format.md): plain Markdown mixed with %product%'s block tags.
 
 Draft and published page contents can be defined in an export and it is annotated by a `---draft` or `---published` header, such as:
 
@@ -152,7 +151,7 @@ Published content is here
 
 ### Blocks
 
-Blocks and inline blocks are written in Markdoc tag syntax. See [Markdoc Format](/support-center/markdoc-format) for the full syntax of every block, with an example for each.
+Blocks and inline blocks are written in Markdoc tag syntax. See [Markdoc Format](github-sync/markdoc-format.md) for the full syntax of every block, with an example for each.
 
 Feel free to export any page to understand the formatting of its contents.
 

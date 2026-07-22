@@ -2,17 +2,16 @@
 type: page
 title: Logging Out Readers
 listed: true
-slug: logging-out-readers
 description: 
 index_title: Logging Out Readers
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
 
 To log out readers, a `logout` function can be called on the `window` object.
 
-For example, if you wish to allow the readers to log out themselves from a secure session, a logout button can be added to the top right corner next to the navigation links. Add the following [Custom JS](/support-center/custom-javascript):
+For example, if you wish to allow the readers to log out themselves from a secure session, a logout button can be added to the top right corner next to the navigation links. Add the following [Custom JS](../custom-javascript.md):
 
 {% code %}
 ```html

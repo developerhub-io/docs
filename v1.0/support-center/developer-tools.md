@@ -2,10 +2,9 @@
 type: page
 title: Developer Tools
 listed: true
-slug: developer-tools
 description: 
 index_title: Developer Tools
-hidden: 
+hidden: false
 keywords: 
 tags: customisation
 ---
@@ -26,7 +25,7 @@ tags: customisation
 
 **Description:** Strips away top navigation, index, table of contents, footer, and others for preview mode.
 
-**See:** [Embed Mode](/support-center/previewing-documentation#embed-mode)
+**See:** [Embed Mode](previewing-documentation.md#embed-mode)
 
 ### Disable Scripts
 
@@ -34,7 +33,7 @@ tags: customisation
 
 **Description:** Disables scripts temporarily.
 
-**See:** [Disabling HEAD Tags](/support-center/custom-javascript#disabling-head-tags)
+**See:** [Disabling HEAD Tags](custom-javascript.md#disabling-head-tags)
 
 ### Disable Styles
 
@@ -42,7 +41,7 @@ tags: customisation
 
 **Description:** Disables styles temporarily.
 
-**See:** [Disabling Styles](/support-center/custom-css#disabling-styles)
+**See:** [Disabling Styles](customising-visuals/custom-css.md#disabling-styles)
 
 ### Personalisation (Clear Text)
 
@@ -50,7 +49,7 @@ tags: customisation
 
 **Description:** Personalises the documentation by overriding variables with clear text in JSON format.
 
-**See:** [Personalising through URL](/support-center/personalised-docs#personalising-through-url)
+**See:** [Personalising through URL](personalised-docs.md#personalising-through-url)
 
 ### Personalisation (Base64)
 
@@ -58,7 +57,7 @@ tags: customisation
 
 **Description:** Personalises the documentation by overriding variables with Base64 text.
 
-**See:** [Personalising through URL](/support-center/personalised-docs#personalising-through-url)
+**See:** [Personalising through URL](personalised-docs.md#personalising-through-url)
 
 ### JWT Authentication
 
@@ -66,7 +65,7 @@ tags: customisation
 
 **Description:** Securely give access to the docs.
 
-**See:** [Custom Login](/support-center/custom-login)
+**See:** [Custom Login](private-docs/custom-login.md)
 
 ### Set Frontend Application Deployment ID
 
@@ -74,7 +73,7 @@ tags: customisation
 
 **Description:** Sets the frontend application deployment version. Use `latest` for the latest version.
 
-**See:** [Testing CSS](/support-center/custom-css#testing-css)
+**See:** [Testing CSS](customising-visuals/custom-css.md#testing-css)
 
 ## JavaScript Functions
 
@@ -89,9 +88,9 @@ tags: customisation
 - `event`: The `MouseEvent` or `KeyboardEvent`.
 - `link`: Absolute path (without host and basepath) such as `/support-center/developer-tools`.
 
-**See:** [Linking to Content](/support-center/custom-landing-page#linking-to-content)
+**See:** [Linking to Content](landing-page/custom-landing-page.md#linking-to-content)
 
-**Deprecated:** Use [Navigate to Path](/support-center/developer-tools#navigate-to-path) instead.
+**Deprecated:** Use [Navigate to Path](developer-tools.md#navigate-to-path) instead.
 
 ### Navigate to Path
 
@@ -107,7 +106,7 @@ tags: customisation
 
 **Description:** Navigates to a path internally inside the single page application, without reloading the page.
 
-**See:** [Linking to Content](/support-center/custom-landing-page#linking-to-content)
+**See:** [Linking to Content](landing-page/custom-landing-page.md#linking-to-content)
 
 ### Navigate Home
 
@@ -129,7 +128,7 @@ tags: customisation
 
 **Description:** Captures all absolute paths on a rendered landing page and routes them internally in the single page application rather than a browser tab navigation. Use after all anchor elements have been rendered on a landing page.
 
-**See:** [Custom Landing Page](/support-center/custom-landing-page#adding-javascript)
+**See:** [Custom Landing Page](landing-page/custom-landing-page.md#adding-javascript)
 
 ### Resize Custom HTML iFrame
 
@@ -141,7 +140,7 @@ tags: customisation
 
 **Description:** Informs the parent element to resize because elements have been dynamically added to the iFrame.
 
-**See:** [Resizing Dynamic iFrames](/support-center/custom-html#resizing-dynamic-iframes)
+**See:** [Resizing Dynamic iFrames](custom-html.md#resizing-dynamic-iframes)
 
 ### Apply Advanced Settings
 
@@ -151,11 +150,11 @@ tags: customisation
 
 **Arguments:**
 
-- `settings`: An object containing [specific settings](/support-center/advanced-settings#applying-settings).
+- `settings`: An object containing [specific settings](project-settings/advanced-settings.md#applying-settings).
 
 **Description:** Modifies UI or functionality, including search, code theme, SEO, and others.
 
-**See:** [Applying Settings](/support-center/advanced-settings#applying-settings)
+**See:** [Applying Settings](project-settings/advanced-settings.md#applying-settings)
 
 ### Modify UI Text
 
@@ -165,11 +164,11 @@ tags: customisation
 
 **Arguments:**
 
-- `translation`: An object containing [certain UI texts that can be changed](/support-center/ui-translation#which-text-can-be-changed).
+- `translation`: An object containing [certain UI texts that can be changed](customising-visuals/ui-translation.md#which-text-can-be-changed).
 
 **Description:** Modifies UI text, whether for translation or otherwise.
 
-**See:** [UI Translation](/support-center/ui-translation)
+**See:** [UI Translation](customising-visuals/ui-translation.md)
 
 ### Register Custom Interceptors
 
@@ -179,7 +178,7 @@ tags: customisation
 
 **Arguments:**
 
-- `interceptor`: A function with two arguments, `data` and `next`. See [Custom Interceptors](/support-center/try-it-out#how-to-set-up-custom-interceptors).
+- `interceptor`: A function with two arguments, `data` and `next`. See [Custom Interceptors](try-it-out.md#how-to-set-up-custom-interceptors).
 
 **Description:** Registers a custom interceptor that can modify API playground requests before they are sent.
 
@@ -229,7 +228,7 @@ tags: customisation
 
 - `src`: The URL of the image to load.
 
-**Description:** Loads the image in an overlay over the docs, just like when native images are clicked in product. Use it when the image is created by a [Custom HTML](/support-center/custom-html) which uses an iFrame (when there is a script or iFrame).
+**Description:** Loads the image in an overlay over the docs, just like when native images are clicked in product. Use it when the image is created by a [Custom HTML](custom-html.md) which uses an iFrame (when there is a script or iFrame).
 
 ### Change Theme
 
@@ -253,7 +252,7 @@ tags: customisation
 
 **Emits:** Details about every documentation and API reference in the default version which make up the cards in the landing page.
 
-**See:** [Adding JavaScript](/support-center/custom-landing-page#adding-javascript)
+**See:** [Adding JavaScript](landing-page/custom-landing-page.md#adding-javascript)
 
 ### Project Loaded
 
@@ -263,7 +262,7 @@ tags: customisation
 
 **Emits:** Nothing.
 
-**See:** [Project Loaded](/support-center/custom-javascript#project-loaded)
+**See:** [Project Loaded](custom-javascript.md#project-loaded)
 
 ### Version Changed
 
@@ -281,7 +280,7 @@ tags: customisation
 
 **Emits:** Details about the section that is being switched to.
 
-**See:** [Section Changes](/support-center/custom-javascript#section-changes)
+**See:** [Section Changes](custom-javascript.md#section-changes)
 
 ### Page Changed
 
@@ -291,7 +290,7 @@ tags: customisation
 
 **Emits:** Details about the page that is being switched to.
 
-**See:** [Page Changes](/support-center/custom-javascript#page-changes)
+**See:** [Page Changes](custom-javascript.md#page-changes)
 
 ### Page Loaded
 
@@ -365,4 +364,4 @@ This is only available for non-enterprise search currently.
 
 **Description:** Access current variables set in the documentation. Available after the project loads.
 
-**See:** [Using Project Variables in Scripts](/support-center/variables#using-project-variables-in-scripts)
+**See:** [Using Project Variables in Scripts](variables.md#using-project-variables-in-scripts)

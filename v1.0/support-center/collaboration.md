@@ -2,15 +2,14 @@
 type: page
 title: Collaboration
 listed: true
-slug: collaboration
 description: Learn how to collaborate efficiently with your teammates. Discover the different user roles and their permissions. Invite and remove teammates easily, and even transfer project ownership if needed.
 index_title: Collaboration
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
 
-Supercharged plan users can collaborate with their teammates on [reviewing](/support-center/comments) and writing documentation. Teammates can have different [roles](/support-center/collaboration#user-roles).
+Supercharged plan users can collaborate with their teammates on [reviewing](comments.md) and writing documentation. Teammates can have different [roles](collaboration.md#user-roles).
 
 ## User Roles
 
@@ -162,7 +161,7 @@ Create/edit API references drafts
 {% /row %}
 {% row %}
 {% cell %}
-Create [synced blocks](/support-center/synced-blocks)
+Create [synced blocks](synced-blocks.md)
 {% /cell %}
 {% cell %}
 ✅
@@ -281,7 +280,7 @@ Modify documentation, API references and versions settings
 {% /row %}
 {% row %}
 {% cell %}
-Edit/archive [synced blocks](/support-center/synced-blocks)
+Edit/archive [synced blocks](synced-blocks.md)
 {% /cell %}
 {% cell %}
 ✅
@@ -490,7 +489,7 @@ To remove a teammate, do the following:
 - Open Project Settings → **Team**.
 - Click the badge next to the user and select **Remove teammate**.
 
-If your organisation is managed (for Enterprise), check [Deprovisioning Users](/support-center/editor-single-sign-on--sso-#deprovisioning-users).
+If your organisation is managed (for Enterprise), check [Deprovisioning Users](editor-single-sign-on--sso-.md#deprovisioning-users).
 
 ## Changing Project Ownership
 
@@ -506,5 +505,5 @@ Once you transfer ownership, you cannot take it back unless if the new owner tra
 {% /callout %}
 
 {% callout title="Invoicing is not connected to ownership" %}
-If you have a supercharged plan, then the invoice by default would be sent to the e-mail address of the user who purchased the plan, not the owner. If you wish to modify the e-mail used for receiving invoices, check [Changing Payment/Billing Details](/support-center/supercharged-plans#changing-paymentbilling-details).
+If you have a supercharged plan, then the invoice by default would be sent to the e-mail address of the user who purchased the plan, not the owner. If you wish to modify the e-mail used for receiving invoices, check [Changing Payment/Billing Details](supercharged-plans.md#changing-paymentbilling-details).
 {% /callout %}

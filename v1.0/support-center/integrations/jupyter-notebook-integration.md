@@ -2,15 +2,14 @@
 type: page
 title: Jupyter Notebook
 listed: true
-slug: jupyter-notebook-integration
 description: 
 index_title: Jupyter Notebook
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
 
-To embed a Jupyter Notebook to a page, you can do so with [Custom HTML](/support-center/custom-html), or using [GitHub Code](/support-center/github-code) if the notebook is hosted on GitHub.
+To embed a Jupyter Notebook to a page, you can do so with [Custom HTML](../custom-html.md), or using [GitHub Code](../github-code.md) if the notebook is hosted on GitHub.
 
 ## How to Embed a Jupyter Notebook using Custom HTML?
 
@@ -28,7 +27,7 @@ os.system('jupyter nbconvert --to html yourNotebook.ipynb')
 
 2. An HTML version of your Jupyter Notebook would be generated in the workspace. Download the HTML file locally.
 3. Open the HTML file and copy its contents.
-4. Create a new [Custom HTML](/support-center/custom-html) block in the page where you want to embed a Jupyter Notebook.
+4. Create a new [Custom HTML](../custom-html.md) block in the page where you want to embed a Jupyter Notebook.
 5. Paste the HTML into it.
 
 ## Example

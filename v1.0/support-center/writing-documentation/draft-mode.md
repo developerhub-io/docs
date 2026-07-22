@@ -2,10 +2,9 @@
 type: page
 title: Draft Mode
 listed: true
-slug: draft-mode
 description: 
 index_title: Draft Mode
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -22,7 +21,7 @@ Unpublishing a page completely renders it inaccessible to readers. In contrast, 
 
 Each page could have three states:
 
-- [Unpublished](/support-center/unlisting) {% icon classes="fas fa-circle red-text" /%} : The page has never been published or was unpublished.
+- [Unpublished](unlisting.md) {% icon classes="fas fa-circle red-text" /%} : The page has never been published or was unpublished.
 - Listed, published.
 - Listed, in draft mode {% icon classes="far fa-file-alt" /%}.
 
@@ -58,4 +57,4 @@ Every draft is saved in the page history and is indicated as a draft version. To
 
 ## More
 
-Check out the [keyboard shortcuts](/support-center/keyboard-shortcuts) for saving and publishing faster.
+Check out the [keyboard shortcuts](../keyboard-shortcuts.md) for saving and publishing faster.

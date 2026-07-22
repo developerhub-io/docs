@@ -2,10 +2,9 @@
 type: page
 title: Custom Login
 listed: true
-slug: custom-login
 description: 
 index_title: Custom Login
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -13,7 +12,7 @@ tags:
 Custom login for readers on %product% is provided using JSON Web Tokens (JWT). By using JWT login:
 
 - You control who has access to your docs without having to share a global password/link.
-- You can [personalise](/support-center/personalised-docs) the docs to the logged in reader.
+- You can [personalise](../personalised-docs.md) the docs to the logged in reader.
 - You control when the access expires.
 
 ## How JWT Login works
@@ -21,7 +20,7 @@ Custom login for readers on %product% is provided using JSON Web Tokens (JWT). B
 When JWT login is enabled, the flow of login would be as such:
 
 1. The reader would either land on the docs site unauthenticated and be redirected to the login URL, or they start from your own website to get to the login URL.
-2. When they get to the login URL, your backend servers would sign a JWT token using an [API Key](/support-center/api-key) that has `access.write` permission, construct a URL containing the JWT token, and redirect the reader to it. The URL is the URL of your docs site.
+2. When they get to the login URL, your backend servers would sign a JWT token using an [API Key](../project-settings/api-key.md) that has `access.write` permission, construct a URL containing the JWT token, and redirect the reader to it. The URL is the URL of your docs site.
 3. When the reader tries to access the docs site unauthenticated with the JWT token in the URL, our backend servers will verify the token and create an access token with the expiry defined in the token. The reader can now access the docs site.
 4. When the reader access token expires, they no longer can access the content, and would be redirected again to the login URL where this process repeats.
 
@@ -35,14 +34,14 @@ To setup JWT login on %product%, follow these steps:
 
 1. Open Project Settings → **Access**.
 2. In the Access method card, select **JWT**.
-3. Provide a login URL, read more about [login URL](/support-center/private-docs#using-login-url) here.
+3. Provide a login URL, read more about [login URL](../private-docs.md#using-login-url) here.
 4. Click **Save changes** in the top menu.
 
 {% image url="https://uploads.developerhub.io/prod/02/wwvzkc8c0ouvdjwunip7tfd7tvwxjj21lplslq6yb29xafd92g510epvdjfq4rci.png" /%}
 
 ## Signing JWT
 
-To authorise and authenticate access to your docs site, you must sign a JWT token using an [API Key](/support-center/api-key) that has `access.write` permission. First, ensure that you have the API Key generated. The supported signing algorithms are HS256 and HS512.
+To authorise and authenticate access to your docs site, you must sign a JWT token using an [API Key](../project-settings/api-key.md) that has `access.write` permission. First, ensure that you have the API Key generated. The supported signing algorithms are HS256 and HS512.
 
 There are numerous libraries for most programming languages for signing JWT, see [jwt.io](https://jwt.io/) for details,
 
@@ -74,7 +73,7 @@ function getSignedDeveloperHubUrl() {
 Once the URL is generated, you may redirect your reader to the generated URL to provide them access to the docs.
 
 {% callout title="Variables and Conditional Content" %}
-The `vars` object in the JWT payload is used to evaluate [content audiences](/support-center/conditional-content) for conditional content. Variables are matched against audience conditions to determine which content is visible to each reader.
+The `vars` object in the JWT payload is used to evaluate [content audiences](../conditional-content.md) for conditional content. Variables are matched against audience conditions to determine which content is visible to each reader.
 {% /callout %}
 
 {% callout type="warning" title="Sign only in the backend" %}

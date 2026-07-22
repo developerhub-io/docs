@@ -2,10 +2,9 @@
 type: page
 title: MCP Server
 listed: true
-slug: mcp-server
 description: 
 index_title: MCP Server
-hidden: 
+hidden: false
 keywords: 
 tags: ai
 ---
@@ -25,7 +24,7 @@ The tools available under the MCP server are:
 The MCP server supports the Streamable HTTP transport.
 
 {% callout title="More tools?" %}
-If you need more tools, [contact us](/support-center/contact-us) with the details!
+If you need more tools, [contact us](../contact-us.md) with the details!
 {% /callout %}
 
 ## Enabling MCP Server
@@ -40,7 +39,7 @@ It will take up to 5 minutes for the change to occur. If `AI Tools` button is en
 
 ## Limitations
 
-MCP server is only available for public projects. [Contact us](/support-center/contact-us) if you'd like to add it for a private project.
+MCP server is only available for public projects. [Contact us](../contact-us.md) if you'd like to add it for a private project.
 
 ## Try out our MCP Server
 

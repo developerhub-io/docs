@@ -2,12 +2,11 @@
 type: page
 title: Example Index 1
 listed: true
-slug: example-index-1
 description: 
 index_title: Example Index 1
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
 
-This is an example index for [Index List](/support-center/index-list). Page has no use.
+This is an example index for [Index List](../index-list.md). Page has no use.

@@ -2,10 +2,9 @@
 type: page
 title: Keyboard Keys
 listed: true
-slug: keyboard-keys
 description: 
 index_title: Keyboard Keys
-hidden: 
+hidden: false
 keywords: 
 tags: inline-blocks
 ---
@@ -20,4 +19,4 @@ To add a keyboard key, start typing "/" and choose **Keyboard Key** from the inl
 
 In %product%, you can type {% key key="⌘" /%} + {% key key="B" /%} to make text bold. Once you click {% key key="↵" /%} then you'll be able to add a block.
 
-See [Keyboard Shortcuts](/support-center/keyboard-shortcuts) for more examples.
+See [Keyboard Shortcuts](keyboard-shortcuts.md) for more examples.

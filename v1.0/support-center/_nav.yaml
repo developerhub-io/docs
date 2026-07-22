@@ -1,0 +1,213 @@
+items:
+  - category: 'Start Here'
+    items:
+      - page: getting-started
+        items:
+          - getting-started/first-steps
+      - page: writing-documentation
+        items:
+          - writing-documentation/formatting-text
+          - writing-documentation/using-markdown
+          - writing-documentation/ai-agent
+          - writing-documentation/ai-writer
+          - writing-documentation/blocks
+          - writing-documentation/ordering-blocks
+          - writing-documentation/page-linking
+          - writing-documentation/draft-mode
+          - writing-documentation/unlisting-old
+          - writing-documentation/unlisting
+          - writing-documentation/hidden-pages
+      - project-structure
+      - page: structuring-documentation
+        items:
+          - structuring-documentation/managing-pages
+          - structuring-documentation/categories
+          - structuring-documentation/external-links
+  - category: Blocks
+    items:
+      - code-blocks
+      - images
+      - tables
+      - callouts
+      - videos
+      - cards
+      - accordions
+      - synced-blocks
+      - conditional-blocks
+      - custom-html
+      - tabs
+      - github-code
+      - page: index-list
+        items:
+          - index-list/example-index-1
+          - index-list/example-index-2
+      - separators
+  - category: 'Inline Blocks'
+    items:
+      - variables
+      - badges
+      - icons
+      - keyboard-keys
+      - link:
+          title: Glossary
+          url: /support-center/glossary
+      - inline-images
+  - category: Management
+    items:
+      - page: project-settings
+        items:
+          - project-settings/managing-projects
+          - project-settings/managing-versions
+          - project-settings/managing-documentation
+          - project-settings/managing-api-references
+          - project-settings/api-key
+          - project-settings/advanced-settings
+      - page: hosting
+        items:
+          - hosting/using-custom-domain
+          - hosting/configure-dns
+          - hosting/url-redirects
+          - hosting/server-headers
+      - page: private-docs
+        items:
+          - private-docs/custom-login
+          - private-docs/email-invite
+          - private-docs/reader-single-sign-on
+          - private-docs/logging-out-readers
+      - page: collaboration
+        items:
+          - collaboration/dashboard
+      - page: documentation-settings
+        items:
+          - documentation-settings/documentation-footer
+      - page: customising-visuals
+        items:
+          - customising-visuals/layout
+          - customising-visuals/top-navigation-bar
+          - customising-visuals/theme
+          - customising-visuals/code-theme
+          - customising-visuals/custom-css
+          - customising-visuals/custom-footer
+          - customising-visuals/ui-translation
+      - previewing-documentation
+      - publishing-documentation
+      - conditional-content
+      - editor-single-sign-on--sso-
+      - supercharged-plans
+      - quick-switcher
+      - account-settings
+  - category: References
+    items:
+      - page: api-references
+        items:
+          - api-references/code-generation
+          - api-references/api-reference-settings
+          - api-references/api-reference-faq
+          - api-references/openapi-extensions
+      - uploading-references
+      - edit-references
+      - try-it-out
+      - merge-api-definitions
+      - diff-api-revisions
+  - category: 'Import & Export'
+    items:
+      - page: importing-documentation
+        items:
+          - importing-documentation/external-sources
+          - importing-documentation/import-from-zendesk
+      - exporting-documentation
+      - pdf-export
+  - category: Features
+    items:
+      - page: landing-page
+        items:
+          - landing-page/custom-landing-page
+          - landing-page/mocking-default-landing-page
+      - page-history
+      - page: using-search
+        items:
+          - using-search/ai-search
+          - using-search/enterprise-search
+      - comments
+      - page: integrations
+        items:
+          - integrations/google-analytics
+          - integrations/intercom
+          - integrations/slack
+          - link:
+              title: Localize
+              url: /support-center/localisation
+          - integrations/jupyter-notebook-integration
+          - integrations/hubspot-integration
+          - integrations/zendesk-integration
+          - integrations/powr-integration
+          - integrations/graphs-charts
+          - integrations/latex
+          - integrations/graphql
+      - image-library
+      - custom-javascript
+      - seo
+      - referrals
+      - activity-log
+      - search-analytics
+      - feedback
+      - localisation
+      - personalised-docs
+      - templates
+      - link:
+          title: 'Content Reuse'
+          url: /support-center/synced-blocks
+      - glossary
+      - tags
+      - page: ai-features
+        items:
+          - link:
+              title: 'AI Agent'
+              url: /support-center/ai-agent
+          - ai-features/ai-commit-messages
+          - link:
+              title: 'AI Writer'
+              url: /support-center/ai-writer
+          - link:
+              title: 'AI Search'
+              url: /support-center/ai-search
+          - ai-features/ai-summarisation
+          - ai-features/llms-txt
+          - ai-features/ask-llm
+          - ai-features/mcp-server
+      - readability-metrics
+      - page: github-sync
+        items:
+          - github-sync/markdoc-format
+          - github-sync/write-markdoc-with-ai
+      - code-steps
+      - changelogs
+      - link:
+          title: 'Adaptive Content'
+          url: /support-center/conditional-content
+  - category: Developers
+    items:
+      - developer-tools
+      - css-customisations
+      - link:
+          title: 'Our APIs'
+          url: /api/ref
+  - category: Support
+    items:
+      - page: what-s-new
+        items:
+          - what-s-new/2024-updates
+          - what-s-new/2023-updates
+          - what-s-new/2022-updates
+          - what-s-new/2021-updates
+          - what-s-new/2020-updates
+          - what-s-new/2019-updates
+          - what-s-new/2018-updates
+      - link:
+          title: 'Product Updates'
+          url: /product-updates
+      - upcoming-features
+      - keyboard-shortcuts
+      - supported-browsers
+      - contact-us
+      - frequently-asked-questions--faq-

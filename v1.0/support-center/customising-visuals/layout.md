@@ -2,10 +2,9 @@
 type: page
 title: Layout
 listed: false
-slug: layout
 description: 
 index_title: Layout
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---

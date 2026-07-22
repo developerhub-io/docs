@@ -2,10 +2,9 @@
 type: page
 title: Comments
 listed: true
-slug: comments
 description: 
 index_title: Comments
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -43,7 +42,7 @@ Use **View options** in the right sidebar to control what you see:
 - **Show resolved comments**: toggles whether resolved comments are shown.
 - **Notifications**: set how you are notified about comment activity on the page (covered below).
 
-{% image url="asset:o7gbe0h8q4br" %}
+{% image url="../../assets/01f321175a7a6d5a95a7ab77930f7fa13165b175.png" %}
 View options: margin panel and notifications
 {% /image %}
 
@@ -77,7 +76,7 @@ Once you are done with a comment, you may resolve it to hide its details. Resolv
 
 Publishers and admins can resolve all comments at once.
 
-You may setup [Ask before Publishing](/support-center/advanced-settings#ask-before-publishing) if you wish to only publish if all comments are resolved.
+You may setup [Ask before Publishing](project-settings/advanced-settings.md#ask-before-publishing) if you wish to only publish if all comments are resolved.
 
 ## Notifications
 

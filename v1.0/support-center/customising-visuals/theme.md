@@ -2,10 +2,9 @@
 type: page
 title: Theme
 listed: true
-slug: theme
 description: 
 index_title: Theme
-hidden: 
+hidden: false
 keywords: 
 tags: customisation
 ---
@@ -26,7 +25,7 @@ To change the default theme for readers:
 - Click **Save changes** in the top menu.
 
 {% callout type="success" title="Code Theme" %}
-We suggest using the [light code theme](/support-center/code-theme) when using the light theme.
+We suggest using the [light code theme](code-theme.md) when using the light theme.
 {% /callout %}
 
 ## Show Theme Toggle
@@ -47,4 +46,4 @@ To show a theme toggle for readers:
 
 ## Modifying the theme
 
-To modify the theme, update [CSS Variables](/support-center/custom-css#css-variables) as needed, or add your own [Custom CSS](/support-center/custom-css). A global `.dark-mode` CSS selector is added on `document.body` when dark theme is applied.
+To modify the theme, update [CSS Variables](custom-css.md#css-variables) as needed, or add your own [Custom CSS](custom-css.md). A global `.dark-mode` CSS selector is added on `document.body` when dark theme is applied.

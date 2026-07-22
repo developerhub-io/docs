@@ -2,10 +2,9 @@
 type: page
 title: Search Analytics
 listed: true
-slug: search-analytics
 description: 
 index_title: Search Analytics
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -23,7 +22,7 @@ What is the value of documentation that lacks the essential information your rea
 
 ## What is in Search Analytics?
 
-We gather information about how your readers use the [lightning-fast search](/support-center/using-search), and we crunch the numbers for you. Here is what you can find here:
+We gather information about how your readers use the [lightning-fast search](using-search.md), and we crunch the numbers for you. Here is what you can find here:
 
 - The count of searches.
 - The count of search users.
@@ -39,7 +38,7 @@ You can view search analytics for the past month, 3 months or 6 months using the
 
 ## Where is Search Analytics?
 
-You can find your Search Analytics in your [Dashboard](/support-center/dashboard). When you are on the Dashboard, click on Analytics.
+You can find your Search Analytics in your [Dashboard](collaboration/dashboard.md). When you are on the Dashboard, click on Analytics.
 
 ## Troubleshooting Analytics
 

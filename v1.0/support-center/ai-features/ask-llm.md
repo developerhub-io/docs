@@ -2,20 +2,19 @@
 type: page
 title: AI Tools Button
 listed: true
-slug: ask-llm
 description: 
 index_title: AI Tools Button
-hidden: 
+hidden: false
 keywords: 
 tags: ai
 ---
 
 The **AI Tools** button appears next to a page title and opens a contextual menu with quick links to popular AI tools. With **AI Tools**, users can:
 
-- Summarize the page using the [assistant](/support-center/ai-search).
+- Summarize the page using the [assistant](../using-search/ai-search.md).
 - Copy the page Markdown.
 - Ask questions about the page content using ChatGPT or Claude.
-- Connect to Cursor or VS Code using the [MCP Server](/support-center/mcp-server).
+- Connect to Cursor or VS Code using the [MCP Server](mcp-server.md).
 
 ## Enabling the AI Tools button
 

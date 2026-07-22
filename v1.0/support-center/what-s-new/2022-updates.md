@@ -2,10 +2,9 @@
 type: page
 title: 2022 Updates
 listed: true
-slug: 2022-updates
 description: 
 index_title: 2022 Updates
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -51,7 +50,7 @@ tags:
 
 ### 9 Nov
 
-- {% badge text="New " type="success" /%} **API Editor**: We now have a visual [API Editor](/support-center/edit-references)!
+- {% badge text="New " type="success" /%} **API Editor**: We now have a visual [API Editor](../edit-references.md)!
 - {% badge text="Bug Fix" type="error" /%} **API Playground**: Responses for OAS2 weren't showing.
 
 ### 5 Nov
@@ -60,7 +59,7 @@ tags:
 
 ### 27 Oct
 
-- {% badge text="New" type="success" /%} **API Reference**: Basic authentication security scheme now shows username and password fields in the [API Playground](/support-center/try-it-out) for easier authentication.
+- {% badge text="New" type="success" /%} **API Reference**: Basic authentication security scheme now shows username and password fields in the [API Playground](../try-it-out.md) for easier authentication.
 - {% badge text="Improvement" /%} **API Reference**: Simplified how Python `requests`  JSON request body show.
 - {% badge text="Improvement" /%} **Sidebar**: You can now search for a project rather than having to go through the list.
 
@@ -72,8 +71,8 @@ tags:
 
 ### 18 Oct
 
-- {% badge text="New" type="success" /%} **GitHub Code**: Embed [code from GitHub](/support-center/github-code) repository right into %product%.
-- {% badge text="New" type="success" /%} **Index List**: Insert a list of [child pages](/support-center/index-list) dynamically into the page.
+- {% badge text="New" type="success" /%} **GitHub Code**: Embed [code from GitHub](../github-code.md) repository right into %product%.
+- {% badge text="New" type="success" /%} **Index List**: Insert a list of [child pages](../index-list.md) dynamically into the page.
 
 ### 12 Oct
 
@@ -96,7 +95,7 @@ tags:
 
 ### 13 Sep
 
-- {% badge text="New" type="success" /%} **Custom Login**: Ability to generate a [JWT](/support-center/custom-login) token in %product% for easy access.
+- {% badge text="New" type="success" /%} **Custom Login**: Ability to generate a [JWT](../private-docs/custom-login.md) token in %product% for easy access.
 
 ### 12 Sep
 
@@ -105,12 +104,12 @@ tags:
 
 ### 06 Sep
 
-- {% badge text="New" type="success" /%} **Security**: Ability for projects to be protected by [email invites](/support-center/email-invite).
+- {% badge text="New" type="success" /%} **Security**: Ability for projects to be protected by [email invites](../private-docs/email-invite.md).
 
 ### 04 Sep
 
-- {% badge text="New" type="success" /%} **API Reference**: [OAuth 2.0 Authentication](/support-center/try-it-out#oauth-20-authentication) is now possible in Try It Out API Playground.
-- {% badge text="New" type="success" /%} **API Reference**: Add support for [Custom Interceptors](/support-center/try-it-out#custom-interceptors).
+- {% badge text="New" type="success" /%} **API Reference**: [OAuth 2.0 Authentication](../try-it-out.md#oauth-20-authentication) is now possible in Try It Out API Playground.
+- {% badge text="New" type="success" /%} **API Reference**: Add support for [Custom Interceptors](../try-it-out.md#custom-interceptors).
 - {% badge text="Bug Fix " type="error" /%} **API Reference**: Fixed issue where description might get converted from markdown twice, causing tables to look wrong.
 
 ### 25 Aug
@@ -135,8 +134,8 @@ tags:
 
 ### 14 Aug
 
-- {% badge text="New" type="success" /%} **Tabs**: [Tab blocks](/support-center/tabs) are now available in beta.
-- {% badge text="New" type="success" /%} **Link Analysis**: In addition to showing broken links under page title, we also show unreachable links too. They are all accessible through [link analysis in Page Info](/support-center/page-linking#view-broken-links-in-a-page).
+- {% badge text="New" type="success" /%} **Tabs**: [Tab blocks](../tabs.md) are now available in beta.
+- {% badge text="New" type="success" /%} **Link Analysis**: In addition to showing broken links under page title, we also show unreachable links too. They are all accessible through [link analysis in Page Info](../writing-documentation/page-linking.md#view-broken-links-in-a-page).
 - {% badge text="Improvement" /%} **Editor**: Enhancement to how {% key key="Backspace" /%} key works in the editor, ensuring it doesn't delete accidentally more than intended.
 
 ### 8 Aug
@@ -145,7 +144,7 @@ tags:
 
 ### 7 Aug
 
-- {% badge text="New" type="success" /%} **API Reference**: Index can now be set to [collapsible](/support-center/api-reference-settings#allow-index-to-collapse).
+- {% badge text="New" type="success" /%} **API Reference**: Index can now be set to [collapsible](../api-references/api-reference-settings.md#allow-index-to-collapse).
 - {% badge text="Improvement" /%} **Editor**: Improved how the editor handles mixed bold/italic formatting, including overlapping formatting.
 
 ### 5 Aug
@@ -159,7 +158,7 @@ tags:
 
 ### 26 Jul
 
-- {% badge text="New" type="success" /%} **Server Headers**: Ability to add custom server [headers](/support-center/server-headers) for security purposes.
+- {% badge text="New" type="success" /%} **Server Headers**: Ability to add custom server [headers](../hosting/server-headers.md) for security purposes.
 
 ### 25 Jul
 
@@ -168,17 +167,17 @@ tags:
 
 ### 21 Jul
 
-- {% badge text="New" type="success" /%} **PDF Export**: [API References](/support-center/pdf-export) are now also exported into the PDF file.
+- {% badge text="New" type="success" /%} **PDF Export**: [API References](../pdf-export.md) are now also exported into the PDF file.
 
 ### 19 Jul
 
-- {% badge text="New" type="success" /%} **SEO**: Added [native option](/support-center/seo#more-custom-options) to disable search engine indexing of non-default version.
+- {% badge text="New" type="success" /%} **SEO**: Added [native option](../seo.md#more-custom-options) to disable search engine indexing of non-default version.
 - {% badge text="New" type="success" /%} **Import/Export**: API References are now exported and can be imported.
 - {% badge text="Improvement" /%} **Table**: Hitting {% key key="Tab" /%} at end of a table will create a new row.
 
 ### 15 Jul
 
-- {% badge text="New" type="success" /%} **Custom CSS**: Ability to test on [different frontend application version](/support-center/custom-css#testing-css).
+- {% badge text="New" type="success" /%} **Custom CSS**: Ability to test on [different frontend application version](../customising-visuals/custom-css.md#testing-css).
 - {% badge text="Change" type="warning" /%} **CSS**: Removed `.topnav-container` fixed height and `.mega-container` margin-top. No visual changes.
 - {% badge text="Improvement" /%} **Keyboard Shortcuts**: {% key key="⇧" /%} + {% key key="⌥" /%}  + {% key key="D" /%} opens the page in editor if you were on reader site, and the reader site if you were in the editor.
 
@@ -186,7 +185,7 @@ tags:
 
 {% badge text="cf0aac2" type="custom" /%}
 
-- {% badge text="New" type="success" /%} **URL Redirects**: Added support for [301 server-side URL redirects](/support-center/url-redirects).
+- {% badge text="New" type="success" /%} **URL Redirects**: Added support for [301 server-side URL redirects](../hosting/url-redirects.md).
 
 ### 13 Jul
 
@@ -200,7 +199,7 @@ tags:
 ### 11 Jul
 
 - {% badge text="Improvement" /%} **API Reference**: We've touched up the API References styles, and it's looking much better!
-- {% badge text="New" type="success" /%} **Custom CSS**: You can now [pin frontend application version](/support-center/custom-css#pinning-frontend-application-version) when you have heavy CSS changes so our modifications would not affect your readers site.
+- {% badge text="New" type="success" /%} **Custom CSS**: You can now [pin frontend application version](../customising-visuals/custom-css.md#pinning-frontend-application-version) when you have heavy CSS changes so our modifications would not affect your readers site.
 - {% badge text="Security" type="error" /%} **Hosting**: We now apply `X-Content-Type-Options: nosniff` header to all docs sites to protect against malicious files.
 - {% badge text="Change" type="warning" /%} **Editor**: We have tidied up the Project Settings menu.
 
@@ -220,20 +219,20 @@ tags:
 
 ### 24 Jun
 
-- {% badge text="New" type="success" /%} **Integrations**: We support Google Analytics 4 IDs for [Google Analytics](/support-center/google-analytics) now.
+- {% badge text="New" type="success" /%} **Integrations**: We support Google Analytics 4 IDs for [Google Analytics](../integrations/google-analytics.md) now.
 
 ### 23 Jun
 
-- {% badge text="Bug Fix" type="error" /%} **Integrations**: [Google Analytics](/support-center/google-analytics) integration might report an out-of-sync page title for a URL.
+- {% badge text="Bug Fix" type="error" /%} **Integrations**: [Google Analytics](../integrations/google-analytics.md) integration might report an out-of-sync page title for a URL.
 
 ### 20 Jun
 
-- {% badge text="New" type="success" /%} **Customisations**: Added draft mode to [Custom Landing Page](/support-center/custom-landing-page), [Custom HEAD Tags](/support-center/custom-javascript) and [Custom CSS](/support-center/custom-css) customisations so you can test it before publishing.
+- {% badge text="New" type="success" /%} **Customisations**: Added draft mode to [Custom Landing Page](../landing-page/custom-landing-page.md), [Custom HEAD Tags](../custom-javascript.md) and [Custom CSS](../customising-visuals/custom-css.md) customisations so you can test it before publishing.
 - {% badge text="New" type="success" /%} **UI Translation**: HTML lang attribute now changes according to the documentation locale.
 
 ### 15 Jun
 
-- {% badge text="New" type="success" /%} **Video**: Can embed [videos](/support-center/videos#supported-video-platforms) natively from Youtube, Vimeo, Loom and direct URL.
+- {% badge text="New" type="success" /%} **Video**: Can embed [videos](../videos.md#supported-video-platforms) natively from Youtube, Vimeo, Loom and direct URL.
 
 ### 11 Jun
 
@@ -248,21 +247,21 @@ tags:
 ### 05 Jun
 
 - {% badge text="New" type="success" /%} **API Reference**: Recognise UUID parameter format.
-- {% badge text="New" type="success" /%} **API Reference**: Automatic [API Playground](/support-center/try-it-out) headers and parameters validation. Enums show as options.
+- {% badge text="New" type="success" /%} **API Reference**: Automatic [API Playground](../try-it-out.md) headers and parameters validation. Enums show as options.
 
 ### 23 May
 
-- {% badge text="New" type="success" /%} **API Reference**: [API Playground](/support-center/try-it-out) is now available!
+- {% badge text="New" type="success" /%} **API Reference**: [API Playground](../try-it-out.md) is now available!
 
 ### 15 May
 
-- {% badge text="New" type="success" /%} **PDF Export**: Share a [permalink](/support-center/pdf-export#pdf-permalink) to allow readers to always download the latest PDF.
-- {% badge text="New" type="success" /%} **Custom HTML**: [Custom HTML](/support-center/custom-html) static contents are now searchable using the search box.
+- {% badge text="New" type="success" /%} **PDF Export**: Share a [permalink](../pdf-export.md#pdf-permalink) to allow readers to always download the latest PDF.
+- {% badge text="New" type="success" /%} **Custom HTML**: [Custom HTML](../custom-html.md) static contents are now searchable using the search box.
 - {% badge text="Bug Fix" type="error" /%} **Private Docs**: URL fragment was not preserved when private docs login showed.
 
 ### 12 May
 
-- {% badge text="New" type="success" /%} **Index**: Pages can now be [hidden](/support-center/hidden-pages) from index, but still accessible through URL or links.
+- {% badge text="New" type="success" /%} **Index**: Pages can now be [hidden](../writing-documentation/hidden-pages.md) from index, but still accessible through URL or links.
 - {% badge text="Change" type="warning" /%} **Unlisting**: Unlisting is now unpublishing. An unpublished page cannot be viewed by readers.
 - {% badge text="Change" type="warning" /%} **PDF Exports**: Any teammate can now download PDFs. Previously it was only publishers and admins.
 
@@ -318,7 +317,7 @@ tags:
 ### 06 Mar
 
 - {% badge text="New" type="success" /%} **API Reference**: Support for multiple security schemes for API or operation security.
-- {% badge text="New" type="success" /%} **Custom Login**: [Redirect to a URL](/support-center/custom-login#handling-jwt-login-error) on authentication error.
+- {% badge text="New" type="success" /%} **Custom Login**: [Redirect to a URL](../private-docs/custom-login.md#handling-jwt-login-error) on authentication error.
 
 ### 05 Mar
 
@@ -329,7 +328,7 @@ tags:
 ### 01 Mar
 
 - {% badge text="New" type="success" /%} **Teammates**: Admins can now change a teammate's name.
-- {% badge text="New" type="success" /%} **Teammates**: Owner can [transfer project ownership](/support-center/collaboration#changing-project-ownership) without needing to open a support ticket.
+- {% badge text="New" type="success" /%} **Teammates**: Owner can [transfer project ownership](../collaboration.md#changing-project-ownership) without needing to open a support ticket.
 
 ### 28 Feb
 
@@ -342,7 +341,7 @@ tags:
 
 ### 06 Feb
 
-- {% badge text="New" type="success" /%} **API Reference**: Option to show [accept header](/support-center/api-reference-settings#show-accept-header).
+- {% badge text="New" type="success" /%} **API Reference**: Option to show [accept header](../api-references/api-reference-settings.md#show-accept-header).
 - {% badge text="Bug Fix" type="error" /%} **API Reference**: Authentication header might not show if reference is set to expand tags.
 
 ### 31 Jan
@@ -366,7 +365,7 @@ tags:
 
 ### 17 Jan
 
-- {% badge text="New" type="success" /%} **Index**: [Rename index title](/support-center/managing-pages#renaming-page-index) without renaming the page.
+- {% badge text="New" type="success" /%} **Index**: [Rename index title](../structuring-documentation/managing-pages.md#renaming-page-index) without renaming the page.
 
 ### 12 Jan
 
@@ -383,5 +382,5 @@ tags:
 
 ### 04 Jan
 
-- {% badge text="New" type="success" /%} **Users**: Ability to [deprovision](/support-center/editor-single-sign-on--sso-#deprovisioning-users) teammates from a managed organisation.
+- {% badge text="New" type="success" /%} **Users**: Ability to [deprovision](../editor-single-sign-on--sso-.md#deprovisioning-users) teammates from a managed organisation.
 - {% badge text="New" type="success" /%} **Feedback**: Revamped how feedback inbox looks and page feedback. You now see all feedback without having to toggle between read and unread. Also, feedback without messages also show in the inbox. Moreover, you can click on the chart above feedback inbox to look at the feedback for that day.

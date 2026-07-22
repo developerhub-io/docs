@@ -2,10 +2,9 @@
 type: page
 title: Readability Metrics
 listed: true
-slug: readability-metrics
 description: 
 index_title: Readability Metrics
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -339,7 +338,7 @@ The six metrics provide a comprehensive view of text complexity. Their combined 
 
 Readability metrics are available from the right sidebar.
 
-{% image url="asset:f9lu4pqa4u0w" %}
+{% image url="../../assets/c570b3c1685d5453421c66ba9a82caed0c927686.png" %}
 The Readability panel
 {% /image %}
 

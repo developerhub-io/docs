@@ -2,10 +2,9 @@
 type: page
 title: Email Invite (Magic Links)
 listed: true
-slug: email-invite
 description: 
 index_title: Email Invite (Magic Links)
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -56,7 +55,7 @@ The reader will no longer be able to access the docs, or to request a magic link
 
 ## Email Invite Customisation
 
-If you would like to change the message that shows in red when a reader's email address is not registered, then please [contact us](/support-center/contact-us) with the exact message you would like to show. An example message would be:
+If you would like to change the message that shows in red when a reader's email address is not registered, then please [contact us](../contact-us.md) with the exact message you would like to show. An example message would be:
 
 "This e-mail address does not have an invitation. If you would like to get access, please email [elon@tesla.com](mailto:elon@tesla.com)"
 

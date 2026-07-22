@@ -2,10 +2,9 @@
 type: page
 title: Keyboard Shortcuts
 listed: true
-slug: keyboard-shortcuts
 description: 
 index_title: Keyboard Shortcuts
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -166,7 +165,7 @@ Remove formatting
 {% key key="Ctrl" /%} + {% key key="K" /%}
 {% /cell %}
 {% cell %}
-Open [quick switcher](/support-center/quick-switcher).
+Open [quick switcher](quick-switcher.md).
 
 Cycles between Find Page and Find Text in quick switcher.
 {% /cell %}

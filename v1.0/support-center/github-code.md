@@ -2,10 +2,9 @@
 type: page
 title: GitHub Code
 listed: true
-slug: github-code
 description: 
 index_title: GitHub Code
-hidden: 
+hidden: false
 keywords: 
 tags: blocks
 ---
@@ -27,7 +26,7 @@ The file selected will be rendered as:
 - Jupyter notebook if the file name ends in `.ipynb`.
 - Raw file otherwise.
 
-Embedding is powered by [https://emgithub.com/](https://emgithub.com/). You can change the code theme using [advanced settings](/support-center/advanced-settings) by modifying `code.githubTheme`.
+Embedding is powered by [https://emgithub.com/](https://emgithub.com/). You can change the code theme using [advanced settings](project-settings/advanced-settings.md) by modifying `code.githubTheme`.
 
 ## Example GitHub Code
 

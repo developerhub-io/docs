@@ -2,17 +2,16 @@
 type: page
 title: Image Library
 listed: true
-slug: image-library
 description: 
 index_title: Image Library
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
 
 Image Library lets you manage and reuse your uploaded images across pages, so you don’t have to upload the same file multiple times or update each usage individually.
 
-{% image url="asset:k00imentacu2" /%}
+{% image url="../../assets/49f9040c578cd25682d3dc5f7d27bf1e55425721.png" /%}
 
 ## What is Image Library?
 
@@ -30,7 +29,7 @@ Image Library lets you manage and reuse your uploaded images across pages, so yo
 
 ## How to use Image Library?
 
-When you create or replace an image in [image](/support-center/images)  or [inline image](/support-center/inline-images) blocks, the Image Library will be displayed. Within the Image Library, you can view all the images you have previously uploaded, search for an image by its name or ID, and select an existing image or upload a new one.
+When you create or replace an image in [image](images.md)  or [inline image](inline-images.md) blocks, the Image Library will be displayed. Within the Image Library, you can view all the images you have previously uploaded, search for an image by its name or ID, and select an existing image or upload a new one.
 
 By clicking on the menu {% icon classes="fas fa-ellipsis-v" /%}, you can:
 

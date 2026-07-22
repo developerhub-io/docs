@@ -2,10 +2,9 @@
 type: page
 title: POWr Integration
 listed: false
-slug: powr-integration
 description: 
 index_title: POWr Integration
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---

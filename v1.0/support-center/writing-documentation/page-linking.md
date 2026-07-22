@@ -2,10 +2,9 @@
 type: page
 title: Page Linking
 listed: true
-slug: page-linking
 description: 
 index_title: Page Linking
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -28,7 +27,7 @@ When a page is linked inside a version:
 
 To create a link between pages, type `@` to open the pages selector.
 
-{% image url="asset:wdg3e43i77vv" /%}
+{% image url="../../../assets/9fab2f8b4eb2913fdae1797d72cc26013c6aaa37.png" /%}
 
 A list of all pages under the version will be listed for you to choose from. Search through the list by typing down the page name or slug. To select a page, click on its name in the list. If you are selecting an API Reference, then you'll find the title of the API Reference.
 
@@ -42,7 +41,7 @@ External links in the editor show with a top-right pointing arrow so you can tel
 
 After selecting the page, you will be prompted to optionally link to a specific heading if you selected a page, or link to a specific operation if you selected an API reference.
 
-{% image url="asset:izhgztn8ajwh" /%}
+{% image url="../../../assets/eed5b973e247512d44a9f3af31ce616a2f1dd6a4.png" /%}
 
 If you want to jump to a certain heading in a page, you can specify it. Start typing to find a heading in the page you selected, or click on the arrow to view all. Leaving **Heading** empty will default to jumping to the title of the page. The same goes for API references, where you can select a specific operation to jump to.
 
@@ -83,7 +82,7 @@ You can analyse all links in a version at once by:
 - Select the version.
 - In the Lifecycle card, click **Check broken links**.
 
-{% image url="asset:xsxgwvgrfw4b" /%}
+{% image url="../../../assets/41212df03ac31b498327a43baa62d246b7aaec5f.jpeg" /%}
 
 ### View Broken Links in a Page
 
@@ -92,7 +91,7 @@ To view all the links analysis in a page, either click on the notification under
 - From the right sidebar, open **Page Info** {% icon classes="fas fa-info-circle" /%}.
 - Open the **Links** tab and review the broken links and issues under **Link issues**.
 
-{% image url="asset:6ounnwtpw5mk" %}
+{% image url="../../../assets/3638384f303b1419e52cd1627031883cf0831c13.png" %}
 Link issues in the Links tab
 {% /image %}
 
@@ -101,7 +100,7 @@ Every broken link will show you the title and the heading (if any) that it had b
 Under **Link issues**, click an issue to view the link it refers to.
 
 {% callout title="404 Page" %}
-Broken page links lead to [404 Page](/support-center/landing-page#404-page).
+Broken page links lead to [404 Page](../landing-page.md#404-page).
 {% /callout %}
 
 {% callout title="Only Internal Links" %}
@@ -110,7 +109,7 @@ Only internal links created by using Page Linking are examined for breaking. The
 
 ### Broken Links Email
 
-A bi-weekly email is sent to admins and publishers that lists all the broken links in the docs. An email is sent per project and a maximum of 3 emails is sent per user. The email subscription status can be changed from [Account Settings](/support-center/account-settings).
+A bi-weekly email is sent to admins and publishers that lists all the broken links in the docs. An email is sent per project and a maximum of 3 emails is sent per user. The email subscription status can be changed from [Account Settings](../account-settings.md).
 
 ## Listing Linked Pages (Backlinks)
 
@@ -120,7 +119,7 @@ If you are planning to delete a page, or modify the page heavily, then you might
 - Open the **Links** tab. Linked pages load automatically.
 - Any linked pages are listed under **Pages linked**.
 
-{% image url="asset:0qvxa6ixoxml" %}
+{% image url="../../../assets/8d14fb27b3ea9e3f1571ef923aed2299c0ecc75a.png" %}
 Pages linked in the Links tab
 {% /image %}
 

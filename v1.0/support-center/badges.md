@@ -2,10 +2,9 @@
 type: page
 title: Badges
 listed: true
-slug: badges
 description: 
 index_title: Badges
-hidden: 
+hidden: false
 keywords: 
 tags: inline-blocks
 ---
@@ -22,7 +21,7 @@ To add a badge, start typing "/" and choose **Badge** from the inline block list
 
 ## Advanced Configuration
 
-Custom badge could be modified through [Custom CSS](/support-center/custom-css) to be any colour you want, or even depending on the content it has:
+Custom badge could be modified through [Custom CSS](customising-visuals/custom-css.md) to be any colour you want, or even depending on the content it has:
 
 {% code %}
 ```css {% title="Custom CSS" %}

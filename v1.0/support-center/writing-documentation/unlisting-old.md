@@ -2,10 +2,9 @@
 type: page
 title: Unlisting
 listed: false
-slug: unlisting-old
 description: 
 index_title: Unlisting
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -38,7 +37,7 @@ To list the page back again:
 
 ## Hiding Page
 
-If you wish to hide a page from the index, but keep it available for readers if they access it through a URL or a [page link](/support-center/page-linking), then you can do so using [Custom CSS](/support-center/custom-css). Every item in the index has specific CSS classes that help you apply certain CSS rules to it. For example, to hide this page from the index, we can use:
+If you wish to hide a page from the index, but keep it available for readers if they access it through a URL or a [page link](page-linking.md), then you can do so using [Custom CSS](../customising-visuals/custom-css.md). Every item in the index has specific CSS classes that help you apply certain CSS rules to it. For example, to hide this page from the index, we can use:
 
 {% code %}
 ```css

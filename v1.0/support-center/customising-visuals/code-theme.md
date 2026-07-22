@@ -2,15 +2,14 @@
 type: page
 title: Code Theme
 listed: true
-slug: code-theme
 description: 
 index_title: Code Theme
-hidden: 
+hidden: false
 keywords: 
 tags: customisation
 ---
 
-Natively, %product% supports a light and dark theme for code blocks. We suggest using the light code theme when using [light theme](/support-center/theme) project wide.
+Natively, %product% supports a light and dark theme for code blocks. We suggest using the light code theme when using [light theme](theme.md) project wide.
 
 ## Setting Light/Dark Code Theme
 
@@ -29,12 +28,12 @@ To change the code theme between light and dark:
 </div>
 {% /html %}
 
-We use CodeMirror for rendering and formatting our [code blocks](/support-center/code-blocks), and CodeMirror provides heaps of themes for you to choose from. The list of themes is available [here](https://codemirror.net/demo/theme.html#default).
+We use CodeMirror for rendering and formatting our [code blocks](../code-blocks.md), and CodeMirror provides heaps of themes for you to choose from. The list of themes is available [here](https://codemirror.net/demo/theme.html#default).
 
-To change the code theme, you will need to import the theme stylesheet and also provide a [setting](/support-center/advanced-settings) that specifies which theme to use. This ensures that your selected theme is applied correctly within the application.
+To change the code theme, you will need to import the theme stylesheet and also provide a [setting](../project-settings/advanced-settings.md) that specifies which theme to use. This ensures that your selected theme is applied correctly within the application.
 
 - First, find a CDN providing the stylesheet of the theme for maximum performance. [cdnjs](https://cdnjs.com/libraries/codemirror) is an example.
-- Import the theme stylesheet by add such a style tag using [Custom HEAD Tags](/support-center/custom-javascript):
+- Import the theme stylesheet by add such a style tag using [Custom HEAD Tags](../custom-javascript.md):
 
 {% code %}
 ```css

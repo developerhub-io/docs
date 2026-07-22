@@ -2,15 +2,14 @@
 type: page
 title: Documentation Settings
 listed: true
-slug: documentation-settings
 description: 
 index_title: Documentation Settings
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
 
-Each documentation can have different settings. These settings affect their function. Documentation [publishing state](/support-center/managing-documentation#publishing-documentation) can also be controlled.
+Each documentation can have different settings. These settings affect their function. Documentation [publishing state](project-settings/managing-documentation.md#publishing-documentation) can also be controlled.
 
 {% callout type="warning" title="Deprecation (11 Dec 2023)" %}
 Minimal layout is no longer supported. Only wide layout is available. Also, index is always scrollable.
@@ -49,7 +48,7 @@ To change this behaviour and allow categories to be collapsed:
 - Check "Can categories collapse?"
 
 {% callout title="Manually Toggle Categories?" %}
-If you want the categories to be manually toggle-able, add a [HEAD tag](/support-center/custom-javascript) containing a script with `window.settings.categoryToggle = true`.
+If you want the categories to be manually toggle-able, add a [HEAD tag](custom-javascript.md) containing a script with `window.settings.categoryToggle = true`.
 {% /callout %}
 
 ## Show Page Last Updated

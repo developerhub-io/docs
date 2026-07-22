@@ -2,20 +2,19 @@
 type: page
 title: Private Documentation
 listed: true
-slug: private-docs
 description: 
 index_title: Private Documentation
-hidden: 
+hidden: false
 keywords: visitor auth, visitor authentication, guest authentication, guest auth
 tags: 
 ---
 
 Supercharged plans admins can set their documentation portal as private, disallowing everyone on the internet to be able to access it. The protected project can be viewed by:
 
-- Visiting the documentation site, and entering a [shared password](/support-center/private-docs#password-protect-set-up).
-- Opening a [shared link](/support-center/private-docs#link-sharing).
-- Invited readers through [magic links](/support-center/email-invite).
-- [Custom login](/support-center/custom-login) flow using JSON Web Tokens (JWT).
+- Visiting the documentation site, and entering a [shared password](private-docs.md#password-protect-set-up).
+- Opening a [shared link](private-docs.md#link-sharing).
+- Invited readers through [magic links](private-docs/email-invite.md).
+- [Custom login](private-docs/custom-login.md) flow using JSON Web Tokens (JWT).
 - Single-Sign On (SSO).
 
 If you are on an enterprise plan, then we also provide reader authentication through your intranet.
@@ -42,7 +41,7 @@ Usage
 {% /row %}
 {% row %}
 {% cell %}
-[Password](/support-center/private-docs#password-protect-set-up)
+[Password](private-docs.md#password-protect-set-up)
 {% /cell %}
 {% cell %}
 Weak. Your readers might leak the password.
@@ -59,7 +58,7 @@ Use to block out competitors and crawlers.
 {% /row %}
 {% row %}
 {% cell %}
-[Shared Link](/support-center/private-docs#link-sharing)
+[Shared Link](private-docs.md#link-sharing)
 {% /cell %}
 {% cell %}
 Weak. Your readers might leak the link.
@@ -76,7 +75,7 @@ Use to block out competitors and crawlers.
 {% /row %}
 {% row %}
 {% cell %}
-[Reader Magic Link](/support-center/email-invite)
+[Reader Magic Link](private-docs/email-invite.md)
 {% /cell %}
 {% cell %}
 Strong
@@ -93,7 +92,7 @@ Use to secure data and control access.
 {% /row %}
 {% row %}
 {% cell %}
-[Custom Login](/support-center/custom-login)
+[Custom Login](private-docs/custom-login.md)
 {% /cell %}
 {% cell %}
 Strong
@@ -105,12 +104,12 @@ Easy, reader needs to go to the docs site, but might need to log into your own s
 Yes
 {% /cell %}
 {% cell %}
-Use to secure data, control access and [personalise](/support-center/personalised-docs) docs.
+Use to secure data, control access and [personalise](personalised-docs.md) docs.
 {% /cell %}
 {% /row %}
 {% row %}
 {% cell %}
-[Single-Sign On (SSO)](/support-center/reader-single-sign-on)
+[Single-Sign On (SSO)](private-docs/reader-single-sign-on.md)
 {% /cell %}
 {% cell %}
 Strong
@@ -192,10 +191,10 @@ The link will be revoked once the password changes or is removed.
 
 ## Using Login URL
 
-If your docs are protected by using a [shared link](/support-center/private-docs#link-sharing) or a [custom login flow](/support-center/custom-login), then your readers probably need to authenticate with your own website first, and you need to provide them with a URL that allows them to authenticate on your docs. Thus, we can make this easier by redirecting your unauthenticated readers to a URL which you specify, where:
+If your docs are protected by using a [shared link](private-docs.md#link-sharing) or a [custom login flow](private-docs/custom-login.md), then your readers probably need to authenticate with your own website first, and you need to provide them with a URL that allows them to authenticate on your docs. Thus, we can make this easier by redirecting your unauthenticated readers to a URL which you specify, where:
 
 - If you are using secure link sharing, it would take them to the page where they can find the link, or the page that redirects them to the link if they're authenticated on your own website.
-- If you are using [custom login](/support-center/custom-login), it would take them to an authentication page which if they are already logged in to your own website, then it just redirects back with a valid URL to the docs site, otherwise would prompt them to log in first.
+- If you are using [custom login](private-docs/custom-login.md), it would take them to an authentication page which if they are already logged in to your own website, then it just redirects back with a valid URL to the docs site, otherwise would prompt them to log in first.
 
 To setup login URL:
 

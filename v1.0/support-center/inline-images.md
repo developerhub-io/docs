@@ -2,10 +2,9 @@
 type: page
 title: Inline Images
 listed: true
-slug: inline-images
 description: 
 index_title: Inline Images
-hidden: 
+hidden: false
 keywords: 
 tags: inline-blocks
 ---

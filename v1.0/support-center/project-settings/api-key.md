@@ -2,10 +2,9 @@
 type: page
 title: API Key
 listed: true
-slug: api-key
 description: 
 index_title: API Key
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -35,7 +34,7 @@ To create an API Key for a project:
 - If you already have a key, then you can click on Copy to copy it.
 - If not, then you can generate a new API Key.
 
-Each API Key can have different permissions. Consult the [auto$](/v1.0/api/ref) to know which permissions you need.
+Each API Key can have different permissions. Consult the [API](/v1.0/api/ref) to know which permissions you need.
 
 ### Upload Reference through API
 
