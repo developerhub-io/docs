@@ -616,6 +616,52 @@ paths:
               schema:
                 $ref: '#/components/schemas/TooManyRequests'
       deprecated: false
+  '/version/{id}/broken-links':
+    get:
+      tags:
+        - Version
+      summary: Get broken links report
+      description: >-
+        Lists every broken or risky link found across the version's pages, each with its issue
+        type, severity, and a human-readable explanation. Rate limit: 60 in 60 minutes.
+      operationId: get_version_broken_links
+      parameters:
+        - name: id
+          in: path
+          description: Version ID
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: OK
+          headers:
+            X-RateLimit-Limit:
+              $ref: '#/components/headers/X-RateLimit-Limit'
+            X-RateLimit-Remaining:
+              $ref: '#/components/headers/X-RateLimit-Remaining'
+            X-RateLimit-Reset:
+              $ref: '#/components/headers/X-RateLimit-Reset'
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/BrokenLink'
+                description: OK
+        '403':
+          description: Access denied
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AccessDenied'
+        '429':
+          description: Too many requests
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TooManyRequests'
+      deprecated: false
   '/version/{versionId}/reference':
     post:
       tags:
@@ -1741,6 +1787,127 @@ components:
           description: User name. Null if unknown
           example: Peter Griffin
       description: User attribution in a version report
+    BrokenLink:
+      title: Broken Link
+      required:
+        - severity
+        - issue
+        - message
+        - isDraft
+        - page
+        - link
+        - target
+      type: object
+      properties:
+        severity:
+          type: string
+          description: >-
+            Severity of the issue. `error` for links that will not resolve; `warning` for links
+            that may resolve to the wrong or to hidden content.
+          example: error
+          enum:
+            - error
+            - warning
+        issue:
+          type: string
+          description: >-
+            Machine-readable issue code. Currently one of: `broken_link` (points to a page or
+            reference that does not exist in this version), `app_link` (points to the DeveloperHub
+            app instead of your documentation), `same_slug` (another page in the same section shares
+            the slug, so the link may resolve to the wrong page), `linked_page_unlisted` (the linked
+            page is unlisted), `linked_page_in_unpublished_documentation` (the linked page is in an
+            unpublished documentation section), or `linked_page_in_unpublished_reference` (the linked
+            page is in an unpublished API reference). New codes may be added over time.
+          example: broken_link
+        message:
+          type: string
+          description: Human-readable explanation of the issue, suitable for display.
+          example: The link points to a page or reference that does not exist in this version.
+        isDraft:
+          type: boolean
+          description: True if the link was found in the page's unpublished draft content.
+          example: false
+        page:
+          type: object
+          description: The page whose content contains the offending link.
+          required:
+            - id
+            - title
+          properties:
+            id:
+              type: integer
+              description: Page ID
+              example: 86123
+            title:
+              type: string
+              description: Title of the page
+              example: Getting Started
+        link:
+          type: object
+          description: The offending link.
+          required:
+            - text
+            - href
+            - type
+            - fragment
+            - targetId
+          properties:
+            text:
+              type:
+                - string
+                - 'null'
+              description: The anchor text of the link. Null if the link had no text.
+              example: our login screen
+            href:
+              type:
+                - string
+                - 'null'
+              description: The link target as authored. Null when not applicable to the issue.
+              example: /getting-started
+            type:
+              type: string
+              description: 'What the link points at: an internal page, an API reference, or an external URL.'
+              example: page
+              enum:
+                - page
+                - ref
+                - external
+            fragment:
+              type:
+                - string
+                - 'null'
+              description: The heading anchor (URL fragment) the link points to. Null if there is none.
+              example: installation
+            targetId:
+              type:
+                - integer
+                - 'null'
+              description: >-
+                ID of the page or reference the link resolves to, when known. Null when no target
+                could be resolved.
+              example: 86444
+        target:
+          type: object
+          description: Details about the linked content, when the issue resolves one.
+          required:
+            - title
+            - section
+          properties:
+            title:
+              type:
+                - string
+                - 'null'
+              description: Title of the linked page. Null when the issue does not resolve a page.
+              example: Hidden Page
+            section:
+              type:
+                - string
+                - 'null'
+              description: >-
+                Name of the documentation section or API reference the linked page belongs to. Null
+                when not applicable.
+              example: Internal Docs
+      description: A broken or risky link found in a version's content
     Reference:
       title: Reference
       required:
