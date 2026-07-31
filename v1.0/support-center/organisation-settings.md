@@ -111,22 +111,26 @@ Keeps their project access for later
 {% /row %}
 {% row %}
 {% cell %}
-Blocks them from logging in
+Stops them signing in again
 {% /cell %}
 {% cell %}
 ✅
 {% /cell %}
 {% cell %}
-✅
+❌
 {% /cell %}
 {% /row %}
 {% /table %}
 
-For what deprovisioning removes, see [Deprovisioning Users](editor-single-sign-on--sso-.md#deprovisioning-users).
+Disabling is the only one of the two that keeps someone out. A disabled member is refused on every login route, including SSO.
 
-{% callout type="warning" title="Deprovisioning cannot be undone" %}
-Deprovisioning deletes the user account. If you only need to stop someone logging in, disable them instead.
+Deprovisioning deletes the account, but it does not stop the person signing in again. Deprovisioning is only available on organisations that use SSO, so the next time they authenticate through your identity provider they are treated as somebody new and an account is created for them. Where your SSO connection adds users to all projects by default, they regain access immediately.
+
+{% callout type="warning" title="Remove them from your identity provider first" %}
+Deprovisioning on its own does not end access for someone who can still authenticate with your IdP. Revoke their access in your IdP, then deprovision. To stop someone signing in without touching your IdP, disable them instead.
 {% /callout %}
+
+For what deprovisioning removes, see [Deprovisioning Users](editor-single-sign-on--sso-.md#deprovisioning-users). It cannot be undone.
 
 ## Statistics
 

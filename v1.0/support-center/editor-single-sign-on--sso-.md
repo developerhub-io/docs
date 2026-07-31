@@ -119,7 +119,11 @@ You can also deprovision from Organisation Settings → **Team**, which lists ev
 Once a user is deprovisioned, their own projects and user account are removed from our system - there's no turning back.
 {% /callout %}
 
-If you only need to stop someone logging in, [disable them](organisation-settings.md#disabling-a-member) instead. Disabling keeps their account and history, and can be undone.
+{% callout type="warning" title="Remove them from your identity provider first" %}
+Deprovisioning does not stop someone signing in again. If they can still authenticate with your IdP, their next login is treated as a new user and an account is created for them. Where the SSO connection adds users to all projects by default, they regain access immediately. Revoke their access in your IdP, then deprovision.
+{% /callout %}
+
+If you only need to stop someone logging in, [disable them](organisation-settings.md#disabling-a-member) instead. Disabling keeps their account and history, refuses them on every login route including SSO, and can be undone.
 
 ## Debugging SSO Issues
 
