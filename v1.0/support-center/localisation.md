@@ -58,6 +58,12 @@ For example, in your v1.0 version, you can have the following documentation sect
 
 We also provide the option for you to customise the UI text to better suit your needs. For detailed instructions, please refer to [UI translation](customising-visuals/ui-translation.md).
 
+## Browser translation
+
+Readers can also translate your published docs using their browser's built-in translation, such as Chrome's translate feature. This works out of the box and there is nothing to set up in %product%.
+
+Code is deliberately kept verbatim so that readers can still copy and run it.
+
 ## Which localisation method should I choose?
 
 It depends on the complexity of your docs and resources.
