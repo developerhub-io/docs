@@ -85,7 +85,7 @@ The attributes for Okta SSO must look as follows:
 - Add users to all projects by default: Specifies whether when a user logs in, they would have access to all the projects in the organisation, or if they would require an invitation for each project.
 - Email domain: (Optional) The organisation email domain (e.g. `tesla.com`). Used when new users are logging in using SSO.
 
-SSO settings can be viewed by organisation owners from the user menu → **Organisation settings** → **SSO**. SSO settings can be changed by [contacting us](/support-center/contact-us).
+SSO settings can be viewed by organisation owners from [Organisation Settings](/support-center/organisation-settings) → **SSO status**. SSO settings can be changed by [contacting us](/support-center/contact-us).
 
 ## Creating Users
 

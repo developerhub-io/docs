@@ -34,6 +34,12 @@ To customise CSS:
 
 The CSS will be applied immediately.
 
+## Organisation CSS
+
+If your projects belong to an organisation, the owner can maintain one stylesheet shared across them from [Organisation Settings](../organisation-settings.md#custom-css) → **Custom CSS**.
+
+A project does not inherit it automatically. To opt in, open Project Settings → **Customisation** and turn on **Use organisation CSS**. The organisation stylesheet is applied first and the project's own CSS after it, so a project rule wins over an organisation rule of equal specificity.
+
 ## Testing CSS
 
 You probably want to test your CSS changes before shipping them to your customers. To test CSS, click **Save draft** in the top menu while editing CSS. At this stage, the CSS will be applied immediately inside the editor. To check what your readers see, open the published docs in an incognito window of your browser.

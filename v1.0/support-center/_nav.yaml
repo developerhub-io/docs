@@ -96,6 +96,7 @@ items:
       - supercharged-plans
       - quick-switcher
       - account-settings
+      - organisation-settings
   - category: References
     items:
       - page: api-references

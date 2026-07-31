@@ -489,6 +489,12 @@ To remove a teammate, do the following:
 - Open Project Settings → **Team**.
 - Click the badge next to the user and select **Remove teammate**.
 
+This removes them from the project only.
+
+{% callout title="Organisations" %}
+If your projects are part of an organisation, the organisation owner can also **disable** a member from Organisation Settings → **Team**. Disabling blocks them from logging in to any project, but keeps their account and history, and can be undone. See [Organisation Settings](organisation-settings.md).
+{% /callout %}
+
 If your organisation is managed (for Enterprise), check [Deprovisioning Users](editor-single-sign-on--sso-.md#deprovisioning-users).
 
 ## Changing Project Ownership

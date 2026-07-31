@@ -80,7 +80,7 @@ The attributes for Okta SSO must look as follows:
 - Add users to all projects by default: Specifies whether when a user logs in, they would have access to all the projects in the organisation, or if they would require an invitation for each project.
 - Email domain: (Optional) The organisation email domain (e.g. `tesla.com`). Used when new users are logging in using SSO.
 
-SSO settings can be viewed by organisation owners from the user menu → **Organisation settings** → **SSO**. SSO settings can be changed by [contacting us](contact-us.md).
+SSO settings can be viewed by organisation owners from [Organisation Settings](organisation-settings.md) → **SSO status**. SSO settings can be changed by [contacting us](contact-us.md).
 
 ## Creating Users
 
@@ -113,9 +113,13 @@ To deprovision a user:
 - Click on the badge next to the user, and click **Deprovision from Organisation**.
 - Confirm your choice.
 
+You can also deprovision from Organisation Settings → **Team**, which lists everyone in the organisation rather than one project's teammates.
+
 {% callout type="warning" title="Action cannot be undone" %}
 Once a user is deprovisioned, their own projects and user account are removed from our system - there's no turning back.
 {% /callout %}
+
+If you only need to stop someone logging in, [disable them](organisation-settings.md#disabling-a-member) instead. Disabling keeps their account and history, and can be undone.
 
 ## Debugging SSO Issues
 
