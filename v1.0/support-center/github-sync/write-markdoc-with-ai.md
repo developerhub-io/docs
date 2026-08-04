@@ -37,13 +37,32 @@ The in-product editor already knows the format, so this skill is for agents work
 
 ## Installing the skill
 
-The quickest way is the [skills CLI](https://www.npmjs.com/package/skills), which adds the skill to your agent's skills directory:
+### Claude Code
+
+The repository doubles as a Claude Code plugin marketplace. This is the only install that keeps itself current as the format evolves:
+
+{% code %}
+```
+/plugin marketplace add developerhub-io/dh-skills
+/plugin install dh-skills@developerhub
+```
+{% /code %}
+
+The skills arrive namespaced, as `dh-skills:write-markdoc` and `dh-skills:organize-docs-repo`.
+
+Third-party marketplaces do not update themselves until you allow it, so turn that on once: run `/plugin`, open the **Marketplaces** tab, select **developerhub**, and choose **Enable auto-update**. Claude Code then refreshes the plugin in the background shortly after a session starts.
+
+### Cursor, Codex, and other agents
+
+Use the [`skills` CLI](https://www.npmjs.com/package/skills), which adds the skills to your agent's skills directory:
 
 {% code %}
 ```bash
 npx skills add developerhub-io/dh-skills
 ```
 {% /code %}
+
+This copies the files in, so run `npx skills update` when you want a newer release.
 
 Alternatively, copy the `skills/write-markdoc` and `skills/organize-docs-repo` folders from the repository into your agent's skills directory yourself (`.claude/skills/`, `.cursor/skills/`, and so on).
 

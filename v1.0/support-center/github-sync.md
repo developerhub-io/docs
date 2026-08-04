@@ -152,7 +152,18 @@ Two things differ from pages. Links in a post body use full site paths such as `
 
 ## Editing with AI Agents
 
-If you edit the repository with an AI coding agent (in your IDE or a docs-as-code pipeline), install the DeveloperHub [Agent Skills](github-sync/write-markdoc-with-ai.md) so it writes correct Markdoc and the correct repository structure:
+If you edit the repository with an AI coding agent (in your IDE or a docs-as-code pipeline), install the DeveloperHub [Agent Skills](github-sync/write-markdoc-with-ai.md) so it writes correct Markdoc and the correct repository structure.
+
+In Claude Code, install them as a plugin, which is the one channel that updates itself:
+
+{% code %}
+```
+/plugin marketplace add developerhub-io/dh-skills
+/plugin install dh-skills@developerhub
+```
+{% /code %}
+
+For Cursor, Codex, and other agents, use the `skills` CLI:
 
 {% code %}
 ```bash
