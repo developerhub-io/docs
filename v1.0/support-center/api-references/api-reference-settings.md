@@ -46,6 +46,14 @@ curl --request GET \
 ```
 {% /code %}
 
+## One Endpoint Per Page
+
+Unchecked by default, which stacks every endpoint on a single page. When checked, readers see one endpoint at a time instead. The API Reference opens on an overview of its title, description, servers and authentication, followed by each tag with its description and links to the endpoints under it. Choosing an endpoint, from either the index or the overview, gives it the page to itself.
+
+URLs are unchanged, so existing deep links, search results and any links you have shared still land on the same endpoint.
+
+While this is on, "Allow Tags to Expand" has no effect, since only one endpoint is ever on screen.
+
 ## Allow Tags to Expand
 
 If your API Reference is dense, loading thousands of items could be slow. To optimise for performance, you can check this option to allow tags to expand. By allowing tags to expand, you can load an API Reference of any size without performance hit.
