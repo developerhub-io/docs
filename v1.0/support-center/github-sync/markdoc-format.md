@@ -182,7 +182,7 @@ Great **success**!
 {% code %}
 ```markdown
 {% html %}
-SWISHHTMLBODY0
+<div class="promo">Custom widget</div>
 {% /html %}
 ```
 {% /code %}
