@@ -9,20 +9,118 @@ keywords:
 tags: 
 ---
 
-To import from Zendesk user guides, we have created an internal tool that will help you migrate from Zendesk to %product%.
+You can migrate a Zendesk help centre into %product% from the editor. %product% reads your help centre, converts every published article to [Markdoc](../github-sync/markdoc-format.md), and groups the result into one new documentation section.
+
+## Before You Start
+
+- You need the **Publisher** [role](../collaboration.md) or above.
+- Articles land in the version you currently have open, so switch to the version you want first.
+- The version must not be locked.
+- Your help centre must be reachable on the public internet.
 
 ## Importing from Zendesk
 
-To import from Zendesk, follow these steps:
+1. Open Project Settings → **Import \& Export**.
+2. Under **Migrate**, click **Migrate from Zendesk**.
+3. Complete the form, as described below.
+4. Click **Start migration**.
 
-1. [Contact us](../contact-us.md) and provide us with the domain that is currently hosting your Zendesk user guides.
-2. We will use our internal migration tool to make a %product%-compatible import. We will send this import file to you.
-3. [Import](../importing-documentation.md#import-a-markdoc-export) the file using the Markdoc format.
+### Zendesk URL
 
-## Notes about Zendesk Migration
+Paste any page from your help centre: an article, a category, or the help centre home page. %product% reads the address and the locale out of it, so both `support.example.com` and `support.example.com/hc/fr/articles/360001234-Getting-Started` work.
 
-Our internal migration tool is able to migrate articles from Zendesk into markdown format. This includes most content that is supported by Zendesk. The migration tool also would resolve all the links in the content so that all links are usable on %product%.
+### Locale
 
-Zendesk has a different article structure than ours. To simplify the migration process, we flatten out the hierarchy. After you import the content into %product%, you can re-structure the pages as needed.
+One locale is imported per run. If the address you pasted contains a locale, it is filled in for you. When your help centre publishes more than one locale, the field becomes a picker. To bring in a second locale, run the migration again.
 
-Furthermore, some features of Zendesk content is unsupported in %product%. We provide you with an errors file alongside the import file to indicate what issues have occurred during the migration so you can rectify as needed.
+### Section name
+
+The name of the new documentation section your articles are grouped into. It defaults to `Guide`.
+
+If the version already has a section with that name, %product% tells you, and adds a second one next to it rather than merging into it.
+
+### Private help centres
+
+Open **Advanced** and provide a Zendesk **Email** and **API token** if your help centre is not public, or if Zendesk is rate limiting it.
+
+{% callout title="Info" %}
+Signing in as an agent means Zendesk also returns draft articles. Drafts are skipped, so fewer pages are created than the preview counts.
+{% /callout %}
+
+## Previewing the Import
+
+As soon as your address is recognised, %product% checks the help centre and reports how many articles, categories and sections it found, and when it was last updated. Nothing is created at this stage.
+
+The preview also names the section and the version your articles will land in, so you can confirm the target before you start. If the help centre cannot be reached, is not public, or publishes nothing in the locale you asked for, the preview says so; correct it, then click **Check again**.
+
+## How Zendesk Content Maps
+
+{% table layout="auto" %}
+{% row %}
+{% cell header=true %}
+Zendesk
+{% /cell %}
+{% cell header=true %}
+%product%
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Help centre, in one locale
+{% /cell %}
+{% cell %}
+One new documentation section
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Category
+{% /cell %}
+{% cell %}
+A category in that section
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Section
+{% /cell %}
+{% cell %}
+A category nested under its category
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
+Article
+{% /cell %}
+{% cell %}
+A page
+{% /cell %}
+{% /row %}
+{% /table %}
+
+Ordering follows the positions you set in Zendesk. Articles belonging to a category or section that was not imported are placed under a category named `Uncategorized`, so nothing is dropped.
+
+Images are downloaded and re-hosted on our content delivery network, so they keep working once you turn Zendesk off. Links between imported articles are rewritten to point at their new %product% pages, including links to a specific heading.
+
+## After the Import
+
+{% callout type="warning" title="Publish the new section" %}
+Like any new documentation section, the imported section starts unpublished, so your readers cannot see it yet. Review the content, then [publish it](../project-settings/managing-documentation.md#publishing-documentation).
+{% /callout %}
+
+Worth checking before you publish:
+
+- **Warnings.** Any article that could not be converted, and any image that could not be re-hosted, is listed when the run finishes. Images that could not be re-hosted stay linked to Zendesk.
+- **Links to articles that were not imported.** Links to drafts, to other locales, and to deleted articles are left pointing at Zendesk.
+- **Page slugs.** Slugs are generated from article titles, and long ones are shortened, so your %product% URLs will not always match your old Zendesk URLs.
+- **Structure.** Zendesk nests content differently to %product%, so you may want to [restructure the pages](../structuring-documentation/managing-pages.md).
+
+## Stopping a Migration
+
+Click **Stop migration** while a run is in progress. The article being imported finishes, then the run stops.
+
+Pages that were already imported stay in the version. Pages that were created but never reached carry the placeholder text `This page hasn't been migrated yet.`, so delete them or run the migration again.
+
+{% callout title="Info" %}
+Migrations always add a new section. Existing versions, sections and pages are never overwritten. Running a migration twice gives you two copies rather than updating the first.
+{% /callout %}
