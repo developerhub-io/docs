@@ -25,6 +25,10 @@ You can migrate a Zendesk help centre into %product% from the editor. %product% 
 3. Complete the form, as described below.
 4. Click **Start migration**.
 
+{% image url="./zendesk-migrate-card.png" %}
+The Migrate card in Project Settings → Import \& Export
+{% /image %}
+
 ### Zendesk URL
 
 Paste any page from your help centre: an article, a category, or the help centre home page. %product% reads the address and the locale out of it, so both `support.example.com` and `support.example.com/hc/fr/articles/360001234-Getting-Started` work.
@@ -52,6 +56,10 @@ Signing in as an agent means Zendesk also returns draft articles. Drafts are ski
 As soon as your address is recognised, %product% checks the help centre and reports how many articles, categories and sections it found, and when it was last updated. Nothing is created at this stage.
 
 The preview also names the section and the version your articles will land in, so you can confirm the target before you start. If the help centre cannot be reached, is not public, or publishes nothing in the locale you asked for, the preview says so; correct it, then click **Check again**.
+
+{% image url="./zendesk-migration-modal.png" %}
+The preview reports what it found before anything is created
+{% /image %}
 
 ## How Zendesk Content Maps
 
