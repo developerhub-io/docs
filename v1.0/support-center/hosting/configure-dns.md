@@ -56,9 +56,11 @@ Ensure that your domain's CAA record does not deny `letsencrypt.org` to issue ce
 You can check it using [NS Lookup](https://www.nslookup.io/domains/developerhub.io/dns-records/caa/). It should either note that your domain does not have a CAA record, or it must list `letsencrypt.org`. Otherwise, we are unable to issue an SSL certificate to enable HTTPS.
 {% /callout %}
 
-## Can I use a root domain?
-
+{% accordion-group %}
+{% accordion title="Can I use a root domain?" %}
 While it might be technically possible to use a root domain such as `hooli.com` to serve your documentation, it might bring technical debt for you later on. DNS CNAME records do not play well with other DNS records such as `MX` for mail. This is a limitation of the DNS systems, not a %product% limitation.
+{% /accordion %}
+{% /accordion-group %}
 
 ## Need help configuring your DNS?
 

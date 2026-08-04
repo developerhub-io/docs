@@ -101,13 +101,15 @@ To change the font of the entire project:
 Changing font is only a paid plan feature
 {% /callout %}
 
-### Not using Google Fonts?
-
+{% accordion-group %}
+{% accordion title="Not using Google Fonts?" %}
 If you are not using Google Fonts, you can serve your own font to your documentation portal as described in our own blog post: [Using your own Custom Font](https://developerhub.io/blog/using-your-own-font/)
+{% /accordion %}
 
-### Font Weights Missing?
-
+{% accordion title="Font Weights Missing?" %}
 If the font you are using does not have all the font weights we expect, then you can change the actual font weight for an expected one. See [Font Weights](customising-visuals/custom-css.md#font-weights).
+{% /accordion %}
+{% /accordion-group %}
 
 ## Need More Customisation?
 

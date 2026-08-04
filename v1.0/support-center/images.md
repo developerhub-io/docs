@@ -55,10 +55,12 @@ The file size limit of an image is 10MB.
 
 ## FAQ
 
-### Why am I unable to upload an image?
-
+{% accordion-group %}
+{% accordion title="Why am I unable to upload an image?" %}
 There can be multiple reasons for why the image cannot be uploaded:
 
 - The image is larger than 10MB.
 - The file type is not supported. We fully support SVG, JPEG, PNG and GIFs. Other types might still be supported.
 - The image is invalid or has an unexpected format. Try to re-create the image, or to save it in another file type using your image viewer.
+{% /accordion %}
+{% /accordion-group %}
