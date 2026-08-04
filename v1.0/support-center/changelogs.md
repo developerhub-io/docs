@@ -35,6 +35,10 @@ To add a new post to the changelog, click on New Post. Each post has a label, a 
 
 You can also create and list changelog posts through the [API](/v1.0/api/ref). This is useful for publishing release notes automatically from your CI/CD pipeline.
 
+## Editing in a Synced Repository
+
+If your project uses [GitHub Sync](github-sync.md), your changelogs are mirrored to the repository under `changelogs/`, one folder per changelog and one file per post. You can write a release note there and review it through a pull request, and posts you write in the editor are committed back. See [Changelogs](github-sync.md#changelogs) for the file layout and frontmatter.
+
 ## RSS Feed
 
 Changelogs can be subscribed to through an RSS feed. This enables users to remain up-to-date with all the new posts.

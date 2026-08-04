@@ -22,7 +22,7 @@ The package is public and maintained by %product%: [github.com/developerhub-io/d
 The package ships two skills:
 
 - **`write-markdoc`** documents every %product% block and inline tag with its exact syntax, attributes, defaults, allowed values, and the round-trip rules that keep an edit lossless.
-- **`organize-docs-repo`** covers the repository layout: where each file goes, the navigation and settings files, images, and API references, and how to add, move, nest, group, reorder, or hide pages without breaking the sync.
+- **`organize-docs-repo`** covers the repository layout: where each file goes, the navigation and settings files, images, API references, and changelogs, and how to add, move, nest, group, reorder, or hide pages without breaking the sync.
 
 They use the portable Agent Skills format (Markdown with YAML frontmatter), so they work across Claude Code, Cursor, Codex, and other compatible agents.
 

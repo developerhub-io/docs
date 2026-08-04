@@ -67,6 +67,7 @@ All published pages are synced. Pages that are still in draft and have never bee
 - A version is created, its settings change, or it is deleted.
 - The navigation order or grouping changes.
 - An API reference is added or updated.
+- A changelog or one of its posts is created, edited, or deleted.
 - Project settings (the title and variables) change.
 
 Whenever a matching file is created or updated in the repository, the corresponding content or settings are updated in %product%.
@@ -87,6 +88,10 @@ From the base path, the repository is laid out like this:
 ├── developerhub.yaml              # project settings: title and variables
 ├── assets/                        # images the sync has stored, addressed by content
 │   └── 01f321...175.png
+├── changelogs/                    # changelogs, which belong to the project, not to a version
+│   └── product-updates/           # a changelog: the folder name is its path
+│       ├── _settings.yaml         # changelog settings
+│       └── 4-august-2026.md       # a post: filename (minus .md) is the slug
 └── v1.0/                          # a version: the folder name is the version slug
     ├── _settings.yaml             # version settings, plus doc and reference order
     ├── refs/                      # API reference specs
@@ -106,6 +111,7 @@ From the base path, the repository is laid out like this:
 - **`{version}/{documentation}/_settings.yaml`**: documentation settings.
 - **`{version}/{documentation}/_nav.yaml`**: the sidebar order, categories, labels, separators, and external links for that documentation.
 - **`{version}/refs/`**: API reference specs, one file per reference.
+- **`changelogs/`**: your [changelogs](changelogs.md), one folder per changelog and one file per post. Changelogs belong to the project rather than to a version, so this sits beside the version folders (see [Changelogs](github-sync.md#changelogs)).
 - **`assets/`**: images the sync has stored. In a page you can also reference an image by a relative path to a file you commit next to it.
 
 Page content is written in [Markdoc](github-sync/markdoc-format.md); settings and navigation are YAML.
@@ -113,6 +119,36 @@ Page content is written in [Markdoc](github-sync/markdoc-format.md); settings an
 {% callout title="Full repository rules" %}
 For the complete rules (how to add, move, nest, group, reorder, or hide pages, versions, and references; the exact settings keys; and the round-trip gotchas), use the `organize-docs-repo` [Agent Skill](github-sync/write-markdoc-with-ai.md), or read it on [GitHub](https://github.com/developerhub-io/dh-skills).
 {% /callout %}
+
+## Changelogs
+
+[Changelogs](changelogs.md) sync alongside your pages, so you can write a release note in the repository and open a pull request for it like any other change.
+
+Each changelog is a folder under `changelogs/`, named after its path (the segment readers see in its URL). Each post is a single file, and its filename without `.md` is the post's slug. A post's frontmatter carries three fields, followed by the body in [Markdoc](github-sync/markdoc-format.md):
+
+{% code %}
+```markup {% title="changelogs/product-updates/4-august-2026.md" %}
+---
+title: 4 August 2026
+date: 2026-08-04
+published: true
+---
+
+- {% badge type="success" text="New" /%} **Changelogs**: release notes now sync to your repository.
+```
+{% /code %}
+
+- **`title`**: the post title.
+- **`date`**: the date readers see and the one posts are sorted by. A plain date is enough; add a time (`2026-08-04 14:30:00`) to order several posts within the same day.
+- **`published`**: whether the post is live. Leave it out and the post stays unpublished, so pushing a file never puts a post live by accident.
+
+The changelog's own `_settings.yaml` takes `title`, `description`, and `published`. Its path is the folder name, so rename the folder to change it. A changelog with no posts is still valid; its `_settings.yaml` is what keeps it in the repository.
+
+{% callout title="Reserved folder name" %}
+`changelogs` at the base path is reserved, so a version cannot use it as a slug. If your project already syncs, your existing changelogs are committed to the repository on the next sync.
+{% /callout %}
+
+Two things differ from pages. Links in a post body use full site paths such as `/support-center/getting-started`, not the relative `.md` paths pages use. And posts have no draft state, so changelog files are not mirrored to a [draft branch](github-sync.md#draft-branch); edit them on your published branch.
 
 ## Editing with AI Agents
 
@@ -124,13 +160,13 @@ npx skills add developerhub-io/dh-skills
 ```
 {% /code %}
 
-The package ships two skills: `write-markdoc` for the [Markdoc](github-sync/markdoc-format.md) syntax inside a page, and `organize-docs-repo` for the repository layout (navigation, settings, images, and references). Together they keep an agent's edits lossless, so they sync back without churn or lost content.
+The package ships two skills: `write-markdoc` for the [Markdoc](github-sync/markdoc-format.md) syntax inside a page, and `organize-docs-repo` for the repository layout (navigation, settings, images, references, and changelogs). Together they keep an agent's edits lossless, so they sync back without churn or lost content.
 
 ## Pull Request Checks
 
 On repositories synced through the GitHub App, %product% checks every pull request whose base is your synced branch. The check is a read-only dry run of the sync: it reports what would happen and never writes anything.
 
-- Broken relative links or images, and invalid settings, navigation, or reference specs, **fail** the check.
+- Broken relative links or images, and invalid settings, navigation, reference specs, or changelog post frontmatter, **fail** the check.
 - Everything else is reported as a warning.
 
 Three things keep it green:
