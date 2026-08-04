@@ -35,6 +35,12 @@ To create a new version:
 When you clone a version, every documentation, API reference and page under the source version is copied to the new version.
 {% /callout %}
 
+## Cloning Through the API
+
+You can also clone a version through the [API](/v1.0/api/ref), which is useful for cutting a new version from a release pipeline. It copies the same content the editor does and leaves the new version unpublished, so you can review it before it goes live. The API key needs the `version.edit` permission.
+
+Publishing the clone is a separate call needing the `version.publish` permission. Everything inside a cloned version starts unpublished, so publish a documentation or an API reference in it first, otherwise publishing the version is refused.
+
 ## Publishing Versions
 
 Versions by default are not published. To publish (or unpublish):

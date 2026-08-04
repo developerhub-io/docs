@@ -520,6 +520,83 @@ paths:
               schema:
                 $ref: '#/components/schemas/TooManyRequests'
       deprecated: false
+  '/version/{id}/clone':
+    post:
+      tags:
+        - Version
+      summary: Clone a version
+      description: >-
+        Copies a version into a new one: every documentation and page (published
+        content and drafts), plus the version's API references, are duplicated and internal
+        links are re-pointed at the copies. The clone is created unpublished and becomes the
+        first version in the project; publish it with a follow-up version update. Rate limit:
+        60 in 60 minutes.
+      operationId: clone_version
+      parameters:
+        - name: id
+          in: path
+          description: ID of the version to clone
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - name
+              properties:
+                name:
+                  type: string
+                  description: Name of the new version
+                  example: v2.0
+                slug:
+                  type: string
+                  description: >-
+                    Slug in the URL. Derived from the name when omitted. Alphanumeric
+                    characters and dashes only.
+                  example: v2-0
+      responses:
+        '201':
+          description: Created
+          headers:
+            X-RateLimit-Limit:
+              $ref: '#/components/headers/X-RateLimit-Limit'
+            X-RateLimit-Remaining:
+              $ref: '#/components/headers/X-RateLimit-Remaining'
+            X-RateLimit-Reset:
+              $ref: '#/components/headers/X-RateLimit-Reset'
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Version'
+        '400':
+          description: General Exception
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '403':
+          description: Access denied
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AccessDenied'
+        '415':
+          description: Unsupported content-type
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UnsupportedContentType'
+        '429':
+          description: Too many requests
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TooManyRequests'
+      deprecated: false
   '/version/{id}/documentation':
     get:
       tags:
@@ -2432,7 +2509,7 @@ tags:
   - name: Documentation
     description: Operations for listing documentation sections.
   - name: Version
-    description: 'Operations for listing, updating, and reporting on project versions.'
+    description: 'Operations for listing, updating, cloning, and reporting on project versions.'
   - name: Reference
     description: 'Operations for adding, reading, and publishing API reference specifications.'
   - name: Project
