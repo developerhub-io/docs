@@ -175,7 +175,10 @@ items:
           - ai-features/ai-summarisation
           - ai-features/llms-txt
           - ai-features/ask-llm
-          - ai-features/mcp-server
+          - page: ai-features/mcp-server
+            items:
+              - ai-features/mcp-server/reader-mcp-server
+              - ai-features/mcp-server/editor-mcp-server
       - readability-metrics
       - page: github-sync
         items:

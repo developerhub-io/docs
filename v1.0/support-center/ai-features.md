@@ -19,7 +19,7 @@ The features are:
 - [AI Assistant](using-search/ai-search.md): Ask questions about the docs in natural language and receive GPT powered answers.
 - [AI Commit Messages](ai-features/ai-commit-messages.md): Automatically annotate page histories.
 - [AI SEO Helper](ai-features/ai-summarisation.md): Summarises pages to write a META description.
-- [MCP Server](ai-features/mcp-server.md): Connect AI applications with your docs.
+- [MCP Servers](ai-features/mcp-server.md): Connect AI applications with your docs, so readers can search them and editors can write them.
 - [Feedback Spam Filter](feedback.md#feedback-spam-filter): Filters spam in feedback messages automatically.
 - [Redact PII from Feedback](feedback.md#redact-pii-from-feedback): Redacts personal identifiable information from feedback messages automatically.
 

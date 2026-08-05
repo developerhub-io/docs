@@ -1,70 +1,25 @@
 ---
 type: page
-title: MCP Server
+title: MCP Servers
 listed: true
 description: 
-index_title: MCP Server
+index_title: MCP Servers
 hidden: false
 keywords: 
 tags: ai
 ---
 
-%product% now integrates with **MCP (Model Context Protocol)** servers, allowing AI agents to connect directly to your docs and perform contextual actions like intelligent search.
+%product% integrates with **MCP (Model Context Protocol)**, the standard that lets AI applications connect to an external system and use the tools it exposes. There are two MCP servers, and they serve different people.
 
-The MCP integration lets agents access your docs via a standardised protocol endpoint under the `/mcp`  route of your docs URL, for example: `https://docs.example.com/mcp`.
+{% cards %}
+{% card title="Reader MCP Server" text="Let readers search your published docs from their own AI client" link="mcp-server/reader-mcp-server.md" /%}
+{% card title="Editor MCP Server" text="Let your team write and publish your docs from an AI client" link="mcp-server/editor-mcp-server.md" /%}
+{% /cards %}
 
-When an MCP-compatible client or AI agent connects to this route, it can use the tools exposed by the MCP server to interact with your docs.
+## Which one you need
 
-## Tools Available
+The [Reader MCP Server](mcp-server/reader-mcp-server.md) runs on your documentation site, at the `/mcp` route of your docs URL. It is read-only and covers your published docs: an agent connected to it can search them and quote them back, which is what you want when your customers are building against your product with an AI assistant open.
 
-The tools available under the MCP server are:
+The [Editor MCP Server](mcp-server/editor-mcp-server.md) is for your own team. It connects an AI client to the editor, so an agent can find, write, publish and delete pages in your project. Each editor connects with their own %product% account and the agent acts as that person, so it reaches only the projects they can already edit.
 
-- `search`: Runs an AI search over your docs.
-
-The MCP server supports the Streamable HTTP transport.
-
-{% callout title="More tools?" %}
-If you need more tools, [contact us](../contact-us.md) with the details!
-{% /callout %}
-
-## Enabling MCP Server
-
-To enable the MCP server:
-
-- Open Project Settings → **AI Features**.
-- Check **Enable MCP Server**.
-- Click **Save changes** in the top menu.
-
-It will take up to 5 minutes for the change to occur. If `AI Tools` button is enabled, the readers would be able to connect to Cursor and VS Code using the MCP server through the dropdown.
-
-## Limitations
-
-MCP server is only available for public projects. [Contact us](../contact-us.md) if you'd like to add it for a private project.
-
-## Try out our MCP Server
-
-You can test out our own MCP server before enabling it on your docs. For a quick test, you can click the **AI Tools** button at the top of this page \> **Connect to Cursor**/**VS Code**. Alternatively, you can do it manually. Let's take Cursor as the MCP client for an example:
-
-- Launch **Cursor**.
-- Under **Settings** \> **Cursor Settings**.
-- Click on **Tools** in the sidebar.
-- Click **New MCP Server**.
-- In the file that was opened, enter the following:
-
-{% code %}
-```json
-{
-  "mcpServers": {
-    "DeveloperHub Docs": {
-      "url": "https://docs.developerhub.io/mcp"
-    }
-  }
-}
-```
-{% /code %}
-
-- Save the file.
-- Toggle the AI pane {% key key="⌘" /%} + {% key key="I" /%}.
-- Ask the agent a question like "Search DeveloperHub docs for how to add an image".
-
-{% image url="https://uploads.developerhub.io/prod/02/7z38mrq35ibpdzkkv3cxcjrehb3rlgqdl98qymu45brpn8y10wtgt4sbcdyqayyl.png" /%}
+Both are turned on per project under Project Settings → **AI Features**, and both use the Streamable HTTP transport.
