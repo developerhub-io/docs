@@ -63,27 +63,168 @@ The connection lasts as long as your %product% login does. After that your clien
 
 ## What an agent can do
 
-| Tool | What it does |
-| --- | --- |
-| `list_projects` | Lists the projects you can edit. Every other tool needs a project, so an agent starts here. |
-| `list_versions` | Lists a project's versions. |
-| `clone_version` | Copies a version, with its documentation and API references, into a new one. |
-| `list_documentation_sections` | Lists the documentation sections in a version. |
-| `list_api_references` | Lists the API references in a version. |
-| `list_pages` | Lists the pages in a version, optionally filtered by title or slug. |
-| `find_page_by_slug` | Resolves a page from its slug. |
-| `find_text` | Finds exact text across every page in a version, drafts included. |
-| `search_pages` | Runs a relevance search over the published pages in a version. |
-| `get_page` | Reads a page's editable body as Markdoc. |
-| `create_page` | Creates a page, optionally nested under an existing one. It starts unpublished. |
-| `edit_page` | Changes a page's body, title, slug, or any combination of the three. |
-| `publish_page` | Publishes a page's draft. |
-| `delete_page` | Permanently deletes a page. |
-| `edit_api_reference` | Replaces the draft OpenAPI spec of an [API reference](../../api-references.md). |
-| `check_broken_links` | Checks a single page, or a whole version, for [broken links](../../writing-documentation/page-linking.md#listing-broken-links). |
-| `get_markdoc_syntax` | Returns the Markdoc reference the agent writes against. |
-| `list_audiences` | Lists the project's audiences, for [adaptive content](../../conditional-content.md). |
-| `validate_markdoc` | Checks a body for content that would be silently dropped, without writing it. |
+{% table %}
+{% row %}
+{% cell header=true colwidth=[273] %}
+Tool
+{% /cell %}
+{% cell header=true %}
+What it does
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`list_projects`
+{% /cell %}
+{% cell %}
+Lists the projects you can edit. Every other tool needs a project, so an agent starts here.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`list_versions`
+{% /cell %}
+{% cell %}
+Lists a project's versions.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`clone_version`
+{% /cell %}
+{% cell %}
+Copies a version, with its documentation and API references, into a new one.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`list_documentation_sections`
+{% /cell %}
+{% cell %}
+Lists the documentation sections in a version.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`list_api_references`
+{% /cell %}
+{% cell %}
+Lists the API references in a version.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`list_pages`
+{% /cell %}
+{% cell %}
+Lists the pages in a version, optionally filtered by title or slug.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`find_page_by_slug`
+{% /cell %}
+{% cell %}
+Resolves a page from its slug.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`find_text`
+{% /cell %}
+{% cell %}
+Finds exact text across every page in a version, drafts included.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`search_pages`
+{% /cell %}
+{% cell %}
+Runs a relevance search over the published pages in a version.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`get_page`
+{% /cell %}
+{% cell %}
+Reads a page's editable body as Markdoc.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`create_page`
+{% /cell %}
+{% cell %}
+Creates a page, optionally nested under an existing one. It starts unpublished.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`edit_page`
+{% /cell %}
+{% cell %}
+Changes a page's body, title, slug, or any combination of the three.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`publish_page`
+{% /cell %}
+{% cell %}
+Publishes a page's draft.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`delete_page`
+{% /cell %}
+{% cell %}
+Permanently deletes a page.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`edit_api_reference`
+{% /cell %}
+{% cell %}
+Replaces the draft OpenAPI spec of an [API reference](../../api-references.md).
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`check_broken_links`
+{% /cell %}
+{% cell %}
+Checks a single page, or a whole version, for [broken links](../../writing-documentation/page-linking.md#listing-broken-links).
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`get_markdoc_syntax`
+{% /cell %}
+{% cell %}
+Returns the Markdoc reference the agent writes against.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`list_audiences`
+{% /cell %}
+{% cell %}
+Lists the project's audiences, for [adaptive content](../../conditional-content.md).
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`validate_markdoc`
+{% /cell %}
+{% cell %}
+Checks a body for content that would be silently dropped, without writing it.
+{% /cell %}
+{% /row %}
+{% /table %}
 
 ## Drafts, renames and deletions
 
