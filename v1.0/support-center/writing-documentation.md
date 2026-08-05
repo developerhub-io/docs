@@ -13,6 +13,15 @@ Writing documentation on %product% cannot be any easier. In your editor pages, c
 
 {% image url="../../assets/a4ee5d20d8356d9e2a15d522065de28186d599c9.png" /%}
 
+## Ways to write
+
+The editor is one of several ways to get content into your docs. They all write to the same pages, so your team can pick whichever suits them and mix them freely.
+
+- **In the editor.** Write in place in your browser, exactly as your readers will see it. That is what the rest of this page covers.
+- **[As code, in Git](github-sync.md).** Sync a GitHub repository two ways and write your pages as files, so a change can go through a pull request before it reaches your readers.
+- **[From an AI client](ai-features/mcp-server/editor-mcp-server.md).** Connect Claude, Cursor, or another MCP client to your project and let it find, write and publish pages for you.
+- **[With the AI Agent](writing-documentation/ai-agent.md).** Describe what you want in the editor's chat panel, then review the edits it suggests before applying them.
+
 ## Editing
 
 The editor works in place: what you see is what your readers get. Three things are worth knowing to get around quickly.
