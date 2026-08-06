@@ -109,7 +109,7 @@ From the base path, the repository is laid out like this:
 - **`developerhub.yaml`** (repository root): the project `title` and `variables`. Everything else at the root (your `README`, `LICENSE`, `.gitignore`, and so on) is left untouched.
 - **`{version}/_settings.yaml`**: version settings, plus the order of documentation sections and references.
 - **`{version}/{documentation}/_settings.yaml`**: documentation settings.
-- **`{version}/{documentation}/_nav.yaml`**: the sidebar order, categories, labels, separators, and external links for that documentation.
+- **`{version}/{documentation}/_nav.yaml`**: the sidebar order, categories, labels, separators, external links, and any [icons](structuring-documentation/index-icons.md) for that documentation.
 - **`{version}/refs/`**: API reference specs, one file per reference.
 - **`changelogs/`**: your [changelogs](changelogs.md), one folder per changelog and one file per post. Changelogs belong to the project rather than to a version, so this sits beside the version folders (see [Changelogs](github-sync.md#changelogs)).
 - **`assets/`**: images the sync has stored. In a page you can also reference an image by a relative path to a file you commit next to it.

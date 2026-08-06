@@ -23,6 +23,7 @@ items:
           - structuring-documentation/managing-pages
           - structuring-documentation/categories
           - structuring-documentation/external-links
+          - structuring-documentation/index-icons
   - category: Blocks
     items:
       - code-blocks

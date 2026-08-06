@@ -9,11 +9,13 @@ keywords:
 tags: inline-blocks
 ---
 
-Add Font Awesome icons to your pages. Font Awesome 5.15.4 free is loaded.
+Add Font Awesome icons to your pages. Font Awesome 7 Free is loaded, giving you the Solid, Regular, and Brands styles.
 
 ## How to add an Icon?
 
 To add an icon, start typing "/" and choose **Icon** from the inline blocks list.
+
+To put an icon next to an entry in your navigation index instead, see [Index Icons](structuring-documentation/index-icons.md).
 
 ## Icon Examples
 
