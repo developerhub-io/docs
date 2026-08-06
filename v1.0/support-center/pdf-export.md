@@ -18,6 +18,8 @@ tags:
 
 If your readers cannot access the documentation online, then you can provide them with a PDF export of the documentation.
 
+This page covers exporting a whole version. To export a single page as a PDF, see [Exporting a Page to PDF](exporting-documentation.md#exporting-a-page-to-pdf).
+
 {% image url="https://uploads.developerhub.io/prod/02/yhzfvuhxf6u64mvnb50m5va3jxlbraqdtoqf7vmk828xr77mqb0byw2g1ads6rck.png" /%}
 
 ## How to export to PDF?

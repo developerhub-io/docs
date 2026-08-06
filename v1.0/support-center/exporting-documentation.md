@@ -16,7 +16,7 @@ We provide project exports in two formats:
 - [Markdoc](exporting-documentation.md#markdoc): Use if you wish to re-import the data into %product% later with no data loss.
 - Markdown: Use for external purposes.
 
-You can export the whole project, a single [version](exporting-documentation.md#exporting-a-version), or an individual [page](exporting-documentation.md#exporting-a-page). A version can also be exported to [PDF](pdf-export.md).
+You can export the whole project, a single [version](exporting-documentation.md#exporting-a-version), or an individual [page](exporting-documentation.md#exporting-a-page). A whole version can be exported to [PDF](pdf-export.md), and a single page to [its own PDF](exporting-documentation.md#exporting-a-page-to-pdf).
 
 ## Markdoc
 
@@ -59,9 +59,25 @@ To export a page:
 
 - In the documentation index, select the page to be exported.
 - Click on Export {% icon classes="fas fa-upload" /%} under the title.
-- Choose the export format: Markdoc, Markdown or Word.
+- Choose the export format: Markdoc, Markdown, Word or PDF.
 
 If you plan to re-import the page into %product% later with no data loss, use [Markdoc format](github-sync/markdoc-format.md).
+
+### Exporting a Page to PDF
+
+A single-page PDF downloads as soon as it is ready, named after the page. It contains the page on its own: the title, the body, and a page number on each sheet so a printed hand-out collates. The navigation index, the table of contents, and the covers and banners of a [version PDF](pdf-export.md) are all left out. Tabs and accordions are laid out open, so nothing stays hidden inside a collapsed section.
+
+You get the draft you are looking at, the same as the other formats in the menu. [Conditional content](conditional-content.md) is resolved as an anonymous reader would see it, so blocks restricted to an audience are left out.
+
+Single-page PDF export needs the same plan as [PDF Export](pdf-export.md). Where it is not available, PDF does not appear in the export menu.
+
+## Printing a Page
+
+Any page can be printed straight from the browser with Ctrl+P (Cmd+P on a Mac), on your published documentation as well as in the editor. The printed copy keeps the page content and drops the interface around it: the navigation index, the table of contents, the top bar, and the copy button on code blocks. Pages always print on a light background, even when you or your reader is viewing in dark mode.
+
+{% callout type="warning" title="Code blocks when printing" %}
+Code blocks stay dark in both themes, and browsers leave background fills out of printed output by default. Tick **Background graphics** in your browser's print dialog to have them come out readable.
+{% /callout %}
 
 ## Exporting Images
 
