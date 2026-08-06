@@ -2,9 +2,11 @@ items:
   - category: 'Start Here'
     items:
       - page: getting-started
+        icon: rocket
         items:
           - getting-started/first-steps
       - page: writing-documentation
+        icon: pen-to-square
         items:
           - writing-documentation/formatting-text
           - writing-documentation/using-markdown
@@ -17,8 +19,10 @@ items:
           - writing-documentation/unlisting-old
           - writing-documentation/unlisting
           - writing-documentation/hidden-pages
-      - project-structure
+      - page: project-structure
+        icon: sitemap
       - page: structuring-documentation
+        icon: folder-tree
         items:
           - structuring-documentation/managing-pages
           - structuring-documentation/categories
@@ -26,36 +30,57 @@ items:
           - structuring-documentation/index-icons
   - category: Blocks
     items:
-      - code-blocks
-      - images
-      - tables
-      - callouts
-      - videos
-      - cards
-      - accordions
-      - synced-blocks
-      - conditional-blocks
-      - custom-html
-      - tabs
-      - github-code
+      - page: code-blocks
+        icon: code
+      - page: images
+        icon: image
+      - page: tables
+        icon: table
+      - page: callouts
+        icon: circle-info
+      - page: videos
+        icon: video
+      - page: cards
+        icon: address-card
+      - page: accordions
+        icon: layer-group
+      - page: synced-blocks
+        icon: recycle
+      - page: conditional-blocks
+        icon: code-branch
+      - page: custom-html
+        icon: file-code
+      - page: tabs
+        icon: window-restore
+      - page: github-code
+        icon: 'fab:github'
       - page: index-list
+        icon: list-ul
         items:
           - index-list/example-index-1
           - index-list/example-index-2
-      - separators
+      - page: separators
+        icon: grip-lines
   - category: 'Inline Blocks'
     items:
-      - variables
-      - badges
-      - icons
-      - keyboard-keys
+      - page: variables
+        icon: percent
+      - page: badges
+        icon: certificate
+      - page: icons
+        icon: icons
+      - page: keyboard-keys
+        icon: keyboard
       - link:
           title: Glossary
           url: /support-center/glossary
-      - inline-images
+        icon: book
+      - page: inline-images
+        icon: image-portrait
   - category: Management
     items:
       - page: project-settings
+        icon: gear
         items:
           - project-settings/managing-projects
           - project-settings/managing-versions
@@ -64,24 +89,29 @@ items:
           - project-settings/api-key
           - project-settings/advanced-settings
       - page: hosting
+        icon: server
         items:
           - hosting/using-custom-domain
           - hosting/configure-dns
           - hosting/url-redirects
           - hosting/server-headers
       - page: private-docs
+        icon: lock
         items:
           - private-docs/custom-login
           - private-docs/email-invite
           - private-docs/reader-single-sign-on
           - private-docs/logging-out-readers
       - page: collaboration
+        icon: users
         items:
           - collaboration/dashboard
       - page: documentation-settings
+        icon: sliders
         items:
           - documentation-settings/documentation-footer
       - page: customising-visuals
+        icon: palette
         items:
           - customising-visuals/layout
           - customising-visuals/top-navigation-bar
@@ -90,48 +120,70 @@ items:
           - customising-visuals/custom-css
           - customising-visuals/custom-footer
           - customising-visuals/ui-translation
-      - previewing-documentation
-      - publishing-documentation
-      - conditional-content
-      - editor-single-sign-on--sso-
-      - supercharged-plans
-      - quick-switcher
-      - account-settings
-      - organisation-settings
+      - page: previewing-documentation
+        icon: eye
+      - page: publishing-documentation
+        icon: cloud-arrow-up
+      - page: conditional-content
+        icon: filter
+      - page: editor-single-sign-on--sso-
+        icon: right-to-bracket
+      - page: supercharged-plans
+        icon: star
+      - page: quick-switcher
+        icon: right-left
+      - page: account-settings
+        icon: user-gear
+      - page: organisation-settings
+        icon: building
   - category: References
     items:
       - page: api-references
+        icon: book-open
         items:
           - api-references/code-generation
           - api-references/api-reference-settings
           - api-references/api-reference-faq
           - api-references/openapi-extensions
-      - uploading-references
-      - edit-references
-      - try-it-out
-      - merge-api-definitions
-      - diff-api-revisions
+      - page: uploading-references
+        icon: upload
+      - page: edit-references
+        icon: file-pen
+      - page: try-it-out
+        icon: circle-play
+      - page: merge-api-definitions
+        icon: code-merge
+      - page: diff-api-revisions
+        icon: code-compare
   - category: 'Import & Export'
     items:
       - page: importing-documentation
+        icon: file-import
         items:
           - importing-documentation/external-sources
           - importing-documentation/import-from-zendesk
-      - exporting-documentation
-      - pdf-export
+      - page: exporting-documentation
+        icon: file-export
+      - page: pdf-export
+        icon: file-pdf
   - category: Features
     items:
       - page: landing-page
+        icon: house
         items:
           - landing-page/custom-landing-page
           - landing-page/mocking-default-landing-page
-      - page-history
+      - page: page-history
+        icon: clock-rotate-left
       - page: using-search
+        icon: magnifying-glass
         items:
           - using-search/ai-search
           - using-search/enterprise-search
-      - comments
+      - page: comments
+        icon: comments
       - page: integrations
+        icon: puzzle-piece
         items:
           - integrations/google-analytics
           - integrations/intercom
@@ -146,22 +198,36 @@ items:
           - integrations/graphs-charts
           - integrations/latex
           - integrations/graphql
-      - image-library
-      - custom-javascript
-      - seo
-      - referrals
-      - activity-log
-      - search-analytics
-      - feedback
-      - localisation
-      - personalised-docs
-      - templates
+      - page: image-library
+        icon: images
+      - page: custom-javascript
+        icon: 'fab:js'
+      - page: seo
+        icon: magnifying-glass-chart
+      - page: referrals
+        icon: gift
+      - page: activity-log
+        icon: list-check
+      - page: search-analytics
+        icon: chart-line
+      - page: feedback
+        icon: thumbs-up
+      - page: localisation
+        icon: language
+      - page: personalised-docs
+        icon: user-tag
+      - page: templates
+        icon: clone
       - link:
           title: 'Content Reuse'
           url: /support-center/synced-blocks
-      - glossary
-      - tags
+        icon: recycle
+      - page: glossary
+        icon: book
+      - page: tags
+        icon: tags
       - page: ai-features
+        icon: wand-magic-sparkles
         items:
           - link:
               title: 'AI Agent'
@@ -180,26 +246,35 @@ items:
             items:
               - ai-features/mcp-server/reader-mcp-server
               - ai-features/mcp-server/editor-mcp-server
-      - readability-metrics
+      - page: readability-metrics
+        icon: gauge
       - page: github-sync
+        icon: arrows-rotate
         items:
           - github-sync/markdoc-format
           - github-sync/write-markdoc-with-ai
-      - code-steps
-      - changelogs
+      - page: code-steps
+        icon: list-ol
+      - page: changelogs
+        icon: bullhorn
       - link:
           title: 'Adaptive Content'
           url: /support-center/conditional-content
+        icon: filter
   - category: Developers
     items:
-      - developer-tools
-      - css-customisations
+      - page: developer-tools
+        icon: screwdriver-wrench
+      - page: css-customisations
+        icon: 'fab:css3-alt'
       - link:
           title: 'Our APIs'
           url: /api/ref
+        icon: plug
   - category: Support
     items:
       - page: what-s-new
+        icon: newspaper
         items:
           - what-s-new/2024-updates
           - what-s-new/2023-updates
@@ -211,8 +286,14 @@ items:
       - link:
           title: 'Product Updates'
           url: /product-updates
-      - upcoming-features
-      - keyboard-shortcuts
-      - supported-browsers
-      - contact-us
-      - frequently-asked-questions--faq-
+        icon: rss
+      - page: upcoming-features
+        icon: road
+      - page: keyboard-shortcuts
+        icon: bolt
+      - page: supported-browsers
+        icon: globe
+      - page: contact-us
+        icon: envelope
+      - page: frequently-asked-questions--faq-
+        icon: circle-question
