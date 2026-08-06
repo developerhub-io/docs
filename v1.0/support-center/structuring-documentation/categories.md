@@ -39,6 +39,12 @@ To rename a category:
 - Select Edit {% icon classes="fas fa-pencil-alt" /%}.
 - Give it a new title.
 
+## Moving Categories to Another Documentation
+
+A category moves exactly as [a page does](managing-pages.md#moving-page-to-another-documentation): click on the menu icon {% icon classes="fas fa-ellipsis-v" /%} next to it, then select Move {% icon classes="fas fa-file-import" /%} and pick the destination.
+
+Everything grouped under the category travels with it, keeping its order.
+
 ## Collapse Settings
 
 To make categories collapse, check [Collapsible Categories](../documentation-settings.md#collapsible-categories).

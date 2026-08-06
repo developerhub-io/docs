@@ -23,6 +23,18 @@ When a page is linked inside a version:
 - On cloning versions, the link will follow the page in the new version.
 - You will be notified if a link breaks because a page was deleted.
 
+## When a Page Moves or is Renamed
+
+Change a page's slug, rename a documentation, or [move a page](../structuring-documentation/managing-pages.md#moving-page-to-another-documentation) to another documentation, and every link to it is updated for you. Move a parent page and links to its subpages follow too.
+
+{% callout type="warning" title="The old URL does not redirect" %}
+This fixes the links inside your documentation. It does not leave a redirect behind, so anyone reaching the old URL from a bookmark, an external site, or a search result will land on your [404 page](../landing-page.md#404-page). Worth weighing before you change the slug of a page that already ranks.
+{% /callout %}
+
+{% callout title="Link pages, do not paste URLs" %}
+Only links made with page linking are updated. A full URL you paste in as an external link is left exactly as you wrote it, so it will break when that page moves.
+{% /callout %}
+
 ## How to Link Pages?
 
 To create a link between pages, type `@` to open the pages selector.
