@@ -106,13 +106,13 @@ From the base path, the repository is laid out like this:
 ```
 {% /code %}
 
-- **`developerhub.yaml`** (repository root): the project `title` and `variables`. Everything else at the root (your `README`, `LICENSE`, `.gitignore`, and so on) is left untouched.
-- **`{version}/_settings.yaml`**: version settings, plus the order of documentation sections and references.
-- **`{version}/{documentation}/_settings.yaml`**: documentation settings.
-- **`{version}/{documentation}/_nav.yaml`**: the sidebar order, categories, labels, separators, external links, and any [icons](structuring-documentation/index-icons.md) for that documentation.
-- **`{version}/refs/`**: API reference specs, one file per reference.
-- **`changelogs/`**: your [changelogs](changelogs.md), one folder per changelog and one file per post. Changelogs belong to the project rather than to a version, so this sits beside the version folders (see [Changelogs](github-sync.md#changelogs)).
-- **`assets/`**: images the sync has stored. In a page you can also reference an image by a relative path to a file you commit next to it.
+- **developerhub.yaml** (repository root): the project `title` and `variables`. Everything else at the root (your `README`, `LICENSE`, `.gitignore`, and so on) is left untouched.
+- **\{version\}/\_settings.yaml**: version settings, plus the order of documentation sections and references.
+- **\{version\}/\{documentation\}/\_settings.yaml**: documentation settings.
+- **\{version\}/\{documentation\}/\_nav.yaml**: the sidebar order, categories, labels, separators, external links, and any [icons](structuring-documentation/index-icons.md) for that documentation.
+- **\{version\}/refs/**: API reference specs, one file per reference.
+- **changelogs/**: your [changelogs](changelogs.md), one folder per changelog and one file per post. Changelogs belong to the project rather than to a version, so this sits beside the version folders (see [Changelogs](github-sync.md#changelogs)).
+- **assets/**: images the sync has stored. In a page you can also reference an image by a relative path to a file you commit next to it.
 
 Page content is written in [Markdoc](github-sync/markdoc-format.md); settings and navigation are YAML.
 
@@ -138,9 +138,9 @@ published: true
 ```
 {% /code %}
 
-- **`title`**: the post title.
-- **`date`**: the date readers see and the one posts are sorted by. A plain date is enough; add a time (`2026-08-04 14:30:00`) to order several posts within the same day.
-- **`published`**: whether the post is live. Leave it out and the post stays unpublished, so pushing a file never puts a post live by accident.
+- **title**: the post title.
+- **date**: the date readers see and the one posts are sorted by. A plain date is enough; add a time (`2026-08-04 14:30:00`) to order several posts within the same day.
+- **published**: whether the post is live. Leave it out and the post stays unpublished, so pushing a file never puts a post live by accident.
 
 The changelog's own `_settings.yaml` takes `title`, `description`, and `published`. Its path is the folder name, so rename the folder to change it. A changelog with no posts is still valid; its `_settings.yaml` is what keeps it in the repository.
 

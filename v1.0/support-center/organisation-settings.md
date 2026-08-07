@@ -2,10 +2,9 @@
 type: page
 title: Organisation Settings
 listed: true
-slug: organisation-settings
 description: Organisation Settings covers what applies across all of your projects: team members, usage statistics, organisation-wide CSS and SSO status.
 index_title: Organisation Settings
-hidden: 
+hidden: false
 keywords: 
 tags: 
 ---
@@ -68,6 +67,7 @@ Both actions are on the same menu, and they are very different:
 {% table layout="auto" %}
 {% row %}
 {% cell header=true %}
+{% p /%}
 {% /cell %}
 {% cell header=true %}
 Disable member
