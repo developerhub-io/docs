@@ -53,6 +53,8 @@ For Cursor, Codex, and other clients that take a configuration file:
 ```
 {% /code %}
 
+The same install steps are in your own [Account Settings](../../account-settings.md) → **Integrations** → **AI clients**.
+
 ### Signing in
 
 The first time a client connects, it opens a browser page asking you to **Allow access**. The page names the client that is asking, the account you are about to grant access as, and the address approving sends the authorisation to. Only continue if you started the connection yourself from a client you trust.
@@ -224,6 +226,30 @@ Lists the project's audiences, for [adaptive content](../../conditional-content.
 Checks a body for content that would be silently dropped, without writing it.
 {% /cell %}
 {% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`get_search_analytics`
+{% /cell %}
+{% cell %}
+Reads what readers [search for](../../search-analytics.md) in your published docs.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`get_project_feedback`
+{% /cell %}
+{% cell %}
+Reads the [feedback](../../feedback.md) across a project: the totals, the best and worst rated pages, and recent comments.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`get_page_feedback`
+{% /cell %}
+{% cell %}
+Reads the ratings and comments on a single page.
+{% /cell %}
+{% /row %}
 {% /table %}
 
 ## Drafts, renames and deletions
@@ -238,3 +264,9 @@ Body edits are written to the page's **draft**, so nothing an agent writes is vi
 Page bodies are [Markdoc](../../github-sync/markdoc-format.md) in %product%'s own dialect, which is not interchangeable with generic Markdoc. An agent writing from general knowledge produces something that saves but is wrong: custom blocks decay into literal text, and links with no text disappear.
 
 The server carries the answer with it. `get_markdoc_syntax` returns the dialect reference with a worked example of every block, and `validate_markdoc` reports what a body would lose before anything is written. When an agent edits your pages from a Git repository instead, the [Agent Skills](../../github-sync/write-markdoc-with-ai.md) teach it the same dialect.
+
+## Analytics and feedback
+
+Three tools read what your readers did rather than what your pages say, so you can ask an agent what to write next as well as ask it to write.
+
+`get_search_analytics` returns what readers [searched for](../../search-analytics.md), defaulting to the terms that found nothing, which is the quickest way to spot a topic you have not covered. `get_project_feedback` and `get_page_feedback` return the ratings and comments readers left, across a project or on one page. Ratings with no comment written on them are left out by default, since the totals already count them.

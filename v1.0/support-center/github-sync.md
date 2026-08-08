@@ -204,6 +204,18 @@ When an edit arrives from GitHub, the page's [edit history](page-history.md) rec
 
 The **Git Sync** pane also has a **Sync activity** feed showing recent reconcile runs: each run's direction (**DeveloperHub → Repo** or **Repo → DeveloperHub**), what changed (for example "3 pages" or "1 API reference"), its commit, and when it ran. A status chip at the top shows whether the project is **In sync**, has **Changes pending**, or has not synced yet.
 
+## When a Change Is Blocked
+
+If a change arriving from the repository would remove most of your documentation, %product% refuses it instead of applying it. Nothing is deleted and nothing is changed. The run appears in the **Sync activity** feed as **Change blocked, nothing was removed**, with the reason, and the status chip at the top of the pane reads **Sync paused**.
+
+A change is blocked when:
+
+- `developerhub.yaml` is missing from the repository root, or the repository holds no documentation at all. This usually means the branch or repository was pointed somewhere unintended, or the initial export was reverted.
+- The change would remove every version.
+- The change would remove most of your pages.
+
+Sync stays paused on that commit until the repository is put right, so a later push cannot slip past while the problem is still there. There is nothing to clear on the %product% side: push a fix to the synced branch and the next sync runs normally. If the removal really was intended, [contact support](contact-us.md) and we will let that specific commit through.
+
 ## Disconnecting GitHub Sync
 
 To stop syncing, open the **Git Sync** pane and use **Disconnect GitHub** (under Danger zone). Your repository files are left in place; only the connection is removed.
