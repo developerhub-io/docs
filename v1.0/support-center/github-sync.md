@@ -221,3 +221,9 @@ Sync stays paused on that commit until the repository is put right, so a later p
 To stop syncing, open the **Git Sync** pane and use **Disconnect GitHub** (under Danger zone). Your repository files are left in place; only the connection is removed.
 
 You can also remove the `DeveloperHub - Sync` application from your GitHub settings (under your personal or organisation GitHub application settings). Once it is removed, the connection is freed on %product%'s side automatically.
+
+{% accordion-group %}
+{% accordion title="Do you support GitLab?" %}
+Not at the moment. GitHub is the only Git provider we sync with today. If you need GitLab, please [contact us](contact-us.md) and let us know.
+{% /accordion %}
+{% /accordion-group %}

@@ -5,7 +5,7 @@ listed: true
 description: 
 index_title: Keyboard Shortcuts
 hidden: false
-keywords: 
+keywords: hotkey
 tags: 
 ---
 

@@ -73,7 +73,7 @@ Yes, we support [content reuse](synced-blocks.md) and [templates](templates.md).
 {% /accordion %}
 
 {% accordion title="Do you support file uploads/attachments?" %}
-We have native support for [images](images.md) uploads. For videos, you may upload a video to YouTube and show it using a [video block](videos.md). Alternatively, you can embed a video from any other service using [custom HTML block](custom-html.md). For other file uploads, you would need to upload the file to a hosting provider (such as your own S3 bucket), and then you may add a link in your documentation page or even create a [nice download button](custom-html.md#fancy-button) for it.
+We have native support for [image](images.md) and [video](videos.md) uploads. Video uploads have a maximum file size of 10MB; for anything larger, upload the video to YouTube (or any other provider) and show it using a [video block](videos.md), or embed it using a [custom HTML block](custom-html.md). For other file uploads, you would need to upload the file to a hosting provider (such as your own S3 bucket), and then you may add a link in your documentation page or even create a [nice download button](custom-html.md#fancy-button) for it.
 {% /accordion %}
 
 {% accordion title="Can we sync the docs with a GIT repo?" %}
@@ -90,6 +90,10 @@ Yes, check [AI Assistant](using-search/ai-search.md).
 
 {% accordion title="Do you support AsyncAPI references?" %}
 Not at the moment. If you'd like to work with us on an implementation, please [contact us](contact-us.md).
+{% /accordion %}
+
+{% accordion title="Are there public examples of documentation built with %product%?" %}
+Yes, see the [customers section on our pricing page](https://developerhub.io/pricing#customers) for a selection of live documentation portals built with %product%.
 {% /accordion %}
 {% /accordion-group %}
 
