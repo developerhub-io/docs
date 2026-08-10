@@ -33,11 +33,16 @@ The activity log is scoped as such:
 - Users
 - Security
 - Hosting
+- Plan
 - Other
 
 Admins are able to see all all logged activity. Users with other roles would only see logged activity that are concerned with content.
 
 On the dashboard, the last 100 logs will show.
+
+## Across a Whole Organisation
+
+If your projects are grouped under an [organisation](organisation-settings.md), the organisation owner can read the activity of every project the organisation owns in one place, with search, project and scope filters, and paging. See [Activity log](organisation-settings.md#activity-log).
 
 ### Enterprise Auditing
 

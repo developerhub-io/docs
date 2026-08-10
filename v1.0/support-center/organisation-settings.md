@@ -25,6 +25,7 @@ Organisation Settings is organised into groups. Each group contains panes:
 
 - **People**: [Team](organisation-settings.md#team). Everyone in the organisation, and whether they can sign in.
 - **Usage**: [Statistics](organisation-settings.md#statistics). User and project counts over the last three months.
+- **Audit**: [Activity log](organisation-settings.md#activity-log). Every audited action across the projects your organisation owns.
 - **Customisation**: [Custom CSS](organisation-settings.md#custom-css). One stylesheet shared across projects that opt in.
 - **Single Sign-On**: [SSO status](organisation-settings.md#sso-status). A read-only summary of your SSO configuration.
 
@@ -140,6 +141,24 @@ Organisation Settings → **Statistics** charts how your organisation has grown 
 - **Projects**: the number of projects in the organisation.
 
 The charts are built from weekly snapshots, so a change you make today appears in the next snapshot rather than straight away.
+
+## Activity log
+
+Organisation Settings → **Activity log** gathers the [activity log](activity-log.md) of every project your organisation owns into one searchable trail. Where a project's own activity log answers "what happened in this project", this one answers "what happened anywhere in the organisation, and who did it".
+
+Only the organisation owner can read it. It spans projects the owner may not administer individually, which is why it is not open to the admins of a single project.
+
+Each entry shows what happened, the person or API key behind it, the project, the time, and the IP address the request came from.
+
+To narrow the list:
+
+- **Search** by user, project, action, or IP address.
+- **Filter by project** using the project dropdown, or leave it on **All projects**. Projects that have since been deleted are still listed, marked as deleted.
+- **Choose a scope** from the tabs across the top: **All**, **Content**, **Users**, **Security**, **Hosting**, **Plan**, and **Other**. Each tab carries a count of the entries it holds.
+
+Use **Clear** to drop all of the filters at once. Entries are paged 25 at a time.
+
+Entries survive the thing they describe. Deleting a project does not remove its history from this log, so the trail stays complete.
 
 ## Custom CSS
 
