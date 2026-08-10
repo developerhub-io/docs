@@ -68,7 +68,8 @@ All published pages are synced. Pages that are still in draft and have never bee
 - The navigation order or grouping changes.
 - An API reference is added or updated.
 - A changelog or one of its posts is created, edited, or deleted.
-- Project settings (the title and variables) change.
+- A synced block is created, edited, or archived.
+- Project settings change, including the title, variables, and your reader customisation.
 
 Whenever a matching file is created or updated in the repository, the corresponding content or settings are updated in %product%.
 
@@ -85,7 +86,14 @@ From the base path, the repository is laid out like this:
 {% code %}
 ```none
 .
-├── developerhub.yaml              # project settings: title and variables
+├── developerhub.yaml              # project settings: title, variables, theme, and navigation
+├── _theme/                        # reader customisation: stylesheet, HTML, logo, favicon
+│   ├── custom.css
+│   ├── head.html
+│   ├── footer.html
+│   └── logo.png
+├── _synced-blocks/                # synced blocks, one file per block
+│   └── beta-feature.md            # the filename (minus .md) is the block's ID
 ├── assets/                        # images the sync has stored, addressed by content
 │   └── 01f321...175.png
 ├── changelogs/                    # changelogs, which belong to the project, not to a version
@@ -106,7 +114,9 @@ From the base path, the repository is laid out like this:
 ```
 {% /code %}
 
-- **developerhub.yaml** (repository root): the project `title` and `variables`. Everything else at the root (your `README`, `LICENSE`, `.gitignore`, and so on) is left untouched.
+- **developerhub.yaml** (repository root): the project `title` and `variables`, plus the `settings` and `navigation` blocks that hold your [reader customisation](github-sync.md#reader-customisation). Everything else at the root (your `README`, `LICENSE`, `.gitignore`, and so on) is left untouched.
+- **\_theme/**: the files behind your reader customisation, namely your stylesheet, custom HTML, logo, and favicon (see [Reader Customisation](github-sync.md#reader-customisation)).
+- **\_synced-blocks/**: your [synced blocks](synced-blocks.md), one file per block (see [Synced Blocks](github-sync.md#synced-blocks)).
 - **\{version\}/\_settings.yaml**: version settings, plus the order of documentation sections and references.
 - **\{version\}/\{documentation\}/\_settings.yaml**: documentation settings.
 - **\{version\}/\{documentation\}/\_nav.yaml**: the sidebar order, categories, labels, separators, external links, and any [icons](structuring-documentation/index-icons.md) for that documentation.
@@ -149,6 +159,79 @@ The changelog's own `_settings.yaml` takes `title`, `description`, and `publishe
 {% /callout %}
 
 Two things differ from pages. Links in a post body use full site paths such as `/support-center/getting-started`, not the relative `.md` paths pages use. And posts have no draft state, so changelog files are not mirrored to a [draft branch](github-sync.md#draft-branch); edit them on your published branch.
+
+## Synced Blocks
+
+[Synced blocks](synced-blocks.md) live in `_synced-blocks/`, one file per block, in a flat folder. The filename without `.md` is the block's ID, which is the same ID you use in a page, so `_synced-blocks/beta-feature.md` is the block you embed as `{% synced id="beta-feature" /%}`.
+
+The frontmatter carries the title, followed by the block's contents in [Markdoc](github-sync/markdoc-format.md):
+
+{% code %}
+```markup {% title="_synced-blocks/beta-feature.md" %}
+---
+title: Beta feature notice
+---
+
+{% callout type="warning" title="Beta" %}
+This feature is in beta, so it may change.
+{% /callout %}
+```
+{% /code %}
+
+A block ID must start with a lowercase letter and use only lowercase letters, numbers, and hyphens. Because the ID is the filename, and a block's ID cannot change once it exists, renaming the file is read as deleting one block and creating another rather than as a rename.
+
+Synced blocks have no draft state, so a block you push is live at once on every page that uses it.
+
+{% callout type="warning" title="Deleting a block file archives it" %}
+Deleting a file from `_synced-blocks/` archives the block rather than removing it, exactly as [archiving](synced-blocks.md) does in the editor. Pages that embed it keep rendering it; it simply stops being offered when your teammates pick a block to reuse.
+{% /callout %}
+
+## Reader Customisation
+
+How your published docs look is synced too, split across two places by whether it is a file or a value.
+
+The free-text files and images live in `_theme/`:
+
+- **\_theme/custom.css**: your [custom CSS](customising-visuals/custom-css.md).
+- **\_theme/head.html**: your [custom HTML](custom-html.md) for the page head.
+- **\_theme/footer.html**: your [custom footer](customising-visuals/custom-footer.md).
+- **\_theme/logo.png** and **\_theme/favicon.png**: your logo and favicon, committed as real image files. Any common image extension works, so `logo.svg` is matched just as `logo.png` is.
+
+A file that is absent means "use the default", so a project on the default logo has no `logo` file at all. Deleting one of these files clears that customisation, which is worth knowing because deletes elsewhere in the sync are only ever reported.
+
+The settings that are values rather than files live in `developerhub.yaml`, under two blocks:
+
+{% code %}
+```yaml {% title="developerhub.yaml" %}
+title: Acme Docs
+variables:
+  API_URL: 'https://api.acme.dev'
+settings:
+  darkMode: true
+  showThemeToggle: true
+  mainColour: '5368e7'
+  fontFamily: Inter
+navigation:
+  openLinksNewTab: true
+  logoUrl: 'https://acme.dev'
+  links:
+    - title: Pricing
+      url: 'https://acme.dev/pricing'
+  groups:
+    - title: Guides
+      icon: rocket
+      sections: [guide, tutorials]
+```
+{% /code %}
+
+- **settings**: theme choices such as dark mode, the theme toggle, your colours, and the font.
+- **navigation**: the [top navigation](customising-visuals/top-navigation-bar.md) links (up to four), whether they open in a new tab, and your [navigation groups](customising-visuals/top-navigation-bar.md#navigation-structure). A group lists the documentation sections and API references it holds by slug, and a changelog by its path. Its `icon` is optional, and leaving the key out clears an icon set in the editor.
+
+A value we cannot make sense of, such as a colour that is not a colour, is reset to its default and reported as a warning rather than stored.
+
+{% callout title="Reserved root folders" %}
+Folders at the base path whose name starts with an underscore are reserved for %product%, as is `changelogs`. A version cannot use a slug that starts with an underscore.
+{% /callout %}
 
 ## Editing with AI Agents
 

@@ -69,6 +69,10 @@ To archive a synced block:
 - Find the synced block to archive, and hit the {% icon classes="fas fa-times red" /%} icon next to it.
 - Confirm your choice.
 
+## Editing in a Synced Repository
+
+If your project uses [GitHub Sync](github-sync.md), your synced blocks are mirrored to the repository under `_synced-blocks/`, one file per block, named after the block's ID. You can write and review a block there like any other change, and blocks you edit in the editor are committed back. See [Synced Blocks](github-sync.md#synced-blocks) for the file layout and frontmatter.
+
 ## Using Page Links in Synced Blocks
 
 You can link to pages inside a synced block. However, there are limitations to its use.
