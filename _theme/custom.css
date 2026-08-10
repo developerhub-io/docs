@@ -1,0 +1,256 @@
+:root {
+  --red: #d9524f;
+}
+
+.node-content-wrapper.parent-list, .category-wrapper .category {
+  font-weight: 600 !important;
+}
+
+/* Sidebar animation */
+.node-content-wrapper .node {
+    transition: color 0.05s linear;
+}
+
+.table-of-contents a {
+    transition: color 0.05s linear;
+}
+
+/* Images */
+/* Old editor only. This has no effect once the project uses the new editor; the new-editor styles below replace it:
+.uimage {
+    border-radius: 5px;
+}
+*/
+
+/* Examples */
+.doc-button {
+    background-color: var(--font-color);
+    color: var(--bg-color) !important;
+    border-radius: 2px;
+    padding: 12px;
+    text-decoration: none !important;
+    box-shadow: 2px 2px 13px -1px #22222290;
+    transition: box-shadow 0.2s;
+}
+
+.doc-button:hover {
+    box-shadow: 2px 2px 3px -1px #22222290;
+}
+
+.doc-lg-button {
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.07), 0 7px 17px 0 rgba(0,0,0,.1);
+    border-radius: 3px;
+}
+
+.doc-lg-button a {
+    text-decoration: none !important;
+}
+
+.doc-lg-button:hover {
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.12), 0 7px 10px 0 rgba(0,0,0,.15);
+}
+
+.doc-input {
+    width: 50%;
+    max-width: 300px;
+    height: 48px;
+    margin-right: 7px;
+    padding: 6px;
+    font-weight: 500;
+}
+
+.grow-border {
+    border: 1px solid #DDD;
+    border-radius: 3px;
+    padding: 16px 32px;
+    font-weight: 500;
+}
+
+.grow-star {
+    width: 40px;
+    display: inline-block;
+}
+
+/**Landing Page */
+.customise .doc-ref-selection {
+    color: var(--font-color);
+    border-radius: 8px;
+    padding: 42px;
+}
+
+.customise .doc-ref-selection > a {
+    color: inherit;
+}
+
+.customise .doc-ref-selection:hover {
+    background: #EEE;
+}
+
+.dark-mode .customise .doc-ref-selection:hover {
+    background: #444;
+}
+
+iframe.custom-footer {
+    margin: 0 !important;
+}
+
+.customise .version-picker {
+    display: none;
+}
+
+.author-by {
+    display: none;
+}
+
+/* Old editor only. This has no effect once the project uses the new editor; the new-editor styles below replace it:
+.custom-icon {
+  color: var(--font-color);
+}
+
+.custom-icon.inv-icon {
+  background: var(--font-color);
+  color: var(--bg-color);
+  padding: 2px;
+}
+
+.custom-icon.red-bg-icon {
+  background: var(--red);
+  color: white;
+  padding: 2px;
+}
+
+.custom-icon.red-icon {
+  color: var(--red);
+}
+*/
+
+/* Old editor only. This has no effect once the project uses the new editor; the new-editor styles below replace it:
+.customise .cbadge.custom[data-text="Pink Badge"] {
+  color: white !important;
+  background: #ff536b !important;
+}
+
+.customise .cbadge.custom[data-text="Purple Badge"] {
+  color: white !important;
+  background: #6d53ff !important;
+}
+*/
+
+.custom-widget {
+  background-color: #333;
+  cursor: pointer;
+  text-align: right;
+  color: #FFF;
+  border-radius: 2px 2px 0 0;
+  padding: 2px 4px 2px 24px;
+  height: 25px;
+  box-shadow: 0 0 6px -2px #444;
+  margin-right: 8px;
+  transition: opacity 0.1s linear, background-color 0.1s linear;
+  overflow: hidden;
+  position: relative;
+}
+
+.custom-widget:hover {
+  color: #FFF;
+  background-color: #222;
+  text-decoration: none;
+}
+
+.custom-widget .favicon {
+  display: inline-block;
+  image-rendering: -webkit-optimize-contrast;
+  padding-bottom: 2px;
+  height: 36px;
+  position: absolute;
+  top: 2px;
+  left: -15px;
+  min-width: 14px;
+}
+
+.customise .green-text {
+  color: #27AE44;
+}
+
+.customise .red-text {
+  color: #d9524f;
+}
+
+.customise .orange-text {
+  color: #EFAC4E;
+}
+
+#dhImage {
+  content: url("https://uploads.developerhub.io/qa/02/v4w31e9rtovq6i4x0n6o0ynr9ihc5d4u27aoum94n07vfl0nc5zdpo2cbynf6dc4.svg")
+}
+
+.dark-mode #dhImage {
+  content: url("https://uploads.developerhub.io/prod/02/s5q6j4y3qb0sysrot7tmh5pujlmzm1i4t3r2wvjlem5r3x4ce0xt6phixoe4z02y.svg")
+}
+
+.search-contact-us {
+	font-size: inherit;
+  color: var(--link);
+}
+
+.customise .master .ref-anchor, .customise .master-editor .ref-anchor {
+  border: 1px solid var(--bg-color);
+  font-weight: var(--fw-700);
+  color: var(--font-color);
+  background: var(--link);
+}
+
+.customise .search-results-container .tag-selector {
+  display: none;
+}
+
+.customise.live .topnav-container {
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    -moz-backdrop-filter: blur(10px);
+    border-bottom: 1px solid #44444433;
+}
+
+.customise.live .topnav-wrapper {
+    background: none !important;
+}
+
+.customise.live .external-search.dark {
+    background: #00000033;
+}
+
+/* System generated CSS for new editor */
+.customise figure.sw-image img,
+.customise img.sw-inline-image {
+  border-radius: 5px;
+}
+
+.customise .sw-badge[data-badge="custom"][data-text="Pink Badge"] {
+  color: white !important;
+  background: #ff536b !important;
+}
+.customise .sw-badge[data-badge="custom"][data-text="Purple Badge"] {
+  color: white !important;
+  background: #6d53ff !important;
+}
+
+.customise .sw-icon {
+  color: var(--font-color);
+}
+
+.customise .sw-icon.inv-icon {
+  background: var(--font-color);
+  color: var(--bg-color);
+  padding: 2px;
+}
+
+.customise .sw-icon.red-bg-icon {
+  background: var(--red);
+  color: white;
+  padding: 2px;
+}
+
+.customise .sw-icon.red-icon {
+  color: var(--red);
+}

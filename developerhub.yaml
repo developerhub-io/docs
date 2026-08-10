@@ -1,6 +1,24 @@
 title: DeveloperHub.io
 variables:
-    plan: ''
-    user:
-        name: ''
-    product: DeveloperHub
+  plan: ''
+  user:
+    name: ''
+  product: DeveloperHub
+settings:
+  uiVersion: 2
+  darkMode: true
+  lightCodeTheme: false
+  showThemeToggle: false
+  stickyTopnav: true
+  fullWidthFooter: false
+  mainColour: '5368e7'
+  linkColour: ff536b
+navigation:
+  openLinksNewTab: true
+  links:
+    - title: Home
+      url: 'https://developerhub.io'
+    - title: Login
+      url: 'https://app.developerhub.io/login?ref=docs'
+    - title: Signup
+      url: 'https://app.developerhub.io/signup?ref=docs'

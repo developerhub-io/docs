@@ -1,0 +1,123 @@
+<script>
+  window.settings.apply({
+  	seo: {
+      canonicalizeShortUrlForm: true
+    }
+  });
+</script>
+<script>
+  /* if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
+    window.setTheme('light');
+	} */
+</script>
+<script>
+  window.translations.apply({
+  	page: {
+      feedback: { 
+        prompt: "Anything missing? Leave us feedback",
+        placeholder: "Like it? Typo? Outdated? Missing? Let us know and leave your e-mail address if you want us to get back to you."
+      }
+    }
+  });
+</script>
+<script>
+document.addEventListener('oncardschanged', function (event) {
+  const cardsContainer = document.querySelector('#landing-cards');
+  event.detail.docs.forEach((card) => {
+    const cardDiv = document.createElement('DIV');
+    cardDiv.classList.add('landing-card', 'docs-card');
+    cardDiv.addEventListener('mouseenter', ev => {cardDiv.classList.add('show-hovered')});
+    cardDiv.addEventListener('mouseleave', ev => {cardDiv.classList.remove('show-hovered')});
+
+    const titleAnchor = document.createElement('A');
+    titleAnchor.classList.add('clickable');
+    const h4CardTitle = document.createElement('H4');
+    h4CardTitle.classList.add(['title']);
+    h4CardTitle.innerText = card.title;
+    titleAnchor.href = card.link;
+    titleAnchor.appendChild(h4CardTitle);
+    cardDiv.appendChild(titleAnchor);
+
+    card.details.forEach((cPage) => {
+      const aLink = document.createElement('A');
+      aLink.classList.add('d-block', 'link', 'clickable');
+      aLink.href = cPage.link;
+      aLink.innerText = cPage.title;
+      cardDiv.appendChild(aLink);
+    });
+
+    rowSeparator = document.createElement('DIV');
+    rowSeparator.classList.add('col-xs-12', 'col-sm-6', 'col-lg-6');
+    rowSeparator.appendChild(cardDiv);
+
+    const showAllA = document.createElement('A');
+    showAllA.href = card.link;
+    const showAllDiv = document.createElement('DIV');
+    showAllDiv.classList.add('show-all');
+    showAllDiv.innerHTML = 'Show all<i class="fas fa-chevron-right"></i>';
+    showAllA.appendChild(showAllDiv);
+    cardDiv.appendChild(showAllA);
+
+    cardsContainer.appendChild(rowSeparator);
+  });
+  window.applyClickHandlersOnLinks();
+});
+</script>
+<style>
+.landing-card.show-hovered {
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.08);
+}
+.doc-ref-img {
+    box-shadow: 0 0 13px 3px #0000001f;
+    border-radius: 12px 12px 10px 10px;
+    transition: box-shadow .1s linear;
+}
+.doc-ref-selection a {
+    text-decoration: none;
+}
+.doc-ref-img:hover {
+    box-shadow: 0 0 6px 3px #0000001e;
+}
+</style>
+<script>
+  document.addEventListener('onprojectloaded', function (event) {
+    var widgets = document.querySelector('.widgets');
+    let poweredBy = document.createElement('A');
+    poweredBy.classList.add('custom-widget');
+    poweredBy.classList.add('d-print-none');
+    let poweredByImg = document.createElement('IMG');
+    poweredByImg.classList.add('favicon');
+    poweredByImg.alt = "DeveloperHub Logo";
+    poweredByImg.src = "https://app.developerhub.io/assets/img/favicon.png?v=7";
+    poweredBy.appendChild(poweredByImg);
+    poweredBy.appendChild(document.createTextNode('Made in DeveloperHub'));
+    poweredBy.href = "https://developerhub.io/?utm_campaign=brand_widget";
+    poweredBy.target = "_blank";
+    widgets.appendChild(poweredBy);
+  });
+</script>
+
+<style>
+  .search-contact-us {
+    color: inherit;
+    font-size: inherit;
+    text-decoration: underline;
+  }
+  
+  .search-contact-us:hover {
+    color: inherit;
+  }
+</style>
+
+<script>
+  document.addEventListener('onsearch', function (event) {
+    let searchEl = document.querySelector('.topnav .search');
+
+    setTimeout(() => {
+      if (!document.querySelector('.search-results-container .result')) {
+          // document.querySelector('.search-results-container .count').innerHTML = 
+            // 'No search results found. <a class="search-contact-us" href="/support-center/contact-us">Contact us?</a>';
+      }
+    });
+  });
+</script>
