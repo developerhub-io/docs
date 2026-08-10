@@ -27,6 +27,12 @@ To create a changelog:
 
 You can now change the path and description of the changelog from its settings {% icon classes="fas fa-cog" /%}.
 
+## Placing a Changelog in the Navigation
+
+A changelog can sit inside a [navigation group](customising-visuals/top-navigation-bar.md#navigation-structure), alongside the documentation sections and API references it belongs with, rather than on its own in the top navigation bar.
+
+Open Manage Changelogs, select the changelog, and pick a group next to **Navigation group**. Choose **None** to take it out again. A changelog can be in one group at a time.
+
 ## Adding a Post
 
 To add a new post to the changelog, click on New Post. Each post has a label, a slug to be accessed from, and contents. The contents of a post are the same as documentation pages and can include any block.
