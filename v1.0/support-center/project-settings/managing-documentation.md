@@ -34,9 +34,13 @@ Documentation by default are not published. To publish (or unpublish):
 
 - Open Manage Sections.
 - Select the documentation.
-- Toggle **Published** in the Visibility card, or use the **Publish** / **Unpublish** button in the header.
+- Use the **Publish** / **Unpublish** button in the header.
 
 When a documentation is unpublished, an `Unpublished` pill shows on the section menu and in the Manage Sections list.
+
+## Exporting a Documentation as PDF
+
+Manage Sections has an **Export** card with an **Export as PDF** button. It opens the [PDF Export](../pdf-export.md) pane with only that documentation section selected, so you can hand someone a PDF of one section rather than the whole version.
 
 ## Deleting Documentation
 

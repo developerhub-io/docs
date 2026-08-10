@@ -18,33 +18,52 @@ tags:
 
 If your readers cannot access the documentation online, then you can provide them with a PDF export of the documentation.
 
-This page covers exporting a whole version. To export a single page as a PDF, see [Exporting a Page to PDF](exporting-documentation.md#exporting-a-page-to-pdf).
+This page covers exporting a version, or the sections of it you choose. To export a single page as a PDF, see [Exporting a Page to PDF](exporting-documentation.md#exporting-a-page-to-pdf).
 
 {% image url="https://uploads.developerhub.io/prod/02/yhzfvuhxf6u64mvnb50m5va3jxlbraqdtoqf7vmk828xr77mqb0byw2g1ads6rck.png" /%}
 
 ## How to export to PDF?
 
-PDFs are exported by version. To export a PDF:
+PDF export has a settings pane of its own: Project Settings → **Import \& Export** → **PDF export**. Everything to do with PDFs lives there, namely what a PDF covers, the builds you have already generated, and how they all look.
 
-- Open Manage Versions (version menu → settings {% icon classes="fas fa-cog" /%} cog).
-- Select the version.
-- In the Lifecycle card, click **Export as PDF**.
-- In the PDF Exports window, click on Generate New PDF.
+To generate a PDF:
 
-You can also start from Project Settings → **Import \& Export** and click **Export PDF**, which opens the same version settings.
+1. Open Project Settings → **Import \& Export**, then click **PDF export**.
+2. In the **In this PDF** card, pick the **Version** you are exporting.
+3. Tick the documentation sections and API references you want included.
+4. Click **Generate PDF**.
 
-Once a PDF export job starts, you can see its progress in the PDF Exports window. When a job is finished, the job will be marked as Done, and you will be able to download the PDF.
+{% image url="../../assets/pdf-export-pane.png" /%}
+
+The build appears in the **Generated PDFs** card below and moves through Queued and Building. Once it reads Ready, click **Download**.
+
+Two shortcuts open the pane with the selection already made for you:
+
+- Manage Versions (version menu → settings {% icon classes="fas fa-cog" /%} cog) → select the version → **Export as PDF**, which preselects that version.
+- Manage Sections (section menu → settings {% icon classes="fas fa-cog" /%} cog) → select the documentation section or API reference → **Export as PDF**, which preselects that one section on its own.
+
+## Choosing What the PDF Covers
+
+The **In this PDF** card is the outline of the document. Its rows run in the order they appear in the PDF: the cover page, the table of contents, your documentation sections, your API references, and the back pages. Untick anything you want left out and it visibly drops out of the outline.
+
+- Every published documentation section and API reference starts ticked, so generating without changing anything gives you the whole version, exactly as it always did.
+- Use **Select all** or **Clear all** on the **Documentation** and **API references** headings to tick or clear a whole group at once.
+- Unpublished sections are listed too, marked with an **Unpublished** pill, and start unticked. You can still include them deliberately.
+- The cover page, table of contents and back pages are always part of the document, so they cannot be unticked. They come from PDF appearance.
+
+At least one section has to be ticked; **Generate PDF** stays disabled until one is.
+
+{% callout type="warning" title="Including unpublished sections" %}
+Unpublished sections export their last published content. Pages that have never been published come out with their title and no body.
+{% /callout %}
+
+Every build remembers what it covered, and the **Generated PDFs** list names those sections against it, or reads **All sections** for a whole-version export. So you can keep a full manual and a shorter extract side by side and still tell them apart.
 
 ## PDF Permalink
 
 After you have at least one PDF generated, you can generate a permalink for PDF downloads of the version. The permalink would always download the latest PDF that you have generated. You can use that link publicly if you wish to allow your readers to download the latest PDF.
 
-To get a permalink:
-
-- Open Manage Versions (version menu → settings {% icon classes="fas fa-cog" /%} cog).
-- Select the version.
-- In the Lifecycle card, click **Export as PDF**.
-- In the PDF Exports window, click on Get Permalink {% icon classes="fas fa-link" /%}. The URL will be copied to your clipboard.
+To get a permalink, open Project Settings → **Import \& Export** → **PDF export**, select the version, and click **Copy permalink** in the **Generated PDFs** card. The URL will be copied to your clipboard.
 
 {% callout type="warning" title="Unique link" %}
 The permalink is a unique link that cannot be revoked once someone has the link. Make sure you share the permalink with the right audience.
@@ -54,23 +73,25 @@ The permalink is a unique link that cannot be revoked once someone has the link.
 
 Our exported PDFs contain the following in order:
 
-- A front cover, if you provide it,
+- A cover page, if you provide one,
 - A page containing the project title and version name,
 - Table of contents,
-- The pages of each documentation,
-- The API references,
-- A back cover, if you provide it.
+- The documentation sections you included,
+- The API references you included,
+- Back pages, if you provide them.
 
 ## Customisation of PDF
 
-PDFs generated by %product% can be customised as follows:
+The **PDF appearance** card holds the parts that apply to every PDF the project generates, so it sits apart from the section picker. It is collapsed by default and shows a summary of what is currently set; click **Edit** to open it.
 
-- Add a front cover in PDF format.
-- Add a back cover in PDF format.
-- Add a logo at the top of each page, or a full-size banner in PNG format.
-- Add a full-size banner at the footer of each page in PNG format.
+You can set these yourself:
 
-To customise the PDF, [contact us](contact-us.md) with the customisation assets. You can view your customisations and modify the front and back covers from PDF settings, which you can find by clicking on {% icon classes="fas fa-cog" /%} when viewing your PDFs.
+- **Cover page**: a link to a PDF placed before the contents.
+- **Back pages**: links to PDFs appended after the content, one URL per line.
+
+Both take a URL that ends in `.pdf`. Click **Save** once you are done. A change here takes effect on the next PDF you generate, so it does not alter the builds you already have.
+
+The logo at the top of each page and the footer banner are shown in the same card but are not editable there. To add or change either, [contact us](contact-us.md) with the assets.
 
 ## Limitations of PDF
 

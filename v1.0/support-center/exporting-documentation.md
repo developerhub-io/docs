@@ -51,7 +51,7 @@ You can also export a single version on its own:
 
 The download is a zip named after the version, containing that version's documentations, pages, and API references. Project-wide changelogs are not included in a single-version export; use a [project export](exporting-documentation.md#exporting-a-project) if you need them.
 
-The same card also offers **Export as PDF** (see [PDF Export](pdf-export.md)).
+The same card also offers **Export as PDF**, which opens the [PDF Export](pdf-export.md) pane with this version already selected.
 
 ## Exporting a Page
 
