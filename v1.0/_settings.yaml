@@ -1,6 +1,6 @@
 name: v1.0
 published: true
 documentations:
-    - support-center
+  - support-center
 references:
-    - api
+  - api
