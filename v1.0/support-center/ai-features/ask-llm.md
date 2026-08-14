@@ -11,7 +11,7 @@ tags: ai
 
 The **AI Tools** button appears next to a page title and opens a contextual menu with quick links to popular AI tools. With **AI Tools**, users can:
 
-- Summarize the page using the [assistant](../using-search/ai-search.md).
+- Summarize the page using the [assistant](../writing-documentation/ai-search.md).
 - Copy the page Markdown.
 - Ask questions about the page content using ChatGPT or Claude.
 - Connect to Cursor or VS Code using the [Reader MCP Server](mcp-server/reader-mcp-server.md).

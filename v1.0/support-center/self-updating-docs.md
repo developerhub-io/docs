@@ -9,17 +9,17 @@ keywords:
 tags: ai
 ---
 
-Attach your source code to a project and [AI Agent](../writing-documentation/ai-agent.md) can check what your documentation claims against what your code actually does. It can also watch your pull requests and draft the documentation changes each one implies.
+Attach your source code to a project and [AI Agent](ai-agent.md) can check what your documentation claims against what your code actually does. It can also watch your pull requests and draft the documentation changes each one implies.
 
 The agent only ever reads your code. It never writes to a repository, commits, or opens pull requests.
 
-{% image url="../../../assets/self-updating-docs.png" %}
+{% image url="../../assets/self-updating-docs.png" %}
 Project Settings → AI → Self-Updating Docs
 {% /image %}
 
 ## Before you start
 
-- **Connect GitHub.** Open Project Settings → **Developers** → **Integrations** and connect GitHub, then grant the %product% GitHub App access to the repositories you want to attach. You do not need to be using [GitHub Sync](../github-sync.md) for your documentation. The connection is the only prerequisite.
+- **Connect GitHub.** Open Project Settings → **Developers** → **Integrations** and connect GitHub, then grant the %product% GitHub App access to the repositories you want to attach. You do not need to be using [GitHub Sync](github-sync.md) for your documentation. The connection is the only prerequisite.
 - **Attaching needs an admin.** Only admins can open these settings, although anyone on the project can be picked to be told when a check finishes.
 - **Runs need a plan with AI features.** You can attach repositories on any plan, but nothing will run until the project is on one.
 
@@ -82,7 +82,7 @@ Common credential files, such as `.env` files, private keys and cloud credential
 
 ## Limits
 
-- A repository must be under 250 MB. [Contact Us](../contact-us.md) if you need higher limits.
+- A repository must be under 250 MB. [Contact Us](contact-us.md) if you need higher limits.
 - Individual files above 1 MB are not copied, so the agent works from the smaller files around them.
 - Only the first attached repository is searched when you point at a code file with `@` in AI Agent.
 

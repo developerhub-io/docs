@@ -10,8 +10,9 @@ items:
         items:
           - writing-documentation/formatting-text
           - writing-documentation/using-markdown
-          - writing-documentation/ai-agent
           - writing-documentation/ai-writer
+          - page: writing-documentation/ai-search
+            icon: comments
           - writing-documentation/blocks
           - writing-documentation/ordering-blocks
           - writing-documentation/page-linking
@@ -178,7 +179,6 @@ items:
       - page: using-search
         icon: magnifying-glass
         items:
-          - using-search/ai-search
           - using-search/enterprise-search
       - page: comments
         icon: comments
@@ -232,21 +232,26 @@ items:
           - link:
               title: 'AI Agent'
               url: /support-center/ai-agent
-          - ai-features/self-updating-docs
           - ai-features/ai-commit-messages
+          - page: ai-features/ai-summarisation
+            icon: magnifying-glass-chart
+          - page: ai-features/mcp-server
+            icon: plug
+            items:
+              - ai-features/mcp-server/reader-mcp-server
+              - ai-features/mcp-server/editor-mcp-server
           - link:
               title: 'AI Writer'
               url: /support-center/ai-writer
           - link:
               title: 'AI Search'
               url: /support-center/ai-search
-          - ai-features/ai-summarisation
           - ai-features/llms-txt
           - ai-features/ask-llm
-          - page: ai-features/mcp-server
-            items:
-              - ai-features/mcp-server/reader-mcp-server
-              - ai-features/mcp-server/editor-mcp-server
+      - page: ai-agent
+        icon: robot
+      - page: self-updating-docs
+        icon: arrows-rotate
       - page: readability-metrics
         icon: gauge
       - page: github-sync

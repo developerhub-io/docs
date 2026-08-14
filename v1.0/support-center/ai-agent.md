@@ -11,11 +11,11 @@ tags: ai
 
 AI Agent turns a conversation into proposed edits across your documentation. Ask for a change and it reads your content, works out everything the change touches, and stages the edits for you to review.
 
-A single request can change many pages at once. It also works on API references and [changelog](/support-center/changelogs) posts, not just pages.
+A single request can change many pages at once. It also works on API references and [changelog](changelogs.md) posts, not just pages.
 
 Nothing AI Agent does is written to your documentation on its own. Every change is staged, you review it line by line, and nothing reaches your readers until you save it.
 
-{% image url="../../../assets/ai-agent-window.png" %}
+{% image url="../../assets/ai-agent-window.png" %}
 The conversation, the staged changes, and the change under review
 {% /image %}
 
@@ -52,13 +52,13 @@ Type `@` in the message box to point the agent at something specific. You can pi
 - **this page**: the page open behind the window.
 - Any page in the version.
 - An API reference.
-- A file from a [code repository](/support-center/self-updating-docs), if one is attached.
+- A file from a [code repository](self-updating-docs.md), if one is attached.
 
 Deleting the label from your message removes the mention again.
 
 ### What the agent can read
 
-Beyond your pages, AI Agent can look at [search analytics](/support-center/search-analytics) to find the terms readers searched for and found nothing for, check every link in a version at once, and list the pages that link to a page before it changes it.
+Beyond your pages, AI Agent can look at [search analytics](search-analytics.md) to find the terms readers searched for and found nothing for, check every link in a version at once, and list the pages that link to a page before it changes it.
 
 ## Reviewing what it staged
 
@@ -72,7 +72,7 @@ You have two levels of control:
 Rows can carry a tag that explains their state:
 
 | Tag | What it means |
-|---|---|
+| --- | --- |
 | Saved | Already written to the page as a draft. |
 | Live | Already published. |
 | Blocked | Cannot be saved as it stands. Ask the agent to redo it. |
@@ -81,7 +81,7 @@ Rows can carry a tag that explains their state:
 
 When you are happy, use the bar at the bottom:
 
-- **Save to draft** puts the selected changes into [draft mode](/support-center/draft-mode), where you can edit further before publishing.
+- **Save to draft** puts the selected changes into [draft mode](writing-documentation/draft-mode.md), where you can edit further before publishing.
 - **Save and publish** writes and publishes them in one step. This needs the publisher role.
 - **Discard all** throws the staged changes away.
 
@@ -102,7 +102,7 @@ Each conversation keeps its own thread and its own staged changes.
 - Select {% icon classes="fas fa-plus" /%} to start a **new conversation**. The current one is closed, not deleted.
 - Select {% icon classes="fas fa-clock-rotate-left" /%} to reopen an earlier conversation. Opening one keeps the other, and nothing staged is lost either way.
 
-The same list has a **Pull requests** section, holding the runs that started from a pull request on an attached [code repository](/support-center/self-updating-docs). You can read those and reply to them, but they stay with the pull request rather than becoming one of your own conversations.
+The same list has a **Pull requests** section, holding the runs that started from a pull request on an attached [code repository](self-updating-docs.md). You can read those and reply to them, but they stay with the pull request rather than becoming one of your own conversations.
 
 ## Keeping a conversation sharp
 
@@ -118,7 +118,7 @@ Each model is rated out of three for **Cost**, **Speed** and **Judgement**, and 
 
 ## What AI Agent cannot do
 
-- It cannot create an API reference. That means [uploading a definition](/support-center/uploading-references) yourself.
+- It cannot create an API reference. That means [uploading a definition](uploading-references.md) yourself.
 - It cannot delete a page that has pages nested under it, the only page left in a documentation section, or the last section in a version.
 - It cannot move a page to a different documentation section, or rename and reorder the sections themselves.
 - It cannot clear a page completely. Emptying a page is not the same as deleting it, so the agent refuses and points you at deleting it properly instead.
@@ -129,14 +129,14 @@ If a request needs one of these, the agent says so and does the part it can rath
 
 ## AI Agent and AI Writer
 
-[AI Writer](/support-center/ai-writer) works inline on text you have highlighted and applies its changes straight away. AI Agent works from a conversation, can change many pages, API references and changelog posts at once, and stages everything for review first.
+[AI Writer](writing-documentation/ai-writer.md) works inline on text you have highlighted and applies its changes straight away. AI Agent works from a conversation, can change many pages, API references and changelog posts at once, and stages everything for review first.
 
 ## Activity log
 
-Applying changes is recorded in the [activity log](/support-center/activity-log) as **published AI changes** or **saved AI changes as drafts**, once per save rather than once per page. Changing the agent model is logged too.
+Applying changes is recorded in the [activity log](activity-log.md) as **published AI changes** or **saved AI changes as drafts**, once per save rather than once per page. Changing the agent model is logged too.
 
 ## What data is sent
 
 The pages, API references and changelog posts the agent reads and edits are sent to the model you have chosen, along with your conversation.
 
-Agent runs are served through OpenRouter, and only providers with zero data retention are used. Your content is never kept and never used to train a model. See [AI Features](/support-center/ai-features) for how this differs from our other AI features.
+Agent runs are served through OpenRouter, and only providers with zero data retention are used. Your content is never kept and never used to train a model. See [AI Features](ai-features.md) for how this differs from our other AI features.

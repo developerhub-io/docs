@@ -303,7 +303,7 @@ Sync stays paused on that commit until the repository is put right, so a later p
 
 To stop syncing, open Project Settings → **Developers** → **Integrations** and use **Disconnect GitHub** on the GitHub card. Your repository files are left in place; only the connection is removed.
 
-Disconnecting also detaches any code repositories the AI agent was reading (see [Self-Updating Docs](/support-center/self-updating-docs)), so you will need to attach those again if you reconnect.
+Disconnecting also detaches any code repositories the AI agent was reading (see [Self-Updating Docs](self-updating-docs.md)), so you will need to attach those again if you reconnect.
 
 You can also remove the `DeveloperHub - Sync` application from your GitHub settings (under your personal or organisation GitHub application settings). Once it is removed, the connection is freed on %product%'s side automatically.
 
