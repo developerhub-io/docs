@@ -85,7 +85,7 @@ Yes. Check [GraphQL](integrations/graphql.md) where you can embed it in a [Custo
 {% /accordion %}
 
 {% accordion title="Do you support ChatGPT chat-like experience for search?" %}
-Yes, check [AI Assistant](using-search/ai-search.md).
+Yes, check [AI Assistant](writing-documentation/ai-search.md).
 {% /accordion %}
 
 {% accordion title="Do you support AsyncAPI references?" %}

@@ -44,7 +44,7 @@ To add a %product% search widget to your messenger home, ensure that you first h
 
 {% image url="https://uploads.developerhub.io/prod/02/ww5likoo946tze098bo5ofusyp5wpvsd6uclposbspv3abs0gx9dy4mrp1rc8gip.png" width=300 /%}
 
-The search widget would use [AI Assistant](../using-search/ai-search.md) if it is enabled.
+The search widget would use [AI Assistant](../writing-documentation/ai-search.md) if it is enabled.
 
 ## Changing Intercom Region or Settings
 

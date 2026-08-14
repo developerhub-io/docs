@@ -10,7 +10,8 @@ items:
         items:
           - writing-documentation/formatting-text
           - writing-documentation/using-markdown
-          - writing-documentation/ai-writer
+          - page: writing-documentation/ai-writer
+            icon: pen-nib
           - page: writing-documentation/ai-search
             icon: comments
           - writing-documentation/blocks
@@ -226,32 +227,6 @@ items:
         icon: book
       - page: tags
         icon: tags
-      - page: ai-features
-        icon: wand-magic-sparkles
-        items:
-          - link:
-              title: 'AI Agent'
-              url: /support-center/ai-agent
-          - ai-features/ai-commit-messages
-          - page: ai-features/ai-summarisation
-            icon: magnifying-glass-chart
-          - page: ai-features/mcp-server
-            icon: plug
-            items:
-              - ai-features/mcp-server/reader-mcp-server
-              - ai-features/mcp-server/editor-mcp-server
-          - link:
-              title: 'AI Writer'
-              url: /support-center/ai-writer
-          - link:
-              title: 'AI Search'
-              url: /support-center/ai-search
-          - ai-features/llms-txt
-          - ai-features/ask-llm
-      - page: ai-agent
-        icon: robot
-      - page: self-updating-docs
-        icon: arrows-rotate
       - page: readability-metrics
         icon: gauge
       - page: github-sync
@@ -267,6 +242,39 @@ items:
           title: 'Adaptive Content'
           url: /support-center/conditional-content
         icon: filter
+  - category: AI
+    icon: wand-magic-sparkles
+    items:
+      - page: ai-features
+        icon: sparkles
+        items:
+          - page: ai-features/ai-commit-messages
+            icon: code-commit
+          - page: ai-features/ai-summarisation
+            icon: magnifying-glass-chart
+          - page: ai-features/mcp-server
+            icon: plug
+            items:
+              - page: ai-features/mcp-server/reader-mcp-server
+                icon: book-open-reader
+              - page: ai-features/mcp-server/editor-mcp-server
+                icon: user-pen
+          - page: ai-features/llms-txt
+            icon: file-lines
+          - page: ai-features/ask-llm
+            icon: comment-dots
+      - page: ai-agent
+        icon: robot
+      - page: self-updating-docs
+        icon: code-pull-request
+      - link:
+          title: 'AI Writer'
+          url: /support-center/ai-writer
+        icon: pen-nib
+      - link:
+          title: 'AI Search'
+          url: /support-center/ai-search
+        icon: comments
   - category: Developers
     items:
       - page: developer-tools

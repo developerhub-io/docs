@@ -12,7 +12,7 @@ tags:
 %product% provides two search experiences:
 
 - [Standard Search](using-search.md#standard-search): Lightning-fast search service available for all paid plans. The search looks through each section of the documentation and links to it directly if a hit has been found. Typos are forgiven as well.
-- [AI Assistant](using-search/ai-search.md): Search powered by GPT models that provide answers to questions with sources in natural language form.
+- [AI Assistant](writing-documentation/ai-search.md): Search powered by GPT models that provide answers to questions with sources in natural language form.
 
 The search bar exists at the top of the pages to attract attention and give the readers the best experience possible.
 

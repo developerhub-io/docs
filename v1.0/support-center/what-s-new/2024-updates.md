@@ -222,7 +222,7 @@ See [Upcoming Features](../upcoming-features.md) to know what we're currently wo
 
 ### 24 Jun
 
-- {% badge text="Improvement" /%} **Search**: Many improvements and bug fixes for [AI Assistant](../using-search/ai-search.md).
+- {% badge text="Improvement" /%} **Search**: Many improvements and bug fixes for [AI Assistant](../writing-documentation/ai-search.md).
 
 ### 23 Jun
 
@@ -230,7 +230,7 @@ See [Upcoming Features](../upcoming-features.md) to know what we're currently wo
 
 ### 22 Jun
 
-- {% badge text="New" type="success" /%} **Search**: [AI Assistant](../using-search/ai-search.md) is now available for testing in beta for all grow and enterprise plans users.
+- {% badge text="New" type="success" /%} **Search**: [AI Assistant](../writing-documentation/ai-search.md) is now available for testing in beta for all grow and enterprise plans users.
 
 ### 5 Jun
 
