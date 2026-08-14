@@ -33,8 +33,8 @@ With AI Writer, you can:
 
 AI Writer is disabled by default and must be enabled by an admin. To enable the AI Writer:
 
-- Open Project Settings → **AI Features**.
-- Check **Enable AI writing agent**.
+- Open Project Settings → **AI** → **AI Features**, then the **Agent** tab.
+- Under **Writing**, turn on **AI writing agent**.
 - Click **Save changes** in the top menu.
 - Refresh the page for changes to apply.
 

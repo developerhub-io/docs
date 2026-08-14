@@ -42,8 +42,8 @@ The assistant responds with detailed explanations and examples when possible, an
 
 To enable/disable AI Assistant:
 
-- Open Project Settings → **AI Features**.
-- Check or uncheck **Enable AI Search**.
+- Open Project Settings → **AI** → **AI Features**, then the **Readers** tab.
+- Under **AI search**, turn **AI search** on or off.
 - Click **Save changes** in the top menu.
 
 Once AI Assistant is enabled, it might take a couple of minutes until it is useable.
@@ -58,9 +58,8 @@ To validate responses provided by AI Assistant, a log of all questions and answe
 
 To download the log:
 
-- Open Project Settings → **AI Features**.
-- Next to **AI search logs**, click the {% icon classes="fas fa-download" /%} icon.
-- Select the duration to download the logs for.
+- Open Project Settings → **AI** → **AI Features**, then the **Readers** tab.
+- Next to **Download AI search logs**, select the duration to download the logs for.
 
 The logs contain a UID which is an anonymous identifier of the user. It can help understand the different questions a user has asked.
 

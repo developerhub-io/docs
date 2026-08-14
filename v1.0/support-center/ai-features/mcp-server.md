@@ -22,4 +22,4 @@ The [Reader MCP Server](mcp-server/reader-mcp-server.md) runs on your documentat
 
 The [Editor MCP Server](mcp-server/editor-mcp-server.md) is for your own team. It connects an AI client to the editor, so an agent can find, write, publish and delete pages in your project. Each editor connects with their own %product% account and the agent acts as that person, so it reaches only the projects they can already edit.
 
-Both are turned on per project under Project Settings → **AI Features**, and both use the Streamable HTTP transport.
+Both are turned on per project under Project Settings → **AI** → **AI Features**, the reader server on the **Readers** tab and the editor server on the **Agent** tab, and both use the Streamable HTTP transport.

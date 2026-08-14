@@ -232,6 +232,7 @@ items:
           - link:
               title: 'AI Agent'
               url: /support-center/ai-agent
+          - ai-features/self-updating-docs
           - ai-features/ai-commit-messages
           - link:
               title: 'AI Writer'

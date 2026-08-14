@@ -15,7 +15,6 @@ Here are a list of features where we have invested heavily but have not complete
 
 - OpenAPI 3.2 tag support.
 - Landing page builder.
-- AI agent.
 
 If you'd like to have any of these implemented, please [contact us](contact-us.md).
 

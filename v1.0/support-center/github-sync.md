@@ -35,13 +35,13 @@ Set-up happens on both the GitHub side and the %product% side.
 If you have multiple projects, choose all the repositories you want to sync with.
 {% /callout %}
 
-You are taken back to %product% and land on the **Git Sync** settings pane (Project Settings → **Git Sync**). This is where you configure and monitor the sync from now on. Set:
+You are taken back to %product%. Open the **Docs Sync** settings pane (Project Settings → **Developers** → **Docs Sync**). This is where you configure and monitor the sync from now on. On the **Sync** tab, set:
 
 - **Repository**: pick from the repositories the DeveloperHub GitHub App can access.
 - **Branch**: the branch %product% commits to and pulls from.
 - **Base path** (optional): for monorepos, the directory your docs live in (for example `docs/files`). Leave it empty to sync from the repository root.
 - **First sync**: the direction of the very first sync. Choose **Export** to commit your existing %product% pages to the repository, or **Import** to bring the repository's files into %product%.
-- **Reader edits**: turn on **Allow readers to suggest edits on GitHub** to show an "Edit on GitHub" link on every page.
+- **Reader edits**: turn on **Let readers suggest edits on GitHub** to show an "Edit on GitHub" link on every page.
 - **Draft branch** (optional): mirror unpublished drafts to a separate branch (see [Draft branch](github-sync.md#draft-branch)).
 
 Click **Start sync** to run the first sync. It can take a few minutes.
@@ -273,19 +273,19 @@ Three things keep it green:
 
 By default only published pages sync, and they sync to the branch you chose during set-up. You can optionally mirror unpublished draft edits to a separate branch, so writers and Git users collaborate on drafts before they go live.
 
-In the **Git Sync** pane, turn on **Sync draft edits to a branch** and set a **Draft branch name** (the default is `developerhub-drafts`).
+In the **Docs Sync** pane, on the **Sync** tab, turn on **Sync draft edits to a branch** and set a **Draft branch name** (the default is `developerhub-drafts`).
 
 The draft branch is **body-only**: it carries page content, not structure. Structural work (adding, moving, and renaming pages, navigation, and settings, including page frontmatter) belongs on the published branch. A structural change made on the draft branch is deferred, not applied.
 
 ## Letting Readers Edit on GitHub
 
-Turn on **Allow readers to suggest edits on GitHub** in the **Git Sync** pane to show an **Edit on GitHub** link on every page. The link opens the page's source file on your synced branch, where a reader can propose a change through GitHub's normal editing and pull request flow.
+Turn on **Let readers suggest edits on GitHub** in the **Docs Sync** pane to show an **Edit on GitHub** link on every page. The link opens the page's source file on your synced branch, where a reader can propose a change through GitHub's normal editing and pull request flow.
 
 ## Page History and Sync Activity
 
 When an edit arrives from GitHub, the page's [edit history](page-history.md) records the commit message and links the commit's SHA, so you can open the exact commit on GitHub.
 
-The **Git Sync** pane also has a **Sync activity** feed showing recent reconcile runs: each run's direction (**DeveloperHub → Repo** or **Repo → DeveloperHub**), what changed (for example "3 pages" or "1 API reference"), its commit, and when it ran. A status chip at the top shows whether the project is **In sync**, has **Changes pending**, or has not synced yet.
+The **Docs Sync** pane's **Activity** tab has a **Sync activity** feed showing recent reconcile runs: each run's direction (**DeveloperHub → Repo** or **Repo → DeveloperHub**), what changed (for example "3 pages" or "1 API reference"), its commit, and when it ran. A status chip at the top shows whether the project is **In sync**, has **Changes pending**, or has not synced yet.
 
 ## When a Change Is Blocked
 
@@ -301,7 +301,9 @@ Sync stays paused on that commit until the repository is put right, so a later p
 
 ## Disconnecting GitHub Sync
 
-To stop syncing, open the **Git Sync** pane and use **Disconnect GitHub** (under Danger zone). Your repository files are left in place; only the connection is removed.
+To stop syncing, open Project Settings → **Developers** → **Integrations** and use **Disconnect GitHub** on the GitHub card. Your repository files are left in place; only the connection is removed.
+
+Disconnecting also detaches any code repositories the AI agent was reading (see [Self-Updating Docs](/support-center/self-updating-docs)), so you will need to attach those again if you reconnect.
 
 You can also remove the `DeveloperHub - Sync` application from your GitHub settings (under your personal or organisation GitHub application settings). Once it is removed, the connection is freed on %product%'s side automatically.
 

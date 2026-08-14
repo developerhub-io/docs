@@ -33,8 +33,8 @@ If you need more tools, [contact us](../../contact-us.md) with the details!
 
 To enable the MCP server:
 
-- Open Project Settings → **AI Features**.
-- Turn on **MCP server**.
+- Open Project Settings → **AI** → **AI Features**, then the **Readers** tab.
+- Under **AI search**, turn on **MCP server**.
 - Click **Save changes** in the top menu.
 
 It will take up to 5 minutes for the change to occur. If `AI Tools` button is enabled, the readers would be able to connect to Cursor and VS Code using the MCP server through the dropdown.

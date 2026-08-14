@@ -19,8 +19,8 @@ Only project admins can turn the Editor MCP server on or off.
 
 ## Enabling the Editor MCP server
 
-- Open Project Settings → **AI Features**.
-- Turn on **Editor MCP server**.
+- Open Project Settings → **AI** → **AI Features**, then the **Agent** tab.
+- Under **Editor MCP server**, turn on **Editor MCP server**.
 - Click **Save changes** in the top menu.
 
 It can take up to 5 minutes for the change to take effect. Once the setting is saved on, the card expands to show the connection details for your AI client.
