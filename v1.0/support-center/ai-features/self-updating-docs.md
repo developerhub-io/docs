@@ -13,7 +13,7 @@ Attach your source code to a project and [AI Agent](/support-center/ai-agent) ca
 
 The agent only ever reads your code. It never writes to a repository, commits, or opens pull requests.
 
-{% image url="../../../assets/e893159d786ae8e513a68578696c13f6e049a0af.png" %}
+{% image url="../../../assets/self-updating-docs.png" %}
 Project Settings → AI → Self-Updating Docs
 {% /image %}
 

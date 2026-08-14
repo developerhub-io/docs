@@ -15,7 +15,7 @@ A single request can change many pages at once. It also works on API references 
 
 Nothing AI Agent does is written to your documentation on its own. Every change is staged, you review it line by line, and nothing reaches your readers until you save it.
 
-{% image url="../../../assets/d685b0e4e4fafa2b6e8b079dd277660f84221ed2.png" %}
+{% image url="../../../assets/ai-agent-window.png" %}
 The conversation, the staged changes, and the change under review
 {% /image %}
 
