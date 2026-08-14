@@ -1,19 +1,25 @@
 items:
-  - category: 'Start Here'
+  - category: 'Getting Started'
+    icon: door-open
     items:
       - page: getting-started
         icon: rocket
         items:
           - getting-started/first-steps
+      - page: project-structure
+        icon: sitemap
+      - page: quick-switcher
+        icon: right-left
+      - page: keyboard-shortcuts
+        icon: bolt
+  - category: 'Writing & Structure'
+    icon: feather-pointed
+    items:
       - page: writing-documentation
         icon: pen-to-square
         items:
           - writing-documentation/formatting-text
           - writing-documentation/using-markdown
-          - page: writing-documentation/ai-writer
-            icon: pen-nib
-          - page: writing-documentation/ai-search
-            icon: comments
           - writing-documentation/blocks
           - writing-documentation/ordering-blocks
           - writing-documentation/page-linking
@@ -21,8 +27,10 @@ items:
           - writing-documentation/unlisting-old
           - writing-documentation/unlisting
           - writing-documentation/hidden-pages
-      - page: project-structure
-        icon: sitemap
+          - page: writing-documentation/ai-writer
+            icon: pen-nib
+          - page: writing-documentation/ai-search
+            icon: comments
       - page: structuring-documentation
         icon: folder-tree
         items:
@@ -30,32 +38,49 @@ items:
           - structuring-documentation/categories
           - structuring-documentation/external-links
           - structuring-documentation/index-icons
+      - page: templates
+        icon: clone
+      - page: variables
+        icon: percent
+      - page: glossary
+        icon: book
+      - page: tags
+        icon: tags
+      - page: code-steps
+        icon: list-ol
+      - page: readability-metrics
+        icon: gauge
+      - page: changelogs
+        icon: bullhorn
   - category: Blocks
+    icon: shapes
     items:
-      - page: code-blocks
-        icon: code
       - page: images
         icon: image
+      - page: inline-images
+        icon: image-portrait
+      - page: videos
+        icon: video
+      - page: code-blocks
+        icon: code
+      - page: github-code
+        icon: 'fab:github'
       - page: tables
         icon: table
       - page: callouts
         icon: circle-info
-      - page: videos
-        icon: video
+      - page: badges
+        icon: certificate
+      - page: icons
+        icon: icons
+      - page: keyboard-keys
+        icon: keyboard
       - page: cards
         icon: address-card
-      - page: accordions
-        icon: layer-group
-      - page: synced-blocks
-        icon: recycle
-      - page: conditional-blocks
-        icon: code-branch
-      - page: custom-html
-        icon: file-code
       - page: tabs
         icon: window-restore
-      - page: github-code
-        icon: 'fab:github'
+      - page: accordions
+        icon: layer-group
       - page: index-list
         icon: list-ul
         items:
@@ -63,55 +88,15 @@ items:
           - index-list/example-index-2
       - page: separators
         icon: grip-lines
-  - category: 'Inline Blocks'
+      - page: synced-blocks
+        icon: recycle
+      - page: conditional-blocks
+        icon: code-branch
+      - page: custom-html
+        icon: file-code
+  - category: Design
+    icon: swatchbook
     items:
-      - page: variables
-        icon: percent
-      - page: badges
-        icon: certificate
-      - page: icons
-        icon: icons
-      - page: keyboard-keys
-        icon: keyboard
-      - link:
-          title: Glossary
-          url: /support-center/glossary
-        icon: book
-      - page: inline-images
-        icon: image-portrait
-  - category: Management
-    items:
-      - page: project-settings
-        icon: gear
-        items:
-          - project-settings/managing-projects
-          - project-settings/managing-versions
-          - project-settings/managing-documentation
-          - project-settings/managing-api-references
-          - project-settings/api-key
-          - project-settings/advanced-settings
-      - page: hosting
-        icon: server
-        items:
-          - hosting/using-custom-domain
-          - hosting/configure-dns
-          - hosting/url-redirects
-          - hosting/server-headers
-      - page: private-docs
-        icon: lock
-        items:
-          - private-docs/custom-login
-          - private-docs/email-invite
-          - private-docs/reader-single-sign-on
-          - private-docs/logging-out-readers
-      - page: collaboration
-        icon: users
-        items:
-          - collaboration/dashboard
-      - page: documentation-settings
-        icon: sliders
-        items:
-          - documentation-settings/documentation-footer
       - page: customising-visuals
         icon: palette
         items:
@@ -122,23 +107,57 @@ items:
           - customising-visuals/custom-css
           - customising-visuals/custom-footer
           - customising-visuals/ui-translation
+      - page: landing-page
+        icon: house
+        items:
+          - landing-page/custom-landing-page
+          - landing-page/mocking-default-landing-page
+      - page: image-library
+        icon: images
+      - page: custom-javascript
+        icon: 'fab:js'
+      - page: css-customisations
+        icon: 'fab:css3-alt'
+  - category: 'Publishing & Hosting'
+    icon: tower-broadcast
+    items:
       - page: previewing-documentation
         icon: eye
       - page: publishing-documentation
         icon: cloud-arrow-up
-      - page: conditional-content
-        icon: filter
+      - page: hosting
+        icon: server
+        items:
+          - hosting/using-custom-domain
+          - hosting/configure-dns
+          - hosting/url-redirects
+          - hosting/server-headers
+      - page: seo
+        icon: magnifying-glass-chart
+      - page: pdf-export
+        icon: file-pdf
+      - page: exporting-documentation
+        icon: file-export
+  - category: 'Access & Audiences'
+    icon: shield-halved
+    items:
+      - page: private-docs
+        icon: lock
+        items:
+          - private-docs/custom-login
+          - private-docs/email-invite
+          - private-docs/reader-single-sign-on
+          - private-docs/logging-out-readers
       - page: editor-single-sign-on--sso-
         icon: right-to-bracket
-      - page: supercharged-plans
-        icon: star
-      - page: quick-switcher
-        icon: right-left
-      - page: account-settings
-        icon: user-gear
-      - page: organisation-settings
-        icon: building
-  - category: References
+      - page: conditional-content
+        icon: filter
+      - page: personalised-docs
+        icon: user-tag
+      - page: localisation
+        icon: language
+  - category: 'API References'
+    icon: terminal
     items:
       - page: api-references
         icon: book-open
@@ -157,96 +176,11 @@ items:
         icon: code-merge
       - page: diff-api-revisions
         icon: code-compare
-  - category: 'Import & Export'
-    items:
-      - page: importing-documentation
-        icon: file-import
-        items:
-          - importing-documentation/external-sources
-          - importing-documentation/import-from-zendesk
-      - page: exporting-documentation
-        icon: file-export
-      - page: pdf-export
-        icon: file-pdf
-  - category: Features
-    items:
-      - page: landing-page
-        icon: house
-        items:
-          - landing-page/custom-landing-page
-          - landing-page/mocking-default-landing-page
-      - page: page-history
-        icon: clock-rotate-left
-      - page: using-search
-        icon: magnifying-glass
-        items:
-          - using-search/enterprise-search
-      - page: comments
-        icon: comments
-      - page: integrations
-        icon: puzzle-piece
-        items:
-          - integrations/google-analytics
-          - integrations/intercom
-          - integrations/slack
-          - link:
-              title: Localize
-              url: /support-center/localisation
-          - integrations/jupyter-notebook-integration
-          - integrations/hubspot-integration
-          - integrations/zendesk-integration
-          - integrations/powr-integration
-          - integrations/graphs-charts
-          - integrations/latex
-          - integrations/graphql
-      - page: image-library
-        icon: images
-      - page: custom-javascript
-        icon: 'fab:js'
-      - page: seo
-        icon: magnifying-glass-chart
-      - page: referrals
-        icon: gift
-      - page: activity-log
-        icon: list-check
-      - page: search-analytics
-        icon: chart-line
-      - page: feedback
-        icon: thumbs-up
-      - page: localisation
-        icon: language
-      - page: personalised-docs
-        icon: user-tag
-      - page: templates
-        icon: clone
-      - link:
-          title: 'Content Reuse'
-          url: /support-center/synced-blocks
-        icon: recycle
-      - page: glossary
-        icon: book
-      - page: tags
-        icon: tags
-      - page: readability-metrics
-        icon: gauge
-      - page: github-sync
-        icon: arrows-rotate
-        items:
-          - github-sync/markdoc-format
-          - github-sync/write-markdoc-with-ai
-      - page: code-steps
-        icon: list-ol
-      - page: changelogs
-        icon: bullhorn
-      - link:
-          title: 'Adaptive Content'
-          url: /support-center/conditional-content
-        icon: filter
   - category: AI
     icon: wand-magic-sparkles
     items:
       - page: ai-features
-        icon: sparkles
+        icon: toggle-on
         items:
           - page: ai-features/ai-commit-messages
             icon: code-commit
@@ -275,17 +209,88 @@ items:
           title: 'AI Search'
           url: /support-center/ai-search
         icon: comments
-  - category: Developers
+  - category: 'Integrations & Sync'
+    icon: share-nodes
     items:
+      - page: github-sync
+        icon: arrows-rotate
+        items:
+          - github-sync/markdoc-format
+          - github-sync/write-markdoc-with-ai
+      - page: importing-documentation
+        icon: file-import
+        items:
+          - importing-documentation/external-sources
+          - importing-documentation/import-from-zendesk
+      - page: integrations
+        icon: puzzle-piece
+        items:
+          - integrations/google-analytics
+          - integrations/intercom
+          - integrations/slack
+          - link:
+              title: Localize
+              url: /support-center/localisation
+          - integrations/jupyter-notebook-integration
+          - integrations/hubspot-integration
+          - integrations/zendesk-integration
+          - integrations/powr-integration
+          - integrations/graphs-charts
+          - integrations/latex
+          - integrations/graphql
       - page: developer-tools
         icon: screwdriver-wrench
-      - page: css-customisations
-        icon: 'fab:css3-alt'
       - link:
           title: 'Our APIs'
           url: /api/ref
         icon: plug
+  - category: 'Search & Insights'
+    icon: chart-simple
+    items:
+      - page: using-search
+        icon: magnifying-glass
+        items:
+          - using-search/enterprise-search
+      - page: search-analytics
+        icon: chart-line
+      - page: feedback
+        icon: thumbs-up
+      - page: comments
+        icon: comments
+      - page: page-history
+        icon: clock-rotate-left
+      - page: activity-log
+        icon: list-check
+      - page: collaboration
+        icon: users
+        items:
+          - collaboration/dashboard
+  - category: Admin
+    icon: gears
+    items:
+      - page: project-settings
+        icon: gear
+        items:
+          - project-settings/managing-projects
+          - project-settings/managing-versions
+          - project-settings/managing-documentation
+          - project-settings/managing-api-references
+          - project-settings/api-key
+          - project-settings/advanced-settings
+      - page: documentation-settings
+        icon: sliders
+        items:
+          - documentation-settings/documentation-footer
+      - page: organisation-settings
+        icon: building
+      - page: account-settings
+        icon: user-gear
+      - page: supercharged-plans
+        icon: star
+      - page: referrals
+        icon: gift
   - category: Support
+    icon: life-ring
     items:
       - page: what-s-new
         icon: newspaper
@@ -303,8 +308,6 @@ items:
         icon: rss
       - page: upcoming-features
         icon: road
-      - page: keyboard-shortcuts
-        icon: bolt
       - page: supported-browsers
         icon: globe
       - page: contact-us
