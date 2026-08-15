@@ -1,6 +1,6 @@
 items:
   - category: 'Getting Started'
-    icon: door-open
+    icon: door-open 
     items:
       - page: getting-started
         icon: rocket
