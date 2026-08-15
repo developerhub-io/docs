@@ -15,8 +15,8 @@ By default, all features are disabled and require activation by an admin. You wi
 
 The features are:
 
-- [AI Agent](/support-center/ai-agent): Ask for a change in a conversation and have it drafted across your pages, API references and changelog posts for you to review.
-- [Self-Updating Docs](/support-center/self-updating-docs): Attach your code repositories so the agent can check what your docs claim against what your code does, and draft the updates a pull request implies.
+- [AI Agent](ai-agent.md): Ask for a change in a conversation and have it drafted across your pages, API references and changelog posts for you to review.
+- [Self-Updating Docs](self-updating-docs.md): Attach your code repositories so the agent can check what your docs claim against what your code does, and draft the updates a pull request implies.
 - [AI Writer](writing-documentation/ai-writer.md): Provides AI functions to manipulate text, including shortening, enhancing and grammar correction.
 - [AI Assistant](writing-documentation/ai-search.md): Ask questions about the docs in natural language and receive GPT powered answers.
 - [AI Commit Messages](ai-features/ai-commit-messages.md): Automatically annotate page histories.

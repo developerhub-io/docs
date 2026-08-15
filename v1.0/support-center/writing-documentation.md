@@ -20,7 +20,7 @@ The editor is one of several ways to get content into your docs. They all write 
 - **In the editor.** Write in place in your browser, exactly as your readers will see it. That is what the rest of this page covers.
 - [**As code, in Git**](github-sync.md)**.** Sync a GitHub repository two ways and write your pages as files, so a change can go through a pull request before it reaches your readers.
 - [**From an AI client**](ai-features/mcp-server/editor-mcp-server.md)**.** Connect Claude, Cursor, or another MCP client to your project and let it find, write and publish pages for you.
-- [**With the AI Agent**](writing-documentation/ai-agent.md)**.** Describe what you want in the editor's chat panel, then review the edits it suggests before applying them.
+- [**With the AI Agent**](ai-agent.md)**.** Describe what you want in the editor's chat panel, then review the edits it suggests before applying them.
 
 ## Editing
 
