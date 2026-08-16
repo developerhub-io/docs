@@ -27,6 +27,34 @@ The features are:
 
 Read the linked sections to understand what information we send for each feature.
 
+## AI Credits
+
+AI credits pay for [AI Agent](ai-agent.md), including the pull request checks under [Self-Updating Docs](self-updating-docs.md). No other feature on this page spends them.
+
+A plan with AI features includes a monthly allowance of credits, which renews with your billing period. How many depends on the plan; see [Pricing](https://developerhub.io/pricing). Credits belong to a project, so each of your projects has its own allowance.
+
+Each message you send the agent spends credits from the balance. How many depends on the size of the job, so correcting a page costs less than restructuring a section.
+
+You can see what a project has left in three places:
+
+- The **AI Editor** window, in its top bar.
+- This page, at the end of the row holding the **Agent** and **Readers** tabs.
+- Project Settings → **Billing** → **Plan \& Usage**, under **AI credits**, which shows the full picture and when the allowance renews.
+
+Admins are emailed once when a project drops to 20% of its allowance. You can turn that email off in [Account Settings](account-settings.md#email-notifications).
+
+### Running out
+
+With no credits left, the agent will not start a new run, and pull request checks stop until the allowance renews or you top up. A run already under way finishes what it can and keeps everything it has staged for you to review.
+
+Everything else carries on as normal, including your published documentation and every other AI feature.
+
+### Topping up
+
+To buy more before your allowance renews, open Project Settings → **Billing** → **Plan \& Usage** and use **Top up** under **AI credits**. Bought credits sit on top of your monthly allowance, survive a plan change, and last 12 months. Your allowance is always spent first.
+
+On an enterprise plan, credits are a term of your contract instead. [Contact Us](contact-us.md) and we will size them to your team.
+
 ## Which models we use
 
 The documentation agent, and the pull request checks that run on it, use the model an admin picks for the project under Project Settings → **AI** → **AI Features** → **Agent** → **Agent model**. Each option shows the provider that serves it and the region it runs in, so you can rule out a jurisdiction if you need to, and **Auto** follows our current recommendation.

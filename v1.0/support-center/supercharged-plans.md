@@ -27,6 +27,10 @@ Plans are subscribed to, and are paid for *per project per month*. To upgrade yo
 
 We accept payment through debit/credit cards. For enterprise plans, we offer payment through bank transfers as well.
 
+## AI Credits
+
+Project Settings → **Plan \& Usage** also holds the project's [AI credits](ai-features.md#ai-credits): what is left of this month's allowance, when it renews, and how to top up.
+
 ## Cancelling or Downgrading a Supercharged Plan
 
 To downgrade a project's supercharged plan:

@@ -16,11 +16,24 @@ Account Settings is organised into panes:
 - **Profile**: display name, company name, job title (email and organisation are read-only).
 - **Security (Password)**: change your password.
 - **Security (Passkeys)**: add and remove [passkeys](account-settings.md#using-passkeys).
-- **Preferences**: notification settings and [live markdown rendering](writing-documentation/using-markdown.md#disable-live-markdown-rendering).
+- **Preferences**: [email notifications](account-settings.md#email-notifications) and [live markdown rendering](writing-documentation/using-markdown.md#disable-live-markdown-rendering).
 - **Integrations (AI clients)**: connect AI clients (see [Editor MCP Server](ai-features/mcp-server/editor-mcp-server.md)).
 - **Danger zone**: delete your account.
 
 Your referral code lives under the Security (Password) pane.
+
+## Email notifications
+
+Account Settings → **Preferences** → **Notifications \& editing** decides which emails %product% sends you. These are personal settings covering every project you work on, not per-project ones:
+
+| Setting | What it controls |
+| --- | --- |
+| New page comments | Told when a teammate [comments](comments.md) on a page you watch. |
+| Feedback \& surveys | Occasional surveys about the product. |
+| Broken links reports | Periodic reports of broken links across your projects. |
+| Low AI credits | A warning when a project you administer is running low on [AI credits](ai-features.md#ai-credits). |
+
+Low AI credits only reaches you for projects where you are an admin, since buying credits and changing plan both need one.
 
 ## Using Passkeys
 

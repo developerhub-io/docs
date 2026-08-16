@@ -21,7 +21,7 @@ Project Settings → AI → Self-Updating Docs
 
 - **Connect GitHub.** Open Project Settings → **Developers** → **Integrations** and connect GitHub, then grant the %product% GitHub App access to the repositories you want to attach. You do not need to be using [GitHub Sync](github-sync.md) for your documentation. The connection is the only prerequisite.
 - **Attaching needs an admin.** Only admins can open these settings, although anyone on the project can be picked to be told when a check finishes.
-- **Runs need a plan with AI features.** You can attach repositories on any plan, but nothing will run until the project is on one.
+- **Runs need a plan with AI features, and credits.** You can attach repositories on any plan, but nothing will run until the project is on one and has [AI credits](ai-features.md#ai-credits) to spend.
 
 ## Attaching a repository
 
@@ -60,13 +60,17 @@ Nothing is published. The run leaves the proposed changes in AI Agent for someon
 
 A run starts when a pull request is opened, reopened, marked ready for review, or updated with new commits. The agent reports back on the pull request as a check called **DeveloperHub docs**. The check is never a pass or a fail and never blocks a merge: it says either that no documentation change is needed, or how many changes were proposed and where to review them.
 
-To review what a run staged, open **AI Agent** and select the run from the **Pull requests** section of the earlier conversations list. You can reply to a run to ask for more, but you cannot take it over as your own conversation, and you cannot reply while it is still working. A run in progress can be stopped, and anything it staged before you stopped it is kept.
+To review what a run staged, open **AI Agent** and select the run from the **Pull requests** section of the earlier conversations list. The check links straight there, so following it from the pull request lands you on the right run. You can reply to a run to ask for more, but you cannot take it over as your own conversation, and you cannot reply while it is still working. A run in progress can be stopped, and anything it staged before you stopped it is kept.
+
+Reviewers can read these runs too, line by line, without being able to reply or save. Everyone else on the pull request needs a %product% account on the project: the link is not public, and it does not expire.
+
+Checks spend [AI credits](ai-features.md#ai-credits) from the same balance as the conversations your team starts, so a project with none left runs no checks until it renews or tops up.
 
 {% callout type="warning" title="Public repositories" %}
 If a repository is public, anyone can open a pull request on it. The title, description and code changes of every one are read by our AI provider, and the check left on the pull request names the documentation pages that would change and how much each one gains or loses. All of that is visible to anyone who can see the repository.
 {% /callout %}
 
-Each repository can run at most 20 checks a day. The limit resets at midnight UTC, and pushing again before then will not start a check.
+Each repository can run at most 20 checks a day, and says so on the pull request once it is reached. The limit resets at midnight UTC, and pushing again before then will not start a check.
 
 ### Telling people about a run
 

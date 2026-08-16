@@ -29,11 +29,19 @@ AI Agent needs a plan that includes AI features, and an admin has to switch it o
 
 Writers and above can then use it. Saving and publishing in one step, deleting anything, and changing a page's sidebar icon all need the publisher role, so a writer may be able to edit something they cannot remove.
 
+Reviewers get a read-only view instead. They can open the window, read the [pull request runs](self-updating-docs.md) and go through a proposal line by line, but they cannot ask for anything, accept or reject a section, or save. See [what reviewers can read](#what-reviewers-can-read).
+
+Anyone can open the window whatever their plan. If the project has no AI features, or an admin has switched the agent off, you get a sample run showing what it does in place of the real thing, and a **See plans** button.
+
+Runs are metered. Each message you send spends [AI credits](ai-features.md#ai-credits) from the project's monthly balance, shown as a pill in the window's top bar.
+
 ## Opening AI Agent
 
 Select **AI Agent** {% icon classes="fas fa-robot" /%} in the editor's top bar. It opens as a near full-screen window headed **AI Editor**, with the conversation on the left and the review panes on the right.
 
 Closing the window does not stop a run. The agent carries on working while you go and look at the pages it is changing, and the top bar button keeps pulsing until it finishes.
+
+Reopening it puts you back in the conversation you left, staged changes and all. You only start somewhere new when the last one is genuinely done: everything in it saved or discarded, nothing running, nothing half-typed, and an hour since you last touched it. Then the button opens a fresh conversation and files the old one under earlier conversations.
 
 ## Asking for a change
 
@@ -45,9 +53,11 @@ The agent works across the documentation version you are in, including drafts an
 - Find the reader searches that returned nothing, and fix the pages that should have answered.
 - Fix all the broken links on this page.
 
+The agent always knows which page you have open behind the window, so "fix the broken links on this page" or "tighten this up" work without you naming anything. It follows you as you move around: what counts as "this page" is whatever is open when you send the message, not when you opened the window. An API reference works the same way. Knowing where you are does not confine the agent to that page, so a request that reaches wider still does.
+
 ### Pointing at something with @
 
-Type `@` in the message box to point the agent at something specific. You can pick:
+Type `@` in the message box to point the agent at something specific. Mentioning is stronger than simply having a page open: it tells the agent to go and read that page before answering. You can pick:
 
 - **this page**: the page open behind the window.
 - Any page in the version.
@@ -88,7 +98,7 @@ When you are happy, use the bar at the bottom:
 Saving does not end the conversation. Saved changes stay in the list, and you can keep asking for more.
 
 {% callout type="warning" title="Some changes have no draft" %}
-Deletions and page settings changes (a page's address, title, sidebar icon or position) are not drafted. They take effect the moment you save, with either button.
+Deletions and page settings changes (a page's slug, title, sidebar icon or position) are not drafted. They take effect the moment you save, with either button.
 
 Links to a renamed page from inside your documentation are repointed for you, but links from anywhere else, such as bookmarks, emails and search results, will stop working. A deletion cannot be undone.
 
@@ -104,11 +114,27 @@ Each conversation keeps its own thread and its own staged changes.
 
 The same list has a **Pull requests** section, holding the runs that started from a pull request on an attached [code repository](self-updating-docs.md). You can read those and reply to them, but they stay with the pull request rather than becoming one of your own conversations.
 
+### What reviewers can read
+
+Reviewers see the **Pull requests** section and nothing else in that list. Other people's conversations stay private to them, and a reviewer's own list is empty until the agent proposes something for a pull request.
+
+A reviewer can open a run and read every proposed change line by line. They cannot send a message, accept or reject a section, drop a change, or save. A note above the message box says so.
+
+This is what makes the review link in a pull request useful to a wider group: anyone on the project from reviewer upwards can follow it and read the proposal, while acting on it still needs a writer.
+
 ## Keeping a conversation sharp
 
 A dial at the top of the conversation shows how full it is as a percentage. Past 75% the agent suggests starting a new conversation, and past 90% it asks you to confirm before sending. Starting a new conversation never loses what is already staged.
 
-The **Context** button next to the message box shows which version the agent is editing and which code repositories it is reading, and warns you when an attached repository cannot be read or has not been read for a while.
+The **Context** button next to the message box shows what the agent is working from:
+
+| Row | What it shows |
+| --- | --- |
+| Viewing | The page or API reference open behind the window. It disappears when nothing is open. |
+| Editing | The version the agent is writing to. |
+| Reading | The [code repositories](self-updating-docs.md) it can read, or a note that none are attached. |
+
+It also warns you when an attached repository cannot be read or has not been read for a while.
 
 ## Choosing the model
 
