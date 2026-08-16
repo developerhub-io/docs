@@ -45,13 +45,36 @@ Reopening it puts you back in the conversation you left, staged changes and all.
 
 ## Asking for a change
 
-The agent works across the documentation version you are in, including drafts and unpublished pages. Some examples of what to ask for:
+The agent works across the documentation version you are in, including drafts and unpublished pages. Ask in your own words, and describe the outcome you want rather than the steps to get there.
 
-- Rename the `legacy_token` parameter to `api_token` everywhere it appears.
-- Add a "Rate limits" section to every endpoint page that does not have one.
-- Write a changelog post covering what changed in v3.
-- Find the reader searches that returned nothing, and fix the pages that should have answered.
-- Fix all the broken links on this page.
+### Examples
+
+**Fixing what is broken**
+
+- *Fix all the broken links in this version.* It checks every page in one pass rather than page by page, repoints the links it can resolve, and reports two pages sharing a slug as something for you to rename rather than renaming one itself.
+- *Rename the `legacy_token` parameter to `api_token` everywhere it appears.* Pages, API references and changelog posts in the same run, so the spec does not keep the old name after the prose has moved on.
+- *Find the reader searches that returned nothing, and fix the pages that should have answered.* It reads [search analytics](search-analytics.md) itself, then separates the terms that need a page written from the ones where the page exists under wording no reader guesses.
+
+**Keeping the docs level with the product**
+
+These need a [code repository](self-updating-docs.md) attached:
+
+- *Check the last commits and update the docs.* It reads the commits, works out which of them change anything a reader would notice, and edits only the pages that are behind. Refactors, dependency bumps and internal tooling are left alone.
+- *Find stale pages and check whether they need updating.* It compares what the pages claim against the source, and where the two disagree it says which of them it thinks is out of date and names the file it read.
+- *Write a changelog post covering what shipped in v3.* It reads your recent posts first and follows how they are written, and keeps the post to what a customer can now do.
+
+**Reshaping what is there**
+
+- *Rewrite all the pages under Installation and restructure them.* Several rewrites, a page split out of one of them, and the order they sit in, all in one proposal.
+- *Add a "Rate limits" section to every endpoint page that does not have one.*
+- *Turn the last three sections of this page into a page of their own, and put it directly after this one.*
+
+**The sidebar**
+
+- *Add icons to all pages.* It chooses an icon per page from the page's title and leaves the pages that already have one. This needs the publisher role.
+- *Add a "Guides" category above the tutorials.* It can add categories, links, labels and separators. Grouping existing pages under a new category takes two goes: save the category first, as nothing can be moved into an item that so far exists only as a proposal.
+
+An edit is not the only acceptable answer. Asked to write up a release that turns out to be refactors and test changes, it tells you there is nothing a reader would notice rather than writing it up anyway.
 
 The agent always knows which page you have open behind the window, so "fix the broken links on this page" or "tighten this up" work without you naming anything. It follows you as you move around: what counts as "this page" is whatever is open when you send the message, not when you opened the window. An API reference works the same way. Knowing where you are does not confine the agent to that page, so a request that reaches wider still does.
 
@@ -147,6 +170,7 @@ Each model is rated out of three for **Cost**, **Speed** and **Judgement**, and 
 - It cannot create an API reference. That means [uploading a definition](uploading-references.md) yourself.
 - It cannot delete a page that has pages nested under it, the only page left in a documentation section, or the last section in a version.
 - It cannot move a page to a different documentation section, or rename and reorder the sections themselves.
+- It can add a category, link, label or separator to the sidebar, but it cannot rename, move or remove one once it is there.
 - It cannot clear a page completely. Emptying a page is not the same as deleting it, so the agent refuses and points you at deleting it properly instead.
 - It cannot generate images.
 - It cannot change your code. Attached repositories are read only.
