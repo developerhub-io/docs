@@ -48,7 +48,7 @@ Using %product% all you have to do is to write your content. No coding, no desig
 - Styling your content cannot be any easier. Whether your writers are tech people or not, they can format the content using a [toolbar](writing-documentation/formatting-text.md), [keyboard shortcuts](keyboard-shortcuts.md), or using [Markdown](writing-documentation/using-markdown.md) syntax on the fly 👩‍💻
 - Write however your team works: in the editor, [as code in a Git repository](github-sync.md), [from an AI client over MCP](ai-features/mcp-server/editor-mcp-server.md), or with the built-in [AI Agent](ai-agent.md). It is all the same set of pages ✍️
 - You can set up a review process with powerful [user permissions](collaboration.md), page [comments](comments.md), [drafting](writing-documentation/draft-mode.md) and publishing capabilities.
-- [AI-Powered](ai-features.md) with [AI Writer](writing-documentation/ai-writer.md), [AI Assistant](writing-documentation/ai-search.md), [META descriptions generator](ai-features/ai-summarisation.md) and more {% icon classes="fas fa-robot" /%}
+- [AI-Powered](ai-features.md) with [AI Writing Tools](writing-documentation/ai-writer.md), [AI Assistant](writing-documentation/ai-search.md), [META descriptions generator](ai-features/ai-summarisation.md) and more {% icon classes="fas fa-robot" /%}
 - [Analytics](integrations/google-analytics.md), [search](using-search.md), [reviews](comments.md), [search analytics](search-analytics.md), [SEO](seo.md), [link checking](writing-documentation/page-linking.md#listing-broken-links), [glossary](glossary.md) and [feedback](feedback.md) are all built in (seriously) 🚀
 - You can [host](hosting.md) on your [custom domain](hosting/using-custom-domain.md), on [your existing website](hosting.md#hosting-under-an-existing-website), or on a [subdomain](hosting.md#hosting-under-product-subdomain) of ours 🔗
 - We have native support for [OpenAPI 2 and 3](api-references.md), with an API editor and API playground built-in, so your users can test your APIs right away and you can bring your API References close to your user guides 🗂
@@ -58,15 +58,18 @@ Using %product% all you have to do is to write your content. No coding, no desig
 Explore more below:
 
 {% cards %}
-{% card title="First Steps" text="Signing up" link="getting-started/first-steps.md" /%}
-{% card title="Formatting Text" text="All formatting options" link="writing-documentation/formatting-text.md" /%}
-{% card title="Blocks" text="Rich native elements" link="writing-documentation/blocks.md" /%}
-{% card title="Hosting" text="Options for hosting the docs" link="hosting.md" /%}
-{% card title="Customisation" text="Logo, font, colours, CSS" link="customising-visuals.md" /%}
-{% card title="API References" text="OpenAPI viewer and editor, with API playground" link="api-references.md" /%}
-{% card title="Importing Documentation" text="Migrating docs" link="importing-documentation.md" /%}
-{% card title="AI Features" text="AI writer, AI search..." link="ai-features.md" /%}
-{% card title="Conditional Content" text="Restrict content to specific audiences" link="conditional-content.md" /%}
+{% card title="First Steps" text="Sign up, create your project and publish your first page" link="getting-started/first-steps.md" /%}
+{% card title="Importing Documentation" text="Bring your existing docs across from your current tool" link="importing-documentation.md" /%}
+{% card title="Formatting Text" text="Toolbar, Markdown and keyboard shortcuts" link="writing-documentation/formatting-text.md" /%}
+{% card title="Blocks" text="Callouts, tabs, code, images, tables and more" link="writing-documentation/blocks.md" /%}
+{% card title="API References" text="OpenAPI viewer, visual editor and API playground" link="api-references.md" /%}
+{% card title="Collaboration" text="Roles, comments, drafts and the review flow" link="collaboration.md" /%}
+{% card title="AI Agent" text="Ask for a change in a conversation and review what it drafts" link="ai-agent.md" /%}
+{% card title="AI Features" text="AI Writing Tools, AI Assistant, MCP servers and AI credits" link="ai-features.md" /%}
+{% card title="GitHub Sync" text="Two-way sync, so your docs live in your repository too" link="github-sync.md" /%}
+{% card title="Hosting" text="Your own domain, a subdomain of ours, or a path on your site" link="hosting.md" /%}
+{% card title="Customisation" text="Logo, favicon, colours, fonts and custom CSS" link="customising-visuals.md" /%}
+{% card title="Conditional Content" text="Show different content to different audiences" link="conditional-content.md" /%}
 {% /cards %}
 
 ---
