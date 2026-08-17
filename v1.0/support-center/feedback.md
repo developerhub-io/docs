@@ -89,25 +89,21 @@ When the setting is enabled, any new feedback that contains a message would be s
 
 ## Feedback Settings
 
-Feedback by default is enabled for all projects if your project was created after April 2021. You may enable or disable Feedback as such:
+Every feedback setting lives in one place: Project Settings → **General** → **Feedback**. Change what you need there, then click **Save changes** in the top menu.
 
-- Open Project Settings → **Advanced**.
-- Check or uncheck **Allow liking/disliking page**.
-- Click **Save changes** in the top menu.
+Under **Reader feedback**:
 
-Projects on a plan that has Feedback Messages feature (Grow and above) can enable Feedback messages as such:
+- **Collect feedback** puts the reactions widget at the foot of every published page. It is on by default for projects created after April 2021.
+- **Written messages** lets readers say why in their own words instead of only reacting. It needs **Collect feedback** on, because the message box is rendered inside the widget, and it needs a plan that includes written messages. See [Pricing](https://developerhub.io/pricing).
 
-- Open Project Settings → **Advanced**.
-- Check **Allow adding message**.
-- Click **Save changes** in the top menu.
+Under **AI moderation**:
 
-To enable or disable spam filtering:
+- **Redact personal information** takes emails, phone numbers and names out of a message before it is stored.
+- **Flag spam** marks junk submissions so they stay out of the way of real feedback.
 
-- Under Feedback, check or uncheck **Filter spam**.
+Both moderation settings need **Written messages** on, because a reaction carries no text to redact or classify, and both need a plan that includes AI features.
 
-To enable or disable redacting personal identifiable information:
-
-- Under Feedback, check or uncheck **Redact personal information**.
+Turning any of these settings off is always allowed, whatever your plan. If your project is carrying a setting from a plan it has since left, you can still switch it back off.
 
 ## Javascript Hook for Feedback
 
