@@ -9,7 +9,7 @@ keywords:
 tags: 
 ---
 
-Writing documentation on %product% cannot be any easier. In your editor pages, click anywhere on the text in your documentation and start writing down. You can even use [the AI Writer](writing-documentation/ai-writer.md) to help you craft the best content. Everything in the editor will be shown to you just as your readers, so there is no split view and no separate preview to keep in sync.
+Writing documentation on %product% cannot be any easier. In your editor pages, click anywhere on the text in your documentation and start writing down. You can even use [AI Writing Tools](writing-documentation/ai-writer.md) to help you craft the best content. Everything in the editor will be shown to you just as your readers, so there is no split view and no separate preview to keep in sync.
 
 {% image url="../../assets/a4ee5d20d8356d9e2a15d522065de28186d599c9.png" /%}
 

@@ -17,7 +17,7 @@ In %product%, AI can automatically annotate the history of every page, making it
 
 AI commit messages are disabled by default and must be enabled by an admin. To enable AI commit messages:
 
-- Open Project Settings → **AI** → **AI Features**, then the **Agent** tab.
+- Open Project Settings → **AI** → **AI Agents \& MCP**, then the **Editor** tab.
 - Under **Writing**, turn on **AI commit messages**.
 - Click **Save changes** in the top menu.
 

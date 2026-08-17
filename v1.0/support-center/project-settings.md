@@ -29,8 +29,10 @@ Project Settings is organised into groups. Each group contains panes:
 - **Hosting**: Subdomain, custom domain, base path, SSL, search-engine indexing, redirects, server headers.
 - **Customisation**: Logo, favicon, top navigation links, colours, font, theme, [Custom CSS](customising-visuals/custom-css.md), [Custom Footer](customising-visuals/custom-footer.md), [HEAD tags](custom-javascript.md).
 - **Access**: [Password](private-docs.md#password-protect-set-up), [email](private-docs/email-invite.md), [SSO](private-docs/reader-single-sign-on.md) and [JWT](private-docs/custom-login.md) access.
+- **Feedback**: [Reader feedback and AI moderation](feedback.md#feedback-settings).
 - **Content**: [Glossary](glossary.md), [Navigation Groups](customising-visuals/top-navigation-bar.md#navigation-structure), [Project Variables](variables.md), [Page Tags](tags.md), [Audiences](conditional-content.md).
-- **Developers**: [API Keys](project-settings/api-key.md), [Integrations](integrations.md) (Slack, GitHub, Intercom, Google Analytics), [AI Features](ai-features.md).
+- **Developers**: [API Keys](project-settings/api-key.md), [Integrations](integrations.md) (Slack, GitHub, Intercom, Google Analytics), [Docs Sync](github-sync.md).
+- **AI**: [AI Agents \& MCP](ai-features.md), [Self-Updating Docs](self-updating-docs.md).
 - **Team**: [Invite teammates, change roles, transfer ownership](collaboration.md).
 - **Plan \& Usage**: Current plan, seats, [upgrade](supercharged-plans.md).
 - **Advanced**: Editorial flow toggles, pinned deployment, multi-format exports.

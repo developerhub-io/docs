@@ -34,7 +34,7 @@ Using the toolbar you can do the following:
 - Inline code
 - Comment
 
-And you can use the [AI Writer](ai-writer.md).
+And you can use [AI Writing Tools](ai-writer.md).
 
 ## Tips \& Tricks
 

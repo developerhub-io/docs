@@ -11,13 +11,13 @@ tags: ai
 
 We offer a range of AI features designed to streamline your tasks and enhance efficiency.
 
-By default, all features are disabled and require activation by an admin. You will find them under Project Settings → **AI** → **AI Features**, split across an **Agent** tab for the features your team uses and a **Readers** tab for what your readers' AI tools can do with your documentation.
+By default, all features are disabled and require activation by an admin. You will find them under Project Settings → **AI** → **AI Agents \& MCP**, split across an **Editor** tab for the features your team uses and a **Readers** tab for what your readers' AI tools can do with your documentation.
 
 The features are:
 
 - [AI Agent](ai-agent.md): Ask for a change in a conversation and have it drafted across your pages, API references and changelog posts for you to review.
 - [Self-Updating Docs](self-updating-docs.md): Attach your code repositories so the agent can check what your docs claim against what your code does, and draft the updates a pull request implies.
-- [AI Writer](writing-documentation/ai-writer.md): Provides AI functions to manipulate text, including shortening, enhancing and grammar correction.
+- [AI Writing Tools](writing-documentation/ai-writer.md): Select text in the editor, pick a function, and have it rewritten in place. Includes shortening, enhancing and grammar correction.
 - [AI Assistant](writing-documentation/ai-search.md): Ask questions about the docs in natural language and receive GPT powered answers.
 - [AI Commit Messages](ai-features/ai-commit-messages.md): Automatically annotate page histories.
 - [AI SEO Helper](ai-features/ai-summarisation.md): Summarises pages to write a META description.
@@ -38,7 +38,7 @@ Each message you send the agent spends credits from the balance. How many depend
 You can see what a project has left in three places:
 
 - The **AI Editor** window, in its top bar.
-- This page, at the end of the row holding the **Agent** and **Readers** tabs.
+- This page, at the end of the row holding the **Editor** and **Readers** tabs.
 - Project Settings → **Billing** → **Plan \& Usage**, under **AI credits**, which shows the full picture and when the allowance renews.
 
 Admins are emailed once when a project drops to 20% of its allowance. You can turn that email off in [Account Settings](account-settings.md#email-notifications).
@@ -57,11 +57,11 @@ On an enterprise plan, credits are a term of your contract instead. [Contact Us]
 
 ## Which models we use
 
-The documentation agent, and the pull request checks that run on it, use the model an admin picks for the project under Project Settings → **AI** → **AI Features** → **Agent** → **Agent model**. Each option shows the provider that serves it and the region it runs in, so you can rule out a jurisdiction if you need to, and **Auto** follows our current recommendation.
+The documentation agent, and the pull request checks that run on it, use the model an admin picks for the project under Project Settings → **AI** → **AI Agents \& MCP** → **Editor** → **Agent model**. Each option shows the provider that serves it and the region it runs in, so you can rule out a jurisdiction if you need to, and **Auto** follows our current recommendation.
 
 Those runs are served through OpenRouter, and only providers with zero data retention are used. Your content is never kept and never used to train a model.
 
-Our other AI features, including AI Writer, AI commit messages, AI Assistant and the feedback filters, use OpenAI's GPT models.
+Our other AI features, including AI Writing Tools, AI commit messages, AI Assistant and the feedback filters, use OpenAI's GPT models. AI Writing Tools are not affected by the model an admin picks: rewriting a selection always runs on a small fast model.
 
 ## Terms \& Conditions
 

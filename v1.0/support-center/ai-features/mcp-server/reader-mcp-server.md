@@ -21,7 +21,7 @@ This server is read-only and covers your published docs. To let your own team wr
 
 The tools available under the MCP server are:
 
-- `search`: Runs an AI search over your docs.
+- `search`: Runs a natural-language search over your docs.
 
 The MCP server supports the Streamable HTTP transport.
 
@@ -31,10 +31,10 @@ If you need more tools, [contact us](../../contact-us.md) with the details!
 
 ## Enabling MCP Server
 
-To enable the MCP server:
+The reader MCP server runs on the same index as [AI Assistant](../../writing-documentation/ai-search.md), so AI Assistant has to be on first. To enable the MCP server:
 
-- Open Project Settings → **AI** → **AI Features**, then the **Readers** tab.
-- Under **AI search**, turn on **MCP server**.
+- Open Project Settings → **AI** → **AI Agents \& MCP**, then the **Readers** tab.
+- Under **AI Assistant**, turn on **MCP server**.
 - Click **Save changes** in the top menu.
 
 It will take up to 5 minutes for the change to occur. If `AI Tools` button is enabled, the readers would be able to connect to Cursor and VS Code using the MCP server through the dropdown.

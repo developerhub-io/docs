@@ -25,9 +25,9 @@ AI Assistant allows the readers to ask a questions about the docs and API endpoi
 - Provides a source list for further reading.
 - The reader can ask follow up questions.
 
-## AI Search Experience
+## AI Assistant Experience
 
-When [AI Search is enabled](ai-search.md#enabling-ai-search), an **Ask AI** button appears next to the search bar. Clicking this button opens an assistant sidebar on the right side of the screen.
+When [AI Assistant is enabled](ai-search.md#enabling-ai-assistant), an **Ask AI** button appears next to the search bar. Clicking this button opens an assistant sidebar on the right side of the screen.
 
 The assistant provides a conversational interface where readers can:
 
@@ -40,13 +40,15 @@ The assistant responds with detailed explanations and examples when possible, an
 
 ## Enabling AI Assistant
 
-To enable/disable AI Assistant:
+AI Assistant needs a plan that includes it. To enable or disable it:
 
-- Open Project Settings → **AI** → **AI Features**, then the **Readers** tab.
-- Under **AI search**, turn **AI search** on or off.
+- Open Project Settings → **AI** → **AI Agents \& MCP**, then the **Readers** tab.
+- Under **AI Assistant**, turn **AI Assistant** on or off.
 - Click **Save changes** in the top menu.
 
 Once AI Assistant is enabled, it might take a couple of minutes until it is useable.
+
+If your project is not on a plan that includes AI Assistant, the switch stays inactive and the card tells you which plans do. Should your project later move to a plan without it, AI Assistant and its [MCP server](../ai-features/mcp-server/reader-mcp-server.md) are switched off and your documentation stops being indexed. Switching AI Assistant off is always allowed, whatever your plan.
 
 ## Search Update Frequency
 
@@ -58,8 +60,8 @@ To validate responses provided by AI Assistant, a log of all questions and answe
 
 To download the log:
 
-- Open Project Settings → **AI** → **AI Features**, then the **Readers** tab.
-- Next to **Download AI search logs**, select the duration to download the logs for.
+- Open Project Settings → **AI** → **AI Agents \& MCP**, then the **Readers** tab.
+- Next to **Download AI Assistant logs**, select the duration to download the logs for.
 
 The logs contain a UID which is an anonymous identifier of the user. It can help understand the different questions a user has asked.
 

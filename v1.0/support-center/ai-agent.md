@@ -23,9 +23,11 @@ The conversation, the staged changes, and the change under review
 
 AI Agent needs a plan that includes AI features, and an admin has to switch it on:
 
-- Open Project Settings → **AI** → **AI Features**.
-- On the **Agent** tab, under **Writing**, turn on **AI writing agent**.
+- Open Project Settings → **AI** → **AI Agents \& MCP**.
+- On the **Editor** tab, under **Writing**, turn on **AI in the editor**.
 - Click **Save changes** in the top menu.
+
+**AI in the editor** is the master switch for every AI that works on your docs, so it also turns on [AI Writing Tools](writing-documentation/ai-writer.md) and the agent that fixes and edits your OpenAPI spec. Off means no editor AI at all.
 
 Writers and above can then use it. Saving and publishing in one step, deleting anything, and changing a page's sidebar icon all need the publisher role, so a writer may be able to edit something they cannot remove.
 
@@ -161,7 +163,7 @@ It also warns you when an attached repository cannot be read or has not been rea
 
 ## Choosing the model
 
-Admins can pick the model every agent run in the project uses, including the pull request checks under Self-Updating Docs. Open Project Settings → **AI** → **AI Features** → **Agent** tab, and use **Agent model** in the **Model** card.
+Admins can pick the model every agent run in the project uses, including the pull request checks under Self-Updating Docs. Open Project Settings → **AI** → **AI Agents \& MCP** → **Editor** tab, and use **Agent model** in the **Model** card.
 
 Each model is rated out of three for **Cost**, **Speed** and **Judgement**, and shows the provider that serves it and the region it runs in, so you can rule out a jurisdiction if you need to. **Auto** follows our current recommendation and moves with it.
 
@@ -177,9 +179,9 @@ Each model is rated out of three for **Cost**, **Speed** and **Judgement**, and 
 
 If a request needs one of these, the agent says so and does the part it can rather than approximating the rest.
 
-## AI Agent and AI Writer
+## AI Agent and AI Writing Tools
 
-[AI Writer](writing-documentation/ai-writer.md) works inline on text you have highlighted and applies its changes straight away. AI Agent works from a conversation, can change many pages, API references and changelog posts at once, and stages everything for review first.
+[AI Writing Tools](writing-documentation/ai-writer.md) work inline on text you have highlighted and apply their changes straight away. AI Agent works from a conversation, can change many pages, API references and changelog posts at once, and stages everything for review first.
 
 ## Activity log
 

@@ -19,7 +19,7 @@ The file named `llms.txt`, located at the base of your project path, is integral
 
 `llms.txt` support is enabled by default for new projects. To enable `llms.txt`:
 
-- Open Project Settings → **AI** → **AI Features**, then the **Readers** tab.
+- Open Project Settings → **AI** → **AI Agents \& MCP**, then the **Readers** tab.
 - Under **LLM friendliness**, turn on **Enable llms.txt**.
 - Click **Save changes** in the top menu.
 

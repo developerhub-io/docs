@@ -185,11 +185,11 @@ items:
       - page: self-updating-docs
         icon: code-pull-request
       - link:
-          title: 'AI Writer'
+          title: 'AI Writing Tools'
           url: /support-center/ai-writer
         icon: pen-nib
       - link:
-          title: 'AI Search'
+          title: 'AI Assistant'
           url: /support-center/ai-search
         icon: comments
   - category: 'Integrations & Sync'

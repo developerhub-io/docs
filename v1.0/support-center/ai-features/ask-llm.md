@@ -20,7 +20,7 @@ The **AI Tools** button appears next to a page title and opens a contextual menu
 
 The AI Tools button is enabled by default for new projects. To enable or disable it:
 
-1. Open Project Settings → **AI** → **AI Features**, then the **Readers** tab.
+1. Open Project Settings → **AI** → **AI Agents \& MCP**, then the **Readers** tab.
 2. Under **LLM friendliness**, ensure **Enable llms.txt** is on (required).
 3. Toggle **Show AI tools button** on or off.
 4. Click **Save changes** in the top menu.
