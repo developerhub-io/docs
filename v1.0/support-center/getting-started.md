@@ -33,27 +33,29 @@ Learn how to use %product% in our step-by-step guide:
 
 ## What is %product%?
 
-%product% is a documentation tool to build online documentation. With %product% you can write product \& user guides, developer hubs/portals, knowledge bases and support centres. %product% is the only product on the market that has an advanced editor and native support for OpenAPI specs.
+%product% is an agentic documentation platform. You write product \& user guides, developer hubs/portals, knowledge bases and support centres, and an agent helps you keep them level with your product.
 
-Using %product% all you have to do is to write your content. No coding, no designing, no managing infrastructure or hiring a software team.
+Attach your code repository and the agent reads the pull requests your team opens, works out which pages they make wrong, and stages the edits for someone to review. Nothing publishes on its own. See [Self-Updating Docs](self-updating-docs.md).
+
+You can also just ask our AI Agent. One request can restructure a section, rename a parameter across pages and API references, or turn your [search analytics](search-analytics.md) into the pages your readers could not find. See [AI Agent](ai-agent.md).
+
+Everything else is managed for you. No designing, no infrastructure to run, no software team to hire.
 
 ## Why should I use %product%?
 
-%product% provides you with the simplest way ever to have your documentation written. But don't take our word for it, try it out. Everything you need to do on %product% is literally a click away from you. %product% decreases the time needed by your team to have a functional documentation up and running, allowing them to focus on the most important part: *Writing the perfect documentation*.
+Both halves of your team work on the same pages, the way they already work. Writers get an editor where what you are editing looks like what publishes, with no MDX, YAML or frontmatter to learn. Developers keep docs-as-code, with [two-way GitHub sync](github-sync.md) and an [Editor MCP server](ai-features/mcp-server/editor-mcp-server.md) for Claude Code, Cursor or Codex.
 
-%product% is the only platform that you, your techie and non-techie writers, as well as your readers will love 💛 That is because:
+And there is a lot more besides 💛
 
-- Beautiful clear documentation decreases your product's churn rate and helps your prospective customers understand your product. Our expert design makes sure that your documentation is so easy to navigate through 📈
-- Our integrations help you reach out to customers and to track usage, allowing you provide higher customer happiness even on your documentation pages.
-- Styling your content cannot be any easier. Whether your writers are tech people or not, they can format the content using a [toolbar](writing-documentation/formatting-text.md), [keyboard shortcuts](keyboard-shortcuts.md), or using [Markdown](writing-documentation/using-markdown.md) syntax on the fly 👩‍💻
-- Write however your team works: in the editor, [as code in a Git repository](github-sync.md), [from an AI client over MCP](ai-features/mcp-server/editor-mcp-server.md), or with the built-in [AI Agent](ai-agent.md). It is all the same set of pages ✍️
-- You can set up a review process with powerful [user permissions](collaboration.md), page [comments](comments.md), [drafting](writing-documentation/draft-mode.md) and publishing capabilities.
-- [AI-Powered](ai-features.md) with [AI Writing Tools](writing-documentation/ai-writer.md), [AI Assistant](writing-documentation/ai-search.md), [META descriptions generator](ai-features/ai-summarisation.md) and more {% icon classes="fas fa-robot" /%}
-- [Analytics](integrations/google-analytics.md), [search](using-search.md), [reviews](comments.md), [search analytics](search-analytics.md), [SEO](seo.md), [link checking](writing-documentation/page-linking.md#listing-broken-links), [glossary](glossary.md) and [feedback](feedback.md) are all built in (seriously) 🚀
-- You can [host](hosting.md) on your [custom domain](hosting/using-custom-domain.md), on [your existing website](hosting.md#hosting-under-an-existing-website), or on a [subdomain](hosting.md#hosting-under-product-subdomain) of ours 🔗
-- We have native support for [OpenAPI 2 and 3](api-references.md), with an API editor and API playground built-in, so your users can test your APIs right away and you can bring your API References close to your user guides 🗂
-- Where you edit your documentation looks the same as the live documentation. You never have to guess how it will look like when it's published 👍
-- We take customisation to the next level. Completely modify the look by changing [global CSS](customising-visuals/custom-css.md) and injecting [javascript](custom-javascript.md).
+- A design your readers can navigate, so your docs answer them instead of sending them to support 📈
+- Format with a [toolbar](writing-documentation/formatting-text.md), [keyboard shortcuts](keyboard-shortcuts.md) or [Markdown](writing-documentation/using-markdown.md), whether or not your writers are technical 👩‍💻
+- A review process, with [permissions](collaboration.md), [comments](comments.md) and [drafts](writing-documentation/draft-mode.md).
+- AI for your readers: an [AI Assistant](writing-documentation/ai-search.md) that answers from your pages and links where it got the answer, plus a [Reader MCP server](ai-features/mcp-server/reader-mcp-server.md), [llms.txt](ai-features/llms-txt.md) and a Markdown copy of every page, so their own assistants quote your docs instead of guessing {% icon classes="fas fa-robot" /%}
+- AI in the editor: [AI Writing Tools](writing-documentation/ai-writer.md) and a [META descriptions generator](ai-features/ai-summarisation.md).
+- [Analytics](integrations/google-analytics.md), [search](using-search.md), [search analytics](search-analytics.md), [SEO](seo.md), [link checking](writing-documentation/page-linking.md#listing-broken-links), [glossary](glossary.md) and [feedback](feedback.md), all built in (seriously) 🚀
+- [Host](hosting.md) on your [own domain](hosting/using-custom-domain.md), a [path on your site](hosting.md#hosting-under-an-existing-website), or a [subdomain](hosting.md#hosting-under-product-subdomain) of ours 🔗
+- Native [OpenAPI 2 through to 3.2](api-references.md), with an API editor and playground built in, so your API reference sits beside your guides 🗂
+- Change the look completely with [custom CSS](customising-visuals/custom-css.md) and [JavaScript](custom-javascript.md).
 
 Explore more below:
 
@@ -74,4 +76,4 @@ Explore more below:
 
 ---
 
-Our team has been working so hard since December 2017 to craft the best possible experience for you to enjoy writing documentation, without any hassles. Our editor is specifically designed to give you the same exact experience of the live documentation while editing, so you never have to worry about how would it look after publishing it. Our engineers have made sure that you get the smoothest experience editing and also viewing your documentation.
+We have been building %product% since December 2017, to make writing documentation something your team enjoys rather than something it works around.

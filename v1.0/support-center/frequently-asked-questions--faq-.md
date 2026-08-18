@@ -11,7 +11,7 @@ tags:
 
 {% accordion-group %}
 {% accordion title="What is it?" %}
-%product% is a managed service to collaboratively write, publish, review, analyse and collect feedback on personalised customer-facing docs the modern way. Our documentation portals consist of user guides and API references. You could also call %product% a documentation tool.
+%product% is an agentic documentation platform. It is a managed service for writing, publishing and reviewing customer-facing docs, made up of user guides and API references. Attach your code repository and an [agent](ai-agent.md) drafts the changes your pull requests imply, for someone on your team to review before anything publishes.
 {% /accordion %}
 
 {% accordion title="Is it a CMS?" %}
