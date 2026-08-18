@@ -30,7 +30,9 @@ Open Project Settings → **AI** → **Self-Updating Docs**, then in the **Code 
 1. Under **Add a repository**, pick a repository from the list. Only repositories the %product% GitHub App can already see appear here, and your documentation repository is excluded because it is already synced.
 2. Click **Add repository**.
 
-%product% takes a copy of the repository and then reads it to write an agent guide for you.
+%product% fetches a copy of the repository and reads it to write an agent guide for you. You can leave the page while it works.
+
+If the fetch fails, the repository stays attached and tells you why, so you can fix it and use **Fetch now** rather than adding it again.
 
 {% callout type="warning" title="What leaves your project" %}
 The contents of these repositories are sent to our AI provider when the agent reads them. Only attach source you are willing to share on that basis.
@@ -38,7 +40,9 @@ The contents of these repositories are sent to our AI provider when the agent re
 
 ### Branch
 
-Each repository is read from one branch, set in the **Branch** row. Pick the one your code changes land on, usually your default branch, so the agent sees the code your documentation is meant to describe. If your documentation only covers what is released, pick the branch you release from instead.
+Each repository is read from one branch, shown in the **Branch** row. It starts on your repository's own default branch.
+
+Change it if that is not the branch you want read. Pick the one your code changes land on, so the agent sees the code your documentation is meant to describe. If your documentation only covers what is released, pick the branch you release from instead.
 
 The branch you choose applies to the whole project. If you document several versions, they all read that one branch.
 
@@ -50,7 +54,9 @@ The **Agent guide** describes what the repository is and which directory holds w
 
 ### Keeping the copy fresh
 
-The copy of your repository refreshes on its own as the agent works. You can also refresh it yourself with **Fetch now**. If a repository has not been read for more than a week, the row shows how old the copy is. That is worth watching, because an out-of-date copy can lead the agent to confidently correct a page that was already right.
+The copy of your repository refreshes on its own as the agent works. You can also refresh it yourself with **Fetch now**, and leave the page while it works. If a fetch fails, the row shows the reason.
+
+If a repository has not been read for more than a week, the row shows how old the copy is. That is worth watching, because an out-of-date copy can lead the agent to confidently correct a page that was already right.
 
 ## Checking pull requests
 
@@ -60,7 +66,7 @@ Nothing is published. The run leaves the proposed changes in AI Agent for someon
 
 A run starts when a pull request is opened, reopened, marked ready for review, or updated with new commits. The agent reports back on the pull request as a check called **DeveloperHub docs**. The check is never a pass or a fail and never blocks a merge: it says either that no documentation change is needed, or how many changes were proposed and where to review them.
 
-To review what a run staged, open **AI Agent** and select the run from the **Pull requests** section of the earlier conversations list. The check links straight there, so following it from the pull request lands you on the right run. You can reply to a run to ask for more, but you cannot take it over as your own conversation, and you cannot reply while it is still working. A run in progress can be stopped, and anything it staged before you stopped it is kept.
+To review what a run staged, open **AI Agent** and select the run from the **Pull requests** section of the earlier conversations list. The check links straight there from the moment the run starts, so following it from the pull request lands you on the right run, and you can follow along while the agent is still reading. You can reply to a run to ask for more, but you cannot take it over as your own conversation, and you cannot reply while it is still working. A run in progress can be [stopped](ai-agent.md#stopping-a-run), and anything it staged before you stopped it is kept.
 
 Reviewers can read these runs too, line by line, without being able to reply or save. Everyone else on the pull request needs a %product% account on the project: the link is not public, and it does not expire.
 
