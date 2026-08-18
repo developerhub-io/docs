@@ -12,7 +12,7 @@ tags:
 {% html %}
 <div class="grow-border text-left">
 <div class="grow-star">⭐</div>
-    Available in Grow Projects
+    Available in Pro Projects
 </div>
 {% /html %}
 

@@ -105,7 +105,7 @@ At the moment, we have support for English, French, Deutsch and Spanish. If ther
 {% html %}
 <div class="grow-border text-left">
 <div class="grow-star">⭐</div>
-    Available in Grow Projects
+    Available in Pro Projects
 </div>
 {% /html %}
 

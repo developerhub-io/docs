@@ -19,9 +19,8 @@ Perk added: 11 Aug 2020
 
 For supercharged plans users, when a referred company subscribes to a supercharged plan, you will be able to add more team members to your project above the plan's limit. The number of extra allowed team members is decided by the plan the referred company subscribed to:
 
-- **Seed**: 2 added team members.
-- **Startup**: 3 added team members.
-- **Grow**: 5 added team members.
+- **Plus**: 3 added team members.
+- **Pro**: 5 added team members.
 
 Terms and conditions:
 

@@ -40,7 +40,7 @@ Force editors to annotate the changes to be saved. This helps you keep a clean h
 {% html %}
 <div class="grow-border text-left">
 <div class="grow-star">⭐</div>
-    Available in Grow Projects
+    Available in Pro Projects
 </div>
 {% /html %}
 

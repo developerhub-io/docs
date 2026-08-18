@@ -27,7 +27,7 @@ To put an icon next to an entry in your navigation index instead, see [Index Ico
 {% html %}
 <div class="grow-border text-left">
 <div class="grow-star">⭐</div>
-    Available in Grow Projects
+    Available in Pro Projects
 </div>
 {% /html %}
 
