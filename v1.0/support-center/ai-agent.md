@@ -41,9 +41,11 @@ Runs are metered. Each message you send spends [AI credits](ai-features.md#ai-cr
 
 Select **AI Agent** {% icon classes="fas fa-robot" /%} in the editor's top bar. It opens as a near full-screen window headed **AI Editor**, with the conversation on the left and the review panes on the right.
 
-Closing the window does not stop a run. The agent carries on working while you go and look at the pages it is changing, and the top bar button keeps pulsing until it finishes.
+Closing the window does not stop a run. The agent carries on working while you go and look at the pages it is changing, and the top bar button keeps pulsing until it finishes. To end a run early, use [Stop](#stopping-a-run).
 
-Reopening it puts you back in the conversation you left, staged changes and all. You only start somewhere new when the last one is genuinely done: everything in it saved or discarded, nothing running, nothing half-typed, and an hour since you last touched it. Then the button opens a fresh conversation and files the old one under earlier conversations.
+Reopening it puts you back in the conversation you left, staged changes and all, including a turn that is still running. A conversation still working is tagged **Running** in the earlier conversations list.
+
+You only start somewhere new when the last one is genuinely done: everything in it saved or discarded, nothing running, nothing half-typed, and an hour since you last touched it. Then the button opens a fresh conversation and files the old one under earlier conversations.
 
 ## Asking for a change
 
@@ -94,6 +96,12 @@ Deleting the label from your message removes the mention again.
 ### What the agent can read
 
 Beyond your pages, AI Agent can look at [search analytics](search-analytics.md) to find the terms readers searched for and found nothing for, check every link in a version at once, and list the pages that link to a page before it changes it.
+
+## Stopping a run
+
+**Stop** takes the place of the send arrow while a turn is running.
+
+Everything the run had staged by then is kept for you to review, and it still spends the [AI credits](ai-features.md#ai-credits) it used getting that far.
 
 ## Reviewing what it staged
 
