@@ -35,6 +35,8 @@ Account Settings → **Preferences** → **Notifications \& editing** decides wh
 
 Low AI credits only reaches you for projects where you are an admin, since buying credits and changing plan both need one.
 
+Broken links reports can also be switched off for an entire project by one of its admins, in [Advanced Settings](project-settings/advanced-settings.md#broken-links-report-email). If that is done, you receive no report for that project even with this setting on.
+
 ## Using Passkeys
 
 Passkeys allow you to log into %product% editor securely without the need to enter your password. With passkeys, you can authenticate your identity using biometric data or device-based security features, making the login process faster and more convenient. This method enhances security by reducing the reliance on traditional passwords, which can be vulnerable to phishing and other attacks.

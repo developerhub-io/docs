@@ -35,6 +35,16 @@ Force editors to annotate the changes to be saved. This helps you keep a clean h
 - Check **Require annotating on saving**.
 - Click **Save changes** in the top menu.
 
+## Broken Links Report Email
+
+The [broken links report email](../writing-documentation/page-linking.md#broken-links-email) is sent for every project by default. If the docs are no longer maintained and you would rather not receive the recurring report, you can silence it for the whole project instead of asking every subscriber to unsubscribe. To do that:
+
+- Open Project Settings → **Advanced**.
+- Under **Notifications**, uncheck **Broken links report email**.
+- Click **Save changes** in the top menu.
+
+With the setting off, nobody receives the report for this project, whatever their personal [email notification](../account-settings.md#email-notifications) preferences are.
+
 ## Other Settings
 
 {% html %}

@@ -123,6 +123,8 @@ Only internal links created by using Page Linking are examined for breaking. The
 
 A bi-weekly email is sent to admins and publishers that lists all the broken links in the docs. An email is sent per project and a maximum of 3 emails is sent per user. The email subscription status can be changed from [Account Settings](../account-settings.md).
 
+Admins can also turn the report off for a whole project from Project Settings → **Advanced** → **Notifications**, by unchecking **Broken links report email**. See [Advanced Settings](../project-settings/advanced-settings.md#broken-links-report-email).
+
 ## Listing Linked Pages (Backlinks)
 
 If you are planning to delete a page, or modify the page heavily, then you might want to know what other pages are depending on this page. To list all pages linking to the current page you are on:

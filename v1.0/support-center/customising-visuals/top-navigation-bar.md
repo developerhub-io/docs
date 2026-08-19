@@ -16,6 +16,7 @@ The top navigation bar can be customised in multiple ways:
 - [Links](top-navigation-bar.md#adding-links--home-button)
 - [Stickiness](top-navigation-bar.md#sticky-top-navigation-bar)
 - [Navigation Structure](top-navigation-bar.md#navigation-structure)
+- [Version picker](../project-settings/managing-versions.md#hiding-the-version-picker), which can be hidden
 
 ## Navigation Structure
 

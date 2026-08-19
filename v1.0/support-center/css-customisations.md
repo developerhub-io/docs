@@ -13,6 +13,10 @@ You can customise your docs using [Custom CSS](customising-visuals/custom-css.md
 
 ## Hide version selector/picker
 
+{% callout type="warning" title="There's a Setting for This" %}
+CSS is no longer needed. Turn on **Hide version picker** under Project Settings \> Customisation. See [Hiding the Version Picker](project-settings/managing-versions.md#hiding-the-version-picker).
+{% /callout %}
+
 {% code %}
 ```css
 .customise.live .version-picker {
