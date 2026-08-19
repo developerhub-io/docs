@@ -179,6 +179,10 @@ A remembered preference applies to everyone working on the project, on every run
 
 To take one back, select **Forget** on the row that recorded it. Admins can see all of them together, and remove any, under Project Settings → **AI** → **AI Agents \& MCP** → **Editor** tab, in the **Remembered preferences** card.
 
+{% image url="../../assets/agent-remembered-preferences.png" %}
+Every preference the agent has recorded, and the eraser that removes one
+{% /image %}
+
 ## Choosing the model
 
 Admins can pick the model every agent run in the project uses, including the pull request checks under Self-Updating Docs. Open Project Settings → **AI** → **AI Agents \& MCP** → **Editor** tab, and use **Agent model** in the **Model** card.
