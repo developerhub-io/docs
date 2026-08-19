@@ -13,15 +13,19 @@ Attach your source code to a project and [AI Agent](ai-agent.md) can check what 
 
 The agent only ever reads your code. It never writes to a repository, commits, or opens pull requests.
 
-{% image url="../../assets/self-updating-docs.png" %}
-Project Settings → AI → Self-Updating Docs
-{% /image %}
+This video walks through the whole thing: setting it up, the agent starting when a pull request is opened, the changes it stages, asking it for a changelog post, then saving and publishing the result.
+
+{% video videoId="lXsid8q9WUw" /%}
 
 ## Before you start
 
 - **Connect GitHub.** Open Project Settings → **Developers** → **Integrations** and connect GitHub, then grant the %product% GitHub App access to the repositories you want to attach. You do not need to be using [GitHub Sync](github-sync.md) for your documentation. The connection is the only prerequisite.
 - **Attaching needs an admin.** Only admins can open these settings, although anyone on the project can be picked to be told when a check finishes.
 - **Runs need a plan with AI features, and credits.** You can attach repositories on any plan, but nothing will run until the project is on one and has [AI credits](ai-features.md#ai-credits) to spend.
+
+{% image url="../../assets/self-updating-docs.png" %}
+Project Settings → AI → Self-Updating Docs
+{% /image %}
 
 ## Attaching a repository
 
@@ -63,10 +67,6 @@ If a repository has not been read for more than a week, the row shows how old th
 Turn on **Check PRs for new doc changes** on a repository and the agent reads each new pull request on it, works out whether your documentation needs to change, and stages the changes for review.
 
 Nothing is published. The run leaves the proposed changes in AI Agent for someone to review, exactly like a change you asked for yourself.
-
-This video walks through a full run: configuring the settings, the agent starting when a pull request is opened, the changes it stages, asking it for a changelog post, then saving and publishing the result.
-
-{% video videoId="lXsid8q9WUw" /%}
 
 A run starts when a pull request is opened, reopened, marked ready for review, or updated with new commits. The agent reports back on the pull request as a check called **DeveloperHub docs**. The check is never a pass or a fail and never blocks a merge: it says either that no documentation change is needed, or how many changes were proposed and where to review them.
 
