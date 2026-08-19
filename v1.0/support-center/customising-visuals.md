@@ -79,6 +79,10 @@ Published documentation carries the %product% name: a **Powered by %product%** c
 2. In the Look and feel card, switch on **Remove %product% branding**.
 3. Click **Save changes** in the top menu.
 
+{% image url="../../assets/remove-developerhub-branding.png" %}
+Project Settings → Customisation → Look and feel
+{% /image %}
+
 {% callout title="Paid Plan" %}
 Removing the branding needs a plan that includes it. See [Pricing](https://developerhub.io/pricing).
 {% /callout %}
