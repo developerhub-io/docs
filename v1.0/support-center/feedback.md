@@ -17,7 +17,7 @@ To ensure that your documentation is of high quality, up-to-date, and brings the
 
 When enabled, a question at the bottom of each page would show asking if the page was helpful. The reader may respond with a {% icon classes="far fa-thumbs-up" /%} Yes or a {% icon classes="far fa-thumbs-down" /%} No, which may be followed by a prompt to add a message to explain their feedback.
 
-{% image url="https://uploads.developerhub.io/prod/02/lhwyo20idla00kvv95t8mpp1cumiqm812b4dethxxfw5tcssdsdy7vcdejdc9q5r.jpg" %}
+{% image url="../../assets/feedback-reader-prompt.png" %}
 Feedback prompt
 {% /image %}
 
@@ -25,7 +25,9 @@ Feedback prompt
 
 Feedback can be observed on two levels: Page and project. When a page is liked or disliked, you can view the average sentiment of the page on the right sidebar. You can also see the sentiment log over time, as well as the messages that you received for that page. You may mark the message as read.
 
-{% image url="https://uploads.developerhub.io/prod/02/pqyxyj5sulsiu38nw1tjox2uc1pqenzulwknbf7lwmi9z0zavsd677wg761b8tht.jpg" /%}
+{% image url="../../assets/page-feedback-sidebar.png" %}
+A page's own feedback: its rating, sentiment over time, and the messages readers left
+{% /image %}
 
 Also, in the [dashboard](collaboration/dashboard.md), you are also able to see the sentiment for the project against time, as well as all the unread messages. Furthermore, you will find in the dashboard a list of the most liked pages as well as the least liked pages. You can use this information to apply the good documentation style applied in most likes pages into the least liked pages, and analyse the messages to learn how to make the pages better.
 
