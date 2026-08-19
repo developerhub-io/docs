@@ -64,6 +64,10 @@ Turn on **Check PRs for new doc changes** on a repository and the agent reads ea
 
 Nothing is published. The run leaves the proposed changes in AI Agent for someone to review, exactly like a change you asked for yourself.
 
+This video walks through a full run: configuring the settings, the agent starting when a pull request is opened, the changes it stages, asking it for a changelog post, then saving and publishing the result.
+
+{% video videoId="lXsid8q9WUw" /%}
+
 A run starts when a pull request is opened, reopened, marked ready for review, or updated with new commits. The agent reports back on the pull request as a check called **DeveloperHub docs**. The check is never a pass or a fail and never blocks a merge: it says either that no documentation change is needed, or how many changes were proposed and where to review them.
 
 To review what a run staged, open **AI Agent** and select the run from the **Pull requests** section of the earlier conversations list. The check links straight there from the moment the run starts, so following it from the pull request lands you on the right run, and you can follow along while the agent is still reading. You can reply to a run to ask for more, but you cannot take it over as your own conversation, and you cannot reply while it is still working. A run in progress can be [stopped](ai-agent.md#stopping-a-run), and anything it staged before you stopped it is kept.
