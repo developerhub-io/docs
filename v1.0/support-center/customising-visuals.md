@@ -71,6 +71,18 @@ To change the UI:
 In Next UI, the different sections are laid out in the top navigation bar. In mobile layout, they would collapse into a section picker dropdown.
 {% /callout %}
 
+## Removing %product% Branding
+
+Published documentation carries the %product% name: a **Powered by %product%** credit at the foot of each page, or a logo under the index on the free plan. You can publish without it:
+
+1. Open Project Settings → **Customisation**.
+2. In the Look and feel card, switch on **Remove %product% branding**.
+3. Click **Save changes** in the top menu.
+
+{% callout title="Paid Plan" %}
+Removing the branding needs a plan that includes it. See [Pricing](https://developerhub.io/pricing).
+{% /callout %}
+
 ## Changing Colours
 
 The header, link and navigation colours are modifiable. To change the colours:
