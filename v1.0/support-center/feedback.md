@@ -29,11 +29,17 @@ Feedback can be observed on two levels: Page and project. When a page is liked o
 
 Also, in the [dashboard](collaboration/dashboard.md), you are also able to see the sentiment for the project against time, as well as all the unread messages. Furthermore, you will find in the dashboard a list of the most liked pages as well as the least liked pages. You can use this information to apply the good documentation style applied in most likes pages into the least liked pages, and analyse the messages to learn how to make the pages better.
 
+{% image url="../../assets/feedback-dashboard.png" %}
+The feedback dashboard: sentiment over time, the inbox, and the most and least liked pages
+{% /image %}
+
 You can also download feedback as a CSV from the dashboard, using the download option next to **Feedback Inbox**.
 
 Beside it, **Analyse with AI** hands the feedback to [AI Agent](ai-agent.md). The agent opens with a request to read what readers liked and disliked, find the common themes, and name the pages to improve, ready for you to send. It needs a plan with AI features, the agent switched on for the project, and writer access or above.
 
-{% image url="https://uploads.developerhub.io/prod/02/q88g4uahc2r78jo8vfh97i1ain9iyjbr9u8ick8mollzkv6yk5ejlr0bawv1ftw7.jpg" /%}
+{% image url="../../assets/feedback-inbox-analyse-with-ai.png" %}
+Downloading the feedback as CSV, and handing it to AI Agent
+{% /image %}
 
 Feedback can be marked as spam by anyone on the team. Feedback marked as spam would be minimised in the feedback dashboard. Spam feedback would not show up under the feedback sidebar of a page. Spam feedback does not count into any statistics nor would they be sent through our notification channels. You could also use [an automatic spam filter](feedback.md#feedback-spam-filter).
 
