@@ -51,6 +51,8 @@ You only start somewhere new when the last one is genuinely done: everything in 
 
 The agent works across the documentation version you are in, including drafts and unpublished pages. Ask in your own words, and describe the outcome you want rather than the steps to get there.
 
+A new conversation offers a few examples to start from. Select one to fill the message box with it, then send it as it is or edit it first.
+
 ### Examples
 
 **Fixing what is broken**
@@ -95,7 +97,7 @@ Deleting the label from your message removes the mention again.
 
 ### What the agent can read
 
-Beyond your pages, AI Agent can look at [search analytics](search-analytics.md) to find the terms readers searched for and found nothing for, check every link in a version at once, and list the pages that link to a page before it changes it.
+Beyond your pages, AI Agent can look at [search analytics](search-analytics.md) to find the terms readers searched for and found nothing for, read the [feedback](feedback.md) readers left on your pages, ratings and written comments alike, check every link in a version at once, and list the pages that link to a page before it changes it.
 
 ## Stopping a run
 
@@ -169,11 +171,21 @@ The **Context** button next to the message box shows what the agent is working f
 
 It also warns you when an attached repository cannot be read or has not been read for a while.
 
+## Remembered preferences
+
+Tell the agent a standing preference in a conversation, such as always using British spelling or never adding emoji to a heading, and it records it for the project. The conversation shows what it took down, marked **Remembered for this project**.
+
+A remembered preference applies to everyone working on the project, on every run.
+
+To take one back, select **Forget** on the row that recorded it. Admins can see all of them together, and remove any, under Project Settings → **AI** → **AI Agents \& MCP** → **Editor** tab, in the **Remembered preferences** card.
+
 ## Choosing the model
 
 Admins can pick the model every agent run in the project uses, including the pull request checks under Self-Updating Docs. Open Project Settings → **AI** → **AI Agents \& MCP** → **Editor** tab, and use **Agent model** in the **Model** card.
 
 Each model is rated out of three for **Cost**, **Speed** and **Judgement**, and shows the provider that serves it and the region it runs in, so you can rule out a jurisdiction if you need to. **Auto** follows our current recommendation and moves with it.
+
+The model a run uses is shown at the top of the AI Editor, beside your [AI credits](ai-features.md#ai-credits) balance. Admins can select it to open the setting.
 
 ## What AI Agent cannot do
 
