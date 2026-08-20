@@ -71,7 +71,7 @@ An unversioned project could have such a setup:
     - Documentation: iOS SDK
     - Documentation: Knowledge Base
 
-Remember that you can hide the version selector using [Custom CSS](customising-visuals/custom-css.md), see [Hide Version Selector/Picker](css-customisations.md#hide-version-selectorpicker).
+Remember that you can take the version picker out of the reader's top navigation bar with a setting, see [Hiding the Version Picker](project-settings/managing-versions.md#hiding-the-version-picker).
 
 ## What is the use of versions?
 

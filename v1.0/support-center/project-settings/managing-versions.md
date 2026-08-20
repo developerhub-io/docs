@@ -81,15 +81,16 @@ The default version does not show its slug in the live page links, for example, 
 
 ## Hiding the Version Picker
 
-The version picker is the dropdown in the reader's top navigation bar that readers use to switch versions. If versions do not mean anything to your readers, a single-version project for example, you can take it out:
+If your project only ever has one version, or you would rather readers did not move between versions themselves, you can take the version dropdown out of the reader's top navigation.
 
-1. Open Project Settings → **Customisation**.
-2. In the Look and feel card, turn on **Hide version picker**.
-3. Click **Save changes** in the top menu.
+To hide it:
 
-The reader preview at the top of the pane redraws the top navigation as you toggle it, so you can see the result before saving.
+- Open Project Settings, then the **Customisation** pane.
+- In the Look and feel card, toggle **Hide version picker**.
 
-Hiding the picker only changes the top navigation bar. Every version keeps its publish state, and version links such as `https://docs.developerhub.io/v1.0/support-center/managing-versions` still load as they did. The version menu you use in the editor is unaffected.
+The reader preview at the top of the pane updates as you toggle, so you can see the top navigation without the picker before you save.
+
+Hiding the picker only removes the dropdown. The versions themselves are untouched: their publish state stays as it is, and readers can still open any published version through a link that carries its slug, such as `https://docs.developerhub.io/v1.0/support-center/managing-versions`.
 
 ## Moving Readers to New Version
 
