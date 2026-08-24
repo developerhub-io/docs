@@ -30,12 +30,12 @@ Account Settings → **Preferences** → **Notifications \& editing** decides wh
 | --- | --- |
 | New page comments | Told when a teammate [comments](comments.md) on a page you watch. |
 | Feedback \& surveys | Occasional surveys about the product. |
-| Broken links reports | Periodic reports of broken links across your projects. |
+| Docs digest | A recurring summary of broken links, searches that found nothing, and the feedback readers left across your projects. |
 | Low AI credits | A warning when a project you administer is running low on [AI credits](ai-features.md#ai-credits). |
 
 Low AI credits only reaches you for projects where you are an admin, since buying credits and changing plan both need one.
 
-Broken links reports can also be switched off for an entire project by one of its admins, in [Advanced Settings](project-settings/advanced-settings.md#broken-links-report-email). If that is done, you receive no report for that project even with this setting on.
+How often the digest arrives is set per project by one of its admins, in [Advanced Settings](project-settings/advanced-settings.md#docs-digest-email). If a project is set to **Never**, you receive no digest for it even with this setting on.
 
 ## Using Passkeys
 

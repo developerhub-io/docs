@@ -35,15 +35,19 @@ Force editors to annotate the changes to be saved. This helps you keep a clean h
 - Check **Require annotating on saving**.
 - Click **Save changes** in the top menu.
 
-## Broken Links Report Email
+## Docs Digest Email
 
-The [broken links report email](../writing-documentation/page-linking.md#broken-links-email) is sent for every project by default. If the docs are no longer maintained and you would rather not receive the recurring report, you can silence it for the whole project instead of asking every subscriber to unsubscribe. To do that:
+The docs digest is a recurring email to the project's admins and publishers covering what needs your attention: [broken links](../writing-documentation/page-linking.md#listing-broken-links), [searches that came back with nothing](../search-analytics.md), and the [feedback](../feedback.md) readers left. It also lists pages edited recently but still unpublished, and [comments](../comments.md) nobody has resolved.
+
+Each section carries a button that opens [AI Agent](../ai-agent.md) with the request already written, so repairing the links or drafting the missing pages starts from the email itself. Nothing in your documentation changes until you send it and approve what comes back.
+
+To choose how often it arrives:
 
 - Open Project Settings → **Advanced**.
-- Under **Notifications**, uncheck **Broken links report email**.
+- Under **Notifications**, set **Docs digest email** to **Weekly**, **Every two weeks**, **Monthly** or **Never**.
 - Click **Save changes** in the top menu.
 
-With the setting off, nobody receives the report for this project, whatever their personal [email notification](../account-settings.md#email-notifications) preferences are.
+A project with nothing to report is left out.
 
 ## Other Settings
 

@@ -119,11 +119,9 @@ Broken page links lead to [404 Page](../landing-page.md#404-page).
 Only internal links created by using Page Linking are examined for breaking. The monitoring tool will not examine or alert about external links leading to 404.
 {% /callout %}
 
-### Broken Links Email
+### Broken Links by Email
 
-A bi-weekly email is sent to admins and publishers that lists all the broken links in the docs. An email is sent per project and a maximum of 3 emails is sent per user. The email subscription status can be changed from [Account Settings](../account-settings.md).
-
-Admins can also turn the report off for a whole project from Project Settings → **Advanced** → **Notifications**, by unchecking **Broken links report email**. See [Advanced Settings](../project-settings/advanced-settings.md#broken-links-report-email).
+Broken links are also reported in the [docs digest](../project-settings/advanced-settings.md#docs-digest-email).
 
 ## Listing Linked Pages (Backlinks)
 
