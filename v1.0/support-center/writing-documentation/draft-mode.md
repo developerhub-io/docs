@@ -49,11 +49,14 @@ Draft pages show a draft page icon in the index, and the control buttons allow y
 
 ## Draft Pages History
 
-Every draft is saved in the page history and is indicated as a draft version. To discard all draft changes, and to revert to the published version:
+Every draft is saved in the page history and is indicated as a draft version.
+
+To throw away your unpublished draft and go back to the published version:
 
 1. Click on {% icon classes="fas fa-history" /%} Show Published under the page title.
-2. Make any edit.
-3. Save the page again and publish it.
+2. Click **Discard Draft**, then confirm.
+
+The draft is not lost. It is kept in [Edit history](../page-history.md) as **Discarded draft**, so you can bring it back by reverting to that entry.
 
 ## More
 
