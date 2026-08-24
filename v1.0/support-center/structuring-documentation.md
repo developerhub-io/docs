@@ -27,6 +27,10 @@ To re-order an element far away in the index, you can either:
 - Drag the element to the absolute top or absolute bottom of the index, the index will start scrolling automatically.
 {% /callout %}
 
+## Moving Several Elements Together
+
+Click an element, then hold Shift and click another to select everything between them. Drag the selection and it all moves together.
+
 ## Index Depth
 
 Index can be as hierarchical as needed. Categories and separators are top-level elements. All other elements can be placed as parent or child elements.

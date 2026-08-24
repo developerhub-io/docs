@@ -77,10 +77,19 @@ To view the table options, right-click on a cell of the table. You will be able 
 - Set a **Colour** for the cell from the swatches, or **Clear colour**.
 - Align the cell contents left, centre or right.
 - **Toggle header row** on or off.
+- **Pin header row while scrolling**, so the header stays in place as you read down a long table. Select **Unpin header row** to undo it.
 - Switch the table between **auto layout** and **fixed layout**.
 - **Delete row** or **Delete column**.
 
 To remove an entire table, hover over it and open the block's menu from the drag handle on its left, then delete the block.
+
+## Pinning the Header Row
+
+A table can keep its header row in view while the rest of it scrolls. This pays off most on a very long table, a parameter or field reference for example, where a reader partway down the rows has long since lost sight of what each column means.
+
+To pin it, right-click a cell and select **Pin header row while scrolling**.
+
+A table short enough to fit on screen has nothing to scroll, so pinning leaves it looking exactly as it did.
 
 ## Reordering Rows and Columns
 
