@@ -54,6 +54,8 @@ You can add keywords to your page to enable your readers to find the page using 
 
 Page keywords can be added from **Page Info** {% icon classes="fas fa-info-circle" /%} in the right sidebar, under the **Settings** tab.
 
+You can also ask [AI Agent](ai-agent.md) to set them, which is worth doing after looking at the terms readers searched for and found nothing for.
+
 ## Change Search Scope
 
 To change the search scope to only look into the active documentation or API reference, have a look at `search.scope` in our [Advanced Settings](project-settings/advanced-settings.md).

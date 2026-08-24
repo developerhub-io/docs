@@ -133,7 +133,7 @@ When you are happy, use the bar at the bottom:
 Saving does not end the conversation. Saved changes stay in the list, and you can keep asking for more.
 
 {% callout type="warning" title="Some changes have no draft" %}
-Deletions and page settings changes (a page's slug, title, sidebar icon or position) are not drafted. They take effect the moment you save, with either button.
+Deletions and page settings changes (a page's slug, title, search keywords, sidebar icon or position) are not drafted. They take effect the moment you save, with either button.
 
 Links to a renamed page from inside your documentation are repointed for you, but links from anywhere else, such as bookmarks, emails and search results, will stop working. A deletion cannot be undone.
 
@@ -171,16 +171,22 @@ The **Context** button next to the message box shows what the agent is working f
 
 It also warns you when an attached repository cannot be read or has not been read for a while.
 
-## Remembered preferences
+## Remembered rules
 
-Tell the agent a standing preference in a conversation, such as always using British spelling or never adding emoji to a heading, and it records it for the project. The conversation shows what it took down, marked **Remembered for this project**.
+Tell the agent something to always do or never do, such as always using British spelling, never writing a page from a particular directory, or which section to leave alone, and it records the rule for the project. The conversation shows what it took down, marked **Remembered for this project**.
 
-A remembered preference applies to everyone working on the project, on every run.
+A remembered rule applies to everyone working on the project, on every run, including the runs a [pull request](self-updating-docs.md) starts.
 
-To take one back, select **Forget** on the row that recorded it. Admins can see all of them together, and remove any, under Project Settings → **AI** → **AI Agents \& MCP** → **Editor** tab, in the **Remembered preferences** card.
+Ask the agent to drop a rule and it does. You can also select **Forget** on the row that recorded it, and admins can see every rule together, and remove any, under Project Settings → **AI** → **AI Agents \& MCP** → **Editor** tab, in the **Remembered rules** card. Forgetting is final, so recording it again is the only way back.
+
+A project holds up to 25 rules of 120 characters each.
+
+{% callout type="warning" title="A rule is an instruction, not a permission" %}
+The agent follows the rules it has been given, but nothing enforces them. A rule such as never changing a particular section steers every run; it is not access control. Use [roles](collaboration.md) for that.
+{% /callout %}
 
 {% image url="../../assets/agent-remembered-preferences.png" %}
-Every preference the agent has recorded, and the eraser that removes one
+Every rule the agent has recorded, and the eraser that removes one
 {% /image %}
 
 ## Choosing the model
