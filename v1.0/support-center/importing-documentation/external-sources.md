@@ -17,8 +17,8 @@ To import documentation, follow these steps:
 
 - Make sure your import files are structured as required.
 - Open Project Settings → **Import \& Export**.
-- Click **Open import**.
-- Choose the appropriate import source.
+- Under **Bring content in**, click the source you are importing from.
+- Choose your ZIP file.
 
 Importing could take a few seconds up to a minute.
 

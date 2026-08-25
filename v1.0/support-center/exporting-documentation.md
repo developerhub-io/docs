@@ -33,7 +33,7 @@ You can export the whole project, a single [version](exporting-documentation.md#
 To export a project:
 
 - Open Project Settings → **Import \& Export**.
-- Click the export format you want. The active project will be exported.
+- Under **Take content out**, click **Markdoc** or **Markdown**. The active project will be exported.
 
 It will take a few seconds, and a download will start. The downloaded file is a compressed file (zip) containing all versions, documentations, API references, and indices of the documentation. The structure of the file is as such:
 

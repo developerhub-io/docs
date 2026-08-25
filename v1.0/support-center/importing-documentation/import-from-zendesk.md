@@ -21,13 +21,9 @@ You can migrate a Zendesk help centre into %product% from the editor. %product% 
 ## Importing from Zendesk
 
 1. Open Project Settings → **Import \& Export**.
-2. Under **Migrate**, click **Migrate from Zendesk**.
+2. Under **Bring content in**, click **Zendesk**.
 3. Complete the form, as described below.
 4. Click **Start migration**.
-
-{% image url="./zendesk-migrate-card.png" %}
-The Migrate card in Project Settings → Import \& Export
-{% /image %}
 
 ### Zendesk URL
 

@@ -24,11 +24,11 @@ This page covers exporting a version, or the sections of it you choose. To expor
 
 ## How to export to PDF?
 
-PDF export has a settings pane of its own: Project Settings → **Import \& Export** → **PDF export**. Everything to do with PDFs lives there, namely what a PDF covers, the builds you have already generated, and how they all look.
+PDF export has a settings pane of its own: Project Settings → **Import \& Export** → **PDF**. Everything to do with PDFs lives there, namely what a PDF covers, the builds you have already generated, and how they all look.
 
 To generate a PDF:
 
-1. Open Project Settings → **Import \& Export**, then click **PDF export**.
+1. Open Project Settings → **Import \& Export**, then under **Take content out** click **PDF**.
 2. In the **In this PDF** card, pick the **Version** you are exporting.
 3. Tick the documentation sections and API references you want included.
 4. Click **Generate PDF**.
@@ -63,7 +63,7 @@ Every build remembers what it covered, and the **Generated PDFs** list names tho
 
 After you have at least one PDF generated, you can generate a permalink for PDF downloads of the version. The permalink would always download the latest PDF that you have generated. You can use that link publicly if you wish to allow your readers to download the latest PDF.
 
-To get a permalink, open Project Settings → **Import \& Export** → **PDF export**, select the version, and click **Copy permalink** in the **Generated PDFs** card. The URL will be copied to your clipboard.
+To get a permalink, open Project Settings → **Import \& Export** → **PDF**, select the version, and click **Copy permalink** in the **Generated PDFs** card. The URL will be copied to your clipboard.
 
 {% callout type="warning" title="Unique link" %}
 The permalink is a unique link that cannot be revoked once someone has the link. Make sure you share the permalink with the right audience.
