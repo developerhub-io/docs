@@ -37,6 +37,10 @@ Add integrations to your project to be able to understand better how your users 
 
 {% image url="https://image-archive.developerhub.io/image/upload/5968/u8sxrekzwakciepzvbtf/1556179928.png" width=600 /%}
 
+### Zendesk
+
+[Zendesk](integrations/zendesk-integration.md) works both ways. Our app puts your published documentation in the Zendesk Support ticket sidebar, so your agents search it and add a link to their reply without leaving the ticket, and the Zendesk Web Widget puts Zendesk support on your documentation.
+
 ### Localize
 
 [Localize](https://localizejs.com/) helps you translate all your docs to many languages, and ensuring that all doc translations are up-to-date. To enable this integration, see [localisation](localisation.md#localise-using-localize).

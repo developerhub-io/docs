@@ -123,6 +123,10 @@ Worth checking before you publish:
 - **Page slugs.** Slugs are generated from article titles, and long ones are shortened, so your %product% URLs will not always match your old Zendesk URLs.
 - **Structure.** Zendesk nests content differently to %product%, so you may want to [restructure the pages](../structuring-documentation/managing-pages.md).
 
+{% callout title="Still answering tickets in Zendesk?" %}
+Your agents can search the pages you have just migrated from inside a Zendesk ticket, and add a link to them to their reply. See the [Zendesk app](../integrations/zendesk-integration.md#zendesk-app).
+{% /callout %}
+
 ## Stopping a Migration
 
 Click **Stop migration** while a run is in progress. The article being imported finishes, then the run stops.
