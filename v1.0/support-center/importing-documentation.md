@@ -18,6 +18,7 @@ You can import to %product% from many sources:
 - [Markdoc](github-sync/markdoc-format.md) export (available for entire project imports and one page imports)
 - [Markdown](importing-documentation/external-sources.md#markdown-import)
 - [ReadMe](importing-documentation/external-sources.md#readme-import)
+- [Mintlify](importing-documentation/import-from-mintlify.md)
 - [Zendesk](importing-documentation/import-from-zendesk.md)
 - Other sources, such as: [HTML](importing-documentation/external-sources.md#importing-from-html), [Confluence](importing-documentation/external-sources.md#importing-from-confluence), [Word](importing-documentation/external-sources.md#importing-from-word-documents) or [other external sources](importing-documentation/external-sources.md).
 
@@ -27,8 +28,8 @@ To import documentation, follow these steps:
 
 - Make sure your import files are [structured](importing-documentation.md#structuring-files) as required.
 - Open Project Settings → **Import \& Export**.
-- Click **Open import**.
-- Choose **Markdoc**.
+- Under **Bring content in**, click **Markdoc**.
+- Choose your ZIP file.
 
 Importing could take a few seconds up to a minute.
 

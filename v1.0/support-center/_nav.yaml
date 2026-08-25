@@ -203,6 +203,7 @@ items:
         icon: file-import
         items:
           - importing-documentation/external-sources
+          - importing-documentation/import-from-mintlify
           - importing-documentation/import-from-zendesk
       - page: integrations
         icon: puzzle-piece
