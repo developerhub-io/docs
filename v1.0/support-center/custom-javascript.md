@@ -30,6 +30,12 @@ To customise HEAD tags:
 
 All custom tags will only run in live mode, and will not load in editor mode.
 
+## Organisation HEAD Tags
+
+If your projects belong to an organisation, the owner can maintain one set of HEAD tags shared across them from [Organisation Settings](organisation-settings.md#custom-head-tags) → **Custom HEAD tags**.
+
+A project does not inherit them automatically. To opt in, open Project Settings → **Customisation** and turn on **Use organisation HEAD tags**. The organisation's tags are injected before the project's own, so where both set the same thing, the project's wins.
+
 ## Tags Format
 
 Tags should be added fully as they would exist in HEAD, such as:

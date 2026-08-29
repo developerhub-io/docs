@@ -2,7 +2,7 @@
 type: page
 title: Organisation Settings
 listed: true
-description: Organisation Settings covers what applies across all of your projects: team members, usage statistics, organisation-wide CSS and SSO status.
+description: Organisation Settings covers what applies across all of your projects: team members, usage statistics, shared customisation and SSO status.
 index_title: Organisation Settings
 hidden: false
 keywords: 
@@ -26,7 +26,7 @@ Organisation Settings is organised into groups. Each group contains panes:
 - **People**: [Team](organisation-settings.md#team). Everyone in the organisation, and whether they can sign in.
 - **Usage**: [Statistics](organisation-settings.md#statistics). User and project counts over the last three months.
 - **Audit**: [Activity log](organisation-settings.md#activity-log). Every audited action across the projects your organisation owns.
-- **Customisation**: [Custom CSS](organisation-settings.md#custom-css). One stylesheet shared across projects that opt in.
+- **Customisation**: [Custom CSS](organisation-settings.md#custom-css), [Custom HEAD tags](organisation-settings.md#custom-head-tags) and [Custom Footer](organisation-settings.md#custom-footer). Styling, head tags and a footer shared across projects that opt in.
 - **Single Sign-On**: [SSO status](organisation-settings.md#sso-status). A read-only summary of your SSO configuration.
 
 Managing members is limited to the organisation owner.
@@ -160,13 +160,25 @@ Use **Clear** to drop all of the filters at once. Entries are paged 25 at a time
 
 Entries survive the thing they describe. Deleting a project does not remove its history from this log, so the trail stays complete.
 
-## Custom CSS
+## Customisation
 
-Organisation Settings → **Custom CSS** holds one stylesheet that can be shared by every project in the organisation. Only the organisation owner can edit it. Click **Save changes** to apply, or **Discard** to revert.
+The **Customisation** group holds three things an organisation can publish for its projects to share: **Custom CSS**, **Custom HEAD tags** and **Custom Footer**. Only the organisation owner can edit them. Click **Save changes** to apply, or **Discard** to revert. There is no draft step here, so saving reaches every project that has opted in.
 
-Projects do not inherit this stylesheet automatically. To opt a project in, open Project Settings → **Customisation** and turn on **Use organisation CSS**.
+No project inherits any of them automatically. To opt one in, open Project Settings → **Customisation** and turn on **Use organisation CSS**, **Use organisation HEAD tags** or **Use organisation footer**. Only the project's owner can set these toggles.
 
-Where a project opts in, the organisation stylesheet is applied first and the project's own [Custom CSS](customising-visuals/custom-css.md) after it, so a project rule wins over an organisation rule of equal specificity. It applies to the published docs and to the editor.
+If the organisation has not written anything yet, turning a toggle on changes nothing and the project keeps what it had.
+
+### Custom CSS
+
+One stylesheet shared across the organisation. The organisation stylesheet is applied first and the project's own [Custom CSS](customising-visuals/custom-css.md) after it, so a project rule wins over an organisation rule of equal specificity. It applies to the published docs and to the editor.
+
+### Custom HEAD tags
+
+The scripts, styles, meta and link tags injected into the page head across the organisation, such as analytics, site verification or a shared font. They are injected before the project's own [HEAD tags](custom-javascript.md), so where both set the same thing, the project's wins.
+
+### Custom Footer
+
+One footer, written as HTML in the same way as a project's [Custom Footer](customising-visuals/custom-footer.md). It is rendered in place of the project's own footer rather than alongside it, so a project that has written its own stops showing it while the toggle is on.
 
 ## SSO status
 

@@ -40,3 +40,9 @@ If you have any links in the footer, make sure that you use `target="_parent"` t
 {% callout type="warning" title="Use Only HTTPS" %}
 Load assets only from HTTPS sources, otherwise your readers will see a "Not Secure" badge next to the browser URL.
 {% /callout %}
+
+## Organisation Footer
+
+If your projects belong to an organisation, the owner can maintain one footer shared across them from [Organisation Settings](../organisation-settings.md#custom-footer) → **Custom Footer**.
+
+A project does not inherit it automatically. To opt in, open Project Settings → **Customisation** and turn on **Use organisation footer**. The organisation footer is rendered in place of this project's own rather than alongside it, so a project that has written its own stops showing it while the toggle is on.
