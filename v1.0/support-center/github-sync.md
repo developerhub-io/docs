@@ -197,7 +197,7 @@ The free-text files and images live in `_theme/`:
 - **\_theme/footer.html**: your [custom footer](customising-visuals/custom-footer.md).
 - **\_theme/logo.png** and **\_theme/favicon.png**: your logo and favicon, committed as real image files. Any common image extension works, so `logo.svg` is matched just as `logo.png` is.
 
-A file that is absent means "use the default", so a project on the default logo has no `logo` file at all. Deleting one of these files clears that customisation, which is worth knowing because deletes elsewhere in the sync are only ever reported.
+A file that is absent means "use the default", so a project on the default logo has no `logo` file at all. Deleting one of these files clears that customisation outright, unlike a delete elsewhere in the sync (see [When You Delete Files](github-sync.md#when-you-delete-files)).
 
 The settings that are values rather than files live in `developerhub.yaml`, under two blocks:
 
@@ -287,9 +287,21 @@ When an edit arrives from GitHub, the page's [edit history](page-history.md) rec
 
 The **Docs Sync** pane's **Activity** tab has a **Sync activity** feed showing recent reconcile runs: each run's direction (**DeveloperHub → Repo** or **Repo → DeveloperHub**), what changed (for example "3 pages" or "1 API reference"), its commit, and when it ran. A status chip at the top shows whether the project is **In sync**, has **Changes pending**, or has not synced yet.
 
+## When You Delete Files
+
+Deleting a file from the repository does not remove the content behind it for good.
+
+- A page's `.md` file: the page is hidden from your navigation, keeping its content, [comments](comments.md), and [history](page-history.md).
+- A version, documentation section, or API reference: it comes off your published site and out of the editor.
+- A changelog post: the post is unpublished.
+
+Restore the file or directory in the repository within 30 days and the content comes back where it was, with everything it had. After that the removal is final, and what was attached to those pages, including comments and reader [feedback](feedback.md), goes with them.
+
+Your last version, and the only documentation section in a version, are never removed. Deleting one of those folders is reported as a warning and nothing else happens.
+
 ## When a Change Is Blocked
 
-If a change arriving from the repository would remove most of your documentation, %product% refuses it instead of applying it. Nothing is deleted and nothing is changed. The run appears in the **Sync activity** feed as **Change blocked, nothing was removed**, with the reason, and the status chip at the top of the pane reads **Sync paused**.
+If a change arriving from the repository would remove most of your documentation, %product% refuses it instead of applying it. Nothing is deleted and nothing is changed. The run appears in the **Sync activity** feed as **Change blocked, nothing was changed**, with the reason, and the status chip at the top of the pane reads **Sync paused**. We also email whoever pushed the commit, or the project owner if that person has no %product% account on the project.
 
 A change is blocked when:
 
@@ -297,7 +309,11 @@ A change is blocked when:
 - The change would remove every version.
 - The change would remove most of your pages.
 
-Sync stays paused on that commit until the repository is put right, so a later push cannot slip past while the problem is still there. There is nothing to clear on the %product% side: push a fix to the synced branch and the next sync runs normally. If the removal really was intended, [contact support](contact-us.md) and we will let that specific commit through.
+Sync stays paused on that commit until the repository is put right, so a later push cannot slip past while the problem is still there. Push a fix to the synced branch and the next sync runs normally, or open the **Docs Sync** pane's **Activity** tab and click **Check the repository again** to try it there and then.
+
+If the removal really was intended, click **Apply the change anyway** on that panel and confirm with **Yes, apply it**. What it removes then waits [the same 30 days](github-sync.md#when-you-delete-files) as any other delete. The option is there for a change that removes versions or pages; a block over a missing `developerhub.yaml` needs [support](contact-us.md) instead.
+
+Sync can also pause because %product%'s own copy of your repository's file list has fallen out of step with the repository. There is nothing to fix on your side and pushing again will not clear it: click **Repair and resume sync** on the same panel.
 
 ## Disconnecting GitHub Sync
 
