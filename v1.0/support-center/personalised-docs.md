@@ -28,9 +28,13 @@ Variables can be injected into the docs in two ways:
 
 - By sending your readers to a docs URL having certain query parameters.
 - By writing a [cookie](personalised-docs.md#personalising-through-cookie).
-- By using a [custom login](private-docs/custom-login.md) flow.
+- By using a [custom login](private-docs/custom-login.md) flow, or a signed link on a public docs site.
 
 When the variables are injected, then the docs will show the information that is relevant to the reader.
+
+{% callout title="Personalising and restricting are different things" %}
+Query parameters and cookies personalise what a page says, but a reader can change them. To decide what a reader is allowed to see, use [Conditional Content](conditional-content.md) with a signed token, which works on both private and public projects.
+{% /callout %}
 
 ## Personalising through URL
 

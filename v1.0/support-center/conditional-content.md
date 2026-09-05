@@ -9,7 +9,7 @@ keywords:
 tags: 
 ---
 
-Conditional Content lets you control who can see specific content in your documentation based on user variables. Content visibility is managed through audiences, which define conditions that are evaluated against [variables](variables.md) passed via [custom login](private-docs/custom-login.md).
+Conditional Content lets you control who can see specific content in your documentation based on user variables. Content visibility is managed through audiences, which define conditions that are evaluated against [variables](variables.md) passed in a signed JWT. This works on a private project through [custom login](private-docs/custom-login.md), and on a public docs site through a signed link.
 
 {% synced id="beta-feature" /%}
 
@@ -30,7 +30,7 @@ To create a new audience:
 
 1. Open Project Settings → **Content** → **Audiences**.
 2. Click **Create audience**.
-3. Enter an **Audience ID** (this ID will be used to reference the audience).
+3. Enter an **Audience ID** (this ID will be used to reference the audience). It must start with a lowercase letter, and can contain only lowercase letters, numbers and hyphens.
 4. Click **Save**.
 
 ### Editing Audience Conditions
@@ -106,8 +106,35 @@ const payload = {
 
 These variables are then matched against the conditions defined in each audience to determine which content the reader can access.
 
+### Identifying Readers on a Public Docs Site
+
+Audiences are not limited to private documentation. A public docs site can identify a reader from a signed link, so you can tailor what each reader sees without putting your documentation behind a login.
+
+Your Access method stays **Public**. The only thing you need to set up is an [API Key](project-settings/api-key.md) with the `access.write` **Modify access rules** permission, which is the key your token is signed with.
+
+To identify a reader:
+
+1. Sign a JWT in your backend exactly as you would for [custom login](private-docs/custom-login.md), putting the reader's details in the `vars` object. An expiry is required.
+2. Send the reader to your docs site with the token in a `jwt` query parameter, for example `https://docs.pied-piper.com/getting-started?jwt=<token>`.
+3. Your docs site verifies the token, applies the audiences the reader matches, and removes the token from the URL.
+
+A reader who arrives with no token, or with one that has expired or cannot be verified, is not sent to a login screen. They see the public documentation, which is everything you have not assigned to an audience.
+
+{% callout type="warning" title="Only a signed token sets audiences" %}
+Variables injected through the `vars` and `hvars` query parameters or the `vars` cookie personalise text, but they do not put a reader into an audience. A reader can change them, so they can never unlock audience-gated content. Sign a JWT for anything you need to restrict.
+{% /callout %}
+
+{% callout title="Things to know" %}
+- Link to a page inside your docs base path. If your documentation is served at `pied-piper.com/docs`, a link to `pied-piper.com/?jwt=...` sends the reader to `/docs` and the rest of the path is lost.
+- A reader who has already been identified is not identified again until their token expires. Sending a new link with different variables has no effect while the previous one is still valid, so prefer short expiries.
+- The **Generate JWT** button in Project Settings → Access is only available when the Access method is JWT, so sign your test tokens yourself.
+- `error_redirect_url` has no effect on a public project, as there is no error screen to redirect from.
+{% /callout %}
+
 ## Audiences and Search
 
 Search results are filtered based on the reader's audience. Readers will only see search results for pages and content they have access to, ensuring that restricted content remains hidden even in search.
+
+[AI Assistant](writing-documentation/ai-search.md) answers the same way. It draws on the documentation the reader is entitled to see, so an identified reader can ask about audience-gated content and find it, while an unidentified reader is answered from the public documentation alone.
 
 If you require more of the Conditional Content feature, please do not hesitate to [contact us](contact-us.md).

@@ -24,6 +24,7 @@ AI Assistant allows the readers to ask a questions about the docs and API endpoi
 - Responds using the language of the question.
 - Provides a source list for further reading.
 - Links the pages an answer draws on, so a reader can open one without leaving the conversation.
+- Answers from the documentation each reader can see, including [audience-gated](../conditional-content.md) content once the reader is identified.
 - The reader can ask follow up questions.
 
 ## AI Assistant Experience

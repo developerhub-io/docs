@@ -15,6 +15,10 @@ Custom login for readers on %product% is provided using JSON Web Tokens (JWT). B
 - You can [personalise](../personalised-docs.md) the docs to the logged in reader.
 - You control when the access expires.
 
+{% callout title="Identifying readers on a public docs site" %}
+The same signed token can identify readers on a public project, where signing in is not required and identification is used only to personalise the docs and to apply audiences. See [Conditional Content](../conditional-content.md#identifying-readers-on-a-public-docs-site).
+{% /callout %}
+
 ## How JWT Login works
 
 When JWT login is enabled, the flow of login would be as such:
