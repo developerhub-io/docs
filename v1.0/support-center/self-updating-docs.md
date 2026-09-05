@@ -88,7 +88,7 @@ Use **Notify when a check finishes** to pick who gets an email. Only people on t
 
 ## What the agent does with your code
 
-It can list and search files, read them, read your commit history, and read the difference between commits. Everything it reads in one conversation comes from a single commit, so its answers stay consistent while you work, and you can ask it to pull the latest code when you have pushed something new.
+It can list and search files, find where a class or function is defined, read them, read your commit history, and read the difference between commits. Everything it reads in one conversation comes from a single commit, so its answers stay consistent while you work, and you can ask it to pull the latest code when you have pushed something new.
 
 The agent treats your code as evidence for what your documentation claims, not as something to copy out. It tells you when a page and the code disagree rather than copying your source into new reference pages. Anything it reads is treated as material to work on, so instructions written inside a file are reported to you rather than followed.
 

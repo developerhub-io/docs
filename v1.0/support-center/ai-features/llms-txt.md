@@ -39,6 +39,10 @@ When llms.txt is enabled, pages are also readable in markdown format if `.md` is
 
 [https://docs.developerhub.io/support-center/llms-txt.md](https://docs.developerhub.io/support-center/llms-txt.md)
 
+An AI assistant that fetches one of your pages because someone asked it about your docs is given the markdown at the page's own URL, without the `.md`. Assistants such as ChatGPT, Claude, and Perplexity read your docs this way; crawlers that index the web for search or training still get the page itself.
+
+A documentation section's URL answers with a list of the pages inside it, so an assistant can find its way around before reading anything.
+
 ## Limitations of llms.txt support
 
 - We only support `llms.txt` for now. `llms-full.txt` is not supported yet.

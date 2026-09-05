@@ -23,6 +23,7 @@ AI Assistant allows the readers to ask a questions about the docs and API endpoi
 - Can ask questions in any language, regardless if the documentation is written using that language or not.
 - Responds using the language of the question.
 - Provides a source list for further reading.
+- Links the pages an answer draws on, so a reader can open one without leaving the conversation.
 - The reader can ask follow up questions.
 
 ## AI Assistant Experience
