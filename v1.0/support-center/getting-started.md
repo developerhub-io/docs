@@ -19,18 +19,6 @@ tags:
 
 Welcome %user.name% to our *Supercharged* documentation which has been written using %product%.
 
-Learn how to use %product% in our step-by-step guide:
-
-{% html %}
-<!--ARCADE EMBED START-->
-  <iframe src="https://demo.arcade.software/mXfTOZfQRMMXPJIqWjzp?embed&embed_mobile=tab&embed_desktop=tab&show_copy_link=true" 
-          title="How to Edit and Publish Updates in DeveloperHub Documentation" 
-          frameborder="0" loading="lazy" 
-          webkitallowfullscreen mozallowfullscreen allowfullscreen 
-          allow="clipboard-write" style="top: 0; left: 0; width: 100%; height: 500px; color-scheme: light;" 
-          onload="window.postMessage('resize', '*')" ></iframe>
-{% /html %}
-
 ## What is %product%?
 
 %product% is an agentic documentation platform. You write product \& user guides, developer hubs/portals, knowledge bases and support centres, and an agent helps you keep them level with your product.
