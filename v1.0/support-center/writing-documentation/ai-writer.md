@@ -38,7 +38,6 @@ AI Writing Tools are disabled by default and must be enabled by an admin. To ena
 - Open Project Settings → **AI** → **AI Agents \& MCP**, then the **Editor** tab.
 - Under **Writing**, turn on **AI in the editor**.
 - Click **Save changes** in the top menu.
-- Refresh the page for changes to apply.
 
 **AI in the editor** is a single switch over every AI that works on your docs, so it turns on [AI Agent](../ai-agent.md) at the same time.
 
