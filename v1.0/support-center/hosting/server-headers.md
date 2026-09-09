@@ -59,12 +59,11 @@ An example starter content security policy for projects is:
 ```ruby {% title="Content Security Policy" %}
 default-src 'self';
 script-src 'self' 'nonce-%NONCE%' https://*.developerhub.io;
-style-src 'self' 'nonce-%NONCE%' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css https://*.developerhub.io;
+style-src 'self' 'nonce-%NONCE%' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/ https://*.developerhub.io;
 base-uri 'self';
 connect-src 'self' https://*.developerhub.io https://www.google-analytics.com;
 img-src 'self' https://*.developerhub.io;
-font-src 'self' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-solid-900.woff2 https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-regular-400.woff2
-https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-brands-400.woff2 https://fonts.gstatic.com;
+font-src 'self' https://cdnjs.cloudflare.com/ajax/libs/font-awesome/ https://fonts.gstatic.com;
 frame-src 'self';
 base-uri 'self';
 object-src 'none';
