@@ -178,6 +178,7 @@ items:
             items:
               - ai-features/mcp-server/reader-mcp-server
               - ai-features/mcp-server/editor-mcp-server
+          - ai-features/webmcp
           - ai-features/llms-txt
           - ai-features/ask-llm
       - page: ai-agent

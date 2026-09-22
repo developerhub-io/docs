@@ -43,6 +43,10 @@ An AI assistant that fetches one of your pages because someone asked it about yo
 
 A documentation section's URL answers with a list of the pages inside it, so an assistant can find its way around before reading anything.
 
+`llms.txt` also lists every endpoint of each API reference, with a link that reads just that endpoint rather than the whole definition, so an assistant can go straight to the one it needs.
+
+Turning llms.txt off also takes away the tools [WebMCP](webmcp.md) uses to read your pages.
+
 ## Limitations of llms.txt support
 
 - We only support `llms.txt` for now. `llms-full.txt` is not supported yet.

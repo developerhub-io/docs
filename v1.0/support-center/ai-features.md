@@ -22,6 +22,7 @@ The features are:
 - [AI Commit Messages](ai-features/ai-commit-messages.md): Automatically annotate page histories.
 - [AI SEO Helper](ai-features/ai-summarisation.md): Summarises pages to write a META description.
 - [MCP Servers](ai-features/mcp-server.md): Connect AI applications with your docs, so readers can search them and editors can write them.
+- [WebMCP](ai-features/webmcp.md): Let AI agents in your readers' browsers search, read and open your pages.
 - [Feedback Spam Filter](feedback.md#feedback-spam-filter): Filters spam in feedback messages automatically.
 - [Redact PII from Feedback](feedback.md#redact-pii-from-feedback): Redacts personal identifiable information from feedback messages automatically.
 
@@ -46,6 +47,8 @@ Admins are emailed once when a project drops to 20% of its allowance. You can tu
 ### Running out
 
 With no credits left, the agent will not start a new run, and pull request checks stop until the allowance renews or you top up. A run already under way finishes what it can and keeps everything it has staged for you to review.
+
+The **AI Editor** window says so above its message box, along with when your credits renew. Admins can select **Get credits** there to top up.
 
 Everything else carries on as normal, including your published documentation and every other AI feature.
 
