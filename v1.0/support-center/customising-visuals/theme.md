@@ -14,14 +14,14 @@ Docs in %product% can have two themes:
 - Light theme {% icon classes="far fa-sun" /%}
 - Dark theme {% icon classes="fas fa-moon" /%}
 
-It is possible to set the default theme for readers and to show a toggle for your readers to enable them to change the theme to their liking.
+It is possible to set the default theme for readers, or let it follow each reader's system setting, and to show a toggle for your readers to enable them to change the theme to their liking.
 
 ## Setting the theme
 
 To change the default theme for readers:
 
 - Open Project Settings → **Customisation**.
-- Choose the theme.
+- Next to **Theme**, choose **Light**, **Dark** or **Auto**. Auto shows each reader the theme their system is set to.
 - Click **Save changes** in the top menu.
 
 {% callout type="success" title="Code Theme" %}

@@ -232,13 +232,13 @@ tags: customisation
 
 ### Change Theme
 
-**Function:** `window.setTheme(theme: 'light' | 'dark')`
+**Function:** `window.setTheme(theme: 'light' | 'dark' | 'auto')`
 
 **Returns:** Nothing.
 
 **Arguments:**
 
-- `theme`: Either `light` or `dark`.
+- `theme`: `light`, `dark`, or `auto` to follow the reader's system setting.
 
 **Description:** Changes the theme for the session.
 

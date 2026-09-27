@@ -115,26 +115,6 @@ This is enabled by default now.
 ```
 {% /code %}
 
-## Set theme automatically according to user preferences
-
-Place in Custom HEAD tags. Only use one of the if conditions.
-
-{% code %}
-```html
-<script>
-  // If your theme is set to dark by default, use the following IF condition.
-  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
-    window.setTheme('light');
-	}
-  
-  // If your theme is set to light by default, use the following IF condition.
-  if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    window.setTheme('dark');
-	}
-</script>
-```
-{% /code %}
-
 ## Append contact us to search box on no results
 
 Place in Custom HEAD tags.
