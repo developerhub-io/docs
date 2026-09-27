@@ -5,11 +5,12 @@ variables:
     name: ''
   product: DeveloperHub
 settings:
-  uiVersion: 2
+  uiVersion: 3
   darkMode: true
   lightCodeTheme: false
-  showThemeToggle: false
+  showThemeToggle: true
   stickyTopnav: true
+  transparentTopnav: true
   fullWidthFooter: false
   mainColour: '5368e7'
   linkColour: ff536b

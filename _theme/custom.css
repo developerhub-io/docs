@@ -2,10 +2,6 @@
   --red: #d9524f;
 }
 
-.node-content-wrapper.parent-list, .category-wrapper .category {
-  font-weight: 600 !important;
-}
-
 /* Sidebar animation */
 .node-content-wrapper .node {
     transition: color 0.05s linear;
@@ -92,10 +88,6 @@
 
 iframe.custom-footer {
     margin: 0 !important;
-}
-
-.customise .version-picker {
-    display: none;
 }
 
 .author-by {
@@ -204,20 +196,19 @@ iframe.custom-footer {
   display: none;
 }
 
-.customise.live .topnav-container {
-    background-color: transparent;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    -moz-backdrop-filter: blur(10px);
-    border-bottom: 1px solid #44444433;
+/* Top bar: Matcha's transparent bar, see-through with a blur. The blur sits on a layer behind the
+   bar, so the search overlay (which lives inside the bar) can still blur the page. */
+body.ui-matcha.topnav-transparent {
+  --matcha-bar-bg: color-mix(in srgb, var(--matcha-surface) 70%, transparent);
 }
 
-.customise.live .topnav-wrapper {
-    background: none !important;
-}
-
-.customise.live .external-search.dark {
-    background: #00000033;
+body.ui-matcha .topnav-container .topnav-wrapper::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
 }
 
 /* System generated CSS for new editor */
