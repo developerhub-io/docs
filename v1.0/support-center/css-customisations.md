@@ -38,7 +38,7 @@ CSS is no longer needed. Turn on **Hide version picker** under Project Settings 
 ## Make top navigation sticky
 
 {% callout type="warning" title="Only in Original UI" %}
-Only apply this customisation for the original UI. For Next UI, there's a setting under Project Settings \> Customisation to enable it.
+Only apply this customisation for the original UI. For Next and Matcha UI, there's a setting under Project Settings \> Customisation to enable it.
 {% /callout %}
 
 {% code %}
@@ -560,4 +560,4 @@ To move the search bar to a hero element with selector `.docs-hero-content` in t
 ```
 {% /code %}
 
-If you're using Next UI, use `app-search-v2` instead of `app-search`.
+If you're using Next or Matcha UI, use `app-search-v2` instead of `app-search`.

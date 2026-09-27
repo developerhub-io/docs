@@ -28,7 +28,7 @@ Search is only available in live mode. The bar does show in editor mode, but it 
 
 ## Next UI Search
 
-[Next UI](customising-visuals.md#next-ui) provides a more powerful search experience for the readers. The search pops out for a larger search area, and provides controls for the reader to select the search scope.
+[Next UI](customising-visuals.md#next-ui) and [Matcha UI](customising-visuals.md#matcha-ui) provide a more powerful search experience for the readers. The search pops out for a larger search area, and provides controls for the reader to select the search scope.
 
 {% image url="https://uploads.developerhub.io/prod/02/x4214x1qe2ok4wd8jfrzt0w8lckysq2mard4qdwz08qgy3z8v1w2ulap1x637kmg.png" /%}
 

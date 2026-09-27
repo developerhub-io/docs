@@ -71,7 +71,7 @@ The logs contain a UID which is an anonymous identifier of the user. It can help
 
 - Prone to provide incorrect, misleading or incomplete answers.
 - No analytics are collected yet.
-- AI Assistant only works on [Next UI](../customising-visuals.md#next-ui).
+- AI Assistant only works on [Next UI](../customising-visuals.md#next-ui) and [Matcha UI](../customising-visuals.md#matcha-ui).
 
 ## What Data Is Sent to the LLM?
 

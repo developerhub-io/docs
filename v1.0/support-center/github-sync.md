@@ -195,7 +195,7 @@ The free-text files and images live in `_theme/`:
 - **\_theme/custom.css**: your [custom CSS](customising-visuals/custom-css.md).
 - **\_theme/head.html**: your [custom HTML](custom-html.md) for the page head.
 - **\_theme/footer.html**: your [custom footer](customising-visuals/custom-footer.md).
-- **\_theme/logo.png** and **\_theme/favicon.png**: your logo and favicon, committed as real image files. Any common image extension works, so `logo.svg` is matched just as `logo.png` is.
+- **\_theme/logo.png**, **\_theme/logo-dark.png** and **\_theme/favicon.png**: your logo, your [logo for dark backgrounds](customising-visuals.md#changing-logo), and your favicon, committed as real image files. Any common image extension works, so `logo.svg` is matched just as `logo.png` is.
 
 A file that is absent means "use the default", so a project on the default logo has no `logo` file at all. Deleting one of these files clears that customisation outright, unlike a delete elsewhere in the sync (see [When You Delete Files](github-sync.md#when-you-delete-files)).
 

@@ -22,8 +22,10 @@ Check [Custom CSS](customising-visuals/custom-css.md), and [Custom Footer](custo
 To change the logo:
 
 1. Open Project Settings → **Customisation**.
-2. In the Brand assets card, click **Change** next to Logo.
+2. In the Brand assets card, click **Upload logo** next to Logo.
 3. Choose the new logo.
+
+Matcha's transparent top bar shows your logo on the page colour, which is near-black in dark mode. If your logo does not read on dark, click **Upload logo** next to **Logo for dark backgrounds** and choose a version for dark mode. Left empty, the regular logo is used in both modes.
 
 You can also change [the URL](customising-visuals.md#adding-links--home-button) which is navigated to when the logo is clicked on.
 
@@ -34,7 +36,7 @@ It is best to have a wide logo with transparent background.
 To change the website icon (favicon):
 
 1. Open Project Settings → **Customisation**.
-2. In the Brand assets card, click **Change** next to Favicon.
+2. In the Brand assets card, click **Upload favicon** next to Favicon.
 3. Choose the new favicon.
 
 {% callout title="Favicon" %}
@@ -42,12 +44,12 @@ We automatically rescale your favicon if it was too big. Note that the favicon o
 {% /callout %}
 
 {% callout type="warning" title="Automatic Saving" %}
-Logo and favicon are saved automatically on change without prompt.
+Logos and favicon are saved automatically on change without prompt.
 {% /callout %}
 
 ## Changing UI
 
-%product% provides two UIs, %product% Original and %product% Next.
+%product% provides three UIs: Original, Next and Matcha.
 
 ### Original UI
 
@@ -61,14 +63,36 @@ Next UI is the new UI. Next UI features a sleek design where different sections 
 
 {% image url="https://uploads.developerhub.io/prod/02/gisilvod2lm55ppsfekwri28qjfpk1deoc98ftqniqtb3juejaflqbidqhcf2ao1.png" /%}
 
+### Matcha UI
+
+Matcha is Next restyled, with a one-row top bar and a tree index. Unless you have chosen a [font](customising-visuals.md#changing-font), it uses IBM Plex Sans. New projects start on Matcha.
+
+{% image url="../../assets/matcha-ui.png" /%}
+
+#### Transparent Top Bar
+
+On Matcha, the top bar can take the page colour (white in light mode, near-black in dark) instead of your header colour:
+
+1. Open Project Settings → **Customisation**.
+2. In the Colour \& typography card, switch on **Transparent top bar**.
+3. Click **Save changes** in the top menu.
+
+Give it a [logo for dark backgrounds](customising-visuals.md#changing-logo) so your logo still reads in dark mode.
+
+### Choosing a UI
+
 To change the UI:
 
 1. Open Project Settings → **Customisation**.
-2. In the Customisation card, choose which UI to use.
+2. In the Look and feel card, under **UI version**, choose **Original**, **Next** or **Matcha**.
 3. Click **Save changes** in the top menu.
 
+{% callout title="Custom CSS" %}
+If you have [custom CSS](customising-visuals/custom-css.md), check it against the new UI before switching. Add `?ui=3` to the address of any page of your published docs to see it in Matcha (`?ui=2` for Next), without changing anything for your readers.
+{% /callout %}
+
 {% callout title="Navigation bar sections" %}
-In Next UI, the different sections are laid out in the top navigation bar. In mobile layout, they would collapse into a section picker dropdown.
+In Next and Matcha, the different sections are laid out in the top navigation bar. On Matcha, sections that do not fit move into a **More** menu at the end of the bar. In mobile layout, they collapse into a section picker dropdown.
 {% /callout %}
 
 ## Removing %product% Branding
