@@ -62,7 +62,7 @@ On an enterprise plan, credits are a term of your contract instead. [Contact Us]
 
 The documentation agent, and the pull request checks that run on it, use the model an admin picks for the project under Project Settings → **AI** → **AI Agents \& MCP** → **Editor** → **Agent model**. Each option shows who makes the model and the country it comes from, so you can rule out a model by its origin if you need to, and **Auto** follows our current recommendation.
 
-Whichever model is picked, those runs are served through OpenRouter, and only providers with zero data retention are used. Your content is never kept and never used to train a model.
+Those runs are served through OpenRouter, and only providers with zero data retention are used. Your content is never kept and never used to train a model.
 
 Our other AI features, including AI Writing Tools, AI commit messages, AI Assistant and the feedback filters, use OpenAI's GPT models. AI Writing Tools are not affected by the model an admin picks: rewriting a selection always runs on a small fast model.
 

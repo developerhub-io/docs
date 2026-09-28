@@ -193,7 +193,7 @@ Every rule the agent has recorded, and the eraser that removes one
 
 Admins can pick the model every agent run in the project uses, including the pull request checks under Self-Updating Docs. Open Project Settings → **AI** → **AI Agents \& MCP** → **Editor** tab, and use **Agent model** in the **Model** card.
 
-Each model is rated out of three for **Cost**, **Speed** and **Judgement**, and shows who makes it and the country it comes from, so you can rule out a model by its origin if you need to. That is where the model was made, not where it runs: whichever you pick, it is served through OpenRouter by providers with zero data retention (see [What data is sent](#what-data-is-sent)). **Auto** follows our current recommendation and moves with it.
+Each model is rated out of three for **Cost**, **Speed** and **Judgement**, and shows who makes it and the country it comes from, so you can rule out a model by its origin if you need to. **Auto** follows our current recommendation and moves with it.
 
 The model a run uses is shown at the top of the AI Editor, beside your [AI credits](ai-features.md#ai-credits) balance. Admins can select it to open the setting.
 
