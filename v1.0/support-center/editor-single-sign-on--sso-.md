@@ -91,6 +91,8 @@ To create/invite users into your project, you can:
 - Invite them by e-mail address from Project Settings → **Team**. They will be sent an e-mail containing the SSO Login URL.
 - Ask them to log in directly from [our login screen](https://app.developerhub.io/login) if "Email domain" is configured for the SSO connection.
 
+If someone already has a %product% account with the same email that is not part of an organisation, their first SSO login asks them to sign in the way they usually do, then to confirm joining your organisation with **Connect my account**.
+
 ## Logging in Users
 
 To login existing users, they can:

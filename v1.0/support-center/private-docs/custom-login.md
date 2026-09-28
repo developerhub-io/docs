@@ -77,7 +77,7 @@ function getSignedDeveloperHubUrl() {
 Once the URL is generated, you may redirect your reader to the generated URL to provide them access to the docs.
 
 {% callout title="Variables and Conditional Content" %}
-The `vars` object in the JWT payload is used to evaluate [content audiences](../conditional-content.md) for conditional content. Variables are matched against audience conditions to determine which content is visible to each reader.
+The `vars` object in the JWT payload is used to evaluate [content audiences](../conditional-content.md) for conditional content. Variables are matched against audience conditions to determine which content is visible to each reader, or you can [name the reader's audiences directly](../conditional-content.md#naming-audiences-directly) with `_audience`.
 {% /callout %}
 
 {% callout type="warning" title="Sign only in the backend" %}

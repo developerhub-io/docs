@@ -24,6 +24,8 @@ To change the default theme for readers:
 - Next to **Theme**, choose **Light**, **Dark** or **Auto**. Auto shows each reader the theme their system is set to.
 - Click **Save changes** in the top menu.
 
+New projects start on **Auto**.
+
 {% callout type="success" title="Code Theme" %}
 We suggest using the [light code theme](code-theme.md) when using the light theme.
 {% /callout %}

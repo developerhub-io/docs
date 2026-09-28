@@ -43,3 +43,7 @@ To login readers, they can:
 
 - Initiate a session from your IdP.
 - Login directly through the docs site.
+
+## Audiences
+
+To show readers content restricted to an [audience](../conditional-content.md), send an `_audience` attribute from your IdP. See [Audiences with Reader SSO](../conditional-content.md#audiences-with-reader-sso).

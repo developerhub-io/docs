@@ -9,7 +9,7 @@ keywords:
 tags: 
 ---
 
-Conditional Content lets you control who can see specific content in your documentation based on user variables. Content visibility is managed through audiences, which define conditions that are evaluated against [variables](variables.md) passed in a signed JWT. This works on a private project through [custom login](private-docs/custom-login.md), and on a public docs site through a signed link.
+Conditional Content lets you control who can see specific content in your documentation based on user variables. Content visibility is managed through audiences, which define conditions that are evaluated against [variables](variables.md) passed in a signed JWT. This works on a private project through [custom login](private-docs/custom-login.md), and on a public docs site through a signed link. You can also [name a reader's audiences directly](#naming-audiences-directly), which is how readers who sign in through [reader SSO](private-docs/reader-single-sign-on.md) get theirs.
 
 {% synced id="beta-feature" /%}
 
@@ -105,6 +105,30 @@ const payload = {
 {% /code %}
 
 These variables are then matched against the conditions defined in each audience to determine which content the reader can access.
+
+### Naming Audiences Directly
+
+Instead of matching conditions, a token can list the reader's audiences by their IDs in an `_audience` variable:
+
+{% code %}
+```javascript
+const payload = {
+  version: 1,
+  vars: {
+    userId: 1234,
+    _audience: ["enterprise", "beta"]
+  }
+};
+```
+{% /code %}
+
+A comma-separated string such as `"enterprise,beta"` works too. When `_audience` is present, the reader belongs to exactly the audiences it names and no conditions are checked, so an empty list puts them in no audience at all.
+
+### Audiences with Reader SSO
+
+Readers who sign in through [reader SSO](private-docs/reader-single-sign-on.md) have no variables for conditions to match. To place them in audiences, add an `_audience` attribute in your identity provider holding their audience IDs, in the same list or comma-separated form. A reader whose sign-in carries no `_audience` sees only the content that is not assigned to an audience.
+
+Audiences are read when the reader signs in, so a change in your identity provider applies from their next sign-in.
 
 ### Identifying Readers on a Public Docs Site
 
