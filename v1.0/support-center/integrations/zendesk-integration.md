@@ -21,7 +21,7 @@ Agents stop hunting through your documentation in another tab and pasting addres
 
 Install it from the [Zendesk Marketplace](https://www.zendesk.com/marketplace/apps/support/1281021/developerhub-docs/).
 
-{% image url="./zendesk-app-sidebar.png" %}
+{% image url="zendesk-app-sidebar.png" %}
 The DeveloperHub Docs panel, searching from inside a ticket
 {% /image %}
 
@@ -30,7 +30,7 @@ The DeveloperHub Docs panel, searching from inside a ticket
 You need:
 
 - A Zendesk administrator account. Only administrators can install apps.
-- A %product% project with [published](../publishing-documentation.md) documentation. The app searches published content only, so drafts and unpublished versions never appear.
+- A %product% project with published documentation. The app searches published content only, so drafts and unpublished versions never appear.
 - A [plan](https://developerhub.io/pricing) that includes the search API. [Contact us](../contact-us.md) if you are not sure.
 
 ### Creating an API Key
@@ -74,7 +74,7 @@ Each result names the heading that matched, the documentation section and page i
 - Click a **result title** to open that page in a new browser tab, and check it before sending.
 - Click **Insert link** to add a link to it to the reply being written.
 
-{% image url="./zendesk-app-insert-link.png" %}
+{% image url="zendesk-app-insert-link.png" %}
 Insert link adds the link to the end of the open reply
 {% /image %}
 
