@@ -39,7 +39,7 @@ Open Project Settings → **AI** → **Self-Updating Docs**, then in the **Code 
 If the fetch fails, the repository stays attached and tells you why, so you can fix it and use **Fetch now** rather than adding it again.
 
 {% callout type="warning" title="What leaves your project" %}
-The contents of these repositories are sent to our AI provider when the agent reads them. Only attach source you are willing to share on that basis.
+The contents of these repositories are sent to an AI model whenever they are read. Like every agent run, they only go to providers with zero data retention and are never used to train a model. Only attach source you are willing to share on that basis.
 {% /callout %}
 
 ### Branch

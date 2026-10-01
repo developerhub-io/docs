@@ -62,18 +62,13 @@ On an enterprise plan, credits are a term of your contract instead. [Contact Us]
 
 The documentation agent, and the pull request checks that run on it, use the model an admin picks for the project under Project Settings → **AI** → **AI Agents \& MCP** → **Editor** → **Agent model**. Each option shows who makes the model and the country it comes from, so you can rule out a model by its origin if you need to, and **Auto** follows our current recommendation.
 
-Those runs are served through OpenRouter, and only providers with zero data retention are used. Your content is never kept and never used to train a model.
+The [API Editor's AI Agent](edit-references.md#ai-agent) always runs on a model we pick for it. Every other AI feature uses OpenAI's GPT models: AI Writing Tools, AI Assistant, AI commit messages, AI SEO Helper and the feedback filters. None of these is affected by the model an admin picks.
 
-Our other AI features, including AI Writing Tools, AI commit messages, AI Assistant and the feedback filters, use OpenAI's GPT models. AI Writing Tools are not affected by the model an admin picks: rewriting a selection always runs on a small fast model.
+## How your data is handled
 
-## Terms \& Conditions
+Your content is never used to train a model, whichever AI feature sends it. How long it can be kept depends on who serves the feature:
 
-For the features that use OpenAI, quoting from [OpenAI's Data Controls](https://developers.openai.com/api/docs/guides/your-data):
-
-"Your data is your data. As of March 1, 2023, data sent to the OpenAI API is not used to train or improve OpenAI models".
-
-However:
-
-"OpenAI retains API data for 30 days for abuse and misuse monitoring purposes. A limited number of authorized OpenAI employees, as well as specialized third-party contractors that are subject to confidentiality and security obligations, can access this data solely to investigate and verify suspected abuse."
+- **AI Agent, the API Editor's AI Agent and Self-Updating Docs**: served through OpenRouter, and only providers with zero data retention are used. Your content is never kept.
+- **Every other AI feature**: served by OpenAI, and not covered by zero data retention. OpenAI may keep what is sent for up to 30 days to monitor for abuse. See [OpenAI's data controls](https://developers.openai.com/api/docs/guides/your-data).
 
 By using any AI services or features that %product% provides, you accept the transfer of the relevant data to the provider serving that feature.

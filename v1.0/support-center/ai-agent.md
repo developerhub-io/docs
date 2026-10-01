@@ -221,4 +221,4 @@ Applying changes is recorded in the [activity log](activity-log.md) as **publish
 
 The pages, API references and changelog posts the agent reads and edits are sent to the model you have chosen, along with your conversation.
 
-Agent runs are served through OpenRouter, and only providers with zero data retention are used. Your content is never kept and never used to train a model. See [AI Features](ai-features.md) for how this differs from our other AI features.
+Agent runs are served through OpenRouter, and only providers with zero data retention are used. Your content is never kept and never used to train a model. See [How your data is handled](ai-features.md#how-your-data-is-handled) for how this differs from our other AI features.
