@@ -127,6 +127,8 @@ items:
           - hosting/server-headers
       - page: seo
         icon: magnifying-glass-chart
+      - page: localisation
+        icon: language
       - page: pdf-export
         icon: file-pdf
       - page: exporting-documentation
@@ -146,8 +148,6 @@ items:
         icon: filter
       - page: personalised-docs
         icon: user-tag
-      - page: localisation
-        icon: language
   - category: 'API References'
     items:
       - page: api-references
