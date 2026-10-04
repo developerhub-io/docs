@@ -86,10 +86,18 @@ Its pages then show in your source language whichever language a reader picks.
 
 ## What Readers See
 
+{% image url="../../assets/translation-reader.png" %}
+This page, translated into Spanish, with the language picker open
+{% /image %}
+
 - The language picker in the top bar lists each language and keeps the reader on the same page. Readers are not redirected by their browser's language.
 - The reader interface, such as search and feedback, is in the reader's language. Any [UI text you changed](customising-visuals/ui-translation.md#how-to-customise-ui-text) stays as you wrote it, in every language.
 - Search finds pages in the reader's language, and [AI Assistant](writing-documentation/ai-search.md) answers in it.
 - Your sitemap lists each language's pages and links each page to its other languages, so search engines can send readers to the one in their language.
+
+{% image url="../../assets/translation-search.png" %}
+Search on the Spanish site finds pages in Spanish
+{% /image %}
 
 ## Words and Billing
 

@@ -193,6 +193,10 @@ items:
           title: 'AI Assistant'
           url: /support-center/ai-search
         icon: comments
+      - link:
+          title: 'AI Translation'
+          url: /support-center/localisation
+        icon: language
   - category: 'Integrations & Sync'
     items:
       - page: github-sync
