@@ -96,9 +96,9 @@ To specify in which language should the UI text show in:
 - Select the documentation.
 - Next to Language, select the language to translate the UI text to.
 
-Each documentation can have its own translation.
+Each documentation can have its own translation. On a project using [Docs Translation](../localisation.md), the interface follows the language each reader picks instead, and this setting is not used.
 
-At the moment, we have support for English, French, Deutsch and Spanish. If there is a language which you need for your documentation which we do not provide yet, then please [contact us](../contact-us.md).
+At the moment, we have support for English, French, Deutsch, Spanish and Portuguese. If there is a language which you need for your documentation which we do not provide yet, then please [contact us](../contact-us.md).
 
 ## How to Customise UI Text
 

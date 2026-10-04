@@ -1,73 +1,118 @@
 ---
 type: page
-title: Localisation
+title: Docs Translation
 listed: true
 description: 
-index_title: Localisation
+index_title: Docs Translation
 hidden: false
-keywords: 
+keywords: translation, translate, languages, multilingual, localisation
 tags: 
 ---
 
-%product% provides localisation for your documentation in two ways:
+Docs Translation publishes your docs in more than one language. You write and publish in one language as you do today, and each published page is translated automatically into the languages you choose. Readers switch language with the language picker in your docs.
 
-- Using an automated third party service, such as [Localize](localizejs.com).
-- By using different documentation for different languages.
+Docs Translation is a paid add-on to your plan. See [Pricing](https://developerhub.io/pricing).
 
-## Localise using Localize
+## Languages
 
-Localize easily translates websites and applications to new languages and streamlines your translation workflow.
+Your docs can be written in any of these languages and translated into the others:
 
-To use Localize with %product%, you need to set up a script using [Custom HEAD Tags](custom-javascript.md) as follows:
+| Language | Translated pages live under |
+|---|---|
+| English | `/en/` |
+| Spanish | `/es/` |
+| German | `/de/` |
+| French | `/fr/` |
+| Portuguese (Brazilian) | `/pt-br/` |
 
-{% code %}
-```html
-<script>
-  (function(d, script) {
-      script = d.createElement('script');
-      script.type = 'text/javascript';
-      script.async = true;
-      script.onload = function(){
-          !function(a){if(!a.Localize){a.Localize={};for(var e=["translate","untranslate","phrase","initialize","translatePage","setLanguage","getLanguage","detectLanguage","getAvailableLanguages","untranslatePage","bootstrap","prefetch","on","off","hideWidget","showWidget","getSourceLanguage"],t=0;t<e.length;t++)a.Localize[e[t]]=function(){}}}(window);
+A translated page keeps the slug of the original, so `/getting-started` becomes `/es/getting-started`. Your source language keeps the URLs it has today.
 
-          Localize.initialize({
-            key: 'YOUR_PROJECT_KEY',
-            rememberLanguage: true,
-            saveNewPhrasesFromSource: true
-            // other options go here, separated by commas
-          });
-      };
-      script.src = 'https://global.localizecdn.com/localize.js';
-      d.getElementsByTagName('head')[0].appendChild(script);
-  }(document));
-</script>
-```
-{% /code %}
+If you need a language that is not listed, [contact us](contact-us.md).
 
-The two options `rememberLanguage` and `saveNewPhrasesFromSource` are recommended by Localize.
+## Adding Docs Translation
 
-{% callout title="Info" %}
-We handle variables in your docs as indicated by Localize.
-{% /callout %}
+Open Project Settings → **Billing** → **Plan \& Usage**, and select **Add Docs Translation**.
 
-## Localise using different documentation
+On an enterprise plan, Docs Translation is a term of your contract instead. [Contact Us](contact-us.md) to add it.
 
-To localise using different documentation, you would need to [create documentation](project-settings/managing-documentation.md#creating-documentations) for each language.
+## Translating Your Docs
 
-For example, in your v1.0 version, you can have the following documentation sections: `en`, `de`, and `es`. If you already had multiple documentation, for example for `Android SDK`, `iOS SDK` and so on, then you can expand your documentation to `Android SDK (EN)`, `Android SDK (DE)` and `Android SDK (ES)`, and so on.
+1. Open Project Settings → **Content** → **Translation**.
+2. Under **Source language**, choose the language you write in.
+3. Under **Translate into**, switch on each language your readers can switch to.
+4. Optionally, write [instructions](#instructions) for the translator.
+5. Select **Check pages**. The first time you translate into a language, you preview 3 pages beside the original and mark each one **Looks good**. Nothing is published until you start translating.
+6. Select **Start translating**. You see what will be translated, roughly how many words that is, and what it costs.
 
-We also provide the option for you to customise the UI text to better suit your needs. For detailed instructions, please refer to [UI translation](customising-visuals/ui-translation.md).
+A large site can take up to 24 hours. We email you when a language's first translation is done.
 
-## Browser translation
+### Instructions
 
-Readers can also translate your published docs using their browser's built-in translation, such as Chrome's translate feature. This works out of the box and there is nothing to set up in %product%.
+Under **Instructions**, tell the translator about your product, your terms and your readers, in up to 2,000 characters. For example:
 
-Code is deliberately kept verbatim so that readers can still copy and run it.
+- Keep these product names in English: Acme Cloud, Acme CLI.
+- Use Colombian Spanish, and address the reader as usted.
+- Translate "Key" as "Llave".
 
-## Which localisation method should I choose?
+Saving a change to the instructions translates every page again. To try them out first, use **Preview translation** in the same pane: pick a published page and a language, and read the result beside the original.
 
-It depends on the complexity of your docs and resources.
+## Keeping Translations Up to Date
 
-If your docs are of a manageable size, and you do have the resources to keep up with documentation changes in one language, and to replicate it to other languages, then you can use different documentation for each language.
+Each time you publish a page, it is translated again, usually within a few minutes. Readers see the previous translation until the new one is ready. Drafts are never translated.
 
-If your docs are of a large size, and you would like the easiest most effective solution, then you would want to use Localize or another third party service. Using an automated third party service makes it easier for you to keep all parts of your documentation up-to-date with all the languages you wish to offer. Once content is added or modified, you will be prompted to approve the new translations. This ensure that your docs cannot go out-of-sync. Also, you would not need to modify your project structure.
+The **Status** card in the Translation pane shows how far each language has got, and lists any page that failed with the reason. Select **Retry failed pages** to try them again. Until a failed page is translated, readers see it in your source language.
+
+## What Is Translated
+
+- Pages, and the titles of sections, categories and API references in the navigation.
+- API references, except parameter names, values and examples.
+- Changelog posts.
+- Landing page and custom page text.
+- Synced blocks.
+
+Code and [custom HTML](custom-html.md) stay exactly as you wrote them.
+
+Translations are kept in %product%. They are not written to a [synced GitHub repository](github-sync.md).
+
+### Leaving a Section Out
+
+To keep a documentation section or API reference in your source language only:
+
+1. Open Manage Sections (section menu → settings {% icon classes="fas fa-cog" /%} cog).
+2. Select the documentation section or API reference.
+3. Under **Translation**, switch off **Translate this section** (or **Translate this API reference**).
+
+Its pages then show in your source language whichever language a reader picks.
+
+## What Readers See
+
+- The language picker in the top bar lists each language and keeps the reader on the same page. Readers are not redirected by their browser's language.
+- The reader interface, such as search and feedback, is in the reader's language. Any [UI text you changed](customising-visuals/ui-translation.md#how-to-customise-ui-text) stays as you wrote it, in every language.
+- Search finds pages in the reader's language, and [AI Assistant](writing-documentation/ai-search.md) answers in it.
+- Your sitemap lists each language's pages and links each page to its other languages, so search engines can send readers to the one in their language.
+
+## Words and Billing
+
+The add-on includes a monthly allowance of translated words. Words past it are billed on your next invoice. See [Pricing](https://developerhub.io/pricing).
+
+Each word counts once for each language it is translated into. A page you publish again counts again in full, and so does every page when you change the source language or the instructions. Previews count too. Project Settings → **Billing** → **Plan \& Usage** shows the words translated so far this period.
+
+Docs Translation does not spend [AI credits](ai-features.md#ai-credits).
+
+### Limit for Extra Words
+
+Under **Docs Translation** in **Plan \& Usage**, set **Limit for extra words** to cap what words past the allowance can cost each month. Set it to 0 to stay within the included words.
+
+When the limit is reached, translation pauses until the next period. Pages you have not changed keep their translation, but a page you edit shows in your source language until translation resumes.
+
+### Removing Docs Translation
+
+Select **Remove Docs Translation** in **Plan \& Usage**. Your docs are then shown in your source language only, and translated URLs stop working. Your Translation settings are kept.
+
+## How Your Content Is Handled
+
+Pages are translated by AI. See [How your data is handled](ai-features.md#how-your-data-is-handled) for where your content goes and how long it can be kept.
+
+## Translating Manually
+
+To translate your docs yourself instead, [create a documentation section](project-settings/managing-documentation.md#creating-documentation) for each language, such as `Guides (EN)` and `Guides (ES)`, and set each one's interface language in [UI Translation](customising-visuals/ui-translation.md#translate-ui-text).

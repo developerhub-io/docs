@@ -212,9 +212,7 @@ items:
           - integrations/google-analytics
           - integrations/intercom
           - integrations/slack
-          - link:
-              title: Localize
-              url: /support-center/localisation
+          - integrations/localize
           - integrations/jupyter-notebook-integration
           - integrations/hubspot-integration
           - integrations/zendesk-integration

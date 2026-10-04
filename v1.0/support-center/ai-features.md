@@ -62,13 +62,14 @@ On an enterprise plan, credits are a term of your contract instead. [Contact Us]
 
 The documentation agent, and the pull request checks that run on it, use the model an admin picks for the project under Project Settings → **AI** → **AI Agents \& MCP** → **Editor** → **Agent model**. Each option shows who makes the model and the country it comes from, so you can rule out a model by its origin if you need to, and **Auto** follows our current recommendation.
 
-The [API Editor's AI Agent](edit-references.md#ai-agent) always runs on a model we pick for it. Every other AI feature uses OpenAI's GPT models: AI Writing Tools, AI Assistant, AI commit messages, AI SEO Helper and the feedback filters. None of these is affected by the model an admin picks.
+The [API Editor's AI Agent](edit-references.md#ai-agent) and [Docs Translation](localisation.md) always run on a model we pick for them. Every other AI feature uses OpenAI's GPT models: AI Writing Tools, AI Assistant, AI commit messages, AI SEO Helper and the feedback filters. None of these is affected by the model an admin picks.
 
 ## How your data is handled
 
 Your content is never used to train a model, whichever AI feature sends it. How long it can be kept depends on who serves the feature:
 
 - **AI Agent, the API Editor's AI Agent and Self-Updating Docs**: served through OpenRouter, and only providers with zero data retention are used. Your content is never kept.
+- **[Docs Translation](localisation.md)**: served through OpenRouter. Pages you publish and previews go to providers with zero data retention only. A large job, such as translating a whole site into a new language, is sent as a batch instead, and OpenRouter keeps a batch for up to 30 days.
 - **Every other AI feature**: served by OpenAI, and not covered by zero data retention. OpenAI may keep what is sent for up to 30 days to monitor for abuse. See [OpenAI's data controls](https://developers.openai.com/api/docs/guides/your-data).
 
 By using any AI services or features that %product% provides, you accept the transfer of the relevant data to the provider serving that feature.

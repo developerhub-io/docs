@@ -43,7 +43,7 @@ Add integrations to your project to be able to understand better how your users 
 
 ### Localize
 
-[Localize](https://localizejs.com/) helps you translate all your docs to many languages, and ensuring that all doc translations are up-to-date. To enable this integration, see [localisation](localisation.md#localise-using-localize).
+[Localize](https://localizejs.com/) helps you translate all your docs to many languages, and ensuring that all doc translations are up-to-date. To enable this integration, see [Localize](integrations/localize.md).
 
 {% image url="https://image-archive.developerhub.io/image/upload/v2_1/nfrsolb170tpefux40h7/1621556168.png" width=300 /%}
 
