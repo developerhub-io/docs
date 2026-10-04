@@ -1,17 +1,17 @@
 ---
 type: page
-title: Docs Translation
+title: Translation
 listed: true
 description: 
-index_title: Docs Translation
+index_title: Translation
 hidden: false
-keywords: translation, translate, languages, multilingual, localisation
+keywords: translation, translate, AI translation, machine translation, auto-translation, languages, multilingual, localisation, localization, internationalisation, internationalization, i18n, l10n
 tags: 
 ---
 
-Docs Translation publishes your docs in more than one language. You write and publish in one language as you do today, and each published page is translated automatically into the languages you choose. Readers switch language with the language picker in your docs.
+Translation uses AI to publish your docs in more than one language. You write and publish in one language as you do today, and AI translates each published page into the languages you choose. Readers switch language with the language picker in your docs.
 
-Docs Translation is a paid add-on to your plan. See [Pricing](https://developerhub.io/pricing).
+Translation is a paid add-on to your plan. See [Pricing](https://developerhub.io/pricing).
 
 ## Languages
 
@@ -29,18 +29,18 @@ A translated page keeps the slug of the original, so `/getting-started` becomes 
 
 If you need a language that is not listed, [contact us](contact-us.md).
 
-## Adding Docs Translation
+## Adding Translation
 
 Open Project Settings → **Billing** → **Plan \& Usage**, and select **Add Docs Translation**.
 
-On an enterprise plan, Docs Translation is a term of your contract instead. [Contact Us](contact-us.md) to add it.
+On an enterprise plan, Translation is a term of your contract instead. [Contact Us](contact-us.md) to add it.
 
 ## Translating Your Docs
 
 1. Open Project Settings → **Content** → **Translation**.
 2. Under **Source language**, choose the language you write in.
 3. Under **Translate into**, switch on each language your readers can switch to.
-4. Optionally, write [instructions](#instructions) for the translator.
+4. Optionally, write [instructions](#instructions) for the AI.
 5. Select **Check pages**. The first time you translate into a language, you preview 3 pages beside the original and mark each one **Looks good**. Nothing is published until you start translating.
 6. Select **Start translating**. You see what will be translated, roughly how many words that is, and what it costs.
 
@@ -48,7 +48,7 @@ A large site can take up to 24 hours. We email you when a language's first trans
 
 ### Instructions
 
-Under **Instructions**, tell the translator about your product, your terms and your readers, in up to 2,000 characters. For example:
+Under **Instructions**, tell the AI about your product, your terms and your readers, in up to 2,000 characters. For example:
 
 - Keep these product names in English: Acme Cloud, Acme CLI.
 - Use Colombian Spanish, and address the reader as usted.
@@ -97,7 +97,7 @@ The add-on includes a monthly allowance of translated words. Words past it are b
 
 Each word counts once for each language it is translated into. A page you publish again counts again in full, and so does every page when you change the source language or the instructions. Previews count too. Project Settings → **Billing** → **Plan \& Usage** shows the words translated so far this period.
 
-Docs Translation does not spend [AI credits](ai-features.md#ai-credits).
+Translation does not spend [AI credits](ai-features.md#ai-credits).
 
 ### Limit for Extra Words
 
@@ -105,7 +105,7 @@ Under **Docs Translation** in **Plan \& Usage**, set **Limit for extra words** t
 
 When the limit is reached, translation pauses until the next period. Pages you have not changed keep their translation, but a page you edit shows in your source language until translation resumes.
 
-### Removing Docs Translation
+### Removing Translation
 
 Select **Remove Docs Translation** in **Plan \& Usage**. Your docs are then shown in your source language only, and translated URLs stop working. Your Translation settings are kept.
 
