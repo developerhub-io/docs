@@ -480,7 +480,7 @@ If they are not already a user, an e-mail message will be sent to the e-mail add
 
 If they are already a user, an e-mail message will be sent to their e-mail address to notify them that they can collaborate on this project. They will be automatically added and no prompt is required from them.
 
-{% image url="https://uploads.developerhub.io/prod/02/fiw1hrnfsvas5rrl7930dplahylr601j9iv4wk11cykq6dpa92aggsrbg7420um9.png" /%}
+{% image url="../../assets/team-member-roles.png" /%}
 
 ## Remove a Teammate
 

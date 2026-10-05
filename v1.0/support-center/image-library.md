@@ -11,7 +11,7 @@ tags:
 
 Image Library lets you manage and reuse your uploaded images across pages, so you don’t have to upload the same file multiple times or update each usage individually.
 
-{% image url="../../assets/49f9040c578cd25682d3dc5f7d27bf1e55425721.png" /%}
+{% image url="../../assets/image-library-dialog.png" /%}
 
 ## What is Image Library?
 

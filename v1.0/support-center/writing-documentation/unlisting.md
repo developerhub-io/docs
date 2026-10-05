@@ -11,7 +11,7 @@ tags:
 
 An unpublished page is a page that your readers cannot reach. It can only be edited by your teammates.
 
-{% image url="https://uploads.developerhub.io/prod/02/c61c4z66u3f4z2h31bsc8dy92r9qvvoekggyh7aks1nfgmqx32fkvrp2nx69qaph.png" /%}
+{% image url="../../../assets/page-state-unpublished.png" /%}
 
 ## How could a page get unpublished?
 

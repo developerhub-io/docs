@@ -247,7 +247,7 @@ To add an icon in place of the expander icon for categories and parent pages in 
 
 To have enums with their [varnames](api-references/openapi-extensions.md#x-enum-varnames) expand on click, add the following in Custom HEAD tags:
 
-{% image url="https://uploads.developerhub.io/prod/02/0qgzdkjrhleclqbbl4kzuhezsrkpxzbrwt04w4a9fxz0czeatvx880ka30s9dmlc.png" /%}
+{% image url="../../assets/api-enum-varnames-expanded.png" /%}
 
 {% code %}
 ```javascript

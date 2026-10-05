@@ -96,7 +96,7 @@ Hiding the picker only removes the dropdown. The versions themselves are untouch
 
 If your readers have bookmarked pages from older versions, or are unaware that your documentation is versioned, then you might want to notify them using a banner at the top of the page that there is a newer version. You can do so using [an advanced setting](advanced-settings.md) by setting `warnings.oldVersion` to `true`.
 
-{% image url="https://uploads.developerhub.io/prod/02/b2che9v8mdz4wz0mv6m16fnjq802n8ifibyrcr9xw9dv8hqjl1zns90zke259auw.png" %}
+{% image url="../../../assets/reader-old-version-banner.png" %}
 Banner suggesting to the reader that there's a newer version
 {% /image %}
 

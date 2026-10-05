@@ -19,7 +19,7 @@ Plans are subscribed to, and are paid for *per project per month*. To upgrade yo
 - Open Project Settings → **Plan \& Usage**.
 - Click **Upgrade plan** {% icon classes="fas fa-arrow-up" /%}.
 
-{% image url="https://uploads.developerhub.io/prod/02/u2ydxljfwxkbc1uthom26kgq7yhscl8otadro47cmpp7l74qgdxrzwal60oupz60.jpg" /%}
+{% image url="../../assets/plan-and-usage-upgrade.png" /%}
 
 - A pop-up will show outlining every available plan's features. Select the plan you need.
 - Fill out the payment form. If payment succeeded, a notification will show to get you started on your supercharged plan.

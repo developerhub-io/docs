@@ -44,7 +44,7 @@ To edit the conditions for an audience:
 
 In the expression builder, you can add as many conditions as needed. Each condition checks that a variable matches a value. All conditions must be satisfied for the content to show.
 
-{% image url="../../assets/3b731ff238faf45d271cbd0a6a9fb5c8341e9dbd.png" /%}
+{% image url="../../assets/audience-expression-builder.png" /%}
 
 ### Deleting an Audience
 

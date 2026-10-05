@@ -11,7 +11,7 @@ tags: customisation
 
 %product% supports the following customisations: [UI](customising-visuals.md#changing-ui) , [CSS](customising-visuals/custom-css.md), [Footer](customising-visuals/custom-footer.md), [theme (dark mode)](customising-visuals/theme.md), [code theme](customising-visuals/code-theme.md), logos, header colour, link colour, font and navigation links.
 
-{% image url="https://uploads.developerhub.io/prod/02/4xxcn5idwk0zimsk1iyxiw10mvrusone25kd7etmqf0irl8b9yx0phjwnyzcz8fw.png" width=276 /%}
+{% image url="../../assets/customisation-brand-assets.png" /%}
 
 ## Custom CSS and Footer
 
@@ -55,13 +55,13 @@ Logos and favicon are saved automatically on change without prompt.
 
 Original UI is the first UI of %product%, notable for its hovering search bar. The different sections and version are hidden behind dropdown, and the index has coloured categories.
 
-{% image url="https://uploads.developerhub.io/prod/02/1i99io8bxcrui9rkvtdpxgnnop4h4umjxi03lb6l4ujz27znuulsxbdrmkcr7g0v.png" /%}
+{% image url="../../assets/reader-ui-original.png" /%}
 
 ### Next UI
 
 Next UI is the new UI. Next UI features a sleek design where different sections are visible in the top navigation, and a redesigned index with clearer margins and animation. It also providers a better [search experience](using-search.md#next-ui-search).
 
-{% image url="https://uploads.developerhub.io/prod/02/gisilvod2lm55ppsfekwri28qjfpk1deoc98ftqniqtb3juejaflqbidqhcf2ao1.png" /%}
+{% image url="../../assets/reader-ui-next.png" /%}
 
 ### Matcha UI
 
@@ -120,7 +120,7 @@ The header, link and navigation colours are modifiable. To change the colours:
 3. Pick the desired colour. We will warn you if the colour is not contrasting enough. The change previews live in the embedded reader preview at the top of the pane.
 4. Click **Save changes** in the top menu.
 
-{% image url="https://uploads.developerhub.io/prod/02/t5tfi5ko1eerfgdi92b3qkk5m6mnshfaktg43nvnfudtlhvr8hvji926ke7hvscs.png" width=372 /%}
+{% image url="../../assets/customisation-colour-picker.png" /%}
 
 {% callout title="Link Colour" %}
 Make sure to set the link colour distinct from the font colour. This is usually your secondary brand colour. The text in your pages is almost black in light theme (white in dark theme), so you need a colourful link for it to be distinguished.
@@ -135,7 +135,7 @@ To change the font of the entire project:
 3. Choose from the list of Google Fonts available. The font is previewed immediately in the current documentation and the embedded reader preview at the top of the pane.
 4. Click **Save changes** in the top menu.
 
-{% image url="https://uploads.developerhub.io/prod/02/a42me6zj2gppl815wkrthfxrbbk56pfb6k3s7jk9h0zqmi8e7xbhhqm4395lqcb3.png" /%}
+{% image url="../../assets/customisation-font-picker.png" /%}
 
 {% callout title="Paid Plan" %}
 Changing font is only a paid plan feature

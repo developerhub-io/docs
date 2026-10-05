@@ -31,13 +31,13 @@ The quick switcher also indexes Project Settings, Account Settings and Organisat
 
 Find page searches through all pages and API references by title and slug in the version you're on. Typo-tolerance search is used here.
 
-{% image url="https://uploads.developerhub.io/prod/02/cm553rjpauugjnf9llv5pmj0tbnhpv4xw5536k0aezno815pcuic6sc1xaczxyvi.png" /%}
+{% image url="../../assets/quick-switcher-find-page.png" /%}
 
 ## Search Mode: Find Text
 
 Find text searches through all pages in the version you're on for text. Search is performed on [Markdoc](exporting-documentation.md#markdoc) format and is not case sensitive.
 
-{% image url="https://uploads.developerhub.io/prod/02/jf6o54rxx3rf5agijr6cbrsqcysjs8bxljwi6mir7m6xb1sv1oj6691oien51ofm.png" /%}
+{% image url="../../assets/quick-switcher-find-text.png" /%}
 
 ## Search Mode: Find \& Replace
 
@@ -45,7 +45,7 @@ Find \& replace searches through all pages in the version you're on for text, an
 
 All occurrences that can be replaced would be shown to you prior to replacing them.
 
-{% image url="https://uploads.developerhub.io/prod/02/nye3lm5949pscetd8kacvanhayhxhjy6cjgfrrumum3au25kt8xlksvgwztifo2o.png" /%}
+{% image url="../../assets/quick-switcher-find-replace.png" /%}
 
 {% callout type="warning" title="Warning" %}
 Once text is replaced, there is no way to undo the operation. Check all occurrences and verify that you wish for ALL occurrences to be replaced before continuing.

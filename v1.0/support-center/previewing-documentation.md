@@ -137,7 +137,7 @@ Note that you can add a base path if you are [hosting under your own existing we
 
 Our pages are print-optimised (specially for A4 paper size). We recommend having the wide documentation layout when printing, and always printing from the published documentation site (not on the editor). If you are an enterprise customer, then you may also [export an entire version as PDF](pdf-export.md).
 
-{% image url="https://image-archive.developerhub.io/image/upload/285/eyb5rboboeyujowo73rl/1549534333.jpg" /%}
+{% image url="../../assets/reader-print-a4.png" /%}
 
 ## Embed Mode
 
@@ -162,4 +162,4 @@ Embed mode is enabled by adding a `?mode=embed` or `?mode=embed_full` to any %pr
 
 Here is a preview:
 
-{% image url="https://image-archive.developerhub.io/image/upload/285/x76hvvut9jyurqhueneg/1610123546.png" /%}
+{% image url="../../assets/reader-embed-mode.png" /%}

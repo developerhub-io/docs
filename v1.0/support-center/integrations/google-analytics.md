@@ -17,7 +17,7 @@ Supercharged plan users can integrate %product% with Google Analytics to track p
 
 - Open Project Settings → **Integrations**.
 
-{% image url="https://uploads.developerhub.io/prod/02/dghpszvhyynuznvsau8h4ifsn1wdzwogqn7azjh07yiacus3i3gbbw29ewu8qdom.png" width=300 /%}
+{% image url="../../../assets/integrations-google-analytics.png" /%}
 
 - You should already have a property set up for the documentation subdomain on Google Analytics.
 - Paste the tracking code from Google Analytics. [Universal Analytics](https://support.google.com/analytics/answer/7476135) IDs looks like `UA-XXXXXX-YY`. [Google Analytics 4](https://support.google.com/analytics/answer/9539598?hl=en) IDs look like `G-XXXXXXXX`.

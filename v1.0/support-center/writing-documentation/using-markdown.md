@@ -19,7 +19,7 @@ If you are a technical person, then probably you'd love to be able to write your
 
 %product% supports Markdown seamlessly. To write Markdown, just start writing Markdown and we will transform it right away on the fly.
 
-{% image url="https://image-archive.developerhub.io/image/upload/33/am4wn5ez7s4aw1ni8kol/1547683986.gif" width=300 %}
+{% image url="../../../assets/markdown-live-formatting.gif" %}
 Instant markdown formatting
 {% /image %}
 
@@ -50,7 +50,7 @@ If you wish to type text that contains multiple underscores and it is being rend
 
 To do that, type `hello_world`, make it inline code, and then add `_world` to it.
 
-{% inline-image url="https://uploads.developerhub.io/prod/02/61iv71iitc6jq2ku7e46m86kfy1gnb1l81idbsr996i82epq43x5fw2tzc1ap1oq.gif" width="undefined" /%}
+{% inline-image url="../../../assets/markdown-underscores-inline-code.gif" width="undefined" /%}
 {% /callout %}
 
 ## Pasting Markdown

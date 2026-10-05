@@ -16,7 +16,7 @@ tags:
 
 The search bar exists at the top of the pages to attract attention and give the readers the best experience possible.
 
-{% image url="https://uploads.developerhub.io/prod/02/ngve2eewzdno522006iudnyoe63oi59xnrgpz3hpt2l582q6047wp5p4s6p6d1xi.png" /%}
+{% image url="../../assets/reader-search-bar.png" /%}
 
 ### Look and Feel
 
@@ -30,7 +30,7 @@ Search is only available in live mode. The bar does show in editor mode, but it 
 
 [Next UI](customising-visuals.md#next-ui) and [Matcha UI](customising-visuals.md#matcha-ui) provide a more powerful search experience for the readers. The search pops out for a larger search area, and provides controls for the reader to select the search scope.
 
-{% image url="https://uploads.developerhub.io/prod/02/x4214x1qe2ok4wd8jfrzt0w8lckysq2mard4qdwz08qgy3z8v1w2ulap1x637kmg.png" /%}
+{% image url="../../assets/reader-search-modal.png" /%}
 
 ## Standard Search
 

@@ -11,7 +11,7 @@ tags:
 
 An unlisted page is a page that your readers can not see yet or reach. It can only be edited by your teammates.
 
-{% image url="https://image-archive.developerhub.io/image/upload/18830/kvovikgj0qbgbo4kbvmm/1566173703.png" %}
+{% image url="../../../assets/page-state-unpublished.png" %}
 Unlisted Page
 {% /image %}
 

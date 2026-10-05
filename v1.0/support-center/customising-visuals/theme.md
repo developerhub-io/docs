@@ -40,11 +40,11 @@ To show a theme toggle for readers:
 
 ## Light Theme
 
-{% image url="https://uploads.developerhub.io/prod/02/m8oqebybjcmrcqal8uzgoon6cu61tqsl79qa57myz7vfmb85ysga5rk52ncwvoq8.png" /%}
+{% image url="../../../assets/reader-theme-light.png" /%}
 
 ## Dark Theme
 
-{% image url="https://uploads.developerhub.io/prod/02/jyanu5mrscxmmgesvv0f5dw6oliurqr50j089lw0nvxc5iv433atbtonrlwe6ez8.png" /%}
+{% image url="../../../assets/reader-theme-dark.png" /%}
 
 ## Modifying the theme
 

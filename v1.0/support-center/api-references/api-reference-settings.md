@@ -11,7 +11,7 @@ tags:
 
 Along with [code generation](code-generation.md), each API Reference has settings which you can manage. To open them, open [Manage Sections](../project-settings/managing-api-references.md#manage-sections) and select the API reference from the left list; its settings appear on the right.
 
-{% image url="https://uploads.developerhub.io/prod/02/0hjexvjnju890j1pv3hw34iec82jwf8alpp23y84p8pj45hlel9dv39z6lez3k7y.png" /%}
+{% image url="../../../assets/api-reference-settings.png" /%}
 
 ## Allow Download
 
@@ -60,7 +60,7 @@ If your API Reference is dense, loading thousands of items could be slow. To opt
 
 When tags are allowed to expand, the tag with its description would show, alongside an table of all the operations available under this tag. Also, a button to "Show" the operations will appear.
 
-{% image url="https://uploads.developerhub.io/prod/02/e0126ozyvqy0qi2lpszaqhnvy5tw1ofvsz23ifci69nnm4gfmgs3a3hlee5u0dx4.png" /%}
+{% image url="../../../assets/api-tags-expandable.png" /%}
 
 ## Allow Index to Collapse
 

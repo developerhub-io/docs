@@ -11,7 +11,7 @@ tags:
 
 If you find yourself writing pages with the same format and structure, then you can use Templates to simplify your experience.
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_1/icwrscqph0zx0adj4x0n/1633641714.jpg" /%}
+{% image url="../../assets/template-create-dialog.png" /%}
 
 By using Templates, you can make an already existing page into a template, so the same format and structure can be applied on new pages.
 
@@ -59,7 +59,7 @@ Note that all parts of the link before `?` are the exact same as any page link y
 
 Where `template_id` can be found when you are selecting a template at the top right corner:
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_1/yjceftaraiarngmp3ztm/1637613403.png" /%}
+{% image url="../../assets/template-choose-dialog.png" /%}
 
 ## Known Limitations
 

@@ -11,7 +11,7 @@ tags:
 
 Categories make it easier to segment your documentation. You can see an example of categories on the left hand-side, such as "Start Here".
 
-{% image url="https://image-archive.developerhub.io/image/upload/6763/lrngsvnjrtqrplm6wrnl/1547502201.png" width=282 %}
+{% image url="../../../assets/reader-categories-index.png" %}
 Categories example
 {% /image %}
 

@@ -11,7 +11,7 @@ tags: ai
 
 In %product%, AI can automatically annotate the history of every page, making it easier for you to track and understand the changes and activities that have taken place.
 
-{% image url="https://uploads.developerhub.io/prod/02/pcjj39ox3jnxt5bfwigtexxrenlz172ha8kzz8zfdb81fjodtt3rjwh1xdbohxgy.png" width=493 /%}
+{% image url="../../../assets/ai-commit-messages-history.png" /%}
 
 ## Enabling AI Commit Messages
 

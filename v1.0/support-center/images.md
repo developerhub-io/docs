@@ -25,7 +25,7 @@ To create an Image:
 
 An example of an image:
 
-{% image url="https://uploads.developerhub.io/prod/02/mfson8uc57kbxc8i9mfx758je2t0f91sw4kju2g7anvyqlc9f2pprh85whhq0pti.png" %}
+{% image url="../../assets/reader-structuring-documentation.png" %}
 Image example
 {% /image %}
 

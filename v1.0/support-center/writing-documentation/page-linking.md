@@ -94,7 +94,7 @@ You can analyse all links in a version at once by:
 - Select the version.
 - In the Lifecycle card, click **Check broken links**.
 
-{% image url="../../../assets/41212df03ac31b498327a43baa62d246b7aaec5f.jpeg" /%}
+{% image url="../../../assets/analyse-links-dialog.png" /%}
 
 ### View Broken Links in a Page
 

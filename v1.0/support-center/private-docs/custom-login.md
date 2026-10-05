@@ -41,7 +41,7 @@ To setup JWT login on %product%, follow these steps:
 3. Provide a login URL, read more about [login URL](../private-docs.md#using-login-url) here.
 4. Click **Save changes** in the top menu.
 
-{% image url="https://uploads.developerhub.io/prod/02/wwvzkc8c0ouvdjwunip7tfd7tvwxjj21lplslq6yb29xafd92g510epvdjfq4rci.png" /%}
+{% image url="../../../assets/access-method-jwt.png" /%}
 
 ## Signing JWT
 

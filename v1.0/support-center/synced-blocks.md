@@ -24,7 +24,7 @@ To create a synced block:
   - **Title:** Select a title that accurately represents the content, making it easy for your teammates to locate. Note that the title is editable and can be changed later.
   - **The contents:** Utilise the editor to compose the contents of the synced block. These contents are flexible and can be modified later. Feel free to include any [blocks](writing-documentation/blocks.md) that are already supported in %product%.
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_1/itgncmmhvfhnqhspyiqk/1637268467.gif" /%}
+{% image url="../../assets/synced-block-new.png" /%}
 
 ## Reuse a Synced Block
 
@@ -37,13 +37,13 @@ To reuse a synced block:
 - Select the synced block you want to reuse, or search for it first.
 - Click on Choose.
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_1/clvzrwd0iaap0ssxtzdd/1637268820.gif" /%}
+{% image url="../../assets/synced-block-choose.png" /%}
 
 ## Identifying a Synced Block
 
 When you're in the editor, synced blocks will have a {% badge text="Synced" type="warning" /%} badge at the top right. Once you hover on a synced block, an orange dotted line will show what contents are exactly in the synced block.
 
-{% image url="https://image-archive.developerhub.io/image/upload/v2_1/yq1zxvfhyehbrrfvzyvd/1637269710.jpg" /%}
+{% image url="../../assets/synced-block-hover.png" /%}
 
 ## Editing a Synced Block
 

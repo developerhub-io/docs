@@ -11,7 +11,7 @@ tags:
 
 Cut development time and have your readers try out your APIs right from the API Reference with an API playground.
 
-{% image url="https://uploads.developerhub.io/prod/02/11dri4a8umnlxju2p6ugvr5c2fnpkqbth219dbls1zta0fvqs1hq2vwvs1nz0l8j.png" /%}
+{% image url="../../assets/try-it-out-response.png" /%}
 
 With Try It Out, all headers, query parameters, form data, and request body fields are pre-populated with examples that you provide in the OpenAPI spec. Readers can modify the fields and make an API request directly from the API Reference. Headers and parameters are validated against their type, and enums are shown if available. Users can initiate OAuth 2.0 flows right from the API reference to get access tokens.
 
@@ -64,7 +64,7 @@ For example:
 
 Once this is set up, you may enable OAuth 2.0 Authentication by checking Show OAuth2 Authentication in the API Reference Settings {% icon classes="fas fa-cog" /%}.
 
-{% image url="https://uploads.developerhub.io/prod/02/nj3rw78yix25ar2d6e3qd56vq4n5vzrfu7i12h80ctx89yhr0pzl1qb1q5g2dbsr.png" width=558 /%}
+{% image url="../../assets/try-it-out-oauth2.png" /%}
 
 {% callout title="Redirect URL" %}
 If you want to allow OAuth 2.0 authentication in the editor as well, then you must add the following redirect URL: `https://app.developerhub.io/$reader-oauth2`. However, this must not be used on a production API.

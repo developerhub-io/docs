@@ -11,7 +11,7 @@ tags:
 
 With Magic Links, your private project can only be accessed by those whom you invite.
 
-{% image url="https://uploads.developerhub.io/prod/02/dbxagnkoxv0fytzpry413esklxm3mtb8pa43c9ykfp72q6djna5pcaqxh1k92exf.png" /%}
+{% image url="../../../assets/reader-magic-link-page.png" /%}
 
 ## How do Magic Links work?
 

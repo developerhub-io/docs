@@ -59,7 +59,7 @@ To enable your readers to see who updated the page last, and when was it updated
 - Select the documentation.
 - Change "Show page last updated?" to one of **Disabled**, **Date \& author** or **Date only**.
 
-{% image url="https://uploads.developerhub.io/prod/02/sikovrv4yiiqxll4dxd0epki60e1wgzg5n9ks5j1nfk72w8br32m5tsnv40ptvwc.jpg" /%}
+{% image url="../../assets/reader-last-updated.png" /%}
 
 ## Copy Documentation to Version
 

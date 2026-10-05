@@ -35,7 +35,7 @@ Follow these steps to add a video to your pages:
 - Next, choose the provider from the list.
 - Paste in the box the URL of the video, or if you chose to upload, select the file.
 
-{% image url="https://uploads.developerhub.io/prod/02/tzlb17s4ayw1rk36grou82hztre8mgdffm3f4a4ldmlpgnpcwnpoxzble262l3as.png" /%}
+{% image url="../../assets/video-block-embed.png" /%}
 
 - The video will load at once.
 

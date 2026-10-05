@@ -29,7 +29,7 @@ Each page could have three states:
 
 Once you publish the unlisted draft page, it becomes listed. Listed means that it is visible to your readers. Also, the changes that were in draft mode are now applied and published.
 
-{% image url="https://image-archive.developerhub.io/image/upload/13709/x6cir4ft15qzcwworngl/1560088765.png" %}
+{% image url="../../../assets/page-state-published.png" %}
 Published page
 {% /image %}
 
@@ -41,7 +41,7 @@ If you edit a page that was listed and published, it goes back into draft mode. 
 
 Publish when you are ready!
 
-{% image url="https://image-archive.developerhub.io/image/upload/13709/chubvtpjinyipevy1zes/1560088839.png" %}
+{% image url="../../../assets/page-state-draft.png" %}
 Draft page
 {% /image %}
 

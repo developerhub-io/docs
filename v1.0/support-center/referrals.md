@@ -49,7 +49,7 @@ Changing your referral code will make your old referral code invalid.
 
 - Click **Copy invitation link**.
 
-{% image url="https://uploads.developerhub.io/prod/02/8kri1p73xwfmbxxne2jyn4fdcpglyqfl2cwi1ioygyy2uhct2wflkzthgkvxn53a.png" /%}
+{% image url="../../assets/account-referral-code.png" /%}
 
 - On clicking OK, your referral code will be copied to your clipboard.
 - Find your favourite friend whom you rely on, and paste using (⌘+V or Ctrl+V) to them.

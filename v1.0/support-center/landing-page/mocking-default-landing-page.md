@@ -14,7 +14,7 @@ Most projects should use the visual [Landing Page Designer](../landing-page.md),
 
 In the auto-generated part, we should a card for every category in our Support Center documentation section. Every cards lists 3 pages and a Show All button.
 
-{% inline-image url="../../../assets/48c81433e866d48cee1d09c465b4b33b4692579b.png" width="523" mode="w100" /%}
+{% inline-image url="../../../assets/landing-page-category-card.png" width="360" mode="w100" /%}
 
 {% step title="HTML" codeId="code-1" %}
 The HTML for the landing page is very simple. All it is shown is a heading and then a div with id `landing-cards` in which we will generate the cards.

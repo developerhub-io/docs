@@ -34,7 +34,7 @@ To modify the landing page HTML:
 
 - Click **Edit HTML**.
 
-{% image url="https://uploads.developerhub.io/prod/02/9qnjmb6yys60jmptwoto2ymwoa0hp23qinnli89kmege90vrp9gkbsgu4sy51zcz.png" /%}
+{% image url="../../../assets/landing-page-custom-html-toggle.png" /%}
 
 - Paste or type in the HTML that will make your custom landing page. Click Save. This will save the HTML in draft mode, so you can test it out.
 - To publish it to readers, click Save \& Publish.
@@ -48,7 +48,7 @@ This also apply to `<style>`. All styles should be moved to [Custom CSS](../cust
 
 ## Crafting a Landing Page
 
-{% image url="https://uploads.developerhub.io/prod/02/au3a1w2hsmjxxlt9afmlctvoi7c8fgrc4s7na4xcr852qzcsekk3yeclp89a850d.jpg" /%}
+{% image url="../../../assets/landing-page-html-editor.png" /%}
 
 When customising the landing page, you may enter HTML that will be inserted asynchronously in your landing page.
 

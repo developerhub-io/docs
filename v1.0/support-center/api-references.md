@@ -37,15 +37,15 @@ Every operation shows the following:
 - Auto-generated example responses.
 - Callbacks.
 
-{% image url="https://uploads.developerhub.io/prod/02/kaafjmio918q0icqrl992zgctenx5bei9s0m4hg4ar1tnn64l4fe200iwor313sn.png" width=1038 /%}
+{% image url="../../assets/api-reference-endpoint.png" /%}
 
 You can directly link to the API references from the documentation by following the steps in [page linking](writing-documentation/page-linking.md).
 
-{% image url="https://uploads.developerhub.io/prod/02/s9c05oknkjn80rj50fxddju1d4nkjnviqerqy3gldz2mq6c2nogv7jges35f6svc.png" /%}
+{% image url="../../assets/api-reference-responses.png" /%}
 
 ## Try It Out
 
-{% image url="https://uploads.developerhub.io/prod/02/aja6dp81xp8atteilzyxqz0n1ceimluy4667m0y5g4u7r97ryj80f1y6s6bymmh2.png" /%}
+{% image url="../../assets/try-it-out-response.png" /%}
 
 Readers can [try out your API](try-it-out.md) right from the API Reference.
 

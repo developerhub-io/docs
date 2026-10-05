@@ -17,7 +17,7 @@ To ensure that your documentation is of high quality, up-to-date, and brings the
 
 When enabled, a question at the bottom of each page would show asking if the page was helpful. The reader may respond with a {% icon classes="far fa-thumbs-up" /%} Yes or a {% icon classes="far fa-thumbs-down" /%} No, which may be followed by a prompt to add a message to explain their feedback.
 
-{% image url="../../assets/feedback-reader-prompt.png" %}
+{% image url="../../assets/feedback-reader-prompt-form.png" %}
 Feedback prompt
 {% /image %}
 

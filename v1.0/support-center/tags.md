@@ -22,7 +22,7 @@ Related pages are generated based on tags. Up to 5 related pages will be display
 
 The related pages are those that share the highest number of matching tags with the currently viewed page.
 
-{% image url="https://uploads.developerhub.io/prod/02/lg6ur4iegotjxmj6xptfip0t0h0c43us78h8usp6iswiidssb0hm0y5mc7y598dt.png" /%}
+{% image url="../../assets/reader-related-pages.png" /%}
 
 ## Search tag filtering
 
@@ -30,7 +30,7 @@ Tags can also be used to filter search. Once you have at least one tag set up in
 
 Readers can then filter by a tag or more simultaneously.
 
-{% image url="https://uploads.developerhub.io/prod/02/a7ro4dp1cyowwgp21djv73pyxmtbjl5c1yb2xb4f1vt6a1wfctlbux5s8exbm84i.png" /%}
+{% image url="../../assets/reader-search-tag-filter.png" /%}
 
 ## Creating tags
 

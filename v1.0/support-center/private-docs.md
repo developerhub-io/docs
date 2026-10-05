@@ -161,12 +161,12 @@ To set up password protection:
 - Open Project Settings → **Access**.
 - In the Access method card, select **Password**.
 
-{% image url="https://uploads.developerhub.io/prod/02/3op6frix1y6b0iu6ie8vw3zt4lp1rebppslm1w5o3b019kin8xi96snr3gpc705r.png" width=448 /%}
+{% image url="../../assets/access-method-password.png" /%}
 
 - Input the password.
 - Click **Save changes** in the top menu.
 
-{% image url="https://uploads.developerhub.io/prod/02/nzlxbav839gbvtovl93bd2i68iam72yp2btk9a3l2olwgupwottbp9h4rdltiqr5.png" /%}
+{% image url="../../assets/access-settings-password.png" /%}
 
 {% callout type="success" title="Success" %}
 Great, all the published pages of this project are now protected by a password
@@ -174,7 +174,7 @@ Great, all the published pages of this project are now protected by a password
 
 To try it out, go to the live mode of your documentation. You will be presented with such a page.
 
-{% image url="https://uploads.developerhub.io/prod/02/ttjhjrm2tptigmzb9kkvpo42j1ihfafg4qhv4yz4kzbus123ww4clk40fm9wrmyd.jpg" /%}
+{% image url="../../assets/reader-password-page.png" /%}
 
 Once a reader inputs the right password, they will continue to be logged in for 24 hours.
 
@@ -191,7 +191,7 @@ To share a link:
 - Open Project Settings → **Access**.
 - In the Sharing \& invites card, click **Share link**.
 
-{% image url="https://uploads.developerhub.io/prod/02/w2f0pq7konhpbfcklasx822gsqd750c96j63hry3od99cybni0zl3jcigvrw5qv7.png" width=478 /%}
+{% image url="../../assets/access-sharing-invites.png" /%}
 
 - You can send invitations directly to your readers. Separate e-mail address by using commas.
 - Or you can copy the link and paste it.
