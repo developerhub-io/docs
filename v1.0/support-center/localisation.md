@@ -101,7 +101,7 @@ Search on the Spanish site finds pages in Spanish
 
 ## Words and Billing
 
-The add-on includes a monthly allowance of translated words. Words past it are billed on your next invoice. See [Pricing](https://developerhub.io/pricing).
+The add-on includes a monthly allowance of translated words. When it is used up, translation pauses until the next period, unless you set a [limit for extra words](#limit-for-extra-words). See [Pricing](https://developerhub.io/pricing).
 
 Each word counts once for each language it is translated into. A page you publish again counts again in full, and so does every page when you change the source language or the instructions. Previews count too. Project Settings → **Billing** → **Plan \& Usage** shows the words translated so far this period.
 
@@ -109,9 +109,9 @@ Translation does not spend [AI credits](ai-features.md#ai-credits).
 
 ### Limit for Extra Words
 
-Under **Docs Translation** in **Plan \& Usage**, set **Limit for extra words** to cap what words past the allowance can cost each month. Set it to 0 to stay within the included words.
+To keep translating past the allowance, set **Limit for extra words** under **Docs Translation** in **Plan \& Usage** to what extra words may cost each month. They are billed on your next invoice.
 
-When the limit is reached, translation pauses until the next period. Pages you have not changed keep their translation, but a page you edit shows in your source language until translation resumes.
+While translation is paused, pages you have not changed keep their translation, but a page you edit shows in your source language until translation resumes.
 
 ### Removing Translation
 
