@@ -38,10 +38,10 @@ Terms and conditions:
 
 ## Referral Walk-through
 
-Here is a step-by-step guide into how to have your documentation on your custom domain through the referral program:
+Here is how to share your referral link:
 
 - Open the user menu in the top navigation, then choose **Account settings**.
-- In the Security pane, edit your referral code if you want to personalise it.
+- Open **Password \& security**. In the Referral code card, edit your code if you want to personalise it. It saves when you leave the field.
 
 {% callout type="warning" title="Warning" %}
 Changing your referral code will make your old referral code invalid.
@@ -51,6 +51,6 @@ Changing your referral code will make your old referral code invalid.
 
 {% image url="../../assets/account-referral-code.png" /%}
 
-- On clicking OK, your referral code will be copied to your clipboard.
-- Find your favourite friend whom you rely on, and paste using (⌘+V or Ctrl+V) to them.
+- Your invitation link is copied to your clipboard.
+- Paste it (⌘+V or Ctrl+V) to the friend you want to invite.
 - That's all about it!

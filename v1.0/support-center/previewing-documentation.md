@@ -135,7 +135,7 @@ Note that you can add a base path if you are [hosting under your own existing we
 
 ## Print-Optimised
 
-Our pages are print-optimised (specially for A4 paper size). We recommend having the wide documentation layout when printing, and always printing from the published documentation site (not on the editor). If you are an enterprise customer, then you may also [export an entire version as PDF](pdf-export.md).
+Our pages are print-optimised (specially for A4 paper size). We recommend always printing from the published documentation site (not the editor). If you are an enterprise customer, then you may also [export an entire version as PDF](pdf-export.md).
 
 {% image url="../../assets/reader-print-a4.png" /%}
 

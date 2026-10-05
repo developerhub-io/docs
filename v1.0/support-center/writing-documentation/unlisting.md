@@ -13,6 +13,8 @@ An unpublished page is a page that your readers cannot reach. It can only be edi
 
 {% image url="../../../assets/page-state-unpublished.png" /%}
 
+Unpublished pages show a grey **Unpublished** badge in the page bar, and a red dot {% icon classes="fas fa-circle red-text" /%} next to them in the index.
+
 ## How could a page get unpublished?
 
 A page can be unpublished because:

@@ -15,10 +15,10 @@ To ensure that your documentation is of high quality, up-to-date, and brings the
 
 ## How does Feedback work for readers?
 
-When enabled, a question at the bottom of each page would show asking if the page was helpful. The reader may respond with a {% icon classes="far fa-thumbs-up" /%} Yes or a {% icon classes="far fa-thumbs-down" /%} No, which may be followed by a prompt to add a message to explain their feedback.
+When enabled, a prompt at the foot of each page asks readers for feedback. The reader may respond with **Yes** or **No**. A text box then opens for them to explain their answer, which they can **Send** or **Skip**.
 
 {% image url="../../assets/feedback-reader-prompt-form.png" %}
-Feedback prompt
+Feedback prompt, after the reader answers
 {% /image %}
 
 ## Where can I find the received Feedback?

@@ -366,7 +366,7 @@ tags:
 
 ### 26 Jan
 
-- {% badge text="New" type="success" /%} **Wide Layout**: A [wide layout](../customising-visuals/layout.md) is available for documentation.
+- {% badge text="New" type="success" /%} **Wide Layout**: A wide layout is available for documentation.
 
 ### 22 Jan
 

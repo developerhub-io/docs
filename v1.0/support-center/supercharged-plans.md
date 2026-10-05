@@ -17,12 +17,12 @@ Plans are subscribed to, and are paid for *per project per month*. To upgrade yo
 
 - In the editor top navigation, open the project menu and make sure you have selected the correct project to upgrade.
 - Open Project Settings → **Plan \& Usage**.
-- Click **Upgrade plan** {% icon classes="fas fa-arrow-up" /%}.
+- Pick a plan under **Available plans** and click **Choose** on it. Use the **Monthly** / **Annual** switch to compare billing periods. You can also click **Upgrade plan** {% icon classes="fas fa-bolt" /%} at the top, which starts with the recommended plan.
 
 {% image url="../../assets/plan-and-usage-upgrade.png" /%}
 
-- A pop-up will show outlining every available plan's features. Select the plan you need.
-- Fill out the payment form. If payment succeeded, a notification will show to get you started on your supercharged plan.
+- A **Confirm upgrade** step shows what happens next and the amount due today. Click **Continue to Stripe**.
+- Fill out the payment form on Stripe's checkout. Once payment succeeds, you are taken back to Plan \& Usage with your new plan active.
 - If payment did not succeed, an error message from the payment provider (Stripe) is shown.
 
 We accept payment through debit/credit cards. For enterprise plans, we offer payment through bank transfers as well.
@@ -31,26 +31,27 @@ We accept payment through debit/credit cards. For enterprise plans, we offer pay
 
 Project Settings → **Plan \& Usage** also holds the project's [AI credits](ai-features.md#ai-credits): what is left of this month's allowance, when it renews, and how to top up.
 
-## Cancelling or Downgrading a Supercharged Plan
+## Changing or Cancelling a Supercharged Plan
 
-To downgrade a project's supercharged plan:
+To move a project to another plan, or back to the free plan:
 
-- In the editor top navigation, open the project menu and make sure you have selected the correct project to downgrade.
+- In the editor top navigation, open the project menu and make sure you have selected the correct project.
 - Open Project Settings → **Plan \& Usage**.
-- Click **Manage plan** {% icon classes="fas fa-sync-alt" /%}.
+- Under **Available plans**, click **Switch to** on the plan you want, or **Downgrade** on the free plan. **Change plan** at the top takes you to the same list.
+- Review the step that opens and confirm it:
+  - Switching to another paid plan shows the pro-rated amount. Click **Confirm change**.
+  - Downgrading to the free plan cancels your subscription at the end of the billing period. Click **Schedule downgrade**. You keep your current plan until then, and nothing is charged today.
 
-{% image url="https://uploads.developerhub.io/prod/02/kuicy29dnwhakbky9cdykv27vyjz6knodb8tq5lyufuocr2rhgez3xbg06qffdmy.png" /%}
+{% image url="../../assets/plan-and-usage-downgrade.png" /%}
 
-- A pop-up will show outlining every available plan's features and the free plan. Select the plan you need, or the free plan to cancel your subscription.
-- Click on Downgrade to take effect.
+Changed your mind after scheduling a downgrade? Re-subscribe before the period ends and the downgrade is cancelled.
 
 ## Changing Payment/Billing Details
 
 If your payment method has changed, or you wish to add more information to the invoices, then you may update your billing details by:
 
 - Open Project Settings → **Plan \& Usage**.
-- Click **Manage plan** {% icon classes="fas fa-sync-alt" /%}.
-- In the bottom right corner, click **View invoices / Update card**.
+- In the **Billing \& invoices** card, click **View invoices**.
 - You will be taken to the payment provider's portal to make the changes needed.
 
 ## View Invoices
@@ -58,6 +59,5 @@ If your payment method has changed, or you wish to add more information to the i
 To view all invoices that you have paid:
 
 - Open Project Settings → **Plan \& Usage**.
-- Click **Manage plan** {% icon classes="fas fa-sync-alt" /%}.
-- In the bottom right corner, click **View invoices / Update card**.
+- In the **Billing \& invoices** card, click **View invoices**.
 - You will be taken to the payment provider's portal to view the invoices.

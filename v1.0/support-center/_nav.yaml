@@ -94,7 +94,6 @@ items:
       - page: customising-visuals
         icon: palette
         items:
-          - customising-visuals/layout
           - customising-visuals/top-navigation-bar
           - customising-visuals/theme
           - customising-visuals/code-theme

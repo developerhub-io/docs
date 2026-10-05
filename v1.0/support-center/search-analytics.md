@@ -34,11 +34,13 @@ We gather information about how your readers use the [lightning-fast search](usi
 - The no click rate.
 - The top searches that resulted in no clicks.
 
-You can view search analytics for the past month, 3 months or 6 months using the date picker at the top.
+Use **Searches** / **Clicks** at the top to switch between search and click metrics, and **1M** / **3M** to view the past month or 3 months.
+
+Next to the top terms with no results, **Fix with AI Agent** opens the [AI Agent](ai-agent.md) with those terms, ready for you to send, so it can write the content your readers are missing.
 
 ## Where is Search Analytics?
 
-You can find your Search Analytics in your [Dashboard](collaboration/dashboard.md). When you are on the Dashboard, click on Analytics.
+You can find your Search Analytics in your [Dashboard](collaboration/dashboard.md). In the editor top navigation, open the scope picker, choose **Dashboard**, then open the **Analytics** tab.
 
 ## Troubleshooting Analytics
 

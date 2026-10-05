@@ -189,12 +189,12 @@ Once a project is protected by a password, you can share a link which accesses t
 To share a link:
 
 - Open Project Settings → **Access**.
-- In the Sharing \& invites card, click **Share link**.
+- The Sharing \& invites card shows the share link.
 
 {% image url="../../assets/access-sharing-invites.png" /%}
 
-- You can send invitations directly to your readers. Separate e-mail address by using commas.
-- Or you can copy the link and paste it.
+- Click **Copy link** to copy it and paste it wherever you need.
+- Or, under **Send by email**, enter your readers' e-mail addresses separated by commas, and click **Send**.
 
 {% callout type="warning" title="Warning" %}
 The link will be revoked once the password changes or is removed.

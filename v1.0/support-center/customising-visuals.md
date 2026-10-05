@@ -27,7 +27,7 @@ To change the logo:
 
 Matcha's transparent top bar shows your logo on the page colour, which is near-black in dark mode. If your logo does not read on dark, click **Upload logo** next to **Logo for dark backgrounds** and choose a version for dark mode. Left empty, the regular logo is used in both modes.
 
-You can also change [the URL](customising-visuals.md#adding-links--home-button) which is navigated to when the logo is clicked on.
+To change where the logo goes when clicked, set **Logo link** in the Brand assets card. If empty, the logo goes to the landing page when one is enabled.
 
 {% callout title="Logo" %}
 It is best to have a wide logo with transparent background.

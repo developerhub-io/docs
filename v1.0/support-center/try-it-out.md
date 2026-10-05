@@ -37,7 +37,7 @@ Access-Control-Max-Age: 86400
 
 ## Enabling Try It Out
 
-To enable try it out for an API Reference, check Show Try It Out in the API Reference settings {% icon classes="fas fa-cog" /%}.
+To enable try it out for an API Reference, open [Manage Sections](project-settings/managing-api-references.md#manage-sections), select the API reference, and turn on **Try It Out** in the API Playground card.
 
 ## Try It Out Support
 
@@ -62,7 +62,7 @@ For example:
 
 `https://docs.developerhub.io/$reader-oauth2`.
 
-Once this is set up, you may enable OAuth 2.0 Authentication by checking Show OAuth2 Authentication in the API Reference Settings {% icon classes="fas fa-cog" /%}.
+Once this is set up, you may enable OAuth 2.0 authentication by turning on **OAuth2 authentication** in the same API Playground card. It only applies while Try It Out is on.
 
 {% image url="../../assets/try-it-out-oauth2.png" /%}
 

@@ -214,35 +214,6 @@ Place is Custom CSS. You might need to handle light theme separately.
 ```
 {% /code %}
 
-## Adding Icons to Index
-
-To add an icon in place of the expander icon for categories and parent pages in the index, add such CSS:
-
-{% image url="https://uploads.developerhub.io/prod/02/df56hu6n1hk8hmm0l8asvx15zh6t8sbldfrl0x9ta42vo91c02k2vy5e8xh4478v.png" /%}
-
-{% code %}
-```css
-/* First hide the expander icons. You could do this individually or for all expanders */
-.customise .sidebar .node_XXXXX>.node-wrapper>.node-content-wrapper>.expander-icon>i {
-		display: none;
-}
-
-/* To add an emoji */
-.customise .sidebar .node_XXXXX>.node-wrapper>.node-content-wrapper>.expander-icon:before {
-    content: '👋';
-}
-
-/* To add an icon */
-.customise .sidebar .node_XXXXX>.node-wrapper>.node-content-wrapper>.expander-icon:before {
-    content: "";
-    background: url("YYYYY");
-    background-size: 16px 16px;
-    width: 16px;
-    height: 16px;
-}
-```
-{% /code %}
-
 ## Expanding Enum in API Reference
 
 To have enums with their [varnames](api-references/openapi-extensions.md#x-enum-varnames) expand on click, add the following in Custom HEAD tags:

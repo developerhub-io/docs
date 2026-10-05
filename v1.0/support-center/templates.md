@@ -20,7 +20,7 @@ By using Templates, you can make an already existing page into a template, so th
 To create a template:
 
 1. Select the page you want to make a template of or create a new one and save it.
-2. Below the page title, click on {% icon classes="fas fa-archive" /%} to create a template from the page.
+2. In the page bar above the title, click **Create a template of this page** {% icon classes="fas fa-archive" /%}.
 3. Give the template a title. The template would be saved now.
 
 ## Using a Template
@@ -28,15 +28,15 @@ To create a template:
 To use a template:
 
 1. Create a new page.
-2. Under the page title, click on {% icon classes="fas fa-inbox" /%} Create from Template.
-3. Select one of the existing templates you have already created. The template would be applied onto the page.
+2. In the page bar above the title, click **Create from Template** {% icon classes="fas fa-inbox" /%}. It shows on a new page until the page is first saved.
+3. Select one of the existing templates you have already created, and click **Choose**. The template would be applied onto the page.
 
 ## Delete a Template
 
 To delete a template:
 
 1. Create a new page.
-2. Under the page title, click on {% icon classes="fas fa-inbox" /%} Create from Template.
+2. In the page bar above the title, click **Create from Template** {% icon classes="fas fa-inbox" /%}.
 3. Find the template you wish to delete, and click the {% icon classes="fas fa-times" /%} icon next to it.
 4. Confirm your choice.
 
@@ -57,7 +57,7 @@ https://app.developerhub.io/developerhub.io/v1.0/support-center/new?create_from_
 
 Note that all parts of the link before `?` are the exact same as any page link you have open in the editor. If you just load up the desired documentation in the editor, copy the link and add the query, that would be a template link.
 
-Where `template_id` can be found when you are selecting a template at the top right corner:
+Where `template_id` is shown as **ID** at the top right of the template's preview when you are selecting a template:
 
 {% image url="../../assets/template-choose-dialog.png" /%}
 

@@ -472,9 +472,9 @@ Owner only
 If you are on a paid plan, you can invite your teammates to collaborate from the Team pane:
 
 - Open Project Settings → **Team**. You can also open the user menu in the top navigation and choose **Invite teammates**.
-- In the toolbar, enter the e-mail address of the teammate to invite and click **Invite**. You can add multiple at the same time by separating them with a comma.
-- To change a teammate's role, use the role select next to their name.
-- To change a teammate's display name, click their badge and select **Edit name**.
+- Click **Invite editor**, enter the e-mail address of the teammate to invite, and click **Invite**.
+- To change a teammate's role, open the menu {% icon classes="fas fa-chevron-down" /%} on their row and pick the role under **Change role**.
+- To change a teammate's display name, open the same menu and select **Edit name**.
 
 If they are not already a user, an e-mail message will be sent to the e-mail address to help them sign up. They will be added in the list, and an "Invited" badge will be next to their e-mail address until they are signed up.
 
@@ -487,9 +487,9 @@ If they are already a user, an e-mail message will be sent to their e-mail addre
 To remove a teammate, do the following:
 
 - Open Project Settings → **Team**.
-- Click the badge next to the user and select **Remove teammate**.
+- Open the menu {% icon classes="fas fa-chevron-down" /%} on their row and select **Remove from project**.
 
-This removes them from the project only.
+This removes them from the project only. If your organisation adds every member to all projects automatically, **Remove from project** is not shown; manage them from Organisation Settings instead.
 
 {% callout title="Organisations" %}
 If your projects are part of an organisation, the organisation owner can also **disable** a member from Organisation Settings → **Team**. Disabling blocks them from logging in to any project, but keeps their account and history, and can be undone. See [Organisation Settings](organisation-settings.md).
@@ -503,7 +503,7 @@ To move ownership to another teammate:
 
 1. Make sure that the user has been invited, has already joined the project as a teammate.
 2. Open Project Settings → **Team**.
-3. Click the badge next to the user and select **Make owner**.
+3. Open the menu {% icon classes="fas fa-chevron-down" /%} on their row and select **Make owner**. Only the current owner sees this option.
 4. Confirm your choice. The user will receive an e-mail that they became an owner of the project.
 
 {% callout type="warning" title="Transferring Ownership" %}

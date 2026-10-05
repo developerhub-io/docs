@@ -18,8 +18,8 @@ tags: customisation
 
 Most landing pages are best built with the visual [Landing Page Designer](../landing-page.md). If you want complete control and branding, you can instead craft a landing page from your own HTML, CSS, and JavaScript. This works for both the main landing page and any [custom page](../landing-page.md#custom-pages).
 
-{% image url="https://uploads.developerhub.io/prod/02/ahrp4vnyagpw6e0nmkes5omnq7zfeokv4x7qcnz9co3to08b5jqy6fvpf7jgpsol.jpg" %}
-Our Custom Landing Page
+{% image url="../../../assets/custom-html-landing-page.png" %}
+A custom landing page built from HTML
 {% /image %}
 
 ## Use Custom Landing Page
@@ -36,9 +36,9 @@ To modify the landing page HTML:
 
 {% image url="../../../assets/landing-page-custom-html-toggle.png" /%}
 
-- Paste or type in the HTML that will make your custom landing page. Click Save. This will save the HTML in draft mode, so you can test it out.
-- To publish it to readers, click Save \& Publish.
-- To revert the draft changes, click Revert.
+- Paste or type in the HTML that will make your custom landing page. Click **Save draft**. This saves the HTML in draft mode, so you can test it out.
+- To publish it to readers, click **Save \& publish**.
+- To throw away unpublished draft changes, click **Revert**. It shows while a draft is pending.
 
 {% callout type="warning" title="Write body only - Not full HTML page" %}
 The HTML you provide will be inserted into the body of the landing page in a div with `landing-page-container` class. Thus, do not wrap everything in `<html>` tag. `<head>` tag will also be discarded. See our examples [below](custom-landing-page.md#mocking-default-landing-page).

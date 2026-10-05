@@ -57,9 +57,11 @@ To enable your readers to see who updated the page last, and when was it updated
 
 - Open Manage Sections (section menu → settings {% icon classes="fas fa-cog" /%} cog).
 - Select the documentation.
-- Change "Show page last updated?" to one of **Disabled**, **Date \& author** or **Date only**.
+- In the Display card, set **Show last-updated** to one of **Disabled**, **Date \& author** or **Date only**.
 
-{% image url="../../assets/reader-last-updated.png" /%}
+{% image url="../../assets/reader-last-updated.png" %}
+Date only, shown at the foot of the page
+{% /image %}
 
 ## Copy Documentation to Version
 

@@ -20,8 +20,8 @@ Supercharged plan users can integrate %product% with Google Analytics to track p
 {% image url="../../../assets/integrations-google-analytics.png" /%}
 
 - You should already have a property set up for the documentation subdomain on Google Analytics.
-- Paste the tracking code from Google Analytics. [Universal Analytics](https://support.google.com/analytics/answer/7476135) IDs looks like `UA-XXXXXX-YY`. [Google Analytics 4](https://support.google.com/analytics/answer/9539598?hl=en) IDs look like `G-XXXXXXXX`.
-- Enter it in the input field and save.
+- In the Analytics card, paste the ID from Google Analytics into **Google Analytics**. [Google Analytics 4](https://support.google.com/analytics/answer/9539598?hl=en) measurement IDs look like `G-XXXXXXXX`. Google tag (`GT-`), Google Ads (`AW-`) and older [Universal Analytics](https://support.google.com/analytics/answer/7476135) (`UA-XXXXXX-YY`) IDs are accepted too.
+- Click **Save changes** in the top menu.
 
 {% callout type="success" title="Congratulations" %}
 You can now track page views on Google Analytics.

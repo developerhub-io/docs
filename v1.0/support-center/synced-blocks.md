@@ -17,8 +17,8 @@ To create a synced block:
 
 {% synced id="open-block-menu" /%}
 
-- Choose Synced Block {% icon classes="fas fa-clone" /%}.
-- Choose Create New Synced Block. A form will show.
+- Choose Synced Block {% icon classes="fas fa-clone" /%}. The **Choose a Synced Block** dialog opens.
+- Click **Create** {% icon classes="fas fa-plus" /%}. A form will show.
 - In the form, you need to define:
   - **ID:** An identifier for the synced block. Once saved, the ID cannot be modified. This ID will be visible in your exports. For example, if you are creating a guide on installing Docker, your ID could be `docker-installation`.
   - **Title:** Select a title that accurately represents the content, making it easy for your teammates to locate. Note that the title is editable and can be changed later.
@@ -30,18 +30,17 @@ To create a synced block:
 
 To reuse a synced block:
 
-- Start a new line (using {% key key="↵" /%})
-- Click on {% icon classes="fas fa-plus" /%} to open the blocks menu.
-- Choose Synced Block {% icon classes="fas fa-clone" /%}.
-- Choose Choose Existing Synced Block.
-- Select the synced block you want to reuse, or search for it first.
-- Click on Choose.
+{% synced id="open-block-menu" /%}
+
+- Choose Synced Block {% icon classes="fas fa-clone" /%}. The **Choose a Synced Block** dialog opens.
+- Select the synced block you want to reuse, or search for it first. Its contents preview on the right.
+- Click **Choose**.
 
 {% image url="../../assets/synced-block-choose.png" /%}
 
 ## Identifying a Synced Block
 
-When you're in the editor, synced blocks will have a {% badge text="Synced" type="warning" /%} badge at the top right. Once you hover on a synced block, an orange dotted line will show what contents are exactly in the synced block.
+When you're in the editor, a synced block is outlined with a dashed border and labelled **Synced block:** followed by its title, so you can see exactly which contents belong to it. Hovering it shows a toolbar at the top right with **Edit** {% icon classes="fas fa-pen" /%} and **Replace** {% icon classes="fas fa-redo" /%}.
 
 {% image url="../../assets/synced-block-hover.png" /%}
 
@@ -52,9 +51,11 @@ Modifying a synced block changes its contents in all instances it is used. This 
 To edit a synced block:
 
 - Go to a page that has the synced block to be edited.
-- Click on the {% icon classes="fas fa-pencil-alt" /%} icon at the top right of the synced block.
+- Hover the synced block and click **Edit** {% icon classes="fas fa-pen" /%} in the toolbar at its top right.
 - A form will appear where you can modify the title and contents.
-- Make the changes and click Save.
+- Make the changes and click **Save**.
+
+To swap a synced block for a different one, click **Replace** {% icon classes="fas fa-redo" /%} instead and choose another block.
 
 ## Deleting/Archiving a Synced Block
 
@@ -62,10 +63,9 @@ Once a synced block is added to your project, it can never be deleted but it can
 
 To archive a synced block:
 
-- Start a new line (using {% key key="↵" /%})
-- Click on {% icon classes="fas fa-plus" /%} to open the blocks menu.
-- Choose Synced Block {% icon classes="fas fa-clone" /%}.
-- Choose Choose Existing Synced Block.
+{% synced id="open-block-menu" /%}
+
+- Choose Synced Block {% icon classes="fas fa-clone" /%}. The **Choose a Synced Block** dialog opens.
 - Find the synced block to archive, and hit the {% icon classes="fas fa-times red" /%} icon next to it.
 - Confirm your choice.
 

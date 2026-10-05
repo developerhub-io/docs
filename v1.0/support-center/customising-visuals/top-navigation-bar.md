@@ -58,17 +58,17 @@ If a documentation section or an API reference is not assigned to a navigation g
 
 ## Adding Links / Home Button
 
-The logo, and four top navigation links can be setup for external linking to another website, or internal linking inside the documentation. To setup the navigation links:
+Up to four top navigation links can be set up for external linking to another website, or internal linking inside the documentation. To set up the navigation links:
 
 1. Open Project Settings → **Customisation**.
 2. In the Top navigation links card, type the title and link for each of the four slots.
 3. Use the **Open links in new tab** toggle to choose whether links open in a new tab.
 4. Click **Save changes** in the top menu.
 
-The last two links only show in documentations that have wide layout.
+To change where the logo goes when clicked, open the Brand assets card in the same pane and set **Logo link**.
 
 {% callout title="Go Home" %}
-Setting the link to `/` goes to the landing page, or the default page if no landing page is setup.
+Setting a link to `/` goes to the landing page, or the default page if no landing page is set up.
 {% /callout %}
 
 ## Sticky Top Navigation Bar

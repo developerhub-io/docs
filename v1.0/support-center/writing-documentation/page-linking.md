@@ -92,7 +92,7 @@ You can analyse all links in a version at once by:
 
 - Open Manage Versions (version menu → settings {% icon classes="fas fa-cog" /%} cog).
 - Select the version.
-- In the Lifecycle card, click **Check broken links**.
+- In the Lifecycle card, next to **Check broken links**, click **Check links**. The **Analyse links** dialog lists every broken link and link warning, grouped by section.
 
 {% image url="../../../assets/analyse-links-dialog.png" /%}
 

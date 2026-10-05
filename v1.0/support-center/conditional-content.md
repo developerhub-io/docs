@@ -38,9 +38,9 @@ To create a new audience:
 To edit the conditions for an audience:
 
 1. In Project Settings → Audiences, find the audience you want to edit.
-2. Click on the menu {% icon classes="fas fa-ellipsis-v" /%} next to the audience.
-3. Select **Edit**.
-4. Use the expression builder to add or modify conditions.
+2. Click **Edit** {% icon classes="fas fa-pencil-alt" /%} on the audience's row. The expression builder opens in place, under the row.
+3. Click **Add condition** to add a condition, or change an existing one.
+4. Click **Save**.
 
 In the expression builder, you can add as many conditions as needed. Each condition checks that a variable matches a value. All conditions must be satisfied for the content to show.
 
@@ -51,8 +51,7 @@ In the expression builder, you can add as many conditions as needed. Each condit
 To delete an audience:
 
 1. In Project Settings → Audiences, find the audience you want to delete.
-2. Click on the menu {% icon classes="fas fa-ellipsis-v" /%} next to the audience.
-3. Select **Delete**.
+2. Click **Delete** {% icon classes="fas fa-trash" /%} on the audience's row, and confirm.
 
 {% callout type="warning" title="Deleting Audiences" %}
 If an audience is in use on pages or conditional blocks, deleting it may affect content visibility.

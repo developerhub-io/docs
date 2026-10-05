@@ -33,7 +33,7 @@ Once you publish the unlisted draft page, it becomes listed. Listed means that i
 Published page
 {% /image %}
 
-The **Publish** {% icon classes="fas fa-forward" /%} button will indicate that the page is published.
+A published page shows a green **Live** badge in the page bar, and the **Published** {% icon classes="fas fa-forward" /%} button is greyed out because there is nothing new to publish.
 
 ## Listed, in draft mode
 
@@ -45,7 +45,7 @@ Publish when you are ready!
 Draft page
 {% /image %}
 
-Draft pages show a draft page icon in the index, and the control buttons allow you to publish.
+Draft pages show a draft page icon in the index. The page bar reads **Draft ahead of live**, with **Show Published** to compare against what readers see, and the **Publish** {% icon classes="fas fa-forward" /%} button publishes your changes.
 
 ## Draft Pages History
 
