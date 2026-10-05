@@ -46,4 +46,4 @@ To login readers, they can:
 
 ## Audiences
 
-To show readers content restricted to an [audience](../conditional-content.md), send an `_audience` attribute from your IdP. See [Audiences with Reader SSO](../conditional-content.md#audiences-with-reader-sso).
+To show readers content restricted to an [audience](../conditional-content.md), send an `_audience` attribute from your IdP. This also works on a public docs site, with [hybrid access](../private-docs.md#hybrid-access). See [Audiences with Reader SSO](../conditional-content.md#audiences-with-reader-sso).

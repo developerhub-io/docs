@@ -19,6 +19,8 @@ Supercharged plans admins can set their documentation portal as private, disallo
 
 If you are on an enterprise plan, then we also provide reader authentication through your intranet.
 
+You can also keep your docs public and show more to readers who sign in, with [hybrid access](#hybrid-access).
+
 ## Comparison Between Different Methods
 
 {% table layout="auto" %}
@@ -142,6 +144,15 @@ Use to secure data and control access.
 {% /cell %}
 {% /row %}
 {% /table %}
+
+## Hybrid Access
+
+With hybrid access, your docs stay public and readers who sign in see more. Signed-in readers see the content for their [audiences](conditional-content.md), and everyone else reads the public documentation without signing in.
+
+Leave the Access method on **Public**, and sign readers in with either:
+
+- **JWT**: send readers to your docs with a signed token in the link. See [Identifying Readers on a Public Docs Site](conditional-content.md#identifying-readers-on-a-public-docs-site).
+- **Reader SSO**: readers sign in from your identity provider. [Contact us](contact-us.md) to set it up. See [Audiences with Reader SSO](conditional-content.md#audiences-with-reader-sso).
 
 ## Password Protect Set up
 

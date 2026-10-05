@@ -130,6 +130,10 @@ Readers who sign in through [reader SSO](private-docs/reader-single-sign-on.md) 
 
 Audiences are read when the reader signs in, so a change in your identity provider applies from their next sign-in.
 
+Reader SSO sets audiences whether your docs are private or public. On a public docs site, readers who sign in see the content for their audiences, and everyone else sees the public documentation. A public docs site has no sign-in button, so readers sign in from your identity provider.
+
+To set up reader SSO, [contact us](contact-us.md).
+
 ### Identifying Readers on a Public Docs Site
 
 Audiences are not limited to private documentation. A public docs site can identify a reader from a signed link, so you can tailor what each reader sees without putting your documentation behind a login.
