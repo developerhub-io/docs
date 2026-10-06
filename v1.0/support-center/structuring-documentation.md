@@ -27,9 +27,13 @@ To re-order an element far away in the index, you can either:
 - Drag the element to the absolute top or absolute bottom of the index, the index will start scrolling automatically.
 {% /callout %}
 
-## Moving Several Elements Together
+## Selecting Several Elements
 
-Click an element, then hold Shift and click another to select everything between them. Drag the selection and it all moves together.
+Click an element, then hold Shift and click another to select everything between them. To pick elements one by one from anywhere in the index, hold Alt (Option on a Mac) and click each of them. On a Mac, Ctrl and click works too.
+
+Drag the selection and it all moves together.
+
+With two or more elements selected, click the menu {% icon classes="fas fa-ellipsis-v" /%} on any of them to act on them all at once: Move, Copy to Version, Re-arrange, Allow Publishing, Unpublish, Hide From Index, Show in Index or Delete. See [Copying Pages to Another Version](project-settings/managing-versions.md#copying-pages-to-another-version).
 
 ## Index Depth
 

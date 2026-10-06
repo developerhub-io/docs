@@ -41,6 +41,29 @@ You can also clone a version through the [API](/v1.0/api/ref), which is useful f
 
 Publishing the clone is a separate call needing the `version.publish` permission. Everything inside a cloned version starts unpublished, so publish a documentation or an API reference in it first, otherwise publishing the version is refused.
 
+## Copying Pages to Another Version
+
+When pages are written after a version was cut, you can copy them into that version instead of recreating them.
+
+1. In the index, [select the pages](../structuring-documentation.md#selecting-several-elements) to copy. Everything under a selected page or category comes with it.
+2. Click the menu {% icon classes="fas fa-ellipsis-v" /%} on one of them and choose **Copy to Version**.
+3. Pick the **Version** and the **Section** to copy into.
+4. Click **Copy**.
+
+Copies keep their publish state, so a page published here is published in the other version too.
+
+If a page with the same slug is already in that section, choose what happens to it:
+
+- **Replace**: overwrite its content with the copy. Its [history](../page-history.md) keeps what it said before.
+- **Skip**: leave it as it is. Pages under it are still copied.
+- **Keep both**: add the copy beside it, under a new URL.
+
+To move the pages rather than copy them, tick the box to remove them from this version after copying.
+
+If the copies link to pages the other version does not have, you are told how many, so you can [check that version's broken links](../writing-documentation/page-linking.md#analyse-links-for-entire-version).
+
+To copy a whole documentation section, see [Copy Documentation to Version](../documentation-settings.md#copy-documentation-to-version).
+
 ## Publishing Versions
 
 Versions by default are not published. To publish (or unpublish):
