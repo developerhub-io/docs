@@ -13,13 +13,13 @@ Cut development time and have your readers try out your APIs right from the API 
 
 {% image url="../../assets/try-it-out-response.png" /%}
 
-With Try It Out, all headers, query parameters, form data, and request body fields are pre-populated with examples that you provide in the OpenAPI spec. Readers can modify the fields and make an API request directly from the API Reference. Headers and parameters are validated against their type, and enums are shown if available. Users can initiate OAuth 2.0 flows right from the API reference to get access tokens.
+With the API Playground, all headers, query parameters, form data, and request body fields are pre-populated with examples that you provide in the OpenAPI spec. Readers can modify the fields and make an API request directly from the API Reference. Headers and parameters are validated against their type, and enums are shown if available. Users can initiate OAuth 2.0 flows right from the API reference to get access tokens.
 
 The response of the API request will be shown, with the status code. Readers can hover over the status code to see the response headers.
 
-## Prerequisites to Enabling Try It Out
+## Prerequisites to Enabling the API Playground
 
-Before enabling try it out, there are two external configurations that you must perform:
+Before enabling the API Playground, there are two external configurations that you must perform:
 
 1. Set up the [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) headers for your docs domain. All requests are made from the browser directly, so you must set up the CORS headers to allow the docs domain to make requests to your API. The CORS headers should allow the docs site origin to make any HTTP request, with all headers that you might expect to send, and to expose all headers returned. The CORS headers response should look as such:
 
@@ -35,13 +35,13 @@ Access-Control-Max-Age: 86400
 
 2. (Optional) Set up your OAuth2 client to redirect to our redirect URL. If your API uses OAuth2 and you wish for the reader to be able to generate a token from the API playground directly, then you must add our redirect URL to your OAuth2 client. See [OAuth 2.0 Authentication](try-it-out.md#oauth-20-authentication).
 
-## Enabling Try It Out
+## Enabling the API Playground
 
-To enable try it out for an API Reference, open [Manage Sections](project-settings/managing-api-references.md#manage-sections), select the API reference, and turn on **Try It Out** in the API Playground card.
+To enable the API Playground for an API Reference, open [Manage Sections](project-settings/managing-api-references.md#manage-sections), select the API reference, and turn on **Show API Playground** in the API Playground card.
 
-## Try It Out Support
+## API Playground Support
 
-Try It Out is supported for all API operations except:
+The API Playground is supported for all API operations except:
 
 - Responses that do not have a JSON or plain text media type.
 - Requests that upload files.
@@ -62,7 +62,7 @@ For example:
 
 `https://docs.developerhub.io/$reader-oauth2`.
 
-Once this is set up, you may enable OAuth 2.0 authentication by turning on **OAuth2 authentication** in the same API Playground card. It only applies while Try It Out is on.
+Once this is set up, you may enable OAuth 2.0 authentication by turning on **OAuth2 authentication** in the same API Playground card. It only applies while the API Playground is shown.
 
 {% image url="../../assets/try-it-out-oauth2.png" /%}
 

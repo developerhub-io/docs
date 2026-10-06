@@ -9,7 +9,7 @@ keywords:
 tags: 
 ---
 
-Along with [code generation](code-generation.md), each API Reference has settings which you can manage. To open them, open [Manage Sections](../project-settings/managing-api-references.md#manage-sections) and select the API reference from the left list; its settings appear on the right as toggles. Most sit in the **Display** card; Try It Out and OAuth2 sit in the **API Playground** card. Changes save as soon as you flip a toggle.
+Along with [code generation](code-generation.md), each API Reference has settings which you can manage. To open them, open [Manage Sections](../project-settings/managing-api-references.md#manage-sections) and select the API reference from the left list; its settings appear on the right as toggles. Most sit in the **Display** card; the playground and OAuth2 toggles sit in the **API Playground** card. Changes save as soon as you flip a toggle.
 
 {% image url="../../../assets/api-reference-settings.png" /%}
 
@@ -17,9 +17,9 @@ Along with [code generation](code-generation.md), each API Reference has setting
 
 The **Allow download** toggle allows the API Reference to be downloadable by showing a button at the top of the page.
 
-## Show Try It Out
+## Show API Playground
 
-The **Try It Out** toggle, in the API Playground card, enables the [API Playground](../try-it-out.md) to test APIs right from the API Reference. The **OAuth2 authentication** toggle next to it adds [OAuth 2.0 authentication](../try-it-out.md#oauth-20-authentication) to the playground.
+The **Show API Playground** toggle, in the API Playground card, enables the [API Playground](../try-it-out.md) to test APIs right from the API Reference. The **OAuth2 authentication** toggle next to it adds [OAuth 2.0 authentication](../try-it-out.md#oauth-20-authentication) to the playground.
 
 ## Show Content-Type Header
 

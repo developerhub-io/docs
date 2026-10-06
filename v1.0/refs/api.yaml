@@ -767,7 +767,7 @@ paths:
             default: true
         - name: show_try_it_out
           in: query
-          description: Enable the Try It Out console on the reference
+          description: Enable the API Playground on the reference
           required: false
           schema:
             type: boolean

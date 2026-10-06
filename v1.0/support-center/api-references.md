@@ -43,7 +43,7 @@ You can directly link to the API references from the documentation by following 
 
 {% image url="../../assets/api-reference-responses.png" /%}
 
-## Try It Out
+## API Playground
 
 {% image url="../../assets/try-it-out-response.png" /%}
 
