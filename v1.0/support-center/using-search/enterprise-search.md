@@ -24,7 +24,7 @@ When using column search, searching on one project will search on multiple proje
 
 {% image url="../../../assets/reader-column-search.png" /%}
 
-When using column search, we can specify which exact version and section to search in.
+When using column search, we can specify which exact version and section to search in. A column can also be limited to a [changelog](../changelogs.md), so it lists only its posts.
 
 ## Global Analytics
 

@@ -28,7 +28,7 @@ The related pages are those that share the highest number of matching tags with 
 
 Tags can also be used to filter search. Once you have at least one tag set up in the project, the filter option would show up in the reader search (only in [Next UI](customising-visuals.md#next-ui) and [Matcha UI](customising-visuals.md#matcha-ui)).
 
-Readers can then filter by a tag or more simultaneously.
+Readers can then filter by one tag or more. When several tags are selected, a result must have all of them.
 
 {% image url="../../assets/reader-search-tag-filter.png" /%}
 

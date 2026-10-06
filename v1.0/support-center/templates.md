@@ -42,7 +42,7 @@ To delete a template:
 
 ## Share a Template Link
 
-If you are usually building pages from templates, you might want to use a template link. The template link loads the documentation, creates a new page at the bottom of the index, and loads up the template.
+If you are usually building pages from templates, you might want to use a template link. The template link loads the documentation, creates a new page at the bottom of the index, and loads up the template. The new page stays unsaved until you save it, so closing it without saving leaves nothing behind.
 
 To do this, use such a link:
 
