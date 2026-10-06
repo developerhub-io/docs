@@ -84,11 +84,12 @@ Give it a [logo for dark backgrounds](customising-visuals.md#changing-logo) so y
 To change the UI:
 
 1. Open Project Settings → **Customisation**.
-2. In the Look and feel card, under **UI version**, choose **Original**, **Next** or **Matcha**.
-3. Click **Save changes** in the top menu.
+2. In the Look and feel card, under **UI version**, choose **Matcha**, **Next** or **Original**. The UI your readers see now is marked **Current**.
+3. To try it on your own docs first, click **Preview Matcha on your docs** under the cards (the button names the UI you chose). Your published docs open in that UI in a new tab, and nothing changes for your readers.
+4. Click **Save changes** in the top menu.
 
 {% callout title="Custom CSS" %}
-If you have [custom CSS](customising-visuals/custom-css.md), check it against the new UI before switching. Add `?ui=3` to the address of any page of your published docs to see it in Matcha (`?ui=2` for Next), without changing anything for your readers.
+If you have [custom CSS](customising-visuals/custom-css.md), check it against the new UI before switching: choose the UI and open its preview. The preview uses your draft CSS when you have one, so you can adapt your CSS for the new UI and check it before you publish it.
 {% /callout %}
 
 {% callout title="Navigation bar sections" %}
