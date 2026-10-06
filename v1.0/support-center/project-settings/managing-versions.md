@@ -45,10 +45,9 @@ Publishing the clone is a separate call needing the `version.publish` permission
 
 When pages are written after a version was cut, you can copy them into that version instead of recreating them.
 
-1. In the index, [select the pages](../structuring-documentation.md#selecting-several-elements) to copy. Everything under a selected page or category comes with it.
-2. Click the menu {% icon classes="fas fa-ellipsis-v" /%} on one of them and choose **Copy to Version**.
-3. Pick the **Version** and the **Section** to copy into.
-4. Click **Copy**.
+1. In the index, click the menu {% icon classes="fas fa-ellipsis-v" /%} on the page to copy and choose **Move**. To copy several, [select them](../structuring-documentation.md#selecting-several-elements) first. Everything under a page or category comes with it.
+2. Pick the **Version** and the **Section** to copy into.
+3. Choose **Copy**, then confirm.
 
 Copies keep their publish state, so a page published here is published in the other version too.
 
@@ -58,7 +57,7 @@ If a page with the same slug is already in that section, choose what happens to 
 - **Skip**: leave it as it is. Pages under it are still copied.
 - **Keep both**: add the copy beside it, under a new URL.
 
-To move the pages rather than copy them, tick the box to remove them from this version after copying.
+To move the pages rather than copy them, choose **Move** instead of **Copy**.
 
 If the copies link to pages the other version does not have, you are told how many, so you can [check that version's broken links](../writing-documentation/page-linking.md#analyse-links-for-entire-version).
 

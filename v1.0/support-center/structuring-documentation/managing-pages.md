@@ -45,14 +45,14 @@ If the page you are deleting is linked from another page, we'll notify you befor
 
 ## Moving Page to Another Documentation
 
-To move a page to another documentation, click on the menu icon {% icon classes="fas fa-ellipsis-v" /%} next to it, then select Move {% icon classes="fas fa-file-import" /%}. You will be prompted with the different documentations that you have under that version.
+To move a page to another documentation, click on the menu icon {% icon classes="fas fa-ellipsis-v" /%} next to it, then select Move {% icon classes="fas fa-file-import" /%}. Pick the **Section** to send it to and confirm. Choose **Copy** instead of **Move** to leave the page where it is as well.
 
 If you move a parent page, all subpages will be moved with it as well. Links to a moved page are [updated for you](../writing-documentation/page-linking.md#when-a-page-moves-or-is-renamed).
 
-The page arrives at the bottom of the destination index, as a top-level item. To place it under a category there, move it first and then re-arrange it. Moving is available to admins and publishers, and only between documentations in the same version. A [category](categories.md#moving-categories-to-another-documentation) moves the same way.
+The page arrives at the bottom of the destination index, as a top-level item. To place it under a category there, move it first and then re-arrange it. Moving is available to admins and publishers. A [category](categories.md#moving-categories-to-another-documentation) moves the same way. To move or copy a page to another version, see [Copying Pages to Another Version](../project-settings/managing-versions.md#copying-pages-to-another-version).
 
 {% callout type="warning" title="Matching slugs" %}
-A page keeps its slug when it moves. If the destination documentation already has a page using that slug, the move is refused and nothing is moved, so rename one of the two first. This covers everything travelling along, whether subpages or the pages inside a category.
+A page keeps its slug when it moves. If the destination documentation already has a page using that slug, the move is refused and nothing is moved, so rename one of the two first, or copy it instead and keep both. This covers everything travelling along, whether subpages or the pages inside a category.
 {% /callout %}
 
 {% callout title="Info" %}

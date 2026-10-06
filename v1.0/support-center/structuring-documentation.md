@@ -33,7 +33,7 @@ Click an element, then hold Shift and click another to select everything between
 
 Drag the selection and it all moves together.
 
-With two or more elements selected, click the menu {% icon classes="fas fa-ellipsis-v" /%} on any of them to act on them all at once: Move, Copy to Version, Re-arrange, Allow Publishing, Unpublish, Hide From Index, Show in Index or Delete. See [Copying Pages to Another Version](project-settings/managing-versions.md#copying-pages-to-another-version).
+With two or more elements selected, click the menu {% icon classes="fas fa-ellipsis-v" /%} on any of them to act on them all at once: Move, Re-arrange, Allow Publishing, Unpublish, Hide From Index, Show in Index or Delete. Move also copies them, to another section or to [another version](project-settings/managing-versions.md#copying-pages-to-another-version).
 
 ## Index Depth
 
