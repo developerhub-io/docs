@@ -79,7 +79,7 @@ Analysing links helps you understand the links that are:
 
 ## Listing Broken Links
 
-If a page contains links with issues, a badge will appear next to the page actions in the navigation bar. Link analysis runs automatically every time a page loads.
+Link analysis runs automatically every time a page loads in the editor. If the page contains links with issues, a banner under the navigation bar says how many are broken and how many may not work for readers. Click **Fix links** (or **Review links** when there are only warnings) to see them.
 
 Links with issues are also underlined in the editor:
 
@@ -98,7 +98,7 @@ You can analyse all links in a version at once by:
 
 ### View Broken Links in a Page
 
-To view all the links analysis in a page, either click on the notification under the page title or:
+To view all the links analysis in a page, either click the banner's button or the badge, or:
 
 - From the right sidebar, open **Page Info** {% icon classes="fas fa-info-circle" /%}.
 - Open the **Links** tab and review the broken links and issues under **Link issues**.
