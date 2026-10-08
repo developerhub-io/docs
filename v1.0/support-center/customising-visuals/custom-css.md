@@ -40,9 +40,51 @@ If your projects belong to an organisation, the owner can maintain one styleshee
 
 A project does not inherit it automatically. To opt in, open Project Settings → **Customisation** and turn on **Use organisation CSS**. The organisation stylesheet is applied first and the project's own CSS after it, so a project rule wins over an organisation rule of equal specificity.
 
+## Using an AI Coding Agent
+
+An AI coding agent such as Claude Code, Cursor or Codex can write the CSS for you. Copy the prompt below into your agent and fill in the three lines at the top.
+
+The prompt has the agent read the pages that matter before it writes anything: [Customising Visuals](../customising-visuals.md) to check whether a setting already does the job, this page, [Custom HEAD Tags](../custom-javascript.md), [Developer Tools](../developer-tools.md) and [Popular Customisations](../css-customisations.md). For anything else, it starts from this site's [llms.txt](../ai-features/llms-txt.md).
+
+{% code %}
+```none {% title="Prompt" %}
+I want to customise my DeveloperHub docs with Custom CSS or Custom HEAD tags (JavaScript).
+
+What I want: <describe the change>
+My docs URL: <https://docs.example.com>
+My UI: <Matcha, Next or Original>
+
+Before writing any code, read these pages:
+- https://docs.developerhub.io/support-center/customising-visuals.md (built-in settings that need no code)
+- https://docs.developerhub.io/support-center/custom-css.md (Custom CSS rules and CSS variables)
+- https://docs.developerhub.io/support-center/custom-javascript.md (Custom HEAD tags rules and events)
+- https://docs.developerhub.io/support-center/developer-tools.md (functions, events and objects available to scripts)
+- https://docs.developerhub.io/support-center/css-customisations.md (worked examples)
+To look up anything else, start from https://docs.developerhub.io/llms.txt.
+
+Then:
+1. If a built-in setting already does what I want, tell me which one and stop.
+2. Use Custom CSS wherever CSS can do it. Use Custom HEAD tags only for what needs JavaScript.
+3. Find the real selectors on my docs. If you can open a browser, inspect the page yourself. If not, ask me to paste the element's HTML from my browser's developer tools.
+4. Nothing is compiled, so use only CSS and JavaScript that Chrome and Edge 98, Firefox 104 and Safari 15.4 support. That means no CSS nesting, :has() or container queries.
+5. Scope every CSS rule under .customise.live with a specific selector. Never restyle generic selectors such as p, table, img or .container. Prefer the documented CSS variables, and set dark theme values under .dark-mode.
+6. Put scripts inside <script> tags, without async or defer. Inline scripts cannot use import, export or top-level await, and their top-level let and const stay inside their own tag, so share values through window. The site is a single page application, so hook into the documented events (onprojectloaded, onpagechange) instead of DOMContentLoaded or load.
+7. Make it work on phone, tablet and desktop, and in both light and dark theme.
+8. Give me the final code ready to paste, say which box it goes in (Custom CSS or Custom HEAD tags), and explain how to test it before I publish.
+```
+{% /code %}
+
+{% callout title="No web access?" %}
+If your agent cannot open web pages, open each link in the prompt yourself and paste the contents in after the prompt.
+{% /callout %}
+
+Paste the CSS it returns into Custom CSS, then [test it](custom-css.md#testing-css) with **Save draft** before you publish.
+
 ## Testing CSS
 
-You probably want to test your CSS changes before shipping them to your customers. To test CSS, click **Save draft** in the top menu while editing CSS. At this stage, the CSS will be applied immediately inside the editor. To check what your readers see, open the published docs in an incognito window of your browser.
+You probably want to test your CSS changes before shipping them to your customers. To test CSS, click **Save draft** in the top menu while editing CSS. The draft applies immediately inside the editor, and readers keep seeing the published CSS.
+
+To check the draft on your published docs, click **See draft project** in the notice above the CSS. Your docs open with the draft CSS applied, framed in blue, with a dock at the bottom listing the drafts you are viewing. Docs you open from the editor keep showing your drafts this way. To see a page as readers do, click **View as Reader** in the dock, or open the docs in an incognito window.
 
 You can revert the draft from the top menu's **Revert** button.
 
@@ -90,6 +132,10 @@ The CSS is not encapsulated and applies globally. %product% CSS does change freq
 
 {% callout type="warning" title="Ensure Cross-Platform Compatibility" %}
 Ensure that any Custom CSS changes adhere to all display sizes and input devices. The default CSS is designed to work for phones, tablets, laptop screens and large screens. **Always test the CSS changes you make on all sizes to ensure reader satisfaction.**
+{% /callout %}
+
+{% callout type="warning" title="Supported CSS" %}
+Custom CSS is applied exactly as you write it. To reach every reader, use CSS that our [supported browsers](../supported-browsers.md) understand.
 {% /callout %}
 
 ### {% badge text="1" type="custom" /%} Use `.customise`
