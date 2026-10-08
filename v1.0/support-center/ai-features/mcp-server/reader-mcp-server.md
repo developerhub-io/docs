@@ -37,7 +37,7 @@ The reader MCP server runs on the same index as [AI Assistant](../../writing-doc
 - Under **AI Assistant**, turn on **MCP server**.
 - Click **Save changes** in the top menu.
 
-It will take up to 5 minutes for the change to occur. If `AI Tools` button is enabled, the readers would be able to connect to Cursor and VS Code using the MCP server through the dropdown.
+It will take up to 5 minutes for the change to occur. If the [AI Tools button](../ask-llm.md) is on, readers can connect Claude Code, Codex, VS Code, or Cursor to your docs from its **Connect your AI tool** menu item.
 
 ## Limitations
 
@@ -45,7 +45,7 @@ MCP server is only available for public projects. [Contact us](../../contact-us.
 
 ## Try out our MCP Server
 
-You can test out our own MCP server before enabling it on your docs. For a quick test, you can click the **AI Tools** button at the top of this page \> **Connect to Cursor**/**VS Code**. Alternatively, you can do it manually. Let's take Cursor as the MCP client for an example:
+You can test out our own MCP server before enabling it on your docs. For a quick test, click the arrow next to **Copy page** at the top of this page \> **Connect your AI tool**. Alternatively, you can do it manually. Let's take Cursor as the MCP client for an example:
 
 - Launch **Cursor**.
 - Under **Settings** \> **Cursor Settings**.
