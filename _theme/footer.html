@@ -1,55 +1,40 @@
-<head>
-    <base href="https://developerhub.io/" target="_parent">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
-    <style>
-      html {
-        overflow-y: hidden;
-      }
-    body {
-        color: #757575;
-        background: #333;
-    }
-.container{flex-grow:1;margin:0 auto;position:relative;width:auto}.container.is-fluid{max-width:none;padding-left:32px;padding-right:32px;width:100%}@media screen and (min-width:1024px){.container{max-width:960px}}@media screen and (max-width:1215px){.container.is-widescreen{max-width:1152px}}@media screen and (min-width:1216px){.container{max-width:1152px}}
-footer{font-size:.875rem}footer .footer-info .copyright{margin-top:26px;line-height:1.3rem}footer .footer-info .terms-privacy{margin-top:14px;font-size:.75rem}footer .footer-info .terms-privacy a{font-weight:500;color:white}footer .footer-info .terms-privacy a:hover{color:#5368e7}footer .link-list .list-title{margin-bottom:26px}footer .link-list a{display:block;margin-bottom:.5rem;color:white}footer .link-list a:hover{color:#5368e7}.status-circle{background: #49dead;height: .75em;width: .75em;display: inline-block;border-radius: .75em;}
-    </style>
-</head>
-<body>
-<footer>
-        <section class="section">
-            <div class="container">
-                <div class="columns">
-                    <div class="column is-half footer-info">
-                        <a href="/"><img src="https://static.developerhub.io/logo/developerhub-dark-logo.svg" width="180"></a>
-                        <p class="copyright">Collaboration Platform for Docs and APIs<br>
-                            © 2018<script type="text/javascript">
-                    year = new Date().getFullYear();
-                    if (year !== 2018) {
-                        document.write(" - " + new Date().getFullYear());
-                    }
-                </script> DeveloperHub.io Ltd.
-                        </p>
-                        <p class="terms-privacy"><a href="/terms">Terms</a> and <a href="/privacy">Privacy</a></p>
-                    </div>
-            <div class="column is-one-quarter link-list">
-                <p class="has-text-weight-semibold list-title">PRODUCT</p>
-                <a href="/documentation">Documentation</a>
-                <a href="/api-docs">API Docs</a>
-                <a href="/pricing">Pricing</a>
-                <a href="https://docs.developerhub.io">Demo Docs</a>
-                <a href="https://docs.developerhub.io/support-center/what-s-new">What's New</a>
-                <a href="https://docs.developerhub.io/frequently-asked-questions">FAQ</a>
-            </div>
-            <div class="column is-one-quarter link-list">
-                <p class="has-text-weight-semibold list-title">COMPANY</p>
-                <a href="https://developerhub.io/about-us">About Us</a>
-                <a href="/blog">Blog</a>
-                <a href="mailto: hello@developerhub.io">Contact</a>            
-                <a href="https://angel.co/company/developerhub">Careers</a>
-                <a href="https://talk.developerhub.io">Community Forums</a>
-                <a href="https://status.developerhub.io" rel="nofollow" target="_blank">Status&nbsp;<span class="status-circle"></span></a>
-            </div>
-                </div>
-            </div>
-        </section>
-    </footer>
-</body>
+<!-- DeveloperHub footer. Self-contained: paste anywhere, needs nothing else. Icons: Font Awesome Free (CC BY 4.0). -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans&family=JetBrains+Mono&family=Space+Grotesk:wght@600&display=swap">
+<style>body{margin:0}
+.dhf{--m:rgba(226,232,246,.66);--l:rgba(255,255,255,.12);container-type:inline-size;background:#000;color:var(--m);border-top:1px solid var(--l);padding:44px 0 56px;font:13.5px 'Instrument Sans',system-ui,sans-serif;text-align:left}
+.dhf *{box-sizing:border-box;margin:0}
+.dhf a{color:var(--m);text-decoration:none}
+.dhf a:hover{color:#fff}
+.dhf-in{max-width:1200px;margin:0 auto;padding:0 32px;display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:32px}
+.dhf-logo{display:flex}
+.dhf-logo img{height:44px;border:0;filter:brightness(0) invert(1)}
+.dhf p{margin-top:12px;max-width:24em;font-size:12.5px;line-height:1.55}
+.dhf .dhf-tag{margin-top:14px;color:#fff;font-size:14.5px}
+.dhf p a{border-bottom:1px solid var(--l)}
+.dhf svg{display:inline-block;width:1.25em;height:1em;fill:currentColor;vertical-align:-.125em}
+.dhf .dhf-li{display:inline-flex;align-items:center;gap:10px;margin-top:20px;padding:11px 18px;border:1px solid var(--l);border-radius:11px;color:#fff;font:600 14.5px 'Space Grotesk',system-ui,sans-serif;transition:background .2s,border-color .2s}
+.dhf .dhf-li:hover{background:#0A66C2;border-color:#0A66C2}
+.dhf-li svg{font-size:18px}
+.dhf .dhf-li+p{margin-top:20px}
+.dhf-col{display:grid;gap:9px;align-content:start}
+.dhf-col b{color:#fff;font:400 10.5px 'JetBrains Mono',ui-monospace,monospace;letter-spacing:.1em;text-transform:uppercase}
+.dhf-col b:not(:first-child){margin-top:20px}
+.dhf-stat{display:flex;align-items:center;gap:8px}
+.dhf-stat i{flex:none;width:7px;height:7px;border-radius:50%;background:#5FD3A6;animation:dhf-glow 2.4s infinite}
+@keyframes dhf-glow{0%,100%{box-shadow:0 0 0 0 rgba(124,92,255,.45)}50%{box-shadow:0 0 0 10px rgba(124,92,255,0)}}
+@container (max-width:1080px){.dhf-in{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@container (max-width:680px){.dhf-in{grid-template-columns:minmax(0,1fr);padding:0 20px}}
+</style>
+<footer class="dhf"><div class="dhf-in">
+<div>
+<a class="dhf-logo" href="https://developerhub.io"><img src="https://static.developerhub.io/landing/images/logo-2d2665be0090148caeed.svg" alt="DeveloperHub"></a>
+<p class="dhf-tag">Ship docs at the speed of your code.</p>
+<a class="dhf-li" href="https://www.linkedin.com/company/developer-hub" target="_blank" rel="noopener"><svg viewBox="0 0 448 512" aria-hidden="true"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3C448 46.5 433.6 32 416 32zM135.4 416H69V202.2h66.5V416zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77zM384.3 416h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>Follow our updates on LinkedIn</a>
+<p style="opacity:.8">Registered in England and Wales. Company No. 11501681<br>&copy; 2018 to <span class="dhf-y">2026</span> DeveloperHub.io Ltd.</p>
+<p>Proud sponsors of <a href="https://www.writethedocs.org/conf/portland/2025/" rel="nofollow">Write the Docs <span style="color:#5FD3A6">Portland 2025</span></a></p>
+<p><svg viewBox="0 0 512 512" aria-hidden="true"><path d="M471.3 6.7C477.7.6 487-1.6 495.6 1.2 505.4 4.5 512 13.7 512 24v186.9c0 131.2-108.1 237.1-238.8 237.1-77 0-143.4-49.5-167.5-118.7-35.4 30.8-57.7 76.1-57.7 126.7 0 13.3-10.7 24-24 24S0 469.3 0 456c0-74.9 38.2-140.9 96.1-179.7C131.4 252.7 173.5 240 216 240h80c13.3 0 24-10.7 24-24s-10.7-24-24-24h-80c-39.7 0-77.3 8.8-111 24.5 23.3-70 89.2-120.5 167-120.5 66.4 0 115.8-22.1 148.7-44 19.2-12.8 35.5-28.1 50.7-45.3z"/></svg> Our office runs on 100% green energy</p>
+</div>
+<div class="dhf-col"><b>Product</b><a href="https://developerhub.io/documentation">Documentation</a><a href="https://developerhub.io/api-docs">API docs</a><a href="https://developerhub.io/ai">AI Features</a><a href="https://developerhub.io/ai-search">AI Assistant</a><a href="https://developerhub.io/analytics">Analytics</a><a href="https://developerhub.io/changelogs">Changelogs</a><a href="https://developerhub.io/feedback">Feedback</a><a href="https://developerhub.io/pricing">Pricing</a><b>Free tools</b><a href="https://app.developerhub.io/api-editor" target="_blank" rel="noopener">API editor</a></div>
+<div class="dhf-col"><b>Solutions</b><a href="https://developerhub.io/use-case/developers">For developers</a><a href="https://developerhub.io/use-case/technical-writers">For technical writers</a><a href="https://developerhub.io/use-case/product-marketing-c-level">For product and marketing</a><b>Comparisons</b><a href="https://developerhub.io/comparisons/readme">vs. ReadMe</a><a href="https://developerhub.io/comparisons/mintlify">vs. Mintlify</a><b>Resources</b><a href="https://docs.developerhub.io">Demo docs</a><a href="https://docs.developerhub.io/support-center/what-s-new">What&rsquo;s new</a><a href="https://docs.developerhub.io/support-center/frequently-asked-questions">FAQ</a></div>
+<div class="dhf-col"><b>Company</b><a href="https://developerhub.io/about-us">About us</a><a href="https://developerhub.io/blog">Blog</a><a href="mailto:hello@developerhub.io">Contact</a><a href="https://angel.co/company/developerhub">Jobs</a><a href="https://talk.developerhub.io">Community forums</a><a class="dhf-stat" href="https://status.developerhub.io" target="_blank" rel="nofollow"><i></i>Status</a><b>Legal</b><a href="https://developerhub.io/security">Security</a><a href="https://developerhub.io/privacy">Privacy policy</a><a href="https://developerhub.io/terms">Terms of service</a></div>
+</div><script>document.querySelector('.dhf-y').textContent=new Date().getFullYear()</script></footer>

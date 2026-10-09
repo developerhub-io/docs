@@ -6,11 +6,6 @@
   });
 </script>
 <script>
-  /* if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) {
-    window.setTheme('light');
-	} */
-</script>
-<script>
   window.translations.apply({
   	page: {
       feedback: { 
@@ -96,27 +91,78 @@ document.addEventListener('oncardschanged', function (event) {
   });
 </script>
 
-<style>
-  .search-contact-us {
-    color: inherit;
-    font-size: inherit;
-    text-decoration: underline;
-  }
-  
-  .search-contact-us:hover {
-    color: inherit;
-  }
+ <style>
+  .changelog-actions { flex-wrap: wrap; justify-content: flex-end; }
+  .changelog-actions > .changelog-btn { white-space: nowrap; }
+  a.changelog-btn.dh-linkedin-follow { display: inline-flex; align-items: center; gap: 6px; line-height: normal; color: inherit; }
+  a.changelog-btn.dh-linkedin-follow:hover { color: inherit; text-decoration: none; }
+  a.changelog-btn.dh-linkedin-follow i { color: #0a66c2; font-size: 15px; }
+  body.dark-mode a.changelog-btn.dh-linkedin-follow i { color: #70b5f9; }
 </style>
-
 <script>
-  document.addEventListener('onsearch', function (event) {
-    let searchEl = document.querySelector('.topnav .search');
+  (function () {
+    var LINKEDIN_URL = 'https://www.linkedin.com/company/developer-hub';
+    var LABEL = 'Follow us for latest updates';
 
-    setTimeout(() => {
-      if (!document.querySelector('.search-results-container .result')) {
-          // document.querySelector('.search-results-container .count').innerHTML = 
-            // 'No search results found. <a class="search-contact-us" href="/support-center/contact-us">Contact us?</a>';
+    function ensureButton() {
+      var actions = document.querySelector('.changelog-actions');
+      if (!actions || actions.querySelector('.dh-linkedin-follow')) {
+        return;
+      }
+      var rss = actions.querySelector('.changelog-btn.rss');
+      var btn = document.createElement('a');
+      btn.className = 'changelog-btn dh-linkedin-follow';
+      btn.href = LINKEDIN_URL;
+      btn.target = '_blank';
+      btn.rel = 'noopener';
+      btn.innerHTML = '<i class="fab fa-linkedin"></i><span></span>';
+      btn.lastChild.textContent = LABEL;
+      // Borrow the changelog's scoped style attribute so the button matches the RSS button.
+      if (rss) {
+        for (var i = 0; i < rss.attributes.length; i++) {
+          if (rss.attributes[i].name.indexOf('_ngcontent') === 0) {
+            btn.setAttribute(rss.attributes[i].name, '');
+          }
+        }
+      }
+      actions.insertBefore(btn, rss || null);
+    }
+
+    // The changelog renders after the section changes, so watch for its header while the
+    // changelog is open, and put the button back if the header is ever rendered again.
+    var observer = null;
+
+    function watch() {
+      ensureButton();
+      if (!observer) {
+        observer = new MutationObserver(ensureButton);
+        observer.observe(document.body, { childList: true, subtree: true });
+      }
+    }
+
+    function unwatch() {
+      if (observer) {
+        observer.disconnect();
+        observer = null;
+      }
+    }
+
+    document.addEventListener('onsectionchange', function (e) {
+      if (e.detail && e.detail.type === 'changelog') {
+        watch();
+      } else {
+        unwatch();
       }
     });
-  });
+
+    // First load straight onto the changelog can fire the event before this script runs.
+    function checkCurrent() {
+      var section = window.getActiveSection && window.getActiveSection();
+      if (section && section.type === 'changelog') {
+        watch();
+      }
+    }
+    document.addEventListener('onprojectloaded', checkCurrent);
+    checkCurrent();
+  })();
 </script>
