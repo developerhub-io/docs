@@ -204,6 +204,14 @@ Checks a single page, or a whole version, for [broken links](../../writing-docum
 {% /row %}
 {% row %}
 {% cell colwidth=[273] %}
+`list_backlinks`
+{% /cell %}
+{% cell %}
+Lists the pages that [link to a page](../../writing-documentation/page-linking.md#listing-linked-pages-backlinks), whether each link is live or only in a draft, and any headings it points at.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
 `get_markdoc_syntax`
 {% /cell %}
 {% cell %}
@@ -256,8 +264,8 @@ Reads the ratings and comments on a single page.
 
 Body edits are written to the page's **draft**, so nothing an agent writes is visible to readers until it is published, and publishing is a separate, explicit step. Two things work differently, and both are worth knowing before you point an agent at a live project:
 
-- **Titles and slugs are not drafted.** A rename takes effect straight away, published pages included. Changing a slug changes the page's URL, so [check what links to it](../../writing-documentation/page-linking.md) first.
-- **Deleting a page cannot be undone.** An agent has to pass the page's current slug back as confirmation, so it cannot delete a page it has not looked up, but once the deletion goes through the page is gone.
+- **Titles and slugs are not drafted.** A rename takes effect straight away, published pages included. Changing a slug changes the page's URL, so have the agent run `list_backlinks` first to see what links to it.
+- **Deleting a page cannot be undone.** An agent has to pass the page's current slug back as confirmation, so it cannot delete a page it has not looked up, but once the deletion goes through the page is gone. `list_backlinks` shows which pages would be left with a broken link.
 
 ## Writing Markdoc
 
