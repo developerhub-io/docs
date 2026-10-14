@@ -180,10 +180,41 @@ This feature is in beta, so it may change.
 
 A block ID must start with a lowercase letter and use only lowercase letters, numbers, and hyphens. Because the ID is the filename, and a block's ID cannot change once it exists, renaming the file is read as deleting one block and creating another rather than as a rename.
 
+A block with [variables](synced-blocks.md#variables-in-synced-blocks) lists them in its frontmatter under `variables`, each name with its default value. In the contents, write `{% $name %}` in text and `%name%` in a code block:
+
+{% code %}
+````markup {% title="_synced-blocks/install-steps.md" %}
+---
+title: 'Install steps'
+variables:
+  tool: 'Acme CLI'
+  version: '2.1'
+---
+
+Install {% $tool %} version {% $version %}:
+
+```bash
+npm install acme-cli@%version%
+```
+````
+{% /code %}
+
+Write each value in quotes, like `'2.10'`, so YAML reads it as text rather than as a number. A value is one line of text, so a line break in it becomes a space.
+
+A page sets its own values on the `synced` tag, each in quotes. Any variable it leaves out, or sets to an empty value, shows the block's default:
+
+{% code %}
+```markdown {% title="A page" %}
+{% synced id="install-steps" variables={"tool":"Acme Cloud"} /%}
+```
+{% /code %}
+
+A variable's name cannot change in the editor, so changing a name under `variables` is read as removing one variable and adding another. Pages' values for the old name then stop showing.
+
 Synced blocks have no draft state, so a block you push is live at once on every page that uses it.
 
 {% callout type="warning" title="Deleting a block file archives it" %}
-Deleting a file from `_synced-blocks/` archives the block rather than removing it, exactly as [archiving](synced-blocks.md) does in the editor. Pages that embed it keep rendering it; it simply stops being offered when your teammates pick a block to reuse.
+Deleting a file from `_synced-blocks/` archives the block rather than removing it, exactly as [archiving](synced-blocks.md) does in the editor. Pages that embed it keep rendering it; it simply stops being offered when your teammates pick a block to reuse. Adding the file back restores it.
 {% /callout %}
 
 ## Reader Customisation

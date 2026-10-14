@@ -177,6 +177,16 @@ Great **success**!
 ```
 {% /code %}
 
+If the block has [variables](../synced-blocks.md#variables-in-synced-blocks), a page can set its own values for them with `variables`, each in quotes. Any variable left out shows the block's default:
+
+{% code %}
+```markdown
+{% synced id="install-steps" variables={"tool":"Acme Cloud","version":"3.0"} /%}
+```
+{% /code %}
+
+The block's own file declares the variables and uses them, as shown in [Synced Blocks](../github-sync.md#synced-blocks).
+
 ### Custom HTML
 
 {% code %}
