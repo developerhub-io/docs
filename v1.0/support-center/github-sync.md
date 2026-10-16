@@ -264,6 +264,10 @@ A value we cannot make sense of, such as a colour that is not a colour, is reset
 Folders at the base path whose name starts with an underscore are reserved for %product%, as is `changelogs`. A version cannot use a slug that starts with an underscore.
 {% /callout %}
 
+## Previewing in Your Editor
+
+Install the [DeveloperHub Preview](github-sync/previewing-in-your-editor.md) extension in VS Code or a JetBrains IDE to see each page the way your readers will, beside the file, as you type.
+
 ## Editing with AI Agents
 
 If you edit the repository with an AI coding agent (in your IDE or a docs-as-code pipeline), install the DeveloperHub [Agent Skills](github-sync/write-markdoc-with-ai.md) so it writes correct Markdoc and the correct repository structure.

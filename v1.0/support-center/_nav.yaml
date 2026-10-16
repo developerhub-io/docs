@@ -203,6 +203,7 @@ items:
         icon: arrows-rotate
         items:
           - github-sync/markdoc-format
+          - github-sync/previewing-in-your-editor
           - github-sync/write-markdoc-with-ai
       - page: importing-documentation
         icon: file-import
