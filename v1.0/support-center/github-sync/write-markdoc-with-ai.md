@@ -21,8 +21,8 @@ The package is public and maintained by %product%: [github.com/developerhub-io/d
 
 The package ships two skills:
 
-- **`write-markdoc`** documents every %product% block and inline tag with its exact syntax, attributes, defaults, allowed values, and the round-trip rules that keep an edit lossless.
-- **`organize-docs-repo`** covers the repository layout: where each file goes, the navigation and settings files, images, API references, synced blocks, and changelogs, and how to add, move, nest, group, reorder, or hide pages without breaking the sync.
+- **write-markdoc** documents every %product% block and inline tag with its exact syntax, attributes, defaults, allowed values, and the round-trip rules that keep an edit lossless.
+- **organize-docs-repo** covers the repository layout: where each file goes, the navigation and settings files, images, API references, synced blocks, and changelogs, and how to add, move, nest, group, reorder, or hide pages without breaking the sync.
 
 They use the portable Agent Skills format (Markdown with YAML frontmatter), so they work across Claude Code, Cursor, Codex, and other compatible agents.
 
@@ -52,7 +52,7 @@ Third-party marketplaces do not update themselves until you allow it, so turn th
 
 ### Cursor, Codex, and other agents
 
-Use the [`skills` CLI](https://www.npmjs.com/package/skills), which adds the skills to your agent's skills directory:
+Use the [skills CLI](https://www.npmjs.com/package/skills), which adds the skills to your agent's skills directory:
 
 {% code %}
 ```bash
