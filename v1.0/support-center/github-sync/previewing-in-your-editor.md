@@ -16,7 +16,7 @@ When you write your pages in a [GitHub-synced](../github-sync.md) repository, th
 ## Installing the Extension
 
 - **VS Code**: open the Extensions view, search for **DeveloperHub Preview**, and click **Install**. You can also install it from the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=developerhub.developerhub-preview).
-- **JetBrains IDEs**: open **Settings** → **Plugins** → **Marketplace**, search for **DeveloperHub Preview**, and click **Install**.
+- **JetBrains IDEs**: open **Settings** → **Plugins** → **Marketplace**, search for **DeveloperHub Preview**, and click **Install**. You can also install it from [JetBrains Marketplace](https://plugins.jetbrains.com/plugin/35194-developerhub-preview).
 
 ## Opening the Preview
 
