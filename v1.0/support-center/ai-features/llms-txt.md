@@ -29,8 +29,10 @@ For projects without a basepath: `https://<project-url>/llms.txt`.
 
 For projects with a basepath: `https://<project-url>/<basepath>/llms.txt`.
 
+If your project has more than one version, each published version has its own `llms.txt`. The one above covers the [default version](../project-settings/managing-versions.md#ordering-versions). For any other version, add its slug before `llms.txt`, for example `https://<project-url>/v2.0/llms.txt`. Each file links to the others.
+
 {% callout title="Info" %}
-`llms.txt` is updated every 6 hours
+`llms.txt` is updated every 5 minutes
 {% /callout %}
 
 ## Markdown for LLMs
