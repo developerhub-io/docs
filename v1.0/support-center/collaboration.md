@@ -24,7 +24,7 @@ A breakdown of the permissions is detailed below:
 
 {% table layout="auto" %}
 {% row %}
-{% cell header=true %}
+{% cell header=true searchable=true %}
 Role
 {% /cell %}
 {% cell header=true %}
