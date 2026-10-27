@@ -22,7 +22,7 @@ You can access all help and support options from the help {% icon classes="fas f
 
 ## Chat
 
-We are one click away. Click on the Let's Talk chat widget below!
+We are one click away. Click the chat button at the bottom right of this page, or select **Chat with us** from the help {% icon classes="fas fa-question-circle" /%} icon in the editor.
 
 ## Email
 
