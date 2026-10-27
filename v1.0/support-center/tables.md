@@ -78,6 +78,7 @@ To view the table options, right-click on a cell of the table. You will be able 
 - Align the cell contents left, centre or right.
 - **Toggle header row** on or off.
 - **Pin header row while scrolling**, so the header stays in place as you read down a long table. Select **Unpin header row** to undo it.
+- **Make column searchable**, on a cell in the header row, so readers can [search the table by that column](#searching-a-column). Select **Make column not searchable** to undo it.
 - Switch the table between **auto layout** and **fixed layout**.
 - **Delete row** or **Delete column**.
 
@@ -90,6 +91,12 @@ A table can keep its header row in view while the rest of it scrolls. This pays 
 To pin it, right-click a cell and select **Pin header row while scrolling**.
 
 A table short enough to fit on screen has nothing to scroll, so pinning leaves it looking exactly as it did.
+
+## Searching a Column
+
+Readers can narrow a long table down to the rows they need by searching a column. To turn it on, right-click a cell in the header row and select **Make column searchable**. Repeat for any other column readers should be able to search.
+
+On the published page, that column's header gets a search button. Typing into it shows only the rows whose cell in that column matches. In the editor, the header only shows a faint search icon to mark it.
 
 ## Reordering Rows and Columns
 

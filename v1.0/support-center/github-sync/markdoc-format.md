@@ -126,7 +126,7 @@ Image caption
 
 ### Tables
 
-Tables are `{% row %}` and `{% cell %}` trees; a header cell sets `header=true`. Add `stickyHeader=true` to [pin the header row](../tables.md#pinning-the-header-row) while the table scrolls. A simple table can also be written as a plain Markdown pipe table.
+Tables are `{% row %}` and `{% cell %}` trees; a header cell sets `header=true`. Add `stickyHeader=true` to [pin the header row](../tables.md#pinning-the-header-row) while the table scrolls, and `searchable=true` to a header cell to let readers [search that column](../tables.md#searching-a-column). A simple table can also be written as a plain Markdown pipe table.
 
 {% code %}
 ```markdown
