@@ -101,19 +101,28 @@ These settings live in Project Settings and are the main switches that affect in
 
 ### Enable or Disable Search Indexing
 
-If you do not want the documentation visible on search engines, turn off **Allow search-engine indexing** in Project Settings (Hosting).
+If you do not want the documentation visible on search engines, turn off **Allow search-engine indexing** in Project Settings (Hosting & Domain).
 
 ### Canonical URL Strategy for Versioned Docs
 
 By default, %product% treats the [short URL](previewing-documentation.md#url-strategy) (without the version slug) as the canonical URL.
 
-If you want canonical URLs to include the version slug, enable **Canonicalize Short URL Form** in Project Settings (Hosting).
+If you want canonical URLs to include the version slug, enable **Canonicalize Short URL Form** in Project Settings (Hosting & Domain).
 
-If you want only the default version indexed, enable **Only Index Default Version** in Project Settings (Hosting).
+If you want only the default version indexed, enable **Only Index Default Version** in Project Settings (Hosting & Domain).
 
 ### Additional Meta Tags
 
 If you need to add custom verification tags or additional SEO-related meta tags, see [Custom HEAD Tags](custom-javascript.md).
+
+## SEO Report
+
+The SEO report lets you review on-page SEO, such as titles and meta descriptions, across all your pages at once instead of opening them one by one.
+
+1. Open Project Settings → **Hosting & Domain**.
+2. In the **SEO report** card, click **Download** next to **This project**, or next to **All projects** for every project in the organisation that you are an admin of.
+
+The download is a zip of spreadsheets: one for each project listing its pages, and **Project settings** with each project's SEO settings. For each page you can see the title tag and meta description that search engines get, whether the page can be indexed and why not, and whether it is in the sitemap and [llms.txt](ai-features/llms-txt.md).
 
 ## Troubleshooting
 
