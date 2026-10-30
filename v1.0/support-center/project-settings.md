@@ -26,7 +26,7 @@ Project Settings is organised into groups. Each group contains panes:
 
 - **General**: Project title, project ID, privacy policy URL, move content, delete project.
 - **Insights**: Dashboard view (activity, drafts, comments, feedback).
-- **Hosting**: Subdomain, custom domain, base path, SSL, search-engine indexing, redirects, server headers.
+- **Hosting & Domain**: Subdomain, custom domain, base path, SSL, search-engine indexing, redirects, server headers.
 - **Customisation**: Logo, favicon, top navigation links, colours, font, theme, [Custom CSS](customising-visuals/custom-css.md), [Custom Footer](customising-visuals/custom-footer.md), [HEAD tags](custom-javascript.md).
 - **Access**: [Password](private-docs.md#password-protect-set-up), [email](private-docs/email-invite.md), [SSO](private-docs/reader-single-sign-on.md) and [JWT](private-docs/custom-login.md) access.
 - **Feedback**: [Reader feedback and AI moderation](feedback.md#feedback-settings).

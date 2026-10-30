@@ -19,7 +19,7 @@ Your documentation reader will never have to leave your website and you still ge
 
 Custom domain is available for supercharged plans. To set it up:
 
-- Open Project Settings → **Hosting**.
+- Open Project Settings → **Hosting & Domain**.
 - In the Custom domain field, enter a domain such as `box.hooli.com` that exists under your own existing domain where you would like to have your documentation published on.
 - Click **Save changes** in the top menu.
 - Configure your DNS records as in [Configure DNS](configure-dns.md) page.
@@ -29,7 +29,7 @@ Custom domain is available for supercharged plans. To set it up:
 
 HTTPS is supported for all paid plans. If you are visiting your developer hub for the first time after setting up the custom domain, then it might take a few seconds for the SSL certificate to be created. After that, the website will load at normal speed.
 
-If you are using CloudFlare, or any other hosting service which provides HTTPS for your custom domain out-of-the-box, then you may uncheck "Generate SSL Certificate" under Site Hosting.
+If you are using CloudFlare, or any other hosting service which provides HTTPS for your custom domain out-of-the-box, then you may switch off **Generate SSL certificate** in Project Settings → **Hosting & Domain**.
 
 ## Site Verification
 

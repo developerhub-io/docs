@@ -39,7 +39,7 @@ In conclusion: Use [Hosting under an Existing Website](hosting.md#hosting-under-
 
 To set or change the subdomain:
 
-1. Open Project Settings → **Hosting**.
+1. Open Project Settings → **Hosting & Domain**.
 2. Edit the Subdomain input.
 3. Click **Save changes** in the top menu. If the subdomain is already taken, then you will be notified.
 
@@ -56,7 +56,7 @@ You must have access to your server configuration files to host under an existin
 If you already have a website, for example `pied-piper.com` and you would like to host your docs under `pied-piper.com/docs`, then you can do this by modifying the basepath and setting up a reverse proxy from your servers. A step-by-step guide is as follows:
 
 - On %product%:
-  1. Open Project Settings → **Hosting**.
+  1. Open Project Settings → **Hosting & Domain**.
   2. Edit Base path. Enter where you want your docs to live, such as `docs` or `hooli`. It could be a deeper subdirectory, such as `docs/project1`.
   3. Edit Custom domain. Enter the host where the existing website lives, such as `pied-piper.com` or `support.pied-piper.com`.
   4. Click **Save changes** in the top menu.

@@ -21,7 +21,7 @@ URL redirects are server-based, 301 permanent redirects. 301 redirects are follo
 
 To set up URL redirects:
 
-- Open Project Settings → **Hosting**.
+- Open Project Settings → **Hosting & Domain**.
 - In the Redirects card, edit the inline list. Add the redirection rules as follows:
   - Every rule is on a line. Rules take precedence by order.
   - Every rule has a pattern, and a destination, separated by `>>` (exactly: a space, two angle brackets, a space).
