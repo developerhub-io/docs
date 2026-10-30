@@ -9,7 +9,7 @@ keywords: visitor auth, visitor authentication, guest authentication, guest auth
 tags: 
 ---
 
-Supercharged plans admins can set their documentation portal as private, disallowing everyone on the internet to be able to access it. The protected project can be viewed by:
+Paid plan admins can set their documentation portal as private, disallowing everyone on the internet to be able to access it. The protected project can be viewed by:
 
 - Visiting the documentation site, and entering a [shared password](private-docs.md#password-protect-set-up).
 - Opening a [shared link](private-docs.md#link-sharing).

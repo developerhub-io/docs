@@ -9,7 +9,7 @@ keywords:
 tags: 
 ---
 
-Supercharged plan users can collaborate with their teammates on [reviewing](comments.md) and writing documentation. Teammates can have different [roles](collaboration.md#user-roles).
+Paid plan users can collaborate with their teammates on [reviewing](comments.md) and writing documentation. Teammates can have different [roles](collaboration.md#user-roles).
 
 ## User Roles
 
@@ -511,5 +511,5 @@ Once you transfer ownership, you cannot take it back unless if the new owner tra
 {% /callout %}
 
 {% callout title="Invoicing is not connected to ownership" %}
-If you have a supercharged plan, then the invoice by default would be sent to the e-mail address of the user who purchased the plan, not the owner. If you wish to modify the e-mail used for receiving invoices, check [Changing Payment/Billing Details](supercharged-plans.md#changing-paymentbilling-details).
+If you have a paid plan, then the invoice by default would be sent to the e-mail address of the user who purchased the plan, not the owner. If you wish to modify the e-mail used for receiving invoices, check [Changing Payment/Billing Details](supercharged-plans.md#changing-paymentbilling-details).
 {% /callout %}

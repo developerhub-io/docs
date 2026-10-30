@@ -17,7 +17,7 @@ Your documentation reader will never have to leave your website and you still ge
 
 ## How does it work?
 
-Custom domain is available for supercharged plans. To set it up:
+Custom domain is available for paid plans. To set it up:
 
 - Open Project Settings → **Hosting & Domain**.
 - In the Custom domain field, enter a domain such as `box.hooli.com` that exists under your own existing domain where you would like to have your documentation published on.

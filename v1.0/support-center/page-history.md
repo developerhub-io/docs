@@ -9,7 +9,7 @@ keywords:
 tags: 
 ---
 
-Supercharged plans can view and go back to older versions of each page.
+Paid plans can view and go back to older versions of each page.
 
 Edit history has its own entry in the editor's right sidebar, the {% icon classes="fas fa-history" /%} icon, separate from **Page Info**.
 

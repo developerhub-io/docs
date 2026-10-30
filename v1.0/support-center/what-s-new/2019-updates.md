@@ -229,7 +229,7 @@ tags:
 - {% badge text="New" type="success" /%} **Inline code appearance**: Inline code now has a background, and no longer has the pink colour. Such as: `code`.
 - {% badge text="New" type="success" /%} **Markdown in Table**: Markdown formatting can now be used in table fields.
 - {% badge text="New" type="success" /%} **Bug fix**: Typing `@` at start of sentence shows the selector correctly with search enabled.
-- {% badge text="New" type="success" /%} **Bug fix**: Some supercharged plan users were unable to create API keys.
+- {% badge text="New" type="success" /%} **Bug fix**: Some paid plan users were unable to create API keys.
 
 ### 16 Apr
 

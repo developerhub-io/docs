@@ -24,7 +24,7 @@ tags:
 
 ### 21 Dec
 
-- {% badge text="New" type="success" /%} **Change inline code colour**: Supercharged plans users may request a change of inline code colour on [contacting us](../contact-us.md).
+- {% badge text="New" type="success" /%} **Change inline code colour**: Paid plan users may request a change of inline code colour on [contacting us](../contact-us.md).
 
 ### 16 Dec
 

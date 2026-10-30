@@ -9,7 +9,7 @@ keywords:
 tags: 
 ---
 
-Supercharged plan users can integrate %product% with Intercom to communicate with their users and to add a docs search widget in their messenger home.
+Paid plan users can integrate %product% with Intercom to communicate with their users and to add a docs search widget in their messenger home.
 
 {% image url="https://uploads.developerhub.io/prod/02/t63b4gcezxzeo0vwod56erkk03neeh5kmwarfa34h3envw7vh8yz8q3j8kxkhllm.png" width=300 /%}
 

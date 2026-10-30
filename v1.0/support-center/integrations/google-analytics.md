@@ -9,7 +9,7 @@ keywords:
 tags: 
 ---
 
-Supercharged plan users can integrate %product% with Google Analytics to track page views. You can use both Universal Analytics or Google Analytics 4 IDs.
+Paid plan users can integrate %product% with Google Analytics to track page views. You can use both Universal Analytics or Google Analytics 4 IDs.
 
 {% image url="https://uploads.developerhub.io/prod/02/4vm4qz62osva8789xx3ezjgwllm931hwcydyg28gss1wvvrcouqfzcvzm7u46edg.png" width=300 /%}
 

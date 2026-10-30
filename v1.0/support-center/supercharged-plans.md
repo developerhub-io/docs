@@ -9,11 +9,11 @@ keywords: account billing
 tags: 
 ---
 
-Supercharged plans give you much more benefit than free plans. To see all the plans available, go to [Pricing](https://developerhub.io/pricing). A supercharged plan is any paid plan.
+Paid plans give you much more benefit than free plans. To see all the plans available, go to [Pricing](https://developerhub.io/pricing).
 
-## Upgrading to a Supercharged Plan
+## Upgrading to a paid plan
 
-Plans are subscribed to, and are paid for *per project per month*. To upgrade your project to a supercharged plan:
+Plans are subscribed to, and are paid for *per project per month*. To upgrade your project to a paid plan:
 
 - In the editor top navigation, open the project menu and make sure you have selected the correct project to upgrade.
 - Open Project Settings → **Plan \& Usage**.
@@ -31,7 +31,7 @@ We accept payment through debit/credit cards. For enterprise plans, we offer pay
 
 Project Settings → **Plan \& Usage** also holds the project's [AI credits](ai-features.md#ai-credits): what is left of this month's allowance, when it renews, and how to top up.
 
-## Changing or Cancelling a Supercharged Plan
+## Changing or Cancelling a paid plan
 
 To move a project to another plan, or back to the free plan:
 
