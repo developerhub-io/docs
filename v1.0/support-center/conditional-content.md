@@ -11,8 +11,6 @@ tags:
 
 Conditional Content lets you control who can see specific content in your documentation based on user variables. Content visibility is managed through audiences, which define conditions that are evaluated against [variables](variables.md) passed in a signed JWT. This works on a private project through [custom login](private-docs/custom-login.md), and on a public docs site through a signed link. You can also [name a reader's audiences directly](#naming-audiences-directly), which is how readers who sign in through [reader SSO](private-docs/reader-single-sign-on.md) get theirs.
 
-{% synced id="beta-feature" /%}
-
 There are two ways to use Conditional Content:
 
 - **Page-level Audiences**: Apply an audience to an entire page to control who can access it.
