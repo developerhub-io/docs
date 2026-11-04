@@ -48,7 +48,7 @@ The **In this PDF** card is the outline of the document. Its rows run in the ord
 
 - Every published documentation section and API reference starts ticked, so generating without changing anything gives you the whole version, exactly as it always did.
 - Use **Select all** or **Clear all** on the **Documentation** and **API references** headings to tick or clear a whole group at once.
-- Unpublished sections are listed too, marked with an **Unpublished** pill, and start unticked. You can still include them deliberately.
+- Unpublished sections are listed too, marked with an **Unpublished** pill, and start unticked. You can still include them deliberately. An API reference that has never been published is marked **Never published** instead and cannot be included.
 - The cover page, table of contents and back pages are always part of the document, so they cannot be unticked. They come from PDF appearance.
 
 At least one section has to be ticked; **Generate PDF** stays disabled until one is.
