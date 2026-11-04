@@ -48,7 +48,9 @@ curl --request GET \
 
 ## One Endpoint Per Page
 
-Off by default, which stacks every endpoint on a single page. When **One endpoint per page** is on, readers see one endpoint at a time instead. The API Reference opens on an overview of its title, description, servers and authentication, followed by each tag with its description and links to the endpoints under it. Choosing an endpoint, from either the index or the overview, gives it the page to itself.
+On by default for a new API Reference. When **One endpoint per page** is on, readers see one endpoint at a time. The API Reference opens on an overview of its title, description, servers and authentication, followed by each tag with its description and links to the endpoints under it. Choosing an endpoint, from either the index or the overview, gives it the page to itself.
+
+Turn it off to stack every endpoint on a single page. An existing API Reference keeps the layout it already has.
 
 URLs are unchanged, so existing deep links, search results and any links you have shared still land on the same endpoint.
 
