@@ -29,7 +29,7 @@ Turning the setting off again disconnects every client that was connected to the
 
 ## Connecting your AI client
 
-The server is at `https://ai.developerhub.io/mcp` and uses the Streamable HTTP transport.
+The server is at `https://ai.developerhub.io/mcp` and uses the Streamable HTTP transport. It is also listed in the official MCP Registry as `io.developerhub/editor`.
 
 For Claude Code:
 
