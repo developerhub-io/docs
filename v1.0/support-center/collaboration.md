@@ -212,6 +212,23 @@ Delete pages
 {% /row %}
 {% row %}
 {% cell %}
+Create sidebar categories, labels, links and separators
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+✅
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% cell %}
+❌
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell %}
 Create/delete/publish versions
 {% /cell %}
 {% cell %}
