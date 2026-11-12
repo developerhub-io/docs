@@ -41,7 +41,9 @@ If the version already has a section with that name, %product% tells you, and ad
 
 ### Private help centres
 
-Open **Advanced** and provide a Zendesk **Email** and **API token** if your help centre is not public, or if Zendesk is rate limiting it.
+If your help centre is not public, or Zendesk is rate limiting it, open **Advanced** and enter the **Client ID** and **Client secret** of a Zendesk OAuth client.
+
+To create one, open Zendesk Admin Center → **Apps and integrations** → **APIs** → **OAuth clients**, add a client of kind **Confidential**, then copy its identifier and secret into the form.
 
 {% callout title="Info" %}
 Signing in as an agent means Zendesk also returns draft articles. Drafts are skipped, so fewer pages are created than the preview counts.
