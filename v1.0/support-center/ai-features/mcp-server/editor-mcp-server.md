@@ -25,7 +25,7 @@ Only project admins can turn the Editor MCP server on or off.
 
 It can take up to 5 minutes for the change to take effect. Once the setting is saved on, the card expands to show the connection details for your AI client.
 
-Turning the setting off again disconnects every client that was connected to the project.
+Turning the setting off again stops AI clients from working in the project.
 
 ## Connecting your AI client
 
@@ -61,7 +61,7 @@ The first time a client connects, it opens a browser page asking you to **Allow 
 
 There is no key to create or share out. Every editor connects with their own %product% account and the agent acts as that person, so it reaches only the projects they can already edit, and only those with the Editor MCP server turned on.
 
-The connection lasts as long as your %product% login does. After that your client asks you to approve access again.
+Each client you approve stays connected for 30 days, even if you log out of the editor, and then asks you to approve it again. To disconnect one sooner, open [Account Settings](../../account-settings.md) → **Integrations** → **AI clients** and click **Disconnect** beside it under **Connected clients**.
 
 ## What an agent can do
 
