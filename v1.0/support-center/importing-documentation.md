@@ -20,7 +20,7 @@ You can import to %product% from many sources:
 - [ReadMe](importing-documentation/external-sources.md#readme-import)
 - [Mintlify](importing-documentation/import-from-mintlify.md)
 - [Zendesk](importing-documentation/import-from-zendesk.md)
-- Any other tool, such as Docusaurus, MkDocs, Sphinx, or GitBook, with the `migrate-docs` [Agent Skill](github-sync/write-markdoc-with-ai.md#migrating-from-another-tool) for your AI coding agent
+- [Any other tool](importing-documentation/import-from-any-tool.md), such as Docusaurus, MkDocs, Sphinx, or GitBook, with your AI coding agent
 - Other sources, such as: [HTML](importing-documentation/external-sources.md#importing-from-html), [Confluence](importing-documentation/external-sources.md#importing-from-confluence), [Word](importing-documentation/external-sources.md#importing-from-word-documents) or [other external sources](importing-documentation/external-sources.md).
 
 ## Import a Markdoc Export

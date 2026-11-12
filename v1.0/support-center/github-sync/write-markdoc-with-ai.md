@@ -23,7 +23,7 @@ The package ships three skills:
 
 - **write-markdoc** documents every %product% block and inline tag with its exact syntax, attributes, defaults, allowed values, and the round-trip rules that keep an edit lossless.
 - **organize-docs-repo** covers the repository layout: where each file goes, the navigation and settings files, images, API references, synced blocks, changelogs, and your site's look (logo, favicon, colours, and custom CSS), and how to add, move, nest, group, reorder, or hide pages without breaking the sync.
-- **migrate-docs** moves your docs from another tool, such as Docusaurus, MkDocs, Sphinx, GitBook, Mintlify, or ReadMe, into a folder you import with [GitHub Sync](../github-sync.md). See [Migrating from Another Tool](#migrating-from-another-tool).
+- **migrate-docs** moves your docs from another tool, such as Docusaurus, MkDocs, Sphinx, GitBook, Mintlify, or ReadMe, into a folder you import with [GitHub Sync](../github-sync.md). See [Import from Any Tool with AI](../importing-documentation/import-from-any-tool.md).
 
 They use the portable Agent Skills format (Markdown with YAML frontmatter), so they work across Claude Code, Cursor, Codex, and other compatible agents.
 
@@ -82,9 +82,14 @@ For the reference `write-markdoc` is built on, see [Markdoc Format](markdoc-form
 
 ## Migrating from Another Tool
 
-Ask your agent to move your docs to %product%, and point it at them: a folder or repository, an export, or the live site if there is nothing else. It asks how you want your content structured, shows you the plan, and converts a few pages for you to check before it does the rest. Your writing is kept as it is.
+To move your docs to %product% with `migrate-docs`:
 
-The result is a folder ready for [GitHub Sync](../github-sync.md), with a report of the migration and a list of redirects from your old URLs. Push the folder to a GitHub repository and [set up GitHub Sync](../github-sync.md#setting-up-github-sync) with **First sync** set to **Import**. When you point your domain at %product%, paste the redirects into [URL Redirects](../hosting/url-redirects.md) so old links keep working.
+1. [Install the skills](#installing-the-skill), then start a new session in your agent.
+2. Ask your agent to migrate your docs to %product%, and point it at them: a folder or repository, an export, or the live site if there is nothing else.
+3. Answer its questions about how to structure your content, and check the first few pages it converts.
+4. Push the folder it produces to a GitHub repository and [set up GitHub Sync](../github-sync.md#setting-up-github-sync) with **First sync** set to **Import**.
+
+For each step in detail, and what to do with the report and redirects it gives you, see [Import from Any Tool with AI](../importing-documentation/import-from-any-tool.md).
 
 ## Feedback
 
