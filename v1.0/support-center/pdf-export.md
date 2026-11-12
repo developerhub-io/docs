@@ -80,6 +80,8 @@ Our exported PDFs contain the following in order:
 - The API references you included,
 - Back pages, if you provide them.
 
+A link from one documentation page to another takes the reader to that page in the PDF.
+
 ## Customisation of PDF
 
 The **PDF appearance** card holds the parts that apply to every PDF the project generates, so it sits apart from the section picker. It is collapsed by default and shows a summary of what is currently set; click **Edit** to open it.
@@ -95,14 +97,11 @@ The logo at the top of each page and the footer banner are shown in the same car
 
 ## Limitations of PDF
 
-- The PDFs are not interactive: The links in pages do not reference other pages in the PDF.
-- Your project must be accessible through the custom domain, or the subdomain if the custom domain is not set.
+Links to an API reference, or to a page you left out of the PDF, open on your site instead.
 
 ## Troubleshooting Failed Exports
 
 There are specific circumstances when a PDF export might fail. Rest assured that if a PDF export fails, we get notified of it and we can provide you with more information about its failure.
-
-If your docs are hosted behind a firewall, make sure to whitelist `DeveloperHub.io PDF Exporter` user agent.
 
 ## Example of PDF
 

@@ -96,10 +96,7 @@ You may also use the approach above to set up your own custom redirection rules 
 
 ### Setting up your application firewall when hosting under an existing website
 
-When you are hosting under an existing website and you have an application firewall running, you must perform the following:
-
-1. Whitelist `DeveloperHub.io SSR` user agent for all URLs in the docs site. This ensures that we can serve the pages to search indexing robots for SEO purposes. See [SEO troubleshooting](seo.md#getting-a-403-or-bad-result).
-2. Whitelist `DeveloperHub.io PDF Exporter` user agent for all URLs in the docs site. This ensures that PDF exports are enabled.
+When you are hosting under an existing website and you have an application firewall running, whitelist the `DeveloperHub.io SSR` user agent for all URLs in the docs site. This ensures that we can serve the pages to search indexing robots for SEO purposes. See [SEO troubleshooting](seo.md#getting-a-403-or-bad-result).
 
 ## Hosting Multiple Projects under One Site
 
