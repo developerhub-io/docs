@@ -289,7 +289,7 @@ npx skills add developerhub-io/dh-skills
 ```
 {% /code %}
 
-The package ships two skills: `write-markdoc` for the [Markdoc](github-sync/markdoc-format.md) syntax inside a page, and `organize-docs-repo` for the repository layout (navigation, settings, images, references, and changelogs). Together they keep an agent's edits lossless, so they sync back without churn or lost content.
+The package ships `write-markdoc` for the [Markdoc](github-sync/markdoc-format.md) syntax inside a page, and `organize-docs-repo` for the repository layout (navigation, settings, images, references, changelogs, and your site's look). Together they keep an agent's edits lossless, so they sync back without churn or lost content. A third skill, `migrate-docs`, [moves your docs from another tool](github-sync/write-markdoc-with-ai.md#migrating-from-another-tool) into a folder you can import this way.
 
 ## Pull Request Checks
 
