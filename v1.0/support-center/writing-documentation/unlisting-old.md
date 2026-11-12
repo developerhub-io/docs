@@ -39,13 +39,11 @@ To list the page back again:
 
 If you wish to hide a page from the index, but keep it available for readers if they access it through a URL or a [page link](page-linking.md), then you can do so using [Custom CSS](../customising-visuals/custom-css.md). Every item in the index has specific CSS classes that help you apply certain CSS rules to it. For example, to hide this page from the index, we can use:
 
-{% code %}
 ```css
 .customise.live .node_<page_id> {
   display: none;
 }
 ```
-{% /code %}
 
 {% callout type="warning" title="Warning" %}
 Making sure to use `.live` CSS class, otherwise you will not be able to see or modify the index in the editor as well.

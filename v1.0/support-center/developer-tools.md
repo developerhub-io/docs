@@ -308,13 +308,11 @@ tags: customisation
 
 **Emits:** The HTML element that loaded if you wish to make customisations to the API reference UI, as follows:
 
-{% code %}
 ```json
 {
   el: HTMLElement
 }
 ```
-{% /code %}
 
 ### Search Performed
 
@@ -324,7 +322,6 @@ tags: customisation
 
 **Emits:** Details about the query and hits count as follows:
 
-{% code %}
 ```json
 {
   query: string,
@@ -332,7 +329,6 @@ tags: customisation
   type: 'normal'|'ai'
 }
 ```
-{% /code %}
 
 {% callout type="warning" title="Only Non-Enterprise Search" %}
 This is only available for non-enterprise search currently.
@@ -346,7 +342,6 @@ This is only available for non-enterprise search currently.
 
 **Emits:** Details about the feedback as follows:
 
-{% code %}
 ```json
 {
   action: 'vote',
@@ -354,7 +349,6 @@ This is only available for non-enterprise search currently.
   pageUrl: string
 }
 ```
-{% /code %}
 
 ## JavaScript Objects
 

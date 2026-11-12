@@ -63,7 +63,6 @@ When the setting is enabled, any new feedback that contains a message would be s
 
 Feedback controls can also be shown or disabled according to the referrer site (the site from which the reader has visited the docs). This can be useful if readers are mistaking your site for the support site of your own B2B customer. As an example, feedback controls can disabled according to referrer by adding the following [Custom JS](custom-javascript.md) :
 
-{% code %}
 ```html
 <script>
   var referrer = document.referrer;
@@ -83,7 +82,6 @@ Feedback controls can also be shown or disabled according to the referrer site (
   });
 </script>
 ```
-{% /code %}
 
 The same can be done to set up a referrer deny list.
 

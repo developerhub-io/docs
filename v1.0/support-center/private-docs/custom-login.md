@@ -51,7 +51,6 @@ There are numerous libraries for most programming languages for signing JWT, see
 
 Example code to sign the JWT:
 
-{% code %}
 ```javascript
 const sign = require('jsonwebtoken').sign;
 const apiKey = '689c3ce8e7c68b7c7f86acca6a028e6f8656eb792b19a334f8e3f2a56ca8f561';
@@ -72,7 +71,6 @@ function getSignedDeveloperHubUrl() {
   return `${docsUrl}?jwt=${token}`;
 }
 ```
-{% /code %}
 
 Once the URL is generated, you may redirect your reader to the generated URL to provide them access to the docs.
 
@@ -90,7 +88,6 @@ For easy access, you can also generate a JWT directly from the Manage Access win
 
 An example express app which you may use:
 
-{% code %}
 ```javascript
 const express = require('express');
 const app = express();
@@ -125,13 +122,11 @@ app.listen(port, () => {
   console.log(`Reader login app listening at http://localhost:${port}`)
 });
 ```
-{% /code %}
 
 ## Limiting Access to One Device
 
 To limit a single JWT token to give access only on one device, a unique `jti` may be added in the payload. For example:
 
-{% code %}
 ```javascript {% highlightLines="4" %}
 function getSignedDeveloperHubUrl(url) {
   const docsUrl = url || 'https://docs.pied-piper.com';
@@ -152,7 +147,6 @@ function getSignedDeveloperHubUrl(url) {
   return `${docsUrl}?jwt=${token}`;
 }
 ```
-{% /code %}
 
 In this example, a UUID was used to provide uniqueness for the `jti` parameter, but any random sequence can be used.
 

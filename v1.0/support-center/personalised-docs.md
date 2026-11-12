@@ -63,7 +63,6 @@ Cookies can only be readable on the same root domain regardless of the subdomain
 
 To inject variables using a cookie, provide the following in the cookie:
 
-{% code %}
 ```none
 Name: vars
 Value: eyJ1c2VyIjp7Im5hbWUiOiJKb2huIn19 # Base64 of the variables JSON
@@ -74,23 +73,19 @@ HttpOnly: false
 Secure: true
 SameSite: Lax
 ```
-{% /code %}
 
 For example, to write such a cookie using javascript:
 
-{% code %}
 ```javascript
 let vars = {"user": {"name": "John"}};
 
 document.cookie = "vars=" + btoa(JSON.stringify(vars)) + "; expires=Thu, 18 Dec 2022 12:00:00 UTC; path=/; domain=docs.pied-piper.com; SameSite=lax; Secure";
 ```
-{% /code %}
 
 ## Standard for User Details
 
 For personalising docs, we propose this standard for any features that we have or may build in the future. We recommend that you use the following JSON structure:
 
-{% code %}
 ```javascript
 {
   "user": {
@@ -100,4 +95,3 @@ For personalising docs, we propose this standard for any features that we have o
 	}
 }
 ```
-{% /code %}

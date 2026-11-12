@@ -17,13 +17,11 @@ To embed a Jupyter Notebook:
 
 1. Export it to HTML. To export it, after you run your notebook, run the following command in your workspace:
 
-{% code %}
 ```python
 import os
 
 os.system('jupyter nbconvert --to html yourNotebook.ipynb')
 ```
-{% /code %}
 
 2. An HTML version of your Jupyter Notebook would be generated in the workspace. Download the HTML file locally.
 3. Open the HTML file and copy its contents.

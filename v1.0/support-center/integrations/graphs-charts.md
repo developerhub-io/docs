@@ -15,7 +15,6 @@ The web is full of different graphing/charting open-source libraries. The good n
 
 [MermaidJS](https://mermaid-js.github.io) lets you create diagrams and visualisations using text and code. To use it in %product%, set up a Custom HTML block with such contents:
 
-{% code %}
 ```markup {% title="Custom HTML" %}
 <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
 <div class="mermaid">
@@ -36,7 +35,6 @@ sequenceDiagram
    window.postMessage('resize', '*'); // resizes the container to remove scroll
 </script>
 ```
-{% /code %}
 
 Rendered as such:
 
@@ -65,7 +63,6 @@ sequenceDiagram
 
 [WebSequenceDiagrams](https://www.websequencediagrams.com/) creates sequence diagrams. To use it in %product%, add a Custom HTML block with such contents:
 
-{% code %}
 ```markup {% title="Custom HTML" %}
 <div class=wsd wsd-style="modern-blue" ><pre>
 
@@ -74,7 +71,6 @@ Bob-->Alice: Authentication Response
 
 </pre></div><script type="text/javascript" src="https://www.websequencediagrams.com/service.js"></script>
 ```
-{% /code %}
 
 Rendered as such:
 
@@ -91,7 +87,6 @@ Bob-->Alice: Authentication Response
 
 [PlantUML](https://plantuml.com/) is a component that allows you to quickly write many kinds of diagrams. To use it in %product%, add a Custom HTML block with such contents:
 
-{% code %}
 ```html {% title="Custom HTML" %}
 <head>
   <script src="//cdn.rawgit.com/jmnote/plantuml-encoder/d133f316/dist/plantuml-encoder.min.js"></script>
@@ -114,7 +109,6 @@ Bob -> Alice : hello
   </script>
 </body>
 ```
-{% /code %}
 
 Replacing the contents of UML element with the desired UML.
 
@@ -146,12 +140,10 @@ Bob -> Alice : hello
 
 [JSON Crack](https://jsoncrack.com/) is a JSON viewer tool to visualise, format and modify. To use it in %product%, add a Custom HTML block with the embed contents, styling the `iframe`:
 
-{% code %}
 ```html
 <iframe style="border: none; width: 100%; height: 300px;" 
         src="https://jsoncrack.com/widget?json=639b65c5a82efc29a24b2de2" />
 ```
-{% /code %}
 
 Rendered as such:
 

@@ -29,20 +29,16 @@ The skill does not come with your agent, so install it first. It ships with two 
 
 In **Claude Code**, run:
 
-{% code %}
 ```
 /plugin marketplace add developerhub-io/dh-skills
 /plugin install dh-skills@developerhub
 ```
-{% /code %}
 
 In **Cursor, Codex, or another agent**, run this in a terminal:
 
-{% code %}
 ```bash
 npx skills add developerhub-io/dh-skills
 ```
-{% /code %}
 
 Then start a new session in your agent so it picks the skills up. For other ways to install, and how to keep the skills up to date, see [Writing Markdoc with AI Agents](../github-sync/write-markdoc-with-ai.md#installing-the-skill).
 
@@ -50,11 +46,9 @@ Then start a new session in your agent so it picks the skills up. For other ways
 
 Open your agent and ask it to move your docs to %product%, pointing it at where they are:
 
-{% code %}
 ```
 Migrate my docs in ./website to DeveloperHub.
 ```
-{% /code %}
 
 A repository link, an export file, or the address of your live site works too. In Claude Code, you can also start the skill directly with `/dh-skills:migrate-docs`.
 

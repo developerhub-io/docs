@@ -68,7 +68,6 @@ Remember that the CSS is applied globally. Modifying classes of conventional nam
 
 If you wish to add Javascript, then you can add it in [Custom HEAD Tags](../custom-javascript.md) in a `<script>` tag. If you wish to reuse the auto-generated [cards](../landing-page.md#card-generation-strategy) that %product% builds from your content, then you can listen to a dedicated event `oncardschanged` as such:
 
-{% code %}
 ```html
 <script>
 document.addEventListener('oncardschanged', function (event) {
@@ -76,13 +75,11 @@ document.addEventListener('oncardschanged', function (event) {
 });
 </script>
 ```
-{% /code %}
 
 This event also indicates that the landing page HTML has already loaded, and that you can query its selectors.
 
 The `detail` carries `docs` and `refs` (and `groups` when your project uses [navigation groups](../structuring-documentation.md)), mirroring the [card generation strategy](../landing-page.md#card-generation-strategy). The event output looks like the follows for the main landing page:
 
-{% code %}
 ```json
 CustomEvent {
   "detail": {
@@ -116,11 +113,9 @@ CustomEvent {
   }
 }
 ```
-{% /code %}
 
 For a non-main landing page, the detail would be as such:
 
-{% code %}
 ```json
 CustomEvent {
   "detail": {
@@ -155,7 +150,6 @@ CustomEvent {
   }
 }
 ```
-{% /code %}
 
 Where `sectionId` is an identifier you may use to customise what elements are added to which landing page.
 
@@ -163,7 +157,6 @@ Where `sectionId` is an identifier you may use to customise what elements are ad
 
 To navigate to content in the documentation from your landing page, use absolute paths. When using absolute paths, the navigation would be done internally in the single-page application, rather than a full-slow navigation. For example:
 
-{% code %}
 ```markup {% title="HTML" %}
 <a href="/support-center/getting-started">
   Getting Started
@@ -178,18 +171,15 @@ To navigate to content in the documentation from your landing page, use absolute
   Example Requests
 </a>
 ```
-{% /code %}
 
 If you are creating the content dynamically using Javascript, you can use `window.applyClickHandlersOnLinks()` at the end of your javascript (when all anchors have been added) to make all absolute path links navigate internally:
 
-{% code %}
 ```javascript
 const anchor = document.createElement('A');
 anchor.href = "/support-center/getting-started";
 
 window.applyClickHandlersOnLinks();
 ```
-{% /code %}
 
 {% callout type="warning" title="Deprecated" %}
 Previously, `openLink` function used to handle opening internal links. This is no longer required and such functions can be removed.
@@ -201,7 +191,6 @@ Previously, `openLink` function used to handle opening internal links. This is n
 
 If you wish to hide the top navigation bar when on the custom landing page, you can do that using Javascript:
 
-{% code %}
 ```html
 <script>
 	document.addEventListener('onsectionchange', function (event) {
@@ -215,7 +204,6 @@ If you wish to hide the top navigation bar when on the custom landing page, you 
     });
 </script>
 ```
-{% /code %}
 
 ## Mocking default Landing Page
 

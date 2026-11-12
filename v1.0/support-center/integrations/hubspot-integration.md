@@ -19,15 +19,12 @@ Follow the steps as provided in [Install the HubSpot tracking code](https://know
 
 The script should look like:
 
-{% code %}
 ```markup {% title="Embed Code" %}
 <script type="text/javascript" id="hs-script-loader" src="//js.hs-scripts.com/{{your-id}}.js"></script>
 ```
-{% /code %}
 
 HubSpot Analytics integration is created for traditional websites, while your %product% documentation is built over a single page application. To trigger tracking page views, add the following [Custom HEAD Tag](../custom-javascript.md) after the embed code above:
 
-{% code %}
 ```markup {% title="Custom HEAD Tag" %}
 <script>
 	var trackPage = function(event) {
@@ -43,4 +40,3 @@ HubSpot Analytics integration is created for traditional websites, while your %p
 	document.addEventListener('onpagechange', trackPage);
 </script>
 ```
-{% /code %}

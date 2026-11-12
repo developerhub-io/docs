@@ -42,7 +42,6 @@ An AI coding agent such as Claude Code, Cursor or Codex can write the JavaScript
 
 The prompt has the agent read the pages that matter before it writes anything: [Customising Visuals](customising-visuals.md) to check whether a setting already does the job, this page, [Custom CSS](customising-visuals/custom-css.md), [Developer Tools](developer-tools.md) and [Popular Customisations](css-customisations.md). For anything else, it starts from this site's [llms.txt](ai-features/llms-txt.md).
 
-{% code %}
 ```none {% title="Prompt" %}
 I want to customise my DeveloperHub docs with Custom CSS or Custom HEAD tags (JavaScript).
 
@@ -68,7 +67,6 @@ Then:
 7. Make it work on phone, tablet and desktop, and in both light and dark theme.
 8. Give me the final code ready to paste, say which box it goes in (Custom CSS or Custom HEAD tags), and explain how to test it before I publish.
 ```
-{% /code %}
 
 {% callout title="No web access?" %}
 If your agent cannot open web pages, open each link in the prompt yourself and paste the contents in after the prompt.
@@ -80,7 +78,6 @@ Paste the tags it returns into Custom HEAD tags, then [test them](custom-javascr
 
 Tags should be added fully as they would exist in HEAD, such as:
 
-{% code %}
 ```markup {% title="HTML" %}
 <!-- Script to install jquery -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -98,7 +95,6 @@ Tags should be added fully as they would exist in HEAD, such as:
 <!-- Add meta such as OpenGraph title -->
 <meta property="og:title" content="X Documentation">
 ```
-{% /code %}
 
 Do not add any `<body>`, `<html>` or other tags that do not naturally exist in HEAD.
 
@@ -133,7 +129,6 @@ There are several events that are triggered by %product% which can help you achi
 
 To listen to when a project loads, which is also when most elements of the page also are loaded, you may listen to a custom event on document called `onprojectloaded`. An example:
 
-{% code %}
 ```markup
 <script>
 	document.addEventListener('onprojectloaded', function () {
@@ -142,7 +137,6 @@ To listen to when a project loads, which is also when most elements of the page 
   });
 </script>
 ```
-{% /code %}
 
 If you are aiming at modifying the top navigation, then you should use this event.
 
@@ -154,7 +148,6 @@ Because %product% is a single page application, `document.onload` has no effect 
 
 To listen to when a section (landing page, documentation) changes, you may listen to a custom event on document called `onsectionchange`. An example:
 
-{% code %}
 ```markup
 <script>
 	document.addEventListener('onsectionchange', function (event) {
@@ -172,7 +165,6 @@ To listen to when a section (landing page, documentation) changes, you may liste
     });
 </script>
 ```
-{% /code %}
 
 If the section changed is a documentation, then the indices are also listed.
 
@@ -180,7 +172,6 @@ If the section changed is a documentation, then the indices are also listed.
 
 To listen to when a page changes, you may listen to a custom event on document called `onpagechange`. An example:
 
-{% code %}
 ```markup
 <script>
 	document.addEventListener('onpagechange', function (event) {
@@ -188,13 +179,11 @@ To listen to when a page changes, you may listen to a custom event on document c
     });
 </script>
 ```
-{% /code %}
 
 ### Redirection Rules
 
 Using Custom JS, you can setup front-end redirection rules. For example, if you want to redirect one of your projects which has semantic versioning less than 1.0 to another, you might want to use something like this:
 
-{% code %}
 ```markup
 <script>
 	const redirectDocs = function() {
@@ -213,11 +202,9 @@ Using Custom JS, you can setup front-end redirection rules. For example, if you 
 	redirectDocs();	
 </script>
 ```
-{% /code %}
 
 Or if you have changed a documentation slug, then you might want to redirect to the new slug:
 
-{% code %}
 ```markup
 <script>
 	const redirectDocs = function() {
@@ -231,7 +218,6 @@ Or if you have changed a documentation slug, then you might want to redirect to 
 	redirectDocs();	
 </script>
 ```
-{% /code %}
 
 If you need more powerful redirection rules, then check [server-side 301 redirect rules](hosting/url-redirects.md).
 

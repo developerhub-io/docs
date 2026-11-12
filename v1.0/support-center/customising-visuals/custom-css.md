@@ -46,7 +46,6 @@ An AI coding agent such as Claude Code, Cursor or Codex can write the CSS for yo
 
 The prompt has the agent read the pages that matter before it writes anything: [Customising Visuals](../customising-visuals.md) to check whether a setting already does the job, this page, [Custom HEAD Tags](../custom-javascript.md), [Developer Tools](../developer-tools.md) and [Popular Customisations](../css-customisations.md). For anything else, it starts from this site's [llms.txt](../ai-features/llms-txt.md).
 
-{% code %}
 ```none {% title="Prompt" %}
 I want to customise my DeveloperHub docs with Custom CSS or Custom HEAD tags (JavaScript).
 
@@ -72,7 +71,6 @@ Then:
 7. Make it work on phone, tablet and desktop, and in both light and dark theme.
 8. Give me the final code ready to paste, say which box it goes in (Custom CSS or Custom HEAD tags), and explain how to test it before I publish.
 ```
-{% /code %}
 
 {% callout title="No web access?" %}
 If your agent cannot open web pages, open each link in the prompt yourself and paste the contents in after the prompt.
@@ -142,7 +140,6 @@ Custom CSS is applied exactly as you write it. To reach every reader, use CSS th
 
 `.customise`  is a CSS selector which you should probably use on all your CSS rules. `.customise` encapsulates everything that the editor is not, which is everything you might want to customise. For example:
 
-{% code %}
 ```css
 /* DON'T DO THIS ❌ - Will change all heading 1 everywhere, in editor, in dashboard... horrible */
 h1 {
@@ -154,13 +151,11 @@ h1 {
   color: green !important;
 }
 ```
-{% /code %}
 
 ### {% badge text="2" type="custom" /%} Use `.live`
 
 `.live`  is a CSS selector which you should probably use on all your CSS rules. `.live` encapsulates CSS that only loads on your live docs site, but not when in the editor. Changing the page styles in the editor could cause inconsistencies and features to break if CSS is not very carefully written, so it is best to only have these styles apply on the live docs site. For example:
 
-{% code %}
 ```css
 /* DON'T DO THIS ❌ - Will change all heading 1 only in live docs site and editor */
 .customise h1 {
@@ -172,13 +167,11 @@ h1 {
   color: green !important;
 }
 ```
-{% /code %}
 
 ### {% badge text="3" type="custom" /%} Use specific selectors
 
 In our previous examples, `h1` is quite a vague selector. If we want to change the page title colour, then it's best to use it's specific selector and only in Documentation.
 
-{% code %}
 ```css
 /* DON'T DO THIS ❌ - Will change all heading 1 only in live docs site */
 .customise.live h1 {
@@ -190,7 +183,6 @@ In our previous examples, `h1` is quite a vague selector. If we want to change t
   color: green !important;
 }
 ```
-{% /code %}
 
 {% callout type="error" title="Do Not Change Generic Styles" %}
 Changing the CSS of generic selectors like `table`, `p`, `.container`, `.row`, `img`, etc... will modify the global look and would probably break functionality of both the editor and the live view. We use Bootstrap heavily and changing its standard styles is not recommended. Instead, find a specific selector to apply the styles on.
@@ -280,7 +272,6 @@ As we do not want to change the style of our documentation (since we love it so 
 
 We have set up variables for you to change, so you can change the look and feel easily. When [theme](theme.md) is set, those variables automatically get modified.
 
-{% code %}
 ```css
 :root {
   --brand: #5368e7; /* Your brand color - auto assigned from project */
@@ -317,24 +308,20 @@ We have set up variables for you to change, so you can change the look and feel 
   --required-text: '*'; /* Text that shows to denote that a field is required in request/response bodies */
 }
 ```
-{% /code %}
 
 To modify the variables used when dark theme is enabled, use the selector `.dark-mode`, for example:
 
-{% code %}
 ```css
 .dark-mode {
   --brand: #123456;
   --link: blue;
 }
 ```
-{% /code %}
 
 ### Font Weights
 
 If your assigned font does not have all the weights we use on %product% then you can reassign some weights to another:
 
-{% code %}
 ```css
 :root {
   --fw-100: 100;
@@ -348,7 +335,6 @@ If your assigned font does not have all the weights we use on %product% then you
   --fw-900: 900;
 }
 ```
-{% /code %}
 
 For example, if weight 500 does not exist, then you may set `--fw-500: 600`, so font weight 600 is used whenever 500 is expected.
 

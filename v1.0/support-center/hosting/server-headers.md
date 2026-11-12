@@ -35,13 +35,11 @@ These are some security headers that you may want to apply.
 Make sure you fully understand what each header is. Using headers incorrectly could cause your entire custom domain to be **irreversibly broken**. %product% is not liable for any damages due to misconfiguration.
 {% /callout %}
 
-{% code %}
 ```yaml {% title="Headers" %}
 Strict-Transport-Security: max-age=31536000
 X-Frame-Options: DENY
 Referrer-Policy: no-referrer
 ```
-{% /code %}
 
 ## Content Security Policy
 
@@ -55,7 +53,6 @@ To enable inline styles and scripts, you must add a nonce configuration for `sty
 
 An example starter content security policy for projects is:
 
-{% code %}
 ```ruby {% title="Content Security Policy" %}
 default-src 'self';
 script-src 'self' 'nonce-%NONCE%' https://*.developerhub.io;
@@ -68,7 +65,6 @@ frame-src 'self';
 base-uri 'self';
 object-src 'none';
 ```
-{% /code %}
 
 Modify as needed for your security and project needs.
 

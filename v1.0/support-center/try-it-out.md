@@ -23,7 +23,6 @@ Before enabling the API Playground, there are two external configurations that y
 
 1. Set up the [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) headers for your docs domain. All requests are made from the browser directly, so you must set up the CORS headers to allow the docs domain to make requests to your API. The CORS headers should allow the docs site origin to make any HTTP request, with all headers that you might expect to send, and to expose all headers returned. The CORS headers response should look as such:
 
-{% code %}
 ```yaml {% title="Headers" %}
 Access-Control-Allow-Origin: your.docs.com # change to your docs site origin
 Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS, PATCH
@@ -31,7 +30,6 @@ Access-Control-Allow-Headers: Authorization, Content-Type, Accept
 Access-Control-Expose-Headers: *
 Access-Control-Max-Age: 86400
 ```
-{% /code %}
 
 2. (Optional) Set up your OAuth2 client to redirect to our redirect URL. If your API uses OAuth2 and you wish for the reader to be able to generate a token from the API playground directly, then you must add our redirect URL to your OAuth2 client. See [OAuth 2.0 Authentication](try-it-out.md#oauth-20-authentication).
 
@@ -87,7 +85,6 @@ Returns: Nothing.
 
 Arguments: Function - `function(data, next)`. Where `data` has the following definition:
 
-{% code %}
 ```typescript {% title="Data" %}
 {
   api: { // Read-Only
@@ -101,7 +98,6 @@ Arguments: Function - `function(data, next)`. Where `data` has the following def
   params: {[key: string]: string}  // Form data or query string key-value
 }
 ```
-{% /code %}
 
 And `next` is a function that must be called once per custom interceptor, providing the modified data as an argument, to pass to the next custom interceptor.
 
@@ -109,29 +105,24 @@ And `next` is a function that must be called once per custom interceptor, provid
 
 1. Has no effect. Only logs the data:
 
-{% code %}
 ```javascript
 window.registerCustomInterceptor(function (data, next) {
   console.log('Custom Interceptor', data);
   next(data);
 });
 ```
-{% /code %}
 
 2. Adds a new header:
 
-{% code %}
 ```javascript
 window.registerCustomInterceptor(function (data, next) {
   data.headers['x-header'] = 'y-value';
   next(data);
 });
 ```
-{% /code %}
 
 3. Modifies form data:
 
-{% code %}
 ```javascript
 window.registerCustomInterceptor(function (data, next) {
   if (data.params['x-param']) {
@@ -140,11 +131,9 @@ window.registerCustomInterceptor(function (data, next) {
   next(data);
 });
 ```
-{% /code %}
 
 4. Modifies JSON body only on a certain API reference:
 
-{% code %}
 ```javascript
 window.registerCustomInterceptor(function (data, next) {
   if (data.api.slug !== 'test-api') {
@@ -157,7 +146,6 @@ window.registerCustomInterceptor(function (data, next) {
   next(data);
 });
 ```
-{% /code %}
 
 ## Troubleshooting
 

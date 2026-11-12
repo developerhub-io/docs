@@ -27,15 +27,12 @@ To set up the SDK, do the following:
 2. Run gradle.
 3. Add an import as such to the code:
 
-{% code %}
 ```java
 import AwesomeSDK;
 ```
-{% /code %}
 
 ## Example Android Code
 
-{% code %}
 ```java
 package com.example.helloworld;
 
@@ -50,7 +47,6 @@ public class MainActivity extends AppCompatActivity {
    }
 }
 ```
-{% /code %}
 {% /tab %}
 
 {% tab title="iOS" %}
@@ -60,11 +56,9 @@ To set up the SDK, do the following:
 2. Run cocopods.
 3. Add an import as such to the code:
 
-{% code %}
 ```swift
 import AwesomeSDK
 ```
-{% /code %}
 {% /tab %}
 {% /tabs %}
 

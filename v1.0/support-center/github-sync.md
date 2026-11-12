@@ -83,7 +83,6 @@ The core idea is that **the path is the structure, and the filename is the slug*
 
 From the base path, the repository is laid out like this:
 
-{% code %}
 ```none
 .
 ├── developerhub.yaml              # project settings: title, variables, theme, and navigation
@@ -112,7 +111,6 @@ From the base path, the repository is laid out like this:
         └── writing-documentation/ # a parent page's children live in a folder named after it
             └── formatting-text.md
 ```
-{% /code %}
 
 - **developerhub.yaml** (repository root): the project `title` and `variables`, plus the `settings` and `navigation` blocks that hold your [reader customisation](github-sync.md#reader-customisation). Everything else at the root (your `README`, `LICENSE`, `.gitignore`, and so on) is left untouched.
 - **\_theme/**: the files behind your reader customisation, namely your stylesheet, custom HTML, logo, and favicon (see [Reader Customisation](github-sync.md#reader-customisation)).
@@ -136,7 +134,6 @@ For the complete rules (how to add, move, nest, group, reorder, or hide pages, v
 
 Each changelog is a folder under `changelogs/`, named after its path (the segment readers see in its URL). Each post is a single file, and its filename without `.md` is the post's slug. A post's frontmatter carries three fields, followed by the body in [Markdoc](github-sync/markdoc-format.md):
 
-{% code %}
 ```markup {% title="changelogs/product-updates/4-august-2026.md" %}
 ---
 title: 4 August 2026
@@ -146,7 +143,6 @@ published: true
 
 - {% badge type="success" text="New" /%} **Changelogs**: release notes now sync to your repository.
 ```
-{% /code %}
 
 - **title**: the post title.
 - **date**: the date readers see and the one posts are sorted by. A plain date is enough; add a time (`2026-08-04 14:30:00`) to order several posts within the same day.
@@ -166,7 +162,6 @@ Two things differ from pages. Links in a post body use full site paths such as `
 
 The frontmatter carries the title, followed by the block's contents in [Markdoc](github-sync/markdoc-format.md):
 
-{% code %}
 ```markup {% title="_synced-blocks/beta-feature.md" %}
 ---
 title: Beta feature notice
@@ -176,13 +171,11 @@ title: Beta feature notice
 This feature is in beta, so it may change.
 {% /callout %}
 ```
-{% /code %}
 
 A block ID must start with a lowercase letter and use only lowercase letters, numbers, and hyphens. Because the ID is the filename, and a block's ID cannot change once it exists, renaming the file is read as deleting one block and creating another rather than as a rename.
 
 A block with [variables](synced-blocks.md#variables-in-synced-blocks) lists them in its frontmatter under `variables`, each name with its default value. In the contents, write `{% $name %}` in text and `%name%` in a code block:
 
-{% code %}
 ````markup {% title="_synced-blocks/install-steps.md" %}
 ---
 title: 'Install steps'
@@ -197,17 +190,14 @@ Install {% $tool %} version {% $version %}:
 npm install acme-cli@%version%
 ```
 ````
-{% /code %}
 
 Write each value in quotes, like `'2.10'`, so YAML reads it as text rather than as a number. A value is one line of text, so a line break in it becomes a space.
 
 A page sets its own values on the `synced` tag, each in quotes. Any variable it leaves out, or sets to an empty value, shows the block's default:
 
-{% code %}
 ```markdown {% title="A page" %}
 {% synced id="install-steps" variables={"tool":"Acme Cloud"} /%}
 ```
-{% /code %}
 
 A variable's name cannot change in the editor, so changing a name under `variables` is read as removing one variable and adding another. Pages' values for the old name then stop showing.
 
@@ -232,7 +222,6 @@ A file that is absent means "use the default", so a project on the default logo 
 
 The settings that are values rather than files live in `developerhub.yaml`, under two blocks:
 
-{% code %}
 ```yaml {% title="developerhub.yaml" %}
 title: Acme Docs
 variables:
@@ -253,7 +242,6 @@ navigation:
       icon: rocket
       sections: [guide, tutorials]
 ```
-{% /code %}
 
 - **settings**: theme choices such as dark mode, the theme toggle, your colours, and the font.
 - **navigation**: the [top navigation](customising-visuals/top-navigation-bar.md) links (up to four), whether they open in a new tab, and your [navigation groups](customising-visuals/top-navigation-bar.md#navigation-structure). A group lists the documentation sections and API references it holds by slug, and a changelog by its path. Its `icon` is optional, and leaving the key out clears an icon set in the editor.
@@ -274,20 +262,16 @@ If you edit the repository with an AI coding agent (in your IDE or a docs-as-cod
 
 In Claude Code, install them as a plugin, which is the one channel that updates itself:
 
-{% code %}
 ```
 /plugin marketplace add developerhub-io/dh-skills
 /plugin install dh-skills@developerhub
 ```
-{% /code %}
 
 For Cursor, Codex, and other agents, use the `skills` CLI:
 
-{% code %}
 ```bash
 npx skills add developerhub-io/dh-skills
 ```
-{% /code %}
 
 The package ships `write-markdoc` for the [Markdoc](github-sync/markdoc-format.md) syntax inside a page, and `organize-docs-repo` for the repository layout (navigation, settings, images, references, changelogs, and your site's look). Together they keep an agent's edits lossless, so they sync back without churn or lost content. A third skill, `migrate-docs`, [moves your docs from another tool](importing-documentation/import-from-any-tool.md) into a folder you can import this way.
 

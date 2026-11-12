@@ -154,11 +154,9 @@ Minimal and normal modes are the same when window width is small as index and ta
 
 Embed mode is enabled by adding a `?mode=embed` or `?mode=embed_full` to any %product% URL (except landing pages). For example, if you want to show your users a page under `https://dev.company.io/ios/getting-started` then you may load an `iframe` with `src="https://dev.company.io/ios/getting-started?mode=embed"`
 
-{% code %}
 ```markup {% title="HTML" %}
 <iframe style="position:fixed;width: 500px;height: 450px;background: white;right: 100px;bottom: 0px;z-index: 10;border: 1px solid #bbb;border-radius: 5px;" src="https://docs.developerhub.io/support-center/uploading-references?mode=embed"></iframe>
 ```
-{% /code %}
 
 Here is a preview:
 

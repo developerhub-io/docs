@@ -88,7 +88,6 @@ When a reader accesses your documentation, their audience is determined by match
 
 Variables are passed through the `vars` object in the JWT payload when using [custom login](private-docs/custom-login.md). For example:
 
-{% code %}
 ```javascript
 const payload = {
   version: 1,
@@ -99,7 +98,6 @@ const payload = {
   }
 };
 ```
-{% /code %}
 
 These variables are then matched against the conditions defined in each audience to determine which content the reader can access.
 
@@ -107,7 +105,6 @@ These variables are then matched against the conditions defined in each audience
 
 Instead of matching conditions, a token can list the reader's audiences by their IDs in an `_audience` variable:
 
-{% code %}
 ```javascript
 const payload = {
   version: 1,
@@ -117,7 +114,6 @@ const payload = {
   }
 };
 ```
-{% /code %}
 
 A comma-separated string such as `"enterprise,beta"` works too. When `_audience` is present, the reader belongs to exactly the audiences it names and no conditions are checked, so an empty list puts them in no audience at all.
 

@@ -35,15 +35,12 @@ To change the code theme, you will need to import the theme stylesheet and also 
 - First, find a CDN providing the stylesheet of the theme for maximum performance. [cdnjs](https://cdnjs.com/libraries/codemirror) is an example.
 - Import the theme stylesheet by add such a style tag using [Custom HEAD Tags](../custom-javascript.md):
 
-{% code %}
 ```css
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.60.0/theme/ambiance.min.css">
 ```
-{% /code %}
 
 - Apply the theme settings also by adding a script to your HEAD tags:
 
-{% code %}
 ```html
 <script>
     window.settings.apply({
@@ -54,7 +51,6 @@ To change the code theme, you will need to import the theme stylesheet and also 
     });  
 </script>
 ```
-{% /code %}
 
 {% callout title="Note" %}
 Changes will only show in live mode

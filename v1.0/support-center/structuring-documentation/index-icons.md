@@ -55,7 +55,6 @@ If you remove the last icon in a documentation, the slot disappears and the inde
 
 In a [GitHub-synced](../github-sync.md) project, icons live in the documentation's `_nav.yaml`, not in page frontmatter. The `icon` key sits beside the entry's own key:
 
-{% code %}
 ```yaml {% title="_nav.yaml" %}
 items:
   - introduction
@@ -75,7 +74,6 @@ items:
     icon: heartbeat
   - separator
 ```
-{% /code %}
 
 Write the value in one of these forms:
 

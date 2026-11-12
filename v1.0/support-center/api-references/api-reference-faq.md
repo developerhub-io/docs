@@ -44,7 +44,6 @@ content:
 
 Operations (for example `GET /version` , `POST /reference`) are ordered according to how they are ordered in the OpenAPI definition itself. We use `tags` to group the operations, but we do not modify the order. For example:
 
-{% code %}
 ```yaml
 # If the operations and tags are specified as such in the API definition:
 
@@ -80,7 +79,6 @@ tags:
 #   POST /cat
 #   GET  /cat
 ```
-{% /code %}
 
 Feel free to reorder the operations in your OpenAPI definition as needed to create the right journey for your readers.
 

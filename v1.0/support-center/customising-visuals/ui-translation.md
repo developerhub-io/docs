@@ -22,7 +22,6 @@ All text on the UI that we provide that shows to your reader can be translated. 
 
 The text that is available to be translated is detailed as such:
 
-{% code %}
 ```javascript
 {
   navbar: {
@@ -86,7 +85,6 @@ The text that is available to be translated is detailed as such:
   }
 }
 ```
-{% /code %}
 
 ## Translate UI Text
 
@@ -111,7 +109,6 @@ At the moment, we have support for English, French, Deutsch, Spanish and Portugu
 
 By using [custom javascript](../custom-javascript.md), you can modify any or all of the default translations. For example, you can add a script to your HEAD tags to override table of contents and search results as such:
 
-{% code %}
 ```html {% title="Javascript" %}
 <script>
   window.translations.apply({
@@ -125,7 +122,6 @@ By using [custom javascript](../custom-javascript.md), you can modify any or all
   });
 </script>
 ```
-{% /code %}
 
 {% callout title="Info" %}
 Some translations contain variables such as `search.results` which will be replaced by the number of search results. The question mark indicates where the number will be replaced and must be kept in the translation.
@@ -137,7 +133,6 @@ Other translations such as `consent.text` have plus signs where a URL should be 
 
 To change the UI text according to which version or which documentation is selected, then you can do that with [custom javascript](../custom-javascript.md). Example code that you can use:
 
-{% code %}
 ```html {% title="Javascript" %}
 <script>
 	document.addEventListener('onsectionchange', function (event) {
@@ -151,4 +146,3 @@ To change the UI text according to which version or which documentation is selec
     });
 </script>
 ```
-{% /code %}

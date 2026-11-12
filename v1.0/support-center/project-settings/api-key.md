@@ -42,11 +42,9 @@ To upload the reference through the API, check [Add or Update an API Reference](
 
 An example request would be:
 
-{% code %}
 ```bash
 curl --request POST \
     --url https://api.developerhub.io/api/v1/version/50/reference \
     --header "X-Api-Key: 689bbce8acc68b7a4346acca6a028e6f8126eb792b19a334f8e3f2a12ca8f561"
     --form "file=@/Users/DH/swagger.yaml"
 ```
-{% /code %}

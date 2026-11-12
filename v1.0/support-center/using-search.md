@@ -82,13 +82,11 @@ It is vital for the search to be able to pinpoint what the reader needs. Hence, 
 
 If you wish to provide documentation search capabilities outside of DeveloperHub, you can use our [Search](/v1.0/api/ref#search) to make queries and direct your users to the relevant documentation. An example search request would look like:
 
-{% code %}
 ```bash
 curl --request GET \
  --header "X-Api-Key: 689bbce8acc68b7a4346acca6a028e6f8126eb792b19a334f8e3f2a12ca8f561"
  --url https://api.developerhub.io/api/v1/search?query=best%20practices&version_slug=v1.0
 ```
-{% /code %}
 
 ## Multi-Project Search
 

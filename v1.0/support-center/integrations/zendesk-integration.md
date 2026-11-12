@@ -110,11 +110,9 @@ The Zendesk Web Widget puts Zendesk support on your published documentation. To 
 
 Follow the steps as provided in [Quickstart - Web Widget (Classic) APIs](https://developer.zendesk.com/documentation/classic-web-widget-sdks/web-widget/quickstart-tutorials/web-widget-javascript-apis/). Add the following [Custom HEAD Tag](../custom-javascript.md) replacing `YOUR_SNIPPET_KEY` with your own key:
 
-{% code %}
 ```markup {% title="Custom HEAD Tag" %}
 <!-- Start of Zendesk Widget script -->
 <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=YOUR_SNIPPET_KEY">
 </script>
 <!-- End of Zendesk Widget script -->
 ```
-{% /code %}

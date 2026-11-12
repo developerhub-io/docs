@@ -56,11 +56,9 @@ Third-party marketplaces do not update themselves until you allow it, so turn th
 
 Use the [skills CLI](https://www.npmjs.com/package/skills), which adds the skills to your agent's skills directory:
 
-{% code %}
 ```bash
 npx skills add developerhub-io/dh-skills
 ```
-{% /code %}
 
 This copies the files in, so run `npx skills update` when you want a newer release.
 
@@ -68,11 +66,9 @@ Alternatively, copy the folders under `skills/` from the repository into your ag
 
 The package is also on npm, for anyone who prefers to vendor the files as a dependency:
 
-{% code %}
 ```bash
 npm install @developerhub/dh-skills
 ```
-{% /code %}
 
 ## Using it
 

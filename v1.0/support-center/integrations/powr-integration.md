@@ -11,7 +11,6 @@ tags:
 
 Custom HEAD tag:
 
-{% code %}
 ```html
 <script src="https://www.powr.io/powr.js?platform=<<platform>>"></script>
 <script>
@@ -29,4 +28,3 @@ Custom HEAD tag:
   });
 </script>
 ```
-{% /code %}

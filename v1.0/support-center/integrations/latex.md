@@ -46,7 +46,6 @@ Project homepage: [https://latex.js.org/](https://latex.js.org/)
 
 Code:
 
-{% code %}
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -67,7 +66,6 @@ Code:
 </body>
 </html>
 ```
-{% /code %}
 
 ## KaTex
 
@@ -98,7 +96,6 @@ Project homepage: [https://katex.org/](https://katex.org/)
 
 Code:
 
-{% code %}
 ```html
 <!DOCTYPE html>
 <html>
@@ -116,4 +113,3 @@ Code:
   </body>
 </html>
 ```
-{% /code %}

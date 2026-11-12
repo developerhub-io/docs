@@ -61,16 +61,12 @@ If you wish to have complete site redirect, please [contact us](../contact-us.md
 
 1. To redirect from `/android-sdk/intro`  to `/android-sdk/getting-started`
 
-{% code %}
 ```none {% title="Redirects" %}
 ^/android-sdk/intro$ >> /android-sdk/getting-started
 ```
-{% /code %}
 
 2. To redirect from `/android-sdk/<any>` to `/ios-sdk/<any>`.
 
-{% code %}
 ```bash {% title="Redirects" %}
 ^/android-sdk/(.*) >> /ios-sdk/$1
 ```
-{% /code %}

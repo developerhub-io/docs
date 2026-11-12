@@ -84,7 +84,6 @@ Each file contains a header depending on the index element being described.
 
 - Page:
 
-{% code %}
 ```yaml
 ---
 type: page
@@ -98,22 +97,18 @@ keywords: keyword1,keyword2
 tags: tag1,tag2
 ---
 ```
-{% /code %}
 
 - Category:
 
-{% code %}
 ```yaml
 ---
 type: category
 title: Start Here
 ---
 ```
-{% /code %}
 
 - Link:
 
-{% code %}
 ```yaml
 ---
 type: link
@@ -121,17 +116,14 @@ title: Go to DeveloperHub.io
 url: https://developerhub.io
 ---
 ```
-{% /code %}
 
 - Separator:
 
-{% code %}
 ```none
 ---
 type: separator
 ---
 ```
-{% /code %}
 
 ### Content
 
@@ -139,7 +131,6 @@ Category, link and separator elements do not have content. Pages do have content
 
 Draft and published page contents can be defined in an export and it is annotated by a `---draft` or `---published` header, such as:
 
-{% code %}
 ```yaml
 ---draft
 
@@ -149,7 +140,6 @@ Draft content is here
 
 Published content is here
 ```
-{% /code %}
 
 ### Blocks
 
@@ -176,13 +166,11 @@ By importing images on %product%, you are responsible to ensure that you have ri
 
 To import images from the internet, they should be referenced as such:
 
-{% code %}
 ```markdown
 HTTP Image:
 
 ![Image Caption](https://example.com/image.png)
 ```
-{% /code %}
 
 It will then be downloaded from its source, and uploaded to our content delivery network. The image must be accessible online publicly, otherwise the import will fail.
 
@@ -192,12 +180,10 @@ To import images locally from the provided ZIP file, they must exist in a folder
 
 They should be referenced as such:
 
-{% code %}
 ```markdown
 Local Image:
 
 ![Image Caption](/assets/image.png)
 ```
-{% /code %}
 
 Inside `assets` folder, any folder structure is allowed.

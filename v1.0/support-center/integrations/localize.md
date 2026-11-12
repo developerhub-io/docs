@@ -13,7 +13,6 @@ Localize easily translates websites and applications to new languages and stream
 
 To use Localize with %product%, you need to set up a script using [Custom HEAD Tags](../custom-javascript.md) as follows:
 
-{% code %}
 ```html
 <script>
   (function(d, script) {
@@ -35,7 +34,6 @@ To use Localize with %product%, you need to set up a script using [Custom HEAD T
   }(document));
 </script>
 ```
-{% /code %}
 
 The two options `rememberLanguage` and `saveNewPhrasesFromSource` are recommended by Localize.
 

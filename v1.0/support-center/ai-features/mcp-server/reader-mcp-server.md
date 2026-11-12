@@ -53,7 +53,6 @@ You can test out our own MCP server before enabling it on your docs. For a quick
 - Click **New MCP Server**.
 - In the file that was opened, enter the following:
 
-{% code %}
 ```json
 {
   "mcpServers": {
@@ -63,7 +62,6 @@ You can test out our own MCP server before enabling it on your docs. For a quick
   }
 }
 ```
-{% /code %}
 
 - Save the file.
 - Toggle the AI pane {% key key="⌘" /%} + {% key key="I" /%}.

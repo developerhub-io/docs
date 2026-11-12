@@ -17,23 +17,19 @@ You can customise your docs using [Custom CSS](customising-visuals/custom-css.md
 CSS is no longer needed. Turn on **Hide version picker** under Project Settings \> Customisation. See [Hiding the Version Picker](project-settings/managing-versions.md#hiding-the-version-picker).
 {% /callout %}
 
-{% code %}
 ```css
 .customise.live .version-picker {
     display: none;
 }
 ```
-{% /code %}
 
 ## Hide section/documentation selector/picker
 
-{% code %}
 ```css
 .customise.live .section-picker-container {
     display: none;
 }
 ```
-{% /code %}
 
 ## Make top navigation sticky
 
@@ -41,7 +37,6 @@ CSS is no longer needed. Turn on **Hide version picker** under Project Settings 
 Only apply this customisation for the original UI. For Next and Matcha UI, there's a setting under Project Settings \> Customisation to enable it.
 {% /callout %}
 
-{% code %}
 ```css
 @media (min-width: 1024px) {
   .customise.live .topnav-container {
@@ -60,11 +55,9 @@ Only apply this customisation for the original UI. For Next and Matcha UI, there
   }
 }
 ```
-{% /code %}
 
 When navigation is sticky, the scrolling behaviour must be modified in order for headings not to hide under the navigation when it is scrolled to. Add the following to Custom HEAD tags to modify scrolling offsets:
 
-{% code %}
 ```html
 <script>
   window.settings.apply({
@@ -74,13 +67,11 @@ When navigation is sticky, the scrolling behaviour must be modified in order for
   });
 </script>
 ```
-{% /code %}
 
 ## Decrease top navigation links font-size
 
 Use if the titles are too long and they're breaking into two lines.
 
-{% code %}
 ```css
 .customise.live .topnav-container .links {
   font-size: 13px; /* Original is 14px */
@@ -90,7 +81,6 @@ Use if the titles are too long and they're breaking into two lines.
   font-size: inherit;
 }
 ```
-{% /code %}
 
 ## Move index and table of contents to edges of screen
 
@@ -98,7 +88,6 @@ Use if the titles are too long and they're breaking into two lines.
 This is enabled by default now.
 {% /callout %}
 
-{% code %}
 ```css
 .customise.live .container.doc-container {
   max-width: 100%;
@@ -113,13 +102,11 @@ This is enabled by default now.
   padding-left: 0;
 }
 ```
-{% /code %}
 
 ## Append contact us to search box on no results
 
 Place in Custom HEAD tags.
 
-{% code %}
 ```html
 <style>
   .search-contact-us {
@@ -146,13 +133,11 @@ Place in Custom HEAD tags.
   });
 </script>
 ```
-{% /code %}
 
 ## Hide version warning banner for a specific version
 
 Place in Custom HEAD tags.
 
-{% code %}
 ```html
 <script>
 document.addEventListener('onsectionchange', e => {
@@ -170,13 +155,11 @@ document.addEventListener('onsectionchange', e => {
 });
 </script>
 ```
-{% /code %}
 
 ## Collapse Section Picker into Dropdown on Next UI
 
 Place in Custom CSS.
 
-{% code %}
 ```css
 .customise.live .section-links-group {
   display: none !important;
@@ -192,13 +175,11 @@ Place in Custom CSS.
   }
 }
 ```
-{% /code %}
 
 ## Blur Top Navigation Bar
 
 Place is Custom CSS. You might need to handle light theme separately.
 
-{% code %}
 ```css
 .customise.live .topnav-container {
     background-color: transparent;
@@ -212,7 +193,6 @@ Place is Custom CSS. You might need to handle light theme separately.
     background: #00000033;
 }
 ```
-{% /code %}
 
 ## Expanding Enum in API Reference
 
@@ -220,7 +200,6 @@ To have enums with their [varnames](api-references/openapi-extensions.md#x-enum-
 
 {% image url="../../assets/api-enum-varnames-expanded.png" /%}
 
-{% code %}
 ```javascript
 <script>
   document.addEventListener('onreferencecontentloaded', function (e) {
@@ -264,7 +243,6 @@ To have enums with their [varnames](api-references/openapi-extensions.md#x-enum-
   });
 </script>
 ```
-{% /code %}
 
 You may modify the CSS as needed for the button using the CSS selector `.customise.live .references .expand-enum-vars`.
 
@@ -272,7 +250,6 @@ You may modify the CSS as needed for the button using the CSS selector `.customi
 
 To create a dropdown which you can add to navigation links in the top navigation bar, use this javascript:
 
-{% code %}
 ```html
 <script>
   /**
@@ -355,11 +332,9 @@ To create a dropdown which you can add to navigation links in the top navigation
   }
 </script>
 ```
-{% /code %}
 
 Use the code above as such:
 
-{% code %}
 ```html
 <script>
     const navbar = document.querySelector('.nav-btn-group.links-group');
@@ -392,13 +367,11 @@ Use the code above as such:
     }));
 </script>
 ```
-{% /code %}
 
 ## Add a Fading Edge to References
 
 To add a fading edge to references, use the following javascript:
 
-{% code %}
 ```javascript
 document.addEventListener("onsectionchange", (event) => {
   if (event.detail.type === 'reference') {
@@ -448,13 +421,11 @@ function applyFadingEdge(scrollEl, el) {
   }
 }
 ```
-{% /code %}
 
 ## Redirect to Documentation in Latest Version
 
 If you wish for a documentation to only be view-able in the latest version, add the following Custom HEAD tags:
 
-{% code %}
 ```html
 <script>
 document.addEventListener("onsectionchange", event => {
@@ -467,25 +438,21 @@ document.addEventListener("onsectionchange", event => {
 });
 </script>
 ```
-{% /code %}
 
 ## Indent Index under Category
 
 To add indentation under category, add the following to Custom CSS:
 
-{% code %}
 ```css
 .customise.live .category-container .tree-node-level-2 {
     margin-left: 8px;
 }
 ```
-{% /code %}
 
 ## Move Search Bar to Landing Page Hero
 
 To move the search bar to a hero element with selector `.docs-hero-content` in the landing page, add the following to Custom HEAD tags:
 
-{% code %}
 ```html
 <script>
   let searchEl = null;
@@ -509,6 +476,5 @@ To move the search bar to a hero element with selector `.docs-hero-content` in t
   }
 </script>
 ```
-{% /code %}
 
 If you're using Next or Matcha UI, use `app-search-v2` instead of `app-search`.

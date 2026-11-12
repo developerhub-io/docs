@@ -46,14 +46,12 @@ If you are usually building pages from templates, you might want to use a templa
 
 To do this, use such a link:
 
-{% code %}
 ```none
 https://app.developerhub.io/{project_slug}/{version_slug}/{documentation_slug}/new?create_from_template_id={template_id}
 
 ## Example from this documentation
 https://app.developerhub.io/developerhub.io/v1.0/support-center/new?create_from_template_id=10
 ```
-{% /code %}
 
 Note that all parts of the link before `?` are the exact same as any page link you have open in the editor. If you just load up the desired documentation in the editor, copy the link and add the query, that would be a template link.
 

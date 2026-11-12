@@ -35,7 +35,6 @@ With HTML block, there are two modes available:
 
 - When the HTML is simple, it is rendered in the page directly (body), without an iFrame, example HTML code:
 
-{% code %}
 ```html
 <span>This is simple HTML</span>
 <select style="background: red">
@@ -43,7 +42,6 @@ With HTML block, there are two modes available:
   <option value="0">1</option>
 </select>
 ```
-{% /code %}
 
 For this mode, you can use inline styling. You should not add any `<body>` or `<html>` tags as the content is already rendered inside a `<body>` tag. If you wish to style the elements, then you can use [Custom CSS](customising-visuals/custom-css.md) to create new classes which you can apply to the elements here.
 
@@ -51,7 +49,6 @@ For this mode, you can use inline styling. You should not add any `<body>` or `<
 
 For security, when the HTML includes scripts or styles, it is rendered in an iFrame inside the page. For example, such code would be rendered inside an iFrame:
 
-{% code %}
 ```html
 <style type="text/css">
   .example-css {
@@ -68,7 +65,6 @@ For security, when the HTML includes scripts or styles, it is rendered in an iFr
   }
 </script>
 ```
-{% /code %}
 
 When using an iFrame, no pre-existing CSS would load, including CSS from [Custom CSS](customising-visuals/custom-css.md) or any third party library. Apply your own CSS rules.
 
@@ -80,11 +76,9 @@ Simple HTML that renders directly in the page shares your docs' Content Security
 
 If your HTML block is getting embedded in an iFrame, and the iFrame dynamically adds elements to the body which causes the height to be limited and the scrollbars to show, then you can instruct the iFrame to resize by using:
 
-{% code %}
 ```javascript
 window.postMessage('resize', '*');
 ```
-{% /code %}
 
 Use this function whenever you add elements to body dynamically.
 
@@ -102,13 +96,11 @@ Here are our top examples:
 
 Generate this button by:
 
-{% code %}
 ```markup
 <a href="https://docs.developerhub.io/?goto=wide" target="_blank" style="background-color: #333; color: white; padding: 12px; border-radius: 3px; text-decoration: none !important">
     See Wide Layout
 </a>
 ```
-{% /code %}
 
 ### Postman Collection Button
 
@@ -120,13 +112,11 @@ Generate this button by:
 
 Generate a postman collection button by:
 
-{% code %}
 ```html
 <a href="https://www.postman.com/run-collection/:collection_id">
 	<img src="https://run.pstmn.io/button.svg" alt="Run in Postman">
 </a>
 ```
-{% /code %}
 
 ### Column Layout
 
@@ -145,7 +135,6 @@ Generate a postman collection button by:
 
 Generate this column layout by:
 
-{% code %}
 ```html
 <div class="container-fluid">
   <div class="row">
@@ -158,7 +147,6 @@ Generate this column layout by:
   </div>
 </div>
 ```
-{% /code %}
 
 ### Grid Layout
 
@@ -185,7 +173,6 @@ Generate this column layout by:
 
 Generated this grid layout by:
 
-{% code %}
 ```html
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
             grid-template-rows: auto; gap: 14px;">
@@ -206,7 +193,6 @@ Generated this grid layout by:
     </a>
 </div>
 ```
-{% /code %}
 
 ### GitHub Gist
 
@@ -216,11 +202,9 @@ Generated this grid layout by:
 
 Generated this Gist by:
 
-{% code %}
 ```markup
 <script src="https://gist.github.com/pkuczynski/7821992.js"></script>
 ```
-{% /code %}
 
 ### PDF Reader
 
@@ -232,13 +216,11 @@ Generated this Gist by:
 
 Generate this PDF Reader by:
 
-{% code %}
 ```markup
 <div style="text-align: center">
   <iframe src="https://s3-eu-west-1.amazonaws.com/dh-misc-z/test-pdf.pdf#toolbar=0&view=Fit" width="80%" height="600" style="border: none;"></iframe>
 </div>
 ```
-{% /code %}
 
 ### Flowcharts and Diagrams
 

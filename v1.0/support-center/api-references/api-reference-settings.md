@@ -25,26 +25,22 @@ The **Show API Playground** toggle, in the API Playground card, enables the [API
 
 For operations (OAS3 only) that have request body, turning on **Show Content-Type header** shows a header in the example defining the content-type. For example:
 
-{% code %}
 ```bash
 curl --request POST \
  --url https://api.developerhub.io/api/v1/version/{versionId}/reference \
  --header "Content-Type: application/json" # <--- This line would be added 
  --form "file=@{file}"
 ```
-{% /code %}
 
 ## Show Accept Header
 
 For operations (OAS3 only), turning on **Show Accept header** shows a header in the example defining the accepted response media type. For example:
 
-{% code %}
 ```bash
 curl --request GET \
  --url https://api.developerhub.io/api/v1/page?version_id={version_id}&version_slug={version_slug}&documentation_id={documentation_id}&documentation_slug={documentation_slug}&page_slug={page_slug}&format={format} \
  --header "Accept: application/json"
 ```
-{% /code %}
 
 ## One Endpoint Per Page
 

@@ -55,7 +55,6 @@ If Intercom widget is not showing after installing , check the DevTools console 
 
 To apply your own `intercomSettings` for the widget, including if you wish to change the data region, then you can do so using [Custom HEAD Tags](../custom-javascript.md). Add a script tag that assigns the `intercomSettings` needed, such as:
 
-{% code %}
 ```json
 <script>
   window.intercomSettings = {
@@ -63,4 +62,3 @@ To apply your own `intercomSettings` for the widget, including if you wish to ch
   };
 </script>
 ```
-{% /code %}

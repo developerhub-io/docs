@@ -62,7 +62,6 @@ For advanced settings that we do not provide through the UI, they can modified t
 
 The available settings are (with their defaults):
 
-{% code %}
 ```javascript
 {
   warnings: {
@@ -107,13 +106,11 @@ The available settings are (with their defaults):
   }
 }
 ```
-{% /code %}
 
 ## Applying Settings
 
 To change a setting, use the `apply`  function on `window.settings`:
 
-{% code %}
 ```javascript
 <script>
   window.settings.apply({
@@ -126,4 +123,3 @@ To change a setting, use the `apply`  function on `window.settings`:
   });
 </script>
 ```
-{% /code %}

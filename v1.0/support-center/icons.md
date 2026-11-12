@@ -37,7 +37,6 @@ To style icons, you can provide CSS in [Custom CSS](customising-visuals/custom-c
 - Icon with primary background (already available) {% icon classes="fas fa-check-circle primary-background" /%} by applying `primary-background` class.
 - Icon with a different background colour using the following CSS:
 
-{% code %}
 ```css {% title="CSS" %}
 .custom-icon.blue-bg {
   background: blue;
@@ -45,4 +44,3 @@ To style icons, you can provide CSS in [Custom CSS](customising-visuals/custom-c
   padding: 2px;
 }
 ```
-{% /code %}

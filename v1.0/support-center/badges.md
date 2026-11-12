@@ -23,7 +23,6 @@ To add a badge, start typing "/" and choose **Badge** from the inline block list
 
 Custom badge could be modified through [Custom CSS](customising-visuals/custom-css.md) to be any colour you want, or even depending on the content it has:
 
-{% code %}
 ```css {% title="Custom CSS" %}
 .customise .cbadge.custom[data-text="Pink Badge"] {
   color: white !important;
@@ -35,6 +34,5 @@ Custom badge could be modified through [Custom CSS](customising-visuals/custom-c
   background: #6d53ff !important;
 }
 ```
-{% /code %}
 
 Would yield {% badge text="Pink Badge" type="custom" /%} and {% badge text="Purple Badge" type="custom" /%}.

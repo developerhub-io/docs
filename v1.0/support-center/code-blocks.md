@@ -117,20 +117,16 @@ end
 
 Code blocks can have no formatting if language "None" is selected. Also, if only language "None" was provided for the code block, then the language selector will disappear unless if the tab has a title. For example:
 
-{% code %}
 ```none
 This is a code block with no formatting
 - Correct?
 ```
-{% /code %}
 
 And another one with title:
 
-{% code %}
 ```none {% title="No Formatting" %}
 A titled code block without formatting keeps its title
 ```
-{% /code %}
 
 ## Titled Tabs
 
@@ -166,7 +162,6 @@ You can also provide titles for each tab, which is a great way to identify and g
 
 When a code block has more than 100 lines, it is shown with its foldable regions collapsed, so a long snippet does not dominate the page. Folding is language-aware: each function or indented block folds at its own boundary, and languages without their own grammar fall back to indentation-based folding. Example:
 
-{% code %}
 ```yaml
 paths:
   /page/{id}:
@@ -298,7 +293,6 @@ paths:
                 $ref: '#/components/schemas/TooManyRequests'
       deprecated: false
 ```
-{% /code %}
 
 To fold or unfold a region yourself, click the fold arrows in the gutter to the left of the code.
 

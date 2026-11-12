@@ -63,7 +63,6 @@ If you already have a website, for example `pied-piper.com` and you would like t
 - On your server:
   - Set up a reverse proxy to `you.developerhub.io`, such as with nginx. Here is an example configuration:
 
-{% code %}
 ```bash {% title="docs.conf" %}
 server {
   server_name <custom-domain>; # e.g. server_name support.pied-piper.com
@@ -80,7 +79,6 @@ server {
   }
 }
 ```
-{% /code %}
 
 Make sure that you do not add trailing forward slashes for `location` URI and `proxy_pass` URI as indicated in the example. Adding them may break SEO or domain settings.
 

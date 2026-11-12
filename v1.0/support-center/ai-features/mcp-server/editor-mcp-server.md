@@ -33,15 +33,12 @@ The server is at `https://ai.developerhub.io/mcp` and uses the Streamable HTTP t
 
 For Claude Code:
 
-{% code %}
 ```bash
 claude mcp add --transport http developerhub https://ai.developerhub.io/mcp
 ```
-{% /code %}
 
 For Cursor, Codex, and other clients that take a configuration file:
 
-{% code %}
 ```json
 {
   "mcpServers": {
@@ -51,7 +48,6 @@ For Cursor, Codex, and other clients that take a configuration file:
   }
 }
 ```
-{% /code %}
 
 The same install steps are in your own [Account Settings](../../account-settings.md) → **Integrations** → **AI clients**.
 

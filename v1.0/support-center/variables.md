@@ -17,7 +17,6 @@ For example, you might want all of API reference to use the latest version in th
 
 One of the example requests might look as such:
 
-{% code %}
 ```javascript
 var options = {
  "method": "GET",
@@ -34,7 +33,6 @@ request(options, function (error, response, body) {
   console.log(body);
 });
 ```
-{% /code %}
 
 With variables, you'll be able to centrally change version value, saving you time and effort.
 
@@ -63,7 +61,6 @@ To edit project variables, do the following:
 - Open Project Settings → **Content** → **Project Variables**.
 - Enter a JSON object defining all your variables. For example:
 
-{% code %}
 ```javascript
 {
   "project_name": "Xyz",
@@ -72,24 +69,20 @@ To edit project variables, do the following:
   }
 }
 ```
-{% /code %}
 
 ## Using Project Variables in References
 
 To use project variables in an API Reference, replace all occurrences of the variable with the variable reference. For example, one definition property could be:
 
-{% code %}
 ```yaml
 version:
     type: string
     description: Version of the API
     example: "%versions.last_version%"
 ```
-{% /code %}
 
 Or to replace a variable named `subdomain` in the Server URL:
 
-{% code %}
 ```yaml
 servers:
   - url: https://{subdomain}.developerhub.io/api/v1
@@ -97,7 +90,6 @@ servers:
       subdomain:
         default: "%subdomain%"
 ```
-{% /code %}
 
 {% callout type="warning" title="Warning" %}
 Note that YAML requires you to use double quotations to escape a string containing percent sign.

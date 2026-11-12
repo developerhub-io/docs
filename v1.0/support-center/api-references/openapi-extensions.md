@@ -17,7 +17,6 @@ The following extensions are available on %product%.
 
 Tag groups can be defined as such in OpenAPI:
 
-{% code %}
 ```yaml
 openapi: '3.0'
 info: ...
@@ -36,7 +35,6 @@ x-tagGroups:
       - Dolphin
       - Octopus
 ```
-{% /code %}
 
 ## x-enum-varnames
 
@@ -44,7 +42,6 @@ x-tagGroups:
 
 Enum var names can be defined as such in OpenAPI:
 
-{% code %}
 ```yaml
 Animal:
   type: integer
@@ -55,7 +52,6 @@ Animal:
     - Dog
     - Cat
 ```
-{% /code %}
 
 ## Variables
 
@@ -77,7 +73,6 @@ Example showing "New" badge on format
 
 Labels can be defined as such in OpenAPI:
 
-{% code %}
 ```yaml {% highlightLines="13-15" %}
 /page:
     get:
@@ -104,6 +99,5 @@ Labels can be defined as such in OpenAPI:
           in: query
           required: false
 ```
-{% /code %}
 
 When `x-labels` is set, each label is placed in the description, unstyled, using the text provided. Each label is given the CSS classes `label` and the value of `type`. This can be used to add specific labels with specific colours, like badges on a description.
