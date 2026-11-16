@@ -68,4 +68,6 @@ object-src 'none';
 
 Modify as needed for your security and project needs.
 
-You may also add `nonce=%NONCE%` in your [custom footer](../customising-visuals/custom-footer.md) to apply style in the head tags.
+%product% adds the nonce for you wherever you write your own styles and scripts: [Custom CSS](../customising-visuals/custom-css.md), [Custom HEAD Tags](../custom-javascript.md), the [custom footer](../customising-visuals/custom-footer.md), [HTML blocks](../custom-html.md) and [landing pages](../landing-page.md), so leave it off your own tags. A `nonce="%NONCE%"` you wrote yourself only works in the custom footer; anywhere else, the tag keeps it as written and the policy blocks it.
+
+In an [HTML block that renders in an iFrame](../custom-html.md#iframe-in-html-block), style elements with a `<style>` tag rather than `style` attributes, which this policy blocks.
