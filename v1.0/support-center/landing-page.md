@@ -68,6 +68,15 @@ The available blocks are:
 - **Buttons**: one or more call-to-action buttons (primary, outline, or ghost styles).
 - **Row**: a multi-column layout (2, 3, or 4 columns) so you can place other blocks side by side.
 - **Spacer**: vertical breathing room between blocks.
+- **HTML**: your own HTML and CSS, under **Advanced** in the block menu. See [HTML Block](landing-page.md#html-block).
+
+### HTML Block
+
+An HTML block takes your own HTML and CSS, written in the inspector's code editor. Style it with a `<style>` tag or inline styles, and start your CSS rules with a class of your own so they don't restyle the rest of the page. [Variables](variables.md) are filled in.
+
+Scripts, `<link>` tags and event handlers such as `onclick` are removed. Add scripts and stylesheets in [Custom HEAD Tags](custom-javascript.md) instead.
+
+To open Ask AI from your own button or link, give it `data-dh-action="ask-ai"`. It is hidden while [AI Assistant](writing-documentation/ai-search.md#enabling-ai-assistant) is off.
 
 ### Block Styling
 

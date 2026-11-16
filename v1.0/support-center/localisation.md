@@ -70,7 +70,7 @@ The **Status** card in the Translation pane shows how far each language has got,
 - Landing page and custom page text.
 - Synced blocks.
 
-Code and [custom HTML](custom-html.md) stay exactly as you wrote them.
+Code, [custom HTML](custom-html.md) and [landing page HTML blocks](landing-page.md#html-block) stay exactly as you wrote them.
 
 Translations are kept in %product%. They are not written to a [synced GitHub repository](github-sync.md).
 
