@@ -22,11 +22,11 @@ WebMCP is new. For now, only Chrome supports it, and only with its testing flag 
 | Tool | What it does |
 |---|---|
 | `search_docs` | Searches your docs and returns the best matching pages, each with a short excerpt and its URL. |
-| `read_page` | Returns a page as Markdown: the one the reader has open, or any page by its URL. On an API reference, it can read a single endpoint. |
+| `read_page` | Returns a page as Markdown: the one the reader has open, or any page by its URL. With llms.txt on, it can also read a single endpoint of an API reference. |
 | `get_site_overview` | Returns your [llms.txt](llms-txt.md): every page, grouped by section, with its URL. |
 | `navigate_page` | Opens a page of your docs in the reader's tab. |
 
-`read_page` and `get_site_overview` read your docs through [llms.txt](llms-txt.md), so they are only offered while **Enable llms.txt** is on under Project Settings → **AI** → **AI Agents \& MCP** → **Readers**.
+`get_site_overview` reads your [llms.txt](llms-txt.md), so it is only offered while **Enable llms.txt** is on under Project Settings → **AI** → **AI Agents \& MCP** → **Readers**, and never on [private docs](../private-docs.md). `read_page` is offered on every project. With llms.txt off, it still reads your documentation pages, and for an API reference it points the agent to `search_docs` instead.
 
 ## What an Agent Can See
 

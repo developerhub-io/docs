@@ -47,7 +47,7 @@ A documentation section's URL answers with a list of the pages inside it, so an 
 
 `llms.txt` also lists every endpoint of each API reference, with a link that reads just that endpoint rather than the whole definition, so an assistant can go straight to the one it needs.
 
-Turning llms.txt off also takes away the tools [WebMCP](webmcp.md) uses to read your pages.
+Turning llms.txt off also takes `get_site_overview` away from [WebMCP](webmcp.md), and its `read_page` can no longer read a single API reference endpoint, though it still reads your documentation pages. The [Reader MCP Server](mcp-server/reader-mcp-server.md) does not depend on llms.txt and works the same either way.
 
 ## Limitations of llms.txt support
 

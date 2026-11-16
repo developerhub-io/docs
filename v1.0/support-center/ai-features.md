@@ -22,7 +22,7 @@ The features are:
 - [Translation](localisation.md): Publish your docs in other languages, translated by AI each time you publish.
 - [AI Commit Messages](ai-features/ai-commit-messages.md): Automatically annotate page histories.
 - [AI SEO Helper](ai-features/ai-summarisation.md): Summarises pages to write a META description.
-- [MCP Servers](ai-features/mcp-server.md): Connect AI applications with your docs, so readers can search them and editors can write them.
+- [MCP Servers](ai-features/mcp-server.md): Connect AI applications with your docs, so readers can search and read them and editors can write them.
 - [WebMCP](ai-features/webmcp.md): Let AI agents in your readers' browsers search, read and open your pages.
 - [Feedback Spam Filter](feedback.md#feedback-spam-filter): Filters spam in feedback messages automatically.
 - [Redact PII from Feedback](feedback.md#redact-pii-from-feedback): Redacts personal identifiable information from feedback messages automatically.
