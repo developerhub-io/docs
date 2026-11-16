@@ -37,7 +37,13 @@ For Claude Code:
 claude mcp add --transport http developerhub https://ai.developerhub.io/mcp
 ```
 
-For Cursor, Codex, and other clients that take a configuration file:
+For Codex:
+
+```bash
+codex mcp add developerhub --url https://ai.developerhub.io/mcp
+```
+
+For Cursor and other clients that take a configuration file:
 
 ```json
 {
@@ -55,9 +61,24 @@ The same install steps are in your own [Account Settings](../../account-settings
 
 The first time a client connects, it opens a browser page asking you to **Allow access**. The page names the client that is asking, the account you are about to grant access as, and the address approving sends the authorisation to. Only continue if you started the connection yourself from a client you trust.
 
-There is no key to create or share out. Every editor connects with their own %product% account and the agent acts as that person, so it reaches only the projects they can already edit, and only those with the Editor MCP server turned on.
+Every editor connects with their own %product% account and the agent acts as that person, so it reaches only the projects they can already edit, and only those with the Editor MCP server turned on.
 
 Each client you approve stays connected for 30 days, even if you log out of the editor, and then asks you to approve it again. To disconnect one sooner, open [Account Settings](../../account-settings.md) → **Integrations** → **AI clients** and click **Disconnect** beside it under **Connected clients**.
+
+### Using an MCP key
+
+An MCP key is for an AI client that cannot sign in through a browser, such as automation running as a service account. A key acts as your account, so it can only do what your role allows in each project.
+
+To create one:
+
+- Open [Account Settings](../../account-settings.md) → **Integrations** → **AI clients**.
+- Under **MCP keys**, click **Create key**.
+- Name the key, choose when it expires (30 to 365 days), and untick any tools it should not use.
+- Click **Create key**, then copy the key. It is shown only once.
+
+The panel then shows ready-made setups for Claude Code, Codex and other clients. Each sends the key as an `Authorization: Bearer <key>` header and skips the browser sign-in.
+
+A key's tools cannot be changed later: create a new key and revoke the old one. A tool you switched off still shows in the AI client, but is refused. Changing or resetting your password revokes all your keys. To stop a key before it expires, click **Revoke** beside it.
 
 ## What an agent can do
 
@@ -99,7 +120,7 @@ Copies a version, with its documentation and API references, into a new one.
 `list_documentation_sections`
 {% /cell %}
 {% cell %}
-Lists the documentation sections in a version.
+Lists the documentation sections in a version, and whether each is published.
 {% /cell %}
 {% /row %}
 {% row %}
@@ -171,7 +192,47 @@ Changes a page's body, title, slug, or any combination of the three.
 `publish_page`
 {% /cell %}
 {% cell %}
-Publishes a page's draft.
+Publishes a page's draft. A page that was unpublished is shown to readers again.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`unpublish_page`
+{% /cell %}
+{% cell %}
+Unpublishes a page, keeping its content and draft.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`publish_section`
+{% /cell %}
+{% cell %}
+Publishes a documentation section.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`unpublish_section`
+{% /cell %}
+{% cell %}
+Unpublishes a documentation section, hiding its pages from readers.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`publish_version`
+{% /cell %}
+{% cell %}
+Publishes a version.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`unpublish_version`
+{% /cell %}
+{% cell %}
+Unpublishes a version, hiding everything in it from readers.
 {% /cell %}
 {% /row %}
 {% row %}
@@ -262,6 +323,8 @@ Body edits are written to the page's **draft**, so nothing an agent writes is vi
 
 - **Titles and slugs are not drafted.** A rename takes effect straight away, published pages included. Changing a slug changes the page's URL, so have the agent run `list_backlinks` first to see what links to it.
 - **Deleting a page cannot be undone.** An agent has to pass the page's current slug back as confirmation, so it cannot delete a page it has not looked up, but once the deletion goes through the page is gone. `list_backlinks` shows which pages would be left with a broken link.
+
+An agent cannot take your docs site offline. Unpublishing or deleting the last page, section or version readers can see is refused, with a message to do it in the editor instead. To stop an agent publishing, unpublishing or deleting at all, connect it with an [MCP key](#using-an-mcp-key) that has those tools switched off.
 
 ## Writing Markdoc
 

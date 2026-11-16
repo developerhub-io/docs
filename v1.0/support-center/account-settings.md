@@ -17,7 +17,7 @@ Account Settings is organised into panes:
 - **Security (Password)**: change your password.
 - **Security (Passkeys)**: add and remove [passkeys](account-settings.md#using-passkeys).
 - **Preferences**: [email notifications](account-settings.md#email-notifications) and [live markdown rendering](writing-documentation/using-markdown.md#disable-live-markdown-rendering).
-- **Integrations (AI clients)**: connect and manage AI clients (see [Editor MCP Server](ai-features/mcp-server/editor-mcp-server.md#signing-in)).
+- **Integrations (AI clients)**: connect and manage AI clients, and create [MCP keys](ai-features/mcp-server/editor-mcp-server.md#using-an-mcp-key) (see [Editor MCP Server](ai-features/mcp-server/editor-mcp-server.md#signing-in)).
 - **Danger zone**: delete your account.
 
 Your referral code lives under the Security (Password) pane.
