@@ -21,7 +21,7 @@ This server is read-only and covers your published docs. To let your own team wr
 
 The tools available under the MCP server are:
 
-- `search`: Runs a natural-language search over your docs and returns the most relevant excerpts, each with the page it came from.
+- `search`: Searches your docs and returns the most relevant excerpts, each with the page it came from. With [AI Assistant](../../writing-documentation/ai-search.md) on, it takes natural-language questions; otherwise, it searches by keywords.
 - `list_versions`: Lists your published versions with their slugs, and which one is the default.
 - `list_sections`: Lists the documentation sections and API references of a version, with their slugs.
 - `list_pages`: Lists the pages of a documentation section, nested as your sidebar shows them, each with its URL.
@@ -39,14 +39,14 @@ If your readers' agents need something these tools do not cover, [contact us](..
 
 ## What an Agent Can See
 
-An agent sees exactly what an anonymous visitor to your docs can open: your published versions, documentation sections, API references and pages. Unpublished pages, and pages shown only to some [audiences](../../conditional-content.md), are left out. To the agent, they look like pages that do not exist.
+An agent sees exactly what its reader can open: your published versions, documentation sections, API references and pages. On public docs, that is what an anonymous visitor sees. On [private docs](#private-docs), the reader signs in, so the agent also sees the pages for their [audiences](../../conditional-content.md). Anything else looks to the agent like a page that does not exist.
 
 ## Enabling MCP Server
 
-The reader MCP server runs on the same index as [AI Assistant](../../writing-documentation/ai-search.md), so AI Assistant has to be on first. To enable the MCP server:
+The MCP server is available on every plan and does not need AI Assistant. To enable it:
 
 - Open Project Settings → **AI** → **AI Agents \& MCP**, then the **Readers** tab.
-- Under **AI Assistant**, turn on **MCP server**.
+- Under **MCP server**, turn on **MCP server**.
 - Click **Save changes** in the top menu.
 
 It will take up to 5 minutes for the change to occur.
@@ -55,9 +55,14 @@ The MCP server does not depend on [llms.txt](../llms-txt.md). It reads your page
 
 If the [AI Tools button](../ask-llm.md) is on, readers can connect Claude Code, Codex, VS Code, or Cursor to your docs from its **Connect your AI tool** menu item. The button itself needs llms.txt on.
 
-## Limitations
+## Private Docs
 
-MCP server is only available for public projects. [Contact us](../../contact-us.md) if you'd like to add it for a private project.
+The MCP server works on [private docs](../../private-docs.md) too, whichever way your readers log in. Readers connect their AI app to the same `/mcp` route, and the first time, the app asks them to sign in:
+
+1. Their browser opens your docs site, and they log in the way they usually do.
+2. A **Connect your AI app** card names the app that is asking. They click **Allow access**.
+
+The app then reads your docs as that reader. It keeps access while the reader stays signed in to your docs, for 30 days at most, and then asks them to sign in again. Anything that ends the reader's access ends the app's at once.
 
 ## Try out our MCP Server
 

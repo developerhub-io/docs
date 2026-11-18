@@ -50,8 +50,6 @@ AI Assistant needs a plan that includes it. To enable or disable it:
 
 Once AI Assistant is enabled, it might take a couple of minutes until it is useable.
 
-If your project is not on a plan that includes AI Assistant, the switch stays inactive and the card tells you which plans do. Should your project later move to a plan without it, AI Assistant and its [MCP server](../ai-features/mcp-server/reader-mcp-server.md) are switched off and your documentation stops being indexed. Switching AI Assistant off is always allowed, whatever your plan.
-
 ## Search Update Frequency
 
 New or deleted content would be effectively available within 30 minutes for AI Assistant.
