@@ -29,6 +29,12 @@ Turning the setting off again stops AI clients from working in the project.
 
 ## Connecting your AI client
 
+### Claude
+
+%product% is in Claude's [connector directory](https://claude.ai/directory/connectors/developerhub). In Claude, open **Plugins** in the sidebar, search for **%product%**, open it and click **Connect**. Claude then asks you to [sign in](#signing-in) to %product% and approve access.
+
+### Claude Code, Codex, Cursor and other clients
+
 The server is at `https://ai.developerhub.io/mcp` and uses the Streamable HTTP transport. It is also listed in the official MCP Registry as `io.developerhub/editor`.
 
 For Claude Code:
@@ -194,7 +200,7 @@ Changes a page's body, title, slug, or any combination of the three.
 `publish_page`
 {% /cell %}
 {% cell %}
-Publishes a page's draft. A page that was unpublished is shown to readers again.
+Publishes a page's draft, replacing what readers see. The version it replaces comes back only from [page history](../../page-history.md). A page that was unpublished is shown to readers again.
 {% /cell %}
 {% /row %}
 {% row %}
