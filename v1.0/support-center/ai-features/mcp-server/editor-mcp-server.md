@@ -37,6 +37,8 @@ For Claude Code:
 claude mcp add --transport http developerhub https://ai.developerhub.io/mcp
 ```
 
+Or install the %product% [plugin for Claude Code](../../github-sync/write-markdoc-with-ai.md#claude-code), which adds this server along with the %product% Agent Skills.
+
 For Codex:
 
 ```bash

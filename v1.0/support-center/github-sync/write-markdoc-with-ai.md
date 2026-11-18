@@ -50,6 +50,8 @@ The repository doubles as a Claude Code plugin marketplace. This is the only ins
 
 The skills arrive namespaced, as `dh-skills:write-markdoc`, `dh-skills:organize-docs-repo`, and `dh-skills:migrate-docs`.
 
+The plugin also connects Claude Code to the [Editor MCP Server](../ai-features/mcp-server/editor-mcp-server.md), so Claude can find, write and publish pages in your projects directly. The first time Claude uses it, you sign in to %product% and approve access, and it reaches only the projects where an admin has turned the server on.
+
 Third-party marketplaces do not update themselves until you allow it, so turn that on once: run `/plugin`, open the **Marketplaces** tab, select **developerhub**, and choose **Enable auto-update**. Claude Code then refreshes the plugin in the background shortly after a session starts.
 
 ### Cursor, Codex, and other agents
