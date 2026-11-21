@@ -36,7 +36,7 @@ The activity log is scoped as such:
 - Plan
 - Other
 
-Admins are able to see all all logged activity. Users with other roles would only see logged activity that are concerned with content.
+Admins are able to see all logged activity. Users with other roles would only see logged activity that are concerned with content.
 
 On the dashboard, the last 100 logs will show.
 
@@ -46,7 +46,7 @@ If your projects are grouped under an [organisation](organisation-settings.md), 
 
 ### Enterprise Auditing
 
-Enterprise users can query full audit log for any activity in the past 6 months using our [API](/v1.0/api/ref#get-audit-log). The audit log would show details of each change.
+Enterprise users can query full audit log for any activity in the past 6 months using our [API](/v1.0/api/ref#get-audit-log). The audit log would show details of each change, including the AI client or key it came through.
 
 Example of how to query full audit log is as such:
 

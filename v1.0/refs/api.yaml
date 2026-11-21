@@ -2378,6 +2378,27 @@ components:
                 type: boolean
                 description: True if change was authenticated through an API Key
                 example: false
+              via:
+                type: object
+                description: What the change came through. Present only for a change an AI app made through the Editor MCP Server, or one made with an API key
+                required:
+                  - kind
+                  - name
+                properties:
+                  kind:
+                    type: string
+                    description: '`ai_client` for an AI app signed in as the user, `mcp_key` for an MCP key, `api_key` for an API key'
+                    example: mcp_key
+                    enum:
+                      - ai_client
+                      - mcp_key
+                      - api_key
+                  name:
+                    type:
+                      - string
+                      - 'null'
+                    description: Name of the AI app, the MCP key or the API key. Null if it has none
+                    example: CX automation
             description: Audit log object
         count:
           type: integer

@@ -148,11 +148,13 @@ Organisation Settings → **Activity log** gathers the [activity log](activity-l
 
 Only the organisation owner can read it. It spans projects the owner may not administer individually, which is why it is not open to the admins of a single project.
 
-Each entry shows what happened, the person or API key behind it, the project, the time, and the IP address the request came from.
+Each entry shows what happened, the person or API key behind it, the project, the date and time, and the IP address the request came from.
+
+A change an AI client made through the [Editor MCP Server](ai-features/mcp-server/editor-mcp-server.md) is logged as the person who connected it, with what it came through underneath, such as "via Claude Code" or "via MCP key “CX automation”".
 
 To narrow the list:
 
-- **Search** by user, project, action, or IP address.
+- **Search** by user, project, action, or IP address, or by the name of the AI client or MCP key a change came through.
 - **Filter by project** using the project dropdown, or leave it on **All projects**. Projects that have since been deleted are still listed, marked as deleted.
 - **Choose a scope** from the tabs across the top: **All**, **Content**, **Users**, **Security**, **Hosting**, **Plan**, and **Other**. Each tab carries a count of the entries it holds.
 
