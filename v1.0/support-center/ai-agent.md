@@ -200,7 +200,7 @@ The model a run uses is shown at the top of the AI Editor, beside your [AI credi
 ## What AI Agent cannot do
 
 - It cannot create an API reference. That means [uploading a definition](uploading-references.md) yourself.
-- It cannot delete a page that has pages nested under it, the only page left in a documentation section, or the last section in a version.
+- It cannot delete a page that has pages nested under it.
 - It cannot move a page to a different documentation section, or rename and reorder the sections themselves.
 - It can add a category, link, label or separator to the sidebar, but it cannot rename, move or remove one once it is there.
 - It cannot clear a page completely. Emptying a page is not the same as deleting it, so the agent refuses and points you at deleting it properly instead.

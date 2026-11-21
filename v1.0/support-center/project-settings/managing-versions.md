@@ -39,7 +39,7 @@ When you clone a version, every documentation, API reference and page under the 
 
 You can also clone a version through the [API](/v1.0/api/ref), which is useful for cutting a new version from a release pipeline. It copies the same content the editor does and leaves the new version unpublished, so you can review it before it goes live. The API key needs the `version.edit` permission.
 
-Publishing the clone is a separate call needing the `version.publish` permission. Everything inside a cloned version starts unpublished, so publish a documentation or an API reference in it first, otherwise publishing the version is refused.
+Publishing the clone is a separate call needing the `version.publish` permission. Everything inside a cloned version starts unpublished, so publish its documentation and API references too, or readers will find the version empty.
 
 ## Copying Pages to Another Version
 
@@ -73,6 +73,8 @@ Versions by default are not published. To publish (or unpublish):
 When a version gets published, only published documentation and API references in the version would be viewable by readers. Unpublishing a version makes the version and all its contents unviewable by readers, but it does not modify the publish state for its documentation and API references.
 
 Unpublished versions show an `Unpublished` pill on the version menu and in the Manage Versions list.
+
+Unpublishing or deleting your only published version takes your docs site offline until you publish a version again.
 
 ## Deleting Versions
 

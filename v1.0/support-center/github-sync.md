@@ -316,7 +316,7 @@ Deleting a file from the repository does not remove the content behind it for go
 
 Restore the file or directory in the repository within 30 days and the content comes back where it was, with everything it had. After that the removal is final, and what was attached to those pages, including comments and reader [feedback](feedback.md), goes with them.
 
-Your last version, and the only documentation section in a version, are never removed. Deleting one of those folders is reported as a warning and nothing else happens.
+Deleting a documentation section's last page does not delete the section. It stays, with no pages, while its `_settings.yaml` or `_nav.yaml` is in the folder, and a version folder holding only its `_settings.yaml` stays too. Delete the folder itself to delete the section or version.
 
 ## When a Change Is Blocked
 

@@ -55,10 +55,6 @@ The page arrives at the bottom of the destination index, as a top-level item. To
 A page keeps its slug when it moves. If the destination documentation already has a page using that slug, the move is refused and nothing is moved, so rename one of the two first, or copy it instead and keep both. This covers everything travelling along, whether subpages or the pages inside a category.
 {% /callout %}
 
-{% callout title="Info" %}
-A documentation must always keep at least one page, so a move that would empty it is refused.
-{% /callout %}
-
 ## Linking Pages
 
 Pages can link other pages in the documentation, see [Page Linking](../writing-documentation/page-linking.md) to learn more.
