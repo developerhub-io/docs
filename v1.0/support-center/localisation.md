@@ -31,7 +31,9 @@ If you need a language that is not listed, [contact us](contact-us.md).
 
 ## Adding Translation
 
-Open Project Settings → **Billing** → **Plan \& Usage**, and select **Add Docs Translation**.
+You can try Translation before you add it. Open Project Settings → **Content** → **Translation**, choose your languages, write any [instructions](#instructions), and preview up to 5 pages a month for free. When you are ready, the last step adds Docs Translation to your plan and starts translating.
+
+You can also add it from Project Settings → **Billing** → **Plan \& Usage** by selecting **Add Docs Translation**.
 
 On an enterprise plan, Translation is a term of your contract instead. [Contact Us](contact-us.md) to add it.
 
