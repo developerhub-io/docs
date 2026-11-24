@@ -248,7 +248,23 @@ Unpublishes a version, hiding everything in it from readers.
 `delete_page`
 {% /cell %}
 {% cell %}
-Permanently deletes a page.
+Deletes a page.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`list_deleted_pages`
+{% /cell %}
+{% cell %}
+Lists the pages deleted from a documentation section in the last 30 days, and who deleted each.
+{% /cell %}
+{% /row %}
+{% row %}
+{% cell colwidth=[273] %}
+`restore_page`
+{% /cell %}
+{% cell %}
+Brings a deleted page back as it was, at the bottom of its section. Needs the publisher role.
 {% /cell %}
 {% /row %}
 {% row %}
@@ -330,7 +346,7 @@ Reads the ratings and comments on a single page.
 Body edits are written to the page's **draft**, so nothing an agent writes is visible to readers until it is published, and publishing is a separate, explicit step. Two things work differently, and both are worth knowing before you point an agent at a live project:
 
 - **Titles and slugs are not drafted.** A rename takes effect straight away, published pages included. Changing a slug changes the page's URL, so have the agent run `list_backlinks` first to see what links to it.
-- **Deleting a page cannot be undone.** An agent has to pass the page's current slug back as confirmation, so it cannot delete a page it has not looked up, but once the deletion goes through the page is gone. `list_backlinks` shows which pages would be left with a broken link.
+- **Deleting a page takes it off your site.** An agent has to pass the page's current slug back as confirmation, so it cannot delete a page it has not looked up. `restore_page` brings it back within 30 days, but at the bottom of its section rather than its old place. `list_backlinks` shows which pages would be left with a broken link.
 
 An agent can unpublish your only published version, and that takes your docs site offline until a version is published again. To stop an agent publishing, unpublishing or deleting at all, connect it with an [MCP key](#using-an-mcp-key) that has those tools switched off.
 

@@ -43,6 +43,14 @@ Parent pages with subpages cannot be deleted until all its subpages are deleted
 If the page you are deleting is linked from another page, we'll notify you before you delete it.
 {% /callout %}
 
+## Restoring a Deleted Page
+
+To bring back a page deleted in the last 30 days, click on New at the bottom of the index, then select Deleted pages {% icon classes="fas fa-trash-restore" /%}. The list shows who deleted each page and when. Click **Restore** next to the page you want back.
+
+The page comes back as it was, published or not. It returns at the bottom of the index rather than to its old place, so re-order it afterwards. If another page has taken its slug in the meantime, it comes back with a numbered one, such as `overview-2`.
+
+Restoring is available to admins and publishers.
+
 ## Moving Page to Another Documentation
 
 To move a page to another documentation, click on the menu icon {% icon classes="fas fa-ellipsis-v" /%} next to it, then select Move {% icon classes="fas fa-file-import" /%}. Pick the **Section** to send it to and confirm. Choose **Copy** instead of **Move** to leave the page where it is as well.

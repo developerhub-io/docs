@@ -195,7 +195,7 @@ Create unpublished documentation section
 {% /row %}
 {% row %}
 {% cell %}
-Delete pages
+Delete and restore pages
 {% /cell %}
 {% cell %}
 ✅

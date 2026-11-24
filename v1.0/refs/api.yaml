@@ -892,7 +892,9 @@ paths:
               schema:
                 $ref: '#/components/schemas/AccessDenied'
         '404':
-          description: Draft not found
+          description: >-
+            No specification to read: the reference has no draft (with `draft=true`), or has never
+            been published (without it)
           content:
             application/json:
               schema:

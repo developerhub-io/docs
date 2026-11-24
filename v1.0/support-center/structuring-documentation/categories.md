@@ -28,7 +28,7 @@ To add a category:
 To delete a category, click the menu icon {% icon classes="fas fa-ellipsis-v" /%} next to it in the index, then select Delete {% icon classes="fas fa-trash" /%}.
 
 {% callout type="warning" title="Deletes everything inside" %}
-Deleting a category also deletes the pages and other items under it. If it has pages, type **delete all** to confirm. This cannot be undone, so move anything you want to keep to another category first.
+Deleting a category also deletes the pages and other items under it. If it has pages, type **delete all** to confirm. The category and its other items cannot be brought back. Its pages can be [restored](managing-pages.md#restoring-a-deleted-page) for 30 days, but each returns on its own at the bottom of the index, so move anything you want to keep to another category first.
 {% /callout %}
 
 ## Renaming Categories

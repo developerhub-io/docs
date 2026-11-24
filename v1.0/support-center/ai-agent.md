@@ -135,7 +135,7 @@ Saving does not end the conversation. Saved changes stay in the list, and you ca
 {% callout type="warning" title="Some changes have no draft" %}
 Deletions and page settings changes (a page's slug, title, search keywords, sidebar icon or position) are not drafted. They take effect the moment you save, with either button.
 
-Links to a renamed page from inside your documentation are repointed for you, but links from anywhere else, such as bookmarks, emails and search results, will stop working. A deletion cannot be undone.
+Links to a renamed page from inside your documentation are repointed for you, but links from anywhere else, such as bookmarks, emails and search results, will stop working. A deleted page can be [restored](structuring-documentation/managing-pages.md#restoring-a-deleted-page) for 30 days; any other deletion cannot be undone.
 
 Changelog posts have no draft either: **Save and publish** makes a post public immediately, and **Save to draft** leaves it unpublished for someone to release later.
 {% /callout %}
