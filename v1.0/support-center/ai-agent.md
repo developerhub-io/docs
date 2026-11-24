@@ -29,7 +29,7 @@ AI Agent needs a plan that includes AI features, and an admin has to switch it o
 
 **AI in the editor** is the master switch for every AI that works on your docs, so it also turns on [AI Writing Tools](writing-documentation/ai-writer.md) and the agent that fixes and edits your OpenAPI spec. Off means no editor AI at all.
 
-Writers and above can then use it. Saving and publishing in one step, deleting anything, and changing a page's sidebar icon all need the publisher role, so a writer may be able to edit something they cannot remove.
+Writers and above can then use it. Saving and publishing in one step, deleting anything, changing a page's sidebar icon, and editing a changelog post that already exists all need the publisher role, so a writer may be able to edit something they cannot remove.
 
 Reviewers get a read-only view instead. They can open the window, read the [pull request runs](self-updating-docs.md) and go through a proposal line by line, but they cannot ask for anything, accept or reject a section, or save. See [what reviewers can read](#what-reviewers-can-read).
 
